@@ -1,4 +1,4 @@
-// Print the book to PDF: cover + body, merged.
+// Print the book's interior to PDF.
 // Each sheet is a fixed 210x297mm box, so content that does not fit would be
 // clipped — every .cols box is measured and reported before printing.
 // Usage: node scripts/render.js   -> dist/Multilevel_Writing_Guide.pdf
@@ -8,7 +8,7 @@ const path = require('path');
 const { execFileSync } = require('child_process');
 
 const dist = path.resolve(__dirname, '..', 'dist');
-const out = path.join(dist, 'Multilevel_Writing_Guide.pdf');
+const out = path.join(dist, 'interior.pdf');
 
 (async () => {
   const exe = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined;
@@ -31,15 +31,9 @@ const out = path.join(dist, 'Multilevel_Writing_Guide.pdf');
     .filter((p) => p.px > 1));
   for (const p of over) console.warn(`overflow: page ${p.i} clipped by ${p.px}px — ${p.t}`);
 
-  await page.pdf({ path: path.join(dist, 'body.pdf'), printBackground: true, preferCSSPageSize: true });
-
-  await page.goto('file://' + path.join(dist, 'cover.html'), { waitUntil: 'networkidle' });
-  await page.pdf({ path: path.join(dist, 'cover.pdf'), printBackground: true, preferCSSPageSize: true });
+  await page.pdf({ path: out, printBackground: true, preferCSSPageSize: true });
   await browser.close();
 
-  execFileSync('pdfunite', [path.join(dist, 'cover.pdf'), path.join(dist, 'body.pdf'), out]);
-  fs.unlinkSync(path.join(dist, 'cover.pdf'));
-  fs.unlinkSync(path.join(dist, 'body.pdf'));
   const n = execFileSync('pdfinfo', [out]).toString().match(/Pages:\s+(\d+)/)[1];
-  console.log(`wrote ${path.relative(process.cwd(), out)} (${n} pages${over.length ? `, ${over.length} clipped` : ', nothing clipped'})`);
+  console.log(`wrote ${path.relative(process.cwd(), out)} (${n} interior pages${over.length ? `, ${over.length} clipped` : ', nothing clipped'})`);
 })();

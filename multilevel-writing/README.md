@@ -5,8 +5,9 @@ the official band descriptors, an examiner-marked script, then twenty full pract
 with model answers, trilingual word lists and vocabulary and sentence practice. A4, 178 pages.
 
 The palette is the Impulse vocabulary books' (`--blue:#1E90FF` / `--blue-d:#0B63CE` /
-`--navy:#0A2A5E`, Inter); the page model is the Multilevel Practice Book's — fixed 210×297mm
-sheets, each with its own running header and footer, content flowing through two columns.
+`--navy:#0A2A5E`, Inter); the page model and the cover are the Multilevel Practice Book's —
+fixed 210×297mm sheets with their own running header and footer, content flowing through two
+columns, and a white sheet + blue band cover carrying a 3D hero and Uzbek girih ornaments.
 
 Rebuilt from `A Complete Guide to Multilevel Writing` (the source PDF in `src/`).
 
@@ -14,7 +15,7 @@ Rebuilt from `A Complete Guide to Multilevel Writing` (the source PDF in `src/`)
 
 | Pages | Section |
 |---|---|
-| 1 | Cover |
+| 1 | Front cover |
 | 2 | How to use this book · marks at a glance |
 | 3–5 | Yozma ish: tuzilma va talablar — the paper, the language functions and the marking, in Uzbek |
 | 6–9 | Band descriptors for Part 1.1, Part 1.2 and Part 2, with the target bands tinted |
@@ -22,6 +23,7 @@ Rebuilt from `A Complete Guide to Multilevel Writing` (the source PDF in `src/`)
 | 13–172 | Exercises 1–20 |
 | 173 | Before you hand it in — final checklist and useful language |
 | 174–178 | Answer key for every practice page |
+| 179 | Back cover |
 
 Each exercise gives one situation and three tasks: Task 1.1 (informal email, ~50 words, 5 marks),
 Task 1.2 (formal email, 120–150 words, 6 marks) and Task 2 (discussion post, 180–200 words,
@@ -51,8 +53,14 @@ exercise number so the book is reproducible. Answers to all four are in the key 
 ## Build
 
 ```
-./build.sh     # -> dist/Multilevel_Writing_Guide.pdf
+./build.sh     # -> dist/Multilevel_Writing_Guide.pdf and dist/Writing_Cover_spread_A4.pdf
 ```
+
+Requires Python 3 with `pypdf` and `qrcode`, Node with Playwright (Chromium) and poppler-utils.
+
+The build is: `check.py` → `build.py` (interior HTML) → `render.js` (interior PDF) →
+`cover.py` + `cover_render.js` (the A3 cover) → `merge.py` (cover scaled to A4, wrapped around
+the interior, plus the print spread).
 
 `build.sh` runs `scripts/check.py` first, so the build fails if any model answer falls outside its
 word band, a word list is not exactly 20 complete triples, or a practice task cannot be derived.
@@ -121,6 +129,25 @@ Standardised at exactly 20 English–Uzbek pairs per task, drawn from the model 
 - The band descriptor tables are reproduced in full. The source highlighted rows in green without
   a stated meaning; here the tint marks the bands the book trains you to reach, and the key says so.
 
+
+## Cover
+
+`scripts/cover.py` builds the cover in the Impulse style shared with the Multilevel Practice
+Book: a white sheet, a blue band clipped to a curve, a 3D hero, SVG girih ornaments and a star
+frieze, with the title block beneath. It is drawn at A3 and scaled to A4 by `merge.py`, which is
+what gives the type its density.
+
+- `assets/brand/hero.png` — the 3D hero: an open notebook, fountain pen, envelope, paper stack
+  and approval badge, generated with Figma AI (`gemini-3.1-flash-image`) in the book's blue
+  palette, then matted off its background.
+- `assets/brand/logo_blue.png`, `icon_blue.png`, `icon_white.png` — shared with the practice book.
+- The back cover carries the blurb and a QR code to the Telegram channel; the spine is drawn only
+  in the spread. **Set `SPINE_MM` in `scripts/cover.py` to the printer's measured spine width** —
+  it is 13 mm at A3 (≈9 mm at A4) for 179 pages on 80 g/m² paper.
+- Unlike the practice book, the cover uses Inter and Inter Display rather than webfonts, so it
+  matches the interior and needs no network at build time.
+
+`dist/Writing_Cover_spread_A4.pdf` is the back + spine + front spread for the printer.
 
 ## Beyond the source
 

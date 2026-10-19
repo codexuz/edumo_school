@@ -1,6 +1,6 @@
 """Build "A Complete Guide to Multilevel Writing" as HTML sheets.
 
-Usage: python3 scripts/build.py   ->  dist/cover.html + dist/body.html
+Usage: python3 scripts/build.py   ->  dist/body.html (the interior)
 
 Every page is a fixed 210x297mm `.sheet` carrying its own running header and
 footer, with the flowing content in a two-column `.cols` box — the page model
@@ -37,7 +37,7 @@ worked = json.loads((ROOT / "data" / "worked-sample.json").read_text(encoding="u
 exercises = [json.loads(p.read_text(encoding="utf-8"))
              for p in sorted((ROOT / "data").glob("exercise-*.json"))]
 
-cover, out = [], []
+out = []
 
 
 def sheet(body, right="", cls="", one=False):
@@ -60,34 +60,6 @@ def ptitle(title, kicker=""):
 def lines(n):
     return '<div class="lines">' + "<div></div>" * n + "</div>"
 
-
-# ---------------------------------------------------------------- cover
-cover.append(f'''<section class="sheet cover">
-<div class="grid"></div><div class="glow g1"></div><div class="glow g2"></div>
-<div class="brand"><img src="{LOGO}" width="38" height="38" alt=""
- style="display:block;border-radius:50%;border:2px solid #fff">
-<div><div class="name">IMPULSE</div><div class="sub">LEARNING CENTER</div></div></div>
-<div style="height:22mm"></div>
-<span class="kicker">MULTILEVEL · CEFR B1–C1</span>
-<h1>A Complete Guide to<span>Multilevel Writing</span></h1>
-<p class="tag">The writing paper explained part by part, with official band descriptors,
-a marked script and twenty full practice exercises — each with model answers,
-a trilingual word list and vocabulary and sentence practice.</p>
-<div class="chips"><span>20 exercises</span><span>60 model answers</span>
-<span>800 words &amp; phrases</span><span>English · Russian · Uzbek</span>
-<span>Practice + answer key</span></div>
-<div class="spacer"></div>
-<div class="card">
-  <div class="top">WHAT YOU WRITE</div>
-  <div class="q">One situation, two emails — then an online discussion post.</div>
-  <div class="parts">
-    <div><b>TASK 1.1</b><i>50</i><em>words · informal</em></div>
-    <div><b>TASK 1.2</b><i>120–150</i><em>words · formal</em></div>
-    <div><b>TASK 2</b><i>180–200</i><em>words · discussion</em></div>
-  </div>
-</div>
-<div class="foot"><span>{e(SCHOOL)}</span><span>Writing · 17 marks</span></div>
-</section>''')
 
 # ---------------------------------------------------------------- how to use
 sheet(f'''{ptitle("How to use this book", "START HERE")}
@@ -417,6 +389,5 @@ def document(sections):
             + "".join(sections) + "</body></html>")
 
 
-(DIST / "cover.html").write_text(document(cover), encoding="utf-8")
 (DIST / "body.html").write_text(document(out), encoding="utf-8")
-print(f"dist/cover.html + dist/body.html  ({len(out) + 1} pages)")
+print(f"dist/body.html  ({len(out)} interior pages)")
