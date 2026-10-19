@@ -39,164 +39,204 @@
   "vocab_task1": [
     [
       "library",
+      "библиотека",
       "kutubxona"
     ],
     [
       "renovations",
+      "ремонтные работы",
       "ta'mirlash ishlari"
     ],
     [
       "upgrades",
+      "модернизация",
       "yangilanishlar"
     ],
     [
       "member",
+      "член, участник",
       "a'zo"
     ],
     [
       "suggestion",
+      "предложение",
       "taklif"
     ],
     [
       "facilities",
+      "помещения, удобства",
       "inshootlar, qulayliklar"
     ],
     [
       "closure",
+      "закрытие",
       "yopilish"
     ],
     [
       "inconvenient",
+      "неудобный",
       "noqulay"
     ],
     [
       "resource",
+      "ресурс, источник",
       "resurs, manba"
     ],
     [
       "collection",
+      "собрание, фонд",
       "to'plam"
     ],
     [
       "digital",
+      "цифровой",
       "raqamli"
     ],
     [
       "literacy",
+      "грамотность",
       "savodxonlik"
     ],
     [
       "workshop",
+      "мастер-класс, семинар",
       "mashg'ulot, seminar"
     ],
     [
       "communication",
+      "общение",
       "muloqot"
     ],
     [
       "transition",
+      "переходный период",
       "o'tish davri"
     ],
     [
       "temporary",
+      "временный",
       "vaqtinchalik"
     ],
     [
       "afford",
+      "позволить себе",
       "sotib olishga qurbi yetmoq"
     ],
     [
       "enormously",
+      "чрезвычайно",
       "juda ham, katta darajada"
     ],
     [
       "Yours sincerely",
+      "с уважением (офиц.)",
       "hurmat bilan (rasmiy)"
     ],
     [
       "Best regards",
+      "с наилучшими пожеланиями",
       "eng yaxshi tilaklar bilan"
     ]
   ],
   "vocab_part2": [
     [
       "online learning",
+      "онлайн-обучение",
       "onlayn ta'lim"
     ],
     [
       "traditional classroom",
+      "традиционный класс",
       "an'anaviy sinfxona"
     ],
     [
       "advantage",
+      "преимущество",
       "afzallik"
     ],
     [
       "disadvantage",
+      "недостаток",
       "kamchilik"
     ],
     [
       "flexibility",
+      "гибкость",
       "moslashuvchanlik"
     ],
     [
       "schedule",
+      "расписание",
       "jadval"
     ],
     [
       "access",
+      "доступ",
       "kirish, foydalanish"
     ],
     [
       "materials",
+      "материалы",
       "materiallar"
     ],
     [
       "invaluable",
+      "бесценный",
       "bebaho"
     ],
     [
       "commitment",
+      "обязательство",
       "majburiyat"
     ],
     [
       "interaction",
+      "взаимодействие",
       "o'zaro aloqa"
     ],
     [
       "immediate feedback",
+      "мгновенная обратная связь",
       "tezkor fikr-mulohaza"
     ],
     [
       "spontaneous discussion",
+      "спонтанное обсуждение",
       "o'z-o'zidan boshlanadigan muhokama"
     ],
     [
       "motivation",
+      "мотивация",
       "rag'bat, motivatsiya"
     ],
     [
       "isolating",
+      "изолирующий",
       "yolg'izlantiruvchi"
     ],
     [
       "blended approach",
+      "смешанный подход",
       "aralash yondashuv"
     ],
     [
       "reproduce",
+      "воспроизвести",
       "takrorlamoq, qayta yaratmoq"
     ],
     [
       "social dynamic",
+      "социальная среда",
       "ijtimoiy muhit, munosabatlar"
     ],
     [
       "breakout room",
+      "сессионный зал (онлайн)",
       "kichik guruh xonasi (onlayn)"
     ],
     [
       "human contact",
+      "живое общение",
       "jonli muloqot"
     ]
   ]

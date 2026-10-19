@@ -1,0 +1,243 @@
+{
+  "n": 11,
+  "topic": "A delayed online order",
+  "context": "You ordered a laptop from an online shop three weeks ago. It has still not arrived. You received an email from the customer service team.",
+  "letter": {
+    "greeting": "Dear Customer,",
+    "paragraphs": [
+      "We are writing to apologise for the delay to order #48213. Our warehouse has been affected by a supplier problem and your item has not yet been dispatched.",
+      "We expect to send it within ten days. Please tell us whether you wish to wait, change the item or cancel the order, and let us know how we could improve our service."
+    ],
+    "signoff": "Kind regards,",
+    "signer": "The Customer Service Team"
+  },
+  "task11": "Write a message to your friend, who recommended the shop to you. Write about your feelings and say what you have decided to do.",
+  "task12": "Write an email to the customer service team. Write about your feelings, say what you want them to do about your order, and suggest how their service could be improved.",
+  "part2_question": "Is online shopping better than shopping in real shops?",
+  "samples": {
+    "task11": [
+      "Hi Jack,",
+      "Remember the laptop I ordered from that shop you recommended? Three weeks later it still has not arrived. I am honestly frustrated, especially as nobody warned me. They have offered me ten more days, so I will wait, but only until the end of the month.",
+      "Best,",
+      "Alex"
+    ],
+    "task12": [
+      "Dear Sir or Madam,",
+      "Thank you for your email about order #48213. I appreciate the apology, but I must say that I am disappointed. The laptop was ordered three weeks ago for my studies, and I was told nothing about the delay until I wrote to you.",
+      "I would like to wait for the item rather than cancel, on condition that it is dispatched within the ten days you mention. If that is not possible, I would ask for a full refund.",
+      "As for your service, two changes would help a great deal. Customers should be told about a delay as soon as it is known, and the tracking page should show the real status of an order rather than \"processing\".",
+      "Yours faithfully,",
+      "Alex"
+    ],
+    "part2": [
+      "Online shopping has grown so quickly that many people now ask whether high-street shops still have a purpose. In my opinion both have their place, though convenience increasingly favours the internet.",
+      "The advantages of buying online are obvious. You can compare dozens of sellers in minutes, prices are usually lower because the seller has no shop to maintain, and the goods arrive at your door. For anyone living far from a city, this access is genuinely transformative.",
+      "Real shops, however, still offer something a website cannot. You can handle the product, judge the quality of a fabric or the weight of a tool, and take it home the same day. Returning a faulty item is also far simpler across a counter than through a courier, as my own experience with a delayed order has taught me. Staff in a good shop also know their stock, and five minutes of their advice can save an hour of reading reviews written by strangers.",
+      "On balance, I buy books and electronics online, where the specification tells me everything, and clothes and food in person. The two are also converging: most chains now let you order online and collect in the shop."
+    ]
+  },
+  "vocab_task1": [
+    [
+      "order",
+      "заказ",
+      "buyurtma"
+    ],
+    [
+      "delay",
+      "задержка",
+      "kechikish"
+    ],
+    [
+      "dispatch",
+      "отправлять",
+      "jo'natmoq"
+    ],
+    [
+      "warehouse",
+      "склад",
+      "ombor"
+    ],
+    [
+      "supplier",
+      "поставщик",
+      "yetkazib beruvchi"
+    ],
+    [
+      "cancel",
+      "отменить",
+      "bekor qilmoq"
+    ],
+    [
+      "full refund",
+      "полный возврат денег",
+      "to'liq pul qaytarish"
+    ],
+    [
+      "on condition that",
+      "при условии что",
+      "shu shart bilan"
+    ],
+    [
+      "tracking page",
+      "страница отслеживания",
+      "kuzatuv sahifasi"
+    ],
+    [
+      "customer service",
+      "служба поддержки",
+      "mijozlarga xizmat"
+    ],
+    [
+      "frustrated",
+      "раздражённый",
+      "asabiylashgan"
+    ],
+    [
+      "warn",
+      "предупредить",
+      "ogohlantirmoq"
+    ],
+    [
+      "recommend",
+      "рекомендовать",
+      "tavsiya qilmoq"
+    ],
+    [
+      "apology",
+      "извинение",
+      "uzr"
+    ],
+    [
+      "status of an order",
+      "статус заказа",
+      "buyurtma holati"
+    ],
+    [
+      "improve a service",
+      "улучшить сервис",
+      "xizmatni yaxshilamoq"
+    ],
+    [
+      "as soon as it is known",
+      "как только станет известно",
+      "ma'lum bo'lishi bilanoq"
+    ],
+    [
+      "courier",
+      "курьер",
+      "kuryer"
+    ],
+    [
+      "faulty item",
+      "бракованный товар",
+      "nuqsonli mahsulot"
+    ],
+    [
+      "Kind regards",
+      "с уважением",
+      "hurmat bilan"
+    ]
+  ],
+  "vocab_part2": [
+    [
+      "online shopping",
+      "онлайн-покупки",
+      "onlayn xaridlar"
+    ],
+    [
+      "high-street shop",
+      "обычный магазин",
+      "oddiy do'kon"
+    ],
+    [
+      "have a place",
+      "иметь своё место",
+      "o'z o'rniga ega bo'lmoq"
+    ],
+    [
+      "convenience",
+      "удобство",
+      "qulaylik"
+    ],
+    [
+      "favour",
+      "благоприятствовать",
+      "afzal ko'rmoq"
+    ],
+    [
+      "compare sellers",
+      "сравнивать продавцов",
+      "sotuvchilarni solishtirmoq"
+    ],
+    [
+      "maintain a shop",
+      "содержать магазин",
+      "do'konni saqlab turmoq"
+    ],
+    [
+      "goods",
+      "товары",
+      "mollar"
+    ],
+    [
+      "transformative",
+      "меняющий всё",
+      "tubdan o'zgartiruvchi"
+    ],
+    [
+      "handle a product",
+      "подержать товар в руках",
+      "mahsulotni qo'lda ushlab ko'rmoq"
+    ],
+    [
+      "judge the quality",
+      "оценить качество",
+      "sifatini baholamoq"
+    ],
+    [
+      "fabric",
+      "ткань",
+      "mato"
+    ],
+    [
+      "the same day",
+      "в тот же день",
+      "o'sha kuniyoq"
+    ],
+    [
+      "return an item",
+      "вернуть товар",
+      "mahsulotni qaytarmoq"
+    ],
+    [
+      "across a counter",
+      "через прилавок",
+      "peshtaxta orqali"
+    ],
+    [
+      "specification",
+      "характеристики",
+      "texnik tavsif"
+    ],
+    [
+      "the better judge",
+      "лучший судья",
+      "yaxshiroq baholovchi"
+    ],
+    [
+      "access",
+      "доступ",
+      "imkon, kirish"
+    ],
+    [
+      "grow quickly",
+      "быстро расти",
+      "tez o'smoq"
+    ],
+    [
+      "still have a purpose",
+      "всё ещё быть нужным",
+      "hamon kerak bo'lmoq"
+    ]
+  ]
+}

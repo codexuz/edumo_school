@@ -39,164 +39,204 @@
   "vocab_task1": [
     [
       "job offer",
+      "предложение работы",
       "ish taklifi"
     ],
     [
       "expand",
+      "расширять",
       "kengaytirmoq"
     ],
     [
       "join a team",
+      "присоединиться к команде",
       "jamoaga qo'shilmoq"
     ],
     [
       "unemployed",
+      "безработный",
       "ishsiz"
     ],
     [
       "delighted",
+      "очень рад",
       "juda xursand"
     ],
     [
       "previous experience",
+      "предыдущий опыт",
       "oldingi tajriba"
     ],
     [
       "accept an offer",
+      "принять предложение",
       "taklifni qabul qilmoq"
     ],
     [
       "appeal to someone",
+      "нравиться кому-либо",
       "kimgadir yoqmoq"
     ],
     [
       "contribute",
+      "вносить вклад",
       "hissa qo'shmoq"
     ],
     [
       "available",
+      "свободный, готовый",
       "bo'sh, tayyor"
     ],
     [
       "at short notice",
+      "в короткий срок",
       "qisqa muddatda"
     ],
     [
       "duties",
+      "обязанности",
       "vazifalar"
     ],
     [
       "training",
+      "обучение",
       "o'quv tayyorgarligi"
     ],
     [
       "suit",
+      "подходить",
       "mos kelmoq"
     ],
     [
       "hard-working",
+      "трудолюбивый",
       "mehnatkash"
     ],
     [
       "position",
+      "должность",
       "lavozim"
     ],
     [
       "discuss the details",
+      "обсудить детали",
       "tafsilotlarni muhokama qilmoq"
     ],
     [
       "look forward to",
+      "с нетерпением ждать",
       "intiqlik bilan kutmoq"
     ],
     [
       "celebrate",
+      "отпраздновать",
       "nishonlamoq"
     ],
     [
       "welcome the chance",
+      "с радостью принять возможность",
       "imkoniyatni mamnuniyat bilan qabul qilmoq"
     ]
   ],
   "vocab_part2": [
     [
       "foreign language",
+      "иностранный язык",
       "chet tili"
     ],
     [
       "primary school",
+      "начальная школа",
       "boshlang'ich maktab"
     ],
     [
       "secondary school",
+      "средняя школа",
       "o'rta maktab"
     ],
     [
       "receptive",
+      "восприимчивый",
       "qabul qiluvchan"
     ],
     [
       "absorb",
+      "усваивать",
       "o'zlashtirmoq"
     ],
     [
       "pronunciation",
+      "произношение",
       "talaffuz"
     ],
     [
       "fluency",
+      "беглость речи",
       "ravonlik"
     ],
     [
       "self-conscious",
+      "стеснительный",
       "uyalchoq, o'zini noqulay his qiladigan"
     ],
     [
       "native language",
+      "родной язык",
       "ona tili"
     ],
     [
       "window of opportunity",
+      "окно возможностей",
       "qulay fursat"
     ],
     [
       "intuitive grasp",
+      "интуитивное понимание",
       "intuitiv tushunish"
     ],
     [
       "grammar",
+      "грамматика",
       "grammatika"
     ],
     [
       "engaging methods",
+      "увлекательные методы",
       "qiziqarli usullar"
     ],
     [
       "immersive",
+      "погружающий",
       "to'liq muhitga botiradigan"
     ],
     [
       "a chore",
+      "скучная обязанность",
       "zerikarli yumush"
     ],
     [
       "set someone up for",
+      "подготовить к",
       "kelajakka tayyorlamoq"
     ],
     [
       "in the long run",
+      "в долгосрочной перспективе",
       "uzoq muddatda"
     ],
     [
       "valuable skill",
+      "ценный навык",
       "qimmatli ko'nikma"
     ],
     [
       "acknowledge",
+      "признать",
       "tan olmoq"
     ],
     [
       "experiment with",
+      "экспериментировать с",
       "sinab ko'rmoq"
     ]
   ]

@@ -1,0 +1,243 @@
+{
+  "n": 13,
+  "topic": "A school trip is cancelled",
+  "context": "Your younger brother's school has cancelled the end-of-year trip. The school has written to parents and older family members who had helped to pay for it.",
+  "letter": {
+    "greeting": "Dear Families,",
+    "paragraphs": [
+      "We are sorry to tell you that the end-of-year trip to the mountains has been cancelled. The coach company has withdrawn and we could not find another at the same price.",
+      "The money you paid will be returned in full. We would be grateful for your ideas about what we might organise instead, and about how we should plan such trips in future."
+    ],
+    "signoff": "Yours sincerely,",
+    "signer": "The Deputy Head"
+  },
+  "task11": "Write a message to your friend, whose sister is in the same class. Write about your feelings and what you think the school should organise instead.",
+  "task12": "Write an email to the Deputy Head. Write about your feelings, suggest what the school could organise instead, and say how such trips should be planned in future.",
+  "part2_question": "Should school trips be a compulsory part of education?",
+  "samples": {
+    "task11": [
+      "Hi Jack,",
+      "Did your sister tell you the mountain trip is off? My brother is heartbroken, and I feel sorry for all of them. At least the money is coming back. I think the school should organise two day trips instead, which would cost far less. What does she think?",
+      "Best,",
+      "Alex"
+    ],
+    "task12": [
+      "Dear Mrs Yusupova,",
+      "Thank you for letting families know about the cancelled trip so promptly. My brother is in Year 8 and had been looking forward to it all term, so I will not pretend we were not disappointed.",
+      "Since the money is being returned, might I suggest two single-day excursions instead? A day in the mountains and a day at the museum would cost far less than a residential trip, and almost every family could afford both. The children would also miss far less teaching time than a week away would cost them.",
+      "For future years, I would ask the school to book the transport before collecting any money from families, and to hold a small reserve fund so that one withdrawal cannot cancel a whole trip.",
+      "Yours sincerely,",
+      "Alex"
+    ],
+    "part2": [
+      "School trips are often treated as a reward that can be dropped when budgets are tight. I would argue instead that they are a real part of education and should be timetabled as such.",
+      "The strongest reason is that some things simply cannot be taught in a room. A pupil who has stood in front of a glacier understands erosion in a way no diagram achieves, and a day in a working factory explains an economy better than a chapter does. The memory lasts for decades, which is more than most lessons manage.",
+      "Trips also teach what the curriculum never lists. Travelling together and solving small problems away from home build independence in children who rarely leave their own district. A museum, a theatre or a court room has the same effect for subjects that have nothing to do with geography.",
+      "The obvious objection is cost, and it is a fair one. That is an argument for subsidised places and cheaper local trips, not for abandoning the idea. A school that never leaves its gates teaches a narrower world than it should. Children who have never had to organise anything for themselves arrive at university unable to."
+    ]
+  },
+  "vocab_task1": [
+    [
+      "cancel",
+      "отменить",
+      "bekor qilmoq"
+    ],
+    [
+      "end-of-year trip",
+      "поездка в конце года",
+      "yil yakunidagi sayohat"
+    ],
+    [
+      "coach company",
+      "автобусная компания",
+      "avtobus kompaniyasi"
+    ],
+    [
+      "withdraw",
+      "отказаться, выйти",
+      "voz kechmoq"
+    ],
+    [
+      "return in full",
+      "вернуть полностью",
+      "to'liq qaytarmoq"
+    ],
+    [
+      "grateful",
+      "благодарный",
+      "minnatdor"
+    ],
+    [
+      "organise instead",
+      "организовать вместо",
+      "o'rniga tashkil qilmoq"
+    ],
+    [
+      "heartbroken",
+      "убитый горем",
+      "qattiq xafa"
+    ],
+    [
+      "look forward to",
+      "с нетерпением ждать",
+      "intiqlik bilan kutmoq"
+    ],
+    [
+      "day trip",
+      "однодневная поездка",
+      "bir kunlik sayohat"
+    ],
+    [
+      "excursion",
+      "экскурсия",
+      "ekskursiya"
+    ],
+    [
+      "residential trip",
+      "поездка с ночёвкой",
+      "tunab qolinadigan sayohat"
+    ],
+    [
+      "cost far less",
+      "стоить намного меньше",
+      "ancha arzonga tushmoq"
+    ],
+    [
+      "book transport",
+      "забронировать транспорт",
+      "transportni band qilmoq"
+    ],
+    [
+      "collect money",
+      "собирать деньги",
+      "pul yig'moq"
+    ],
+    [
+      "reserve fund",
+      "резервный фонд",
+      "zaxira jamg'armasi"
+    ],
+    [
+      "promptly",
+      "своевременно",
+      "o'z vaqtida"
+    ],
+    [
+      "disappointed",
+      "разочарованный",
+      "hafsalasi pir bo'lgan"
+    ],
+    [
+      "afford",
+      "позволить себе",
+      "qurbi yetmoq"
+    ],
+    [
+      "Deputy Head",
+      "завуч",
+      "direktor o'rinbosari"
+    ]
+  ],
+  "vocab_part2": [
+    [
+      "school trip",
+      "школьная экскурсия",
+      "maktab sayohati"
+    ],
+    [
+      "compulsory",
+      "обязательный",
+      "majburiy"
+    ],
+    [
+      "a reward",
+      "награда",
+      "mukofot"
+    ],
+    [
+      "budgets are tight",
+      "бюджет ограничен",
+      "byudjet tang"
+    ],
+    [
+      "timetable (v)",
+      "включить в расписание",
+      "jadvalga kiritmoq"
+    ],
+    [
+      "glacier",
+      "ледник",
+      "muzlik"
+    ],
+    [
+      "erosion",
+      "эрозия",
+      "yemirilish"
+    ],
+    [
+      "diagram",
+      "схема",
+      "sxema"
+    ],
+    [
+      "a working factory",
+      "действующий завод",
+      "ishlab turgan zavod"
+    ],
+    [
+      "last for decades",
+      "сохраняться десятилетиями",
+      "o'nlab yillar saqlanmoq"
+    ],
+    [
+      "the curriculum",
+      "учебная программа",
+      "o'quv dasturi"
+    ],
+    [
+      "independence",
+      "самостоятельность",
+      "mustaqillik"
+    ],
+    [
+      "tolerance",
+      "терпимость",
+      "bag'rikenglik"
+    ],
+    [
+      "district",
+      "район",
+      "tuman"
+    ],
+    [
+      "objection",
+      "возражение",
+      "e'tiroz"
+    ],
+    [
+      "a fair one",
+      "справедливое",
+      "o'rinli"
+    ],
+    [
+      "subsidised place",
+      "субсидированное место",
+      "subsidiyalangan joy"
+    ],
+    [
+      "abandon the idea",
+      "отказаться от идеи",
+      "g'oyadan voz kechmoq"
+    ],
+    [
+      "school gates",
+      "школьные ворота",
+      "maktab darvozasi"
+    ],
+    [
+      "a narrower world",
+      "более узкий мир",
+      "torroq dunyo"
+    ]
+  ]
+}

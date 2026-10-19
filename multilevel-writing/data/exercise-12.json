@@ -1,0 +1,243 @@
+{
+  "n": 12,
+  "topic": "A change to the bus timetable",
+  "context": "You travel to work by bus every day. The transport company has written to passengers about a change to the service.",
+  "letter": {
+    "greeting": "Dear Passenger,",
+    "paragraphs": [
+      "From the first of next month the number 24 bus will run every thirty minutes instead of every fifteen, and the last bus will leave the centre at nine o'clock in the evening.",
+      "These changes follow a review of passenger numbers. We would like to hear how the new timetable will affect your journey and what we could do to reduce any difficulty."
+    ],
+    "signoff": "Yours faithfully,",
+    "signer": "City Transport"
+  },
+  "task11": "Write a message to your friend, who takes the same bus. Write about your feelings and what you plan to do about the new timetable.",
+  "task12": "Write an email to City Transport. Explain how the new timetable will affect you, and suggest what the company could do to reduce the difficulty for passengers.",
+  "part2_question": "Should city centres be closed to private cars?",
+  "samples": {
+    "task11": [
+      "Hi Jack,",
+      "Have you seen the letter about the number 24? From next month it runs every half hour and stops at nine. I am really annoyed, because I finish at half past nine on Thursdays. I am going to write and complain. Will you send something too?",
+      "Best,",
+      "Alex"
+    ],
+    "task12": [
+      "Dear Sir or Madam,",
+      "Thank you for writing to passengers about the changes to the number 24. I am afraid the new timetable will cause me real difficulty, and I would like to explain why.",
+      "I work in the city centre until half past nine twice a week. With the last bus leaving at nine, I will have no way of getting home on those evenings except by taxi, which I cannot afford on a regular basis.",
+      "I would therefore ask you to keep one late service, at about ten o'clock, even if the daytime buses run less often. It would also help if the new timetable were displayed at every stop a fortnight before it begins.",
+      "Yours faithfully,",
+      "Alex"
+    ],
+    "part2": [
+      "Closing city centres to private cars is an idea that provokes strong feelings, and I am largely in favour of it, provided it is done carefully.",
+      "The arguments for are hard to dispute. Fewer cars mean cleaner air, less noise and far fewer accidents, and the space freed from parking can become squares, cafés and cycle lanes. Cities that have tried it, from Oslo to Pontevedra, report that their centres became busier rather than emptier once people could walk in comfort.",
+      "There are, however, genuine objections. Shopkeepers fear losing customers who arrive by car, and people with limited mobility may find the centre harder to reach. Both concerns are real and neither should be dismissed. Deliveries can be restricted to the early morning, as they already are in several European capitals.",
+      "The answer is not a sudden ban but a staged one, introduced only where public transport is frequent and reliable, with exemptions for residents, deliveries and disabled drivers. Done in that order, the policy improves a city; done the other way round, it simply punishes people. Measured against that, a scheme imposed overnight on a city with a poor bus network deserves the opposition it gets."
+    ]
+  },
+  "vocab_task1": [
+    [
+      "timetable",
+      "расписание",
+      "jadval"
+    ],
+    [
+      "passenger",
+      "пассажир",
+      "yo'lovchi"
+    ],
+    [
+      "run every thirty minutes",
+      "ходить каждые тридцать минут",
+      "har o'ttiz daqiqada qatnamoq"
+    ],
+    [
+      "service",
+      "маршрут, рейс",
+      "reys, xizmat"
+    ],
+    [
+      "review",
+      "пересмотр, анализ",
+      "qayta ko'rib chiqish"
+    ],
+    [
+      "affect a journey",
+      "повлиять на поездку",
+      "safarga ta'sir qilmoq"
+    ],
+    [
+      "reduce difficulty",
+      "уменьшить неудобства",
+      "qiyinchilikni kamaytirmoq"
+    ],
+    [
+      "annoyed",
+      "рассерженный",
+      "jahli chiqqan"
+    ],
+    [
+      "complain",
+      "жаловаться",
+      "shikoyat qilmoq"
+    ],
+    [
+      "late service",
+      "поздний рейс",
+      "kechki reys"
+    ],
+    [
+      "on a regular basis",
+      "на постоянной основе",
+      "muntazam ravishda"
+    ],
+    [
+      "afford",
+      "позволить себе",
+      "qurbi yetmoq"
+    ],
+    [
+      "except by taxi",
+      "кроме как на такси",
+      "taksidan boshqa yo'l bilan"
+    ],
+    [
+      "displayed",
+      "вывешенный",
+      "e'lon qilingan"
+    ],
+    [
+      "a fortnight",
+      "две недели",
+      "ikki hafta"
+    ],
+    [
+      "bus stop",
+      "автобусная остановка",
+      "bekat"
+    ],
+    [
+      "city centre",
+      "центр города",
+      "shahar markazi"
+    ],
+    [
+      "cause difficulty",
+      "создавать трудности",
+      "qiyinchilik tug'dirmoq"
+    ],
+    [
+      "daytime buses",
+      "дневные автобусы",
+      "kunduzgi avtobuslar"
+    ],
+    [
+      "get home",
+      "добраться домой",
+      "uyga yetib olmoq"
+    ]
+  ],
+  "vocab_part2": [
+    [
+      "private car",
+      "личный автомобиль",
+      "shaxsiy avtomobil"
+    ],
+    [
+      "provoke strong feelings",
+      "вызывать сильные эмоции",
+      "keskin munosabat uyg'otmoq"
+    ],
+    [
+      "largely in favour",
+      "в основном за",
+      "asosan tarafdor"
+    ],
+    [
+      "hard to dispute",
+      "трудно оспорить",
+      "inkor etish qiyin"
+    ],
+    [
+      "accident",
+      "авария",
+      "baxtsiz hodisa"
+    ],
+    [
+      "parking",
+      "парковка",
+      "to'xtash joyi"
+    ],
+    [
+      "cycle lane",
+      "велодорожка",
+      "velosiped yo'lagi"
+    ],
+    [
+      "busier rather than emptier",
+      "оживлённее, а не пустее",
+      "bo'shamay, aksincha gavjumlashdi"
+    ],
+    [
+      "in comfort",
+      "с комфортом",
+      "qulay tarzda"
+    ],
+    [
+      "objection",
+      "возражение",
+      "e'tiroz"
+    ],
+    [
+      "shopkeeper",
+      "владелец магазина",
+      "do'kon egasi"
+    ],
+    [
+      "limited mobility",
+      "ограниченная подвижность",
+      "harakatlanish imkoniyati cheklangan"
+    ],
+    [
+      "dismiss a concern",
+      "отмахнуться от опасения",
+      "xavotirni e'tiborsiz qoldirmoq"
+    ],
+    [
+      "staged",
+      "поэтапный",
+      "bosqichma-bosqich"
+    ],
+    [
+      "frequent and reliable",
+      "частый и надёжный",
+      "tez-tez va ishonchli"
+    ],
+    [
+      "exemption",
+      "исключение",
+      "istisno"
+    ],
+    [
+      "delivery",
+      "доставка",
+      "yetkazib berish"
+    ],
+    [
+      "disabled driver",
+      "водитель с инвалидностью",
+      "nogironligi bor haydovchi"
+    ],
+    [
+      "punish",
+      "наказывать",
+      "jazolamoq"
+    ],
+    [
+      "improve a city",
+      "улучшить город",
+      "shaharni yaxshilamoq"
+    ]
+  ]
+}

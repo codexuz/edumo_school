@@ -1,0 +1,243 @@
+{
+  "n": 16,
+  "topic": "A sports club needs volunteers",
+  "context": "You are a member of a local football club. The club committee has written to members asking for help.",
+  "letter": {
+    "greeting": "Dear Member,",
+    "paragraphs": [
+      "Our two paid coaches are leaving at the end of the season and the club cannot afford to replace both of them. Without help from members, the junior teams may have to close.",
+      "We are asking members to volunteer a few hours a week, and we would like to hear any other ideas you have for keeping the junior section going."
+    ],
+    "signoff": "Best wishes,",
+    "signer": "The Club Committee"
+  },
+  "task11": "Write a message to your friend, who is also a member of the club. Write about your feelings and say what you have decided to do.",
+  "task12": "Write an email to the club committee. Say how you feel about the situation, whether you can volunteer, and give other ideas for keeping the junior teams going.",
+  "part2_question": "Should sport play a bigger part in school life?",
+  "samples": {
+    "task11": [
+      "Hi Jack,",
+      "Did you read the committee's letter? Both coaches are leaving and the junior teams might fold. That would be a real shame after all the work we put in. I have offered to help on Saturday mornings. Could you take a session too, even once a month?",
+      "Best,",
+      "Alex"
+    ],
+    "task12": [
+      "Dear Committee Members,",
+      "Thank you for being honest with members about the club's position. I was sorry to read it, as the junior section is the best thing this club does and losing it would undo years of work.",
+      "I would like to volunteer. I can coach on Saturday mornings throughout the season and I already hold a Level 1 certificate, so no training would be needed. I could also help with the Sunday fixtures once a month if another parent shared the driving.",
+      "Two further ideas may be worth considering. A small sponsorship from local businesses, in return for their names on the shirts, could cover one paid coach. A parents' rota for transport and kit would also free the coaches to coach rather than organise.",
+      "Yours faithfully,",
+      "Alex"
+    ],
+    "part2": [
+      "Most schools treat sport as the subject that gives way when exams approach. I would argue that this is exactly backwards and that sport deserves a larger place, not a smaller one.",
+      "The health case alone is strong. Rates of obesity and poor fitness among teenagers have risen steadily, and for a great many children the school timetable is the only guaranteed exercise in their week. Lose that and nothing replaces it.",
+      "There is also a benefit that shows up in the classroom. Regular exercise improves sleep, concentration and mood, and children who play in teams learn to lose, to share credit and to keep going when they are behind — lessons no written exam can deliver. Team sport is one of the few places where a child who struggles academically can be the one everyone relies on.",
+      "The usual objection is that lesson time is already short. But a school that produces exhausted, unfit pupils with good grades has not really succeeded. Three hours a week is not a luxury; it is part of educating a whole person. Finland, whose results nobody doubts, gives its pupils more physical activity than we do, not less."
+    ]
+  },
+  "vocab_task1": [
+    [
+      "volunteer",
+      "доброволец; вызваться помочь",
+      "ko'ngilli; ko'ngilli bo'lmoq"
+    ],
+    [
+      "committee",
+      "комитет, правление",
+      "qo'mita"
+    ],
+    [
+      "paid coach",
+      "штатный тренер",
+      "maoshli murabbiy"
+    ],
+    [
+      "afford to replace",
+      "иметь средства заменить",
+      "almashtirishga qurbi yetmoq"
+    ],
+    [
+      "junior team",
+      "юношеская команда",
+      "o'smirlar jamoasi"
+    ],
+    [
+      "fold",
+      "закрыться, прекратить существование",
+      "yopilib qolmoq"
+    ],
+    [
+      "a real shame",
+      "по-настоящему жаль",
+      "chinakam achinarli"
+    ],
+    [
+      "undo years of work",
+      "перечеркнуть годы работы",
+      "yillik mehnatni yo'qqa chiqarmoq"
+    ],
+    [
+      "throughout the season",
+      "в течение всего сезона",
+      "butun mavsum davomida"
+    ],
+    [
+      "hold a certificate",
+      "иметь сертификат",
+      "sertifikatga ega bo'lmoq"
+    ],
+    [
+      "sponsorship",
+      "спонсорская поддержка",
+      "homiylik"
+    ],
+    [
+      "local business",
+      "местный бизнес",
+      "mahalliy biznes"
+    ],
+    [
+      "in return for",
+      "в обмен на",
+      "evaziga"
+    ],
+    [
+      "rota",
+      "график дежурств",
+      "navbatchilik jadvali"
+    ],
+    [
+      "kit",
+      "спортивная форма",
+      "sport kiyimi"
+    ],
+    [
+      "free somebody to",
+      "освободить кого-то для",
+      "imkon bermoq"
+    ],
+    [
+      "be honest with",
+      "быть честным с",
+      "halol bo'lmoq"
+    ],
+    [
+      "take a session",
+      "провести занятие",
+      "mashg'ulot o'tkazmoq"
+    ],
+    [
+      "worth considering",
+      "стоит рассмотреть",
+      "ko'rib chiqishga arziydi"
+    ],
+    [
+      "club position",
+      "положение клуба",
+      "klub ahvoli"
+    ]
+  ],
+  "vocab_part2": [
+    [
+      "give way",
+      "уступать",
+      "yon bermoq"
+    ],
+    [
+      "exactly backwards",
+      "совершенно наоборот",
+      "mutlaqo teskari"
+    ],
+    [
+      "deserve a larger place",
+      "заслуживать большего места",
+      "kattaroq o'ringa loyiq"
+    ],
+    [
+      "the health case",
+      "аргумент о здоровье",
+      "salomatlik dalili"
+    ],
+    [
+      "obesity",
+      "ожирение",
+      "semizlik"
+    ],
+    [
+      "poor fitness",
+      "плохая физическая форма",
+      "jismoniy tayyorgarlikning pastligi"
+    ],
+    [
+      "rise steadily",
+      "неуклонно расти",
+      "barqaror o'smoq"
+    ],
+    [
+      "guaranteed exercise",
+      "гарантированная физическая нагрузка",
+      "kafolatlangan jismoniy mashq"
+    ],
+    [
+      "show up in the classroom",
+      "сказываться на учёбе",
+      "darsda ham bilinmoq"
+    ],
+    [
+      "improve sleep",
+      "улучшать сон",
+      "uyquni yaxshilamoq"
+    ],
+    [
+      "mood",
+      "настроение",
+      "kayfiyat"
+    ],
+    [
+      "learn to lose",
+      "учиться проигрывать",
+      "yutqazishni o'rganmoq"
+    ],
+    [
+      "share credit",
+      "делить заслугу",
+      "muvaffaqiyatni bo'lishmoq"
+    ],
+    [
+      "keep going",
+      "не сдаваться",
+      "to'xtamay davom etmoq"
+    ],
+    [
+      "be behind",
+      "отставать",
+      "orqada qolmoq"
+    ],
+    [
+      "lesson time",
+      "учебное время",
+      "dars vaqti"
+    ],
+    [
+      "unfit",
+      "не в форме",
+      "jismonan tayyor emas"
+    ],
+    [
+      "a luxury",
+      "роскошь",
+      "hashamat"
+    ],
+    [
+      "a whole person",
+      "целостная личность",
+      "yaxlit shaxs"
+    ],
+    [
+      "succeed",
+      "добиваться успеха",
+      "muvaffaqiyatga erishmoq"
+    ]
+  ]
+}

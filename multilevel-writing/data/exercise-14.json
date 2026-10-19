@@ -1,0 +1,243 @@
+{
+  "n": 14,
+  "topic": "A new dress code at work",
+  "context": "The company you work for has decided to introduce a formal dress code. The director has written to all staff.",
+  "letter": {
+    "greeting": "Dear Colleagues,",
+    "paragraphs": [
+      "From next month all staff will be expected to wear formal business dress in the office, including on days when no clients are visiting.",
+      "The aim is to present a consistent professional image. We understand that this is a significant change and we would welcome your views before the rule takes effect."
+    ],
+    "signoff": "Best regards,",
+    "signer": "The Director"
+  },
+  "task11": "Write a message to a colleague who is a close friend. Write about your feelings about the new rule and what you intend to do.",
+  "task12": "Write an email to the director. Give your views on the new dress code and suggest how the rule could be made to work better for staff.",
+  "part2_question": "Does what people wear at work affect how well they do their job?",
+  "samples": {
+    "task11": [
+      "Hi Jack,",
+      "Have you read the director's email about formal dress every day? I think it is unnecessary, since most of us never see a client. I am not going to ignore it, but I will write and suggest keeping Fridays casual. Are you going to reply as well?",
+      "Best,",
+      "Alex"
+    ],
+    "task12": [
+      "Dear Mr Nazarov,",
+      "Thank you for inviting our views before the new dress code begins. I understand the wish for a consistent professional image, and I have no objection to formal dress when clients are in the building.",
+      "I would question the need for it every day, however. My team works almost entirely by telephone and email, and the rule would mean a considerable expense for colleagues who do not own several suits. Several of them have mentioned the cost to me privately but would not raise it with you directly.",
+      "Might I suggest a compromise? Formal dress on client days and on Mondays, smart casual otherwise, with the standard defined clearly so that nobody is left guessing. A small allowance towards the first purchase would also be welcomed by younger staff.",
+      "Yours sincerely,",
+      "Alex"
+    ],
+    "part2": [
+      "Whether clothing affects performance at work is a question people answer very differently, and the honest reply is that it matters, but much less than employers believe.",
+      "There is something in the argument for formality. Dressing deliberately marks the start of the working day, which helps concentration, and in jobs built on trust — law, medicine, banking — a client reads appearance as evidence of competence before a word is spoken.",
+      "Against that stands the experience of the last few years. Millions of people worked from home in whatever they liked and output did not collapse; in many firms it rose. What actually drives performance is clear objectives, a manageable workload and a manager worth working for, none of which has anything to do with a tie. Uniforms in schools make the same point: they signal a shared purpose more than they improve any individual's work.",
+      "My own view is that a dress code is worth having where clients see the work, and is otherwise a distraction from the things that genuinely determine how well a job is done. A rule that nobody can explain is simply resented, and resentment costs an employer far more than an open collar."
+    ]
+  },
+  "vocab_task1": [
+    [
+      "dress code",
+      "дресс-код",
+      "kiyinish qoidasi"
+    ],
+    [
+      "formal business dress",
+      "деловой стиль одежды",
+      "rasmiy ish kiyimi"
+    ],
+    [
+      "staff",
+      "персонал",
+      "xodimlar"
+    ],
+    [
+      "client",
+      "клиент",
+      "mijoz"
+    ],
+    [
+      "consistent",
+      "последовательный, единый",
+      "izchil, bir xil"
+    ],
+    [
+      "professional image",
+      "профессиональный облик",
+      "professional ko'rinish"
+    ],
+    [
+      "take effect",
+      "вступать в силу",
+      "kuchga kirmoq"
+    ],
+    [
+      "welcome your views",
+      "приветствовать ваше мнение",
+      "fikringizni mamnuniyat bilan kutmoq"
+    ],
+    [
+      "have no objection to",
+      "не возражать против",
+      "qarshi emasman"
+    ],
+    [
+      "question the need for",
+      "сомневаться в необходимости",
+      "zarurligiga shubha qilmoq"
+    ],
+    [
+      "considerable expense",
+      "значительные расходы",
+      "katta xarajat"
+    ],
+    [
+      "suit",
+      "костюм",
+      "kostyum"
+    ],
+    [
+      "compromise",
+      "компромисс",
+      "murosa"
+    ],
+    [
+      "smart casual",
+      "умеренно деловой стиль",
+      "yarim rasmiy uslub"
+    ],
+    [
+      "define clearly",
+      "чётко определить",
+      "aniq belgilamoq"
+    ],
+    [
+      "left guessing",
+      "в неведении",
+      "taxmin qilib qolmoq"
+    ],
+    [
+      "allowance",
+      "денежная надбавка",
+      "nafaqa, qo'shimcha to'lov"
+    ],
+    [
+      "unnecessary",
+      "излишний",
+      "keraksiz"
+    ],
+    [
+      "ignore a rule",
+      "игнорировать правило",
+      "qoidani e'tiborsiz qoldirmoq"
+    ],
+    [
+      "Director",
+      "директор",
+      "direktor"
+    ]
+  ],
+  "vocab_part2": [
+    [
+      "affect performance",
+      "влиять на результаты",
+      "natijaga ta'sir qilmoq"
+    ],
+    [
+      "formality",
+      "формальность",
+      "rasmiyatchilik"
+    ],
+    [
+      "dress deliberately",
+      "одеваться осознанно",
+      "ongli ravishda kiyinmoq"
+    ],
+    [
+      "mark the start of",
+      "обозначать начало",
+      "boshlanishini belgilamoq"
+    ],
+    [
+      "built on trust",
+      "основанный на доверии",
+      "ishonchga qurilgan"
+    ],
+    [
+      "competence",
+      "компетентность",
+      "salohiyat, malaka"
+    ],
+    [
+      "before a word is spoken",
+      "до первого слова",
+      "birorta so'z aytilmasdan"
+    ],
+    [
+      "output",
+      "производительность, объём работы",
+      "ish hajmi, natija"
+    ],
+    [
+      "collapse",
+      "рухнуть",
+      "keskin tushib ketmoq"
+    ],
+    [
+      "drive performance",
+      "определять результативность",
+      "samaradorlikni belgilamoq"
+    ],
+    [
+      "clear objectives",
+      "ясные цели",
+      "aniq maqsadlar"
+    ],
+    [
+      "manageable workload",
+      "посильная нагрузка",
+      "ko'tarsa bo'ladigan yuklama"
+    ],
+    [
+      "a manager worth working for",
+      "руководитель, ради которого стоит работать",
+      "ishlashga arziydigan rahbar"
+    ],
+    [
+      "a tie",
+      "галстук",
+      "galstuk"
+    ],
+    [
+      "worth having",
+      "стоящий того",
+      "arziydigan"
+    ],
+    [
+      "a distraction from",
+      "отвлечение от",
+      "chalg'ituvchi omil"
+    ],
+    [
+      "genuinely determine",
+      "действительно определять",
+      "haqiqatan belgilamoq"
+    ],
+    [
+      "answer differently",
+      "отвечать по-разному",
+      "turlicha javob bermoq"
+    ],
+    [
+      "the honest reply",
+      "честный ответ",
+      "halol javob"
+    ],
+    [
+      "employer",
+      "работодатель",
+      "ish beruvchi"
+    ]
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "n": 18,
+  "topic": "A restaurant asks for feedback",
+  "context": "You had dinner at a restaurant last week to celebrate a family birthday. The service was slow and one dish arrived cold. The manager has emailed you.",
+  "letter": {
+    "greeting": "Dear Guest,",
+    "paragraphs": [
+      "Thank you for dining with us last Saturday. We noticed from our records that you waited a long time between courses, and we would like to apologise.",
+      "We are reviewing how we staff our busiest evenings. We would be grateful if you could tell us about your experience and what would persuade you to return."
+    ],
+    "signoff": "Warm regards,",
+    "signer": "The Restaurant Manager"
+  },
+  "task11": "Write a message to your friend, who was at the dinner with you. Write about the email you received and what you think of it.",
+  "task12": "Write an email to the restaurant manager. Describe your experience, say what went wrong, and explain what would persuade you to return.",
+  "part2_question": "Are traditional family meals disappearing, and does it matter?",
+  "samples": {
+    "task11": [
+      "Hi Jack,",
+      "You will not believe it: the restaurant has emailed to apologise about Saturday. They noticed the wait themselves, which I did not expect. It does not fix the cold soup, but at least somebody is paying attention. I might give them one more chance. What do you think?",
+      "Best,",
+      "Alex"
+    ],
+    "task12": [
+      "Dear Sir or Madam,",
+      "Thank you for your email. It is unusual for a restaurant to notice a problem before the guest complains, and I appreciate it.",
+      "The evening did not go well. We waited fifty minutes between the starters and the main course, and when my mother's fish arrived it was cold and had to be sent back. As it was her birthday, that was particularly disappointing. The food itself, once it came, was excellent, and our waiter was polite throughout.",
+      "What would bring us back is simple: enough staff on a Saturday, and a word from the kitchen when a table is waiting. A dish that leaves the pass cold should never reach the guest.",
+      "Yours faithfully,",
+      "Alex"
+    ],
+    "part2": [
+      "Across much of the world, the family sitting down together at a fixed hour is becoming the exception. I think the trend is real, and that it costs us more than we notice.",
+      "The causes are not mysterious. Parents work longer and less predictable hours, children's evenings fill with clubs and homework, and cheap delivery makes it effortless for everyone to eat something different at a different time. Add a screen each and the meal dissolves entirely.",
+      "Why it matters is less obvious but better documented than people expect. Regular family meals are associated with stronger vocabulary in young children and lower rates of anxiety in teenagers, largely because the table is where ordinary conversation happens. A family that never eats together has to find another time to talk, and often does not. Shift work makes it harder still, since one parent is often leaving as the other arrives home.",
+      "I am not arguing for seven formal dinners a week. Two or three unhurried meals with the screens away would be enough to keep what is being lost. It is also where children learn to listen, to wait their turn and to take an interest in somebody else's day."
+    ]
+  },
+  "vocab_task1": [
+    [
+      "dine",
+      "ужинать, обедать",
+      "ovqatlanmoq"
+    ],
+    [
+      "records",
+      "записи, данные",
+      "yozuvlar"
+    ],
+    [
+      "between courses",
+      "между блюдами",
+      "taomlar orasida"
+    ],
+    [
+      "apologise",
+      "извиниться",
+      "uzr so'ramoq"
+    ],
+    [
+      "staff (v)",
+      "обеспечивать персоналом",
+      "xodim bilan ta'minlamoq"
+    ],
+    [
+      "busiest evening",
+      "самый загруженный вечер",
+      "eng gavjum oqshom"
+    ],
+    [
+      "persuade somebody to return",
+      "убедить вернуться",
+      "qaytishga ko'ndirmoq"
+    ],
+    [
+      "starter",
+      "закуска",
+      "salat, boshlang'ich taom"
+    ],
+    [
+      "main course",
+      "основное блюдо",
+      "asosiy taom"
+    ],
+    [
+      "send back",
+      "отправить обратно",
+      "qaytarib yubormoq"
+    ],
+    [
+      "particularly disappointing",
+      "особенно обидно",
+      "ayniqsa achinarli"
+    ],
+    [
+      "waiter",
+      "официант",
+      "ofitsiant"
+    ],
+    [
+      "polite",
+      "вежливый",
+      "xushmuomala"
+    ],
+    [
+      "throughout",
+      "на протяжении всего",
+      "boshdan-oxir"
+    ],
+    [
+      "enough staff",
+      "достаточно персонала",
+      "yetarli xodim"
+    ],
+    [
+      "the pass",
+      "раздача (на кухне)",
+      "taom beriladigan joy"
+    ],
+    [
+      "pay attention",
+      "обращать внимание",
+      "e'tibor bermoq"
+    ],
+    [
+      "give one more chance",
+      "дать ещё один шанс",
+      "yana bir imkon bermoq"
+    ],
+    [
+      "complain",
+      "жаловаться",
+      "shikoyat qilmoq"
+    ],
+    [
+      "go well",
+      "пройти хорошо",
+      "yaxshi o'tmoq"
+    ]
+  ],
+  "vocab_part2": [
+    [
+      "family meal",
+      "семейный ужин",
+      "oilaviy ovqat"
+    ],
+    [
+      "the exception",
+      "исключение",
+      "istisno"
+    ],
+    [
+      "a real trend",
+      "реальная тенденция",
+      "haqiqiy tendensiya"
+    ],
+    [
+      "unpredictable hours",
+      "непредсказуемый график",
+      "oldindan aytib bo'lmaydigan ish vaqti"
+    ],
+    [
+      "fill with",
+      "заполняться",
+      "to'lib ketmoq"
+    ],
+    [
+      "cheap delivery",
+      "дешёвая доставка",
+      "arzon yetkazib berish"
+    ],
+    [
+      "effortless",
+      "не требующий усилий",
+      "oson, mehnatsiz"
+    ],
+    [
+      "dissolve",
+      "растворяться, исчезать",
+      "yo'qolib ketmoq"
+    ],
+    [
+      "better documented",
+      "лучше изученный",
+      "yaxshiroq o'rganilgan"
+    ],
+    [
+      "be associated with",
+      "быть связанным с",
+      "bog'liq bo'lmoq"
+    ],
+    [
+      "vocabulary",
+      "словарный запас",
+      "so'z boyligi"
+    ],
+    [
+      "rates of anxiety",
+      "уровень тревожности",
+      "tashvish darajasi"
+    ],
+    [
+      "ordinary conversation",
+      "обычный разговор",
+      "oddiy suhbat"
+    ],
+    [
+      "find another time",
+      "найти другое время",
+      "boshqa vaqt topmoq"
+    ],
+    [
+      "argue for",
+      "выступать за",
+      "yoqlab chiqmoq"
+    ],
+    [
+      "modern household",
+      "современная семья",
+      "zamonaviy oila"
+    ],
+    [
+      "unhurried",
+      "неспешный",
+      "shoshilmasdan"
+    ],
+    [
+      "with the screens away",
+      "без экранов",
+      "ekranlarsiz"
+    ],
+    [
+      "keep what is being lost",
+      "сохранить то, что теряется",
+      "yo'qolayotganini saqlab qolmoq"
+    ],
+    [
+      "at a fixed hour",
+      "в определённое время",
+      "belgilangan vaqtda"
+    ]
+  ]
+}

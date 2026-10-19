@@ -1,0 +1,243 @@
+{
+  "n": 20,
+  "topic": "An offer to work abroad",
+  "context": "You work for a company that has offices in several countries. Your manager has written to offer you a two-year post abroad.",
+  "letter": {
+    "greeting": "Dear Alex,",
+    "paragraphs": [
+      "Following your work on the Samarkand project, we would like to offer you a two-year post in our Warsaw office, beginning in September. The company would cover your flights, your accommodation for the first three months and a language course.",
+      "It is a significant decision, so please take time to consider it. Let me know your thoughts and any questions you have."
+    ],
+    "signoff": "Best regards,",
+    "signer": "Dilnoza Rakhimova, Regional Manager"
+  },
+  "task11": "Write a message to your friend. Tell them about the offer, write about your feelings and say whether you are going to accept it.",
+  "task12": "Write an email to your manager. Write about your feelings, say whether you accept the offer, and ask any questions you still have.",
+  "part2_question": "Is it better to build your career in your own country or abroad?",
+  "samples": {
+    "task11": [
+      "Hi Jack,",
+      "Sit down for this one: they have offered me two years in Warsaw, starting in September. I am excited and terrified in equal measure. The package looks generous and I would be mad to refuse it, so I think I am going to say yes. Coffee tomorrow?",
+      "Best,",
+      "Alex"
+    ],
+    "task12": [
+      "Dear Dilnoza,",
+      "Thank you for the offer of the Warsaw post, and for the confidence in my work that it represents. I was delighted to receive it and, having discussed it with my family, I am pleased to accept.",
+      "September would suit me well, as it gives me time to hand over the Samarkand project properly rather than leaving it half finished. I would also like to begin the language course before I leave, if a place can be arranged.",
+      "I do have three questions. Would the company help with a visa for my wife, who hopes to work in Poland? Is there a budget for travel home at the end of the first year? And will my current role be held open for my return in two years' time?",
+      "Yours sincerely,",
+      "Alex"
+    ],
+    "part2": [
+      "For ambitious people in a smaller economy, the question of whether to build a career at home or abroad arrives sooner or later. Both routes work, and the choice is less permanent than it looks.",
+      "Going abroad offers scale. Larger markets mean larger projects, better equipment and colleagues at the top of the field, and a few years in that environment can accelerate a career by a decade. The money is usually better, and working in a second language is itself a lasting qualification.",
+      "Staying has quieter advantages that people undervalue. You already understand the market and the culture, your network is here, and in a growing economy a capable person reaches a senior position far younger than they would abroad. There is also the matter of being present for parents as they age, which no salary compensates for. A foreign posting teaches you how differently the same job can be done, which is hard to learn any other way.",
+      "My own view is that the strongest career is often both: experience abroad, then bring it home while the skills are still fresh. Returning with that experience is often what opens the most senior doors at home."
+    ]
+  },
+  "vocab_task1": [
+    [
+      "post",
+      "должность",
+      "lavozim"
+    ],
+    [
+      "abroad",
+      "за границей",
+      "chet elda"
+    ],
+    [
+      "cover flights",
+      "оплатить перелёты",
+      "parvoz xarajatini qoplamoq"
+    ],
+    [
+      "accommodation",
+      "жильё",
+      "turar joy"
+    ],
+    [
+      "language course",
+      "языковые курсы",
+      "til kursi"
+    ],
+    [
+      "significant decision",
+      "важное решение",
+      "muhim qaror"
+    ],
+    [
+      "take time to consider",
+      "обдумать не спеша",
+      "o'ylab ko'rish uchun vaqt olmoq"
+    ],
+    [
+      "confidence in my work",
+      "доверие к моей работе",
+      "ishimga bo'lgan ishonch"
+    ],
+    [
+      "delighted",
+      "очень рад",
+      "juda xursand"
+    ],
+    [
+      "hand over a project",
+      "передать проект",
+      "loyihani topshirmoq"
+    ],
+    [
+      "half finished",
+      "недоделанный",
+      "yarim yo'lda qolgan"
+    ],
+    [
+      "visa",
+      "виза",
+      "viza"
+    ],
+    [
+      "budget for travel",
+      "бюджет на поездки",
+      "safar uchun mablag'"
+    ],
+    [
+      "held open",
+      "сохранён за кем-либо",
+      "saqlab qo'yilgan"
+    ],
+    [
+      "in equal measure",
+      "в равной мере",
+      "bir xil darajada"
+    ],
+    [
+      "terrified",
+      "очень напуганный",
+      "qattiq qo'rqqan"
+    ],
+    [
+      "generous package",
+      "щедрые условия",
+      "saxiy shartlar"
+    ],
+    [
+      "be mad to refuse",
+      "быть безумцем, чтобы отказаться",
+      "rad etsam aqldan ozgan bo'laman"
+    ],
+    [
+      "regional manager",
+      "региональный руководитель",
+      "mintaqaviy rahbar"
+    ],
+    [
+      "accept an offer",
+      "принять предложение",
+      "taklifni qabul qilmoq"
+    ]
+  ],
+  "vocab_part2": [
+    [
+      "build a career",
+      "строить карьеру",
+      "martaba qurmoq"
+    ],
+    [
+      "ambitious",
+      "амбициозный",
+      "shijoatli"
+    ],
+    [
+      "smaller economy",
+      "небольшая экономика",
+      "kichikroq iqtisodiyot"
+    ],
+    [
+      "sooner or later",
+      "рано или поздно",
+      "ertami-kechmi"
+    ],
+    [
+      "less permanent than it looks",
+      "менее окончательный, чем кажется",
+      "ko'ringanidek qat'iy emas"
+    ],
+    [
+      "scale",
+      "масштаб",
+      "miqyos"
+    ],
+    [
+      "at the top of the field",
+      "лучшие в своей области",
+      "soha yetakchilari"
+    ],
+    [
+      "accelerate a career",
+      "ускорить карьеру",
+      "martabani tezlashtirmoq"
+    ],
+    [
+      "a lasting qualification",
+      "надолго остающаяся квалификация",
+      "uzoq saqlanadigan malaka"
+    ],
+    [
+      "undervalue",
+      "недооценивать",
+      "past baholamoq"
+    ],
+    [
+      "network",
+      "связи, круг контактов",
+      "aloqalar doirasi"
+    ],
+    [
+      "growing economy",
+      "растущая экономика",
+      "o'sayotgan iqtisodiyot"
+    ],
+    [
+      "senior position",
+      "руководящая должность",
+      "yuqori lavozim"
+    ],
+    [
+      "be present for",
+      "быть рядом с",
+      "yonida bo'lmoq"
+    ],
+    [
+      "as they age",
+      "по мере их старения",
+      "ular qariganda"
+    ],
+    [
+      "compensate for",
+      "компенсировать",
+      "o'rnini qoplamoq"
+    ],
+    [
+      "experience abroad",
+      "опыт за рубежом",
+      "chet eldagi tajriba"
+    ],
+    [
+      "bring it home",
+      "привезти это домой",
+      "uyga olib kelmoq"
+    ],
+    [
+      "while the skills are still fresh",
+      "пока навыки свежи",
+      "ko'nikmalar yangi ekan"
+    ],
+    [
+      "both routes work",
+      "оба пути работают",
+      "ikkala yo'l ham ishlaydi"
+    ]
+  ]
+}

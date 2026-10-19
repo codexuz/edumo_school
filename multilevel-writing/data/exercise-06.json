@@ -40,164 +40,204 @@
   "vocab_task1": [
     [
       "apology",
+      "извинение",
       "uzr"
     ],
     [
       "acknowledge",
+      "признать",
       "tan olmoq"
     ],
     [
       "dismiss a complaint",
+      "отклонить жалобу",
       "shikoyatni e'tiborsiz qoldirmoq"
     ],
     [
       "fault",
+      "неисправность",
       "nuqson, kamchilik"
     ],
     [
       "deal with",
+      "решать, устранять",
       "hal qilmoq"
     ],
     [
       "complimentary",
+      "бесплатный",
       "bepul taqdim etilgan"
     ],
     [
       "generous gesture",
+      "щедрый жест",
       "saxiy qadam"
     ],
     [
       "renovated",
+      "отремонтированный",
       "ta'mirlangan"
     ],
     [
       "air conditioning",
+      "кондиционер",
       "konditsioner"
     ],
     [
       "check-out",
+      "выезд из отеля",
       "mehmonxonadan chiqish"
     ],
     [
       "high standards",
+      "высокие стандарты",
       "yuqori me'yorlar"
     ],
     [
       "prevent",
+      "предотвратить",
       "oldini olmoq"
     ],
     [
       "guest satisfaction",
+      "удовлетворённость гостей",
       "mehmon mamnuniyati"
     ],
     [
       "sincere",
+      "искренний",
       "samimiy"
     ],
     [
       "resolution",
+      "решение вопроса",
       "yechim"
     ],
     [
       "reception",
+      "стойка регистрации",
       "qabulxona"
     ],
     [
       "suitable date",
+      "подходящая дата",
       "qulay sana"
     ],
     [
       "quiet floor",
+      "тихий этаж",
       "tinch qavat"
     ],
     [
       "lift",
+      "лифт",
       "lift"
     ],
     [
       "fair response",
+      "справедливый ответ",
       "adolatli javob"
     ]
   ],
   "vocab_part2": [
     [
       "air pollution",
+      "загрязнение воздуха",
       "havo ifloslanishi"
     ],
     [
       "stand out",
+      "выделяться",
       "ajralib turmoq"
     ],
     [
       "industry",
+      "промышленность",
       "sanoat"
     ],
     [
       "release",
+      "выбрасывать",
       "chiqarmoq, tarqatmoq"
     ],
     [
       "harmful gases",
+      "вредные газы",
       "zararli gazlar"
     ],
     [
       "fine particles",
+      "мелкие частицы",
       "mayda zarrachalar"
     ],
     [
       "heavy manufacturing",
+      "тяжёлая промышленность",
       "og'ir sanoat"
     ],
     [
       "air quality",
+      "качество воздуха",
       "havo sifati"
     ],
     [
       "emit",
+      "выделять",
       "chiqarmoq"
     ],
     [
       "carbon monoxide",
+      "угарный газ",
       "is gazi"
     ],
     [
       "nitrogen oxides",
+      "оксиды азота",
       "azot oksidlari"
     ],
     [
       "dense traffic",
+      "плотный трафик",
       "zich transport oqimi"
     ],
     [
       "smog",
+      "смог",
       "smog, tutunli tuman"
     ],
     [
       "trigger",
+      "вызывать",
       "keltirib chiqarmoq"
     ],
     [
       "breathing problems",
+      "проблемы с дыханием",
       "nafas olish muammolari"
     ],
     [
       "domestic",
+      "бытовой",
       "uy sharoitidagi"
     ],
     [
       "toxic substances",
+      "токсичные вещества",
       "zaharli moddalar"
     ],
     [
       "developing country",
+      "развивающаяся страна",
       "rivojlanayotgan davlat"
     ],
     [
       "culprit",
+      "виновник",
       "aybdor, sabab"
     ],
     [
       "public health",
+      "общественное здоровье",
       "jamoat salomatligi"
     ]
   ]

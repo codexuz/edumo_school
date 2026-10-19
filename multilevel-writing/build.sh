@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Build "A Complete Guide to Multilevel Writing": HTML -> A4 PDF (cover + body).
+# Build "A Complete Guide to Multilevel Writing": HTML sheets -> A4 PDF.
 set -euo pipefail
 cd "$(dirname "$0")"
 python3 scripts/check.py

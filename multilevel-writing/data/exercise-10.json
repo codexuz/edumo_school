@@ -39,164 +39,204 @@
   "vocab_task1": [
     [
       "internet provider",
+      "интернет-провайдер",
       "internet ta'minotchisi"
     ],
     [
       "connection problem",
+      "проблема с подключением",
       "ulanish muammosi"
     ],
     [
       "fault",
+      "неисправность",
       "nosozlik"
     ],
     [
       "acknowledge",
+      "признать",
       "tan olmoq"
     ],
     [
       "unreliable",
+      "ненадёжный",
       "ishonchsiz"
     ],
     [
       "drop (of a connection)",
+      "обрываться (о связи)",
       "uzilib qolmoq"
     ],
     [
       "frustrated",
+      "раздражённый",
       "asabiylashgan, ranjigan"
     ],
     [
       "relieved",
+      "испытывающий облегчение",
       "yengil tortgan"
     ],
     [
       "annoyed",
+      "рассерженный",
       "jahli chiqqan"
     ],
     [
       "upgrade",
+      "модернизировать",
       "yangilamoq"
     ],
     [
       "district",
+      "район",
       "hudud, tuman"
     ],
     [
       "honest update",
+      "честная информация",
       "halol axborot"
     ],
     [
       "realistic repair date",
+      "реальный срок ремонта",
       "aniq ta'mirlash muddati"
     ],
     [
       "general apology",
+      "общие извинения",
       "umumiy uzr"
     ],
     [
       "compensation",
+      "компенсация",
       "tovon, kompensatsiya"
     ],
     [
       "customer support",
+      "служба поддержки",
       "mijozlarni qo'llab-quvvatlash"
     ],
     [
       "service",
+      "услуга",
       "xizmat"
     ],
     [
       "affect",
+      "влиять",
       "ta'sir qilmoq"
     ],
     [
       "repair",
+      "чинить",
       "ta'mirlamoq"
     ],
     [
       "cause difficulty",
+      "создавать трудности",
       "qiyinchilik tug'dirmoq"
     ]
   ],
   "vocab_part2": [
     [
       "practical skills",
+      "практические навыки",
       "amaliy ko'nikmalar"
     ],
     [
       "manage money",
+      "управлять деньгами",
       "pulni boshqarmoq"
     ],
     [
       "traditional subjects",
+      "традиционные предметы",
       "an'anaviy fanlar"
     ],
     [
       "wrongly posed",
+      "неверно поставленный",
       "noto'g'ri qo'yilgan"
     ],
     [
       "fundamental",
+      "основополагающий",
       "asosiy, tamal"
     ],
     [
       "logical thinking",
+      "логическое мышление",
       "mantiqiy fikrlash"
     ],
     [
       "solve problems",
+      "решать задачи",
       "muammolarni hal qilmoq"
     ],
     [
       "exam hall",
+      "экзаменационный зал",
       "imtihon zali"
     ],
     [
       "make sense of",
+      "разобраться в",
       "tushunib olmoq"
     ],
     [
       "unprepared",
+      "неподготовленный",
       "tayyor emas"
     ],
     [
       "independent life",
+      "самостоятельная жизнь",
       "mustaqil hayot"
     ],
     [
       "budget",
+      "планировать бюджет",
       "byudjet tuzmoq"
     ],
     [
       "read a contract",
+      "читать договор",
       "shartnomani o'qib tushunmoq"
     ],
     [
       "well-being",
+      "благополучие",
       "farovonlik"
     ],
     [
       "fall into debt",
+      "влезть в долги",
       "qarzga botmoq"
     ],
     [
       "plan one's spending",
+      "планировать расходы",
       "xarajatni rejalashtirmoq"
     ],
     [
       "curriculum",
+      "учебная программа",
       "o'quv dasturi"
     ],
     [
       "academic core",
+      "базовые учебные предметы",
       "asosiy o'quv fanlari"
     ],
     [
       "make room for",
+      "находить место для",
       "joy ajratmoq"
     ],
     [
       "serve students",
+      "служить интересам учеников",
       "o'quvchilar manfaatiga xizmat qilmoq"
     ]
   ]

@@ -1,0 +1,243 @@
+{
+  "n": 15,
+  "topic": "A noisy building site",
+  "context": "A building site has opened next to the block of flats where you live. The construction company has written to residents.",
+  "letter": {
+    "greeting": "Dear Resident,",
+    "paragraphs": [
+      "Work on the new office block beside your building began this week and will continue for about eight months. Machinery will operate from seven in the morning until seven in the evening, six days a week.",
+      "We recognise that this will cause disturbance and we want to limit it as far as we can. Please tell us what problems you are experiencing and what we could do to help."
+    ],
+    "signoff": "Yours faithfully,",
+    "signer": "Site Manager, Barkamol Construction"
+  },
+  "task11": "Write a message to your friend who lives in the same block. Write about your feelings and what you are going to do about the noise.",
+  "task12": "Write an email to the site manager. Explain the problems the work is causing you and suggest what the company could do to reduce the disturbance.",
+  "part2_question": "Should cities build upwards or outwards?",
+  "samples": {
+    "task11": [
+      "Hi Jack,",
+      "How are you coping with the drilling? It starts at seven and I have not slept properly all week. I am writing to the site manager to ask for a later start on Saturdays. Would you sign it with me? A letter from several flats carries more weight.",
+      "Best,",
+      "Alex"
+    ],
+    "task12": [
+      "Dear Sir or Madam,",
+      "Thank you for writing to residents about the work beside our building. I appreciate being told in advance, but I must explain the difficulty the current hours are causing.",
+      "I work night shifts at the hospital and sleep during the morning. Drilling from seven o'clock makes that impossible, and after a week I am already exhausted. Several neighbours with young children have the same problem. The windows on this side of the building are single-glazed, which makes the noise considerably worse.",
+      "Three things would help considerably. Could the noisiest work begin at nine rather than seven, could Saturday work finish at one o'clock, and could you publish a weekly schedule so that residents know when the loudest days are coming?",
+      "Yours faithfully,",
+      "Alex"
+    ],
+    "part2": [
+      "As cities grow, every planner faces the same choice: add towers in the centre or new districts at the edge. I believe building upwards is, on the whole, the wiser option.",
+      "Density is the main argument. A tall building houses hundreds of families on the footprint of a few houses, which keeps journeys short and makes buses, schools and clinics affordable to run. Sprawl does the opposite: it eats farmland, forces everyone into a car and leaves the outer districts dependent on roads that are permanently congested.",
+      "I do not pretend the case is one-sided. Towers can be badly built and badly managed, they overshadow streets, and families with small children often want a garden rather than a balcony on the fourteenth floor. Tall buildings are also far cheaper to heat, because each flat shares walls with its neighbours rather than losing heat on every side.",
+      "The sensible answer is height with conditions: good design, real parks at ground level, and a limit on how far a city is allowed to spread before it is obliged to build up instead. Where towers have failed, it has almost always been poor maintenance rather than height that was to blame."
+    ]
+  },
+  "vocab_task1": [
+    [
+      "building site",
+      "стройплощадка",
+      "qurilish maydoni"
+    ],
+    [
+      "construction company",
+      "строительная компания",
+      "qurilish kompaniyasi"
+    ],
+    [
+      "machinery",
+      "техника, оборудование",
+      "texnika"
+    ],
+    [
+      "operate",
+      "работать",
+      "ishlamoq"
+    ],
+    [
+      "disturbance",
+      "беспокойство, шум",
+      "bezovtalik"
+    ],
+    [
+      "limit",
+      "ограничить",
+      "cheklamoq"
+    ],
+    [
+      "drilling",
+      "сверление, бурение",
+      "parmalash"
+    ],
+    [
+      "night shift",
+      "ночная смена",
+      "tungi smena"
+    ],
+    [
+      "exhausted",
+      "измотанный",
+      "holdan toygan"
+    ],
+    [
+      "in advance",
+      "заранее",
+      "oldindan"
+    ],
+    [
+      "the current hours",
+      "нынешний график",
+      "hozirgi ish vaqti"
+    ],
+    [
+      "considerably",
+      "значительно",
+      "sezilarli darajada"
+    ],
+    [
+      "the noisiest work",
+      "самые шумные работы",
+      "eng shovqinli ishlar"
+    ],
+    [
+      "publish a schedule",
+      "опубликовать график",
+      "jadvalni e'lon qilmoq"
+    ],
+    [
+      "carry more weight",
+      "иметь больший вес",
+      "ko'proq ta'sirga ega bo'lmoq"
+    ],
+    [
+      "cope with",
+      "справляться с",
+      "bardosh bermoq"
+    ],
+    [
+      "sign a letter",
+      "подписать письмо",
+      "xatni imzolamoq"
+    ],
+    [
+      "site manager",
+      "начальник стройки",
+      "qurilish boshlig'i"
+    ],
+    [
+      "cause difficulty",
+      "создавать трудности",
+      "qiyinchilik tug'dirmoq"
+    ],
+    [
+      "sleep properly",
+      "нормально спать",
+      "tuzukroq uxlamoq"
+    ]
+  ],
+  "vocab_part2": [
+    [
+      "build upwards",
+      "строить вверх",
+      "tepaga qurmoq"
+    ],
+    [
+      "build outwards",
+      "расширяться вширь",
+      "kengayib qurmoq"
+    ],
+    [
+      "planner",
+      "градостроитель",
+      "shaharsozlik mutaxassisi"
+    ],
+    [
+      "density",
+      "плотность застройки",
+      "zichlik"
+    ],
+    [
+      "footprint",
+      "занимаемая площадь",
+      "egallagan maydon"
+    ],
+    [
+      "keep journeys short",
+      "сокращать расстояния",
+      "yo'lni qisqartirmoq"
+    ],
+    [
+      "affordable to run",
+      "недорогой в обслуживании",
+      "arzonga tushadigan"
+    ],
+    [
+      "sprawl",
+      "разрастание города",
+      "shaharning yoyilib ketishi"
+    ],
+    [
+      "eat farmland",
+      "поглощать сельхозземли",
+      "qishloq xo'jalik yerini yemoq"
+    ],
+    [
+      "congested",
+      "перегруженный",
+      "tiqilinch"
+    ],
+    [
+      "one-sided",
+      "односторонний",
+      "bir tomonlama"
+    ],
+    [
+      "badly managed",
+      "плохо обслуживаемый",
+      "yomon boshqariladigan"
+    ],
+    [
+      "overshadow",
+      "затенять",
+      "soya solmoq"
+    ],
+    [
+      "a balcony",
+      "балкон",
+      "balkon"
+    ],
+    [
+      "height with conditions",
+      "высотность с условиями",
+      "shartlar bilan balandlik"
+    ],
+    [
+      "good design",
+      "качественное проектирование",
+      "sifatli loyihalash"
+    ],
+    [
+      "at ground level",
+      "на уровне земли",
+      "yer sathida"
+    ],
+    [
+      "be obliged to",
+      "быть обязанным",
+      "majbur bo'lmoq"
+    ],
+    [
+      "spread",
+      "распространяться",
+      "yoyilmoq"
+    ],
+    [
+      "the wiser option",
+      "более разумный выбор",
+      "oqilonaroq tanlov"
+    ]
+  ]
+}

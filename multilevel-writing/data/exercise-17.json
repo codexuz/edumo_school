@@ -1,0 +1,243 @@
+{
+  "n": 17,
+  "topic": "A university course changes online",
+  "context": "You are studying part-time at a university. The faculty has written to students about a change to the way the course is taught.",
+  "letter": {
+    "greeting": "Dear Student,",
+    "paragraphs": [
+      "From February, all lectures on your course will be delivered online and the campus seminars will be reduced from weekly to monthly.",
+      "The change allows us to accept more students and to keep fees at their current level. We would like to know how this will affect your studies and what support you would find most useful."
+    ],
+    "signoff": "Yours sincerely,",
+    "signer": "The Faculty Office"
+  },
+  "task11": "Write a message to a friend on the same course. Write about your feelings and what you plan to do about the change.",
+  "task12": "Write an email to the faculty office. Explain how the change will affect your studies and say what support you would find most useful.",
+  "part2_question": "Is a university degree still worth the time and money it costs?",
+  "samples": {
+    "task11": [
+      "Hi Jack,",
+      "Have you read the faculty email? All lectures go online in February and seminars drop to once a month. I am worried, because the seminars are where I actually learn. I am going to ask them to keep them fortnightly. Will you add your name to mine?",
+      "Best,",
+      "Alex"
+    ],
+    "task12": [
+      "Dear Sir or Madam,",
+      "Thank you for explaining the changes to the course and the reasons behind them. I understand the pressure on fees, but I am concerned about the effect on part-time students in particular.",
+      "Recorded lectures will suit me well, as I can watch them after work. The loss of weekly seminars worries me a great deal more. Discussion with the tutor is where I test whether I have actually understood the reading, and once a month is not enough to keep that going. I would add that several of us travel over an hour to attend, so a monthly seminar is also a long journey for a short session.",
+      "Could the seminars be held fortnightly, even if they are shorter? An online discussion board monitored by a tutor between sessions would also help considerably.",
+      "Yours faithfully,",
+      "Alex"
+    ],
+    "part2": [
+      "With fees rising and graduate salaries flat in many fields, it is reasonable to ask whether a degree still repays what it costs. My answer is a qualified yes.",
+      "The financial evidence still favours graduates. Across a working life they earn substantially more than non-graduates in most countries, and whole professions — medicine, engineering, law, teaching — remain closed without the qualification. For those careers the question hardly arises.",
+      "The picture is far less clear elsewhere. A student who borrows heavily for a degree with no obvious destination may graduate with real debt and no advantage, and skilled trades or good apprenticeships often pay better and start sooner. Employers in many fields now use the degree as a simple filter, whether or not the course content is relevant to the job.",
+      "What a degree genuinely buys, beyond the certificate, is three years of learning how to read critically, argue from evidence and finish difficult work alone. Those habits outlast any syllabus. So the honest answer is that a degree is worth it when it is chosen deliberately, and an expensive mistake when it is simply the default. The cost of getting that decision wrong has risen sharply in the last twenty years."
+    ]
+  },
+  "vocab_task1": [
+    [
+      "part-time",
+      "заочно, на неполной форме",
+      "sirtqi, qisman"
+    ],
+    [
+      "faculty",
+      "факультет",
+      "fakultet"
+    ],
+    [
+      "lecture",
+      "лекция",
+      "ma'ruza"
+    ],
+    [
+      "deliver online",
+      "проводить онлайн",
+      "onlayn o'tkazmoq"
+    ],
+    [
+      "campus seminar",
+      "очный семинар",
+      "kampusdagi seminar"
+    ],
+    [
+      "reduce",
+      "сократить",
+      "qisqartirmoq"
+    ],
+    [
+      "fees",
+      "плата за обучение",
+      "o'quv to'lovi"
+    ],
+    [
+      "at the current level",
+      "на нынешнем уровне",
+      "hozirgi darajada"
+    ],
+    [
+      "affect studies",
+      "влиять на учёбу",
+      "o'qishga ta'sir qilmoq"
+    ],
+    [
+      "recorded lecture",
+      "записанная лекция",
+      "yozib olingan ma'ruza"
+    ],
+    [
+      "suit somebody",
+      "подходить кому-либо",
+      "kimgadir mos kelmoq"
+    ],
+    [
+      "tutor",
+      "преподаватель, куратор",
+      "o'qituvchi, murabbiy"
+    ],
+    [
+      "test whether",
+      "проверить, действительно ли",
+      "tekshirib ko'rmoq"
+    ],
+    [
+      "the reading",
+      "учебная литература",
+      "o'qish materiallari"
+    ],
+    [
+      "fortnightly",
+      "раз в две недели",
+      "ikki haftada bir"
+    ],
+    [
+      "discussion board",
+      "форум для обсуждения",
+      "muhokama forumi"
+    ],
+    [
+      "monitored by",
+      "под наблюдением",
+      "nazorat qilinadigan"
+    ],
+    [
+      "be concerned about",
+      "беспокоиться о",
+      "xavotirlanmoq"
+    ],
+    [
+      "pressure on fees",
+      "давление на стоимость обучения",
+      "to'lovlarga bosim"
+    ],
+    [
+      "add your name",
+      "поставить и свою подпись",
+      "ismingizni qo'shmoq"
+    ]
+  ],
+  "vocab_part2": [
+    [
+      "degree",
+      "диплом, высшее образование",
+      "oliy ma'lumot diplomi"
+    ],
+    [
+      "repay what it costs",
+      "окупать затраты",
+      "sarflangan mablag'ni qoplamoq"
+    ],
+    [
+      "a qualified yes",
+      "да, с оговорками",
+      "shartli ha"
+    ],
+    [
+      "graduate salary",
+      "зарплата выпускника",
+      "bitiruvchi maoshi"
+    ],
+    [
+      "flat",
+      "не растущий",
+      "o'smayotgan"
+    ],
+    [
+      "financial evidence",
+      "финансовые данные",
+      "moliyaviy dalillar"
+    ],
+    [
+      "across a working life",
+      "за всю трудовую жизнь",
+      "butun mehnat faoliyati davomida"
+    ],
+    [
+      "non-graduate",
+      "человек без высшего образования",
+      "oliy ma'lumotsiz kishi"
+    ],
+    [
+      "qualification",
+      "квалификация, диплом",
+      "malaka, diplom"
+    ],
+    [
+      "hardly arise",
+      "почти не возникать",
+      "deyarli tug'ilmaydi"
+    ],
+    [
+      "borrow heavily",
+      "брать крупный кредит",
+      "katta qarz olmoq"
+    ],
+    [
+      "no obvious destination",
+      "без ясной цели",
+      "aniq maqsadsiz"
+    ],
+    [
+      "skilled trade",
+      "квалифицированное ремесло",
+      "malakali hunar"
+    ],
+    [
+      "apprenticeship",
+      "ученичество на производстве",
+      "ishlab chiqarishda shogirdlik"
+    ],
+    [
+      "read critically",
+      "читать критически",
+      "tanqidiy o'qimoq"
+    ],
+    [
+      "argue from evidence",
+      "опираться на доказательства",
+      "dalilga tayanib fikr bildirmoq"
+    ],
+    [
+      "outlast",
+      "пережить, сохраниться дольше",
+      "uzoqroq saqlanmoq"
+    ],
+    [
+      "syllabus",
+      "программа курса",
+      "kurs dasturi"
+    ],
+    [
+      "chosen deliberately",
+      "выбранный осознанно",
+      "ongli ravishda tanlangan"
+    ],
+    [
+      "the default",
+      "вариант по умолчанию",
+      "odatiy tanlov"
+    ]
+  ]
+}

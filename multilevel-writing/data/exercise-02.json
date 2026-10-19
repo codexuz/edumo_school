@@ -39,164 +39,204 @@
   "vocab_task1": [
     [
       "community",
+      "сообщество",
       "jamoa, mahalla"
     ],
     [
       "resident",
+      "житель",
       "mahalla aholisi"
     ],
     [
       "flyer",
+      "листовка",
       "varaqa, e'lon"
     ],
     [
       "local council",
+      "местный совет",
       "mahalliy kengash"
     ],
     [
       "green space",
+      "зелёная зона",
       "ko'kalamzor hudud"
     ],
     [
       "recreation",
+      "отдых",
       "dam olish"
     ],
     [
       "feature",
+      "особенность, элемент",
       "xususiyat, element"
     ],
     [
       "proposed",
+      "предлагаемый",
       "taklif qilingan"
     ],
     [
       "feedback",
+      "отзыв, обратная связь",
       "fikr-mulohaza"
     ],
     [
       "enthusiasm",
+      "энтузиазм",
       "ishtiyoq"
     ],
     [
       "walking and cycling paths",
+      "пешеходные и велосипедные дорожки",
       "piyoda va velosiped yo'laklari"
     ],
     [
       "picnic area",
+      "зона для пикника",
       "piknik maydoni"
     ],
     [
       "bench",
+      "скамейка",
       "o'rindiq, skameyka"
     ],
     [
       "playground",
+      "детская площадка",
       "o'yin maydonchasi"
     ],
     [
       "fenced",
+      "огороженный",
       "panjara bilan o'ralgan"
     ],
     [
       "native trees",
+      "местные деревья",
       "mahalliy daraxtlar"
     ],
     [
       "shrub",
+      "кустарник",
       "buta"
     ],
     [
       "beautify",
+      "украшать",
       "chiroyli qilmoq"
     ],
     [
       "wildlife",
+      "дикая природа",
       "yovvoyi tabiat"
     ],
     [
       "consult residents",
+      "консультироваться с жителями",
       "aholi bilan maslahatlashmoq"
     ]
   ],
   "vocab_part2": [
     [
       "much debated",
+      "широко обсуждаемый",
       "ko'p muhokama qilinadigan"
     ],
     [
       "quality of life",
+      "качество жизни",
       "hayot sifati"
     ],
     [
       "medical advances",
+      "достижения медицины",
       "tibbiyot yutuqlari"
     ],
     [
       "telemedicine",
+      "телемедицина",
       "masofaviy tibbiy maslahat"
     ],
     [
       "remote area",
+      "отдалённый район",
       "uzoq hudud"
     ],
     [
       "transform",
+      "преобразовать",
       "tubdan o'zgartirmoq"
     ],
     [
       "keep in touch",
+      "поддерживать связь",
       "aloqani saqlamoq"
     ],
     [
       "open education to",
+      "открыть образование для",
       "ta'limni ... uchun ochmoq"
     ],
     [
       "isolation",
+      "изоляция",
       "yolg'izlik"
     ],
     [
       "anxiety",
+      "тревожность",
       "tashvish, xavotir"
     ],
     [
       "compare oneself with",
+      "сравнивать себя с",
       "o'zini ... bilan solishtirmoq"
     ],
     [
       "automation",
+      "автоматизация",
       "avtomatlashtirish"
     ],
     [
       "retrain",
+      "переучиваться",
       "qayta tayyorlanmoq"
     ],
     [
       "neutral",
+      "нейтральный",
       "betaraf"
     ],
     [
       "outcome",
+      "результат",
       "natija"
     ],
     [
       "sensible limits",
+      "разумные ограничения",
       "oqilona cheklovlar"
     ],
     [
       "outweigh",
+      "перевешивать",
       "ustun kelmoq"
     ],
     [
       "drawback",
+      "минус, недостаток",
       "kamchilik"
     ],
     [
       "real costs",
+      "реальные издержки",
       "jiddiy xarajat, zarar"
     ],
     [
       "in my view",
+      "на мой взгляд",
       "mening fikrimcha"
     ]
   ]

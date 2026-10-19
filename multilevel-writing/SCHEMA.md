@@ -26,17 +26,51 @@ filename order, so adding `exercise-11.json` adds Exercise 11 to the book.
     "task12": ["Dear Head Librarian,", "…", "Yours sincerely,", "Alex"],
     "part2":  ["…", "…"]
   },
-  "vocab_task1":  [["library", "kutubxona"], …],  // exactly 20 [English, Uzbek] pairs
-  "vocab_part2":  [["flexibility", "moslashuvchanlik"], …]
+  "vocab_task1":  [["library", "библиотека", "kutubxona"], …],  // exactly 20 triples
+  "vocab_part2":  [["flexibility", "гибкость", "moslashuvchanlik"], …]
 }
 ```
 
 In `samples`, a first entry shorter than 40 characters is styled as a greeting and
 either of the last two is styled as a sign-off; everything else is a body paragraph.
 
+Each word list is exactly 20 `[English, Russian, Uzbek]` triples.
+
 `scripts/check.py` enforces the word bands (Task 1.1 45–60, Task 1.2 120–150,
-Task 2 180–200) and that each vocabulary list holds exactly 20 complete pairs.
+Task 2 180–200), the 20 complete triples, and that the practice tasks build.
 `build.sh` runs it first, so a sample outside its band fails the build.
+
+## `data/sentences.json`
+
+The hand-written sentence-transformation task (practice task D), keyed by
+exercise number:
+
+```jsonc
+{
+  "1": {
+    "lead": "Rewrite each line so that it would fit Task 1.2 …",
+    "items": [["Thanks a lot for telling us about the works.",
+               "Thank you for letting us know about the upcoming renovations."], …]
+  }
+}
+```
+
+The first element is printed as the prompt; the second is the suggested answer
+and appears only in the answer key. Five items per exercise.
+
+## Practice tasks
+
+Only task D is written by hand. `scripts/practice.py` derives the other three
+from the exercise's own data, so editing a word list or a model answer changes
+the practice and the answer key with it:
+
+- **A — Complete the sentence**: eight sentences taken from the unit's model
+  answers, each with one word-list term blanked out.
+- **B — Match English to Uzbek**: eight terms, the Uzbek column shuffled.
+- **C — Choose the English word**: six Russian prompts with three English options.
+
+The shuffling is seeded on the exercise number, so the same book is produced
+on every build.
 
 ## `data/guide.json`
 

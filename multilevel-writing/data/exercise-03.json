@@ -39,164 +39,204 @@
   "vocab_task1": [
     [
       "colleague",
+      "коллега",
       "hamkasb"
     ],
     [
       "settle in",
+      "освоиться",
       "o'rnashib olmoq"
     ],
     [
       "feel part of the team",
+      "чувствовать себя частью команды",
       "o'zini jamoaning bir qismi deb his qilmoq"
     ],
     [
       "initiative",
+      "инициатива",
       "tashabbus"
     ],
     [
       "supportive environment",
+      "поддерживающая среда",
       "qo'llab-quvvatlovchi muhit"
     ],
     [
       "buddy system",
+      "система наставничества",
       "hamrohlik tizimi"
     ],
     [
       "experienced employee",
+      "опытный сотрудник",
       "tajribali xodim"
     ],
     [
       "new starter",
+      "новый сотрудник",
       "yangi ishga kirgan xodim"
     ],
     [
       "company culture",
+      "корпоративная культура",
       "kompaniya madaniyati"
     ],
     [
       "introductions",
+      "знакомство",
       "tanishtiruv"
     ],
     [
       "onboarding process",
+      "процесс адаптации",
       "ishga moslashtirish jarayoni"
     ],
     [
       "employee retention",
+      "удержание сотрудников",
       "xodimlarni saqlab qolish"
     ],
     [
       "team morale",
+      "боевой дух команды",
       "jamoa kayfiyati"
     ],
     [
       "hesitate",
+      "колебаться",
       "ikkilanmoq"
     ],
     [
       "raise a question",
+      "поднять вопрос",
       "savol ko'tarmoq"
     ],
     [
       "necessary access",
+      "необходимые доступы",
       "zarur ruxsatlar"
     ],
     [
       "timetable",
+      "график",
       "jadval"
     ],
     [
       "practical step",
+      "практический шаг",
       "amaliy qadam"
     ],
     [
       "make a difference",
+      "существенно повлиять",
       "sezilarli ta'sir ko'rsatmoq"
     ],
     [
       "show someone around",
+      "показать кому-либо всё",
       "kimnidir aylantirib ko'rsatmoq"
     ]
   ],
   "vocab_part2": [
     [
       "role model",
+      "образец для подражания",
       "ibrat, o'rnak"
     ],
     [
       "fame",
+      "слава",
       "shuhrat"
     ],
     [
       "responsibly",
+      "ответственно",
       "mas'uliyat bilan"
     ],
     [
       "campaign for",
+      "выступать за",
       "... uchun kurashmoq"
     ],
     [
       "environmental cause",
+      "экологическое дело",
       "ekologik maqsad"
     ],
     [
       "educational charity",
+      "образовательный фонд",
       "ta'lim xayriya tashkiloti"
     ],
     [
       "persuade",
+      "убедить",
       "ishontirmoq"
     ],
     [
       "dedication",
+      "самоотдача",
       "fidoyilik"
     ],
     [
       "discipline",
+      "дисциплина",
       "intizom"
     ],
     [
       "convincing",
+      "убедительный",
       "ishonarli"
     ],
     [
       "extravagant",
+      "расточительный",
       "hashamatli, isrofgarchilikka moyil"
     ],
     [
       "possessions",
+      "имущество",
       "mol-mulk"
     ],
     [
       "appearance",
+      "внешность",
       "tashqi ko'rinish"
     ],
     [
       "expectations",
+      "ожидания",
       "umidlar, kutilmalar"
     ],
     [
       "scandal",
+      "скандал",
       "janjal, mish-mish"
     ],
     [
       "set an example",
+      "подавать пример",
       "namuna ko'rsatmoq"
     ],
     [
       "judge critically",
+      "критически оценивать",
       "tanqidiy baholamoq"
     ],
     [
       "glamour",
+      "блеск, гламур",
       "jozibadorlik, yaltiroqlik"
     ],
     [
       "look past",
+      "смотреть глубже",
       "e'tibor bermaslik, nariga qaramoq"
     ],
     [
       "image",
+      "образ",
       "obraz, tasvir"
     ]
   ]

@@ -40,164 +40,204 @@
   "vocab_task1": [
     [
       "work from home",
+      "работать из дома",
       "uydan turib ishlamoq"
     ],
     [
       "remote work",
+      "удалённая работа",
       "masofaviy ish"
     ],
     [
       "commute",
+      "поездка на работу",
       "ishga qatnov"
     ],
     [
       "work-life balance",
+      "баланс работы и жизни",
       "ish va hayot muvozanati"
     ],
     [
       "job satisfaction",
+      "удовлетворённость работой",
       "ishdan qoniqish"
     ],
     [
       "productivity",
+      "производительность",
       "samaradorlik"
     ],
     [
       "concentrate",
+      "сосредоточиться",
       "diqqatni jamlamoq"
     ],
     [
       "interruption",
+      "помеха",
       "xalaqit, uzilish"
     ],
     [
       "open-plan office",
+      "офис открытой планировки",
       "ochiq ofis"
     ],
     [
       "morale",
+      "моральный дух",
       "ruhiy holat, kayfiyat"
     ],
     [
       "office costs",
+      "расходы на офис",
       "ofis xarajatlari"
     ],
     [
       "policy",
+      "политика, правила",
       "siyosat, qoida"
     ],
     [
       "scheme",
+      "программа",
       "loyiha, dastur"
     ],
     [
       "reliable",
+      "надёжный",
       "ishonchli"
     ],
     [
       "effectively",
+      "эффективно",
       "samarali"
     ],
     [
       "rested",
+      "отдохнувший",
       "dam olgan"
     ],
     [
       "welcome a decision",
+      "приветствовать решение",
       "qarorni ma'qullamoq"
     ],
     [
       "benefit",
+      "приносить пользу",
       "foyda keltirmoq"
     ],
     [
       "department",
+      "отдел",
       "bo'lim"
     ],
     [
       "gain",
+      "выигрыш, польза",
       "yutuq, foyda"
     ]
   ],
   "vocab_part2": [
     [
       "crime rate",
+      "уровень преступности",
       "jinoyatchilik darajasi"
     ],
     [
       "be exposed to",
+      "подвергаться воздействию",
       "duch kelmoq, ta'siriga tushmoq"
     ],
     [
       "violent material",
+      "материалы с насилием",
       "zo'ravonlikka oid kontent"
     ],
     [
       "mature",
+      "зрелый",
       "yetuk"
     ],
     [
       "aggression",
+      "агрессия",
       "tajovuzkorlik"
     ],
     [
       "poverty",
+      "бедность",
       "qashshoqlik"
     ],
     [
       "unstable home",
+      "неблагополучная семья",
       "notinch oila muhiti"
     ],
     [
       "adult supervision",
+      "надзор взрослых",
       "kattalar nazorati"
     ],
     [
       "disadvantaged background",
+      "тяжёлые социальные условия",
       "og'ir ijtimoiy sharoit"
     ],
     [
       "desperation",
+      "отчаяние",
       "umidsizlik, chorasizlik"
     ],
     [
       "turn to theft",
+      "пойти на кражу",
       "o'g'rilikka qo'l urmoq"
     ],
     [
       "untreated",
+      "нелеченый",
       "davolanmagan"
     ],
     [
       "mental illness",
+      "психическое заболевание",
       "ruhiy kasallik"
     ],
     [
       "anti-social behaviour",
+      "антиобщественное поведение",
       "jamiyatga qarshi xatti-harakat"
     ],
     [
       "destructive",
+      "разрушительный",
       "buzg'unchi"
     ],
     [
       "root",
+      "корень, причина",
       "ildiz, asosiy sabab"
     ],
     [
       "punishment",
+      "наказание",
       "jazo"
     ],
     [
       "struggling family",
+      "семья в трудном положении",
       "qiyin ahvoldagi oila"
     ],
     [
       "schooling",
+      "школьное образование",
       "maktab ta'limi"
     ],
     [
       "opportunity",
+      "возможность",
       "imkoniyat"
     ]
   ]

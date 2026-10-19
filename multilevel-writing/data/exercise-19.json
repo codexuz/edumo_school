@@ -1,0 +1,243 @@
+{
+  "n": 19,
+  "topic": "A recycling scheme for the building",
+  "context": "The company that manages your block of flats wants to start a recycling scheme. They have written to all residents.",
+  "letter": {
+    "greeting": "Dear Resident,",
+    "paragraphs": [
+      "We are planning to introduce separate bins for paper, glass and plastic in the courtyard from next month, and to remove two of the general waste bins to make space.",
+      "The scheme will only work if residents use it properly. Please tell us what you think of the plan and what would make it easier for you to take part."
+    ],
+    "signoff": "Kind regards,",
+    "signer": "Building Management"
+  },
+  "task11": "Write a message to a neighbour who is a friend. Write about your feelings about the plan and say what you intend to do.",
+  "task12": "Write an email to the building management. Give your opinion of the recycling plan and suggest what would make it easier for residents to take part.",
+  "part2_question": "Is it the responsibility of individuals or governments to protect the environment?",
+  "samples": {
+    "task11": [
+      "Hi Jack,",
+      "Have you read the notice about recycling? I think it is a good idea, though taking away two general bins worries me a little. I am going to write and ask for clear labels in Uzbek and Russian. Shall we put our names on the same message?",
+      "Best,",
+      "Alex"
+    ],
+    "task12": [
+      "Dear Sir or Madam,",
+      "Thank you for consulting residents about the recycling scheme. I welcome the plan: at present almost everything from this building goes to landfill, and separating paper and glass would be a simple improvement.",
+      "I would raise one concern. Removing two general waste bins before people have learned the new system is likely to leave bags on the ground within a week. It would be safer to remove them a month after the new bins arrive. A short item in the residents' group chat on the day the bins arrive would reach almost everyone.",
+      "Three things would help residents take part: clear labels in Uzbek and Russian with pictures, a short notice in every stairwell explaining what goes where, and bins kept under cover so that wet paper does not spoil.",
+      "Yours faithfully,",
+      "Alex"
+    ],
+    "part2": [
+      "When environmental damage is discussed, the argument quickly becomes personal: should I fly less, or should the government act? In my view the responsibility is shared, but it is not shared equally.",
+      "Individual choices clearly matter. Millions of people recycling, wasting less food and using public transport add up to a real reduction, and habits spread through families and streets far faster than laws do.",
+      "Yet the scale is wrong for individuals alone. One household cannot build a rail network, insulate a city's housing or decide how electricity is generated, and the industries that emit most are reached only by regulation. Placing the whole burden on consumers also suits polluters very well, since it keeps the argument about shopping bags rather than power stations. Refusing to buy from the worst offenders also changes company behaviour surprisingly quickly.",
+      "The honest position is that governments must set the rules and the infrastructure, and citizens must use them and keep voting for them. Neither half works without the other, but only one half can act at the scale the problem demands. Recycling a yoghurt pot while a coal plant runs next door is not a strategy, however virtuous it feels."
+    ]
+  },
+  "vocab_task1": [
+    [
+      "recycling scheme",
+      "программа переработки",
+      "qayta ishlash dasturi"
+    ],
+    [
+      "separate bins",
+      "раздельные контейнеры",
+      "alohida idishlar"
+    ],
+    [
+      "courtyard",
+      "двор",
+      "hovli"
+    ],
+    [
+      "general waste",
+      "несортированные отходы",
+      "aralash chiqindi"
+    ],
+    [
+      "make space",
+      "освободить место",
+      "joy bo'shatmoq"
+    ],
+    [
+      "take part",
+      "участвовать",
+      "ishtirok etmoq"
+    ],
+    [
+      "consult residents",
+      "консультироваться с жителями",
+      "aholi bilan maslahatlashmoq"
+    ],
+    [
+      "landfill",
+      "свалка",
+      "chiqindixona"
+    ],
+    [
+      "separate (v)",
+      "сортировать",
+      "ajratmoq"
+    ],
+    [
+      "raise a concern",
+      "высказать опасение",
+      "xavotir bildirmoq"
+    ],
+    [
+      "leave bags on the ground",
+      "оставлять пакеты на земле",
+      "qoplarni yerda qoldirmoq"
+    ],
+    [
+      "clear labels",
+      "понятные обозначения",
+      "aniq yorliqlar"
+    ],
+    [
+      "stairwell",
+      "подъезд, лестничная клетка",
+      "zinapoya"
+    ],
+    [
+      "what goes where",
+      "что куда",
+      "nima qayerga"
+    ],
+    [
+      "under cover",
+      "под навесом",
+      "usti yopiq"
+    ],
+    [
+      "spoil",
+      "портиться",
+      "buzilmoq"
+    ],
+    [
+      "notice",
+      "объявление",
+      "e'lon"
+    ],
+    [
+      "welcome a plan",
+      "одобрять план",
+      "rejani ma'qullamoq"
+    ],
+    [
+      "improvement",
+      "улучшение",
+      "yaxshilanish"
+    ],
+    [
+      "building management",
+      "управляющая компания",
+      "bino boshqaruvi"
+    ]
+  ],
+  "vocab_part2": [
+    [
+      "environmental damage",
+      "вред окружающей среде",
+      "atrof-muhitga zarar"
+    ],
+    [
+      "responsibility",
+      "ответственность",
+      "mas'uliyat"
+    ],
+    [
+      "shared",
+      "общий, разделённый",
+      "umumiy"
+    ],
+    [
+      "add up to",
+      "в сумме давать",
+      "jami ... ni tashkil qilmoq"
+    ],
+    [
+      "a real reduction",
+      "реальное сокращение",
+      "haqiqiy kamayish"
+    ],
+    [
+      "habits spread",
+      "привычки распространяются",
+      "odatlar tarqaladi"
+    ],
+    [
+      "the scale is wrong",
+      "масштаб не тот",
+      "miqyosi mos emas"
+    ],
+    [
+      "rail network",
+      "железнодорожная сеть",
+      "temir yo'l tarmog'i"
+    ],
+    [
+      "insulate housing",
+      "утеплять жильё",
+      "uylarni issiqlik bilan ta'minlamoq"
+    ],
+    [
+      "generate electricity",
+      "вырабатывать электричество",
+      "elektr ishlab chiqarmoq"
+    ],
+    [
+      "emit",
+      "выбрасывать",
+      "chiqarmoq"
+    ],
+    [
+      "regulation",
+      "регулирование, нормы",
+      "qonuniy tartibga solish"
+    ],
+    [
+      "burden",
+      "бремя",
+      "yuk, mas'uliyat"
+    ],
+    [
+      "consumer",
+      "потребитель",
+      "iste'molchi"
+    ],
+    [
+      "suit polluters",
+      "быть выгодным загрязнителям",
+      "ifloslantiruvchilarga qo'l kelmoq"
+    ],
+    [
+      "power station",
+      "электростанция",
+      "elektr stansiyasi"
+    ],
+    [
+      "set the rules",
+      "устанавливать правила",
+      "qoidalarni belgilamoq"
+    ],
+    [
+      "infrastructure",
+      "инфраструктура",
+      "infratuzilma"
+    ],
+    [
+      "keep voting for",
+      "продолжать голосовать за",
+      "ovoz berishda davom etmoq"
+    ],
+    [
+      "at the scale the problem demands",
+      "в масштабе, которого требует проблема",
+      "muammo talab qiladigan miqyosda"
+    ]
+  ]
+}
