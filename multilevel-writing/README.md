@@ -138,8 +138,11 @@ frieze, with the title block beneath. It is drawn at A3 and scaled to A4 by `mer
 what gives the type its density.
 
 - `assets/brand/hero.png` — the 3D hero: an open notebook, fountain pen, envelope, paper stack
-  and approval badge, generated with Figma AI (`gemini-3.1-flash-image`) in the book's blue
-  palette, then matted off its background.
+  and approval badge, generated with OpenAI's image model (`gpt-image-2.5-sunburst`, via Figma
+  AI) in the book's blue palette, then matted off its background by `scripts/cutout.py`.
+  The prompt asks for **no cast shadow on a pure white ground**: a render with a contact shadow
+  mattes badly, leaving a pale halo on the blue band that cannot be keyed out without eating the
+  artwork's own white paper.
 - `assets/brand/logo_blue.png`, `icon_blue.png`, `icon_white.png` — shared with the practice book.
 - The back cover carries the blurb and a QR code to the Telegram channel; the spine is drawn only
   in the spread. **Set `SPINE_MM` in `scripts/cover.py` to the printer's measured spine width** —

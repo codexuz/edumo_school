@@ -125,7 +125,7 @@ body{font-family:Inter,"DejaVu Sans",sans-serif;-webkit-print-color-adjust:exact
 .band{position:absolute;left:0;right:0;top:66mm;height:190mm;overflow:hidden;
   background:linear-gradient(120deg,#3DA5FF 0%,#1E90FF 38%,#0B63CE 72%,#0A2A5E 100%);
   clip-path:path('M 0 70 C 260 -40, 600 40, 1123 0 L 1123 718 L 0 718 Z')}
-.hero{position:absolute;right:16mm;top:8mm;width:168mm;filter:drop-shadow(0 4mm 6mm rgba(5,20,90,.35))}
+.hero{position:absolute;right:14mm;top:20mm;width:186mm;filter:drop-shadow(0 4mm 6mm rgba(5,20,90,.35))}
 .ros{position:absolute}
 .r1{width:92mm;left:-26mm;top:58mm}
 .r2{width:46mm;left:62mm;top:20mm}
