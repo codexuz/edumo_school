@@ -1,0 +1,204 @@
+{
+  "n": 7,
+  "topic": "Working from home",
+  "context": "You work in a company and you received a letter from the HR manager.",
+  "letter": {
+    "greeting": "Dear Worker,",
+    "paragraphs": [
+      "I want to inform you that we have decided to allow some workers to work from their homes.",
+      "What do you think about this plan? Can this plan bring any benefits for workers and for the company? We appreciate your opinion very much."
+    ],
+    "signoff": "Best regards,",
+    "signer": "The HR Manager"
+  },
+  "task11": "Write a letter to your friend. Write about your feelings about this method and say whether you think they should also allow you to work from home.",
+  "task12": "Write a letter to the manager. Write about your feelings about this method and say whether you think they should also allow you to work from home.",
+  "part2_question": "Why is the crime rate increasing among teenagers?",
+  "samples": {
+    "task11": [
+      "Hi Jack,",
+      "Big news at work: HR is going to let some people work from home. I am really pleased, because the daily commute takes two hours of my life. I hope they include my department, as I concentrate far better at my own desk. How does it work at your office?",
+      "Best,",
+      "Alex"
+    ],
+    "task12": [
+      "Dear HR Manager,",
+      "Thank you for your letter about the new policy on working from home. I welcome the decision and believe it can benefit both staff and the company.",
+      "For employees, the clearest gain is time. Without a long commute, people arrive at work rested, and many of us concentrate better at home, where there are fewer interruptions than in an open-plan office. For the company, that usually means higher productivity, better morale and lower office costs.",
+      "I would therefore like to ask that my own role be considered for the scheme. Most of my work is done on a computer, and with a reliable internet connection and a weekly team meeting I am confident I could do it just as effectively from home.",
+      "Yours faithfully,",
+      "Alex"
+    ],
+    "part2": [
+      "The rise in crime among teenagers is a serious problem, and I do not think a single cause can explain it.",
+      "One factor is the influence of the internet. Young people are exposed to violent material long before they are mature enough to judge it, and constant exposure can make aggression look ordinary rather than shocking.",
+      "A second and probably stronger factor is social and economic. Poverty, unstable homes and the absence of adult supervision create exactly the conditions in which crime grows. A teenager from a disadvantaged background who sees no realistic future may turn to theft out of desperation rather than choice. Where a family is struggling simply to pay for food and rent, children are often left to supervise themselves for most of the day.",
+      "A third factor is untreated mental illness. Depression and anxiety that nobody notices can express themselves as anti-social or destructive behaviour. Boys in particular are far less likely than girls to ask for help when something is wrong.",
+      "In short, the problem has several roots and will not be solved by punishment alone. Support for struggling families, better schooling and real opportunities are all part of the answer."
+    ]
+  },
+  "vocab_task1": [
+    [
+      "work from home",
+      "uydan turib ishlamoq"
+    ],
+    [
+      "remote work",
+      "masofaviy ish"
+    ],
+    [
+      "commute",
+      "ishga qatnov"
+    ],
+    [
+      "work-life balance",
+      "ish va hayot muvozanati"
+    ],
+    [
+      "job satisfaction",
+      "ishdan qoniqish"
+    ],
+    [
+      "productivity",
+      "samaradorlik"
+    ],
+    [
+      "concentrate",
+      "diqqatni jamlamoq"
+    ],
+    [
+      "interruption",
+      "xalaqit, uzilish"
+    ],
+    [
+      "open-plan office",
+      "ochiq ofis"
+    ],
+    [
+      "morale",
+      "ruhiy holat, kayfiyat"
+    ],
+    [
+      "office costs",
+      "ofis xarajatlari"
+    ],
+    [
+      "policy",
+      "siyosat, qoida"
+    ],
+    [
+      "scheme",
+      "loyiha, dastur"
+    ],
+    [
+      "reliable",
+      "ishonchli"
+    ],
+    [
+      "effectively",
+      "samarali"
+    ],
+    [
+      "rested",
+      "dam olgan"
+    ],
+    [
+      "welcome a decision",
+      "qarorni ma'qullamoq"
+    ],
+    [
+      "benefit",
+      "foyda keltirmoq"
+    ],
+    [
+      "department",
+      "bo'lim"
+    ],
+    [
+      "gain",
+      "yutuq, foyda"
+    ]
+  ],
+  "vocab_part2": [
+    [
+      "crime rate",
+      "jinoyatchilik darajasi"
+    ],
+    [
+      "be exposed to",
+      "duch kelmoq, ta'siriga tushmoq"
+    ],
+    [
+      "violent material",
+      "zo'ravonlikka oid kontent"
+    ],
+    [
+      "mature",
+      "yetuk"
+    ],
+    [
+      "aggression",
+      "tajovuzkorlik"
+    ],
+    [
+      "poverty",
+      "qashshoqlik"
+    ],
+    [
+      "unstable home",
+      "notinch oila muhiti"
+    ],
+    [
+      "adult supervision",
+      "kattalar nazorati"
+    ],
+    [
+      "disadvantaged background",
+      "og'ir ijtimoiy sharoit"
+    ],
+    [
+      "desperation",
+      "umidsizlik, chorasizlik"
+    ],
+    [
+      "turn to theft",
+      "o'g'rilikka qo'l urmoq"
+    ],
+    [
+      "untreated",
+      "davolanmagan"
+    ],
+    [
+      "mental illness",
+      "ruhiy kasallik"
+    ],
+    [
+      "anti-social behaviour",
+      "jamiyatga qarshi xatti-harakat"
+    ],
+    [
+      "destructive",
+      "buzg'unchi"
+    ],
+    [
+      "root",
+      "ildiz, asosiy sabab"
+    ],
+    [
+      "punishment",
+      "jazo"
+    ],
+    [
+      "struggling family",
+      "qiyin ahvoldagi oila"
+    ],
+    [
+      "schooling",
+      "maktab ta'limi"
+    ],
+    [
+      "opportunity",
+      "imkoniyat"
+    ]
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "n": 9,
+  "topic": "A job offer from the library",
+  "context": "You live near the local library and you are currently unemployed. You received an email from the library manager offering you a job.",
+  "letter": {
+    "greeting": "Dear Alex,",
+    "paragraphs": [
+      "As we have expanded the library, we are looking for a hard-working person to join our team.",
+      "We have been told that you are not working at the moment and that you have some experience of working in a library, so we are contacting you. What do you think about working with us? We appreciate your opinion very much."
+    ],
+    "signoff": "Best regards,",
+    "signer": "The Manager"
+  },
+  "task11": "Write a letter to your friend. Tell them about this job offer. Write about your feelings and whether you will accept the offer.",
+  "task12": "Write a letter to the manager. Write about your feelings and whether you accept the offer.",
+  "part2_question": "Should children learn a foreign language from the time they start school, or is it better to wait until secondary school?",
+  "samples": {
+    "task11": [
+      "Hi Jack,",
+      "You will never guess what happened. The library down the road has offered me a job! I am delighted, especially after months of looking. The work suits my experience and it is five minutes from home, so I am going to accept. Let us celebrate at the weekend.",
+      "Best,",
+      "Alex"
+    ],
+    "task12": [
+      "Dear Ms Karimova,",
+      "Thank you very much for your email offering me a position on the library team. I was delighted to receive it, and I am pleased that my earlier experience in a library has been remembered.",
+      "I am happy to accept the offer. The work appeals to me a great deal: I enjoy helping readers find what they need, and I would welcome the chance to contribute to the library as it expands. I am also familiar with the cataloguing system you use, which should allow me to be useful from the first week.",
+      "I am available to start at short notice and would be glad to meet you to discuss hours, duties and any training involved. Please let me know a time that suits you.",
+      "Yours sincerely,",
+      "Alex"
+    ],
+    "part2": [
+      "This is a long-running debate, and although both approaches have something to recommend them, I am firmly in favour of starting early.",
+      "The main argument for primary school is that young children are extraordinarily receptive to new sounds and patterns. They absorb pronunciation without effort and, crucially, they are not yet self-conscious enough to be afraid of making mistakes, which is precisely what fluency requires. Children who begin Spanish at six usually end up with a more natural accent and a surer instinct for grammar than those who begin at twelve.",
+      "I do accept, however, that starting early is only useful if it is done well. Formal grammar drills with seven-year-olds achieve very little and can put a child off the language for years. Early teaching has to be built on songs, games and stories. The same is true of listening: a young ear distinguishes unfamiliar sounds that an adult learner may never hear properly at all.",
+      "Provided primary schools can offer that kind of lively, immersive teaching, I believe starting young gives children a lasting advantage and a skill they will keep for life."
+    ]
+  },
+  "vocab_task1": [
+    [
+      "job offer",
+      "ish taklifi"
+    ],
+    [
+      "expand",
+      "kengaytirmoq"
+    ],
+    [
+      "join a team",
+      "jamoaga qo'shilmoq"
+    ],
+    [
+      "unemployed",
+      "ishsiz"
+    ],
+    [
+      "delighted",
+      "juda xursand"
+    ],
+    [
+      "previous experience",
+      "oldingi tajriba"
+    ],
+    [
+      "accept an offer",
+      "taklifni qabul qilmoq"
+    ],
+    [
+      "appeal to someone",
+      "kimgadir yoqmoq"
+    ],
+    [
+      "contribute",
+      "hissa qo'shmoq"
+    ],
+    [
+      "available",
+      "bo'sh, tayyor"
+    ],
+    [
+      "at short notice",
+      "qisqa muddatda"
+    ],
+    [
+      "duties",
+      "vazifalar"
+    ],
+    [
+      "training",
+      "o'quv tayyorgarligi"
+    ],
+    [
+      "suit",
+      "mos kelmoq"
+    ],
+    [
+      "hard-working",
+      "mehnatkash"
+    ],
+    [
+      "position",
+      "lavozim"
+    ],
+    [
+      "discuss the details",
+      "tafsilotlarni muhokama qilmoq"
+    ],
+    [
+      "look forward to",
+      "intiqlik bilan kutmoq"
+    ],
+    [
+      "celebrate",
+      "nishonlamoq"
+    ],
+    [
+      "welcome the chance",
+      "imkoniyatni mamnuniyat bilan qabul qilmoq"
+    ]
+  ],
+  "vocab_part2": [
+    [
+      "foreign language",
+      "chet tili"
+    ],
+    [
+      "primary school",
+      "boshlang'ich maktab"
+    ],
+    [
+      "secondary school",
+      "o'rta maktab"
+    ],
+    [
+      "receptive",
+      "qabul qiluvchan"
+    ],
+    [
+      "absorb",
+      "o'zlashtirmoq"
+    ],
+    [
+      "pronunciation",
+      "talaffuz"
+    ],
+    [
+      "fluency",
+      "ravonlik"
+    ],
+    [
+      "self-conscious",
+      "uyalchoq, o'zini noqulay his qiladigan"
+    ],
+    [
+      "native language",
+      "ona tili"
+    ],
+    [
+      "window of opportunity",
+      "qulay fursat"
+    ],
+    [
+      "intuitive grasp",
+      "intuitiv tushunish"
+    ],
+    [
+      "grammar",
+      "grammatika"
+    ],
+    [
+      "engaging methods",
+      "qiziqarli usullar"
+    ],
+    [
+      "immersive",
+      "to'liq muhitga botiradigan"
+    ],
+    [
+      "a chore",
+      "zerikarli yumush"
+    ],
+    [
+      "set someone up for",
+      "kelajakka tayyorlamoq"
+    ],
+    [
+      "in the long run",
+      "uzoq muddatda"
+    ],
+    [
+      "valuable skill",
+      "qimmatli ko'nikma"
+    ],
+    [
+      "acknowledge",
+      "tan olmoq"
+    ],
+    [
+      "experiment with",
+      "sinab ko'rmoq"
+    ]
+  ]
+}

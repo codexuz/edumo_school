@@ -1,0 +1,150 @@
+{
+  "title": "Yozma ish: tuzilma va talablar",
+  "intro": "Chet tilidan yozma ish topshiriqlari nomzodning til bilimini kompleks baholashga qaratilgan. Ushbu topshiriqlar orqali quyidagi ko'nikmalar aniqlanadi:",
+  "intro_list": [
+    "grammatik bilim",
+    "so'z boyligi",
+    "fikrni mantiqiy va izchil ifodalash",
+    "uslubiy moslik",
+    "kommunikativ kompetensiya"
+  ],
+  "sections": [
+    {
+      "kicker": "1-bo'lim",
+      "title": "Elektron xatlar (B1–B2 daraja)",
+      "lead": "Bu bo'limda nomzod bitta vaziyat asosida ikki xil elektron xat (email) yozadi.",
+      "cards": [
+        {
+          "label": "Task 1.1",
+          "title": "Norasmiy elektron xat (do'stga)",
+          "facts": [
+            ["Hajmi", "taxminan 50 so'z"],
+            ["Uslub", "oddiy, samimiy"],
+            ["Maqsad", "shaxsiy fikr, hissiyot va rejalarni bildirish"],
+            ["Til darajasi", "B1"]
+          ],
+          "req_title": "Talablar",
+          "req": [
+            "sodda va tushunarli gaplar",
+            "kundalik leksika",
+            "fikrlar orasidagi mantiqiy bog'lanish"
+          ]
+        },
+        {
+          "label": "Task 1.2",
+          "title": "Rasmiy elektron xat (tashkilot yoki rahbariyatga)",
+          "facts": [
+            ["Hajmi", "120–150 so'z"],
+            ["Uslub", "rasmiy"],
+            ["Maqsad", "muammo, taklif, shikoyat yoki so'rov bildirish"],
+            ["Til darajasi", "B2"]
+          ],
+          "req_title": "Talablar",
+          "req": [
+            "rasmiy uslubga mos leksika",
+            "murakkab grammatik tuzilmalar",
+            "mantiqiy izchillik (coherence)",
+            "bog'lovchi vositalardan to'g'ri foydalanish (cohesion)"
+          ]
+        }
+      ],
+      "note_title": "Muhim jihat",
+      "note": "Nomzod bir xil vaziyatni ikki xil uslubda ifodalay olishi kerak. Bu uning tilni real hayotiy vaziyatlarda samarali qo'llay olish qobiliyatini ko'rsatadi."
+    },
+    {
+      "kicker": "2-bo'lim",
+      "title": "Blog posti yoki maqola (C1 daraja)",
+      "lead": "Bu bo'limda nomzod umumiy qiziqish uyg'otadigan mavzu asosida ijodiy-tahliliy matn yozadi.",
+      "cards": [
+        {
+          "label": "Task 2",
+          "title": "Onlayn muhokamadagi post",
+          "facts": [
+            ["Hajmi", "180–200 so'z"],
+            ["Janr", "blog posti, maqola yoki muhokama posti"],
+            ["Maqsad", "mavzuni tahlil qilish va o'z pozitsiyasini himoya qilish"],
+            ["Til darajasi", "C1"]
+          ],
+          "req_title": "Talablar",
+          "req": [
+            "mavzuni chuqur tahlil qilish",
+            "dalil va misollar keltirish",
+            "mavhum g'oyalarni aniq ifodalash",
+            "yuqori darajadagi leksika va grammatika",
+            "fikrlar orasidagi izchillik"
+          ]
+        }
+      ],
+      "extra_title": "Namunaviy mavzular",
+      "extra": [
+        "onlayn ishlashning afzallik va kamchiliklari",
+        "texnologiyaning ta'limga ta'siri",
+        "yoshlar va ijtimoiy tarmoqlar",
+        "masofaviy ta'lim"
+      ]
+    }
+  ],
+  "functions_title": "Til funksiyalari",
+  "functions_lead": "Yozma ishda nomzod quyidagi ko'nikmalarni namoyish etishi kerak:",
+  "functions": [
+    "fikr bildirish",
+    "sabab va asos keltirish",
+    "reja va umidlarni ifodalash",
+    "taklif va shikoyat bildirish",
+    "taxmin qilish va baholash",
+    "rozilik yoki norozilik bildirish",
+    "fikrni ehtiyotkorlik bilan ifodalash",
+    "murosaga kelish",
+    "fikrni ishonarli tarzda himoya qilish"
+  ],
+  "marking_title": "Baholash mezonlari",
+  "marking": [
+    {
+      "title": "1-bo'lim: Elektron xatlar",
+      "range": "0–5 ball",
+      "bands": [
+        ["3–4 ball", "B1/B2 darajaga mos javob"],
+        ["5 ball", "yuqori darajadagi yozma ish"]
+      ],
+      "criteria_title": "Baholash mezonlari",
+      "criteria": [
+        "vazifaga moslik (task achievement)",
+        "leksik boylik",
+        "grammatik aniqlik",
+        "mantiqiy bog'lanish",
+        "uslubiy moslik"
+      ]
+    },
+    {
+      "title": "2-bo'lim: Maqola / blog posti",
+      "range": "0–6 ball",
+      "bands": [
+        ["5 ball", "C1 daraja"],
+        ["6 ball", "C1 dan yuqori daraja"]
+      ],
+      "criteria_title": "Asosiy mezonlar",
+      "criteria": [
+        "tahliliy fikrlash darajasi",
+        "murakkab til tuzilmalaridan foydalanish",
+        "uslubiy aniqlik",
+        "mantiqiy izchillik",
+        "argumentatsiya sifati"
+      ]
+    }
+  ],
+  "conclusion_title": "Xulosa",
+  "conclusion_lead": "Yozma ish topshiriqlari — bu faqat grammatik test emas, balki nomzodning:",
+  "conclusion_list": [
+    "fikrlash darajasi",
+    "kommunikativ qobiliyati",
+    "tilni real vaziyatda qo'llash ko'nikmasini"
+  ],
+  "conclusion_tail": "aniqlashga xizmat qiluvchi muhim baholash vositasidir.",
+  "success_title": "Muvaffaqiyatli yozma ish uchun",
+  "success": [
+    "vaziyatni to'g'ri tushunish",
+    "uslubni to'g'ri tanlash",
+    "fikrni mantiqiy bayon qilish",
+    "boy leksika va to'g'ri grammatikadan foydalanish"
+  ]
+}

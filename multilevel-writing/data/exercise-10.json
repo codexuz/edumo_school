@@ -1,0 +1,203 @@
+{
+  "n": 10,
+  "topic": "Problems with an internet provider",
+  "context": "You are a regular customer of an internet company. You received an email from the manager of the company.",
+  "letter": {
+    "greeting": "Dear Customer,",
+    "paragraphs": [
+      "We have heard that people in your area are having problems with their internet connection, and we are truly sorry for the difficulties this has caused. We are going to fix them soon.",
+      "What improvements do you think should be made? We appreciate your opinion very much."
+    ],
+    "signoff": "Best regards,",
+    "signer": "The Manager"
+  },
+  "task11": "Write a letter to your friend, who is also a customer of the internet company. Tell them about the email you received. Write about your feelings and what you think the company should do about the situation.",
+  "task12": "Write a letter to the manager. Write about your feelings and what you think the company should do about the situation.",
+  "part2_question": "Should schools teach practical skills such as managing money and cooking, or are traditional subjects like maths and science more important?",
+  "samples": {
+    "task11": [
+      "Hi Jack,",
+      "Our internet provider has finally written to us. They admit there is a fault in our area and promise to repair it soon. I am relieved that they accept the problem, but I am still annoyed. They should tell us honestly when it will be fixed. Has yours improved?",
+      "Best,",
+      "Alex"
+    ],
+    "task12": [
+      "Dear Sir or Madam,",
+      "Thank you for your email acknowledging the connection problems in our area. I am glad the fault has been recognised, but I must be honest: after six weeks of an unreliable service, I am frustrated. My connection drops during video calls for work, which has caused real difficulty.",
+      "You asked what should be improved. Firstly, the equipment in our district clearly needs upgrading, as the problem affects the whole street. Secondly, customers should receive honest updates with a realistic repair date rather than general apologies. A clear explanation of what has actually gone wrong would also reassure customers far more than a standard message.",
+      "Finally, I hope you will consider some compensation for the weeks we have paid for a service we could not use.",
+      "Yours faithfully,",
+      "Alex"
+    ],
+    "part2": [
+      "Should schools concentrate on practical life skills or stay with traditional academic subjects? In my view the question is wrongly posed, because students need both.",
+      "Mathematics and science remain fundamental. They train logical thinking and the habit of solving problems step by step, and that habit is useful far beyond the exam hall. Understanding basic science also helps us make sense of the world, from weather reports to the advice a doctor gives us.",
+      "At the same time, we cannot ignore how unprepared many young adults are for independent life. Knowing how to budget, how to read a contract and how to cook a decent meal affects a person's well-being every single week. I have watched friends fall into debt simply because nobody ever taught them to plan their spending. Science teaching also protects young people from the misinformation that now circulates so freely online.",
+      "The answer, therefore, is not to choose but to combine. A curriculum that keeps its academic core while making room for practical skills would serve students far better than either approach alone. These are not difficult things to teach, and a single term of lessons would be enough to cover the essentials."
+    ]
+  },
+  "vocab_task1": [
+    [
+      "internet provider",
+      "internet ta'minotchisi"
+    ],
+    [
+      "connection problem",
+      "ulanish muammosi"
+    ],
+    [
+      "fault",
+      "nosozlik"
+    ],
+    [
+      "acknowledge",
+      "tan olmoq"
+    ],
+    [
+      "unreliable",
+      "ishonchsiz"
+    ],
+    [
+      "drop (of a connection)",
+      "uzilib qolmoq"
+    ],
+    [
+      "frustrated",
+      "asabiylashgan, ranjigan"
+    ],
+    [
+      "relieved",
+      "yengil tortgan"
+    ],
+    [
+      "annoyed",
+      "jahli chiqqan"
+    ],
+    [
+      "upgrade",
+      "yangilamoq"
+    ],
+    [
+      "district",
+      "hudud, tuman"
+    ],
+    [
+      "honest update",
+      "halol axborot"
+    ],
+    [
+      "realistic repair date",
+      "aniq ta'mirlash muddati"
+    ],
+    [
+      "general apology",
+      "umumiy uzr"
+    ],
+    [
+      "compensation",
+      "tovon, kompensatsiya"
+    ],
+    [
+      "customer support",
+      "mijozlarni qo'llab-quvvatlash"
+    ],
+    [
+      "service",
+      "xizmat"
+    ],
+    [
+      "affect",
+      "ta'sir qilmoq"
+    ],
+    [
+      "repair",
+      "ta'mirlamoq"
+    ],
+    [
+      "cause difficulty",
+      "qiyinchilik tug'dirmoq"
+    ]
+  ],
+  "vocab_part2": [
+    [
+      "practical skills",
+      "amaliy ko'nikmalar"
+    ],
+    [
+      "manage money",
+      "pulni boshqarmoq"
+    ],
+    [
+      "traditional subjects",
+      "an'anaviy fanlar"
+    ],
+    [
+      "wrongly posed",
+      "noto'g'ri qo'yilgan"
+    ],
+    [
+      "fundamental",
+      "asosiy, tamal"
+    ],
+    [
+      "logical thinking",
+      "mantiqiy fikrlash"
+    ],
+    [
+      "solve problems",
+      "muammolarni hal qilmoq"
+    ],
+    [
+      "exam hall",
+      "imtihon zali"
+    ],
+    [
+      "make sense of",
+      "tushunib olmoq"
+    ],
+    [
+      "unprepared",
+      "tayyor emas"
+    ],
+    [
+      "independent life",
+      "mustaqil hayot"
+    ],
+    [
+      "budget",
+      "byudjet tuzmoq"
+    ],
+    [
+      "read a contract",
+      "shartnomani o'qib tushunmoq"
+    ],
+    [
+      "well-being",
+      "farovonlik"
+    ],
+    [
+      "fall into debt",
+      "qarzga botmoq"
+    ],
+    [
+      "plan one's spending",
+      "xarajatni rejalashtirmoq"
+    ],
+    [
+      "curriculum",
+      "o'quv dasturi"
+    ],
+    [
+      "academic core",
+      "asosiy o'quv fanlari"
+    ],
+    [
+      "make room for",
+      "joy ajratmoq"
+    ],
+    [
+      "serve students",
+      "o'quvchilar manfaatiga xizmat qilmoq"
+    ]
+  ]
+}

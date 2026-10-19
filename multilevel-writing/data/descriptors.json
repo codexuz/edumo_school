@@ -1,0 +1,227 @@
+[
+  {
+    "part": "Part 1.1",
+    "subtitle": "Informal email to a friend · about 50 words · max 5 marks",
+    "target": [
+      4,
+      5
+    ],
+    "bands": [
+      {
+        "band": "5",
+        "level": "B2 or above",
+        "lead": "Performance is likely to be above B1 level.",
+        "points": []
+      },
+      {
+        "band": "4",
+        "level": "Higher B1",
+        "lead": "Response is on topic and shows the following features:",
+        "points": [
+          "Register may not be consistently appropriate.",
+          "Good control of simple grammatical structures, errors occur when attempting complex structures.",
+          "Punctuation and spelling are mostly accurate; errors do not cause misunderstanding.",
+          "Vocabulary is sufficient to respond to the task.",
+          "Uses simple cohesive devices to organize the response as a linear sequence of sentences."
+        ]
+      },
+      {
+        "band": "3",
+        "level": "Lower B1",
+        "lead": "Response is partially on topic and shows the following features:",
+        "points": [
+          "Register may not be consistently appropriate.",
+          "Good control of simple grammatical structures, errors occur when attempting complex structures.",
+          "Punctuation and spelling are mostly accurate; errors do not cause misunderstanding.",
+          "Vocabulary is sufficient to respond to the task.",
+          "Uses simple cohesive devices to organize the response as a linear sequence of sentences."
+        ]
+      },
+      {
+        "band": "2",
+        "level": "A2",
+        "lead": "Response may be partially on topic and shows the following features:",
+        "points": [
+          "Uses simple grammatical structures to produce writing at the sentence level. Errors with simple structures are common and sometimes impede understanding.",
+          "Punctuation and spelling mistakes are noticeable.",
+          "Vocabulary is not sufficient to respond to the task. Inappropriate lexical choices are noticeable and sometimes impede understanding.",
+          "Response may not be organized as a cohesive text."
+        ]
+      },
+      {
+        "band": "1",
+        "level": "A1 or lower",
+        "lead": "Performance is below A2, or substantial use of L1, or no meaningful language, or the response is completely off-topic (e.g. memorized script, guessing).",
+        "points": []
+      },
+      {
+        "band": "0",
+        "level": "",
+        "lead": "No attempt (answer sheet is blank).",
+        "points": []
+      }
+    ]
+  },
+  {
+    "part": "Part 1.2",
+    "subtitle": "Formal email · 120–150 words · max 6 marks",
+    "target": [
+      4,
+      5
+    ],
+    "bands": [
+      {
+        "band": "6",
+        "level": "C2",
+        "lead": "Performance is likely to be above C1 level.",
+        "points": []
+      },
+      {
+        "band": "5",
+        "level": "C1",
+        "lead": "Response is on topic and shows the following features:",
+        "points": [
+          "Register is consistently appropriate.",
+          "A range of complex grammar constructions is used accurately. Some minor errors occur, but do not impede understanding.",
+          "No errors in spelling and punctuation.",
+          "A range of vocabulary is used to discuss the topics required by the task. Some awkward usage or slightly inappropriate lexical choices.",
+          "A range of cohesive devices is used to indicate the links between ideas."
+        ]
+      },
+      {
+        "band": "4",
+        "level": "Higher B2",
+        "lead": "Response is on topic and shows the following features:",
+        "points": [
+          "Register is consistently appropriate.",
+          "Some complex grammar constructions are used accurately. Errors do not lead to misunderstanding.",
+          "Minor errors in punctuation and spelling occur but do not impede understanding.",
+          "Sufficient range of vocabulary to discuss the topics required by the task. Inappropriate lexical choices do not lead to misunderstanding.",
+          "A limited number of cohesive devices are used to indicate the links between ideas."
+        ]
+      },
+      {
+        "band": "3",
+        "level": "Lower B2",
+        "lead": "Response may be partially on topic and shows the following features:",
+        "points": [
+          "Register may not be consistently appropriate.",
+          "Some complex grammar constructions are used accurately. Errors do not lead to misunderstanding.",
+          "Minor errors in punctuation and spelling occur but do not impede understanding.",
+          "Sufficient range of vocabulary to discuss the topics required by the task. Inappropriate lexical choices do not lead to misunderstanding.",
+          "A limited number of cohesive devices are used to indicate the links between ideas."
+        ]
+      },
+      {
+        "band": "2",
+        "level": "B1",
+        "lead": "Response may be partially on topic and shows the following features:",
+        "points": [
+          "Register may not be consistently appropriate.",
+          "Good control of simple grammatical structures, errors occur when attempting complex structures.",
+          "Punctuation and spelling are mostly accurate; errors do not cause misunderstanding.",
+          "Vocabulary is sufficient to respond to the task.",
+          "Uses simple cohesive devices to organize the response as a linear sequence of sentences."
+        ]
+      },
+      {
+        "band": "1",
+        "level": "A2",
+        "lead": "Response may be partially on topic and shows the following features:",
+        "points": [
+          "No evidence of awareness of register.",
+          "Uses simple grammatical structures to produce writing at the sentence level. Errors with simple structures are common and sometimes impede understanding.",
+          "Punctuation and spelling mistakes are noticeable.",
+          "Vocabulary is not sufficient to respond to the task. Inappropriate lexical choices are noticeable and sometimes impede understanding.",
+          "Response may not be organized as a cohesive text."
+        ]
+      },
+      {
+        "band": "0",
+        "level": "",
+        "lead": "No meaningful language, or substantial use of L1, or the response is completely off-topic (e.g. memorized script, guessing), or no attempt (answer sheet is blank).",
+        "points": []
+      }
+    ]
+  },
+  {
+    "part": "Part 2",
+    "subtitle": "Online discussion post · 180–200 words · max 6 marks",
+    "target": [
+      5
+    ],
+    "bands": [
+      {
+        "band": "6",
+        "level": "C2",
+        "lead": "Performance is likely to be above C1 level.",
+        "points": []
+      },
+      {
+        "band": "5",
+        "level": "C1",
+        "lead": "Response shows the following features:",
+        "points": [
+          "Fully addresses the question with a clear stance and relevant arguments.",
+          "A range of complex grammar constructions is used accurately. Some minor errors occur, but do not impede understanding.",
+          "A range of vocabulary is used to discuss the topics required by the task. Some awkward usage or slightly inappropriate lexical choices.",
+          "Well-structured post or article with clear paragraphs; smooth flow of ideas and use of linking expressions."
+        ]
+      },
+      {
+        "band": "4",
+        "level": "Higher B2",
+        "lead": "Response shows the following features:",
+        "points": [
+          "Addresses the question clearly with minor digressions; stance is evident.",
+          "Some complex grammar constructions are used accurately. Errors do not lead to misunderstanding.",
+          "Minor errors in punctuation and spelling occur but do not impede understanding.",
+          "Sufficient range of vocabulary to discuss the topics required by the task. Inappropriate lexical choices do not lead to misunderstanding.",
+          "Clear structure with some use of connectors and logical flow."
+        ]
+      },
+      {
+        "band": "3",
+        "level": "Lower B2",
+        "lead": "Response shows the following features:",
+        "points": [
+          "Mostly relevant but may lack clarity in stance or have minor off-topic parts.",
+          "Some complex grammar constructions are used accurately. Errors do not lead to misunderstanding.",
+          "Minor errors in punctuation and spelling occur but do not impede understanding.",
+          "Sufficient range of vocabulary to discuss the topics required by the task. Inappropriate lexical choices do not lead to misunderstanding.",
+          "Some organization; transitions may be unclear or mechanical."
+        ]
+      },
+      {
+        "band": "2",
+        "level": "B1",
+        "lead": "Response shows the following features:",
+        "points": [
+          "Mostly relevant but may lack clarity in stance or have minor off-topic parts.",
+          "Good control of simple grammatical structures, errors occur when attempting complex structures.",
+          "Punctuation and spelling are mostly accurate; errors do not cause misunderstanding.",
+          "Inappropriate lexical choices may sometimes lead to misunderstanding.",
+          "Uses simple cohesive devices to organize the response as a linear sequence of sentences."
+        ]
+      },
+      {
+        "band": "1",
+        "level": "A2",
+        "lead": "Response shows the following features:",
+        "points": [
+          "Limited focus on task; ideas may be unclear or partly off-topic.",
+          "Uses simple grammatical structures to produce writing at the sentence level. Errors with simple structures are common and sometimes impede understanding.",
+          "Punctuation and spelling mistakes are noticeable.",
+          "Vocabulary is not sufficient to respond to the task. Inappropriate lexical choices are noticeable and sometimes impede understanding.",
+          "Response may not be organized as a cohesive text."
+        ]
+      },
+      {
+        "band": "0",
+        "level": "",
+        "lead": "No meaningful language, or substantial use of L1, or the response is completely off-topic (e.g. memorized script, guessing), or no attempt (answer sheet is blank).",
+        "points": []
+      }
+    ]
+  }
+]

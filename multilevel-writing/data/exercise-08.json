@@ -1,0 +1,203 @@
+{
+  "n": 8,
+  "topic": "A complaint about noise",
+  "context": "You live in a high-rise building and you received a complaint letter from your neighbour.",
+  "letter": {
+    "greeting": "Dear Neighbour,",
+    "paragraphs": [
+      "I am sorry to have to write to you, but the noise from your flat caused real inconvenience for me and my family last night.",
+      "I would ask you to consider the other residents when you hold gatherings in your flat. I hope there will be no more loud noise late in the evening, and I would be grateful for your help in preventing it."
+    ],
+    "signoff": "Warm regards,",
+    "signer": "Mr Edward"
+  },
+  "task11": "Write a letter to your friend, who is also your neighbour. Write about your feelings about this complaint letter and what plans you have to prevent such inconvenience.",
+  "task12": "Write a letter to your neighbour. Write about your feelings about this complaint letter and what plans you have to prevent such inconvenience.",
+  "part2_question": "Should students be banned from using smartphones at school?",
+  "samples": {
+    "task11": [
+      "Hi Jack,",
+      "Mr Edward has sent me a letter about the noise from my party last night. I feel rather embarrassed, as I never meant to disturb anyone. From now on I will keep the music down and warn the neighbours beforehand. Shall we talk about it this evening?",
+      "Best,",
+      "Alex"
+    ],
+    "task12": [
+      "Dear Mr Edward,",
+      "Thank you for your letter about the noise from my flat last night. I am sorry that my guests disturbed you and your family. I had not realised how clearly the sound carries through the building, and it was certainly never my intention to cause you any trouble.",
+      "I would like to assure you that it will not happen again. In future I will keep gatherings smaller and quieter, turn the music off by ten o'clock, and let you know in advance whenever I am expecting visitors. I have also spoken to the two families on my floor so that they know they can contact me directly if anything disturbs them.",
+      "I value good relations with my neighbours and I hope this letter puts the matter right.",
+      "Yours sincerely,",
+      "Alex"
+    ],
+    "part2": [
+      "Whether smartphones belong in school is a question that divides parents and teachers, and I would argue for clear rules rather than a complete ban.",
+      "There is no denying that phones distract. A screen lighting up with notifications makes it almost impossible for a teenager to follow the lesson, and we have all seen students scrolling through social media while the teacher is explaining something important. That constant temptation genuinely damages learning.",
+      "However, a smartphone is also a powerful tool. Dictionaries, research sites, language apps and digital textbooks all sit in a student's pocket, and banning the device removes those opportunities along with the distraction. A student who has forgotten a word can look it up in seconds instead of losing the thread of the lesson entirely.",
+      "The sensible answer, in my opinion, lies between the two positions. Phones should be put away during direct teaching and brought out only for specific tasks the teacher has set. Schools should also teach responsible digital habits, because students will carry those habits long after they leave the classroom. A blanket ban also teaches nothing: it simply removes the device without ever showing young people how to manage it sensibly."
+    ]
+  },
+  "vocab_task1": [
+    [
+      "high-rise building",
+      "ko'p qavatli bino"
+    ],
+    [
+      "neighbour",
+      "qo'shni"
+    ],
+    [
+      "complaint letter",
+      "shikoyat xati"
+    ],
+    [
+      "inconvenience",
+      "noqulaylik"
+    ],
+    [
+      "gathering",
+      "yig'ilish, bazm"
+    ],
+    [
+      "disturb",
+      "bezovta qilmoq"
+    ],
+    [
+      "embarrassed",
+      "xijolat bo'lgan"
+    ],
+    [
+      "sound carries",
+      "ovoz tarqaladi"
+    ],
+    [
+      "intention",
+      "niyat"
+    ],
+    [
+      "assure",
+      "ishontirmoq"
+    ],
+    [
+      "keep the music down",
+      "musiqani past qilmoq"
+    ],
+    [
+      "in advance",
+      "oldindan"
+    ],
+    [
+      "expect visitors",
+      "mehmon kutmoq"
+    ],
+    [
+      "good relations",
+      "yaxshi munosabat"
+    ],
+    [
+      "put the matter right",
+      "masalani hal qilmoq"
+    ],
+    [
+      "apologise",
+      "uzr so'ramoq"
+    ],
+    [
+      "resident",
+      "yashovchi, aholi"
+    ],
+    [
+      "late in the evening",
+      "kech oqshomda"
+    ],
+    [
+      "beforehand",
+      "oldindan"
+    ],
+    [
+      "cause trouble",
+      "tashvish keltirmoq"
+    ]
+  ],
+  "vocab_part2": [
+    [
+      "ban",
+      "taqiqlamoq; taqiq"
+    ],
+    [
+      "divide opinion",
+      "fikrlarni ikkiga bo'lmoq"
+    ],
+    [
+      "there is no denying",
+      "inkor etib bo'lmaydi"
+    ],
+    [
+      "distract",
+      "chalg'itmoq"
+    ],
+    [
+      "notification",
+      "bildirishnoma"
+    ],
+    [
+      "scroll through",
+      "varaqlab ko'rmoq"
+    ],
+    [
+      "temptation",
+      "vasvasa, qiziqish"
+    ],
+    [
+      "damage learning",
+      "o'qishga zarar yetkazmoq"
+    ],
+    [
+      "powerful tool",
+      "kuchli vosita"
+    ],
+    [
+      "research site",
+      "tadqiqot sayti"
+    ],
+    [
+      "digital textbook",
+      "raqamli darslik"
+    ],
+    [
+      "remove an opportunity",
+      "imkoniyatdan mahrum qilmoq"
+    ],
+    [
+      "sensible",
+      "oqilona"
+    ],
+    [
+      "lie between",
+      "o'rtada bo'lmoq"
+    ],
+    [
+      "direct teaching",
+      "bevosita dars berish"
+    ],
+    [
+      "set a task",
+      "vazifa bermoq"
+    ],
+    [
+      "responsible digital habits",
+      "mas'uliyatli raqamli odatlar"
+    ],
+    [
+      "argue for",
+      "yoqlab fikr bildirmoq"
+    ],
+    [
+      "complete ban",
+      "to'liq taqiq"
+    ],
+    [
+      "follow the lesson",
+      "darsni kuzatib bormoq"
+    ]
+  ]
+}

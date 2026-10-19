@@ -1,0 +1,204 @@
+{
+  "n": 6,
+  "topic": "A hotel apology",
+  "context": "You recently stayed at the Grandview Hotel for a short trip. Unfortunately, your experience was not good: your room was very noisy and the air conditioning was not working properly. After you complained at check-out, the hotel has sent you an apology letter.",
+  "letter": {
+    "greeting": "Dear Customer,",
+    "paragraphs": [
+      "We truly regret that your experience fell short of our usual high standards. Please be assured that we are addressing these issues immediately to prevent similar occurrences for future guests.",
+      "As a gesture of our sincere apology, we would like to offer you a complimentary one-night stay in a newly renovated deluxe room, valid for six months. We value your feedback and hope you will give us another opportunity to demonstrate our commitment to guest satisfaction."
+    ],
+    "signoff": "Sincerely,",
+    "signer": "Grandview Hotel Manager"
+  },
+  "task11": "Write a short message to a friend, who knows about your recent trip. Tell them about the apology letter you received from the Grandview Hotel. Say what you think about their apology and the offer.",
+  "task12": "Write an email to the hotel manager. Express your appreciation for the apology and the offer. Explain whether you plan to accept their offer, or whether you have an alternative suggestion for a resolution.",
+  "part2_question": "What are the reasons for air pollution?",
+  "samples": {
+    "task11": [
+      "Hi Jack,",
+      "Do you remember how noisy my room at the Grandview was? The hotel has written to apologise. They admitted the problems and offered me a free night in a renovated room. I think that is a fair response, so I will probably accept it. Fancy coming along?",
+      "Best,",
+      "Alex"
+    ],
+    "task12": [
+      "Dear Sir or Madam,",
+      "Thank you for your letter about my recent stay at the Grandview Hotel. I appreciate that you have acknowledged the noise and the problem with the air conditioning rather than dismissing my complaint, and I am glad to hear that the faults are being dealt with.",
+      "I am also grateful for the offer of a complimentary night in a newly renovated room. It is a generous gesture and I would like to accept it. It shows that you take guest comfort seriously, and that is why I will be happy to stay with you again.",
+      "I intend to return within the next three months and will contact the reception to arrange a suitable date. I would simply ask that the room be on a quiet floor, away from the lift.",
+      "Yours faithfully,",
+      "Alex"
+    ],
+    "part2": [
+      "Air pollution affects almost every large city in the world, and in my view three causes stand out.",
+      "The first is industry. Factories release large quantities of harmful gases and fine particles while they are producing goods, and in countries with heavy manufacturing, such as China and India, air quality falls sharply around industrial areas.",
+      "The second cause is transport. Vehicles burning petrol and diesel emit carbon monoxide and nitrogen oxides, and where traffic is dense these gases form the smog that triggers breathing problems. Los Angeles and Mexico City are well-known examples of cities where the sheer number of cars damages the air.",
+      "The third cause is domestic. Burning wood or coal for heating and cooking fills the air with smoke and toxic substances, a practice still common in many developing countries and a serious risk to the families concerned. Rural households are often the hardest to reach with cleaner alternatives, because wood and coal remain the cheapest fuel available to them.",
+      "Industry, transport and household fuel are therefore the main culprits, and tackling all three is essential if air quality and public health are to improve."
+    ]
+  },
+  "vocab_task1": [
+    [
+      "apology",
+      "uzr"
+    ],
+    [
+      "acknowledge",
+      "tan olmoq"
+    ],
+    [
+      "dismiss a complaint",
+      "shikoyatni e'tiborsiz qoldirmoq"
+    ],
+    [
+      "fault",
+      "nuqson, kamchilik"
+    ],
+    [
+      "deal with",
+      "hal qilmoq"
+    ],
+    [
+      "complimentary",
+      "bepul taqdim etilgan"
+    ],
+    [
+      "generous gesture",
+      "saxiy qadam"
+    ],
+    [
+      "renovated",
+      "ta'mirlangan"
+    ],
+    [
+      "air conditioning",
+      "konditsioner"
+    ],
+    [
+      "check-out",
+      "mehmonxonadan chiqish"
+    ],
+    [
+      "high standards",
+      "yuqori me'yorlar"
+    ],
+    [
+      "prevent",
+      "oldini olmoq"
+    ],
+    [
+      "guest satisfaction",
+      "mehmon mamnuniyati"
+    ],
+    [
+      "sincere",
+      "samimiy"
+    ],
+    [
+      "resolution",
+      "yechim"
+    ],
+    [
+      "reception",
+      "qabulxona"
+    ],
+    [
+      "suitable date",
+      "qulay sana"
+    ],
+    [
+      "quiet floor",
+      "tinch qavat"
+    ],
+    [
+      "lift",
+      "lift"
+    ],
+    [
+      "fair response",
+      "adolatli javob"
+    ]
+  ],
+  "vocab_part2": [
+    [
+      "air pollution",
+      "havo ifloslanishi"
+    ],
+    [
+      "stand out",
+      "ajralib turmoq"
+    ],
+    [
+      "industry",
+      "sanoat"
+    ],
+    [
+      "release",
+      "chiqarmoq, tarqatmoq"
+    ],
+    [
+      "harmful gases",
+      "zararli gazlar"
+    ],
+    [
+      "fine particles",
+      "mayda zarrachalar"
+    ],
+    [
+      "heavy manufacturing",
+      "og'ir sanoat"
+    ],
+    [
+      "air quality",
+      "havo sifati"
+    ],
+    [
+      "emit",
+      "chiqarmoq"
+    ],
+    [
+      "carbon monoxide",
+      "is gazi"
+    ],
+    [
+      "nitrogen oxides",
+      "azot oksidlari"
+    ],
+    [
+      "dense traffic",
+      "zich transport oqimi"
+    ],
+    [
+      "smog",
+      "smog, tutunli tuman"
+    ],
+    [
+      "trigger",
+      "keltirib chiqarmoq"
+    ],
+    [
+      "breathing problems",
+      "nafas olish muammolari"
+    ],
+    [
+      "domestic",
+      "uy sharoitidagi"
+    ],
+    [
+      "toxic substances",
+      "zaharli moddalar"
+    ],
+    [
+      "developing country",
+      "rivojlanayotgan davlat"
+    ],
+    [
+      "culprit",
+      "aybdor, sabab"
+    ],
+    [
+      "public health",
+      "jamoat salomatligi"
+    ]
+  ]
+}

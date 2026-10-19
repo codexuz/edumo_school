@@ -1,0 +1,67 @@
+{
+  "title": "A marked sample",
+  "intro": "This is an official examiner-marked script for the fitness club task you will meet in Exercise 5. Read the responses, the marks and the examiner's comments together: they show exactly what moves an answer up or down a band.",
+  "tasks": [
+    {
+      "label": "Task 1.1",
+      "mark": 5,
+      "max": 5,
+      "response": [
+        "Hi Ben,",
+        "Did you hear the club is closing for a month? I'm really disappointed — we'll miss our workouts! I think they should offer online classes or outdoor group sessions during the break. Also, it'd be great if they improve the showers and maybe add more space in the stretching area.",
+        "Take care,",
+        "Nico"
+      ],
+      "comment": [
+        "The response is beyond level B1."
+      ]
+    },
+    {
+      "label": "Task 1.2",
+      "mark": 3,
+      "max": 6,
+      "response": [
+        "Dear Manager,",
+        "Thank you for your email. Even I understand that the building needs some repairs and new equipment, I was a bit disappointed to hear that the fitness club will be closed for one month. I usually come a few times a week, so it's an important part of my lifestyle.",
+        "I would like to suggest some improvements. The changing rooms are sometimes too small and not very clean, so maybe they can be repaired. It would be also nice to have more fitness classes in the evenings when most people can come.",
+        "Thank you for listening to our opinions. I hope to return to club soon.",
+        "Best regards,",
+        "Nicolas Tedros."
+      ],
+      "comment": [
+        "The response is on topic, but the questions are not fully addressed.",
+        "The register is appropriate. A range of complex structures are used.",
+        "Vocabulary is sufficient to discuss the topics. Errors in grammar and word choice do not cause misunderstanding.",
+        "Some cohesive devices and referencing are used to connect sentences."
+      ]
+    },
+    {
+      "label": "Task 2",
+      "mark": 4,
+      "max": 6,
+      "response": [
+        "I think living in a small town is better than living in a big city, even if both have some advantages. In my opinion, small towns are more calm and people can live there with less stress. There is not so much noise and traffic like in big cities, so it's easier to relax and enjoy free time. Also, the air is more clean and the nature is closer, which is good for health.",
+        "Another reason is that people in small towns usually know each other and are more friendly. There is a stronger feeling of community, and it's easier to make friends. For example, in my town I often meet people I know when I go outside.",
+        "Of course, big cities offer more job opportunities and better education. You can find more shops, cinemas, and restaurants there. But I think life in a city can be very fast and tired. It's not easy to find a silent place or to have time for yourself.",
+        "In conclusion, I prefer to living in a small town because the life is easier and more peaceful. I know that some people choose big cities, but for me, small town gives better quality of life."
+      ],
+      "comment": [
+        "The response is relevant and the stance is clear.",
+        "A range of complex structures are used. Vocabulary is sufficient to discuss the topics.",
+        "Errors in grammar and some awkward usage of vocabulary do not cause misunderstanding.",
+        "Clear structure with some use of connectors and logical flow."
+      ]
+    }
+  ],
+  "overall": {
+    "score": 12,
+    "max": 17,
+    "standard": 57,
+    "level": "B2"
+  },
+  "takeaways": [
+    "Task 1.2 lost marks for coverage, not for language: the letter answers only part of what the manager asked. Always check how many questions the prompt contains.",
+    "Task 2 scored 4 rather than 5 because of awkward word choice (\"life in a city can be very tired\", \"I prefer to living\"), not because of the ideas.",
+    "Neither script is perfect English. Band 4–5 answers still contain small errors; what matters is that the errors never stop the reader understanding."
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "n": 5,
+  "topic": "A fitness club closure",
+  "context": "You are a member of a fitness club. You received an email from the manager of the club.",
+  "letter": {
+    "greeting": "Dear Member,",
+    "paragraphs": [
+      "I am sorry to inform you that the fitness centre is closing for a month from next Monday. The building needs some repairs and we also plan to install some new equipment.",
+      "What else do you think should be changed? As the centre will not be operating for a month, what kind of alternative activities should we organise in the meantime? We appreciate your opinion very much."
+    ],
+    "signoff": "Best regards,",
+    "signer": "The Manager"
+  },
+  "task11": "Write a letter to your friend, who is also a member of the club. Write about your feelings and what you think the club management should do about the situation.",
+  "task12": "Write a letter to the manager. Write about your feelings and what you think the club management should do about the situation.",
+  "part2_question": "Is it better to live in a big city or a small town?",
+  "samples": {
+    "task11": [
+      "Hi Jack,",
+      "Have you read the manager's email? The club is closing for a whole month. I am quite disappointed, because I train there three times a week. I think they should run outdoor sessions in the park so that we keep our routine. Would you come to those?",
+      "Best,",
+      "Alex"
+    ],
+    "task12": [
+      "Dear Manager,",
+      "Thank you for telling us about the temporary closure of the fitness centre. I understand that the repairs and the new equipment are necessary, but I must admit that I am disappointed, as training here is an important part of my week.",
+      "You asked what else should change. In my opinion, the changing rooms need attention most: they are small and often untidy. I would also welcome more classes in the evening, when most members are free. A few members have also mentioned that the equipment in the free-weights area is often left untidy.",
+      "As for the closing month, outdoor group sessions in the park or online training videos would keep us motivated. Regular updates on the progress of the work would also be appreciated.",
+      "Yours faithfully,",
+      "Alex"
+    ],
+    "part2": [
+      "Both big cities and small towns have their attractions, but on balance I believe a big city offers more for someone at the start of their career.",
+      "The first reason is opportunity. Cities contain far more employers, and a person working in a specialised field has a realistic chance of finding the right job. Someone interested in technology, for example, will find many more openings in a city than in a provincial town.",
+      "The second reason is variety. Museums, theatres, concerts and restaurants from a dozen countries are all within reach, and this constant contact with different cultures broadens the way you think. A city also exposes you to ideas and people you would simply never meet at home.",
+      "Of course, city life has a price. Housing is expensive, the streets are noisy and the pace can be exhausting, whereas a small town offers calm and a genuine sense of community. Many people also find that neighbours in a small town know and help one another in a way that rarely happens in a city block.",
+      "In the end the choice depends on your stage of life, but for those seeking growth, the city is usually the better option."
+    ]
+  },
+  "vocab_task1": [
+    [
+      "fitness centre",
+      "sport zali"
+    ],
+    [
+      "temporary closure",
+      "vaqtinchalik yopilish"
+    ],
+    [
+      "repairs",
+      "ta'mirlash ishlari"
+    ],
+    [
+      "equipment",
+      "jihozlar"
+    ],
+    [
+      "management",
+      "boshqaruv"
+    ],
+    [
+      "routine",
+      "kundalik tartib"
+    ],
+    [
+      "disappointed",
+      "hafsalasi pir bo'lgan"
+    ],
+    [
+      "changing room",
+      "kiyinish xonasi"
+    ],
+    [
+      "untidy",
+      "tartibsiz"
+    ],
+    [
+      "alternative activities",
+      "muqobil mashg'ulotlar"
+    ],
+    [
+      "outdoor session",
+      "ochiq havodagi mashg'ulot"
+    ],
+    [
+      "online training videos",
+      "onlayn mashg'ulot videolari"
+    ],
+    [
+      "keep motivated",
+      "rag'batni saqlab qolmoq"
+    ],
+    [
+      "regular updates",
+      "muntazam xabarlar"
+    ],
+    [
+      "progress of the work",
+      "ishlarning borishi"
+    ],
+    [
+      "sense of community",
+      "jamoaviylik hissi"
+    ],
+    [
+      "appreciate",
+      "qadrlamoq"
+    ],
+    [
+      "necessary",
+      "zarur"
+    ],
+    [
+      "train",
+      "mashq qilmoq"
+    ],
+    [
+      "in the meantime",
+      "shu orada"
+    ]
+  ],
+  "vocab_part2": [
+    [
+      "on balance",
+      "umuman olganda"
+    ],
+    [
+      "attraction",
+      "jozibali tomon"
+    ],
+    [
+      "opportunity",
+      "imkoniyat"
+    ],
+    [
+      "employer",
+      "ish beruvchi"
+    ],
+    [
+      "specialised field",
+      "ixtisoslashgan soha"
+    ],
+    [
+      "opening",
+      "bo'sh ish o'rni"
+    ],
+    [
+      "provincial town",
+      "viloyat shaharchasi"
+    ],
+    [
+      "variety",
+      "xilma-xillik"
+    ],
+    [
+      "within reach",
+      "qo'l yetadigan masofada"
+    ],
+    [
+      "broaden",
+      "kengaytirmoq"
+    ],
+    [
+      "housing",
+      "uy-joy"
+    ],
+    [
+      "pace",
+      "sur'at"
+    ],
+    [
+      "exhausting",
+      "charchatuvchi"
+    ],
+    [
+      "calm",
+      "osoyishtalik"
+    ],
+    [
+      "genuine",
+      "chinakam"
+    ],
+    [
+      "growth",
+      "o'sish"
+    ],
+    [
+      "stage of life",
+      "hayot bosqichi"
+    ],
+    [
+      "realistic chance",
+      "real imkoniyat"
+    ],
+    [
+      "constant contact",
+      "doimiy muloqot"
+    ],
+    [
+      "have a price",
+      "o'z narxiga ega bo'lmoq"
+    ]
+  ]
+}

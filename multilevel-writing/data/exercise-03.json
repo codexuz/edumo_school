@@ -1,0 +1,203 @@
+{
+  "n": 3,
+  "topic": "Welcoming new colleagues",
+  "context": "You work in an office and your company wants to make new colleagues feel more welcome. Your company sent out a message about this.",
+  "letter": {
+    "greeting": "Dear Employee,",
+    "paragraphs": [
+      "We want to make our new colleagues feel very welcome when they start working here. We are planning a new way to help them settle in quickly and feel part of the team.",
+      "We are at the beginning of this plan and want to hear your ideas. We have some initial thoughts below, but we really want to know what you think. Your ideas are important to help us make this a great welcome for everyone."
+    ],
+    "signoff": "Sincerely,",
+    "signer": "The HR Department"
+  },
+  "task11": "Write a short message to a colleague. Tell them about the plan to welcome new staff. Say what you think about it and what kind of welcome you hope new people will get.",
+  "task12": "Write an email to the HR Department. Say you are happy about the plan to welcome new staff. Give some specific ideas for how to make new colleagues feel comfortable and quickly become part of the team.",
+  "part2_question": "Are celebrities good role models for young people?",
+  "samples": {
+    "task11": [
+      "Hi Jack,",
+      "Did you read the message from HR? They are planning a proper welcome for new staff. I think it is a great idea. I hope new people get a friendly colleague to show them around and a team lunch in their first week, so nobody has to eat alone on day one.",
+      "Best,",
+      "Alex"
+    ],
+    "task12": [
+      "Dear HR Department,",
+      "Thank you for your message about improving the welcome our new colleagues receive. I fully support the plan, as a good start makes a real difference to how quickly someone settles in.",
+      "I would like to suggest three practical steps. Firstly, a buddy system, in which an experienced colleague guides a new starter for the first few weeks, would give them someone to ask the small questions they may hesitate to raise with a manager. Secondly, a team lunch in the first week would make introductions easy and relaxed.",
+      "Finally, please make sure that a desk, a computer and all the necessary access are ready before the first day, together with a clear timetable for that week.",
+      "Yours faithfully,",
+      "Alex"
+    ],
+    "part2": [
+      "Whether celebrities make good role models is, in my opinion, a question with no single answer: some certainly do, and many clearly do not.",
+      "On the positive side, a number of well-known figures use their fame responsibly. Some campaign for environmental causes or fund educational charities, and an actor who speaks publicly about the value of reading can persuade thousands of teenagers to open a book. Athletes are often even more convincing, because the dedication and discipline behind their success are visible to everyone.",
+      "However, the opposite is equally common. The lifestyle presented on many celebrity accounts is extravagant and encourages young people to measure themselves by possessions and appearance. This creates expectations that ordinary life can never satisfy, and the scandals that follow some famous names set a poor example to an audience still too young to judge what it sees critically. Teenagers are particularly vulnerable here, because the people they admire are presented to them as polished images rather than as real human beings.",
+      "For that reason, I would say that celebrities can be role models, but young people should look past the glamour and follow the actions rather than the image."
+    ]
+  },
+  "vocab_task1": [
+    [
+      "colleague",
+      "hamkasb"
+    ],
+    [
+      "settle in",
+      "o'rnashib olmoq"
+    ],
+    [
+      "feel part of the team",
+      "o'zini jamoaning bir qismi deb his qilmoq"
+    ],
+    [
+      "initiative",
+      "tashabbus"
+    ],
+    [
+      "supportive environment",
+      "qo'llab-quvvatlovchi muhit"
+    ],
+    [
+      "buddy system",
+      "hamrohlik tizimi"
+    ],
+    [
+      "experienced employee",
+      "tajribali xodim"
+    ],
+    [
+      "new starter",
+      "yangi ishga kirgan xodim"
+    ],
+    [
+      "company culture",
+      "kompaniya madaniyati"
+    ],
+    [
+      "introductions",
+      "tanishtiruv"
+    ],
+    [
+      "onboarding process",
+      "ishga moslashtirish jarayoni"
+    ],
+    [
+      "employee retention",
+      "xodimlarni saqlab qolish"
+    ],
+    [
+      "team morale",
+      "jamoa kayfiyati"
+    ],
+    [
+      "hesitate",
+      "ikkilanmoq"
+    ],
+    [
+      "raise a question",
+      "savol ko'tarmoq"
+    ],
+    [
+      "necessary access",
+      "zarur ruxsatlar"
+    ],
+    [
+      "timetable",
+      "jadval"
+    ],
+    [
+      "practical step",
+      "amaliy qadam"
+    ],
+    [
+      "make a difference",
+      "sezilarli ta'sir ko'rsatmoq"
+    ],
+    [
+      "show someone around",
+      "kimnidir aylantirib ko'rsatmoq"
+    ]
+  ],
+  "vocab_part2": [
+    [
+      "role model",
+      "ibrat, o'rnak"
+    ],
+    [
+      "fame",
+      "shuhrat"
+    ],
+    [
+      "responsibly",
+      "mas'uliyat bilan"
+    ],
+    [
+      "campaign for",
+      "... uchun kurashmoq"
+    ],
+    [
+      "environmental cause",
+      "ekologik maqsad"
+    ],
+    [
+      "educational charity",
+      "ta'lim xayriya tashkiloti"
+    ],
+    [
+      "persuade",
+      "ishontirmoq"
+    ],
+    [
+      "dedication",
+      "fidoyilik"
+    ],
+    [
+      "discipline",
+      "intizom"
+    ],
+    [
+      "convincing",
+      "ishonarli"
+    ],
+    [
+      "extravagant",
+      "hashamatli, isrofgarchilikka moyil"
+    ],
+    [
+      "possessions",
+      "mol-mulk"
+    ],
+    [
+      "appearance",
+      "tashqi ko'rinish"
+    ],
+    [
+      "expectations",
+      "umidlar, kutilmalar"
+    ],
+    [
+      "scandal",
+      "janjal, mish-mish"
+    ],
+    [
+      "set an example",
+      "namuna ko'rsatmoq"
+    ],
+    [
+      "judge critically",
+      "tanqidiy baholamoq"
+    ],
+    [
+      "glamour",
+      "jozibadorlik, yaltiroqlik"
+    ],
+    [
+      "look past",
+      "e'tibor bermaslik, nariga qaramoq"
+    ],
+    [
+      "image",
+      "obraz, tasvir"
+    ]
+  ]
+}

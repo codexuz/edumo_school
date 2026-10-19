@@ -1,0 +1,203 @@
+{
+  "n": 1,
+  "topic": "A library closure",
+  "context": "You are a member of a local community library. You received an email from the head librarian.",
+  "letter": {
+    "greeting": "Dear Member,",
+    "paragraphs": [
+      "I hope this message finds you well. I regret to inform you that the library will be closed for two weeks starting next Friday for renovations and upgrades to our facilities. We aim to enhance your reading experience.",
+      "In the meantime, we would love to hear your suggestions on what new programs or services we could offer upon reopening. Your input is invaluable to us."
+    ],
+    "signoff": "Best regards,",
+    "signer": "The Head Librarian"
+  },
+  "task11": "Write a letter to your friend, who is also a member of the library. Write about your feelings and what you think the library management should do about the situation.",
+  "task12": "Write a letter to the head librarian. Write about your feelings and what you think the library management should do about the situation.",
+  "part2_question": "What are the advantages and disadvantages of online learning compared to traditional classroom learning?",
+  "samples": {
+    "task11": [
+      "Hi Jack,",
+      "Did you get the email? The library is closing for two weeks for renovations. I'm really disappointed, because I have just started a new series. I think they should set up a small shelf in the community hall so that members can still borrow books. What do you think?",
+      "Best,",
+      "Alex"
+    ],
+    "task12": [
+      "Dear Head Librarian,",
+      "Thank you for letting us know about the upcoming renovations. I understand that the building needs to be upgraded, but I must admit that I feel disappointed, because the library is an important part of my week and two weeks is a long time without it.",
+      "I would like to suggest a few things. Firstly, it would help enormously if members could borrow extra books just before the closure. Secondly, a temporary collection in the community hall would keep the service running for readers who cannot afford to buy books.",
+      "Finally, when the library reopens, I would love to see more e-books and audiobooks, as well as evening workshops or author talks. Clear updates about the reopening date would also be very welcome.",
+      "Yours sincerely,",
+      "Alex"
+    ],
+    "part2": [
+      "That is a very relevant question, and having studied in both ways, I can see clear advantages and disadvantages.",
+      "The biggest advantage of online learning is flexibility. You can open the materials whenever your schedule allows, which is invaluable if you are working or looking after a family. You can also repeat a difficult explanation as many times as you need, which is impossible in a live class. In addition, the range of resources available online, from interactive exercises to huge digital libraries, is far wider than any single classroom can offer.",
+      "On the other hand, a traditional classroom offers a social dynamic that is hard to reproduce on a screen. Face-to-face contact with the teacher and the other students produces immediate feedback and spontaneous discussion, and this really does increase both understanding and motivation. Group activities in a real room fix new vocabulary in your memory in a way that breakout rooms rarely do, and studying alone online can feel isolating.",
+      "Overall, I believe the best solution is a blended approach that combines the convenience of online resources with the human contact of the classroom."
+    ]
+  },
+  "vocab_task1": [
+    [
+      "library",
+      "kutubxona"
+    ],
+    [
+      "renovations",
+      "ta'mirlash ishlari"
+    ],
+    [
+      "upgrades",
+      "yangilanishlar"
+    ],
+    [
+      "member",
+      "a'zo"
+    ],
+    [
+      "suggestion",
+      "taklif"
+    ],
+    [
+      "facilities",
+      "inshootlar, qulayliklar"
+    ],
+    [
+      "closure",
+      "yopilish"
+    ],
+    [
+      "inconvenient",
+      "noqulay"
+    ],
+    [
+      "resource",
+      "resurs, manba"
+    ],
+    [
+      "collection",
+      "to'plam"
+    ],
+    [
+      "digital",
+      "raqamli"
+    ],
+    [
+      "literacy",
+      "savodxonlik"
+    ],
+    [
+      "workshop",
+      "mashg'ulot, seminar"
+    ],
+    [
+      "communication",
+      "muloqot"
+    ],
+    [
+      "transition",
+      "o'tish davri"
+    ],
+    [
+      "temporary",
+      "vaqtinchalik"
+    ],
+    [
+      "afford",
+      "sotib olishga qurbi yetmoq"
+    ],
+    [
+      "enormously",
+      "juda ham, katta darajada"
+    ],
+    [
+      "Yours sincerely",
+      "hurmat bilan (rasmiy)"
+    ],
+    [
+      "Best regards",
+      "eng yaxshi tilaklar bilan"
+    ]
+  ],
+  "vocab_part2": [
+    [
+      "online learning",
+      "onlayn ta'lim"
+    ],
+    [
+      "traditional classroom",
+      "an'anaviy sinfxona"
+    ],
+    [
+      "advantage",
+      "afzallik"
+    ],
+    [
+      "disadvantage",
+      "kamchilik"
+    ],
+    [
+      "flexibility",
+      "moslashuvchanlik"
+    ],
+    [
+      "schedule",
+      "jadval"
+    ],
+    [
+      "access",
+      "kirish, foydalanish"
+    ],
+    [
+      "materials",
+      "materiallar"
+    ],
+    [
+      "invaluable",
+      "bebaho"
+    ],
+    [
+      "commitment",
+      "majburiyat"
+    ],
+    [
+      "interaction",
+      "o'zaro aloqa"
+    ],
+    [
+      "immediate feedback",
+      "tezkor fikr-mulohaza"
+    ],
+    [
+      "spontaneous discussion",
+      "o'z-o'zidan boshlanadigan muhokama"
+    ],
+    [
+      "motivation",
+      "rag'bat, motivatsiya"
+    ],
+    [
+      "isolating",
+      "yolg'izlantiruvchi"
+    ],
+    [
+      "blended approach",
+      "aralash yondashuv"
+    ],
+    [
+      "reproduce",
+      "takrorlamoq, qayta yaratmoq"
+    ],
+    [
+      "social dynamic",
+      "ijtimoiy muhit, munosabatlar"
+    ],
+    [
+      "breakout room",
+      "kichik guruh xonasi (onlayn)"
+    ],
+    [
+      "human contact",
+      "jonli muloqot"
+    ]
+  ]
+}

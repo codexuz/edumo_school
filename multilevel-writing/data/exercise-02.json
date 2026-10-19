@@ -1,0 +1,203 @@
+{
+  "n": 2,
+  "topic": "A new community park",
+  "context": "You are a resident in a neighbourhood where a new community park is being planned. You received a flyer from the local council.",
+  "letter": {
+    "greeting": "Dear Resident,",
+    "paragraphs": [
+      "We are excited to announce plans for a new community park in our neighbourhood! This project aims to create a green space for recreation and community gathering.",
+      "We are currently in the early planning stages and want to gather your feedback on the proposed features. We have included a brief overview of some initial ideas, but we are keen to hear your thoughts and suggestions. Your input is crucial in shaping this space for everyone to enjoy."
+    ],
+    "signoff": "Sincerely,",
+    "signer": "The Local Council Planning Department"
+  },
+  "task11": "Write a short note to your neighbour, who is also your friend. Write about your initial reaction to the news and what you hope to see in the park.",
+  "task12": "Write an email to the Local Council Planning Department. Express your feelings about the park plans and provide specific suggestions for features or facilities you believe would benefit the community.",
+  "part2_question": "Is technology making our lives better or worse?",
+  "samples": {
+    "task11": [
+      "Hi Jack,",
+      "Have you seen the flyer about the new park? I am thrilled! Our street finally gets a green space for walking and meeting people. I really hope they include a playground for the children and a few benches in the shade. Shall we send our ideas together?",
+      "Best,",
+      "Alex"
+    ],
+    "task12": [
+      "Dear Sir or Madam,",
+      "I am writing to express my enthusiasm about the plans for a new community park in our neighbourhood. This is a wonderful opportunity to improve our local environment and to bring neighbours together.",
+      "To make the park useful for everyone, I would like to suggest several features. Firstly, walking and cycling paths would encourage outdoor exercise at any age. Secondly, picnic areas with tables and benches would give families somewhere to gather, and a fenced playground would offer a safe space for small children.",
+      "Finally, I hope you will plant native trees and shrubs, which would both beautify the park and support local wildlife. Thank you for consulting residents, and I look forward to seeing the project take shape.",
+      "Yours faithfully,",
+      "Alex"
+    ],
+    "part2": [
+      "Technology is a much debated subject, and in my view its effect on our lives is neither entirely good nor entirely bad.",
+      "On the positive side, technology has clearly improved our quality of life. Medical advances have produced better treatment, and telemedicine now allows patients in remote areas to consult a doctor without travelling for hours. Communication has been transformed as well: social platforms keep us in touch with relatives abroad, and online courses have opened education to people who could never have attended a university in person.",
+      "There are, however, real costs. Constant use of smartphones and social media is linked to isolation and anxiety, particularly among teenagers who compare themselves with everyone they see on a screen. Automation is also replacing familiar jobs faster than workers can retrain for new ones. Perhaps most worrying of all, the sheer volume of information online makes it harder, not easier, for people to tell what is actually true.",
+      "Ultimately, I would argue that technology itself is neutral and that the outcome depends on how carefully we use it. If we set sensible limits and invest in retraining, the benefits will clearly outweigh the drawbacks."
+    ]
+  },
+  "vocab_task1": [
+    [
+      "community",
+      "jamoa, mahalla"
+    ],
+    [
+      "resident",
+      "mahalla aholisi"
+    ],
+    [
+      "flyer",
+      "varaqa, e'lon"
+    ],
+    [
+      "local council",
+      "mahalliy kengash"
+    ],
+    [
+      "green space",
+      "ko'kalamzor hudud"
+    ],
+    [
+      "recreation",
+      "dam olish"
+    ],
+    [
+      "feature",
+      "xususiyat, element"
+    ],
+    [
+      "proposed",
+      "taklif qilingan"
+    ],
+    [
+      "feedback",
+      "fikr-mulohaza"
+    ],
+    [
+      "enthusiasm",
+      "ishtiyoq"
+    ],
+    [
+      "walking and cycling paths",
+      "piyoda va velosiped yo'laklari"
+    ],
+    [
+      "picnic area",
+      "piknik maydoni"
+    ],
+    [
+      "bench",
+      "o'rindiq, skameyka"
+    ],
+    [
+      "playground",
+      "o'yin maydonchasi"
+    ],
+    [
+      "fenced",
+      "panjara bilan o'ralgan"
+    ],
+    [
+      "native trees",
+      "mahalliy daraxtlar"
+    ],
+    [
+      "shrub",
+      "buta"
+    ],
+    [
+      "beautify",
+      "chiroyli qilmoq"
+    ],
+    [
+      "wildlife",
+      "yovvoyi tabiat"
+    ],
+    [
+      "consult residents",
+      "aholi bilan maslahatlashmoq"
+    ]
+  ],
+  "vocab_part2": [
+    [
+      "much debated",
+      "ko'p muhokama qilinadigan"
+    ],
+    [
+      "quality of life",
+      "hayot sifati"
+    ],
+    [
+      "medical advances",
+      "tibbiyot yutuqlari"
+    ],
+    [
+      "telemedicine",
+      "masofaviy tibbiy maslahat"
+    ],
+    [
+      "remote area",
+      "uzoq hudud"
+    ],
+    [
+      "transform",
+      "tubdan o'zgartirmoq"
+    ],
+    [
+      "keep in touch",
+      "aloqani saqlamoq"
+    ],
+    [
+      "open education to",
+      "ta'limni ... uchun ochmoq"
+    ],
+    [
+      "isolation",
+      "yolg'izlik"
+    ],
+    [
+      "anxiety",
+      "tashvish, xavotir"
+    ],
+    [
+      "compare oneself with",
+      "o'zini ... bilan solishtirmoq"
+    ],
+    [
+      "automation",
+      "avtomatlashtirish"
+    ],
+    [
+      "retrain",
+      "qayta tayyorlanmoq"
+    ],
+    [
+      "neutral",
+      "betaraf"
+    ],
+    [
+      "outcome",
+      "natija"
+    ],
+    [
+      "sensible limits",
+      "oqilona cheklovlar"
+    ],
+    [
+      "outweigh",
+      "ustun kelmoq"
+    ],
+    [
+      "drawback",
+      "kamchilik"
+    ],
+    [
+      "real costs",
+      "jiddiy xarajat, zarar"
+    ],
+    [
+      "in my view",
+      "mening fikrimcha"
+    ]
+  ]
+}

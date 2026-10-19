@@ -1,0 +1,203 @@
+{
+  "n": 4,
+  "topic": "Improving the school environment",
+  "context": "You are a teacher at a school, and the head teacher wants to improve the school environment to make it a better place for both students and staff. The head teacher has sent out a message seeking input.",
+  "letter": {
+    "greeting": "Dear Teaching Staff,",
+    "paragraphs": [
+      "We are committed to making our school an even better place for everyone. To achieve this, we are looking for innovative ways to enhance our school setting — making it more supportive for students and more effective for us as educators.",
+      "We believe your insights are invaluable, as you are on the front lines every day. We have a few initial ideas, but we are eager to hear your thoughts and suggestions. Your professional experience is crucial in shaping a more positive and productive school environment."
+    ],
+    "signoff": "Sincerely,",
+    "signer": "The Head Teacher"
+  },
+  "task11": "Write a short message to a colleague, who is a close friend. Tell them about the head teacher's plan to improve the school environment. Say what you think about it and what kind of improvements you hope for.",
+  "task12": "Write an email to the head teacher. Express your support for the plan to improve the school environment. Provide specific suggestions for how the school setting could be made more supportive for students and more effective for teachers.",
+  "part2_question": "What do you think about the impact of social media on young users?",
+  "samples": {
+    "task11": [
+      "Hi Jack,",
+      "Did you see the head teacher's message about improving the school? I think it is a really good idea. I am hoping for better resources in the classrooms and a quiet room where students can work or just calm down at break. Shall we write our suggestions together?",
+      "Best,",
+      "Alex"
+    ],
+    "task12": [
+      "Dear Head Teacher,",
+      "Thank you for your message about improving our school environment. I fully support the initiative and believe it is an excellent opportunity to make the school better for students and staff alike.",
+      "To support students, I would suggest creating designated quiet zones where they can study independently or simply rest during breaks. Investing in interactive learning tools and replacing the oldest classroom furniture would also improve concentration and comfort noticeably.",
+      "For teachers, clearer communication channels and a proper staff room for planning and short breaks would be extremely welcome. Simplifying our administrative paperwork, perhaps through better digital tools, would free up time for teaching itself. I would be glad to help develop any of these ideas.",
+      "Yours sincerely,",
+      "Alex"
+    ],
+    "part2": [
+      "Social media has become part of daily life for almost every teenager, and I believe its influence is genuinely double-edged.",
+      "On the one hand, these platforms give young users real opportunities to connect. They keep friendships alive, share experiences and join communities that would be impossible to find in a small town. Instagram and TikTok also allow them to express their creativity and show talents to an audience, which can build confidence and a clear sense of identity. For teenagers who feel different from everyone around them, finding others with the same interests online can be genuinely important.",
+      "On the other hand, the risks cannot be ignored. The pressure to present a perfect image online leads many young people to feel inadequate, and research has repeatedly linked heavy use to anxiety and low self-esteem. Cyberbullying is a further danger, and its emotional effects can last for years. The design of these apps makes matters worse, since they are deliberately built to hold attention for as long as possible.",
+      "In conclusion, while social media offers valuable chances to connect and create, it also threatens well-being. Young users need to use these platforms thoughtfully and keep a healthy balance with real-world life."
+    ]
+  },
+  "vocab_task1": [
+    [
+      "school environment",
+      "maktab muhiti"
+    ],
+    [
+      "initiative",
+      "tashabbus"
+    ],
+    [
+      "enhance",
+      "yaxshilamoq"
+    ],
+    [
+      "supportive",
+      "qo'llab-quvvatlovchi"
+    ],
+    [
+      "educator",
+      "o'qituvchi, pedagog"
+    ],
+    [
+      "insight",
+      "fikr, mulohaza"
+    ],
+    [
+      "designated quiet zone",
+      "ajratilgan tinch hudud"
+    ],
+    [
+      "study independently",
+      "mustaqil shug'ullanmoq"
+    ],
+    [
+      "interactive learning tools",
+      "interaktiv o'quv vositalari"
+    ],
+    [
+      "classroom furniture",
+      "sinf mebeli"
+    ],
+    [
+      "concentration",
+      "diqqat, e'tibor"
+    ],
+    [
+      "communication channel",
+      "aloqa kanali"
+    ],
+    [
+      "staff room",
+      "o'qituvchilar xonasi"
+    ],
+    [
+      "administrative paperwork",
+      "ma'muriy qog'ozbozlik"
+    ],
+    [
+      "free up time",
+      "vaqtni bo'shatmoq"
+    ],
+    [
+      "calm down",
+      "tinchlanmoq"
+    ],
+    [
+      "resources",
+      "resurslar, vositalar"
+    ],
+    [
+      "productive",
+      "samarali"
+    ],
+    [
+      "noticeably",
+      "sezilarli darajada"
+    ],
+    [
+      "alike",
+      "bir xilda, ikkalasi uchun ham"
+    ]
+  ],
+  "vocab_part2": [
+    [
+      "double-edged",
+      "ikki tomonlama, ham foydali ham zararli"
+    ],
+    [
+      "platform",
+      "platforma"
+    ],
+    [
+      "keep friendships alive",
+      "do'stlikni saqlab qolmoq"
+    ],
+    [
+      "express creativity",
+      "ijodkorlikni namoyon qilmoq"
+    ],
+    [
+      "build confidence",
+      "o'ziga ishonchni oshirmoq"
+    ],
+    [
+      "sense of identity",
+      "shaxsiyat hissi"
+    ],
+    [
+      "pressure",
+      "bosim"
+    ],
+    [
+      "perfect image",
+      "mukammal obraz"
+    ],
+    [
+      "feel inadequate",
+      "o'zini yetarli emas deb his qilmoq"
+    ],
+    [
+      "research has linked",
+      "tadqiqotlar bog'liqlikni ko'rsatgan"
+    ],
+    [
+      "heavy use",
+      "haddan ziyod foydalanish"
+    ],
+    [
+      "low self-esteem",
+      "past o'z-o'zini baholash"
+    ],
+    [
+      "cyberbullying",
+      "kiberbulling, onlayn ta'qib"
+    ],
+    [
+      "emotional effects",
+      "hissiy oqibatlar"
+    ],
+    [
+      "threaten",
+      "xavf solmoq"
+    ],
+    [
+      "well-being",
+      "farovonlik, salomatlik"
+    ],
+    [
+      "thoughtfully",
+      "o'ylab, ehtiyotkorlik bilan"
+    ],
+    [
+      "healthy balance",
+      "sog'lom muvozanat"
+    ],
+    [
+      "real-world life",
+      "haqiqiy hayot"
+    ],
+    [
+      "cannot be ignored",
+      "e'tibordan chetda qoldirib bo'lmaydi"
+    ]
+  ]
+}
