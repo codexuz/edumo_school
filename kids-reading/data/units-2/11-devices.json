@@ -1,0 +1,176 @@
+{
+  "n": 11,
+  "title": "Can I borrow your charger?",
+  "topic": "Devices and permission",
+  "emoji": "📱",
+  "color": "lime",
+  "text_type": "story",
+  "before": {
+    "words": [
+      [
+        "charger",
+        "zaryadlagich",
+        "🔌"
+      ],
+      [
+        "borrow",
+        "qarzga olmoq",
+        "🤲"
+      ],
+      [
+        "battery",
+        "batareya",
+        "🔋"
+      ],
+      [
+        "laptop",
+        "noutbuk",
+        "💻"
+      ],
+      [
+        "headphones",
+        "quloqchin",
+        "🎧"
+      ],
+      [
+        "careful",
+        "ehtiyotkor",
+        "⚠️"
+      ]
+    ],
+    "predict": "Look at the picture. What does the boy need?"
+  },
+  "text": {
+    "title": "The empty battery",
+    "meta": "A short story",
+    "paragraphs": [
+      "It was Friday afternoon. Otabek had a big problem: his phone **battery** was at two per cent and his project was on the phone. He had only twenty minutes before the lesson.",
+      "“Can I **borrow** your **charger**?” he asked Nodira. “I am sorry,” she said, “my **charger** is at home. But you can use my **laptop**.”",
+      "“Thank you!” said Otabek. “Can I use your **headphones** too?” Nodira smiled. “Yes, you can. But please be **careful** with them — they are new.” Otabek was very careful. He put them on the table, not on the floor.",
+      "Otabek finished his project on the **laptop**. Then he gave everything back. “Thank you, Nodira. You saved my project!” The project was about the planets and it had fifteen pictures.",
+      "“No problem,” said Nodira. “But next Friday — bring your own **charger**!”"
+    ],
+    "picture": "📱🔌"
+  },
+  "tf": [
+    [
+      "Otabek's phone battery was at two per cent.",
+      true
+    ],
+    [
+      "Nodira had her charger at school.",
+      false
+    ],
+    [
+      "Nodira let Otabek use her laptop.",
+      true
+    ],
+    [
+      "The headphones were old.",
+      false
+    ],
+    [
+      "Otabek finished his project.",
+      true
+    ]
+  ],
+  "mcq": [
+    {
+      "q": "What day was it?",
+      "options": [
+        "Monday",
+        "Friday",
+        "Sunday"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Where was Nodira's charger?",
+      "options": [
+        "at home",
+        "in her bag",
+        "at school"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What else did Otabek borrow?",
+      "options": [
+        "a pen",
+        "headphones",
+        "a book"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What does Nodira say about next Friday?",
+      "options": [
+        "Bring your own charger.",
+        "Come early.",
+        "Bring a laptop."
+      ],
+      "answer": 0
+    }
+  ],
+  "match": [
+    [
+      "charger",
+      "🔌"
+    ],
+    [
+      "laptop",
+      "💻"
+    ],
+    [
+      "headphones",
+      "🎧"
+    ],
+    [
+      "phone",
+      "📱"
+    ],
+    [
+      "battery",
+      "🔋"
+    ]
+  ],
+  "gaps": [
+    [
+      "Otabek's ___ was at two per cent.",
+      "battery"
+    ],
+    [
+      "He wanted to ___ a charger.",
+      "borrow"
+    ],
+    [
+      "Nodira's charger was at ___.",
+      "home"
+    ],
+    [
+      "Otabek used Nodira's ___.",
+      "laptop"
+    ],
+    [
+      "Nodira said, “Please be ___.”",
+      "careful"
+    ]
+  ],
+  "wordsearch": [
+    "CHARGER",
+    "BORROW",
+    "BATTERY",
+    "LAPTOP",
+    "PHONE",
+    "CAREFUL",
+    "FRIDAY",
+    "PROJECT"
+  ],
+  "about_you": [
+    "What electronic device do you use every day?",
+    "Can you borrow things from your friends?",
+    "What do you say when you want to borrow something?"
+  ],
+  "draw": "Draw the device you use most. Write two sentences.",
+  "fun_fact": "The first mobile phone in 1983 was 25 cm long and its battery lasted only 30 minutes!"
+}

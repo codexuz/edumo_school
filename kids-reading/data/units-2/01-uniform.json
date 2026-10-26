@@ -1,0 +1,177 @@
+{
+  "n": 1,
+  "title": "Our new school uniform!",
+  "topic": "Uniforms and family",
+  "emoji": "👕",
+  "color": "blue",
+  "text_type": "chat",
+  "before": {
+    "words": [
+      [
+        "uniform",
+        "forma",
+        "👕"
+      ],
+      [
+        "wearing",
+        "kiyib turibdi",
+        "🧥"
+      ],
+      [
+        "shirt",
+        "ko‘ylak",
+        "👔"
+      ],
+      [
+        "skirt",
+        "yubka",
+        "🩱"
+      ],
+      [
+        "sister",
+        "singil",
+        "👧"
+      ],
+      [
+        "photo",
+        "surat",
+        "📷"
+      ]
+    ],
+    "predict": "Look at the picture. What are the children wearing today?"
+  },
+  "text": {
+    "title": "First day in the new uniform",
+    "meta": "Nilufar · Jasur · 8:10 a.m.",
+    "paragraphs": [
+      "Nilufar: Good morning, Jasur! Are you wearing the new **uniform** today?",
+      "Jasur: Yes, I am! I am **wearing** a blue **shirt** and grey trousers. My mum is taking a **photo** of me now. She is very happy!",
+      "Nilufar: Me too! I am wearing a white shirt and a blue **skirt**. My little **sister** is wearing her uniform too, but it is too big for her! Mum says she can make it smaller tonight.",
+      "Jasur: Ha ha! What is your brother doing? Is he ready for school?",
+      "Nilufar: He is looking for his shoes. He is always late! Look — here is my **photo**. Do you like my uniform? They are under his bed, of course! Now he is running to the kitchen for breakfast.",
+      "Jasur: It is great! See you at school. You look very smart in it. My bus is coming now — bye!"
+    ],
+    "picture": "👕📷"
+  },
+  "tf": [
+    [
+      "Jasur is wearing a blue shirt.",
+      true
+    ],
+    [
+      "Nilufar is wearing a red skirt.",
+      false
+    ],
+    [
+      "Jasur's mother is taking a photo.",
+      true
+    ],
+    [
+      "Nilufar's sister is not wearing a uniform.",
+      false
+    ],
+    [
+      "Nilufar's brother is looking for his bag.",
+      false
+    ]
+  ],
+  "mcq": [
+    {
+      "q": "What colour are Jasur's trousers?",
+      "options": [
+        "blue",
+        "grey",
+        "white"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Who is taking a photo?",
+      "options": [
+        "Jasur's mum",
+        "Nilufar",
+        "the teacher"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "How does Nilufar's sister's uniform fit?",
+      "options": [
+        "too small",
+        "too big",
+        "perfect"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What is Nilufar's brother doing?",
+      "options": [
+        "eating breakfast",
+        "looking for his shoes",
+        "taking a photo"
+      ],
+      "answer": 1
+    }
+  ],
+  "match": [
+    [
+      "uniform",
+      "👕"
+    ],
+    [
+      "photo",
+      "📷"
+    ],
+    [
+      "shoes",
+      "👟"
+    ],
+    [
+      "sister",
+      "👧"
+    ],
+    [
+      "morning",
+      "🌅"
+    ]
+  ],
+  "gaps": [
+    [
+      "Jasur is wearing a blue ___.",
+      "shirt"
+    ],
+    [
+      "Nilufar is wearing a blue ___.",
+      "skirt"
+    ],
+    [
+      "Jasur's mum is taking a ___.",
+      "photo"
+    ],
+    [
+      "Nilufar's little ___ has a big uniform.",
+      "sister"
+    ],
+    [
+      "Nilufar's brother is looking for his ___.",
+      "shoes"
+    ]
+  ],
+  "wordsearch": [
+    "UNIFORM",
+    "SHIRT",
+    "SKIRT",
+    "PHOTO",
+    "SHOES",
+    "SISTER",
+    "MORNING",
+    "SCHOOL"
+  ],
+  "about_you": [
+    "What are you wearing today?",
+    "Do you like your school uniform? Why?",
+    "What is your family doing now?"
+  ],
+  "draw": "Draw your school uniform. Write two sentences about it.",
+  "fun_fact": "In England, most school children wear a uniform. In Finland, nobody does!"
+}

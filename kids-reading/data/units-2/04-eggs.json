@@ -1,0 +1,177 @@
+{
+  "n": 4,
+  "title": "Are there any eggs?",
+  "topic": "Food and shopping",
+  "emoji": "🥚",
+  "color": "yellow",
+  "text_type": "letter",
+  "before": {
+    "words": [
+      [
+        "eggs",
+        "tuxum",
+        "🥚"
+      ],
+      [
+        "fridge",
+        "muzlatgich",
+        "🧊"
+      ],
+      [
+        "shopping",
+        "xarid",
+        "🛒"
+      ],
+      [
+        "list",
+        "ro‘yxat",
+        "📝"
+      ],
+      [
+        "apples",
+        "olmalar",
+        "🍎"
+      ],
+      [
+        "market",
+        "bozor",
+        "🏪"
+      ]
+    ],
+    "predict": "Look at the picture. What is Gulnora writing?"
+  },
+  "text": {
+    "title": "A note for Bobur",
+    "meta": "On the kitchen table",
+    "paragraphs": [
+      "Dear Bobur,",
+      "I am at work today. Please go to the **market** after school. Here is your **shopping** **list**.",
+      "There are no **eggs** in the **fridge**, so please buy ten **eggs**. There are some **apples**, but there are only two. Please buy six more. Are there any tomatoes? I think there are three, but they are very small. Buy eight, please. There is some rice in the big blue box, so we do not need any rice this week.",
+      "There is no bread. Buy two loaves. There is some cheese and there is some butter, so do not buy them. There are no onions either. Please buy one kilo.",
+      "The money is in the blue cup. Thank you, my dear son! Please come home before six o'clock, because your grandmother is coming for dinner.",
+      "Mum"
+    ],
+    "picture": "🥚🛒"
+  },
+  "tf": [
+    [
+      "Bobur's mother is at work.",
+      true
+    ],
+    [
+      "There are ten eggs in the fridge.",
+      false
+    ],
+    [
+      "There are two apples in the house.",
+      true
+    ],
+    [
+      "Bobur must buy bread.",
+      true
+    ],
+    [
+      "There is no cheese in the fridge.",
+      false
+    ]
+  ],
+  "mcq": [
+    {
+      "q": "How many eggs must Bobur buy?",
+      "options": [
+        "six",
+        "eight",
+        "ten"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "How many apples must he buy?",
+      "options": [
+        "two",
+        "six",
+        "eight"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What must he NOT buy?",
+      "options": [
+        "butter",
+        "tomatoes",
+        "bread"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Where is the money?",
+      "options": [
+        "in the blue cup",
+        "on the table",
+        "in the fridge"
+      ],
+      "answer": 0
+    }
+  ],
+  "match": [
+    [
+      "eggs",
+      "🥚"
+    ],
+    [
+      "apples",
+      "🍎"
+    ],
+    [
+      "bread",
+      "🍞"
+    ],
+    [
+      "cheese",
+      "🧀"
+    ],
+    [
+      "money",
+      "💰"
+    ]
+  ],
+  "gaps": [
+    [
+      "Bobur must go to the ___.",
+      "market"
+    ],
+    [
+      "There are no ___ in the fridge.",
+      "eggs"
+    ],
+    [
+      "There are only two ___.",
+      "apples"
+    ],
+    [
+      "He must buy two loaves of ___.",
+      "bread"
+    ],
+    [
+      "The ___ is in the blue cup.",
+      "money"
+    ]
+  ],
+  "wordsearch": [
+    "EGGS",
+    "FRIDGE",
+    "MARKET",
+    "APPLES",
+    "BREAD",
+    "CHEESE",
+    "BUTTER",
+    "LIST"
+  ],
+  "about_you": [
+    "Are there any eggs in your kitchen now?",
+    "What do you buy at the market?",
+    "How many people are in your family?"
+  ],
+  "draw": "Draw your shopping list for today. Write two sentences.",
+  "fun_fact": "In Uzbek markets, people often give you one extra apple for free. It is called “qo‘shimcha”!"
+}

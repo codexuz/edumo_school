@@ -1,0 +1,175 @@
+{
+  "n": 6,
+  "title": "Dinner at nine o'clock!",
+  "topic": "Daily routines",
+  "emoji": "🍽️",
+  "color": "red",
+  "text_type": "diary",
+  "before": {
+    "words": [
+      [
+        "dinner",
+        "kechki ovqat",
+        "🍽️"
+      ],
+      [
+        "late",
+        "kech",
+        "🌙"
+      ],
+      [
+        "early",
+        "erta",
+        "🌅"
+      ],
+      [
+        "always",
+        "doim",
+        "🔁"
+      ],
+      [
+        "tired",
+        "charchagan",
+        "😴"
+      ],
+      [
+        "together",
+        "birga",
+        "👨‍👩‍👧"
+      ]
+    ],
+    "predict": "Look at the title. Does this family eat dinner early or late?"
+  },
+  "text": {
+    "title": "Monday, 9 October",
+    "meta": "Shahnoza's diary",
+    "paragraphs": [
+      "Today is a normal Monday. I get up **early**, at half past six. I **always** have bread and tea for breakfast. My brother never eats breakfast — he says he is not hungry! He only drinks a glass of milk and runs to the bus.",
+      "School starts at eight. I come home at two o'clock and I do my homework. Then I help my mother in the kitchen. On Mondays I also have a music lesson at four o'clock.",
+      "In my family we eat **dinner** very **late**, at nine o'clock. My father works until eight, so we wait for him. We all eat **together** and we talk about our day. I like this time very much. My little cousin always falls asleep at the table!",
+      "After **dinner** I am very **tired**. I read for ten minutes and then I sleep. Tomorrow is Tuesday — I have English!"
+    ],
+    "picture": "🍽️🌙"
+  },
+  "tf": [
+    [
+      "Shahnoza gets up at half past six.",
+      true
+    ],
+    [
+      "Her brother always eats a big breakfast.",
+      false
+    ],
+    [
+      "She comes home at two o'clock.",
+      true
+    ],
+    [
+      "The family eats dinner at seven o'clock.",
+      false
+    ],
+    [
+      "She reads before she sleeps.",
+      true
+    ]
+  ],
+  "mcq": [
+    {
+      "q": "What does Shahnoza have for breakfast?",
+      "options": [
+        "bread and tea",
+        "eggs",
+        "nothing"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Why does the family eat late?",
+      "options": [
+        "They are not hungry.",
+        "Father works until eight.",
+        "School finishes late."
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What does the family do at dinner?",
+      "options": [
+        "watch TV",
+        "talk about their day",
+        "do homework"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "How long does she read?",
+      "options": [
+        "ten minutes",
+        "half an hour",
+        "one hour"
+      ],
+      "answer": 0
+    }
+  ],
+  "match": [
+    [
+      "breakfast",
+      "🥖"
+    ],
+    [
+      "school",
+      "🏫"
+    ],
+    [
+      "dinner",
+      "🍽️"
+    ],
+    [
+      "sleep",
+      "😴"
+    ],
+    [
+      "tea",
+      "🍵"
+    ]
+  ],
+  "gaps": [
+    [
+      "Shahnoza gets up ___, at half past six.",
+      "early"
+    ],
+    [
+      "Her brother ___ eats breakfast.",
+      "never"
+    ],
+    [
+      "The family eats dinner at ___ o'clock.",
+      "nine"
+    ],
+    [
+      "They all eat ___.",
+      "together"
+    ],
+    [
+      "After dinner she is very ___.",
+      "tired"
+    ]
+  ],
+  "wordsearch": [
+    "DINNER",
+    "LATE",
+    "EARLY",
+    "TIRED",
+    "SLEEP",
+    "FAMILY",
+    "MONDAY",
+    "KITCHEN"
+  ],
+  "about_you": [
+    "What time do you eat dinner?",
+    "Do you get up early or late?",
+    "What do you do after dinner?"
+  ],
+  "draw": "Draw your family at dinner. Write two sentences.",
+  "fun_fact": "In Spain, many families eat dinner at ten o'clock at night!"
+}

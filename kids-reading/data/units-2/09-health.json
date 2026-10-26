@@ -1,0 +1,178 @@
+{
+  "n": 9,
+  "title": "Feel better soon!",
+  "topic": "Health",
+  "emoji": "🤒",
+  "color": "rose",
+  "text_type": "chat",
+  "before": {
+    "words": [
+      [
+        "ill",
+        "kasal",
+        "🤒"
+      ],
+      [
+        "headache",
+        "bosh og‘rig‘i",
+        "🤕"
+      ],
+      [
+        "doctor",
+        "shifokor",
+        "🩺"
+      ],
+      [
+        "medicine",
+        "dori",
+        "💊"
+      ],
+      [
+        "rest",
+        "dam olmoq",
+        "🛏️"
+      ],
+      [
+        "better",
+        "yaxshiroq",
+        "💪"
+      ]
+    ],
+    "predict": "Look at the picture. Who is ill today?"
+  },
+  "text": {
+    "title": "Get well, Davron!",
+    "meta": "Class group · Wednesday",
+    "paragraphs": [
+      "Malika: Hi Davron, you are not at school today. Are you **ill**?",
+      "Davron: Yes. I have a **headache** and my throat hurts. My mother is taking me to the **doctor** at four o'clock.",
+      "Malika: Oh no! You should drink hot tea with lemon. My grandmother always says that.",
+      "Davron: Thank you! I am in bed now. The **doctor** says I must take this **medicine** three times a day and **rest** for two days. I am reading a book about space. It is very interesting!",
+      "Malika: Do not worry about school. I can bring your books to your house. We have maths homework — page 42. Our teacher says you can do it next week, so do not worry.",
+      "Davron: You are a good friend. I feel **better** already!",
+      "Malika: Get well soon! See you on Friday. And please drink that tea with lemon!"
+    ],
+    "picture": "🤒💊"
+  },
+  "tf": [
+    [
+      "Davron is at school today.",
+      false
+    ],
+    [
+      "Davron has a headache.",
+      true
+    ],
+    [
+      "He is going to the doctor at four o'clock.",
+      true
+    ],
+    [
+      "He must rest for one week.",
+      false
+    ],
+    [
+      "Malika can bring his books.",
+      true
+    ]
+  ],
+  "mcq": [
+    {
+      "q": "What hurts Davron?",
+      "options": [
+        "his leg",
+        "his throat",
+        "his arm"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What does Malika's grandmother say?",
+      "options": [
+        "Drink hot tea with lemon.",
+        "Go to school.",
+        "Sleep all day."
+      ],
+      "answer": 0
+    },
+    {
+      "q": "How often must Davron take the medicine?",
+      "options": [
+        "once a day",
+        "twice a day",
+        "three times a day"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "What homework do they have?",
+      "options": [
+        "English",
+        "maths",
+        "history"
+      ],
+      "answer": 1
+    }
+  ],
+  "match": [
+    [
+      "medicine",
+      "💊"
+    ],
+    [
+      "bed",
+      "🛏️"
+    ],
+    [
+      "tea",
+      "🍵"
+    ],
+    [
+      "doctor",
+      "🩺"
+    ],
+    [
+      "books",
+      "📚"
+    ]
+  ],
+  "gaps": [
+    [
+      "Davron is ___ today.",
+      "ill"
+    ],
+    [
+      "He has a ___ and a sore throat.",
+      "headache"
+    ],
+    [
+      "He must take the ___ three times a day.",
+      "medicine"
+    ],
+    [
+      "He must ___ for two days.",
+      "rest"
+    ],
+    [
+      "Malika can bring his ___.",
+      "books"
+    ]
+  ],
+  "wordsearch": [
+    "ILL",
+    "HEADACHE",
+    "DOCTOR",
+    "MEDICINE",
+    "REST",
+    "BETTER",
+    "TEA",
+    "FRIEND"
+  ],
+  "about_you": [
+    "When are you ill, what do you do?",
+    "Who helps you when you feel bad?",
+    "What do you drink when you have a cold?"
+  ],
+  "draw": "Draw a “Get well soon!” card for a friend. Write two sentences.",
+  "fun_fact": "Honey is one of the oldest medicines in the world. People used it 5,000 years ago!"
+}

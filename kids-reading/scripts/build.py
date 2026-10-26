@@ -1,4 +1,8 @@
-"""Build "Read Time! 1" — kids' reading comprehension book (A5, playful, companion to Talk Time! 1) -> dist/read-time.html.
+"""Build a "Read Time!" kids' reading comprehension book (A5, playful) -> dist/read-time[-N].html.
+
+Usage: python3 scripts/build.py [1|2]      (default: 1)
+  1 -> data/units/   -> dist/read-time.html    (Teen2Teen 1, companion to Talk Time! 1)
+  2 -> data/units-2/ -> dist/read-time-2.html  (Teen2Teen 2)
 
 Each unit (4 pages): Before you read + the text → True/False, Choose, Match → Fill the gaps,
 Word search, fun fact → About you, Draw & write, reading stars. Answer key at the end.
@@ -7,11 +11,21 @@ import html
 import json
 import random
 import re
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-UNITS = [json.loads(f.read_text(encoding="utf-8")) for f in sorted((ROOT / "data" / "units").glob("*.json"))]
-BOOK = "Read Time! 1"
+BOOK_NO = sys.argv[1] if len(sys.argv) > 1 else "1"
+if BOOK_NO not in ("1", "2"):
+    raise SystemExit("usage: build.py [1|2]")
+UNIT_DIR = ROOT / "data" / ("units" if BOOK_NO == "1" else f"units-{BOOK_NO}")
+OUT_NAME = "read-time.html" if BOOK_NO == "1" else f"read-time-{BOOK_NO}.html"
+UNITS = [json.loads(f.read_text(encoding="utf-8")) for f in sorted(UNIT_DIR.glob("*.json"))]
+if not UNITS:
+    raise SystemExit(f"no unit files in {UNIT_DIR}")
+BOOK = f"Read Time! {BOOK_NO}"
+COURSE = f"Teen2Teen {BOOK_NO}"
+LEVEL = "A1" if BOOK_NO == "1" else "A1–A2"
 e = html.escape
 
 SECTIONS = {
@@ -56,7 +70,7 @@ def page(inner, n, unit=None, cls=""):
     ucls = unit["color"] if unit else ""
     return f"""<section class="page {ucls} {cls}">{tab}
  <div class="content">{inner}</div>
- <footer><span>{BOOK} · Teen2Teen 1</span><span class="pno">{n}</span></footer>
+ <footer><span>{BOOK} · {COURSE}</span><span class="pno">{n}</span></footer>
 </section>"""
 
 
@@ -187,12 +201,12 @@ def cover():
     stickers = "".join(f'<span class="{cls}">{emo} {title}</span>' for _, title, _, cls, emo in SECTIONS.values())
     return f"""<section class="page cover rcover"><div class="dots"></div><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
  <div class="floaters"><span>📚</span><span>🔍</span><span>⭐</span><span>📖</span><span>✏️</span></div>
- <div class="ctitle"><span class="kicker">TEEN2TEEN 1 · READING</span>
-  <h1>Read<br>Time! <span>📖</span></h1>
-  <p>12 fun texts · puzzles · <b>games &amp; stars!</b></p>
+ <div class="ctitle"><span class="kicker">{COURSE.upper()} · READING</span>
+  <h1>Read<br>Time! <span class="bno">{BOOK_NO}</span> <span>📖</span></h1>
+  <p>{len(UNITS)} fun texts · puzzles · <b>games &amp; stars!</b></p>
   <p class="uz">Qiziqarli matnlar, savollar va boshqotirmalar bilan ingliz tilida o‘qishni o‘rganamiz!</p></div>
  <div class="cstick">{stickers}</div>
- <div class="cfoot">🧒 For young learners · A1 · 🇺🇿 Uzbek support · ✅ Answer key</div>
+ <div class="cfoot">🧒 For young learners · {LEVEL} · 🇺🇿 Uzbek support · ✅ Answer key</div>
 </section>"""
 
 
@@ -206,7 +220,7 @@ def how_page():
  <ol class="howlist">{rows}</ol>
  <div class="golden"><b>🥇 Golden rule:</b> read the text <u>two times</u> before you answer!
   <span>Javob berishdan oldin matnni ikki marta o‘qing!</span></div>
-</div><footer><span>{BOOK} · Teen2Teen 1</span><span class="pno">2</span></footer></section>"""
+</div><footer><span>{BOOK} · {COURSE}</span><span class="pno">2</span></footer></section>"""
 
 
 def build():
@@ -222,8 +236,8 @@ def build():
     doc = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{BOOK}</title>
 {fonts}<style>{css}</style></head><body>{color_emoji(''.join(pages))}</body></html>"""
     (ROOT / "dist").mkdir(exist_ok=True)
-    (ROOT / "dist" / "read-time.html").write_text(doc, encoding="utf-8")
-    print("pages:", len(pages))
+    (ROOT / "dist" / OUT_NAME).write_text(doc, encoding="utf-8")
+    print(f"{BOOK}: {len(pages)} pages -> dist/{OUT_NAME}")
 
 
 if __name__ == "__main__":

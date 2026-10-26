@@ -1,0 +1,928 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Read Time! 2</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:ital,wght@0,500;0,700;0,800;0,900;1,500;1,700&family=Patrick+Hand&display=block"><style>:root{--blue:#1E90FF;--blue-d:#0B63CE;--navy:#13235B;--ink:#1F2A44;--muted:#6B7690;
+ --green:#22C55E;--green-l:#E8F9EE;--yellow:#F5B800;--yellow-l:#FFF6D6;--blue2:#2F9BFF;--blue-l:#E6F3FF;
+ --pink:#F0549A;--pink-l:#FFE8F2;--orange:#FF8A1F;--orange-l:#FFF0E0;--purple:#8B5CF6;--purple-l:#F1EBFF;--teal:#14B8A6;--teal-l:#E2F8F5}
+@page{size:148mm 210mm;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{font-family:Nunito,"DejaVu Sans",sans-serif;color:var(--ink);font-size:9pt;line-height:1.38;background:#fff}
+h1,h2,h3,.secno,.kicker,.count,.pno,.tab{font-family:Fredoka,Nunito,sans-serif}
+.page{width:148mm;height:210mm;position:relative;overflow:hidden;break-after:page;display:flex;flex-direction:column;padding:8mm 9mm 5mm;
+ background:#fff radial-gradient(circle at 100% 0,#F3F8FF 0,#F3F8FF 22mm,transparent 22.2mm)}
+.page:last-child{break-after:auto}
+.content{flex:1;display:flex;flex-direction:column;gap:2.6mm;min-height:0}
+footer{display:flex;justify-content:space-between;align-items:center;font-size:6.8pt;color:var(--muted);padding-top:3px;font-weight:700}
+footer span:first-child{display:flex;align-items:center;gap:4px}
+.pno{background:var(--navy);color:#fff;border-radius:999px;padding:1px 8px;font-size:8pt}
+.tab{position:absolute;right:0;top:9mm;width:11mm;height:12mm;border-radius:8px 0 0 8px;display:flex;align-items:center;justify-content:center;
+ font-size:16pt;font-weight:700;color:#fff;background:var(--tc)}
+.green{--tc:var(--green);--tl:var(--green-l)}
+
+/* colour helpers */
+.c-green{--c:var(--green);--cl:var(--green-l)}.c-yellow{--c:var(--yellow);--cl:var(--yellow-l)}.c-blue{--c:var(--blue2);--cl:var(--blue-l)}
+.c-pink{--c:var(--pink);--cl:var(--pink-l)}.c-orange{--c:var(--orange);--cl:var(--orange-l)}.c-purple{--c:var(--purple);--cl:var(--purple-l)}
+.c-teal{--c:var(--teal);--cl:var(--teal-l)}
+
+/* unit head */
+.uhead{display:flex;align-items:center;justify-content:space-between;border-radius:18px;padding:8px 14px;background:var(--tc);color:#fff;
+ box-shadow:0 4px 0 rgba(0,0,0,.08);margin-right:6mm}
+.utitle small{font-family:Fredoka;font-size:8pt;letter-spacing:.2em;font-weight:600;opacity:.9}
+.utitle h1{font-size:30pt;line-height:1;font-weight:700;letter-spacing:.01em;text-shadow:0 3px 0 rgba(0,0,0,.12)}
+.uemo{font-size:30pt}
+
+/* section header (sticker style) */
+.sec{display:flex;flex-direction:column;gap:2px}
+.sechead{display:flex;align-items:center;gap:8px}
+.secno{width:26px;height:26px;border-radius:50%;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:center;font-size:12pt;font-weight:700;flex:none}
+.sechead h2{background:var(--c);color:#fff;font-size:14pt;font-weight:700;border-radius:999px;padding:2px 14px 3px;letter-spacing:.01em;
+ box-shadow:0 3px 0 rgba(0,0,0,.12);text-transform:uppercase}
+.secemo{font-size:15pt}
+.count{margin-left:auto;background:var(--cl);color:var(--ink);border-radius:999px;padding:1px 9px;font-size:8.4pt;font-weight:600;border:1.5px solid var(--c)}
+.secuz{font-size:7.8pt;font-weight:700;color:#5A6482;font-style:italic;padding-left:34px}
+h3.sub{font-size:10pt;font-weight:600;color:var(--navy)}
+
+/* QR */
+.qr{display:flex;align-items:center;gap:6px}
+.qrimg{width:14mm;height:14mm;flex:none;background:#fff;border-radius:4px}
+.qrimg svg{display:block}
+.qr b{font-size:7.8pt;color:var(--navy);display:block}
+.qr small{font-size:6.8pt;color:var(--muted)}
+.content>.qr{align-self:flex-start;background:var(--green-l);border-radius:12px;padding:4px 10px 4px 5px}
+
+/* 1 vocabulary */
+.wgrid{display:flex;flex-direction:column;gap:2.4mm;flex:1}
+.wgroup{background:var(--green-l);border-radius:14px;padding:6px 9px}
+.wgroup h3{font-size:9.6pt;font-weight:600;color:#15803D;margin-bottom:3px}
+.wgroup ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:2px 10px}
+.wgroup li{display:grid;grid-template-columns:auto 1fr auto;align-items:baseline;gap:5px;font-size:8.8pt;border-bottom:1.5px dotted #A7E3BC;padding:2px 0}
+.wgroup li b{font-weight:800;color:var(--navy)}
+.wgroup li span{color:#4B5670;font-size:8pt;text-align:right}
+.box{width:9px;height:9px;border:1.5px solid #9AA4BC;border-radius:3px;display:inline-block;flex:none}
+
+/* 2 story */
+.storybox{background:var(--yellow-l);border:2px solid #F7D774;border-radius:16px;padding:8px 12px;flex:1;position:relative;
+ box-shadow:0 4px 0 #F7D774}
+.stitle{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:4px}
+.stitle h3{font-size:12pt;font-weight:700;color:#8A6400}
+.storybox p{font-size:9.3pt;line-height:1.45;margin-bottom:5px;text-align:justify}
+mark{background:linear-gradient(transparent 55%,#FFD84D 55%);font-weight:800;color:var(--navy);padding:0 1px}
+.reads{display:flex;align-items:center;gap:6px;font-size:8.4pt;font-weight:800;color:var(--navy)}
+.reads span{background:#fff;border:1.5px solid var(--yellow);border-radius:999px;padding:1px 8px;font-weight:700;font-size:7.8pt}
+.tf{background:#F6F8FC;border-radius:14px;padding:6px 10px}
+.tf h3{font-size:10pt;font-weight:600;color:var(--navy);margin-bottom:2px}
+.tf ul{list-style:none}
+.tf li{display:flex;justify-content:space-between;align-items:center;padding:3px 0;border-bottom:1px dashed #D8DEEA;font-size:8.8pt}
+.tfb{display:flex;gap:4px}
+.tfb i{font-style:normal;width:18px;height:18px;border-radius:50%;border:1.5px solid #9AA4BC;display:flex;align-items:center;justify-content:center;font-size:7.4pt;font-weight:900;color:#9AA4BC}
+
+/* 3 remember + 4 phrases */
+.bank{display:flex;flex-wrap:wrap;gap:4px;justify-content:center;background:var(--blue-l);border:2px dashed var(--blue2);border-radius:14px;padding:6px}
+.bank span{background:#fff;border-radius:999px;padding:1px 9px;font-weight:800;color:#0B63CE;font-size:8.4pt;box-shadow:0 2px 0 #B9DAFF}
+.gaps{padding-left:16px;font-size:9pt}
+.gaps li{padding:2.6px 0}
+.gaps li::marker{font-family:Fredoka;font-weight:700;color:var(--blue2)}
+.gapline{display:inline-block;width:27mm;border-bottom:2px solid var(--blue2);margin:0 2px;vertical-align:-2px}
+.phr{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:5px 8px;flex:1;align-content:start}
+.phr li{display:flex;flex-direction:column;gap:2px}
+.bubble{background:var(--pink-l);border:2px solid var(--pink);border-radius:14px 14px 14px 4px;padding:4px 8px;font-weight:800;color:#9D174D;font-size:8.6pt;position:relative}
+.phr li span{font-size:7.6pt;color:#5A6482;font-style:italic;padding-left:6px}
+
+/* 5 questions */
+.qlist{list-style:none;display:flex;flex-direction:column;gap:3px}
+.qlist li{display:flex;align-items:center;gap:7px;background:var(--orange-l);border-radius:12px;padding:5px 8px;font-size:9.4pt;font-weight:700}
+.qn{width:20px;height:20px;border-radius:50%;background:var(--orange);color:#fff;display:flex;align-items:center;justify-content:center;font-family:Fredoka;font-size:9pt;flex:none}
+.tipstrip{background:var(--navy);color:#fff;border-radius:12px;padding:5px 10px;font-size:8.6pt;font-weight:800}
+.tipstrip span{display:block;font-weight:600;font-size:7.6pt;opacity:.8;font-style:italic}
+.ans{border:2px solid var(--orange);border-radius:14px;padding:5px 9px;background:#fff}
+.ans b{font-size:8.6pt;color:#C2410C}
+.ans p{font-size:8.8pt}
+
+/* 6 speaking */
+.speech{background:var(--purple-l);border-radius:16px;padding:8px 12px;border:2px solid #C9B6FB;box-shadow:0 4px 0 #C9B6FB}
+.shead{display:flex;justify-content:space-between;align-items:center;margin-bottom:4px}
+.shead>b{font-family:Fredoka;font-size:11pt;color:#6D28D9;font-weight:600}
+.speech p{font-size:9.4pt;line-height:1.55}
+.speech mark{background:linear-gradient(transparent 55%,#D9C9FF 55%)}
+.chars{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:5px;flex:1}
+.chars li{display:flex;align-items:center;gap:7px;border:2px solid #E3D8FD;border-radius:14px;padding:6px 8px;background:#fff}
+.cemo{font-size:18pt}
+.chars b{font-family:Fredoka;font-size:10pt;font-weight:600;color:#5B21B6;display:block}
+.chars small{font-size:7.4pt;color:#5A6482;line-height:1.25;display:block}
+.chars .box{margin-left:auto;width:13px;height:13px}
+
+/* 7 assistant */
+.atopic{font-size:9.4pt}
+.atopic b{font-family:Fredoka;font-weight:600;color:var(--teal);font-size:11pt}
+.ablock{border-radius:14px;padding:5px 10px;background:var(--teal-l)}
+.ablock h3{font-size:9.6pt;font-weight:600;color:#0F766E;display:flex;gap:6px;align-items:baseline}
+.ablock h3 small{font-family:Nunito;font-size:7.4pt;color:#5A6482;font-style:italic;font-weight:700}
+.ablock ul{list-style:none}
+.ablock li{font-size:8.8pt;padding:1.5px 0}
+.ablock li b{font-weight:800}
+.ablock li span{color:#5A6482;font-style:italic;font-size:7.8pt;margin-left:5px}
+.challenge{display:flex;align-items:center;gap:8px;background:var(--orange-l);border:2px dashed var(--orange);border-radius:14px;padding:6px 10px}
+.challenge>span{font-size:20pt}
+.challenge b{font-family:Fredoka;font-weight:600;font-size:10pt;color:#C2410C;display:block}
+.challenge small{font-size:7.4pt;color:#5A6482}
+.tries{margin-left:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:3px;text-align:center}
+.tries i{width:12mm;height:8mm;border:1.5px solid var(--orange);border-radius:7px;background:#fff}
+.tries small{grid-column:1/-1;font-size:6.4pt}
+.cando{background:var(--yellow-l);border-radius:14px;padding:6px 10px;margin-top:auto}
+.cando h3{font-size:10pt;font-weight:600;color:#8A6400}
+.cando ul{list-style:none}
+.cando li{font-size:8.8pt;font-weight:700;padding:1.5px 0;display:flex;gap:5px}
+
+/* cover */
+.cover{background:linear-gradient(160deg,#2F9BFF 0%,#1E90FF 35%,#0B63CE 75%,#13235B 100%);color:#fff;padding:0}
+.cover .dots{position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.18) 1.2px,transparent 1.3px);background-size:6mm 6mm}
+.cover .blob{position:absolute;border-radius:50%}
+.cover .b1{width:80mm;height:80mm;right:-25mm;top:-20mm;background:#FFD84D;opacity:.95}
+.cover .b2{width:50mm;height:50mm;left:-18mm;bottom:38mm;background:#F0549A;opacity:.9}
+.ctitle{position:absolute;left:11mm;right:11mm;top:42mm}
+.kicker{display:inline-block;background:#fff;color:var(--blue-d);font-weight:700;font-size:8pt;letter-spacing:.14em;padding:3px 11px;border-radius:999px;box-shadow:0 3px 0 rgba(0,0,0,.15)}
+.ctitle h1{font-size:62pt;line-height:.9;font-weight:700;margin-top:8px;text-shadow:0 5px 0 rgba(0,0,0,.18)}
+.ctitle h1 span{font-size:40pt}
+.ctitle p{font-size:11pt;font-weight:700;margin-top:10px}
+.ctitle p b{background:#FFD84D;color:var(--navy);border-radius:6px;padding:0 5px}
+.ctitle p.uz{font-size:8.6pt;font-style:italic;opacity:.85;font-weight:600;margin-top:3px}
+.cstick{position:absolute;left:11mm;right:11mm;bottom:24mm;display:flex;flex-wrap:wrap;gap:5px}
+.cstick span{background:var(--c);color:#fff;font-family:Fredoka;font-weight:600;font-size:9pt;border-radius:999px;padding:3px 10px;box-shadow:0 3px 0 rgba(0,0,0,.18);transform:rotate(-2deg)}
+.cstick span:nth-child(even){transform:rotate(2deg)}
+.cfoot{position:absolute;left:11mm;right:11mm;bottom:10mm;font-size:8.4pt;font-weight:800;border-top:1.5px solid rgba(255,255,255,.35);padding-top:6px}
+
+/* how page */
+.howhead{display:flex;justify-content:space-between;align-items:center}
+.howhead h1{font-size:24pt;line-height:1;color:var(--navy);font-weight:700}
+.howhead span{font-size:32pt}
+.howintro{font-size:9pt;font-weight:700}
+.howintro span{display:block;font-weight:600;font-style:italic;color:#5A6482;font-size:8pt}
+.howlist{list-style:none;display:flex;flex-direction:column;gap:4px;flex:1}
+.howlist li{display:flex;align-items:center;gap:8px;background:var(--cl);border-left:5px solid var(--c);border-radius:0 14px 14px 0;padding:5px 9px;flex:1}
+.howlist b{font-family:Fredoka;font-weight:600;font-size:11pt;color:var(--navy);display:block}
+.howlist small{font-size:7.8pt;color:#4B5670;font-weight:600}
+.golden{background:var(--navy);color:#fff;border-radius:14px;padding:7px 11px;font-size:8.8pt;font-weight:700}
+.golden span{display:block;font-size:7.8pt;opacity:.8;font-style:italic}
+/* fillers */
+.storybox{flex:none}
+.retell,.mine,.survey{background:#F6F8FC;border-radius:14px;padding:6px 10px;display:flex;flex-direction:column}
+.retell h3,.mine h3,.survey h3{font-size:10pt;font-weight:600;color:var(--navy);display:flex;flex-direction:column}
+.retell h3 small,.mine h3 small,.survey h3 small{font-family:Nunito;font-size:7.4pt;font-weight:700;font-style:italic;color:#5A6482}
+.retell{flex:1}
+.keys{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
+.keys span{background:#fff;border:1.5px solid var(--yellow);border-radius:999px;padding:1px 8px;font-size:8.1pt;font-weight:800}
+.mine{flex:1}
+.mine .line{display:block;flex:1;min-height:7mm;border-bottom:1.5px dashed #C3CBDB}
+.survey table{width:100%;border-collapse:collapse;font-size:8pt;margin-top:3px}
+.survey th{text-align:left;color:var(--muted);font-size:7pt;padding:2px 4px;border-bottom:1.5px solid #D8DEEA}
+.survey td{height:6mm;border-bottom:1px dashed #D8DEEA}
+.survey td:first-child{width:22mm;border-right:1px dashed #D8DEEA}
+.survey{flex:1}
+.chars{flex:none}
+.chars li{padding:7px 8px}
+.phr{flex:none}
+.qlist li{padding:5.5px 8px}
+/* colour emoji everywhere */
+.em{font-family:"Noto Color Emoji","Apple Color Emoji","Segoe UI Emoji",sans-serif!important;font-style:normal;font-weight:400;letter-spacing:0;text-shadow:none}
+/* unit tab colours */
+.orange{--tc:var(--orange);--tl:var(--orange-l)}.blue{--tc:var(--blue2);--tl:var(--blue-l)}.pink{--tc:var(--pink);--tl:var(--pink-l)}
+.purple{--tc:var(--purple);--tl:var(--purple-l)}.teal{--tc:var(--teal);--tl:var(--teal-l)}.yellow{--tc:#E0A800;--tl:var(--yellow-l)}
+.red{--tc:#EF4444;--tl:#FEECEC}.indigo{--tc:#4F46E5;--tl:#ECEBFF}.lime{--tc:#65A30D;--tl:#F0F8E4}.sky{--tc:#0284C7;--tl:#E3F3FB}.rose{--tc:#E11D48;--tl:#FFE7EC}
+/* ===== Talk Time! (kids) additions on top of the Speak Up! styles ===== */
+.gapd{font-style:normal;color:var(--muted);letter-spacing:.05em}
+.topics{display:flex;flex-direction:column;gap:2px;font-size:7.6pt;font-weight:700;color:#4B5670;margin-top:-1mm}
+.topics span{background:var(--tl);border-radius:999px;padding:1px 9px;align-self:flex-start}
+
+/* 1 word bank cards */
+.wcards{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:2.4mm;flex:1}
+.wcards li{background:#fff;border:2px solid #CDEFD9;border-radius:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+ padding:4px 3px;position:relative;box-shadow:0 3px 0 #CDEFD9;text-align:center}
+.wcards li:nth-child(3n+2){border-color:#FFD9B3;box-shadow:0 3px 0 #FFD9B3}
+.wcards li:nth-child(3n){border-color:#C9E2FF;box-shadow:0 3px 0 #C9E2FF}
+.wemo{font-size:24pt;line-height:1.1}
+.wcards b{font-family:Fredoka;font-weight:600;font-size:10.5pt;color:var(--navy);line-height:1.1;margin-top:2px}
+.wcards small{font-size:7.6pt;color:#5A6482;font-weight:700}
+.wcards .box{position:absolute;top:5px;right:5px}
+.pairgame{display:flex;align-items:center;gap:8px;background:var(--yellow-l);border:2px dashed var(--yellow);border-radius:14px;padding:5px 10px}
+.pairgame>span{font-size:16pt}
+.pairgame b{font-family:Fredoka;font-weight:600;font-size:10.5pt;color:#8A6400;display:block}
+.pairgame small{font-size:8pt;font-weight:700;color:#5A6482}
+.pairgame div{flex:1;text-align:center}
+
+/* 2 grammar helper */
+.gbox{background:var(--blue-l);border:2px solid #B9DAFF;border-radius:16px;padding:6px 10px;box-shadow:0 3px 0 #B9DAFF}
+.gbox h3{font-size:11pt;font-weight:600;color:#0B63CE;margin-bottom:2px}
+.gbox table{width:100%;border-collapse:separate;border-spacing:0 3px;font-size:8.8pt}
+.gbox td{background:#fff;padding:3px 7px}
+.gbox td:first-child{border-radius:9px 0 0 9px;width:18%}
+.gbox td:nth-child(2){width:24%}
+.gbox td:last-child{border-radius:0 9px 9px 0}
+.gbox td b{color:var(--navy);font-weight:900}
+.gf{background:#2F9BFF;color:#fff;border-radius:999px;padding:0 8px;font-weight:800;white-space:nowrap}
+.gtip{font-size:8.2pt;font-weight:700;color:#0B4A99;margin-top:2px}
+
+/* 3/4 question lists with starters */
+.klist{list-style:none;display:flex;flex-direction:column;gap:2.2mm;flex:1}
+.klist li{display:flex;gap:7px;align-items:flex-start;background:var(--orange-l);border-radius:14px;padding:5px 9px}
+.klist li p{font-size:9.3pt;font-weight:800;color:var(--ink);line-height:1.3}
+.klist .starter{font-size:8.3pt;font-weight:700;color:#9A4A00;margin-top:2px}
+.klist .qn{margin-top:1px}
+.klist.pink li{background:var(--pink-l)}
+.klist.pink .qn{background:var(--pink)}
+.klist.pink .starter{color:#9D174D}
+.samples{display:flex;flex-direction:column;gap:2px}
+.samples .ans{border-color:var(--pink);padding:3px 9px}
+.samples .ans b{color:#9D174D;font-size:8.2pt}
+.samples .ans p{font-size:8.6pt}
+.survey{flex:1}
+.survey h3{flex-direction:row}
+.survey td{height:5.6mm}
+
+/* 6 game */
+.game{background:var(--yellow-l);border:2px solid #F7D774;border-radius:16px;padding:6px 9px;box-shadow:0 4px 0 #F7D774}
+.game h3{font-size:11.5pt;font-weight:700;color:#8A6400}
+.game .rules{font-size:8.2pt;font-weight:700;color:#5A6482;margin-bottom:4px}
+.nameline{display:block;border-bottom:1.6px dashed #C9A93B;height:5mm;margin-top:1px}
+.gfind{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:4px 8px}
+.gfind li{background:#fff;border-radius:10px;padding:3px 7px;font-size:8.5pt;font-weight:800}
+.gdice{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:4px 8px}
+.gdice li{display:flex;align-items:center;gap:6px;background:#fff;border-radius:12px;padding:4px 7px;font-size:8.6pt;font-weight:800}
+.die{width:9mm;height:9mm;flex:none}
+.die rect{fill:#fff;stroke:#13235B;stroke-width:6}
+.die circle{fill:#EF4444}
+.gboard{display:flex;flex-direction:column;gap:3px}
+.brow{list-style:none;display:flex;gap:3px}
+.brow.rev{flex-direction:row-reverse}
+.brow li{flex:1;background:#fff;border:2px solid var(--bc,#F7D774);border-radius:10px;padding:3px 5px;font-size:7.8pt;font-weight:800;min-height:13mm;
+ display:flex;flex-direction:column;justify-content:center;line-height:1.2}
+.brow li b{font-family:Fredoka;color:#fff;background:var(--bc);border-radius:999px;width:15px;height:15px;font-size:7.4pt;display:flex;
+ align-items:center;justify-content:center;margin-bottom:1px}
+.brow .startc,.brow .finishc{background:var(--navy);color:#fff;border-color:var(--navy);font-family:Fredoka;font-size:10pt;align-items:center;text-align:center}
+.gspin{display:flex;gap:8px;align-items:center}
+.wheelbox{flex:0 0 38mm;text-align:center}
+.wheel{width:38mm;height:38mm}
+.wheel text{font-family:Fredoka;font-size:9px;font-weight:700;fill:#fff;text-anchor:middle}
+.wheelbox small{font-size:7pt;font-weight:700;color:#5A6482}
+.gspin ol{list-style:none;flex:1;display:flex;flex-direction:column;gap:2px}
+.gspin li{display:flex;gap:5px;align-items:center;background:#fff;border-radius:9px;padding:2px 6px;font-size:8.3pt;font-weight:800}
+.gspin li b{font-family:Fredoka;color:#fff;border-radius:50%;width:15px;height:15px;font-size:8pt;display:flex;align-items:center;justify-content:center;flex:none}
+.gbingo{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:4px}
+.gbingo li{background:#fff;border:2.5px solid #F7D774;border-radius:12px;min-height:15mm;display:flex;align-items:center;justify-content:center;
+ text-align:center;padding:3px 5px;font-size:8.2pt;font-weight:800;line-height:1.2}
+.gbingo li:nth-child(5){border-color:var(--pink)}
+.gguess{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:4px 8px}
+.gguess li{background:#fff;border-radius:12px;padding:4px 7px;display:grid;grid-template-columns:auto 1fr;gap:0 5px;align-items:start}
+.gguess li>span{font-size:14pt;grid-row:span 2}
+.gguess p{font-size:8.2pt;font-weight:800;line-height:1.25}
+
+/* 7 mini talk */
+.mini{background:var(--teal-l);border-radius:16px;padding:6px 10px;border:2px solid #A7E8DF}
+.mini h3{font-size:11pt;font-weight:600;color:#0F766E}
+.steps{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:3px 8px;margin:3px 0}
+.steps li{display:flex;gap:5px;align-items:center;font-size:8.6pt;font-weight:800}
+.steps span{background:var(--teal);color:#fff;font-family:Fredoka;border-radius:50%;width:16px;height:16px;display:flex;align-items:center;justify-content:center;font-size:8pt;flex:none}
+.model{font-size:8.7pt;background:#fff;border-radius:10px;padding:4px 8px}
+.model mark{background:linear-gradient(transparent 55%,#99F0E4 55%)}
+.timer{display:flex;align-items:center;gap:5px;font-size:8.4pt;font-weight:800;color:#0F766E;margin-top:4px}
+.timer i{width:10mm;height:6mm;border:1.6px solid var(--teal);border-radius:6px;background:#fff}
+.cando h3 small{font-family:Nunito;font-size:7.4pt;font-style:italic;color:#8A6400;font-weight:700;margin-left:4px}
+.stars{color:#F5B800;font-size:11pt;letter-spacing:1px;margin-right:4px;line-height:1}
+
+/* cover extras */
+.cover .b3{width:36mm;height:36mm;right:12mm;bottom:70mm;background:#22C55E;opacity:.9}
+.floaters span{position:absolute;font-size:24pt}
+.floaters span:nth-child(1){right:20mm;top:16mm;font-size:34pt;transform:rotate(-12deg)}
+.floaters span:nth-child(2){left:14mm;top:14mm}
+.floaters span:nth-child(3){right:16mm;top:120mm;font-size:20pt}
+.floaters span:nth-child(4){left:96mm;top:112mm;transform:rotate(14deg)}
+.floaters span:nth-child(5){left:16mm;top:122mm;font-size:22pt}
+/* let the game fill the free space on its page */
+.game{flex:1;display:flex;flex-direction:column}
+.game>ul,.game>.gboard,.game>.gspin{flex:1}
+.gfind,.gdice,.gguess,.gbingo{grid-auto-rows:1fr}
+.gfind li,.gguess li{display:flex;flex-direction:column;justify-content:center}
+.gguess li{display:grid;align-content:center}
+.gdice li{font-size:9.2pt}
+.gboard{display:flex;flex-direction:column}
+.gboard .brow{flex:1}
+.gspin{align-items:stretch}
+.gspin ol{justify-content:space-around}
+.wheelbox{display:flex;flex-direction:column;justify-content:center}
+.cando{margin-top:0}
+/* ===== Read Time! additions ===== */
+.wcards.six{grid-template-columns:repeat(6,1fr);flex:none;gap:1.6mm}
+.wcards.six li{padding:3px 1px;border-radius:12px}
+.wcards.six .wemo{font-size:17pt}
+.wcards.six b{font-size:8.4pt}
+.wcards.six small{font-size:6.6pt}
+.predict{background:var(--yellow-l);border-radius:12px;padding:4px 10px;font-size:8.8pt;font-weight:800;color:#8A6400;align-self:flex-start;
+ border:2px dashed var(--yellow)}
+
+/* text window */
+.twin{flex:1;border-radius:16px;overflow:hidden;border:2.5px solid var(--tc);box-shadow:0 4px 0 var(--tc);display:flex;flex-direction:column;background:#fff}
+.tbar{background:var(--tc);color:#fff;display:flex;align-items:center;gap:8px;padding:3px 10px;font-family:Fredoka;font-weight:600;font-size:9pt}
+.dots3{display:flex;gap:3px}.dots3 i{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.75)}
+.tbody{padding:6px 11px 7px;flex:1;display:flex;flex-direction:column;background:var(--tl)}
+.thead{display:flex;justify-content:space-between;align-items:center;gap:6px}
+.thead h3{font-size:12.5pt;font-weight:700;color:var(--navy);line-height:1.1}
+.tpic{font-size:20pt;white-space:nowrap}
+.meta{font-size:7.8pt;font-weight:800;color:var(--muted);border-bottom:1.5px dashed #C3CBDB;padding-bottom:2px;margin-bottom:3px}
+.ttext p{font-size:9.6pt;line-height:1.48;margin-bottom:4px}
+.ttext mark{background:linear-gradient(transparent 55%,#FFD84D 55%)}
+/* per-type touches */
+.t-diary .tbody{background:#FFFDF4 repeating-linear-gradient(transparent 0,transparent 13.6pt,#E4E9F5 13.6pt,#E4E9F5 14.2pt)}
+.t-diary .ttext p,.t-letter .ttext p{font-family:"Patrick Hand",Nunito,cursive;font-size:11.4pt;line-height:1.25}
+.t-letter .tbody{background:#FFFBF0}
+.t-poster .tbody{text-align:center;border:3px dashed var(--tc);margin:5px;border-radius:12px;background:#fff}
+.t-poster .thead{justify-content:center;flex-direction:column}
+.t-poster .thead h3{font-size:15pt;color:var(--tc)}
+.t-chat .ttext{display:flex;flex-direction:column;gap:3px}
+.bub{max-width:82%;border-radius:12px 12px 12px 3px;padding:3px 8px;font-size:9.1pt;line-height:1.35;background:#fff;align-self:flex-start;
+ box-shadow:0 1.5px 0 rgba(0,0,0,.08)}
+.bub.me{align-self:flex-end;border-radius:12px 12px 3px 12px;background:var(--tc);color:#fff}
+.bub.me mark{background:rgba(255,255,255,.28);color:#fff}
+.bub b{display:block;font-family:Fredoka;font-weight:600;font-size:7.6pt;opacity:.75}
+.t-interview .ttext b,.t-quiz .ttext b{color:var(--tc);font-family:Fredoka;font-weight:600}
+
+/* check page */
+.tflist{list-style:none;display:flex;flex-direction:column;gap:2px}
+.tflist li{display:flex;align-items:center;gap:7px;background:var(--orange-l);border-radius:11px;padding:3px 8px;font-size:9pt;font-weight:700}
+.tflist .q{flex:1}
+.mcq{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:3px 6px}
+.mcq li{background:var(--pink-l);border-radius:12px;padding:4px 7px}
+.mcq li p{font-size:8.6pt;font-weight:800;display:flex;gap:5px;align-items:flex-start;line-height:1.25}
+.mcq .qn{background:var(--pink);width:17px;height:17px;font-size:8pt}
+.opts{display:flex;flex-direction:column;gap:1px;margin-top:2px}
+.opts span{font-size:8.4pt;font-weight:700;display:flex;gap:5px;align-items:center}
+.opts b{width:15px;height:15px;border-radius:50%;border:1.6px solid var(--pink);color:#9D174D;display:flex;align-items:center;justify-content:center;
+ font-size:7.2pt;flex:none}
+.matchbox{display:flex;justify-content:space-between;background:var(--purple-l);border-radius:14px;padding:4px 14px}
+.matchbox ul{list-style:none;display:flex;flex-direction:column;gap:1px}
+.matchbox li{display:flex;align-items:center;gap:6px;font-weight:800;font-size:9.4pt;height:7mm}
+.matchbox ul:first-child li{justify-content:flex-start}
+.mn,.ml{font-family:Fredoka;width:16px;height:16px;border-radius:50%;background:var(--purple);color:#fff;font-size:8pt;display:flex;align-items:center;justify-content:center}
+.ml{background:#fff;color:var(--purple);border:1.6px solid var(--purple)}
+.mp{font-size:15pt}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--purple);margin-left:10px}
+.matchbox .r .dot{margin:0 10px 0 0}
+.bank{border-color:var(--teal);background:var(--teal-l)}
+.bank span{color:#0F766E;box-shadow:0 2px 0 #A7E8DF}
+.gaps li::marker{color:var(--teal)}
+.gapline{border-color:var(--teal)}
+
+/* fun page */
+.wsearch{display:flex;gap:8px;align-items:center;background:var(--yellow-l);border-radius:16px;padding:6px 10px;border:2px solid #F7D774;box-shadow:0 4px 0 #F7D774}
+.wsearch table{border-collapse:separate;border-spacing:2px}
+.wsearch td{width:6.4mm;height:6.4mm;text-align:center;font-family:Fredoka;font-weight:600;font-size:10pt;color:var(--navy);background:#fff;border-radius:5px}
+.wsearch ul{list-style:none;flex:1;display:flex;flex-direction:column;gap:3px}
+.wsearch li{font-family:Fredoka;font-weight:600;font-size:10pt;color:#8A6400;display:flex;align-items:center;gap:6px}
+.wsearch .box{width:11px;height:11px;border-color:#C9A93B}
+.you{list-style:none;display:flex;flex-direction:column;gap:2px}
+.you p{font-size:9pt;font-weight:800}
+.wline{display:block;border-bottom:1.6px dashed #C3CBDB;height:6.5mm}
+.drawbox{flex:1;background:var(--pink-l);border-radius:16px;padding:5px 10px;display:flex;flex-direction:column}
+.drawbox p{font-size:8.8pt;font-weight:800;color:#9D174D}
+.canvas{flex:1;background:#fff;border:2px dashed var(--pink);border-radius:12px;margin:4px 0;min-height:25mm}
+.funfact{display:flex;gap:7px;align-items:center;background:var(--navy);color:#fff;border-radius:14px;padding:5px 10px}
+.funfact>span{font-size:16pt}
+.funfact p{font-size:8.4pt;font-weight:700}
+.funfact b{color:#FFD84D}
+.rstars{display:flex;gap:6px;align-items:center;font-size:8.4pt;font-weight:800}
+.rstars span{border:1.6px solid #D8DEEA;border-radius:999px;padding:1px 8px}
+
+/* answer key */
+.keygrid{display:grid;grid-template-columns:1fr 1fr;gap:2.4mm;flex:1;align-content:start}
+.kunit{background:var(--tl);border-radius:12px;padding:4px 8px}
+.kunit h3{font-size:9pt;font-weight:600;color:var(--navy);display:flex;gap:5px;align-items:center;line-height:1.15;margin-bottom:1px}
+.kunit h3 span{background:var(--tc);color:#fff;border-radius:50%;width:15px;height:15px;display:flex;align-items:center;justify-content:center;font-size:7.6pt;flex:none}
+.kunit p{font-size:7.3pt;line-height:1.35}
+.kunit b{color:var(--navy)}
+
+/* cover colours */
+.rcover{background:linear-gradient(160deg,#22C55E 0%,#14B8A6 40%,#0B63CE 85%,#13235B 100%)}
+.rcover .b1{background:#FF8A1F}
+
+/* 4-page layout: give the roomy pages more air */
+.tflist li{padding:4.5px 8px;font-size:9.4pt}
+.mcq li{padding:6px 8px}
+.matchbox li{height:8.5mm}
+.gaps li{padding:4px 0}
+.wsearch td{width:7.2mm;height:7.2mm;font-size:11pt}
+.you{gap:5px}
+.you p{font-size:9.6pt}
+.wline{height:8mm}
+.canvas{min-height:60mm}
+/* let overflow inside the text window show up in the overflow check */
+.twin{overflow:visible}
+.tbar{border-radius:13px 13px 0 0}
+.tbody{border-radius:0 0 13px 13px}
+/* compact chat bubbles: name inline */
+.t-chat .ttext{gap:2px}
+.bub{font-size:8.8pt;line-height:1.3;padding:2px 8px;max-width:88%}
+.bub b{display:inline;font-size:8pt;opacity:.8;margin-right:4px}
+.bub b::after{content:":"}
+/* chats: two columns of bubbles, read down the left column then the right */
+.t-chat .ttext{display:block;column-count:2;column-gap:4mm;column-rule:1.5px dashed #C3CBDB}
+.t-chat .bub{display:block;width:fit-content;max-width:100%;break-inside:avoid;margin-bottom:3px}
+.t-chat .bub.me{margin-left:auto}
+
+/* series number on the cover */
+.ctitle h1 .bno{font-size:46pt;background:#FFD84D;color:var(--navy);border-radius:14px;padding:0 14px;text-shadow:none;display:inline-block;line-height:1.05;vertical-align:4px}
+</style></head><body><section class="page cover rcover"><div class="dots"></div><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+ <div class="floaters"><span><span class="em">📚</span></span><span><span class="em">🔍</span></span><span><span class="em">⭐</span></span><span><span class="em">📖</span></span><span><span class="em">✏️</span></span></div>
+ <div class="ctitle"><span class="kicker">TEEN2TEEN 2 · READING</span>
+  <h1>Read<br>Time! <span class="bno">2</span> <span><span class="em">📖</span></span></h1>
+  <p>12 fun texts · puzzles · <b>games &amp; stars!</b></p>
+  <p class="uz">Qiziqarli matnlar, savollar va boshqotirmalar bilan ingliz tilida o‘qishni o‘rganamiz!</p></div>
+ <div class="cstick"><span class="c-green"><span class="em">👀</span> Before You Read</span><span class="c-blue"><span class="em">📖</span> Read</span><span class="c-orange"><span class="em">✅</span> True or False?</span><span class="c-pink"><span class="em">🔘</span> Choose the Answer</span><span class="c-purple"><span class="em">🔗</span> Match</span><span class="c-teal"><span class="em">✏️</span> Fill the Gaps</span><span class="c-yellow"><span class="em">🔍</span> Word Search</span><span class="c-blue"><span class="em">🙋</span> About You</span><span class="c-pink"><span class="em">🎨</span> Draw & Write</span></div>
+ <div class="cfoot"><span class="em">🧒</span> For young learners · A1–A2 · <span class="em">🇺</span><span class="em">🇿</span> Uzbek support · <span class="em">✅</span> Answer key</div>
+</section><section class="page"><div class="content">
+ <div class="howhead"><h1>How to use<br>this book</h1><span><span class="em">🗺️</span></span></div>
+ <p class="howintro">Every unit has 4 pages and 9 steps: read, check, then play!
+  <span>Har bir unit 4 sahifa va 9 bosqichdan iborat: o‘qing, tekshiring, keyin o‘ynang!</span></p>
+ <ol class="howlist"><li class="c-green"><span class="secno">1</span><div><b><span class="em">👀</span> Before You Read</b><small>Rasmlarga qarang va so‘zlarni o‘qing. Matn nima haqida deb o‘ylaysiz?</small></div></li><li class="c-blue"><span class="secno">2</span><div><b><span class="em">📖</span> Read</b><small>Matnni 2 marta o‘qing: avval jim, keyin ovoz chiqarib.</small></div></li><li class="c-orange"><span class="secno">3</span><div><b><span class="em">✅</span> True or False?</b><small>To‘g‘ri bo‘lsa T, noto‘g‘ri bo‘lsa F ni belgilang.</small></div></li><li class="c-pink"><span class="secno">4</span><div><b><span class="em">🔘</span> Choose the Answer</b><small>To‘g‘ri javobni aylana ichiga oling.</small></div></li><li class="c-purple"><span class="secno">5</span><div><b><span class="em">🔗</span> Match</b><small>So‘zni rasm bilan chiziq orqali bog‘lang.</small></div></li><li class="c-teal"><span class="secno">6</span><div><b><span class="em">✏️</span> Fill the Gaps</b><small>So‘zlar qutisidan foydalanib bo‘sh joylarni to‘ldiring.</small></div></li><li class="c-yellow"><span class="secno">7</span><div><b><span class="em">🔍</span> Word Search</b><small>Matndagi 8 ta so‘zni toping va belgilang.</small></div></li><li class="c-blue"><span class="secno">8</span><div><b><span class="em">🙋</span> About You</b><small>O‘zingiz haqingizda bitta gap yozing.</small></div></li><li class="c-pink"><span class="secno">9</span><div><b><span class="em">🎨</span> Draw & Write</b><small>Rasm chizing va 2 ta gap yozing.</small></div></li></ol>
+ <div class="golden"><b><span class="em">🥇</span> Golden rule:</b> read the text <u>two times</u> before you answer!
+  <span>Javob berishdan oldin matnni ikki marta o‘qing!</span></div>
+</div><footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">2</span></footer></section><section class="page blue "><span class="tab blue">1</span>
+ <div class="content"><div class="uhead blue"><div class="utitle"><small>UNIT 1 · UNIFORMS AND FAMILY</small><h1>Our new school uniform!</h1></div><span class="uemo"><span class="em">👕</span></span></div>
+ <div class="sec c-green"><div class="sechead"><span class="secno">1</span><h2>Before You Read</h2><span class="secemo"><span class="em">👀</span></span></div>
+  <p class="secuz">Rasmlarga qarang va so‘zlarni o‘qing. Matn nima haqida deb o‘ylaysiz?</p></div>
+ <ul class="wcards six"><li><span class="wemo"><span class="em">👕</span></span><b>uniform</b><small>forma</small></li><li><span class="wemo"><span class="em">🧥</span></span><b>wearing</b><small>kiyib turibdi</small></li><li><span class="wemo"><span class="em">👔</span></span><b>shirt</b><small>ko‘ylak</small></li><li><span class="wemo"><span class="em">🩱</span></span><b>skirt</b><small>yubka</small></li><li><span class="wemo"><span class="em">👧</span></span><b>sister</b><small>singil</small></li><li><span class="wemo"><span class="em">📷</span></span><b>photo</b><small>surat</small></li></ul>
+ <p class="predict"><span class="em">🤔</span> Look at the picture. What are the children wearing today?</p>
+ <div class="sec c-blue"><div class="sechead"><span class="secno">2</span><h2>Read</h2><span class="secemo"><span class="em">📖</span></span></div>
+  <p class="secuz">Matnni 2 marta o‘qing: avval jim, keyin ovoz chiqarib.</p></div>
+ <div class="twin t-chat"><div class="tbar"><span class="dots3"><i></i><i></i><i></i></span><span><span class="em">💬</span> Chat</span></div><div class="tbody"><div class="thead"><h3>First day in the new uniform</h3><span class="tpic"><span class="em">👕</span><span class="em">📷</span></span></div><div class="meta">Nilufar · Jasur · 8:10 a.m.</div><div class="ttext"><div class="bub you"><b>Nilufar</b>Good morning, Jasur! Are you wearing the new <mark>uniform</mark> today?</div><div class="bub me"><b>Jasur</b>Yes, I am! I am <mark>wearing</mark> a blue <mark>shirt</mark> and grey trousers. My mum is taking a <mark>photo</mark> of me now. She is very happy!</div><div class="bub you"><b>Nilufar</b>Me too! I am wearing a white shirt and a blue <mark>skirt</mark>. My little <mark>sister</mark> is wearing her uniform too, but it is too big for her! Mum says she can make it smaller tonight.</div><div class="bub me"><b>Jasur</b>Ha ha! What is your brother doing? Is he ready for school?</div><div class="bub you"><b>Nilufar</b>He is looking for his shoes. He is always late! Look — here is my <mark>photo</mark>. Do you like my uniform? They are under his bed, of course! Now he is running to the kitchen for breakfast.</div><div class="bub me"><b>Jasur</b>It is great! See you at school. You look very smart in it. My bus is coming now — bye!</div></div></div></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">3</span></footer>
+</section><section class="page blue "><span class="tab blue">1</span>
+ <div class="content"><div class="sec c-orange"><div class="sechead"><span class="secno">3</span><h2>True or False?</h2><span class="secemo"><span class="em">✅</span></span></div>
+  <p class="secuz">To‘g‘ri bo‘lsa T, noto‘g‘ri bo‘lsa F ni belgilang.</p></div>
+ <ul class="tflist"><li><span class="qn">1</span><span class="q">Jasur is wearing a blue shirt.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">2</span><span class="q">Nilufar is wearing a red skirt.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">3</span><span class="q">Jasur&#x27;s mother is taking a photo.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">4</span><span class="q">Nilufar&#x27;s sister is not wearing a uniform.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">5</span><span class="q">Nilufar&#x27;s brother is looking for his bag.</span><span class="tfb"><i>T</i><i>F</i></span></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">4</span><h2>Choose the Answer</h2><span class="secemo"><span class="em">🔘</span></span></div>
+  <p class="secuz">To‘g‘ri javobni aylana ichiga oling.</p></div>
+ <ol class="mcq"><li><p><span class="qn">1</span>What colour are Jasur&#x27;s trousers?</p><div class="opts"><span><b>a</b>blue</span><span><b>b</b>grey</span><span><b>c</b>white</span></div></li><li><p><span class="qn">2</span>Who is taking a photo?</p><div class="opts"><span><b>a</b>Jasur&#x27;s mum</span><span><b>b</b>Nilufar</span><span><b>c</b>the teacher</span></div></li><li><p><span class="qn">3</span>How does Nilufar&#x27;s sister&#x27;s uniform fit?</p><div class="opts"><span><b>a</b>too small</span><span><b>b</b>too big</span><span><b>c</b>perfect</span></div></li><li><p><span class="qn">4</span>What is Nilufar&#x27;s brother doing?</p><div class="opts"><span><b>a</b>eating breakfast</span><span><b>b</b>looking for his shoes</span><span><b>c</b>taking a photo</span></div></li></ol>
+ <div class="sec c-purple"><div class="sechead"><span class="secno">5</span><h2>Match</h2><span class="secemo"><span class="em">🔗</span></span></div>
+  <p class="secuz">So‘zni rasm bilan chiziq orqali bog‘lang.</p></div>
+ <div class="matchbox"><ul><li><span class="mn">1</span>uniform<i class="dot"></i></li><li><span class="mn">2</span>photo<i class="dot"></i></li><li><span class="mn">3</span>shoes<i class="dot"></i></li><li><span class="mn">4</span>sister<i class="dot"></i></li><li><span class="mn">5</span>morning<i class="dot"></i></li></ul><ul class="r"><li><i class="dot"></i><span class="mp"><span class="em">🌅</span></span><span class="ml">a</span></li><li><i class="dot"></i><span class="mp"><span class="em">👕</span></span><span class="ml">b</span></li><li><i class="dot"></i><span class="mp"><span class="em">👧</span></span><span class="ml">c</span></li><li><i class="dot"></i><span class="mp"><span class="em">📷</span></span><span class="ml">d</span></li><li><i class="dot"></i><span class="mp"><span class="em">👟</span></span><span class="ml">e</span></li></ul></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">4</span></footer>
+</section><section class="page blue "><span class="tab blue">1</span>
+ <div class="content"><div class="sec c-teal"><div class="sechead"><span class="secno">6</span><h2>Fill the Gaps</h2><span class="secemo"><span class="em">✏️</span></span></div>
+  <p class="secuz">So‘zlar qutisidan foydalanib bo‘sh joylarni to‘ldiring.</p></div>
+ <div class="bank"><span>shoes</span><span>shirt</span><span>sister</span><span>skirt</span><span>photo</span></div>
+ <ol class="gaps"><li>Jasur is wearing a blue <span class=gapline></span>.</li><li>Nilufar is wearing a blue <span class=gapline></span>.</li><li>Jasur&#x27;s mum is taking a <span class=gapline></span>.</li><li>Nilufar&#x27;s little <span class=gapline></span> has a big uniform.</li><li>Nilufar&#x27;s brother is looking for his <span class=gapline></span>.</li></ol>
+ <div class="sec c-yellow"><div class="sechead"><span class="secno">7</span><h2>Word Search</h2><span class="secemo"><span class="em">🔍</span></span></div>
+  <p class="secuz">Matndagi 8 ta so‘zni toping va belgilang.</p></div>
+ <div class="wsearch"><table><tr><td>S</td><td>K</td><td>I</td><td>R</td><td>T</td><td>F</td><td>Y</td><td>M</td><td>K</td><td>D</td></tr><tr><td>L</td><td>S</td><td>O</td><td>S</td><td>C</td><td>H</td><td>O</td><td>O</td><td>L</td><td>S</td></tr><tr><td>G</td><td>K</td><td>K</td><td>S</td><td>U</td><td>R</td><td>S</td><td>R</td><td>N</td><td>U</td></tr><tr><td>B</td><td>R</td><td>H</td><td>H</td><td>N</td><td>O</td><td>S</td><td>N</td><td>F</td><td>M</td></tr><tr><td>P</td><td>S</td><td>T</td><td>I</td><td>M</td><td>C</td><td>I</td><td>I</td><td>P</td><td>S</td></tr><tr><td>D</td><td>H</td><td>F</td><td>R</td><td>S</td><td>N</td><td>S</td><td>N</td><td>M</td><td>R</td></tr><tr><td>A</td><td>O</td><td>O</td><td>T</td><td>R</td><td>B</td><td>T</td><td>G</td><td>K</td><td>W</td></tr><tr><td>U</td><td>E</td><td>U</td><td>T</td><td>N</td><td>Y</td><td>E</td><td>F</td><td>F</td><td>S</td></tr><tr><td>H</td><td>S</td><td>A</td><td>G</td><td>O</td><td>T</td><td>R</td><td>T</td><td>H</td><td>N</td></tr><tr><td>U</td><td>N</td><td>I</td><td>F</td><td>O</td><td>R</td><td>M</td><td>S</td><td>M</td><td>U</td></tr></table><ul><li><i class="box"></i>uniform</li><li><i class="box"></i>shirt</li><li><i class="box"></i>skirt</li><li><i class="box"></i>photo</li><li><i class="box"></i>shoes</li><li><i class="box"></i>sister</li><li><i class="box"></i>morning</li><li><i class="box"></i>school</li></ul></div>
+ <div class="funfact"><span><span class="em">💡</span></span><p><b>Fun fact!</b> In England, most school children wear a uniform. In Finland, nobody does!</p></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">5</span></footer>
+</section><section class="page blue "><span class="tab blue">1</span>
+ <div class="content"><div class="sec c-blue"><div class="sechead"><span class="secno">8</span><h2>About You</h2><span class="secemo"><span class="em">🙋</span></span></div>
+  <p class="secuz">O‘zingiz haqingizda bitta gap yozing.</p></div>
+ <ul class="you"><li><p>1. What are you wearing today?</p><i class="wline"></i></li><li><p>2. Do you like your school uniform? Why?</p><i class="wline"></i></li><li><p>3. What is your family doing now?</p><i class="wline"></i></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">9</span><h2>Draw & Write</h2><span class="secemo"><span class="em">🎨</span></span></div>
+  <p class="secuz">Rasm chizing va 2 ta gap yozing.</p></div>
+ <div class="drawbox"><p>Draw your school uniform. Write two sentences about it.</p><div class="canvas"></div><i class="wline"></i><i class="wline"></i></div>
+ <div class="rstars"><b>How did I do?</b><span><span class="em">😀</span> Great!</span><span><span class="em">🙂</span> Good</span><span><span class="em">🤔</span> I need practice</span></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">6</span></footer>
+</section><section class="page orange "><span class="tab orange">2</span>
+ <div class="content"><div class="uhead orange"><div class="utitle"><small>UNIT 2 · HOMEWORK AT HOME</small><h1>Are you doing your homework?</h1></div><span class="uemo"><span class="em">📚</span></span></div>
+ <div class="sec c-green"><div class="sechead"><span class="secno">1</span><h2>Before You Read</h2><span class="secemo"><span class="em">👀</span></span></div>
+  <p class="secuz">Rasmlarga qarang va so‘zlarni o‘qing. Matn nima haqida deb o‘ylaysiz?</p></div>
+ <ul class="wcards six"><li><span class="wemo"><span class="em">📚</span></span><b>homework</b><small>uy vazifasi</small></li><li><span class="wemo"><span class="em">🍽️</span></span><b>kitchen</b><small>oshxona</small></li><li><span class="wemo"><span class="em">🔊</span></span><b>noisy</b><small>shovqinli</small></li><li><span class="wemo"><span class="em">🤫</span></span><b>quiet</b><small>jim</small></li><li><span class="wemo"><span class="em">🏁</span></span><b>finish</b><small>tugatmoq</small></li><li><span class="wemo"><span class="em">🙌</span></span><b>help</b><small>yordam bermoq</small></li></ul>
+ <p class="predict"><span class="em">🤔</span> Look at the title. Where does Dilnoza do her homework?</p>
+ <div class="sec c-blue"><div class="sechead"><span class="secno">2</span><h2>Read</h2><span class="secemo"><span class="em">📖</span></span></div>
+  <p class="secuz">Matnni 2 marta o‘qing: avval jim, keyin ovoz chiqarib.</p></div>
+ <div class="twin t-email"><div class="tbar"><span class="dots3"><i></i><i></i><i></i></span><span><span class="em">📧</span> Email</span></div><div class="tbody"><div class="thead"><h3>An email to my cousin</h3><span class="tpic"><span class="em">📚</span><span class="em">✏️</span></span></div><div class="meta">From: Dilnoza · To: Sevara</div><div class="ttext"><p>Hi Sevara! How are you? I am writing this email at seven o&#x27;clock. I am not doing my <mark>homework</mark> right now — I am having a short break!</p><p>I usually do my <mark>homework</mark> in the <mark>kitchen</mark>, because my room is very cold. But today the kitchen is very <mark>noisy</mark>. My grandmother is cooking and my little brother is singing. It is not <mark>quiet</mark> at all! My grandmother gives me tea and bread while I work, so the kitchen is also the best place!</p><p>My mother always <mark>helps</mark> me with maths. She is good at numbers. My father helps me with English. Tonight I have maths, English and history. I want to <mark>finish</mark> before nine o&#x27;clock. He is only four years old and he sings the same song ten times every evening.</p><p>Where do you do your homework? Is your house <mark>quiet</mark>? Write soon! Maths is easy for me but history is difficult, because there are many dates.</p><p>Dilnoza</p></div></div></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">7</span></footer>
+</section><section class="page orange "><span class="tab orange">2</span>
+ <div class="content"><div class="sec c-orange"><div class="sechead"><span class="secno">3</span><h2>True or False?</h2><span class="secemo"><span class="em">✅</span></span></div>
+  <p class="secuz">To‘g‘ri bo‘lsa T, noto‘g‘ri bo‘lsa F ni belgilang.</p></div>
+ <ul class="tflist"><li><span class="qn">1</span><span class="q">Dilnoza is writing her email at seven o&#x27;clock.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">2</span><span class="q">Dilnoza is doing her homework now.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">3</span><span class="q">Dilnoza usually works in the kitchen.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">4</span><span class="q">Her father helps her with maths.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">5</span><span class="q">Dilnoza wants to finish before nine o&#x27;clock.</span><span class="tfb"><i>T</i><i>F</i></span></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">4</span><h2>Choose the Answer</h2><span class="secemo"><span class="em">🔘</span></span></div>
+  <p class="secuz">To‘g‘ri javobni aylana ichiga oling.</p></div>
+ <ol class="mcq"><li><p><span class="qn">1</span>Why does Dilnoza not work in her room?</p><div class="opts"><span><b>a</b>It is cold.</span><span><b>b</b>It is small.</span><span><b>c</b>It is noisy.</span></div></li><li><p><span class="qn">2</span>Who is cooking?</p><div class="opts"><span><b>a</b>her mother</span><span><b>b</b>her grandmother</span><span><b>c</b>her brother</span></div></li><li><p><span class="qn">3</span>Who helps her with English?</p><div class="opts"><span><b>a</b>her father</span><span><b>b</b>her mother</span><span><b>c</b>her brother</span></div></li><li><p><span class="qn">4</span>How many subjects has she got tonight?</p><div class="opts"><span><b>a</b>two</span><span><b>b</b>three</span><span><b>c</b>four</span></div></li></ol>
+ <div class="sec c-purple"><div class="sechead"><span class="secno">5</span><h2>Match</h2><span class="secemo"><span class="em">🔗</span></span></div>
+  <p class="secuz">So‘zni rasm bilan chiziq orqali bog‘lang.</p></div>
+ <div class="matchbox"><ul><li><span class="mn">1</span>homework<i class="dot"></i></li><li><span class="mn">2</span>kitchen<i class="dot"></i></li><li><span class="mn">3</span>singing<i class="dot"></i></li><li><span class="mn">4</span>maths<i class="dot"></i></li><li><span class="mn">5</span>break<i class="dot"></i></li></ul><ul class="r"><li><i class="dot"></i><span class="mp"><span class="em">⏸️</span></span><span class="ml">a</span></li><li><i class="dot"></i><span class="mp"><span class="em">🎤</span></span><span class="ml">b</span></li><li><i class="dot"></i><span class="mp"><span class="em">🔢</span></span><span class="ml">c</span></li><li><i class="dot"></i><span class="mp"><span class="em">🍽️</span></span><span class="ml">d</span></li><li><i class="dot"></i><span class="mp"><span class="em">📚</span></span><span class="ml">e</span></li></ul></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">8</span></footer>
+</section><section class="page orange "><span class="tab orange">2</span>
+ <div class="content"><div class="sec c-teal"><div class="sechead"><span class="secno">6</span><h2>Fill the Gaps</h2><span class="secemo"><span class="em">✏️</span></span></div>
+  <p class="secuz">So‘zlar qutisidan foydalanib bo‘sh joylarni to‘ldiring.</p></div>
+ <div class="bank"><span>singing</span><span>mother</span><span>finish</span><span>noisy</span><span>kitchen</span></div>
+ <ol class="gaps"><li>Dilnoza does her homework in the <span class=gapline></span>.</li><li>Today the kitchen is very <span class=gapline></span>.</li><li>Her <span class=gapline></span> helps her with maths.</li><li>She wants to <span class=gapline></span> before nine o&#x27;clock.</li><li>Her little brother is <span class=gapline></span>.</li></ol>
+ <div class="sec c-yellow"><div class="sechead"><span class="secno">7</span><h2>Word Search</h2><span class="secemo"><span class="em">🔍</span></span></div>
+  <p class="secuz">Matndagi 8 ta so‘zni toping va belgilang.</p></div>
+ <div class="wsearch"><table><tr><td>R</td><td>I</td><td>R</td><td>S</td><td>S</td><td>M</td><td>P</td><td>P</td><td>M</td><td>U</td></tr><tr><td>H</td><td>O</td><td>M</td><td>E</td><td>W</td><td>O</td><td>R</td><td>K</td><td>T</td><td>K</td></tr><tr><td>P</td><td>R</td><td>B</td><td>H</td><td>L</td><td>F</td><td>W</td><td>I</td><td>R</td><td>I</td></tr><tr><td>K</td><td>K</td><td>S</td><td>R</td><td>Q</td><td>T</td><td>S</td><td>S</td><td>Y</td><td>T</td></tr><tr><td>W</td><td>C</td><td>N</td><td>U</td><td>E</td><td>U</td><td>O</td><td>K</td><td>G</td><td>C</td></tr><tr><td>R</td><td>S</td><td>O</td><td>O</td><td>M</td><td>A</td><td>I</td><td>W</td><td>C</td><td>H</td></tr><tr><td>L</td><td>A</td><td>G</td><td>O</td><td>I</td><td>D</td><td>K</td><td>E</td><td>B</td><td>E</td></tr><tr><td>U</td><td>Y</td><td>B</td><td>I</td><td>K</td><td>S</td><td>U</td><td>H</td><td>T</td><td>N</td></tr><tr><td>D</td><td>M</td><td>A</td><td>T</td><td>H</td><td>S</td><td>Y</td><td>S</td><td>E</td><td>I</td></tr><tr><td>H</td><td>F</td><td>I</td><td>N</td><td>I</td><td>S</td><td>H</td><td>G</td><td>B</td><td>O</td></tr></table><ul><li><i class="box"></i>homework</li><li><i class="box"></i>kitchen</li><li><i class="box"></i>noisy</li><li><i class="box"></i>quiet</li><li><i class="box"></i>finish</li><li><i class="box"></i>maths</li><li><i class="box"></i>break</li><li><i class="box"></i>cook</li></ul></div>
+ <div class="funfact"><span><span class="em">💡</span></span><p><b>Fun fact!</b> The word “homework” is more than 350 years old. Children in 1660 had homework too!</p></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">9</span></footer>
+</section><section class="page orange "><span class="tab orange">2</span>
+ <div class="content"><div class="sec c-blue"><div class="sechead"><span class="secno">8</span><h2>About You</h2><span class="secemo"><span class="em">🙋</span></span></div>
+  <p class="secuz">O‘zingiz haqingizda bitta gap yozing.</p></div>
+ <ul class="you"><li><p>1. Where do you do your homework?</p><i class="wline"></i></li><li><p>2. Who helps you with your homework?</p><i class="wline"></i></li><li><p>3. What are you doing right now?</p><i class="wline"></i></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">9</span><h2>Draw & Write</h2><span class="secemo"><span class="em">🎨</span></span></div>
+  <p class="secuz">Rasm chizing va 2 ta gap yozing.</p></div>
+ <div class="drawbox"><p>Draw the place where you do your homework. Write two sentences.</p><div class="canvas"></div><i class="wline"></i><i class="wline"></i></div>
+ <div class="rstars"><b>How did I do?</b><span><span class="em">😀</span> Great!</span><span><span class="em">🙂</span> Good</span><span><span class="em">🤔</span> I need practice</span></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">10</span></footer>
+</section><section class="page purple "><span class="tab purple">3</span>
+ <div class="content"><div class="uhead purple"><div class="utitle"><small>UNIT 3 · SCHOOL YEAR AND CLUBS</small><h1>My best year at school</h1></div><span class="uemo"><span class="em">🏫</span></span></div>
+ <div class="sec c-green"><div class="sechead"><span class="secno">1</span><h2>Before You Read</h2><span class="secemo"><span class="em">👀</span></span></div>
+  <p class="secuz">Rasmlarga qarang va so‘zlarni o‘qing. Matn nima haqida deb o‘ylaysiz?</p></div>
+ <ul class="wcards six"><li><span class="wemo"><span class="em">🎭</span></span><b>club</b><small>to‘garak</small></li><li><span class="wemo"><span class="em">♟️</span></span><b>chess</b><small>shaxmat</small></li><li><span class="wemo"><span class="em">⚽</span></span><b>team</b><small>jamoa</small></li><li><span class="wemo"><span class="em">🧠</span></span><b>learning</b><small>o‘rganyapti</small></li><li><span class="wemo"><span class="em">📅</span></span><b>year</b><small>yil</small></li><li><span class="wemo"><span class="em">🔁</span></span><b>practise</b><small>mashq qilmoq</small></li></ul>
+ <p class="predict"><span class="em">🤔</span> Look at the title and the picture. What is Aziz doing this year?</p>
+ <div class="sec c-blue"><div class="sechead"><span class="secno">2</span><h2>Read</h2><span class="secemo"><span class="em">📖</span></span></div>
+  <p class="secuz">Matnni 2 marta o‘qing: avval jim, keyin ovoz chiqarib.</p></div>
+ <div class="twin t-blog"><div class="tbar"><span class="dots3"><i></i><i></i><i></i></span><span><span class="em">🌐</span> Blog</span></div><div class="tbody"><div class="thead"><h3>This year I am trying everything!</h3><span class="tpic"><span class="em">♟️</span><span class="em">⚽</span></span></div><div class="meta">Aziz&#x27;s blog · September</div><div class="ttext"><p>Hello! My name is Aziz and I am twelve. This <mark>year</mark> is my best school year. I am doing three new things!</p><p>First, I am in the <mark>chess</mark> <mark>club</mark>. We meet on Mondays. I am <mark>learning</mark> new moves and I <mark>practise</mark> every evening with my grandfather. He always wins, but I am getting better! Our club has twelve students and one old chess board.</p><p>Second, I am playing football. Our <mark>team</mark> is small but fast. We <mark>practise</mark> on Wednesdays after school. Our teacher, Mr Karimov, is a very good coach. Last Saturday we played against School 22 and we won two goals to one!</p><p>Third, I am <mark>learning</mark> English with my friend Shoxrux. We watch short films and we write new words in a little book. We have 200 words now! My favourite new word this month is “amazing”.</p><p>What are you doing this <mark>year</mark>? Tell me in the comments!</p></div></div></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">11</span></footer>
+</section><section class="page purple "><span class="tab purple">3</span>
+ <div class="content"><div class="sec c-orange"><div class="sechead"><span class="secno">3</span><h2>True or False?</h2><span class="secemo"><span class="em">✅</span></span></div>
+  <p class="secuz">To‘g‘ri bo‘lsa T, noto‘g‘ri bo‘lsa F ni belgilang.</p></div>
+ <ul class="tflist"><li><span class="qn">1</span><span class="q">Aziz is eleven years old.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">2</span><span class="q">The chess club meets on Mondays.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">3</span><span class="q">Aziz practises chess with his grandfather.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">4</span><span class="q">The football team practises on Fridays.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">5</span><span class="q">Aziz and Shoxrux have 200 English words.</span><span class="tfb"><i>T</i><i>F</i></span></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">4</span><h2>Choose the Answer</h2><span class="secemo"><span class="em">🔘</span></span></div>
+  <p class="secuz">To‘g‘ri javobni aylana ichiga oling.</p></div>
+ <ol class="mcq"><li><p><span class="qn">1</span>How many new things is Aziz doing?</p><div class="opts"><span><b>a</b>two</span><span><b>b</b>three</span><span><b>c</b>four</span></div></li><li><p><span class="qn">2</span>Who always wins at chess?</p><div class="opts"><span><b>a</b>Aziz</span><span><b>b</b>his grandfather</span><span><b>c</b>Shoxrux</span></div></li><li><p><span class="qn">3</span>When does the football team practise?</p><div class="opts"><span><b>a</b>Mondays</span><span><b>b</b>Wednesdays</span><span><b>c</b>Saturdays</span></div></li><li><p><span class="qn">4</span>How do the boys learn English?</p><div class="opts"><span><b>a</b>They watch short films.</span><span><b>b</b>They play chess.</span><span><b>c</b>They read newspapers.</span></div></li></ol>
+ <div class="sec c-purple"><div class="sechead"><span class="secno">5</span><h2>Match</h2><span class="secemo"><span class="em">🔗</span></span></div>
+  <p class="secuz">So‘zni rasm bilan chiziq orqali bog‘lang.</p></div>
+ <div class="matchbox"><ul><li><span class="mn">1</span>chess<i class="dot"></i></li><li><span class="mn">2</span>football<i class="dot"></i></li><li><span class="mn">3</span>film<i class="dot"></i></li><li><span class="mn">4</span>book<i class="dot"></i></li><li><span class="mn">5</span>coach<i class="dot"></i></li></ul><ul class="r"><li><i class="dot"></i><span class="mp"><span class="em">♟️</span></span><span class="ml">a</span></li><li><i class="dot"></i><span class="mp"><span class="em">🧑‍🏫</span></span><span class="ml">b</span></li><li><i class="dot"></i><span class="mp"><span class="em">🎬</span></span><span class="ml">c</span></li><li><i class="dot"></i><span class="mp"><span class="em">📓</span></span><span class="ml">d</span></li><li><i class="dot"></i><span class="mp"><span class="em">⚽</span></span><span class="ml">e</span></li></ul></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">12</span></footer>
+</section><section class="page purple "><span class="tab purple">3</span>
+ <div class="content"><div class="sec c-teal"><div class="sechead"><span class="secno">6</span><h2>Fill the Gaps</h2><span class="secemo"><span class="em">✏️</span></span></div>
+  <p class="secuz">So‘zlar qutisidan foydalanib bo‘sh joylarni to‘ldiring.</p></div>
+ <div class="bank"><span>chess</span><span>words</span><span>team</span><span>coach</span><span>grandfather</span></div>
+ <ol class="gaps"><li>Aziz is in the <span class=gapline></span> club.</li><li>He practises with his <span class=gapline></span>.</li><li>The football <span class=gapline></span> is small but fast.</li><li>Mr Karimov is a good <span class=gapline></span>.</li><li>The boys have 200 English <span class=gapline></span>.</li></ol>
+ <div class="sec c-yellow"><div class="sechead"><span class="secno">7</span><h2>Word Search</h2><span class="secemo"><span class="em">🔍</span></span></div>
+  <p class="secuz">Matndagi 8 ta so‘zni toping va belgilang.</p></div>
+ <div class="wsearch"><table><tr><td>O</td><td>N</td><td>U</td><td>P</td><td>E</td><td>M</td><td>D</td><td>B</td><td>E</td><td>R</td></tr><tr><td>G</td><td>T</td><td>E</td><td>A</td><td>M</td><td>I</td><td>O</td><td>Y</td><td>K</td><td>O</td></tr><tr><td>S</td><td>N</td><td>U</td><td>M</td><td>T</td><td>U</td><td>C</td><td>L</td><td>U</td><td>B</td></tr><tr><td>O</td><td>U</td><td>C</td><td>H</td><td>L</td><td>C</td><td>H</td><td>E</td><td>S</td><td>S</td></tr><tr><td>A</td><td>I</td><td>O</td><td>F</td><td>I</td><td>L</td><td>M</td><td>W</td><td>F</td><td>L</td></tr><tr><td>T</td><td>U</td><td>A</td><td>Y</td><td>F</td><td>R</td><td>I</td><td>E</td><td>N</td><td>D</td></tr><tr><td>U</td><td>D</td><td>C</td><td>Y</td><td>E</td><td>G</td><td>Y</td><td>U</td><td>I</td><td>K</td></tr><tr><td>D</td><td>C</td><td>H</td><td>R</td><td>Y</td><td>A</td><td>R</td><td>C</td><td>M</td><td>C</td></tr><tr><td>O</td><td>E</td><td>A</td><td>K</td><td>O</td><td>O</td><td>R</td><td>D</td><td>B</td><td>W</td></tr><tr><td>W</td><td>B</td><td>P</td><td>R</td><td>A</td><td>C</td><td>T</td><td>I</td><td>S</td><td>E</td></tr></table><ul><li><i class="box"></i>chess</li><li><i class="box"></i>club</li><li><i class="box"></i>team</li><li><i class="box"></i>coach</li><li><i class="box"></i>film</li><li><i class="box"></i>practise</li><li><i class="box"></i>year</li><li><i class="box"></i>friend</li></ul></div>
+ <div class="funfact"><span><span class="em">💡</span></span><p><b>Fun fact!</b> Chess is more than 1,500 years old. People played it in Central Asia long ago!</p></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">13</span></footer>
+</section><section class="page purple "><span class="tab purple">3</span>
+ <div class="content"><div class="sec c-blue"><div class="sechead"><span class="secno">8</span><h2>About You</h2><span class="secemo"><span class="em">🙋</span></span></div>
+  <p class="secuz">O‘zingiz haqingizda bitta gap yozing.</p></div>
+ <ul class="you"><li><p>1. What club or activity are you in this year?</p><i class="wline"></i></li><li><p>2. What are you learning this year?</p><i class="wline"></i></li><li><p>3. What are you good at?</p><i class="wline"></i></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">9</span><h2>Draw & Write</h2><span class="secemo"><span class="em">🎨</span></span></div>
+  <p class="secuz">Rasm chizing va 2 ta gap yozing.</p></div>
+ <div class="drawbox"><p>Draw your favourite club or sport. Write two sentences about it.</p><div class="canvas"></div><i class="wline"></i><i class="wline"></i></div>
+ <div class="rstars"><b>How did I do?</b><span><span class="em">😀</span> Great!</span><span><span class="em">🙂</span> Good</span><span><span class="em">🤔</span> I need practice</span></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">14</span></footer>
+</section><section class="page yellow "><span class="tab yellow">4</span>
+ <div class="content"><div class="uhead yellow"><div class="utitle"><small>UNIT 4 · FOOD AND SHOPPING</small><h1>Are there any eggs?</h1></div><span class="uemo"><span class="em">🥚</span></span></div>
+ <div class="sec c-green"><div class="sechead"><span class="secno">1</span><h2>Before You Read</h2><span class="secemo"><span class="em">👀</span></span></div>
+  <p class="secuz">Rasmlarga qarang va so‘zlarni o‘qing. Matn nima haqida deb o‘ylaysiz?</p></div>
+ <ul class="wcards six"><li><span class="wemo"><span class="em">🥚</span></span><b>eggs</b><small>tuxum</small></li><li><span class="wemo"><span class="em">🧊</span></span><b>fridge</b><small>muzlatgich</small></li><li><span class="wemo"><span class="em">🛒</span></span><b>shopping</b><small>xarid</small></li><li><span class="wemo"><span class="em">📝</span></span><b>list</b><small>ro‘yxat</small></li><li><span class="wemo"><span class="em">🍎</span></span><b>apples</b><small>olmalar</small></li><li><span class="wemo"><span class="em">🏪</span></span><b>market</b><small>bozor</small></li></ul>
+ <p class="predict"><span class="em">🤔</span> Look at the picture. What is Gulnora writing?</p>
+ <div class="sec c-blue"><div class="sechead"><span class="secno">2</span><h2>Read</h2><span class="secemo"><span class="em">📖</span></span></div>
+  <p class="secuz">Matnni 2 marta o‘qing: avval jim, keyin ovoz chiqarib.</p></div>
+ <div class="twin t-letter"><div class="tbar"><span class="dots3"><i></i><i></i><i></i></span><span><span class="em">✉️</span> Letter</span></div><div class="tbody"><div class="thead"><h3>A note for Bobur</h3><span class="tpic"><span class="em">🥚</span><span class="em">🛒</span></span></div><div class="meta">On the kitchen table</div><div class="ttext"><p>Dear Bobur,</p><p>I am at work today. Please go to the <mark>market</mark> after school. Here is your <mark>shopping</mark> <mark>list</mark>.</p><p>There are no <mark>eggs</mark> in the <mark>fridge</mark>, so please buy ten <mark>eggs</mark>. There are some <mark>apples</mark>, but there are only two. Please buy six more. Are there any tomatoes? I think there are three, but they are very small. Buy eight, please. There is some rice in the big blue box, so we do not need any rice this week.</p><p>There is no bread. Buy two loaves. There is some cheese and there is some butter, so do not buy them. There are no onions either. Please buy one kilo.</p><p>The money is in the blue cup. Thank you, my dear son! Please come home before six o&#x27;clock, because your grandmother is coming for dinner.</p><p>Mum</p></div></div></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">15</span></footer>
+</section><section class="page yellow "><span class="tab yellow">4</span>
+ <div class="content"><div class="sec c-orange"><div class="sechead"><span class="secno">3</span><h2>True or False?</h2><span class="secemo"><span class="em">✅</span></span></div>
+  <p class="secuz">To‘g‘ri bo‘lsa T, noto‘g‘ri bo‘lsa F ni belgilang.</p></div>
+ <ul class="tflist"><li><span class="qn">1</span><span class="q">Bobur&#x27;s mother is at work.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">2</span><span class="q">There are ten eggs in the fridge.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">3</span><span class="q">There are two apples in the house.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">4</span><span class="q">Bobur must buy bread.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">5</span><span class="q">There is no cheese in the fridge.</span><span class="tfb"><i>T</i><i>F</i></span></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">4</span><h2>Choose the Answer</h2><span class="secemo"><span class="em">🔘</span></span></div>
+  <p class="secuz">To‘g‘ri javobni aylana ichiga oling.</p></div>
+ <ol class="mcq"><li><p><span class="qn">1</span>How many eggs must Bobur buy?</p><div class="opts"><span><b>a</b>six</span><span><b>b</b>eight</span><span><b>c</b>ten</span></div></li><li><p><span class="qn">2</span>How many apples must he buy?</p><div class="opts"><span><b>a</b>two</span><span><b>b</b>six</span><span><b>c</b>eight</span></div></li><li><p><span class="qn">3</span>What must he NOT buy?</p><div class="opts"><span><b>a</b>butter</span><span><b>b</b>tomatoes</span><span><b>c</b>bread</span></div></li><li><p><span class="qn">4</span>Where is the money?</p><div class="opts"><span><b>a</b>in the blue cup</span><span><b>b</b>on the table</span><span><b>c</b>in the fridge</span></div></li></ol>
+ <div class="sec c-purple"><div class="sechead"><span class="secno">5</span><h2>Match</h2><span class="secemo"><span class="em">🔗</span></span></div>
+  <p class="secuz">So‘zni rasm bilan chiziq orqali bog‘lang.</p></div>
+ <div class="matchbox"><ul><li><span class="mn">1</span>eggs<i class="dot"></i></li><li><span class="mn">2</span>apples<i class="dot"></i></li><li><span class="mn">3</span>bread<i class="dot"></i></li><li><span class="mn">4</span>cheese<i class="dot"></i></li><li><span class="mn">5</span>money<i class="dot"></i></li></ul><ul class="r"><li><i class="dot"></i><span class="mp"><span class="em">🧀</span></span><span class="ml">a</span></li><li><i class="dot"></i><span class="mp"><span class="em">💰</span></span><span class="ml">b</span></li><li><i class="dot"></i><span class="mp"><span class="em">🍞</span></span><span class="ml">c</span></li><li><i class="dot"></i><span class="mp"><span class="em">🍎</span></span><span class="ml">d</span></li><li><i class="dot"></i><span class="mp"><span class="em">🥚</span></span><span class="ml">e</span></li></ul></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">16</span></footer>
+</section><section class="page yellow "><span class="tab yellow">4</span>
+ <div class="content"><div class="sec c-teal"><div class="sechead"><span class="secno">6</span><h2>Fill the Gaps</h2><span class="secemo"><span class="em">✏️</span></span></div>
+  <p class="secuz">So‘zlar qutisidan foydalanib bo‘sh joylarni to‘ldiring.</p></div>
+ <div class="bank"><span>bread</span><span>money</span><span>apples</span><span>eggs</span><span>market</span></div>
+ <ol class="gaps"><li>Bobur must go to the <span class=gapline></span>.</li><li>There are no <span class=gapline></span> in the fridge.</li><li>There are only two <span class=gapline></span>.</li><li>He must buy two loaves of <span class=gapline></span>.</li><li>The <span class=gapline></span> is in the blue cup.</li></ol>
+ <div class="sec c-yellow"><div class="sechead"><span class="secno">7</span><h2>Word Search</h2><span class="secemo"><span class="em">🔍</span></span></div>
+  <p class="secuz">Matndagi 8 ta so‘zni toping va belgilang.</p></div>
+ <div class="wsearch"><table><tr><td>B</td><td>H</td><td>I</td><td>U</td><td>W</td><td>H</td><td>D</td><td>L</td><td>F</td><td>K</td></tr><tr><td>M</td><td>A</td><td>R</td><td>K</td><td>E</td><td>T</td><td>P</td><td>A</td><td>B</td><td>M</td></tr><tr><td>C</td><td>K</td><td>C</td><td>H</td><td>E</td><td>E</td><td>S</td><td>E</td><td>L</td><td>A</td></tr><tr><td>E</td><td>G</td><td>G</td><td>S</td><td>L</td><td>K</td><td>L</td><td>E</td><td>Y</td><td>O</td></tr><tr><td>F</td><td>R</td><td>I</td><td>D</td><td>G</td><td>E</td><td>W</td><td>C</td><td>K</td><td>W</td></tr><tr><td>L</td><td>I</td><td>S</td><td>T</td><td>G</td><td>P</td><td>K</td><td>E</td><td>I</td><td>N</td></tr><tr><td>W</td><td>F</td><td>L</td><td>U</td><td>A</td><td>P</td><td>P</td><td>L</td><td>E</td><td>S</td></tr><tr><td>A</td><td>M</td><td>B</td><td>U</td><td>T</td><td>T</td><td>E</td><td>R</td><td>B</td><td>P</td></tr><tr><td>F</td><td>M</td><td>B</td><td>R</td><td>E</td><td>A</td><td>D</td><td>M</td><td>K</td><td>U</td></tr><tr><td>D</td><td>P</td><td>G</td><td>O</td><td>G</td><td>D</td><td>B</td><td>B</td><td>B</td><td>F</td></tr></table><ul><li><i class="box"></i>eggs</li><li><i class="box"></i>fridge</li><li><i class="box"></i>market</li><li><i class="box"></i>apples</li><li><i class="box"></i>bread</li><li><i class="box"></i>cheese</li><li><i class="box"></i>butter</li><li><i class="box"></i>list</li></ul></div>
+ <div class="funfact"><span><span class="em">💡</span></span><p><b>Fun fact!</b> In Uzbek markets, people often give you one extra apple for free. It is called “qo‘shimcha”!</p></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">17</span></footer>
+</section><section class="page yellow "><span class="tab yellow">4</span>
+ <div class="content"><div class="sec c-blue"><div class="sechead"><span class="secno">8</span><h2>About You</h2><span class="secemo"><span class="em">🙋</span></span></div>
+  <p class="secuz">O‘zingiz haqingizda bitta gap yozing.</p></div>
+ <ul class="you"><li><p>1. Are there any eggs in your kitchen now?</p><i class="wline"></i></li><li><p>2. What do you buy at the market?</p><i class="wline"></i></li><li><p>3. How many people are in your family?</p><i class="wline"></i></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">9</span><h2>Draw & Write</h2><span class="secemo"><span class="em">🎨</span></span></div>
+  <p class="secuz">Rasm chizing va 2 ta gap yozing.</p></div>
+ <div class="drawbox"><p>Draw your shopping list for today. Write two sentences.</p><div class="canvas"></div><i class="wline"></i><i class="wline"></i></div>
+ <div class="rstars"><b>How did I do?</b><span><span class="em">😀</span> Great!</span><span><span class="em">🙂</span> Good</span><span><span class="em">🤔</span> I need practice</span></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">18</span></footer>
+</section><section class="page teal "><span class="tab teal">5</span>
+ <div class="content"><div class="uhead teal"><div class="utitle"><small>UNIT 5 · FOOD SHOPPING</small><h1>A box of rice, please!</h1></div><span class="uemo"><span class="em">🍚</span></span></div>
+ <div class="sec c-green"><div class="sechead"><span class="secno">1</span><h2>Before You Read</h2><span class="secemo"><span class="em">👀</span></span></div>
+  <p class="secuz">Rasmlarga qarang va so‘zlarni o‘qing. Matn nima haqida deb o‘ylaysiz?</p></div>
+ <ul class="wcards six"><li><span class="wemo"><span class="em">🍚</span></span><b>rice</b><small>guruch</small></li><li><span class="wemo"><span class="em">🍶</span></span><b>bottle</b><small>shisha</small></li><li><span class="wemo"><span class="em">⚖️</span></span><b>kilo</b><small>kilogramm</small></li><li><span class="wemo"><span class="em">🙋</span></span><b>customer</b><small>xaridor</small></li><li><span class="wemo"><span class="em">❓</span></span><b>much</b><small>qancha</small></li><li><span class="wemo"><span class="em">💪</span></span><b>carry</b><small>ko‘tarmoq</small></li></ul>
+ <p class="predict"><span class="em">🤔</span> Look at the picture. Who is talking to the shopkeeper?</p>
+ <div class="sec c-blue"><div class="sechead"><span class="secno">2</span><h2>Read</h2><span class="secemo"><span class="em">📖</span></span></div>
+  <p class="secuz">Matnni 2 marta o‘qing: avval jim, keyin ovoz chiqarib.</p></div>
+ <div class="twin t-interview"><div class="tbar"><span class="dots3"><i></i><i></i><i></i></span><span><span class="em">🎤</span> Interview</span></div><div class="tbody"><div class="thead"><h3>Ten minutes in Aziza&#x27;s shop</h3><span class="tpic"><span class="em">🍚</span><span class="em">🛍️</span></span></div><div class="meta">Our school magazine · Shop corner</div><div class="ttext"><p><b>Reporter:</b> Good morning, Aziza. You work in this little shop. What do people buy every day?</p><p><b>Aziza:</b> Good morning! Every day people buy <mark>rice</mark>, bread and oil. A big <mark>box</mark> of <mark>rice</mark> is very popular. My shop is small, but we have everything for a good dinner.</p><p><b>Reporter:</b> How <mark>much</mark> <mark>rice</mark> is in one box?</p><p><b>Aziza:</b> There are five <mark>kilos</mark> in one box. It is heavy, so I always help my <mark>customers</mark> <mark>carry</mark> it to the car. Many families buy one box every month.</p><p><b>Reporter:</b> And how many <mark>bottles</mark> of water do you sell?</p><p><b>Aziza:</b> About one hundred <mark>bottles</mark> every day! In summer we sell more. Children come here after school and they always want cold water and ice cream.</p><p><b>Reporter:</b> Thank you, Aziza. Have a good day! Come again and bring your friends!</p></div></div></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">19</span></footer>
+</section><section class="page teal "><span class="tab teal">5</span>
+ <div class="content"><div class="sec c-orange"><div class="sechead"><span class="secno">3</span><h2>True or False?</h2><span class="secemo"><span class="em">✅</span></span></div>
+  <p class="secuz">To‘g‘ri bo‘lsa T, noto‘g‘ri bo‘lsa F ni belgilang.</p></div>
+ <ul class="tflist"><li><span class="qn">1</span><span class="q">Aziza works in a big supermarket.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">2</span><span class="q">People buy rice, bread and oil every day.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">3</span><span class="q">There are five kilos of rice in one box.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">4</span><span class="q">Aziza never helps her customers.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">5</span><span class="q">The shop sells more water in summer.</span><span class="tfb"><i>T</i><i>F</i></span></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">4</span><h2>Choose the Answer</h2><span class="secemo"><span class="em">🔘</span></span></div>
+  <p class="secuz">To‘g‘ri javobni aylana ichiga oling.</p></div>
+ <ol class="mcq"><li><p><span class="qn">1</span>How much rice is in one box?</p><div class="opts"><span><b>a</b>two kilos</span><span><b>b</b>five kilos</span><span><b>c</b>ten kilos</span></div></li><li><p><span class="qn">2</span>Why does Aziza help her customers?</p><div class="opts"><span><b>a</b>The box is heavy.</span><span><b>b</b>The shop is far.</span><span><b>c</b>The box is small.</span></div></li><li><p><span class="qn">3</span>How many bottles of water does she sell every day?</p><div class="opts"><span><b>a</b>about ten</span><span><b>b</b>about fifty</span><span><b>c</b>about one hundred</span></div></li><li><p><span class="qn">4</span>When does the shop sell more water?</p><div class="opts"><span><b>a</b>in winter</span><span><b>b</b>in summer</span><span><b>c</b>in autumn</span></div></li></ol>
+ <div class="sec c-purple"><div class="sechead"><span class="secno">5</span><h2>Match</h2><span class="secemo"><span class="em">🔗</span></span></div>
+  <p class="secuz">So‘zni rasm bilan chiziq orqali bog‘lang.</p></div>
+ <div class="matchbox"><ul><li><span class="mn">1</span>rice<i class="dot"></i></li><li><span class="mn">2</span>bottle<i class="dot"></i></li><li><span class="mn">3</span>bread<i class="dot"></i></li><li><span class="mn">4</span>oil<i class="dot"></i></li><li><span class="mn">5</span>car<i class="dot"></i></li></ul><ul class="r"><li><i class="dot"></i><span class="mp"><span class="em">🫒</span></span><span class="ml">a</span></li><li><i class="dot"></i><span class="mp"><span class="em">🍶</span></span><span class="ml">b</span></li><li><i class="dot"></i><span class="mp"><span class="em">🍚</span></span><span class="ml">c</span></li><li><i class="dot"></i><span class="mp"><span class="em">🍞</span></span><span class="ml">d</span></li><li><i class="dot"></i><span class="mp"><span class="em">🚗</span></span><span class="ml">e</span></li></ul></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">20</span></footer>
+</section><section class="page teal "><span class="tab teal">5</span>
+ <div class="content"><div class="sec c-teal"><div class="sechead"><span class="secno">6</span><h2>Fill the Gaps</h2><span class="secemo"><span class="em">✏️</span></span></div>
+  <p class="secuz">So‘zlar qutisidan foydalanib bo‘sh joylarni to‘ldiring.</p></div>
+ <div class="bank"><span>bottles</span><span>kilos</span><span>shop</span><span>carry</span><span>summer</span></div>
+ <ol class="gaps"><li>Aziza works in a little <span class=gapline></span>.</li><li>One box has five <span class=gapline></span> of rice.</li><li>She helps customers <span class=gapline></span> the box.</li><li>The shop sells one hundred <span class=gapline></span> of water.</li><li>In <span class=gapline></span> they sell more water.</li></ol>
+ <div class="sec c-yellow"><div class="sechead"><span class="secno">7</span><h2>Word Search</h2><span class="secemo"><span class="em">🔍</span></span></div>
+  <p class="secuz">Matndagi 8 ta so‘zni toping va belgilang.</p></div>
+ <div class="wsearch"><table><tr><td>Y</td><td>G</td><td>F</td><td>G</td><td>N</td><td>B</td><td>R</td><td>E</td><td>A</td><td>D</td></tr><tr><td>K</td><td>A</td><td>W</td><td>A</td><td>T</td><td>E</td><td>R</td><td>M</td><td>O</td><td>F</td></tr><tr><td>E</td><td>I</td><td>B</td><td>C</td><td>C</td><td>A</td><td>R</td><td>R</td><td>Y</td><td>L</td></tr><tr><td>K</td><td>R</td><td>W</td><td>O</td><td>U</td><td>A</td><td>K</td><td>I</td><td>L</td><td>O</td></tr><tr><td>S</td><td>W</td><td>I</td><td>L</td><td>T</td><td>C</td><td>K</td><td>M</td><td>K</td><td>R</td></tr><tr><td>L</td><td>U</td><td>F</td><td>C</td><td>R</td><td>T</td><td>R</td><td>F</td><td>B</td><td>I</td></tr><tr><td>A</td><td>M</td><td>M</td><td>N</td><td>E</td><td>A</td><td>L</td><td>T</td><td>O</td><td>M</td></tr><tr><td>N</td><td>U</td><td>A</td><td>M</td><td>P</td><td>B</td><td>F</td><td>E</td><td>W</td><td>G</td></tr><tr><td>D</td><td>H</td><td>P</td><td>M</td><td>E</td><td>S</td><td>H</td><td>O</td><td>P</td><td>S</td></tr><tr><td>M</td><td>S</td><td>I</td><td>P</td><td>D</td><td>R</td><td>U</td><td>M</td><td>K</td><td>B</td></tr></table><ul><li><i class="box"></i>rice</li><li><i class="box"></i>bottle</li><li><i class="box"></i>kilo</li><li><i class="box"></i>shop</li><li><i class="box"></i>water</li><li><i class="box"></i>bread</li><li><i class="box"></i>summer</li><li><i class="box"></i>carry</li></ul></div>
+ <div class="funfact"><span><span class="em">💡</span></span><p><b>Fun fact!</b> Uzbek people eat about 40 kilos of rice every year. That is a lot of palov!</p></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">21</span></footer>
+</section><section class="page teal "><span class="tab teal">5</span>
+ <div class="content"><div class="sec c-blue"><div class="sechead"><span class="secno">8</span><h2>About You</h2><span class="secemo"><span class="em">🙋</span></span></div>
+  <p class="secuz">O‘zingiz haqingizda bitta gap yozing.</p></div>
+ <ul class="you"><li><p>1. How much water do you drink every day?</p><i class="wline"></i></li><li><p>2. What do you usually buy at the shop?</p><i class="wline"></i></li><li><p>3. What is your favourite meal?</p><i class="wline"></i></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">9</span><h2>Draw & Write</h2><span class="secemo"><span class="em">🎨</span></span></div>
+  <p class="secuz">Rasm chizing va 2 ta gap yozing.</p></div>
+ <div class="drawbox"><p>Draw your favourite food. Write two sentences about it.</p><div class="canvas"></div><i class="wline"></i><i class="wline"></i></div>
+ <div class="rstars"><b>How did I do?</b><span><span class="em">😀</span> Great!</span><span><span class="em">🙂</span> Good</span><span><span class="em">🤔</span> I need practice</span></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">22</span></footer>
+</section><section class="page red "><span class="tab red">6</span>
+ <div class="content"><div class="uhead red"><div class="utitle"><small>UNIT 6 · DAILY ROUTINES</small><h1>Dinner at nine o&#x27;clock!</h1></div><span class="uemo"><span class="em">🍽️</span></span></div>
+ <div class="sec c-green"><div class="sechead"><span class="secno">1</span><h2>Before You Read</h2><span class="secemo"><span class="em">👀</span></span></div>
+  <p class="secuz">Rasmlarga qarang va so‘zlarni o‘qing. Matn nima haqida deb o‘ylaysiz?</p></div>
+ <ul class="wcards six"><li><span class="wemo"><span class="em">🍽️</span></span><b>dinner</b><small>kechki ovqat</small></li><li><span class="wemo"><span class="em">🌙</span></span><b>late</b><small>kech</small></li><li><span class="wemo"><span class="em">🌅</span></span><b>early</b><small>erta</small></li><li><span class="wemo"><span class="em">🔁</span></span><b>always</b><small>doim</small></li><li><span class="wemo"><span class="em">😴</span></span><b>tired</b><small>charchagan</small></li><li><span class="wemo"><span class="em">👨‍👩‍👧</span></span><b>together</b><small>birga</small></li></ul>
+ <p class="predict"><span class="em">🤔</span> Look at the title. Does this family eat dinner early or late?</p>
+ <div class="sec c-blue"><div class="sechead"><span class="secno">2</span><h2>Read</h2><span class="secemo"><span class="em">📖</span></span></div>
+  <p class="secuz">Matnni 2 marta o‘qing: avval jim, keyin ovoz chiqarib.</p></div>
+ <div class="twin t-diary"><div class="tbar"><span class="dots3"><i></i><i></i><i></i></span><span><span class="em">📔</span> Diary</span></div><div class="tbody"><div class="thead"><h3>Monday, 9 October</h3><span class="tpic"><span class="em">🍽️</span><span class="em">🌙</span></span></div><div class="meta">Shahnoza&#x27;s diary</div><div class="ttext"><p>Today is a normal Monday. I get up <mark>early</mark>, at half past six. I <mark>always</mark> have bread and tea for breakfast. My brother never eats breakfast — he says he is not hungry! He only drinks a glass of milk and runs to the bus.</p><p>School starts at eight. I come home at two o&#x27;clock and I do my homework. Then I help my mother in the kitchen. On Mondays I also have a music lesson at four o&#x27;clock.</p><p>In my family we eat <mark>dinner</mark> very <mark>late</mark>, at nine o&#x27;clock. My father works until eight, so we wait for him. We all eat <mark>together</mark> and we talk about our day. I like this time very much. My little cousin always falls asleep at the table!</p><p>After <mark>dinner</mark> I am very <mark>tired</mark>. I read for ten minutes and then I sleep. Tomorrow is Tuesday — I have English!</p></div></div></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">23</span></footer>
+</section><section class="page red "><span class="tab red">6</span>
+ <div class="content"><div class="sec c-orange"><div class="sechead"><span class="secno">3</span><h2>True or False?</h2><span class="secemo"><span class="em">✅</span></span></div>
+  <p class="secuz">To‘g‘ri bo‘lsa T, noto‘g‘ri bo‘lsa F ni belgilang.</p></div>
+ <ul class="tflist"><li><span class="qn">1</span><span class="q">Shahnoza gets up at half past six.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">2</span><span class="q">Her brother always eats a big breakfast.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">3</span><span class="q">She comes home at two o&#x27;clock.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">4</span><span class="q">The family eats dinner at seven o&#x27;clock.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">5</span><span class="q">She reads before she sleeps.</span><span class="tfb"><i>T</i><i>F</i></span></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">4</span><h2>Choose the Answer</h2><span class="secemo"><span class="em">🔘</span></span></div>
+  <p class="secuz">To‘g‘ri javobni aylana ichiga oling.</p></div>
+ <ol class="mcq"><li><p><span class="qn">1</span>What does Shahnoza have for breakfast?</p><div class="opts"><span><b>a</b>bread and tea</span><span><b>b</b>eggs</span><span><b>c</b>nothing</span></div></li><li><p><span class="qn">2</span>Why does the family eat late?</p><div class="opts"><span><b>a</b>They are not hungry.</span><span><b>b</b>Father works until eight.</span><span><b>c</b>School finishes late.</span></div></li><li><p><span class="qn">3</span>What does the family do at dinner?</p><div class="opts"><span><b>a</b>watch TV</span><span><b>b</b>talk about their day</span><span><b>c</b>do homework</span></div></li><li><p><span class="qn">4</span>How long does she read?</p><div class="opts"><span><b>a</b>ten minutes</span><span><b>b</b>half an hour</span><span><b>c</b>one hour</span></div></li></ol>
+ <div class="sec c-purple"><div class="sechead"><span class="secno">5</span><h2>Match</h2><span class="secemo"><span class="em">🔗</span></span></div>
+  <p class="secuz">So‘zni rasm bilan chiziq orqali bog‘lang.</p></div>
+ <div class="matchbox"><ul><li><span class="mn">1</span>breakfast<i class="dot"></i></li><li><span class="mn">2</span>school<i class="dot"></i></li><li><span class="mn">3</span>dinner<i class="dot"></i></li><li><span class="mn">4</span>sleep<i class="dot"></i></li><li><span class="mn">5</span>tea<i class="dot"></i></li></ul><ul class="r"><li><i class="dot"></i><span class="mp"><span class="em">😴</span></span><span class="ml">a</span></li><li><i class="dot"></i><span class="mp"><span class="em">🏫</span></span><span class="ml">b</span></li><li><i class="dot"></i><span class="mp"><span class="em">🍽️</span></span><span class="ml">c</span></li><li><i class="dot"></i><span class="mp"><span class="em">🍵</span></span><span class="ml">d</span></li><li><i class="dot"></i><span class="mp"><span class="em">🥖</span></span><span class="ml">e</span></li></ul></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">24</span></footer>
+</section><section class="page red "><span class="tab red">6</span>
+ <div class="content"><div class="sec c-teal"><div class="sechead"><span class="secno">6</span><h2>Fill the Gaps</h2><span class="secemo"><span class="em">✏️</span></span></div>
+  <p class="secuz">So‘zlar qutisidan foydalanib bo‘sh joylarni to‘ldiring.</p></div>
+ <div class="bank"><span>together</span><span>never</span><span>nine</span><span>tired</span><span>early</span></div>
+ <ol class="gaps"><li>Shahnoza gets up <span class=gapline></span>, at half past six.</li><li>Her brother <span class=gapline></span> eats breakfast.</li><li>The family eats dinner at <span class=gapline></span> o&#x27;clock.</li><li>They all eat <span class=gapline></span>.</li><li>After dinner she is very <span class=gapline></span>.</li></ol>
+ <div class="sec c-yellow"><div class="sechead"><span class="secno">7</span><h2>Word Search</h2><span class="secemo"><span class="em">🔍</span></span></div>
+  <p class="secuz">Matndagi 8 ta so‘zni toping va belgilang.</p></div>
+ <div class="wsearch"><table><tr><td>D</td><td>M</td><td>H</td><td>K</td><td>W</td><td>L</td><td>O</td><td>K</td><td>M</td><td>U</td></tr><tr><td>I</td><td>D</td><td>C</td><td>S</td><td>I</td><td>S</td><td>A</td><td>G</td><td>D</td><td>W</td></tr><tr><td>N</td><td>I</td><td>M</td><td>K</td><td>G</td><td>T</td><td>N</td><td>T</td><td>R</td><td>H</td></tr><tr><td>N</td><td>T</td><td>E</td><td>O</td><td>W</td><td>G</td><td>C</td><td>S</td><td>E</td><td>A</td></tr><tr><td>E</td><td>I</td><td>G</td><td>F</td><td>N</td><td>E</td><td>A</td><td>H</td><td>Y</td><td>L</td></tr><tr><td>R</td><td>R</td><td>T</td><td>W</td><td>W</td><td>D</td><td>A</td><td>K</td><td>E</td><td>M</td></tr><tr><td>N</td><td>E</td><td>S</td><td>N</td><td>K</td><td>E</td><td>A</td><td>R</td><td>R</td><td>N</td></tr><tr><td>B</td><td>D</td><td>F</td><td>O</td><td>W</td><td>N</td><td>D</td><td>Y</td><td>L</td><td>P</td></tr><tr><td>H</td><td>C</td><td>W</td><td>P</td><td>S</td><td>L</td><td>E</td><td>E</td><td>P</td><td>Y</td></tr><tr><td>P</td><td>N</td><td>C</td><td>F</td><td>A</td><td>M</td><td>I</td><td>L</td><td>Y</td><td>S</td></tr></table><ul><li><i class="box"></i>dinner</li><li><i class="box"></i>late</li><li><i class="box"></i>early</li><li><i class="box"></i>tired</li><li><i class="box"></i>sleep</li><li><i class="box"></i>family</li><li><i class="box"></i>monday</li><li><i class="box"></i>kitchen</li></ul></div>
+ <div class="funfact"><span><span class="em">💡</span></span><p><b>Fun fact!</b> In Spain, many families eat dinner at ten o&#x27;clock at night!</p></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">25</span></footer>
+</section><section class="page red "><span class="tab red">6</span>
+ <div class="content"><div class="sec c-blue"><div class="sechead"><span class="secno">8</span><h2>About You</h2><span class="secemo"><span class="em">🙋</span></span></div>
+  <p class="secuz">O‘zingiz haqingizda bitta gap yozing.</p></div>
+ <ul class="you"><li><p>1. What time do you eat dinner?</p><i class="wline"></i></li><li><p>2. Do you get up early or late?</p><i class="wline"></i></li><li><p>3. What do you do after dinner?</p><i class="wline"></i></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">9</span><h2>Draw & Write</h2><span class="secemo"><span class="em">🎨</span></span></div>
+  <p class="secuz">Rasm chizing va 2 ta gap yozing.</p></div>
+ <div class="drawbox"><p>Draw your family at dinner. Write two sentences.</p><div class="canvas"></div><i class="wline"></i><i class="wline"></i></div>
+ <div class="rstars"><b>How did I do?</b><span><span class="em">😀</span> Great!</span><span><span class="em">🙂</span> Good</span><span><span class="em">🤔</span> I need practice</span></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">26</span></footer>
+</section><section class="page sky "><span class="tab sky">7</span>
+ <div class="content"><div class="uhead sky"><div class="utitle"><small>UNIT 7 · TRANSPORT</small><h1>How do you get to school?</h1></div><span class="uemo"><span class="em">🚌</span></span></div>
+ <div class="sec c-green"><div class="sechead"><span class="secno">1</span><h2>Before You Read</h2><span class="secemo"><span class="em">👀</span></span></div>
+  <p class="secuz">Rasmlarga qarang va so‘zlarni o‘qing. Matn nima haqida deb o‘ylaysiz?</p></div>
+ <ul class="wcards six"><li><span class="wemo"><span class="em">🚌</span></span><b>bus</b><small>avtobus</small></li><li><span class="wemo"><span class="em">🚶</span></span><b>walk</b><small>piyoda yurmoq</small></li><li><span class="wemo"><span class="em">🚲</span></span><b>bicycle</b><small>velosiped</small></li><li><span class="wemo"><span class="em">🚇</span></span><b>metro</b><small>metro</small></li><li><span class="wemo"><span class="em">⏱️</span></span><b>minutes</b><small>daqiqa</small></li><li><span class="wemo"><span class="em">📍</span></span><b>far</b><small>uzoq</small></li></ul>
+ <p class="predict"><span class="em">🤔</span> Look at the picture. How do the children travel to school?</p>
+ <div class="sec c-blue"><div class="sechead"><span class="secno">2</span><h2>Read</h2><span class="secemo"><span class="em">📖</span></span></div>
+  <p class="secuz">Matnni 2 marta o‘qing: avval jim, keyin ovoz chiqarib.</p></div>
+ <div class="twin t-article"><div class="tbar"><span class="dots3"><i></i><i></i><i></i></span><span><span class="em">📰</span> Article</span></div><div class="tbody"><div class="thead"><h3>Our class travels to school</h3><span class="tpic"><span class="em">🚌</span><span class="em">🚲</span></span></div><div class="meta">School newspaper · Class 6B</div><div class="ttext"><p>Last week we asked all 24 students in our class one question: how do you get to school?</p><p>Twelve students <mark>walk</mark>. They live near the school, so they only need ten <mark>minutes</mark>. “I <mark>walk</mark> with my sister every morning,” says Malika. “It is good exercise and it is free,” she says.</p><p>Six students take the <mark>bus</mark>. The <mark>bus</mark> stops in front of the school. Sardor lives <mark>far</mark> away, so his journey takes thirty <mark>minutes</mark>. He gets up at six o&#x27;clock every morning to catch it.</p><p>Four students come by <mark>bicycle</mark>. They are fast and they are never late! Two students take the <mark>metro</mark> with their father. “I am never in traffic,” says Jasur, “and my bicycle is red and very fast.”</p><p>And our teacher? She drives a small red car. “The traffic is terrible,” she says. “Next year I want a <mark>bicycle</mark> too!” We think that is a very good idea!</p></div></div></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">27</span></footer>
+</section><section class="page sky "><span class="tab sky">7</span>
+ <div class="content"><div class="sec c-orange"><div class="sechead"><span class="secno">3</span><h2>True or False?</h2><span class="secemo"><span class="em">✅</span></span></div>
+  <p class="secuz">To‘g‘ri bo‘lsa T, noto‘g‘ri bo‘lsa F ni belgilang.</p></div>
+ <ul class="tflist"><li><span class="qn">1</span><span class="q">There are 24 students in the class.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">2</span><span class="q">Six students walk to school.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">3</span><span class="q">Sardor&#x27;s journey takes thirty minutes.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">4</span><span class="q">Four students come by bicycle.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">5</span><span class="q">The teacher comes by metro.</span><span class="tfb"><i>T</i><i>F</i></span></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">4</span><h2>Choose the Answer</h2><span class="secemo"><span class="em">🔘</span></span></div>
+  <p class="secuz">To‘g‘ri javobni aylana ichiga oling.</p></div>
+ <ol class="mcq"><li><p><span class="qn">1</span>How many students walk?</p><div class="opts"><span><b>a</b>six</span><span><b>b</b>twelve</span><span><b>c</b>four</span></div></li><li><p><span class="qn">2</span>Who walks with her sister?</p><div class="opts"><span><b>a</b>Malika</span><span><b>b</b>Sardor</span><span><b>c</b>the teacher</span></div></li><li><p><span class="qn">3</span>Where does the bus stop?</p><div class="opts"><span><b>a</b>in front of the school</span><span><b>b</b>at the market</span><span><b>c</b>near the metro</span></div></li><li><p><span class="qn">4</span>What does the teacher want next year?</p><div class="opts"><span><b>a</b>a new car</span><span><b>b</b>a bicycle</span><span><b>c</b>a bus</span></div></li></ol>
+ <div class="sec c-purple"><div class="sechead"><span class="secno">5</span><h2>Match</h2><span class="secemo"><span class="em">🔗</span></span></div>
+  <p class="secuz">So‘zni rasm bilan chiziq orqali bog‘lang.</p></div>
+ <div class="matchbox"><ul><li><span class="mn">1</span>bus<i class="dot"></i></li><li><span class="mn">2</span>bicycle<i class="dot"></i></li><li><span class="mn">3</span>metro<i class="dot"></i></li><li><span class="mn">4</span>car<i class="dot"></i></li><li><span class="mn">5</span>walk<i class="dot"></i></li></ul><ul class="r"><li><i class="dot"></i><span class="mp"><span class="em">🚗</span></span><span class="ml">a</span></li><li><i class="dot"></i><span class="mp"><span class="em">🚶</span></span><span class="ml">b</span></li><li><i class="dot"></i><span class="mp"><span class="em">🚲</span></span><span class="ml">c</span></li><li><i class="dot"></i><span class="mp"><span class="em">🚇</span></span><span class="ml">d</span></li><li><i class="dot"></i><span class="mp"><span class="em">🚌</span></span><span class="ml">e</span></li></ul></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">28</span></footer>
+</section><section class="page sky "><span class="tab sky">7</span>
+ <div class="content"><div class="sec c-teal"><div class="sechead"><span class="secno">6</span><h2>Fill the Gaps</h2><span class="secemo"><span class="em">✏️</span></span></div>
+  <p class="secuz">So‘zlar qutisidan foydalanib bo‘sh joylarni to‘ldiring.</p></div>
+ <div class="bank"><span>metro</span><span>traffic</span><span>far</span><span>bicycle</span><span>walk</span></div>
+ <ol class="gaps"><li>Twelve students <span class=gapline></span> to school.</li><li>Sardor lives <span class=gapline></span> away.</li><li>Four students come by <span class=gapline></span>.</li><li>Two students take the <span class=gapline></span>.</li><li>The teacher says the <span class=gapline></span> is terrible.</li></ol>
+ <div class="sec c-yellow"><div class="sechead"><span class="secno">7</span><h2>Word Search</h2><span class="secemo"><span class="em">🔍</span></span></div>
+  <p class="secuz">Matndagi 8 ta so‘zni toping va belgilang.</p></div>
+ <div class="wsearch"><table><tr><td>O</td><td>B</td><td>T</td><td>T</td><td>I</td><td>O</td><td>M</td><td>N</td><td>H</td><td>E</td></tr><tr><td>C</td><td>U</td><td>F</td><td>R</td><td>E</td><td>H</td><td>B</td><td>H</td><td>M</td><td>A</td></tr><tr><td>R</td><td>S</td><td>U</td><td>A</td><td>F</td><td>I</td><td>I</td><td>K</td><td>E</td><td>A</td></tr><tr><td>E</td><td>O</td><td>T</td><td>F</td><td>M</td><td>W</td><td>C</td><td>U</td><td>T</td><td>L</td></tr><tr><td>E</td><td>S</td><td>C</td><td>F</td><td>W</td><td>Y</td><td>Y</td><td>W</td><td>R</td><td>B</td></tr><tr><td>P</td><td>T</td><td>A</td><td>I</td><td>N</td><td>N</td><td>C</td><td>A</td><td>O</td><td>N</td></tr><tr><td>N</td><td>D</td><td>R</td><td>C</td><td>R</td><td>Y</td><td>L</td><td>L</td><td>N</td><td>B</td></tr><tr><td>G</td><td>C</td><td>G</td><td>P</td><td>F</td><td>D</td><td>E</td><td>K</td><td>L</td><td>W</td></tr><tr><td>B</td><td>D</td><td>A</td><td>M</td><td>I</td><td>N</td><td>U</td><td>T</td><td>E</td><td>S</td></tr><tr><td>S</td><td>C</td><td>H</td><td>O</td><td>O</td><td>L</td><td>U</td><td>E</td><td>T</td><td>D</td></tr></table><ul><li><i class="box"></i>bus</li><li><i class="box"></i>walk</li><li><i class="box"></i>bicycle</li><li><i class="box"></i>metro</li><li><i class="box"></i>car</li><li><i class="box"></i>traffic</li><li><i class="box"></i>school</li><li><i class="box"></i>minutes</li></ul></div>
+ <div class="funfact"><span><span class="em">💡</span></span><p><b>Fun fact!</b> The Tashkent metro opened in 1977. It was the first metro in Central Asia!</p></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">29</span></footer>
+</section><section class="page sky "><span class="tab sky">7</span>
+ <div class="content"><div class="sec c-blue"><div class="sechead"><span class="secno">8</span><h2>About You</h2><span class="secemo"><span class="em">🙋</span></span></div>
+  <p class="secuz">O‘zingiz haqingizda bitta gap yozing.</p></div>
+ <ul class="you"><li><p>1. How do you get to school?</p><i class="wline"></i></li><li><p>2. How many minutes is your journey?</p><i class="wline"></i></li><li><p>3. Do you live near or far from school?</p><i class="wline"></i></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">9</span><h2>Draw & Write</h2><span class="secemo"><span class="em">🎨</span></span></div>
+  <p class="secuz">Rasm chizing va 2 ta gap yozing.</p></div>
+ <div class="drawbox"><p>Draw your journey to school. Write two sentences.</p><div class="canvas"></div><i class="wline"></i><i class="wline"></i></div>
+ <div class="rstars"><b>How did I do?</b><span><span class="em">😀</span> Great!</span><span><span class="em">🙂</span> Good</span><span><span class="em">🤔</span> I need practice</span></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">30</span></footer>
+</section><section class="page indigo "><span class="tab indigo">8</span>
+ <div class="content"><div class="uhead indigo"><div class="utitle"><small>UNIT 8 · JOBS AND WORK</small><h1>What do your parents do?</h1></div><span class="uemo"><span class="em">👨‍👩‍👧‍👦</span></span></div>
+ <div class="sec c-green"><div class="sechead"><span class="secno">1</span><h2>Before You Read</h2><span class="secemo"><span class="em">👀</span></span></div>
+  <p class="secuz">Rasmlarga qarang va so‘zlarni o‘qing. Matn nima haqida deb o‘ylaysiz?</p></div>
+ <ul class="wcards six"><li><span class="wemo"><span class="em">🩺</span></span><b>doctor</b><small>shifokor</small></li><li><span class="wemo"><span class="em">🚕</span></span><b>driver</b><small>haydovchi</small></li><li><span class="wemo"><span class="em">💼</span></span><b>works</b><small>ishlaydi</small></li><li><span class="wemo"><span class="em">🏥</span></span><b>hospital</b><small>shifoxona</small></li><li><span class="wemo"><span class="em">🌅</span></span><b>early</b><small>erta</small></li><li><span class="wemo"><span class="em">🥰</span></span><b>proud</b><small>faxrlanadi</small></li></ul>
+ <p class="predict"><span class="em">🤔</span> Look at the picture. What jobs do you think the parents have?</p>
+ <div class="sec c-blue"><div class="sechead"><span class="secno">2</span><h2>Read</h2><span class="secemo"><span class="em">📖</span></span></div>
+  <p class="secuz">Matnni 2 marta o‘qing: avval jim, keyin ovoz chiqarib.</p></div>
+ <div class="twin t-blog"><div class="tbar"><span class="dots3"><i></i><i></i><i></i></span><span><span class="em">🌐</span> Blog</span></div><div class="tbody"><div class="thead"><h3>My mum and dad at work</h3><span class="tpic"><span class="em">🩺</span><span class="em">🚕</span></span></div><div class="meta">Kamola&#x27;s blog · Tuesday</div><div class="ttext"><p>My mother is a <mark>doctor</mark>. She <mark>works</mark> in a big <mark>hospital</mark> in our city. She starts very <mark>early</mark>, at seven o&#x27;clock in the morning. She helps children and she is very kind. Sometimes she comes home late, but she is never angry. Her favourite patients are the small children, because they are very brave.</p><p>My father is a taxi <mark>driver</mark>. He <mark>works</mark> in the afternoon and in the evening. He knows every street in our city! He tells us funny stories about his customers at dinner. On Sundays he does not work, and we all go to the park together.</p><p>My grandmother does not work now, but she was a teacher for thirty years. Many people in our street say, “Good morning, teacher!” to her. She still helps me with my reading every evening.</p><p>I am very <mark>proud</mark> of my family. And I want to be a <mark>doctor</mark>, like my mother.</p></div></div></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">31</span></footer>
+</section><section class="page indigo "><span class="tab indigo">8</span>
+ <div class="content"><div class="sec c-orange"><div class="sechead"><span class="secno">3</span><h2>True or False?</h2><span class="secemo"><span class="em">✅</span></span></div>
+  <p class="secuz">To‘g‘ri bo‘lsa T, noto‘g‘ri bo‘lsa F ni belgilang.</p></div>
+ <ul class="tflist"><li><span class="qn">1</span><span class="q">Kamola&#x27;s mother is a teacher.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">2</span><span class="q">Her mother starts work at seven o&#x27;clock.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">3</span><span class="q">Her father works in the morning.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">4</span><span class="q">Her grandmother was a teacher for thirty years.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">5</span><span class="q">Kamola wants to be a doctor.</span><span class="tfb"><i>T</i><i>F</i></span></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">4</span><h2>Choose the Answer</h2><span class="secemo"><span class="em">🔘</span></span></div>
+  <p class="secuz">To‘g‘ri javobni aylana ichiga oling.</p></div>
+ <ol class="mcq"><li><p><span class="qn">1</span>Where does Kamola&#x27;s mother work?</p><div class="opts"><span><b>a</b>in a school</span><span><b>b</b>in a hospital</span><span><b>c</b>in a shop</span></div></li><li><p><span class="qn">2</span>What does her father do?</p><div class="opts"><span><b>a</b>He is a doctor.</span><span><b>b</b>He is a teacher.</span><span><b>c</b>He is a taxi driver.</span></div></li><li><p><span class="qn">3</span>What does her father tell at dinner?</p><div class="opts"><span><b>a</b>funny stories</span><span><b>b</b>the news</span><span><b>c</b>nothing</span></div></li><li><p><span class="qn">4</span>Who does not work now?</p><div class="opts"><span><b>a</b>her mother</span><span><b>b</b>her father</span><span><b>c</b>her grandmother</span></div></li></ol>
+ <div class="sec c-purple"><div class="sechead"><span class="secno">5</span><h2>Match</h2><span class="secemo"><span class="em">🔗</span></span></div>
+  <p class="secuz">So‘zni rasm bilan chiziq orqali bog‘lang.</p></div>
+ <div class="matchbox"><ul><li><span class="mn">1</span>doctor<i class="dot"></i></li><li><span class="mn">2</span>taxi<i class="dot"></i></li><li><span class="mn">3</span>hospital<i class="dot"></i></li><li><span class="mn">4</span>teacher<i class="dot"></i></li><li><span class="mn">5</span>street<i class="dot"></i></li></ul><ul class="r"><li><i class="dot"></i><span class="mp"><span class="em">👩‍🏫</span></span><span class="ml">a</span></li><li><i class="dot"></i><span class="mp"><span class="em">🏥</span></span><span class="ml">b</span></li><li><i class="dot"></i><span class="mp"><span class="em">🚕</span></span><span class="ml">c</span></li><li><i class="dot"></i><span class="mp"><span class="em">🩺</span></span><span class="ml">d</span></li><li><i class="dot"></i><span class="mp"><span class="em">🛣️</span></span><span class="ml">e</span></li></ul></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">32</span></footer>
+</section><section class="page indigo "><span class="tab indigo">8</span>
+ <div class="content"><div class="sec c-teal"><div class="sechead"><span class="secno">6</span><h2>Fill the Gaps</h2><span class="secemo"><span class="em">✏️</span></span></div>
+  <p class="secuz">So‘zlar qutisidan foydalanib bo‘sh joylarni to‘ldiring.</p></div>
+ <div class="bank"><span>teacher</span><span>driver</span><span>hospital</span><span>doctor</span><span>proud</span></div>
+ <ol class="gaps"><li>Kamola&#x27;s mother is a <span class=gapline></span>.</li><li>She works in a big <span class=gapline></span>.</li><li>Her father is a taxi <span class=gapline></span>.</li><li>Her grandmother was a <span class=gapline></span>.</li><li>Kamola is very <span class=gapline></span> of her family.</li></ol>
+ <div class="sec c-yellow"><div class="sechead"><span class="secno">7</span><h2>Word Search</h2><span class="secemo"><span class="em">🔍</span></span></div>
+  <p class="secuz">Matndagi 8 ta so‘zni toping va belgilang.</p></div>
+ <div class="wsearch"><table><tr><td>K</td><td>E</td><td>D</td><td>R</td><td>I</td><td>V</td><td>E</td><td>R</td><td>M</td><td>S</td></tr><tr><td>K</td><td>S</td><td>C</td><td>S</td><td>T</td><td>R</td><td>E</td><td>E</td><td>T</td><td>S</td></tr><tr><td>T</td><td>D</td><td>O</td><td>C</td><td>T</td><td>O</td><td>R</td><td>H</td><td>M</td><td>H</td></tr><tr><td>T</td><td>E</td><td>A</td><td>C</td><td>H</td><td>E</td><td>R</td><td>A</td><td>K</td><td>L</td></tr><tr><td>H</td><td>W</td><td>I</td><td>B</td><td>O</td><td>I</td><td>N</td><td>K</td><td>O</td><td>F</td></tr><tr><td>N</td><td>H</td><td>O</td><td>S</td><td>P</td><td>I</td><td>T</td><td>A</td><td>L</td><td>D</td></tr><tr><td>F</td><td>A</td><td>G</td><td>R</td><td>F</td><td>K</td><td>D</td><td>A</td><td>N</td><td>L</td></tr><tr><td>F</td><td>U</td><td>O</td><td>H</td><td>K</td><td>E</td><td>O</td><td>U</td><td>P</td><td>O</td></tr><tr><td>P</td><td>R</td><td>O</td><td>U</td><td>D</td><td>O</td><td>C</td><td>U</td><td>C</td><td>K</td></tr><tr><td>D</td><td>B</td><td>C</td><td>C</td><td>I</td><td>T</td><td>Y</td><td>D</td><td>S</td><td>S</td></tr></table><ul><li><i class="box"></i>doctor</li><li><i class="box"></i>driver</li><li><i class="box"></i>hospital</li><li><i class="box"></i>teacher</li><li><i class="box"></i>city</li><li><i class="box"></i>street</li><li><i class="box"></i>proud</li><li><i class="box"></i>work</li></ul></div>
+ <div class="funfact"><span><span class="em">💡</span></span><p><b>Fun fact!</b> The word “doctor” comes from Latin and means “teacher”. Doctors teach us to stay healthy!</p></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">33</span></footer>
+</section><section class="page indigo "><span class="tab indigo">8</span>
+ <div class="content"><div class="sec c-blue"><div class="sechead"><span class="secno">8</span><h2>About You</h2><span class="secemo"><span class="em">🙋</span></span></div>
+  <p class="secuz">O‘zingiz haqingizda bitta gap yozing.</p></div>
+ <ul class="you"><li><p>1. What does your mother or father do?</p><i class="wline"></i></li><li><p>2. What job do you want? Why?</p><i class="wline"></i></li><li><p>3. Who works early in your family?</p><i class="wline"></i></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">9</span><h2>Draw & Write</h2><span class="secemo"><span class="em">🎨</span></span></div>
+  <p class="secuz">Rasm chizing va 2 ta gap yozing.</p></div>
+ <div class="drawbox"><p>Draw somebody in your family at work. Write two sentences.</p><div class="canvas"></div><i class="wline"></i><i class="wline"></i></div>
+ <div class="rstars"><b>How did I do?</b><span><span class="em">😀</span> Great!</span><span><span class="em">🙂</span> Good</span><span><span class="em">🤔</span> I need practice</span></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">34</span></footer>
+</section><section class="page rose "><span class="tab rose">9</span>
+ <div class="content"><div class="uhead rose"><div class="utitle"><small>UNIT 9 · HEALTH</small><h1>Feel better soon!</h1></div><span class="uemo"><span class="em">🤒</span></span></div>
+ <div class="sec c-green"><div class="sechead"><span class="secno">1</span><h2>Before You Read</h2><span class="secemo"><span class="em">👀</span></span></div>
+  <p class="secuz">Rasmlarga qarang va so‘zlarni o‘qing. Matn nima haqida deb o‘ylaysiz?</p></div>
+ <ul class="wcards six"><li><span class="wemo"><span class="em">🤒</span></span><b>ill</b><small>kasal</small></li><li><span class="wemo"><span class="em">🤕</span></span><b>headache</b><small>bosh og‘rig‘i</small></li><li><span class="wemo"><span class="em">🩺</span></span><b>doctor</b><small>shifokor</small></li><li><span class="wemo"><span class="em">💊</span></span><b>medicine</b><small>dori</small></li><li><span class="wemo"><span class="em">🛏️</span></span><b>rest</b><small>dam olmoq</small></li><li><span class="wemo"><span class="em">💪</span></span><b>better</b><small>yaxshiroq</small></li></ul>
+ <p class="predict"><span class="em">🤔</span> Look at the picture. Who is ill today?</p>
+ <div class="sec c-blue"><div class="sechead"><span class="secno">2</span><h2>Read</h2><span class="secemo"><span class="em">📖</span></span></div>
+  <p class="secuz">Matnni 2 marta o‘qing: avval jim, keyin ovoz chiqarib.</p></div>
+ <div class="twin t-chat"><div class="tbar"><span class="dots3"><i></i><i></i><i></i></span><span><span class="em">💬</span> Chat</span></div><div class="tbody"><div class="thead"><h3>Get well, Davron!</h3><span class="tpic"><span class="em">🤒</span><span class="em">💊</span></span></div><div class="meta">Class group · Wednesday</div><div class="ttext"><div class="bub you"><b>Malika</b>Hi Davron, you are not at school today. Are you <mark>ill</mark>?</div><div class="bub me"><b>Davron</b>Yes. I have a <mark>headache</mark> and my throat hurts. My mother is taking me to the <mark>doctor</mark> at four o&#x27;clock.</div><div class="bub you"><b>Malika</b>Oh no! You should drink hot tea with lemon. My grandmother always says that.</div><div class="bub me"><b>Davron</b>Thank you! I am in bed now. The <mark>doctor</mark> says I must take this <mark>medicine</mark> three times a day and <mark>rest</mark> for two days. I am reading a book about space. It is very interesting!</div><div class="bub you"><b>Malika</b>Do not worry about school. I can bring your books to your house. We have maths homework — page 42. Our teacher says you can do it next week, so do not worry.</div><div class="bub me"><b>Davron</b>You are a good friend. I feel <mark>better</mark> already!</div><div class="bub you"><b>Malika</b>Get well soon! See you on Friday. And please drink that tea with lemon!</div></div></div></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">35</span></footer>
+</section><section class="page rose "><span class="tab rose">9</span>
+ <div class="content"><div class="sec c-orange"><div class="sechead"><span class="secno">3</span><h2>True or False?</h2><span class="secemo"><span class="em">✅</span></span></div>
+  <p class="secuz">To‘g‘ri bo‘lsa T, noto‘g‘ri bo‘lsa F ni belgilang.</p></div>
+ <ul class="tflist"><li><span class="qn">1</span><span class="q">Davron is at school today.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">2</span><span class="q">Davron has a headache.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">3</span><span class="q">He is going to the doctor at four o&#x27;clock.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">4</span><span class="q">He must rest for one week.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">5</span><span class="q">Malika can bring his books.</span><span class="tfb"><i>T</i><i>F</i></span></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">4</span><h2>Choose the Answer</h2><span class="secemo"><span class="em">🔘</span></span></div>
+  <p class="secuz">To‘g‘ri javobni aylana ichiga oling.</p></div>
+ <ol class="mcq"><li><p><span class="qn">1</span>What hurts Davron?</p><div class="opts"><span><b>a</b>his leg</span><span><b>b</b>his throat</span><span><b>c</b>his arm</span></div></li><li><p><span class="qn">2</span>What does Malika&#x27;s grandmother say?</p><div class="opts"><span><b>a</b>Drink hot tea with lemon.</span><span><b>b</b>Go to school.</span><span><b>c</b>Sleep all day.</span></div></li><li><p><span class="qn">3</span>How often must Davron take the medicine?</p><div class="opts"><span><b>a</b>once a day</span><span><b>b</b>twice a day</span><span><b>c</b>three times a day</span></div></li><li><p><span class="qn">4</span>What homework do they have?</p><div class="opts"><span><b>a</b>English</span><span><b>b</b>maths</span><span><b>c</b>history</span></div></li></ol>
+ <div class="sec c-purple"><div class="sechead"><span class="secno">5</span><h2>Match</h2><span class="secemo"><span class="em">🔗</span></span></div>
+  <p class="secuz">So‘zni rasm bilan chiziq orqali bog‘lang.</p></div>
+ <div class="matchbox"><ul><li><span class="mn">1</span>medicine<i class="dot"></i></li><li><span class="mn">2</span>bed<i class="dot"></i></li><li><span class="mn">3</span>tea<i class="dot"></i></li><li><span class="mn">4</span>doctor<i class="dot"></i></li><li><span class="mn">5</span>books<i class="dot"></i></li></ul><ul class="r"><li><i class="dot"></i><span class="mp"><span class="em">💊</span></span><span class="ml">a</span></li><li><i class="dot"></i><span class="mp"><span class="em">🍵</span></span><span class="ml">b</span></li><li><i class="dot"></i><span class="mp"><span class="em">🛏️</span></span><span class="ml">c</span></li><li><i class="dot"></i><span class="mp"><span class="em">📚</span></span><span class="ml">d</span></li><li><i class="dot"></i><span class="mp"><span class="em">🩺</span></span><span class="ml">e</span></li></ul></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">36</span></footer>
+</section><section class="page rose "><span class="tab rose">9</span>
+ <div class="content"><div class="sec c-teal"><div class="sechead"><span class="secno">6</span><h2>Fill the Gaps</h2><span class="secemo"><span class="em">✏️</span></span></div>
+  <p class="secuz">So‘zlar qutisidan foydalanib bo‘sh joylarni to‘ldiring.</p></div>
+ <div class="bank"><span>ill</span><span>medicine</span><span>headache</span><span>books</span><span>rest</span></div>
+ <ol class="gaps"><li>Davron is <span class=gapline></span> today.</li><li>He has a <span class=gapline></span> and a sore throat.</li><li>He must take the <span class=gapline></span> three times a day.</li><li>He must <span class=gapline></span> for two days.</li><li>Malika can bring his <span class=gapline></span>.</li></ol>
+ <div class="sec c-yellow"><div class="sechead"><span class="secno">7</span><h2>Word Search</h2><span class="secemo"><span class="em">🔍</span></span></div>
+  <p class="secuz">Matndagi 8 ta so‘zni toping va belgilang.</p></div>
+ <div class="wsearch"><table><tr><td>A</td><td>D</td><td>M</td><td>R</td><td>E</td><td>S</td><td>T</td><td>U</td><td>G</td><td>G</td></tr><tr><td>L</td><td>B</td><td>E</td><td>T</td><td>T</td><td>E</td><td>R</td><td>A</td><td>C</td><td>T</td></tr><tr><td>F</td><td>E</td><td>D</td><td>T</td><td>A</td><td>H</td><td>S</td><td>C</td><td>U</td><td>E</td></tr><tr><td>R</td><td>R</td><td>I</td><td>T</td><td>G</td><td>E</td><td>O</td><td>C</td><td>N</td><td>A</td></tr><tr><td>I</td><td>G</td><td>C</td><td>Y</td><td>C</td><td>A</td><td>U</td><td>E</td><td>F</td><td>W</td></tr><tr><td>E</td><td>B</td><td>I</td><td>B</td><td>I</td><td>D</td><td>T</td><td>W</td><td>E</td><td>I</td></tr><tr><td>N</td><td>U</td><td>N</td><td>B</td><td>D</td><td>A</td><td>N</td><td>I</td><td>L</td><td>L</td></tr><tr><td>D</td><td>H</td><td>E</td><td>D</td><td>O</td><td>C</td><td>T</td><td>O</td><td>R</td><td>F</td></tr><tr><td>W</td><td>S</td><td>B</td><td>M</td><td>S</td><td>H</td><td>U</td><td>U</td><td>C</td><td>M</td></tr><tr><td>D</td><td>U</td><td>M</td><td>P</td><td>G</td><td>E</td><td>N</td><td>G</td><td>U</td><td>A</td></tr></table><ul><li><i class="box"></i>ill</li><li><i class="box"></i>headache</li><li><i class="box"></i>doctor</li><li><i class="box"></i>medicine</li><li><i class="box"></i>rest</li><li><i class="box"></i>better</li><li><i class="box"></i>tea</li><li><i class="box"></i>friend</li></ul></div>
+ <div class="funfact"><span><span class="em">💡</span></span><p><b>Fun fact!</b> Honey is one of the oldest medicines in the world. People used it 5,000 years ago!</p></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">37</span></footer>
+</section><section class="page rose "><span class="tab rose">9</span>
+ <div class="content"><div class="sec c-blue"><div class="sechead"><span class="secno">8</span><h2>About You</h2><span class="secemo"><span class="em">🙋</span></span></div>
+  <p class="secuz">O‘zingiz haqingizda bitta gap yozing.</p></div>
+ <ul class="you"><li><p>1. When are you ill, what do you do?</p><i class="wline"></i></li><li><p>2. Who helps you when you feel bad?</p><i class="wline"></i></li><li><p>3. What do you drink when you have a cold?</p><i class="wline"></i></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">9</span><h2>Draw & Write</h2><span class="secemo"><span class="em">🎨</span></span></div>
+  <p class="secuz">Rasm chizing va 2 ta gap yozing.</p></div>
+ <div class="drawbox"><p>Draw a “Get well soon!” card for a friend. Write two sentences.</p><div class="canvas"></div><i class="wline"></i><i class="wline"></i></div>
+ <div class="rstars"><b>How did I do?</b><span><span class="em">😀</span> Great!</span><span><span class="em">🙂</span> Good</span><span><span class="em">🤔</span> I need practice</span></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">38</span></footer>
+</section><section class="page pink "><span class="tab pink">10</span>
+ <div class="content"><div class="uhead pink"><div class="utitle"><small>UNIT 10 · LIKES AND FAVOURITE THINGS</small><h1>I love them!</h1></div><span class="uemo"><span class="em">💖</span></span></div>
+ <div class="sec c-green"><div class="sechead"><span class="secno">1</span><h2>Before You Read</h2><span class="secemo"><span class="em">👀</span></span></div>
+  <p class="secuz">Rasmlarga qarang va so‘zlarni o‘qing. Matn nima haqida deb o‘ylaysiz?</p></div>
+ <ul class="wcards six"><li><span class="wemo"><span class="em">🧲</span></span><b>collect</b><small>to‘plamoq</small></li><li><span class="wemo"><span class="em">🔑</span></span><b>key ring</b><small>brelok</small></li><li><span class="wemo"><span class="em">🌟</span></span><b>sticker</b><small>stiker</small></li><li><span class="wemo"><span class="em">😐</span></span><b>boring</b><small>zerikarli</small></li><li><span class="wemo"><span class="em">👎</span></span><b>hate</b><small>yoqtirmaslik</small></li><li><span class="wemo"><span class="em">💖</span></span><b>favourite</b><small>sevimli</small></li></ul>
+ <p class="predict"><span class="em">🤔</span> Look at the title. What does this quiz ask about?</p>
+ <div class="sec c-blue"><div class="sechead"><span class="secno">2</span><h2>Read</h2><span class="secemo"><span class="em">📖</span></span></div>
+  <p class="secuz">Matnni 2 marta o‘qing: avval jim, keyin ovoz chiqarib.</p></div>
+ <div class="twin t-quiz"><div class="tbar"><span class="dots3"><i></i><i></i><i></i></span><span><span class="em">🧩</span> Magazine quiz</span></div><div class="tbody"><div class="thead"><h3>What do you really love?</h3><span class="tpic"><span class="em">🔑</span><span class="em">🌟</span></span></div><div class="meta">Teen Magazine · Fun quiz</div><div class="ttext"><p>Do you <mark>collect</mark> small things? Take our quiz and find out about you! Be honest — and count your a, b and c answers!</p><p>1. Your friend gives you a <mark>key ring</mark> from Paris. You say: a) “Thank you! I <mark>collect</mark> them!” b) “It is nice.” c) “I do not want it.”</p><p>2. You see new <mark>stickers</mark> in a shop. You: a) buy all of them b) buy one c) walk past them</p><p>3. Your old toys are in a box. You: a) love them and keep them b) give them to your cousin c) <mark>hate</mark> them</p><p>4. Your friend talks about football for an hour. You think: a) “Great! I love it!” b) “It is OK.” c) “This is <mark>boring</mark>!” d) “Football is my <mark>favourite</mark> sport too!”</p><p>Mostly a? You are a collector! Mostly b? You are relaxed. Mostly c? You like new things, not old things! Show this quiz to your family. Is your mother a collector too?</p></div></div></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">39</span></footer>
+</section><section class="page pink "><span class="tab pink">10</span>
+ <div class="content"><div class="sec c-orange"><div class="sechead"><span class="secno">3</span><h2>True or False?</h2><span class="secemo"><span class="em">✅</span></span></div>
+  <p class="secuz">To‘g‘ri bo‘lsa T, noto‘g‘ri bo‘lsa F ni belgilang.</p></div>
+ <ul class="tflist"><li><span class="qn">1</span><span class="q">This is a quiz in a magazine.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">2</span><span class="q">The key ring in question 1 is from London.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">3</span><span class="q">Question 2 is about stickers.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">4</span><span class="q">In question 3 the toys are in a bag.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">5</span><span class="q">Answer c in question 4 is “This is boring!”</span><span class="tfb"><i>T</i><i>F</i></span></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">4</span><h2>Choose the Answer</h2><span class="secemo"><span class="em">🔘</span></span></div>
+  <p class="secuz">To‘g‘ri javobni aylana ichiga oling.</p></div>
+ <ol class="mcq"><li><p><span class="qn">1</span>How many questions are in the quiz?</p><div class="opts"><span><b>a</b>three</span><span><b>b</b>four</span><span><b>c</b>five</span></div></li><li><p><span class="qn">2</span>Where is the key ring from?</p><div class="opts"><span><b>a</b>Paris</span><span><b>b</b>Tashkent</span><span><b>c</b>Rome</span></div></li><li><p><span class="qn">3</span>If you answer mostly a, you are…</p><div class="opts"><span><b>a</b>relaxed</span><span><b>b</b>a collector</span><span><b>c</b>bored</span></div></li><li><p><span class="qn">4</span>In question 4, the friend talks about…</p><div class="opts"><span><b>a</b>music</span><span><b>b</b>films</span><span><b>c</b>football</span></div></li></ol>
+ <div class="sec c-purple"><div class="sechead"><span class="secno">5</span><h2>Match</h2><span class="secemo"><span class="em">🔗</span></span></div>
+  <p class="secuz">So‘zni rasm bilan chiziq orqali bog‘lang.</p></div>
+ <div class="matchbox"><ul><li><span class="mn">1</span>key ring<i class="dot"></i></li><li><span class="mn">2</span>sticker<i class="dot"></i></li><li><span class="mn">3</span>toys<i class="dot"></i></li><li><span class="mn">4</span>shop<i class="dot"></i></li><li><span class="mn">5</span>football<i class="dot"></i></li></ul><ul class="r"><li><i class="dot"></i><span class="mp"><span class="em">⚽</span></span><span class="ml">a</span></li><li><i class="dot"></i><span class="mp"><span class="em">🌟</span></span><span class="ml">b</span></li><li><i class="dot"></i><span class="mp"><span class="em">🏬</span></span><span class="ml">c</span></li><li><i class="dot"></i><span class="mp"><span class="em">🧸</span></span><span class="ml">d</span></li><li><i class="dot"></i><span class="mp"><span class="em">🔑</span></span><span class="ml">e</span></li></ul></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">40</span></footer>
+</section><section class="page pink "><span class="tab pink">10</span>
+ <div class="content"><div class="sec c-teal"><div class="sechead"><span class="secno">6</span><h2>Fill the Gaps</h2><span class="secemo"><span class="em">✏️</span></span></div>
+  <p class="secuz">So‘zlar qutisidan foydalanib bo‘sh joylarni to‘ldiring.</p></div>
+ <div class="bank"><span>collector</span><span>Paris</span><span>toys</span><span>stickers</span><span>magazine</span></div>
+ <ol class="gaps"><li>This is a quiz in a <span class=gapline></span>.</li><li>The key ring is from <span class=gapline></span>.</li><li>In question 2 you see new <span class=gapline></span>.</li><li>Your old <span class=gapline></span> are in a box.</li><li>Mostly a means you are a <span class=gapline></span>.</li></ol>
+ <div class="sec c-yellow"><div class="sechead"><span class="secno">7</span><h2>Word Search</h2><span class="secemo"><span class="em">🔍</span></span></div>
+  <p class="secuz">Matndagi 8 ta so‘zni toping va belgilang.</p></div>
+ <div class="wsearch"><table><tr><td>U</td><td>F</td><td>N</td><td>C</td><td>Q</td><td>R</td><td>H</td><td>S</td><td>I</td><td>S</td></tr><tr><td>R</td><td>W</td><td>R</td><td>C</td><td>O</td><td>U</td><td>T</td><td>F</td><td>R</td><td>P</td></tr><tr><td>N</td><td>B</td><td>E</td><td>O</td><td>S</td><td>L</td><td>I</td><td>O</td><td>T</td><td>U</td></tr><tr><td>M</td><td>T</td><td>O</td><td>N</td><td>S</td><td>H</td><td>L</td><td>Z</td><td>Y</td><td>R</td></tr><tr><td>F</td><td>T</td><td>P</td><td>R</td><td>T</td><td>D</td><td>O</td><td>E</td><td>O</td><td>S</td></tr><tr><td>B</td><td>A</td><td>P</td><td>T</td><td>I</td><td>C</td><td>V</td><td>P</td><td>C</td><td>B</td></tr><tr><td>M</td><td>C</td><td>E</td><td>D</td><td>C</td><td>N</td><td>E</td><td>W</td><td>P</td><td>T</td></tr><tr><td>R</td><td>E</td><td>P</td><td>O</td><td>K</td><td>S</td><td>G</td><td>P</td><td>L</td><td>I</td></tr><tr><td>P</td><td>O</td><td>L</td><td>Y</td><td>E</td><td>S</td><td>S</td><td>E</td><td>H</td><td>L</td></tr><tr><td>W</td><td>B</td><td>P</td><td>A</td><td>R</td><td>I</td><td>S</td><td>G</td><td>Y</td><td>U</td></tr></table><ul><li><i class="box"></i>collect</li><li><i class="box"></i>sticker</li><li><i class="box"></i>toys</li><li><i class="box"></i>quiz</li><li><i class="box"></i>shop</li><li><i class="box"></i>boring</li><li><i class="box"></i>paris</li><li><i class="box"></i>love</li></ul></div>
+ <div class="funfact"><span><span class="em">💡</span></span><p><b>Fun fact!</b> The biggest key ring collection in the world has more than 60,000 key rings!</p></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">41</span></footer>
+</section><section class="page pink "><span class="tab pink">10</span>
+ <div class="content"><div class="sec c-blue"><div class="sechead"><span class="secno">8</span><h2>About You</h2><span class="secemo"><span class="em">🙋</span></span></div>
+  <p class="secuz">O‘zingiz haqingizda bitta gap yozing.</p></div>
+ <ul class="you"><li><p>1. Do you collect anything? What?</p><i class="wline"></i></li><li><p>2. What is your favourite thing at home?</p><i class="wline"></i></li><li><p>3. What do you think is boring?</p><i class="wline"></i></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">9</span><h2>Draw & Write</h2><span class="secemo"><span class="em">🎨</span></span></div>
+  <p class="secuz">Rasm chizing va 2 ta gap yozing.</p></div>
+ <div class="drawbox"><p>Draw your favourite thing. Write two sentences about it.</p><div class="canvas"></div><i class="wline"></i><i class="wline"></i></div>
+ <div class="rstars"><b>How did I do?</b><span><span class="em">😀</span> Great!</span><span><span class="em">🙂</span> Good</span><span><span class="em">🤔</span> I need practice</span></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">42</span></footer>
+</section><section class="page lime "><span class="tab lime">11</span>
+ <div class="content"><div class="uhead lime"><div class="utitle"><small>UNIT 11 · DEVICES AND PERMISSION</small><h1>Can I borrow your charger?</h1></div><span class="uemo"><span class="em">📱</span></span></div>
+ <div class="sec c-green"><div class="sechead"><span class="secno">1</span><h2>Before You Read</h2><span class="secemo"><span class="em">👀</span></span></div>
+  <p class="secuz">Rasmlarga qarang va so‘zlarni o‘qing. Matn nima haqida deb o‘ylaysiz?</p></div>
+ <ul class="wcards six"><li><span class="wemo"><span class="em">🔌</span></span><b>charger</b><small>zaryadlagich</small></li><li><span class="wemo"><span class="em">🤲</span></span><b>borrow</b><small>qarzga olmoq</small></li><li><span class="wemo"><span class="em">🔋</span></span><b>battery</b><small>batareya</small></li><li><span class="wemo"><span class="em">💻</span></span><b>laptop</b><small>noutbuk</small></li><li><span class="wemo"><span class="em">🎧</span></span><b>headphones</b><small>quloqchin</small></li><li><span class="wemo"><span class="em">⚠️</span></span><b>careful</b><small>ehtiyotkor</small></li></ul>
+ <p class="predict"><span class="em">🤔</span> Look at the picture. What does the boy need?</p>
+ <div class="sec c-blue"><div class="sechead"><span class="secno">2</span><h2>Read</h2><span class="secemo"><span class="em">📖</span></span></div>
+  <p class="secuz">Matnni 2 marta o‘qing: avval jim, keyin ovoz chiqarib.</p></div>
+ <div class="twin t-story"><div class="tbar"><span class="dots3"><i></i><i></i><i></i></span><span><span class="em">📖</span> Story</span></div><div class="tbody"><div class="thead"><h3>The empty battery</h3><span class="tpic"><span class="em">📱</span><span class="em">🔌</span></span></div><div class="meta">A short story</div><div class="ttext"><p>It was Friday afternoon. Otabek had a big problem: his phone <mark>battery</mark> was at two per cent and his project was on the phone. He had only twenty minutes before the lesson.</p><p>“Can I <mark>borrow</mark> your <mark>charger</mark>?” he asked Nodira. “I am sorry,” she said, “my <mark>charger</mark> is at home. But you can use my <mark>laptop</mark>.”</p><p>“Thank you!” said Otabek. “Can I use your <mark>headphones</mark> too?” Nodira smiled. “Yes, you can. But please be <mark>careful</mark> with them — they are new.” Otabek was very careful. He put them on the table, not on the floor.</p><p>Otabek finished his project on the <mark>laptop</mark>. Then he gave everything back. “Thank you, Nodira. You saved my project!” The project was about the planets and it had fifteen pictures.</p><p>“No problem,” said Nodira. “But next Friday — bring your own <mark>charger</mark>!”</p></div></div></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">43</span></footer>
+</section><section class="page lime "><span class="tab lime">11</span>
+ <div class="content"><div class="sec c-orange"><div class="sechead"><span class="secno">3</span><h2>True or False?</h2><span class="secemo"><span class="em">✅</span></span></div>
+  <p class="secuz">To‘g‘ri bo‘lsa T, noto‘g‘ri bo‘lsa F ni belgilang.</p></div>
+ <ul class="tflist"><li><span class="qn">1</span><span class="q">Otabek&#x27;s phone battery was at two per cent.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">2</span><span class="q">Nodira had her charger at school.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">3</span><span class="q">Nodira let Otabek use her laptop.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">4</span><span class="q">The headphones were old.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">5</span><span class="q">Otabek finished his project.</span><span class="tfb"><i>T</i><i>F</i></span></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">4</span><h2>Choose the Answer</h2><span class="secemo"><span class="em">🔘</span></span></div>
+  <p class="secuz">To‘g‘ri javobni aylana ichiga oling.</p></div>
+ <ol class="mcq"><li><p><span class="qn">1</span>What day was it?</p><div class="opts"><span><b>a</b>Monday</span><span><b>b</b>Friday</span><span><b>c</b>Sunday</span></div></li><li><p><span class="qn">2</span>Where was Nodira&#x27;s charger?</p><div class="opts"><span><b>a</b>at home</span><span><b>b</b>in her bag</span><span><b>c</b>at school</span></div></li><li><p><span class="qn">3</span>What else did Otabek borrow?</p><div class="opts"><span><b>a</b>a pen</span><span><b>b</b>headphones</span><span><b>c</b>a book</span></div></li><li><p><span class="qn">4</span>What does Nodira say about next Friday?</p><div class="opts"><span><b>a</b>Bring your own charger.</span><span><b>b</b>Come early.</span><span><b>c</b>Bring a laptop.</span></div></li></ol>
+ <div class="sec c-purple"><div class="sechead"><span class="secno">5</span><h2>Match</h2><span class="secemo"><span class="em">🔗</span></span></div>
+  <p class="secuz">So‘zni rasm bilan chiziq orqali bog‘lang.</p></div>
+ <div class="matchbox"><ul><li><span class="mn">1</span>charger<i class="dot"></i></li><li><span class="mn">2</span>laptop<i class="dot"></i></li><li><span class="mn">3</span>headphones<i class="dot"></i></li><li><span class="mn">4</span>phone<i class="dot"></i></li><li><span class="mn">5</span>battery<i class="dot"></i></li></ul><ul class="r"><li><i class="dot"></i><span class="mp"><span class="em">💻</span></span><span class="ml">a</span></li><li><i class="dot"></i><span class="mp"><span class="em">📱</span></span><span class="ml">b</span></li><li><i class="dot"></i><span class="mp"><span class="em">🔌</span></span><span class="ml">c</span></li><li><i class="dot"></i><span class="mp"><span class="em">🔋</span></span><span class="ml">d</span></li><li><i class="dot"></i><span class="mp"><span class="em">🎧</span></span><span class="ml">e</span></li></ul></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">44</span></footer>
+</section><section class="page lime "><span class="tab lime">11</span>
+ <div class="content"><div class="sec c-teal"><div class="sechead"><span class="secno">6</span><h2>Fill the Gaps</h2><span class="secemo"><span class="em">✏️</span></span></div>
+  <p class="secuz">So‘zlar qutisidan foydalanib bo‘sh joylarni to‘ldiring.</p></div>
+ <div class="bank"><span>borrow</span><span>laptop</span><span>battery</span><span>careful</span><span>home</span></div>
+ <ol class="gaps"><li>Otabek&#x27;s <span class=gapline></span> was at two per cent.</li><li>He wanted to <span class=gapline></span> a charger.</li><li>Nodira&#x27;s charger was at <span class=gapline></span>.</li><li>Otabek used Nodira&#x27;s <span class=gapline></span>.</li><li>Nodira said, “Please be <span class=gapline></span>.”</li></ol>
+ <div class="sec c-yellow"><div class="sechead"><span class="secno">7</span><h2>Word Search</h2><span class="secemo"><span class="em">🔍</span></span></div>
+  <p class="secuz">Matndagi 8 ta so‘zni toping va belgilang.</p></div>
+ <div class="wsearch"><table><tr><td>C</td><td>N</td><td>O</td><td>G</td><td>A</td><td>I</td><td>U</td><td>K</td><td>A</td><td>G</td></tr><tr><td>B</td><td>A</td><td>T</td><td>T</td><td>E</td><td>R</td><td>Y</td><td>F</td><td>L</td><td>N</td></tr><tr><td>W</td><td>F</td><td>R</td><td>I</td><td>D</td><td>A</td><td>Y</td><td>Y</td><td>A</td><td>U</td></tr><tr><td>P</td><td>D</td><td>B</td><td>E</td><td>E</td><td>G</td><td>P</td><td>C</td><td>P</td><td>P</td></tr><tr><td>I</td><td>H</td><td>A</td><td>W</td><td>F</td><td>L</td><td>K</td><td>H</td><td>T</td><td>R</td></tr><tr><td>N</td><td>C</td><td>O</td><td>C</td><td>C</td><td>U</td><td>G</td><td>A</td><td>O</td><td>O</td></tr><tr><td>U</td><td>Y</td><td>H</td><td>N</td><td>A</td><td>W</td><td>L</td><td>R</td><td>P</td><td>J</td></tr><tr><td>M</td><td>M</td><td>W</td><td>P</td><td>E</td><td>E</td><td>U</td><td>G</td><td>R</td><td>E</td></tr><tr><td>U</td><td>B</td><td>O</td><td>R</td><td>R</td><td>O</td><td>W</td><td>E</td><td>E</td><td>C</td></tr><tr><td>N</td><td>F</td><td>Y</td><td>E</td><td>K</td><td>H</td><td>W</td><td>R</td><td>H</td><td>T</td></tr></table><ul><li><i class="box"></i>charger</li><li><i class="box"></i>borrow</li><li><i class="box"></i>battery</li><li><i class="box"></i>laptop</li><li><i class="box"></i>phone</li><li><i class="box"></i>careful</li><li><i class="box"></i>friday</li><li><i class="box"></i>project</li></ul></div>
+ <div class="funfact"><span><span class="em">💡</span></span><p><b>Fun fact!</b> The first mobile phone in 1983 was 25 cm long and its battery lasted only 30 minutes!</p></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">45</span></footer>
+</section><section class="page lime "><span class="tab lime">11</span>
+ <div class="content"><div class="sec c-blue"><div class="sechead"><span class="secno">8</span><h2>About You</h2><span class="secemo"><span class="em">🙋</span></span></div>
+  <p class="secuz">O‘zingiz haqingizda bitta gap yozing.</p></div>
+ <ul class="you"><li><p>1. What electronic device do you use every day?</p><i class="wline"></i></li><li><p>2. Can you borrow things from your friends?</p><i class="wline"></i></li><li><p>3. What do you say when you want to borrow something?</p><i class="wline"></i></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">9</span><h2>Draw & Write</h2><span class="secemo"><span class="em">🎨</span></span></div>
+  <p class="secuz">Rasm chizing va 2 ta gap yozing.</p></div>
+ <div class="drawbox"><p>Draw the device you use most. Write two sentences.</p><div class="canvas"></div><i class="wline"></i><i class="wline"></i></div>
+ <div class="rstars"><b>How did I do?</b><span><span class="em">😀</span> Great!</span><span><span class="em">🙂</span> Good</span><span><span class="em">🤔</span> I need practice</span></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">46</span></footer>
+</section><section class="page green "><span class="tab green">12</span>
+ <div class="content"><div class="uhead green"><div class="utitle"><small>UNIT 12 · COMPARING PEOPLE</small><h1>She&#x27;s smarter than me!</h1></div><span class="uemo"><span class="em">📊</span></span></div>
+ <div class="sec c-green"><div class="sechead"><span class="secno">1</span><h2>Before You Read</h2><span class="secemo"><span class="em">👀</span></span></div>
+  <p class="secuz">Rasmlarga qarang va so‘zlarni o‘qing. Matn nima haqida deb o‘ylaysiz?</p></div>
+ <ul class="wcards six"><li><span class="wemo"><span class="em">📏</span></span><b>taller</b><small>balandroq</small></li><li><span class="wemo"><span class="em">🧠</span></span><b>smarter</b><small>aqlliroq</small></li><li><span class="wemo"><span class="em">⚡</span></span><b>faster</b><small>tezroq</small></li><li><span class="wemo"><span class="em">😂</span></span><b>funnier</b><small>kulgiliroq</small></li><li><span class="wemo"><span class="em">👯</span></span><b>twins</b><small>egizaklar</small></li><li><span class="wemo"><span class="em">🔀</span></span><b>different</b><small>har xil</small></li></ul>
+ <p class="predict"><span class="em">🤔</span> Look at the poster. Who is in the competition?</p>
+ <div class="sec c-blue"><div class="sechead"><span class="secno">2</span><h2>Read</h2><span class="secemo"><span class="em">📖</span></span></div>
+  <p class="secuz">Matnni 2 marta o‘qing: avval jim, keyin ovoz chiqarib.</p></div>
+ <div class="twin t-poster"><div class="tbar"><span class="dots3"><i></i><i></i><i></i></span><span><span class="em">🎉</span> Poster</span></div><div class="tbody"><div class="thead"><h3>Family Day · Come and join us!</h3><span class="tpic"><span class="em">📊</span><span class="em">🏃</span></span></div><div class="meta">School 15 · Saturday, 10 a.m.</div><div class="ttext"><p>Who is <mark>faster</mark> — you or your father? Come to Family Day and find out!</p><p>THE RACE · 10 a.m. Children and parents run together. Last year Mr Usmonov was <mark>faster</mark> than all the children! Can anybody beat him this year?</p><p>THE QUIZ · 11 a.m. Twenty questions about our city. The <mark>twins</mark> Olim and Alim won last year. Olim says he is <mark>smarter</mark> than his brother. Alim says, “No! I am <mark>smarter</mark> than you!” Their mother says they are both <mark>funnier</mark> than their father!</p><p>THE TALL TABLE · 12 p.m. We measure everybody. Is your brother <mark>taller</mark> than your mother? Come and see! Last year the tallest person was Rustam from Class 7! Everybody is <mark>different</mark> and everybody is welcome. Bring your family — and bring your smile!</p></div></div></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">47</span></footer>
+</section><section class="page green "><span class="tab green">12</span>
+ <div class="content"><div class="sec c-orange"><div class="sechead"><span class="secno">3</span><h2>True or False?</h2><span class="secemo"><span class="em">✅</span></span></div>
+  <p class="secuz">To‘g‘ri bo‘lsa T, noto‘g‘ri bo‘lsa F ni belgilang.</p></div>
+ <ul class="tflist"><li><span class="qn">1</span><span class="q">Family Day is on Saturday.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">2</span><span class="q">The race starts at eleven o&#x27;clock.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">3</span><span class="q">Mr Usmonov was faster than all the children last year.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">4</span><span class="q">The quiz has thirty questions.</span><span class="tfb"><i>T</i><i>F</i></span></li><li><span class="qn">5</span><span class="q">The twins are called Olim and Alim.</span><span class="tfb"><i>T</i><i>F</i></span></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">4</span><h2>Choose the Answer</h2><span class="secemo"><span class="em">🔘</span></span></div>
+  <p class="secuz">To‘g‘ri javobni aylana ichiga oling.</p></div>
+ <ol class="mcq"><li><p><span class="qn">1</span>What time is the quiz?</p><div class="opts"><span><b>a</b>10 a.m.</span><span><b>b</b>11 a.m.</span><span><b>c</b>12 p.m.</span></div></li><li><p><span class="qn">2</span>What is the quiz about?</p><div class="opts"><span><b>a</b>our city</span><span><b>b</b>animals</span><span><b>c</b>films</span></div></li><li><p><span class="qn">3</span>Who won the quiz last year?</p><div class="opts"><span><b>a</b>Mr Usmonov</span><span><b>b</b>the twins</span><span><b>c</b>the teachers</span></div></li><li><p><span class="qn">4</span>What happens at twelve o&#x27;clock?</p><div class="opts"><span><b>a</b>the race</span><span><b>b</b>the quiz</span><span><b>c</b>everybody is measured</span></div></li></ol>
+ <div class="sec c-purple"><div class="sechead"><span class="secno">5</span><h2>Match</h2><span class="secemo"><span class="em">🔗</span></span></div>
+  <p class="secuz">So‘zni rasm bilan chiziq orqali bog‘lang.</p></div>
+ <div class="matchbox"><ul><li><span class="mn">1</span>race<i class="dot"></i></li><li><span class="mn">2</span>quiz<i class="dot"></i></li><li><span class="mn">3</span>twins<i class="dot"></i></li><li><span class="mn">4</span>family<i class="dot"></i></li><li><span class="mn">5</span>smile<i class="dot"></i></li></ul><ul class="r"><li><i class="dot"></i><span class="mp"><span class="em">😄</span></span><span class="ml">a</span></li><li><i class="dot"></i><span class="mp"><span class="em">👨‍👩‍👧</span></span><span class="ml">b</span></li><li><i class="dot"></i><span class="mp"><span class="em">❓</span></span><span class="ml">c</span></li><li><i class="dot"></i><span class="mp"><span class="em">🏃</span></span><span class="ml">d</span></li><li><i class="dot"></i><span class="mp"><span class="em">👯</span></span><span class="ml">e</span></li></ul></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">48</span></footer>
+</section><section class="page green "><span class="tab green">12</span>
+ <div class="content"><div class="sec c-teal"><div class="sechead"><span class="secno">6</span><h2>Fill the Gaps</h2><span class="secemo"><span class="em">✏️</span></span></div>
+  <p class="secuz">So‘zlar qutisidan foydalanib bo‘sh joylarni to‘ldiring.</p></div>
+ <div class="bank"><span>different</span><span>taller</span><span>questions</span><span>race</span><span>Olim</span></div>
+ <ol class="gaps"><li>The <span class=gapline></span> starts at ten o&#x27;clock.</li><li>The quiz has twenty <span class=gapline></span>.</li><li>The twins are <span class=gapline></span> and Alim.</li><li>Is your brother <span class=gapline></span> than your mother?</li><li>Everybody is <span class=gapline></span> and everybody is welcome.</li></ol>
+ <div class="sec c-yellow"><div class="sechead"><span class="secno">7</span><h2>Word Search</h2><span class="secemo"><span class="em">🔍</span></span></div>
+  <p class="secuz">Matndagi 8 ta so‘zni toping va belgilang.</p></div>
+ <div class="wsearch"><table><tr><td>S</td><td>T</td><td>L</td><td>W</td><td>T</td><td>F</td><td>F</td><td>B</td><td>T</td><td>F</td></tr><tr><td>M</td><td>S</td><td>C</td><td>N</td><td>W</td><td>A</td><td>O</td><td>W</td><td>R</td><td>R</td></tr><tr><td>I</td><td>T</td><td>W</td><td>N</td><td>T</td><td>S</td><td>A</td><td>F</td><td>S</td><td>Y</td></tr><tr><td>L</td><td>C</td><td>A</td><td>G</td><td>I</td><td>T</td><td>M</td><td>A</td><td>M</td><td>M</td></tr><tr><td>E</td><td>T</td><td>N</td><td>L</td><td>K</td><td>E</td><td>D</td><td>M</td><td>A</td><td>I</td></tr><tr><td>H</td><td>L</td><td>W</td><td>M</td><td>L</td><td>R</td><td>M</td><td>I</td><td>R</td><td>S</td></tr><tr><td>U</td><td>Q</td><td>U</td><td>I</td><td>Z</td><td>E</td><td>S</td><td>L</td><td>T</td><td>F</td></tr><tr><td>A</td><td>N</td><td>O</td><td>B</td><td>N</td><td>S</td><td>R</td><td>Y</td><td>E</td><td>A</td></tr><tr><td>H</td><td>R</td><td>A</td><td>C</td><td>E</td><td>S</td><td>O</td><td>B</td><td>R</td><td>N</td></tr><tr><td>G</td><td>W</td><td>D</td><td>T</td><td>H</td><td>F</td><td>C</td><td>I</td><td>B</td><td>O</td></tr></table><ul><li><i class="box"></i>taller</li><li><i class="box"></i>smarter</li><li><i class="box"></i>faster</li><li><i class="box"></i>twins</li><li><i class="box"></i>race</li><li><i class="box"></i>quiz</li><li><i class="box"></i>family</li><li><i class="box"></i>smile</li></ul></div>
+ <div class="funfact"><span><span class="em">💡</span></span><p><b>Fun fact!</b> Identical twins have the same DNA, but they never have the same fingerprints!</p></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">49</span></footer>
+</section><section class="page green "><span class="tab green">12</span>
+ <div class="content"><div class="sec c-blue"><div class="sechead"><span class="secno">8</span><h2>About You</h2><span class="secemo"><span class="em">🙋</span></span></div>
+  <p class="secuz">O‘zingiz haqingizda bitta gap yozing.</p></div>
+ <ul class="you"><li><p>1. Who is taller than you in your family?</p><i class="wline"></i></li><li><p>2. Who is funnier — you or your best friend?</p><i class="wline"></i></li><li><p>3. What are you good at?</p><i class="wline"></i></li></ul>
+ <div class="sec c-pink"><div class="sechead"><span class="secno">9</span><h2>Draw & Write</h2><span class="secemo"><span class="em">🎨</span></span></div>
+  <p class="secuz">Rasm chizing va 2 ta gap yozing.</p></div>
+ <div class="drawbox"><p>Draw you and somebody in your family. Write two sentences with -er words.</p><div class="canvas"></div><i class="wline"></i><i class="wline"></i></div>
+ <div class="rstars"><b>How did I do?</b><span><span class="em">😀</span> Great!</span><span><span class="em">🙂</span> Good</span><span><span class="em">🤔</span> I need practice</span></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">50</span></footer>
+</section><section class="page  keypage">
+ <div class="content"><div class="howhead"><h1>Answer key</h1><span><span class="em">🔑</span></span></div><div class="keygrid"><div class="kunit blue"><h3><span>1</span>Our new school uniform!</h3><p><b>True/False:</b> 1 T  2 F  3 T  4 F  5 F</p><p><b>Choose:</b> 1 b  2 a  3 b  4 b</p><p><b>Match:</b> 1 b  2 d  3 e  4 c  5 a</p><p><b>Gaps:</b> 1 shirt  2 skirt  3 photo  4 sister  5 shoes</p></div><div class="kunit orange"><h3><span>2</span>Are you doing your homework?</h3><p><b>True/False:</b> 1 T  2 F  3 T  4 F  5 T</p><p><b>Choose:</b> 1 a  2 b  3 a  4 b</p><p><b>Match:</b> 1 e  2 d  3 b  4 c  5 a</p><p><b>Gaps:</b> 1 kitchen  2 noisy  3 mother  4 finish  5 singing</p></div><div class="kunit purple"><h3><span>3</span>My best year at school</h3><p><b>True/False:</b> 1 F  2 T  3 T  4 F  5 T</p><p><b>Choose:</b> 1 b  2 b  3 b  4 a</p><p><b>Match:</b> 1 a  2 e  3 c  4 d  5 b</p><p><b>Gaps:</b> 1 chess  2 grandfather  3 team  4 coach  5 words</p></div><div class="kunit yellow"><h3><span>4</span>Are there any eggs?</h3><p><b>True/False:</b> 1 T  2 F  3 T  4 T  5 F</p><p><b>Choose:</b> 1 c  2 b  3 a  4 a</p><p><b>Match:</b> 1 e  2 d  3 c  4 a  5 b</p><p><b>Gaps:</b> 1 market  2 eggs  3 apples  4 bread  5 money</p></div><div class="kunit teal"><h3><span>5</span>A box of rice, please!</h3><p><b>True/False:</b> 1 F  2 T  3 T  4 F  5 T</p><p><b>Choose:</b> 1 b  2 a  3 c  4 b</p><p><b>Match:</b> 1 c  2 b  3 d  4 a  5 e</p><p><b>Gaps:</b> 1 shop  2 kilos  3 carry  4 bottles  5 summer</p></div><div class="kunit red"><h3><span>6</span>Dinner at nine o&#x27;clock!</h3><p><b>True/False:</b> 1 T  2 F  3 T  4 F  5 T</p><p><b>Choose:</b> 1 a  2 b  3 b  4 a</p><p><b>Match:</b> 1 e  2 b  3 c  4 a  5 d</p><p><b>Gaps:</b> 1 early  2 never  3 nine  4 together  5 tired</p></div><div class="kunit sky"><h3><span>7</span>How do you get to school?</h3><p><b>True/False:</b> 1 T  2 F  3 T  4 T  5 F</p><p><b>Choose:</b> 1 b  2 a  3 a  4 b</p><p><b>Match:</b> 1 e  2 c  3 d  4 a  5 b</p><p><b>Gaps:</b> 1 walk  2 far  3 bicycle  4 metro  5 traffic</p></div><div class="kunit indigo"><h3><span>8</span>What do your parents do?</h3><p><b>True/False:</b> 1 F  2 T  3 F  4 T  5 T</p><p><b>Choose:</b> 1 b  2 c  3 a  4 c</p><p><b>Match:</b> 1 d  2 c  3 b  4 a  5 e</p><p><b>Gaps:</b> 1 doctor  2 hospital  3 driver  4 teacher  5 proud</p></div><div class="kunit rose"><h3><span>9</span>Feel better soon!</h3><p><b>True/False:</b> 1 F  2 T  3 T  4 F  5 T</p><p><b>Choose:</b> 1 b  2 a  3 c  4 b</p><p><b>Match:</b> 1 a  2 c  3 b  4 e  5 d</p><p><b>Gaps:</b> 1 ill  2 headache  3 medicine  4 rest  5 books</p></div><div class="kunit pink"><h3><span>10</span>I love them!</h3><p><b>True/False:</b> 1 T  2 F  3 T  4 F  5 T</p><p><b>Choose:</b> 1 b  2 a  3 b  4 c</p><p><b>Match:</b> 1 e  2 b  3 d  4 c  5 a</p><p><b>Gaps:</b> 1 magazine  2 Paris  3 stickers  4 toys  5 collector</p></div><div class="kunit lime"><h3><span>11</span>Can I borrow your charger?</h3><p><b>True/False:</b> 1 T  2 F  3 T  4 F  5 T</p><p><b>Choose:</b> 1 b  2 a  3 b  4 a</p><p><b>Match:</b> 1 c  2 a  3 e  4 b  5 d</p><p><b>Gaps:</b> 1 battery  2 borrow  3 home  4 laptop  5 careful</p></div><div class="kunit green"><h3><span>12</span>She&#x27;s smarter than me!</h3><p><b>True/False:</b> 1 T  2 F  3 T  4 F  5 T</p><p><b>Choose:</b> 1 b  2 a  3 b  4 c</p><p><b>Match:</b> 1 d  2 c  3 e  4 b  5 a</p><p><b>Gaps:</b> 1 race  2 questions  3 Olim  4 taller  5 different</p></div></div></div>
+ <footer><span>Read Time! 2 · Teen2Teen 2</span><span class="pno">51</span></footer>
+</section></body></html>

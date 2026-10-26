@@ -1,0 +1,178 @@
+{
+  "n": 5,
+  "title": "A box of rice, please!",
+  "topic": "Food shopping",
+  "emoji": "🍚",
+  "color": "teal",
+  "text_type": "interview",
+  "before": {
+    "words": [
+      [
+        "rice",
+        "guruch",
+        "🍚"
+      ],
+      [
+        "bottle",
+        "shisha",
+        "🍶"
+      ],
+      [
+        "kilo",
+        "kilogramm",
+        "⚖️"
+      ],
+      [
+        "customer",
+        "xaridor",
+        "🙋"
+      ],
+      [
+        "much",
+        "qancha",
+        "❓"
+      ],
+      [
+        "carry",
+        "ko‘tarmoq",
+        "💪"
+      ]
+    ],
+    "predict": "Look at the picture. Who is talking to the shopkeeper?"
+  },
+  "text": {
+    "title": "Ten minutes in Aziza's shop",
+    "meta": "Our school magazine · Shop corner",
+    "paragraphs": [
+      "Reporter: Good morning, Aziza. You work in this little shop. What do people buy every day?",
+      "Aziza: Good morning! Every day people buy **rice**, bread and oil. A big **box** of **rice** is very popular. My shop is small, but we have everything for a good dinner.",
+      "Reporter: How **much** **rice** is in one box?",
+      "Aziza: There are five **kilos** in one box. It is heavy, so I always help my **customers** **carry** it to the car. Many families buy one box every month.",
+      "Reporter: And how many **bottles** of water do you sell?",
+      "Aziza: About one hundred **bottles** every day! In summer we sell more. Children come here after school and they always want cold water and ice cream.",
+      "Reporter: Thank you, Aziza. Have a good day! Come again and bring your friends!"
+    ],
+    "picture": "🍚🛍️"
+  },
+  "tf": [
+    [
+      "Aziza works in a big supermarket.",
+      false
+    ],
+    [
+      "People buy rice, bread and oil every day.",
+      true
+    ],
+    [
+      "There are five kilos of rice in one box.",
+      true
+    ],
+    [
+      "Aziza never helps her customers.",
+      false
+    ],
+    [
+      "The shop sells more water in summer.",
+      true
+    ]
+  ],
+  "mcq": [
+    {
+      "q": "How much rice is in one box?",
+      "options": [
+        "two kilos",
+        "five kilos",
+        "ten kilos"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Why does Aziza help her customers?",
+      "options": [
+        "The box is heavy.",
+        "The shop is far.",
+        "The box is small."
+      ],
+      "answer": 0
+    },
+    {
+      "q": "How many bottles of water does she sell every day?",
+      "options": [
+        "about ten",
+        "about fifty",
+        "about one hundred"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "When does the shop sell more water?",
+      "options": [
+        "in winter",
+        "in summer",
+        "in autumn"
+      ],
+      "answer": 1
+    }
+  ],
+  "match": [
+    [
+      "rice",
+      "🍚"
+    ],
+    [
+      "bottle",
+      "🍶"
+    ],
+    [
+      "bread",
+      "🍞"
+    ],
+    [
+      "oil",
+      "🫒"
+    ],
+    [
+      "car",
+      "🚗"
+    ]
+  ],
+  "gaps": [
+    [
+      "Aziza works in a little ___.",
+      "shop"
+    ],
+    [
+      "One box has five ___ of rice.",
+      "kilos"
+    ],
+    [
+      "She helps customers ___ the box.",
+      "carry"
+    ],
+    [
+      "The shop sells one hundred ___ of water.",
+      "bottles"
+    ],
+    [
+      "In ___ they sell more water.",
+      "summer"
+    ]
+  ],
+  "wordsearch": [
+    "RICE",
+    "BOTTLE",
+    "KILO",
+    "SHOP",
+    "WATER",
+    "BREAD",
+    "SUMMER",
+    "CARRY"
+  ],
+  "about_you": [
+    "How much water do you drink every day?",
+    "What do you usually buy at the shop?",
+    "What is your favourite meal?"
+  ],
+  "draw": "Draw your favourite food. Write two sentences about it.",
+  "fun_fact": "Uzbek people eat about 40 kilos of rice every year. That is a lot of palov!"
+}

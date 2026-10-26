@@ -1,0 +1,176 @@
+{
+  "n": 7,
+  "title": "How do you get to school?",
+  "topic": "Transport",
+  "emoji": "🚌",
+  "color": "sky",
+  "text_type": "article",
+  "before": {
+    "words": [
+      [
+        "bus",
+        "avtobus",
+        "🚌"
+      ],
+      [
+        "walk",
+        "piyoda yurmoq",
+        "🚶"
+      ],
+      [
+        "bicycle",
+        "velosiped",
+        "🚲"
+      ],
+      [
+        "metro",
+        "metro",
+        "🚇"
+      ],
+      [
+        "minutes",
+        "daqiqa",
+        "⏱️"
+      ],
+      [
+        "far",
+        "uzoq",
+        "📍"
+      ]
+    ],
+    "predict": "Look at the picture. How do the children travel to school?"
+  },
+  "text": {
+    "title": "Our class travels to school",
+    "meta": "School newspaper · Class 6B",
+    "paragraphs": [
+      "Last week we asked all 24 students in our class one question: how do you get to school?",
+      "Twelve students **walk**. They live near the school, so they only need ten **minutes**. “I **walk** with my sister every morning,” says Malika. “It is good exercise and it is free,” she says.",
+      "Six students take the **bus**. The **bus** stops in front of the school. Sardor lives **far** away, so his journey takes thirty **minutes**. He gets up at six o'clock every morning to catch it.",
+      "Four students come by **bicycle**. They are fast and they are never late! Two students take the **metro** with their father. “I am never in traffic,” says Jasur, “and my bicycle is red and very fast.”",
+      "And our teacher? She drives a small red car. “The traffic is terrible,” she says. “Next year I want a **bicycle** too!” We think that is a very good idea!"
+    ],
+    "picture": "🚌🚲"
+  },
+  "tf": [
+    [
+      "There are 24 students in the class.",
+      true
+    ],
+    [
+      "Six students walk to school.",
+      false
+    ],
+    [
+      "Sardor's journey takes thirty minutes.",
+      true
+    ],
+    [
+      "Four students come by bicycle.",
+      true
+    ],
+    [
+      "The teacher comes by metro.",
+      false
+    ]
+  ],
+  "mcq": [
+    {
+      "q": "How many students walk?",
+      "options": [
+        "six",
+        "twelve",
+        "four"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Who walks with her sister?",
+      "options": [
+        "Malika",
+        "Sardor",
+        "the teacher"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Where does the bus stop?",
+      "options": [
+        "in front of the school",
+        "at the market",
+        "near the metro"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "What does the teacher want next year?",
+      "options": [
+        "a new car",
+        "a bicycle",
+        "a bus"
+      ],
+      "answer": 1
+    }
+  ],
+  "match": [
+    [
+      "bus",
+      "🚌"
+    ],
+    [
+      "bicycle",
+      "🚲"
+    ],
+    [
+      "metro",
+      "🚇"
+    ],
+    [
+      "car",
+      "🚗"
+    ],
+    [
+      "walk",
+      "🚶"
+    ]
+  ],
+  "gaps": [
+    [
+      "Twelve students ___ to school.",
+      "walk"
+    ],
+    [
+      "Sardor lives ___ away.",
+      "far"
+    ],
+    [
+      "Four students come by ___.",
+      "bicycle"
+    ],
+    [
+      "Two students take the ___.",
+      "metro"
+    ],
+    [
+      "The teacher says the ___ is terrible.",
+      "traffic"
+    ]
+  ],
+  "wordsearch": [
+    "BUS",
+    "WALK",
+    "BICYCLE",
+    "METRO",
+    "CAR",
+    "TRAFFIC",
+    "SCHOOL",
+    "MINUTES"
+  ],
+  "about_you": [
+    "How do you get to school?",
+    "How many minutes is your journey?",
+    "Do you live near or far from school?"
+  ],
+  "draw": "Draw your journey to school. Write two sentences.",
+  "fun_fact": "The Tashkent metro opened in 1977. It was the first metro in Central Asia!"
+}

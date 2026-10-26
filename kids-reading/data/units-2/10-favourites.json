@@ -1,0 +1,177 @@
+{
+  "n": 10,
+  "title": "I love them!",
+  "topic": "Likes and favourite things",
+  "emoji": "💖",
+  "color": "pink",
+  "text_type": "quiz",
+  "before": {
+    "words": [
+      [
+        "collect",
+        "to‘plamoq",
+        "🧲"
+      ],
+      [
+        "key ring",
+        "brelok",
+        "🔑"
+      ],
+      [
+        "sticker",
+        "stiker",
+        "🌟"
+      ],
+      [
+        "boring",
+        "zerikarli",
+        "😐"
+      ],
+      [
+        "hate",
+        "yoqtirmaslik",
+        "👎"
+      ],
+      [
+        "favourite",
+        "sevimli",
+        "💖"
+      ]
+    ],
+    "predict": "Look at the title. What does this quiz ask about?"
+  },
+  "text": {
+    "title": "What do you really love?",
+    "meta": "Teen Magazine · Fun quiz",
+    "paragraphs": [
+      "Do you **collect** small things? Take our quiz and find out about you! Be honest — and count your a, b and c answers!",
+      "1. Your friend gives you a **key ring** from Paris. You say: a) “Thank you! I **collect** them!” b) “It is nice.” c) “I do not want it.”",
+      "2. You see new **stickers** in a shop. You: a) buy all of them b) buy one c) walk past them",
+      "3. Your old toys are in a box. You: a) love them and keep them b) give them to your cousin c) **hate** them",
+      "4. Your friend talks about football for an hour. You think: a) “Great! I love it!” b) “It is OK.” c) “This is **boring**!” d) “Football is my **favourite** sport too!”",
+      "Mostly a? You are a collector! Mostly b? You are relaxed. Mostly c? You like new things, not old things! Show this quiz to your family. Is your mother a collector too?"
+    ],
+    "picture": "🔑🌟"
+  },
+  "tf": [
+    [
+      "This is a quiz in a magazine.",
+      true
+    ],
+    [
+      "The key ring in question 1 is from London.",
+      false
+    ],
+    [
+      "Question 2 is about stickers.",
+      true
+    ],
+    [
+      "In question 3 the toys are in a bag.",
+      false
+    ],
+    [
+      "Answer c in question 4 is “This is boring!”",
+      true
+    ]
+  ],
+  "mcq": [
+    {
+      "q": "How many questions are in the quiz?",
+      "options": [
+        "three",
+        "four",
+        "five"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Where is the key ring from?",
+      "options": [
+        "Paris",
+        "Tashkent",
+        "Rome"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "If you answer mostly a, you are…",
+      "options": [
+        "relaxed",
+        "a collector",
+        "bored"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "In question 4, the friend talks about…",
+      "options": [
+        "music",
+        "films",
+        "football"
+      ],
+      "answer": 2
+    }
+  ],
+  "match": [
+    [
+      "key ring",
+      "🔑"
+    ],
+    [
+      "sticker",
+      "🌟"
+    ],
+    [
+      "toys",
+      "🧸"
+    ],
+    [
+      "shop",
+      "🏬"
+    ],
+    [
+      "football",
+      "⚽"
+    ]
+  ],
+  "gaps": [
+    [
+      "This is a quiz in a ___.",
+      "magazine"
+    ],
+    [
+      "The key ring is from ___.",
+      "Paris"
+    ],
+    [
+      "In question 2 you see new ___.",
+      "stickers"
+    ],
+    [
+      "Your old ___ are in a box.",
+      "toys"
+    ],
+    [
+      "Mostly a means you are a ___.",
+      "collector"
+    ]
+  ],
+  "wordsearch": [
+    "COLLECT",
+    "STICKER",
+    "TOYS",
+    "QUIZ",
+    "SHOP",
+    "BORING",
+    "PARIS",
+    "LOVE"
+  ],
+  "about_you": [
+    "Do you collect anything? What?",
+    "What is your favourite thing at home?",
+    "What do you think is boring?"
+  ],
+  "draw": "Draw your favourite thing. Write two sentences about it.",
+  "fun_fact": "The biggest key ring collection in the world has more than 60,000 key rings!"
+}

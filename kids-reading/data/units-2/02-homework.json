@@ -1,0 +1,176 @@
+{
+  "n": 2,
+  "title": "Are you doing your homework?",
+  "topic": "Homework at home",
+  "emoji": "📚",
+  "color": "orange",
+  "text_type": "email",
+  "before": {
+    "words": [
+      [
+        "homework",
+        "uy vazifasi",
+        "📚"
+      ],
+      [
+        "kitchen",
+        "oshxona",
+        "🍽️"
+      ],
+      [
+        "noisy",
+        "shovqinli",
+        "🔊"
+      ],
+      [
+        "quiet",
+        "jim",
+        "🤫"
+      ],
+      [
+        "finish",
+        "tugatmoq",
+        "🏁"
+      ],
+      [
+        "help",
+        "yordam bermoq",
+        "🙌"
+      ]
+    ],
+    "predict": "Look at the title. Where does Dilnoza do her homework?"
+  },
+  "text": {
+    "title": "An email to my cousin",
+    "meta": "From: Dilnoza · To: Sevara",
+    "paragraphs": [
+      "Hi Sevara! How are you? I am writing this email at seven o'clock. I am not doing my **homework** right now — I am having a short break!",
+      "I usually do my **homework** in the **kitchen**, because my room is very cold. But today the kitchen is very **noisy**. My grandmother is cooking and my little brother is singing. It is not **quiet** at all! My grandmother gives me tea and bread while I work, so the kitchen is also the best place!",
+      "My mother always **helps** me with maths. She is good at numbers. My father helps me with English. Tonight I have maths, English and history. I want to **finish** before nine o'clock. He is only four years old and he sings the same song ten times every evening.",
+      "Where do you do your homework? Is your house **quiet**? Write soon! Maths is easy for me but history is difficult, because there are many dates.",
+      "Dilnoza"
+    ],
+    "picture": "📚✏️"
+  },
+  "tf": [
+    [
+      "Dilnoza is writing her email at seven o'clock.",
+      true
+    ],
+    [
+      "Dilnoza is doing her homework now.",
+      false
+    ],
+    [
+      "Dilnoza usually works in the kitchen.",
+      true
+    ],
+    [
+      "Her father helps her with maths.",
+      false
+    ],
+    [
+      "Dilnoza wants to finish before nine o'clock.",
+      true
+    ]
+  ],
+  "mcq": [
+    {
+      "q": "Why does Dilnoza not work in her room?",
+      "options": [
+        "It is cold.",
+        "It is small.",
+        "It is noisy."
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Who is cooking?",
+      "options": [
+        "her mother",
+        "her grandmother",
+        "her brother"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Who helps her with English?",
+      "options": [
+        "her father",
+        "her mother",
+        "her brother"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "How many subjects has she got tonight?",
+      "options": [
+        "two",
+        "three",
+        "four"
+      ],
+      "answer": 1
+    }
+  ],
+  "match": [
+    [
+      "homework",
+      "📚"
+    ],
+    [
+      "kitchen",
+      "🍽️"
+    ],
+    [
+      "singing",
+      "🎤"
+    ],
+    [
+      "maths",
+      "🔢"
+    ],
+    [
+      "break",
+      "⏸️"
+    ]
+  ],
+  "gaps": [
+    [
+      "Dilnoza does her homework in the ___.",
+      "kitchen"
+    ],
+    [
+      "Today the kitchen is very ___.",
+      "noisy"
+    ],
+    [
+      "Her ___ helps her with maths.",
+      "mother"
+    ],
+    [
+      "She wants to ___ before nine o'clock.",
+      "finish"
+    ],
+    [
+      "Her little brother is ___.",
+      "singing"
+    ]
+  ],
+  "wordsearch": [
+    "HOMEWORK",
+    "KITCHEN",
+    "NOISY",
+    "QUIET",
+    "FINISH",
+    "MATHS",
+    "BREAK",
+    "COOK"
+  ],
+  "about_you": [
+    "Where do you do your homework?",
+    "Who helps you with your homework?",
+    "What are you doing right now?"
+  ],
+  "draw": "Draw the place where you do your homework. Write two sentences.",
+  "fun_fact": "The word “homework” is more than 350 years old. Children in 1660 had homework too!"
+}

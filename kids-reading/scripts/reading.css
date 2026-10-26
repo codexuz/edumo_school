@@ -114,3 +114,6 @@
 .t-chat .ttext{display:block;column-count:2;column-gap:4mm;column-rule:1.5px dashed #C3CBDB}
 .t-chat .bub{display:block;width:fit-content;max-width:100%;break-inside:avoid;margin-bottom:3px}
 .t-chat .bub.me{margin-left:auto}
+
+/* series number on the cover */
+.ctitle h1 .bno{font-size:46pt;background:#FFD84D;color:var(--navy);border-radius:14px;padding:0 14px;text-shadow:none;display:inline-block;line-height:1.05;vertical-align:4px}

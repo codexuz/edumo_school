@@ -1,0 +1,176 @@
+{
+  "n": 3,
+  "title": "My best year at school",
+  "topic": "School year and clubs",
+  "emoji": "🏫",
+  "color": "purple",
+  "text_type": "blog",
+  "before": {
+    "words": [
+      [
+        "club",
+        "to‘garak",
+        "🎭"
+      ],
+      [
+        "chess",
+        "shaxmat",
+        "♟️"
+      ],
+      [
+        "team",
+        "jamoa",
+        "⚽"
+      ],
+      [
+        "learning",
+        "o‘rganyapti",
+        "🧠"
+      ],
+      [
+        "year",
+        "yil",
+        "📅"
+      ],
+      [
+        "practise",
+        "mashq qilmoq",
+        "🔁"
+      ]
+    ],
+    "predict": "Look at the title and the picture. What is Aziz doing this year?"
+  },
+  "text": {
+    "title": "This year I am trying everything!",
+    "meta": "Aziz's blog · September",
+    "paragraphs": [
+      "Hello! My name is Aziz and I am twelve. This **year** is my best school year. I am doing three new things!",
+      "First, I am in the **chess** **club**. We meet on Mondays. I am **learning** new moves and I **practise** every evening with my grandfather. He always wins, but I am getting better! Our club has twelve students and one old chess board.",
+      "Second, I am playing football. Our **team** is small but fast. We **practise** on Wednesdays after school. Our teacher, Mr Karimov, is a very good coach. Last Saturday we played against School 22 and we won two goals to one!",
+      "Third, I am **learning** English with my friend Shoxrux. We watch short films and we write new words in a little book. We have 200 words now! My favourite new word this month is “amazing”.",
+      "What are you doing this **year**? Tell me in the comments!"
+    ],
+    "picture": "♟️⚽"
+  },
+  "tf": [
+    [
+      "Aziz is eleven years old.",
+      false
+    ],
+    [
+      "The chess club meets on Mondays.",
+      true
+    ],
+    [
+      "Aziz practises chess with his grandfather.",
+      true
+    ],
+    [
+      "The football team practises on Fridays.",
+      false
+    ],
+    [
+      "Aziz and Shoxrux have 200 English words.",
+      true
+    ]
+  ],
+  "mcq": [
+    {
+      "q": "How many new things is Aziz doing?",
+      "options": [
+        "two",
+        "three",
+        "four"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Who always wins at chess?",
+      "options": [
+        "Aziz",
+        "his grandfather",
+        "Shoxrux"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "When does the football team practise?",
+      "options": [
+        "Mondays",
+        "Wednesdays",
+        "Saturdays"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "How do the boys learn English?",
+      "options": [
+        "They watch short films.",
+        "They play chess.",
+        "They read newspapers."
+      ],
+      "answer": 0
+    }
+  ],
+  "match": [
+    [
+      "chess",
+      "♟️"
+    ],
+    [
+      "football",
+      "⚽"
+    ],
+    [
+      "film",
+      "🎬"
+    ],
+    [
+      "book",
+      "📓"
+    ],
+    [
+      "coach",
+      "🧑‍🏫"
+    ]
+  ],
+  "gaps": [
+    [
+      "Aziz is in the ___ club.",
+      "chess"
+    ],
+    [
+      "He practises with his ___.",
+      "grandfather"
+    ],
+    [
+      "The football ___ is small but fast.",
+      "team"
+    ],
+    [
+      "Mr Karimov is a good ___.",
+      "coach"
+    ],
+    [
+      "The boys have 200 English ___.",
+      "words"
+    ]
+  ],
+  "wordsearch": [
+    "CHESS",
+    "CLUB",
+    "TEAM",
+    "COACH",
+    "FILM",
+    "PRACTISE",
+    "YEAR",
+    "FRIEND"
+  ],
+  "about_you": [
+    "What club or activity are you in this year?",
+    "What are you learning this year?",
+    "What are you good at?"
+  ],
+  "draw": "Draw your favourite club or sport. Write two sentences about it.",
+  "fun_fact": "Chess is more than 1,500 years old. People played it in Central Asia long ago!"
+}

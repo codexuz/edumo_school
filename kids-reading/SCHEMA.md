@@ -1,7 +1,8 @@
-# Read Time! 1 — kids reading book: unit data (`data/units/NN-name.json`)
+# Read Time! — kids reading book: unit data (`data/units/NN-name.json`, `data/units-2/NN-name.json`)
 
-A1 readers, ages 10–13, Uzbek learners. Same 12 topics as Teen2Teen 1 / "Talk Time! 1"
-(see `../kids-speaking/src/teen2teen1.txt` for each unit's grammar and vocabulary — use that grammar in the text).
+Book 1: A1 readers, Teen2Teen 1 topics (`../kids-speaking/src/teen2teen1.txt`).
+Book 2: A1–A2 readers, Teen2Teen 2 topics (`../kids-speaking/src/teen2teen2.txt`).
+Ages 10–13, Uzbek learners. Use the unit's own grammar in the text.
 Very simple English: short sentences, present simple (+ the unit's grammar), common words. Uzbek in Latin script (o‘, g‘).
 Markup: `**word**` = highlighted key word in the text (highlight exactly the 6 "before" words where they appear).
 
@@ -20,7 +21,9 @@ Markup: `**word**` = highlighted key word in the text (highlight exactly the 6 "
   "text": {
     "title": "A message from Laylo",
     "meta": "From: Laylo · To: Emma",      // small line above the text that fits the text type ("" if none)
-    "paragraphs": ["Hi Emma! …", …],       // 130–170 words in total, 3–5 short paragraphs; chat: each paragraph "Name: line"
+    "paragraphs": ["Hi Emma! …", …],       // 130–170 words in total, 4–5 short paragraphs (chat/interview may use more
+                                       // short ones); chat: each paragraph "Name: line". The A5 text window holds
+                                       // about 820 characters — more overflows the page.
     "picture": "📧"                         // 1–3 emoji shown as the text's "picture"
   },
   "tf": [["Laylo is from Samarkand.", true], …],              // EXACTLY 5 true/false sentences

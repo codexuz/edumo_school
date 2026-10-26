@@ -1,0 +1,175 @@
+{
+  "n": 8,
+  "title": "What do your parents do?",
+  "topic": "Jobs and work",
+  "emoji": "👨‍👩‍👧‍👦",
+  "color": "indigo",
+  "text_type": "blog",
+  "before": {
+    "words": [
+      [
+        "doctor",
+        "shifokor",
+        "🩺"
+      ],
+      [
+        "driver",
+        "haydovchi",
+        "🚕"
+      ],
+      [
+        "works",
+        "ishlaydi",
+        "💼"
+      ],
+      [
+        "hospital",
+        "shifoxona",
+        "🏥"
+      ],
+      [
+        "early",
+        "erta",
+        "🌅"
+      ],
+      [
+        "proud",
+        "faxrlanadi",
+        "🥰"
+      ]
+    ],
+    "predict": "Look at the picture. What jobs do you think the parents have?"
+  },
+  "text": {
+    "title": "My mum and dad at work",
+    "meta": "Kamola's blog · Tuesday",
+    "paragraphs": [
+      "My mother is a **doctor**. She **works** in a big **hospital** in our city. She starts very **early**, at seven o'clock in the morning. She helps children and she is very kind. Sometimes she comes home late, but she is never angry. Her favourite patients are the small children, because they are very brave.",
+      "My father is a taxi **driver**. He **works** in the afternoon and in the evening. He knows every street in our city! He tells us funny stories about his customers at dinner. On Sundays he does not work, and we all go to the park together.",
+      "My grandmother does not work now, but she was a teacher for thirty years. Many people in our street say, “Good morning, teacher!” to her. She still helps me with my reading every evening.",
+      "I am very **proud** of my family. And I want to be a **doctor**, like my mother."
+    ],
+    "picture": "🩺🚕"
+  },
+  "tf": [
+    [
+      "Kamola's mother is a teacher.",
+      false
+    ],
+    [
+      "Her mother starts work at seven o'clock.",
+      true
+    ],
+    [
+      "Her father works in the morning.",
+      false
+    ],
+    [
+      "Her grandmother was a teacher for thirty years.",
+      true
+    ],
+    [
+      "Kamola wants to be a doctor.",
+      true
+    ]
+  ],
+  "mcq": [
+    {
+      "q": "Where does Kamola's mother work?",
+      "options": [
+        "in a school",
+        "in a hospital",
+        "in a shop"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What does her father do?",
+      "options": [
+        "He is a doctor.",
+        "He is a teacher.",
+        "He is a taxi driver."
+      ],
+      "answer": 2
+    },
+    {
+      "q": "What does her father tell at dinner?",
+      "options": [
+        "funny stories",
+        "the news",
+        "nothing"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Who does not work now?",
+      "options": [
+        "her mother",
+        "her father",
+        "her grandmother"
+      ],
+      "answer": 2
+    }
+  ],
+  "match": [
+    [
+      "doctor",
+      "🩺"
+    ],
+    [
+      "taxi",
+      "🚕"
+    ],
+    [
+      "hospital",
+      "🏥"
+    ],
+    [
+      "teacher",
+      "👩‍🏫"
+    ],
+    [
+      "street",
+      "🛣️"
+    ]
+  ],
+  "gaps": [
+    [
+      "Kamola's mother is a ___.",
+      "doctor"
+    ],
+    [
+      "She works in a big ___.",
+      "hospital"
+    ],
+    [
+      "Her father is a taxi ___.",
+      "driver"
+    ],
+    [
+      "Her grandmother was a ___.",
+      "teacher"
+    ],
+    [
+      "Kamola is very ___ of her family.",
+      "proud"
+    ]
+  ],
+  "wordsearch": [
+    "DOCTOR",
+    "DRIVER",
+    "HOSPITAL",
+    "TEACHER",
+    "CITY",
+    "STREET",
+    "PROUD",
+    "WORK"
+  ],
+  "about_you": [
+    "What does your mother or father do?",
+    "What job do you want? Why?",
+    "Who works early in your family?"
+  ],
+  "draw": "Draw somebody in your family at work. Write two sentences.",
+  "fun_fact": "The word “doctor” comes from Latin and means “teacher”. Doctors teach us to stay healthy!"
+}

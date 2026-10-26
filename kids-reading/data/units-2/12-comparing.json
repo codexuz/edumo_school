@@ -1,0 +1,175 @@
+{
+  "n": 12,
+  "title": "She's smarter than me!",
+  "topic": "Comparing people",
+  "emoji": "📊",
+  "color": "green",
+  "text_type": "poster",
+  "before": {
+    "words": [
+      [
+        "taller",
+        "balandroq",
+        "📏"
+      ],
+      [
+        "smarter",
+        "aqlliroq",
+        "🧠"
+      ],
+      [
+        "faster",
+        "tezroq",
+        "⚡"
+      ],
+      [
+        "funnier",
+        "kulgiliroq",
+        "😂"
+      ],
+      [
+        "twins",
+        "egizaklar",
+        "👯"
+      ],
+      [
+        "different",
+        "har xil",
+        "🔀"
+      ]
+    ],
+    "predict": "Look at the poster. Who is in the competition?"
+  },
+  "text": {
+    "title": "Family Day · Come and join us!",
+    "meta": "School 15 · Saturday, 10 a.m.",
+    "paragraphs": [
+      "Who is **faster** — you or your father? Come to Family Day and find out!",
+      "THE RACE · 10 a.m. Children and parents run together. Last year Mr Usmonov was **faster** than all the children! Can anybody beat him this year?",
+      "THE QUIZ · 11 a.m. Twenty questions about our city. The **twins** Olim and Alim won last year. Olim says he is **smarter** than his brother. Alim says, “No! I am **smarter** than you!” Their mother says they are both **funnier** than their father!",
+      "THE TALL TABLE · 12 p.m. We measure everybody. Is your brother **taller** than your mother? Come and see! Last year the tallest person was Rustam from Class 7! Everybody is **different** and everybody is welcome. Bring your family — and bring your smile!"
+    ],
+    "picture": "📊🏃"
+  },
+  "tf": [
+    [
+      "Family Day is on Saturday.",
+      true
+    ],
+    [
+      "The race starts at eleven o'clock.",
+      false
+    ],
+    [
+      "Mr Usmonov was faster than all the children last year.",
+      true
+    ],
+    [
+      "The quiz has thirty questions.",
+      false
+    ],
+    [
+      "The twins are called Olim and Alim.",
+      true
+    ]
+  ],
+  "mcq": [
+    {
+      "q": "What time is the quiz?",
+      "options": [
+        "10 a.m.",
+        "11 a.m.",
+        "12 p.m."
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What is the quiz about?",
+      "options": [
+        "our city",
+        "animals",
+        "films"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Who won the quiz last year?",
+      "options": [
+        "Mr Usmonov",
+        "the twins",
+        "the teachers"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What happens at twelve o'clock?",
+      "options": [
+        "the race",
+        "the quiz",
+        "everybody is measured"
+      ],
+      "answer": 2
+    }
+  ],
+  "match": [
+    [
+      "race",
+      "🏃"
+    ],
+    [
+      "quiz",
+      "❓"
+    ],
+    [
+      "twins",
+      "👯"
+    ],
+    [
+      "family",
+      "👨‍👩‍👧"
+    ],
+    [
+      "smile",
+      "😄"
+    ]
+  ],
+  "gaps": [
+    [
+      "The ___ starts at ten o'clock.",
+      "race"
+    ],
+    [
+      "The quiz has twenty ___.",
+      "questions"
+    ],
+    [
+      "The twins are ___ and Alim.",
+      "Olim"
+    ],
+    [
+      "Is your brother ___ than your mother?",
+      "taller"
+    ],
+    [
+      "Everybody is ___ and everybody is welcome.",
+      "different"
+    ]
+  ],
+  "wordsearch": [
+    "TALLER",
+    "SMARTER",
+    "FASTER",
+    "TWINS",
+    "RACE",
+    "QUIZ",
+    "FAMILY",
+    "SMILE"
+  ],
+  "about_you": [
+    "Who is taller than you in your family?",
+    "Who is funnier — you or your best friend?",
+    "What are you good at?"
+  ],
+  "draw": "Draw you and somebody in your family. Write two sentences with -er words.",
+  "fun_fact": "Identical twins have the same DNA, but they never have the same fingerprints!"
+}
