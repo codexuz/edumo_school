@@ -1,0 +1,176 @@
+{
+  "n": 7,
+  "title": "How do you get there?",
+  "emoji": "🚌",
+  "color": "lime",
+  "grammar": "How do you get there? — by + transport; prepositions of place",
+  "vocab_topic": "Transport and getting around town",
+  "words": [
+    [
+      "bus",
+      "avtobus",
+      "🚌"
+    ],
+    [
+      "car",
+      "mashina",
+      "🚗"
+    ],
+    [
+      "taxi",
+      "taksi",
+      "🚕"
+    ],
+    [
+      "metro",
+      "metro",
+      "🚇"
+    ],
+    [
+      "bicycle",
+      "velosiped",
+      "🚲"
+    ],
+    [
+      "on foot",
+      "piyoda",
+      "🚶"
+    ],
+    [
+      "train",
+      "poyezd",
+      "🚆"
+    ],
+    [
+      "stop",
+      "bekat",
+      "🛑"
+    ],
+    [
+      "ticket",
+      "chipta",
+      "🎫"
+    ],
+    [
+      "near",
+      "yaqin",
+      "📍"
+    ],
+    [
+      "far",
+      "uzoq",
+      "🗺️"
+    ],
+    [
+      "minutes",
+      "daqiqa",
+      "⏱️"
+    ]
+  ],
+  "pair_game": "Point at a picture. Ask: “How do you get to school?” Your partner answers “By …”. Then swap!",
+  "grammar_box": {
+    "title": "How do you get there?",
+    "rows": [
+      [
+        "by bus / car / taxi",
+        "transport",
+        "I go **by bus**."
+      ],
+      [
+        "by metro / train",
+        "transport",
+        "She comes **by metro**."
+      ],
+      [
+        "on foot",
+        "no “by”",
+        "I go **on foot**. (NOT by foot)"
+      ],
+      [
+        "How do you get to …?",
+        "question",
+        "**How do you get to** school?"
+      ],
+      [
+        "It takes …",
+        "time",
+        "It **takes** twenty minutes."
+      ]
+    ],
+    "tip": "by bus, by car, by metro — BUT on foot and I walk."
+  },
+  "questions": [
+    "How do you get to school every day?",
+    "Do you walk to school or take the bus?",
+    "What time do you leave home for school?",
+    "Is your school far from your home?",
+    "How do your parents go to work?",
+    "Do you ride a bicycle?",
+    "Where is the nearest park from your house?",
+    "What time does your school start?",
+    "Do you take the bus or subway?",
+    "Describe the way from your home to school."
+  ],
+  "starters": [
+    "I get to school by … . / I go on foot.",
+    "I … to school. It takes about … minutes.",
+    "I leave home at … .",
+    "Yes, it is far. / No, it is near — only … minutes.",
+    "My mother/father goes to work by … .",
+    "Yes, I ride a bicycle … . / No, I cannot ride one.",
+    "The nearest park is … from my house.",
+    "My school starts at … .",
+    "I take the … . / I do not take the bus or metro.",
+    "First I … . Then I … . Finally I … ."
+  ],
+  "samples": [
+    [
+      "How do you get to school every day?",
+      "I get to school **by bus**. The stop is near my house, so it **takes** only fifteen minutes."
+    ],
+    [
+      "Is your school far from your home?",
+      "No, it is quite near. I go **on foot** and it **takes** about ten minutes."
+    ],
+    [
+      "Describe the way from your home to school.",
+      "First I walk to the bus stop. Then I go **by bus** for four stops. Finally I walk two minutes to the gate. On the way I see the market and a big park."
+    ]
+  ],
+  "survey": {
+    "title": "Class survey",
+    "question": "How do you get to school?",
+    "columns": [
+      "Name",
+      "Transport"
+    ]
+  },
+  "game": {
+    "type": "dice",
+    "title": "Roll and travel!",
+    "rules": "Roll the dice. Say two sentences about that transport. Your group says “Good!” or asks a question.",
+    "items": [
+      "1 — the bus",
+      "2 — a bicycle",
+      "3 — the metro",
+      "4 — a car",
+      "5 — on foot",
+      "6 — a train"
+    ]
+  },
+  "mini_talk": {
+    "title": "My journey to school",
+    "plan": [
+      "Say where you live",
+      "Say how you get to school",
+      "Say how long it takes",
+      "Say what you see on the way"
+    ],
+    "model": "I live in a flat near the park. Every morning I leave home at half past seven and I get to school **by bus**. The stop is in front of my house and the journey **takes** about twenty minutes. On the way I see the market, a mosque and my friend's house. When the weather is good I go **on foot** with Jasur."
+  },
+  "cando": [
+    "say how I get to places with by and on foot",
+    "ask “How do you get there?”",
+    "say how long a journey takes"
+  ]
+}

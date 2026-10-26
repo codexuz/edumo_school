@@ -1,0 +1,176 @@
+{
+  "n": 11,
+  "title": "Can I borrow your charger?",
+  "emoji": "📱",
+  "color": "yellow",
+  "grammar": "Can for permission and requests",
+  "vocab_topic": "Electronic devices and asking politely",
+  "words": [
+    [
+      "phone",
+      "telefon",
+      "📱"
+    ],
+    [
+      "charger",
+      "zaryadlagich",
+      "🔌"
+    ],
+    [
+      "laptop",
+      "noutbuk",
+      "💻"
+    ],
+    [
+      "tablet",
+      "planshet",
+      "📲"
+    ],
+    [
+      "headphones",
+      "quloqchin",
+      "🎧"
+    ],
+    [
+      "camera",
+      "kamera",
+      "📷"
+    ],
+    [
+      "battery",
+      "batareya",
+      "🔋"
+    ],
+    [
+      "borrow",
+      "qarzga olmoq",
+      "🤲"
+    ],
+    [
+      "lend",
+      "qarz bermoq",
+      "🙌"
+    ],
+    [
+      "Of course!",
+      "albatta",
+      "✅"
+    ],
+    [
+      "Sorry!",
+      "kechirasiz",
+      "🙏"
+    ],
+    [
+      "careful",
+      "ehtiyotkor",
+      "⚠️"
+    ]
+  ],
+  "pair_game": "Point at a picture. Ask: “Can I borrow your …?” Your partner says yes or no politely. Then swap!",
+  "grammar_box": {
+    "title": "Can I …?",
+    "rows": [
+      [
+        "Can I …?",
+        "ask permission",
+        "**Can I** borrow your charger?"
+      ],
+      [
+        "Can you …?",
+        "ask for help",
+        "**Can you** help me, please?"
+      ],
+      [
+        "Yes, of course.",
+        "say yes",
+        "**Yes, of course.** Here you are."
+      ],
+      [
+        "Sorry, you can't.",
+        "say no politely",
+        "**Sorry, you can't.** I need it."
+      ],
+      [
+        "Could I …?",
+        "more polite",
+        "**Could I** use your laptop?"
+      ]
+    ],
+    "tip": "Always add please! Can I borrow your pen, **please**?"
+  },
+  "questions": [
+    "Can I borrow your pen or pencil?",
+    "Do you have a mobile phone?",
+    "Can you use a computer well?",
+    "Do you play games on your phone or tablet?",
+    "Can your friend borrow your book or toy?",
+    "What electronic device do you use every day?",
+    "Do you ask permission before using things at home?",
+    "Can you swim or ride a bike?",
+    "Do you have a laptop or tablet at home?",
+    "What do you usually do on your phone?"
+  ],
+  "starters": [
+    "Yes, of course! Here you are. / Sorry, I need **it** now.",
+    "Yes, I do. It is a … . / No, I do not have one.",
+    "Yes, I can use **it** well. / No, not very well. I can … .",
+    "Yes, I play … . / No, I do not play games.",
+    "Yes, of course he/she can. / No, because … .",
+    "Every day I use my … . I use **it** for … .",
+    "Yes, I always ask: “**Can I** … , please?” / No, sometimes I forget.",
+    "Yes, I can … . / No, I cannot, but I want to learn.",
+    "Yes, we have a … at home. / No, we do not.",
+    "On my phone I usually … and … ."
+  ],
+  "samples": [
+    [
+      "Can I borrow your pen or pencil?",
+      "**Yes, of course!** Here you are. But please be **careful** — it is my favourite pen."
+    ],
+    [
+      "What electronic device do you use every day?",
+      "I use my phone every day. I use **it** for messages, music and my English app."
+    ],
+    [
+      "Do you ask permission before using things at home?",
+      "Yes, I always ask. I say, “**Can I** use the laptop, **please**?” My parents usually say yes."
+    ]
+  ],
+  "survey": {
+    "title": "Class survey",
+    "question": "What device do you use most?",
+    "columns": [
+      "Name",
+      "Device"
+    ]
+  },
+  "game": {
+    "type": "guess",
+    "title": "Guess my device!",
+    "rules": "Take a card. Do not show it! Read the two sentences. Your group guesses the device.",
+    "items": [
+      "It is small and it is in my pocket. I call my friends with it.",
+      "It has a big screen and a keyboard. I write my projects on it.",
+      "It is round and small. I put it in my ears.",
+      "I use it to take pictures of my family.",
+      "It is flat and I read books on it. It has no keyboard.",
+      "It is small and black. Without it my phone dies."
+    ]
+  },
+  "mini_talk": {
+    "title": "My devices",
+    "plan": [
+      "Say what devices you have",
+      "Say what you use them for",
+      "Say how long you use them",
+      "Say a polite question"
+    ],
+    "model": "At home we have one laptop and I have a small phone. I use my phone every day for messages and music, and I use **it** for my English app too. I use the laptop for my projects. My parents say two hours a day is enough. At school my friend often asks, “**Can I** borrow your charger, **please**?” and I always say, “**Of course!**”"
+  },
+  "cando": [
+    "ask politely with Can I …?",
+    "say yes or no politely",
+    "talk about the devices I use"
+  ]
+}

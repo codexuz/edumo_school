@@ -1,0 +1,178 @@
+{
+  "n": 10,
+  "title": "The key rings? I love them!",
+  "emoji": "💖",
+  "color": "indigo",
+  "grammar": "Object pronouns: it, them, him, her, us",
+  "vocab_topic": "Likes, dislikes and favourite things",
+  "words": [
+    [
+      "key ring",
+      "brelok",
+      "🔑"
+    ],
+    [
+      "sticker",
+      "stiker",
+      "🌟"
+    ],
+    [
+      "poster",
+      "plakat",
+      "🖼️"
+    ],
+    [
+      "toy",
+      "o‘yinchoq",
+      "🧸"
+    ],
+    [
+      "collect",
+      "to‘plamoq",
+      "🧲"
+    ],
+    [
+      "love",
+      "yaxshi ko‘rmoq",
+      "💖"
+    ],
+    [
+      "like",
+      "yoqtirmoq",
+      "👍"
+    ],
+    [
+      "hate",
+      "yoqtirmaslik",
+      "👎"
+    ],
+    [
+      "boring",
+      "zerikarli",
+      "😐"
+    ],
+    [
+      "interesting",
+      "qiziqarli",
+      "✨"
+    ],
+    [
+      "favourite",
+      "sevimli",
+      "⭐"
+    ],
+    [
+      "present",
+      "sovg‘a",
+      "🎁"
+    ]
+  ],
+  "pair_game": "Point at a picture. Ask: “Do you like them?” Your partner answers with it or them. Then swap!",
+  "grammar_box": {
+    "title": "I love them!",
+    "rows": [
+      [
+        "the book",
+        "it",
+        "I love **it**."
+      ],
+      [
+        "the key rings",
+        "them",
+        "The key rings? I love **them**!"
+      ],
+      [
+        "my brother",
+        "him",
+        "I help **him** every day."
+      ],
+      [
+        "my sister",
+        "her",
+        "I like **her** new poster."
+      ],
+      [
+        "my friends and me",
+        "us",
+        "Our teacher helps **us**."
+      ]
+    ],
+    "tip": "The object pronoun comes AFTER the verb: I love them. (NOT I them love.)"
+  },
+  "questions": [
+    "Do you like key rings or collect things?",
+    "What do you love to do after school?",
+    "Do you hate getting up early in the morning?",
+    "What is your favorite thing in your room?",
+    "Do you like dogs or cats more?",
+    "Who do you love the most in your family?",
+    "Do you like playing soccer or video games more?",
+    "What don't you like about school?",
+    "Do you love your new shoes or clothes?",
+    "Tell me something you really like or love."
+  ],
+  "starters": [
+    "Yes, I collect … . I love **them**! / No, I do not collect anything.",
+    "After school I love … .",
+    "Yes, I hate it! / No, I do not mind, because … .",
+    "My favourite thing in my room is … . I love **it** because … .",
+    "I like … more, because **they** are … .",
+    "I love my … the most, because … .",
+    "I like … more. I play **it** … times a week.",
+    "I do not like … at school, because … .",
+    "Yes, I love **them**! / No, I do not have new shoes.",
+    "I really love … . I … **it/them** every day."
+  ],
+  "samples": [
+    [
+      "Do you like key rings or collect things?",
+      "Yes! I collect key rings. I have twenty-six and I love **them**. My cousin sends me one from every city."
+    ],
+    [
+      "What is your favorite thing in your room?",
+      "My favourite thing is my old teddy bear. My grandmother gave **him** to me and I keep **him** on my bed."
+    ],
+    [
+      "What don't you like about school?",
+      "I do not like the long lessons on Friday. I find **them** boring, but I like the breaks!"
+    ]
+  ],
+  "survey": {
+    "title": "Class survey",
+    "question": "What do you really love?",
+    "columns": [
+      "Name",
+      "Thing"
+    ]
+  },
+  "game": {
+    "type": "spinner",
+    "title": "Spin and say!",
+    "rules": "Spin the pencil. Say two sentences about the topic. Use it, them, him or her!",
+    "items": [
+      "something I collect",
+      "my favourite present",
+      "a thing I hate",
+      "my favourite book",
+      "a boring thing",
+      "my favourite person",
+      "something in my room",
+      "a thing I want"
+    ]
+  },
+  "mini_talk": {
+    "title": "My favourite things",
+    "plan": [
+      "Say what you collect or love",
+      "Say where you keep it",
+      "Say why you like it",
+      "Say what you do not like"
+    ],
+    "model": "I collect stickers and I love **them**! I have more than one hundred and I keep **them** in a big blue book. I like **them** because every sticker is from a different city. My favourite thing in my room is my lamp — my father made **it** for me. I do not like computer games. I think **they** are boring, so I never play **them**."
+  },
+  "cando": [
+    "use it, them, him and her after verbs",
+    "talk about things I love and hate",
+    "describe my favourite thing"
+  ]
+}

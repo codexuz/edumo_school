@@ -1,0 +1,178 @@
+{
+  "n": 3,
+  "title": "What are you doing this year?",
+  "emoji": "🏫",
+  "color": "sky",
+  "grammar": "Present continuous: Wh- questions; talking about this year",
+  "vocab_topic": "School subjects, clubs, sports and activities",
+  "words": [
+    [
+      "subject",
+      "fan",
+      "📘"
+    ],
+    [
+      "club",
+      "to‘garak",
+      "🎭"
+    ],
+    [
+      "sport",
+      "sport",
+      "⚽"
+    ],
+    [
+      "chess",
+      "shaxmat",
+      "♟️"
+    ],
+    [
+      "music",
+      "musiqa",
+      "🎵"
+    ],
+    [
+      "dancing",
+      "raqs",
+      "💃"
+    ],
+    [
+      "singing",
+      "qo‘shiq aytish",
+      "🎤"
+    ],
+    [
+      "drawing",
+      "rasm chizish",
+      "🎨"
+    ],
+    [
+      "teacher",
+      "o‘qituvchi",
+      "👩‍🏫"
+    ],
+    [
+      "best friend",
+      "eng yaqin do‘st",
+      "🤝"
+    ],
+    [
+      "learning",
+      "o‘rganyapti",
+      "🧠"
+    ],
+    [
+      "year",
+      "yil",
+      "📅"
+    ]
+  ],
+  "pair_game": "Point at a picture. Ask: “What are you doing this year?” Your partner answers. Then swap!",
+  "grammar_box": {
+    "title": "Wh- + present continuous",
+    "rows": [
+      [
+        "What",
+        "are you doing?",
+        "**What are you doing** this year?"
+      ],
+      [
+        "Who",
+        "is helping you?",
+        "**Who is helping** you?"
+      ],
+      [
+        "Where",
+        "are you studying?",
+        "**Where are you studying** English?"
+      ],
+      [
+        "Which club",
+        "are you joining?",
+        "**Which club are you joining**?"
+      ],
+      [
+        "Why",
+        "are you learning …?",
+        "**Why are you learning** English?"
+      ]
+    ],
+    "tip": "Question word + am/is/are + person + verb-ing"
+  },
+  "questions": [
+    "What are you doing in school this year?",
+    "Are you playing any sports this year?",
+    "What is your favorite subject this year?",
+    "Who is your best friend this year?",
+    "Are you learning English this year?",
+    "What club or activity are you in?",
+    "Do you have a new teacher this year?",
+    "What are you good at this year?",
+    "Are you singing or dancing in school?",
+    "Tell us about your best friend."
+  ],
+  "starters": [
+    "This year I am … .",
+    "Yes, I am playing … . / No, I am not.",
+    "My favourite subject this year is … because … .",
+    "My best friend this year is … . He/She is … .",
+    "Yes, I am learning English because … .",
+    "I am in the … club. We meet on … .",
+    "Yes, I do. My new teacher is … . / No, I do not.",
+    "This year I am good at … .",
+    "Yes, I am. / No, I am not. I am … .",
+    "My best friend is … . We … together."
+  ],
+  "samples": [
+    [
+      "What are you doing in school this year?",
+      "This year I **am learning** English and I **am playing** football. I **am also singing** in the school concert."
+    ],
+    [
+      "What club or activity are you in?",
+      "I am in the chess club. We meet on Mondays after school. I **am learning** new moves every week."
+    ],
+    [
+      "Tell us about your best friend.",
+      "My best friend is Jasur. He is twelve. He is funny and kind. We **are sitting** together this year."
+    ]
+  ],
+  "survey": {
+    "title": "Class survey",
+    "question": "What club or sport are you doing this year?",
+    "columns": [
+      "Name",
+      "Activity"
+    ]
+  },
+  "game": {
+    "type": "spinner",
+    "title": "Spin and talk!",
+    "rules": "Spin the pencil. Talk for 20 seconds about the topic. Your group counts your sentences!",
+    "items": [
+      "My favourite subject",
+      "A club I am in",
+      "A sport I am playing",
+      "My new teacher",
+      "Something I am learning",
+      "My best friend",
+      "What I am good at",
+      "A new thing this year"
+    ]
+  },
+  "mini_talk": {
+    "title": "My school year",
+    "plan": [
+      "Say what year you are in",
+      "Say what you are studying",
+      "Say what club or sport you do",
+      "Say who your best friend is"
+    ],
+    "model": "This year I am in Class 6 and it is my favourite year. I **am studying** English, maths and history. On Wednesdays I **am playing** basketball with the school team, and at home I **am learning** the guitar. My best friend is Malika. We **are sitting** together and we **are doing** our science project together too."
+  },
+  "cando": [
+    "ask “What are you doing?” questions",
+    "talk about my clubs and sports this year",
+    "describe my best friend"
+  ]
+}

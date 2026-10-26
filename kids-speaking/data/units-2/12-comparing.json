@@ -1,0 +1,179 @@
+{
+  "n": 12,
+  "title": "She's smarter than me!",
+  "emoji": "📊",
+  "color": "rose",
+  "grammar": "Comparative adjectives: -er than and more … than",
+  "vocab_topic": "Describing and comparing people",
+  "words": [
+    [
+      "tall",
+      "baland",
+      "📏"
+    ],
+    [
+      "taller",
+      "balandroq",
+      "⬆️"
+    ],
+    [
+      "smart",
+      "aqlli",
+      "🧠"
+    ],
+    [
+      "smarter",
+      "aqlliroq",
+      "💡"
+    ],
+    [
+      "fast",
+      "tez",
+      "⚡"
+    ],
+    [
+      "faster",
+      "tezroq",
+      "🏃"
+    ],
+    [
+      "funny",
+      "kulgili",
+      "😂"
+    ],
+    [
+      "funnier",
+      "kulgiliroq",
+      "🤣"
+    ],
+    [
+      "older",
+      "kattaroq",
+      "👴"
+    ],
+    [
+      "younger",
+      "kichikroq",
+      "👶"
+    ],
+    [
+      "than",
+      "dan",
+      "🔀"
+    ],
+    [
+      "the same",
+      "bir xil",
+      "🟰"
+    ]
+  ],
+  "pair_game": "Point at two pictures. Make a sentence: “A is … than B”. Your partner agrees or disagrees. Then swap!",
+  "grammar_box": {
+    "title": "-er than",
+    "rows": [
+      [
+        "short words",
+        "+ -er",
+        "tall → **taller** than me"
+      ],
+      [
+        "words with -y",
+        "-y → -ier",
+        "funny → **funnier** than you"
+      ],
+      [
+        "long words",
+        "more + adjective",
+        "interesting → **more interesting** than"
+      ],
+      [
+        "good / bad",
+        "irregular",
+        "good → **better**, bad → **worse**"
+      ],
+      [
+        "than",
+        "after the comparative",
+        "She is smarter **than** me."
+      ]
+    ],
+    "tip": "One or two short words: add -er. Long words: use more."
+  },
+  "questions": [
+    "Who is taller, you or your best friend?",
+    "Is your brother or sister older than you?",
+    "Are you faster than most of your classmates?",
+    "Who is smarter in your family?",
+    "Is English easier or harder than math for you?",
+    "Is your school bigger than your house?",
+    "Who is the oldest person in your family?",
+    "Are you better at sports than your sister or brother?",
+    "What is more interesting for you, TV or books?",
+    "Compare yourself and your best friend. Who is taller?"
+  ],
+  "starters": [
+    "I am taller / My best friend is taller. He/She is … .",
+    "Yes, my … is older than me by … years. / No, I am the oldest.",
+    "Yes, I am faster than most of them. / No, … is faster than me.",
+    "I think … is the smartest in my family, because … .",
+    "For me English is easier / harder than maths, because … .",
+    "Yes, my school is much bigger. / No, … .",
+    "The oldest person in my family is my … . He/She is … .",
+    "Yes, I am better at … . / No, my … is better at sports.",
+    "I think … is more interesting, because … .",
+    "My best friend and I are … . He/She is … than me."
+  ],
+  "samples": [
+    [
+      "Who is taller, you or your best friend?",
+      "My best friend is **taller than** me. He is one metre seventy and I am one metre sixty-two."
+    ],
+    [
+      "Is English easier or harder than math for you?",
+      "English is **easier than** maths for me. I like the new words, but the numbers are **more difficult**."
+    ],
+    [
+      "Compare yourself and your best friend. Who is taller?",
+      "Jasur is **taller** and **faster than** me, but I am **better** at English. He is also **funnier than** me — he makes the class laugh every day."
+    ]
+  ],
+  "survey": {
+    "title": "Class survey",
+    "question": "Who is taller — you or your best friend?",
+    "columns": [
+      "Name",
+      "Taller"
+    ]
+  },
+  "game": {
+    "type": "bingo",
+    "title": "Comparing bingo!",
+    "rules": "Your teacher reads a sentence. If it is true for you, cross the square. Three in a line? Say “Bingo!”",
+    "items": [
+      "My father is taller than me.",
+      "I am faster than my friend.",
+      "My sister is younger than me.",
+      "I am better at English than at maths.",
+      "My mother is funnier than my father.",
+      "I am older than my cousin.",
+      "My friend is smarter than me at maths.",
+      "My brother is taller than my mother.",
+      "I am the youngest in my family."
+    ]
+  },
+  "mini_talk": {
+    "title": "Me and my family",
+    "plan": [
+      "Say who is older and younger",
+      "Say who is taller",
+      "Say who is funnier or smarter",
+      "Say what you are good at"
+    ],
+    "model": "There are four people in my family. My brother is three years **older than** me and he is much **taller than** me. My little sister is **younger than** both of us, but she is **funnier than** everybody! My mother says I am **smarter than** my brother at English, but he is **better** at sport. My best friend Jasur is **taller than** me too."
+  },
+  "cando": [
+    "make comparative sentences with -er than",
+    "use more … than with long words",
+    "compare people in my family"
+  ]
+}

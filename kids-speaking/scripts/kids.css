@@ -119,3 +119,6 @@
 .gspin ol{justify-content:space-around}
 .wheelbox{display:flex;flex-direction:column;justify-content:center}
 .cando{margin-top:0}
+
+/* series number on the cover */
+.ctitle h1 .bno{font-size:46pt;background:#FFD84D;color:var(--navy);border-radius:14px;padding:0 14px;text-shadow:none;display:inline-block;line-height:1.05;vertical-align:4px}

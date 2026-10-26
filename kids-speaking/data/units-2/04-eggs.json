@@ -1,0 +1,182 @@
+{
+  "n": 4,
+  "title": "Are there any eggs?",
+  "emoji": "🥚",
+  "color": "green",
+  "grammar": "There is / There are; some and any; count nouns",
+  "vocab_topic": "Food, shopping and things in the classroom",
+  "words": [
+    [
+      "eggs",
+      "tuxum",
+      "🥚"
+    ],
+    [
+      "apples",
+      "olmalar",
+      "🍎"
+    ],
+    [
+      "bananas",
+      "bananlar",
+      "🍌"
+    ],
+    [
+      "tomatoes",
+      "pomidorlar",
+      "🍅"
+    ],
+    [
+      "books",
+      "kitoblar",
+      "📚"
+    ],
+    [
+      "pets",
+      "uy hayvonlari",
+      "🐱"
+    ],
+    [
+      "cars",
+      "mashinalar",
+      "🚗"
+    ],
+    [
+      "students",
+      "o‘quvchilar",
+      "🧒"
+    ],
+    [
+      "desk",
+      "parta",
+      "🪑"
+    ],
+    [
+      "kitchen",
+      "oshxona",
+      "🍽️"
+    ],
+    [
+      "some",
+      "bir nechta",
+      "➕"
+    ],
+    [
+      "any",
+      "hech qanday",
+      "❓"
+    ]
+  ],
+  "pair_game": "Point at a picture. Ask: “Are there any …?” Your partner answers with a number. Then swap!",
+  "grammar_box": {
+    "title": "There is / There are",
+    "rows": [
+      [
+        "There is",
+        "one thing",
+        "**There is** an egg in the fridge."
+      ],
+      [
+        "There are",
+        "two or more",
+        "**There are** six eggs."
+      ],
+      [
+        "Is there …?",
+        "question",
+        "**Is there** a book on your desk?"
+      ],
+      [
+        "Are there any …?",
+        "question",
+        "**Are there any** eggs?"
+      ],
+      [
+        "There are not any",
+        "negative",
+        "**There are not any** cars outside."
+      ]
+    ],
+    "tip": "Use any in questions and negatives: Are there any…? There are not any…"
+  },
+  "questions": [
+    "Are there any eggs in your kitchen?",
+    "How many brothers or sisters do you have?",
+    "Do you have any pets at home?",
+    "What are some fruits you like to eat?",
+    "Are there any books on your desk now?",
+    "How many students are in your class?",
+    "Do you eat eggs for breakfast?",
+    "What is your favorite fruit?",
+    "Are there any cars in front of your house?",
+    "Tell me some things you see in your classroom."
+  ],
+  "starters": [
+    "Yes, there are … . / No, there are not any.",
+    "I have … brothers and … sisters.",
+    "Yes, I have a … . / No, I do not have any pets.",
+    "I like … and … .",
+    "Yes, there are … books. / No, there are not any.",
+    "There are … students in my class.",
+    "Yes, I do. / No, I do not. I eat … for breakfast.",
+    "My favourite fruit is … because … .",
+    "Yes, there are … cars. / No, there are not any.",
+    "In my classroom there are … , … and … ."
+  ],
+  "samples": [
+    [
+      "Are there any eggs in your kitchen?",
+      "Yes, **there are**. **There are** about ten eggs in the fridge. My mother makes eggs for breakfast."
+    ],
+    [
+      "How many students are in your class?",
+      "**There are** twenty-four students in my class. Fourteen girls and ten boys."
+    ],
+    [
+      "Tell me some things you see in your classroom.",
+      "**There is** a big board and **there are** twelve desks. **There are** some pictures on the wall too."
+    ]
+  ],
+  "survey": {
+    "title": "Class survey",
+    "question": "How many people are there in your family?",
+    "columns": [
+      "Name",
+      "Number"
+    ]
+  },
+  "game": {
+    "type": "board",
+    "title": "Count and say!",
+    "rules": "Move your counter. Say a true sentence with There is / There are. Wrong sentence? Go back one square!",
+    "items": [
+      "things in your bag",
+      "people in your family",
+      "chairs in the room",
+      "windows in the class",
+      "apples at home",
+      "books on your desk",
+      "pets in your house",
+      "cars in your street",
+      "pictures on the wall",
+      "boys in your class",
+      "girls in your class",
+      "doors in your school"
+    ]
+  },
+  "mini_talk": {
+    "title": "My kitchen and my class",
+    "plan": [
+      "Say what is in your kitchen",
+      "Say what is not there",
+      "Say how many students are in your class",
+      "Say what is on your desk"
+    ],
+    "model": "In my kitchen **there is** a big table and **there are** four chairs. **There are** some apples and bananas, but **there are not any** oranges. In my class **there are** twenty-two students. On my desk **there is** a notebook and two pens."
+  },
+  "cando": [
+    "say There is and There are correctly",
+    "ask “Are there any …?”",
+    "count and describe things around me"
+  ]
+}

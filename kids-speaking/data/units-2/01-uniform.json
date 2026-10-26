@@ -1,0 +1,176 @@
+{
+  "n": 1,
+  "title": "We're wearing our new uniform!",
+  "emoji": "👕",
+  "color": "teal",
+  "grammar": "Present continuous: affirmative and negative",
+  "vocab_topic": "Clothes, school uniform and the family",
+  "words": [
+    [
+      "uniform",
+      "forma",
+      "👕"
+    ],
+    [
+      "shirt",
+      "ko‘ylak",
+      "👚"
+    ],
+    [
+      "trousers",
+      "shim",
+      "👖"
+    ],
+    [
+      "skirt",
+      "yubka",
+      "🩱"
+    ],
+    [
+      "shoes",
+      "oyoq kiyim",
+      "👟"
+    ],
+    [
+      "jacket",
+      "kurtka",
+      "🧥"
+    ],
+    [
+      "tie",
+      "galstuk",
+      "👔"
+    ],
+    [
+      "wearing",
+      "kiyib turibdi",
+      "🙋"
+    ],
+    [
+      "brother",
+      "aka/uka",
+      "👦"
+    ],
+    [
+      "sister",
+      "opa/singil",
+      "👧"
+    ],
+    [
+      "mother",
+      "ona",
+      "👩"
+    ],
+    [
+      "father",
+      "ota",
+      "👨"
+    ]
+  ],
+  "pair_game": "Point at a picture. Your partner says: “I am wearing a …”. Then swap!",
+  "grammar_box": {
+    "title": "Present continuous: now",
+    "rows": [
+      [
+        "I",
+        "am wearing",
+        "I **am wearing** my uniform."
+      ],
+      [
+        "You",
+        "are wearing",
+        "You **are wearing** black shoes."
+      ],
+      [
+        "He / She",
+        "is wearing",
+        "She **is wearing** a blue skirt."
+      ],
+      [
+        "We / They",
+        "are wearing",
+        "We **are wearing** our new uniform."
+      ],
+      [
+        "not",
+        "am / is / are not",
+        "He **is not wearing** a tie today."
+      ]
+    ],
+    "tip": "Use the present continuous for NOW: I am wearing… (hozir)"
+  },
+  "questions": [
+    "What are you wearing right now?",
+    "Are you wearing your school uniform today?",
+    "What color is your new uniform?",
+    "Who is your brother or sister?",
+    "What is your mom doing right now?",
+    "Are your friends wearing uniforms?",
+    "Do you like wearing a uniform? Why or why not?",
+    "What are you doing after school?",
+    "Is your dad at home now?",
+    "Tell me about your family. Who lives with you?"
+  ],
+  "starters": [
+    "Right now I am wearing … .",
+    "Yes, I am wearing … . / No, I am wearing … .",
+    "My new uniform is … .",
+    "My brother/sister is … . He/She is … years old.",
+    "My mum is … right now.",
+    "Yes, they are. / No, they are not. They are wearing … .",
+    "I like / do not like wearing a uniform because … .",
+    "After school I am … .",
+    "Yes, he is at home. / No, he is at … .",
+    "In my family there are … people. We are … ."
+  ],
+  "samples": [
+    [
+      "What are you wearing right now?",
+      "I **am wearing** my school uniform. It is a white shirt and grey trousers. My shoes are black."
+    ],
+    [
+      "What is your mom doing right now?",
+      "She **is cooking** in the kitchen. She **is making** soup. It smells very good!"
+    ],
+    [
+      "Tell me about your family. Who lives with you?",
+      "I live with my mother, my father and my little sister. My grandmother lives with us too. We are five people."
+    ]
+  ],
+  "survey": {
+    "title": "Class survey",
+    "question": "What are you wearing today?",
+    "columns": [
+      "Name",
+      "Clothes"
+    ]
+  },
+  "game": {
+    "type": "dice",
+    "title": "Roll and say!",
+    "rules": "Roll the dice. Say a sentence with the present continuous. One point for every good sentence!",
+    "items": [
+      "1 — Say what YOU are wearing.",
+      "2 — Say what your friend is wearing.",
+      "3 — Say what your teacher is wearing.",
+      "4 — Say what your mother is doing now.",
+      "5 — Say what your friends are doing now.",
+      "6 — Say what you are NOT wearing today."
+    ]
+  },
+  "mini_talk": {
+    "title": "My uniform and my family",
+    "plan": [
+      "Say your name",
+      "Say what you are wearing",
+      "Say if you like the uniform",
+      "Say who lives with you"
+    ],
+    "model": "Hello! My name is Sevara. Today I **am wearing** my new school uniform. It is a white shirt and a blue skirt. I like it because it is comfortable. I live with my mother, my father and my brother. My brother **is wearing** a uniform too!"
+  },
+  "cando": [
+    "say what I am wearing now",
+    "say what my family is doing now",
+    "talk about the people in my family"
+  ]
+}

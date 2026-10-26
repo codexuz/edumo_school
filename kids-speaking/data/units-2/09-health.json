@@ -1,0 +1,182 @@
+{
+  "n": 9,
+  "title": "Feel better!",
+  "emoji": "🤒",
+  "color": "orange",
+  "grammar": "Imperatives and should for advice",
+  "vocab_topic": "Health, illness and feeling better",
+  "words": [
+    [
+      "ill",
+      "kasal",
+      "🤒"
+    ],
+    [
+      "headache",
+      "bosh og‘rig‘i",
+      "🤕"
+    ],
+    [
+      "cold",
+      "shamollash",
+      "🤧"
+    ],
+    [
+      "temperature",
+      "harorat",
+      "🌡️"
+    ],
+    [
+      "doctor",
+      "shifokor",
+      "🩺"
+    ],
+    [
+      "medicine",
+      "dori",
+      "💊"
+    ],
+    [
+      "rest",
+      "dam olmoq",
+      "🛏️"
+    ],
+    [
+      "hot tea",
+      "issiq choy",
+      "🍵"
+    ],
+    [
+      "better",
+      "yaxshiroq",
+      "💪"
+    ],
+    [
+      "tired",
+      "charchagan",
+      "😴"
+    ],
+    [
+      "healthy",
+      "sog‘lom",
+      "🥗"
+    ],
+    [
+      "sleep",
+      "uyqu",
+      "💤"
+    ]
+  ],
+  "pair_game": "Point at a picture. Say the problem. Your partner gives advice: “You should …”. Then swap!",
+  "grammar_box": {
+    "title": "You should … / Don't …",
+    "rows": [
+      [
+        "You should",
+        "advice",
+        "**You should** drink hot tea."
+      ],
+      [
+        "You should not",
+        "advice",
+        "**You should not** go outside."
+      ],
+      [
+        "Drink!",
+        "imperative",
+        "**Drink** a lot of water."
+      ],
+      [
+        "Don't eat …!",
+        "imperative",
+        "**Don't eat** ice cream today."
+      ],
+      [
+        "Feel better!",
+        "wish",
+        "**Feel better** soon!"
+      ]
+    ],
+    "tip": "After should use the simple verb: You should rest. (NOT You should to rest.)"
+  },
+  "questions": [
+    "How do you feel today?",
+    "Are you feeling sick or tired?",
+    "What do you do when you have a cold?",
+    "Do you stay home from school when you are sick?",
+    "Who takes care of you when you are not well?",
+    "Do you eat healthy food every day?",
+    "How many hours do you sleep at night?",
+    "Do you exercise or play sports to stay healthy?",
+    "What makes you feel better when you are sad?",
+    "Are you happy today? Why?"
+  ],
+  "starters": [
+    "Today I feel … .",
+    "Yes, I feel a bit … . / No, I feel fine.",
+    "When I have a cold I … and I drink … .",
+    "Yes, I stay at home. / No, I go to school because … .",
+    "My … takes care of me. He/She … .",
+    "Yes, I eat … every day. / No, I should eat more … .",
+    "I sleep about … hours every night.",
+    "Yes, I play … . / No, but I should … .",
+    "When I am sad, … makes me feel better.",
+    "Yes, I am happy today because … . / No, because … ."
+  ],
+  "samples": [
+    [
+      "What do you do when you have a cold?",
+      "I stay in bed and I drink hot tea with lemon. My mother gives me **medicine** and I **rest** for two days."
+    ],
+    [
+      "Who takes care of you when you are not well?",
+      "My mother takes care of me. She makes soup and says, “**You should** sleep!” My grandmother brings me honey."
+    ],
+    [
+      "How many hours do you sleep at night?",
+      "I sleep about eight hours. On school days I go to bed at ten and I get up at six."
+    ]
+  ],
+  "survey": {
+    "title": "Class survey",
+    "question": "How many hours do you sleep at night?",
+    "columns": [
+      "Name",
+      "Hours"
+    ]
+  },
+  "game": {
+    "type": "board",
+    "title": "Give good advice!",
+    "rules": "Move your counter. Read the problem. Give advice with “You should …”. Good advice? Move again!",
+    "items": [
+      "I have a headache.",
+      "I have a cold.",
+      "I am very tired.",
+      "My throat hurts.",
+      "I am always hungry.",
+      "I cannot sleep.",
+      "I have a temperature.",
+      "My eyes hurt.",
+      "I feel cold.",
+      "I have a stomach ache.",
+      "I do not like vegetables.",
+      "I never do sport."
+    ]
+  },
+  "mini_talk": {
+    "title": "Feel better!",
+    "plan": [
+      "Say when you were ill",
+      "Say how you felt",
+      "Say what you did",
+      "Give advice to a friend"
+    ],
+    "model": "Today I feel very well, thank you! But last month I was **ill**. I had a **headache** and a **temperature**, so I did not go to school. My mother took me to the **doctor** and he gave me **medicine**. He said, “**Rest** for three days and drink a lot of water.” Now I feel much **better**. My advice: **you should** sleep eight hours every night!"
+  },
+  "cando": [
+    "say how I feel when I am ill",
+    "give advice with should and don't",
+    "wish somebody better"
+  ]
+}

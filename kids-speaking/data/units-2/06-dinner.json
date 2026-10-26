@@ -1,0 +1,176 @@
+{
+  "n": 6,
+  "title": "Do you eat dinner late?",
+  "emoji": "🍽️",
+  "color": "blue",
+  "grammar": "Present simple: questions and adverbs of frequency",
+  "vocab_topic": "Daily routines, meals and times of day",
+  "words": [
+    [
+      "breakfast",
+      "nonushta",
+      "🥖"
+    ],
+    [
+      "lunch",
+      "tushlik",
+      "🍲"
+    ],
+    [
+      "dinner",
+      "kechki ovqat",
+      "🍽️"
+    ],
+    [
+      "get up",
+      "uyg‘onmoq",
+      "⏰"
+    ],
+    [
+      "go to bed",
+      "uxlamoq",
+      "🛏️"
+    ],
+    [
+      "early",
+      "erta",
+      "🌅"
+    ],
+    [
+      "late",
+      "kech",
+      "🌙"
+    ],
+    [
+      "always",
+      "doim",
+      "🔁"
+    ],
+    [
+      "usually",
+      "odatda",
+      "🔂"
+    ],
+    [
+      "sometimes",
+      "ba'zan",
+      "🔀"
+    ],
+    [
+      "never",
+      "hech qachon",
+      "🚫"
+    ],
+    [
+      "hungry",
+      "och",
+      "😋"
+    ]
+  ],
+  "pair_game": "Point at a picture. Ask: “Do you … ?” Your partner answers with always, usually, sometimes or never. Then swap!",
+  "grammar_box": {
+    "title": "Do you …? How often?",
+    "rows": [
+      [
+        "Do you …?",
+        "Yes, I do. / No, I do not.",
+        "**Do you** eat dinner late?"
+      ],
+      [
+        "Does he/she …?",
+        "Yes, he does.",
+        "**Does she** get up early?"
+      ],
+      [
+        "always",
+        "100%",
+        "I **always** have breakfast."
+      ],
+      [
+        "usually / sometimes",
+        "80% / 40%",
+        "I **usually** eat at seven."
+      ],
+      [
+        "never",
+        "0%",
+        "He **never** eats breakfast."
+      ]
+    ],
+    "tip": "always, usually, sometimes, never go BEFORE the verb: I never eat late."
+  },
+  "questions": [
+    "Do you eat dinner late?",
+    "What time do you usually eat breakfast?",
+    "Do you eat fruit every day?",
+    "What do you usually eat for lunch at school?",
+    "Do you drink milk in the morning?",
+    "How often do you eat fast food?",
+    "What is your favorite food?",
+    "Do you help your mom or dad cook?",
+    "When do you usually go to bed?",
+    "Do you eat snacks after school?"
+  ],
+  "starters": [
+    "Yes, I do. We eat at … . / No, we eat early, at … .",
+    "I usually eat breakfast at … .",
+    "Yes, I eat … every day. / No, I sometimes … .",
+    "For lunch at school I usually eat … .",
+    "Yes, I do. / No, I never drink milk. I drink … .",
+    "I eat fast food … (never / sometimes / once a week).",
+    "My favourite food is … because … .",
+    "Yes, I help my … . I usually … . / No, I do not.",
+    "I usually go to bed at … .",
+    "Yes, I do. I eat … after school. / No, I wait for dinner."
+  ],
+  "samples": [
+    [
+      "Do you eat dinner late?",
+      "Yes, we **usually** do. We eat at nine o'clock because my father works until eight."
+    ],
+    [
+      "How often do you eat fast food?",
+      "I eat fast food **sometimes**, maybe once a month. My mother says it is not healthy."
+    ],
+    [
+      "When do you usually go to bed?",
+      "I **always** go to bed at ten o'clock. On Saturdays I go to bed later, at eleven."
+    ]
+  ],
+  "survey": {
+    "title": "Class survey",
+    "question": "What time do you eat dinner?",
+    "columns": [
+      "Name",
+      "Time"
+    ]
+  },
+  "game": {
+    "type": "guess",
+    "title": "Guess my day!",
+    "rules": "Take a card. Do not show it! Read the two sentences. Your group guesses who it is.",
+    "items": [
+      "I get up at five o'clock. I never eat breakfast at home.",
+      "I always eat dinner at six. I go to bed at nine.",
+      "I usually have soup for lunch. I never drink coffee.",
+      "I sometimes get up late. I always eat a big breakfast.",
+      "I never eat late. I always brush my teeth after dinner.",
+      "I usually do my homework before dinner. I never watch TV in the morning."
+    ]
+  },
+  "mini_talk": {
+    "title": "My normal day",
+    "plan": [
+      "Say when you get up",
+      "Say what you eat",
+      "Say when you eat dinner",
+      "Say when you go to bed"
+    ],
+    "model": "I **always** get up at half past six. I **usually** have bread and tea for breakfast at seven. At school I eat lunch at one o'clock, **usually** soup. My family eats dinner **late**, at nine, because we wait for my father. After dinner I read a little and I **never** go to bed before ten o'clock."
+  },
+  "cando": [
+    "ask and answer Do you …? questions",
+    "use always, usually, sometimes and never",
+    "describe my daily routine"
+  ]
+}

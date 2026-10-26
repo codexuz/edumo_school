@@ -1,0 +1,173 @@
+{
+  "n": 2,
+  "title": "Are you doing your homework?",
+  "emoji": "📚",
+  "color": "pink",
+  "grammar": "Present continuous: yes/no questions and short answers",
+  "vocab_topic": "Homework, school subjects and activities at home",
+  "words": [
+    [
+      "homework",
+      "uy vazifasi",
+      "📚"
+    ],
+    [
+      "maths",
+      "matematika",
+      "🔢"
+    ],
+    [
+      "English",
+      "ingliz tili",
+      "🇬🇧"
+    ],
+    [
+      "history",
+      "tarix",
+      "🏛️"
+    ],
+    [
+      "desk",
+      "stol",
+      "🪑"
+    ],
+    [
+      "notebook",
+      "daftar",
+      "📓"
+    ],
+    [
+      "kitchen",
+      "oshxona",
+      "🍽️"
+    ],
+    [
+      "bedroom",
+      "yotoqxona",
+      "🛏️"
+    ],
+    [
+      "studying",
+      "o‘qiyapti",
+      "🧠"
+    ],
+    [
+      "helping",
+      "yordam beryapti",
+      "🙌"
+    ],
+    [
+      "checking",
+      "tekshiryapti",
+      "✔️"
+    ],
+    [
+      "watching TV",
+      "televizor ko‘ryapti",
+      "📺"
+    ]
+  ],
+  "pair_game": "Point at a picture. Ask: “Are you doing your …?” Your partner answers. Then swap!",
+  "grammar_box": {
+    "title": "Are you …? Yes, I am.",
+    "rows": [
+      [
+        "Am I …?",
+        "Yes, you are.",
+        "**Am I** late? Yes, you are."
+      ],
+      [
+        "Are you …?",
+        "Yes, I am. / No, I am not.",
+        "**Are you** doing your homework?"
+      ],
+      [
+        "Is he/she …?",
+        "Yes, he is. / No, she is not.",
+        "**Is she** helping you?"
+      ],
+      [
+        "Are they …?",
+        "Yes, they are.",
+        "**Are they** studying now?"
+      ]
+    ],
+    "tip": "Short answers: Yes, I am. (NOT Yes, I am doing.)"
+  },
+  "questions": [
+    "Are you doing your homework right now?",
+    "What are you doing after school today?",
+    "Where do you usually do your homework?",
+    "Do you like doing homework? Why?",
+    "Are your parents helping you with homework?",
+    "What subject are you studying today?",
+    "Is it easy or hard to do homework at home?",
+    "What are your friends doing now?",
+    "Do you watch TV after you finish homework?",
+    "Who checks your homework at home?"
+  ],
+  "starters": [
+    "Yes, I am. / No, I am not. I am … .",
+    "After school today I am … .",
+    "I usually do my homework in the … .",
+    "I like / do not like homework because … .",
+    "Yes, they are. / No, they are not. My … helps me.",
+    "Today I am studying … .",
+    "It is easy / hard because … .",
+    "My friends are … right now.",
+    "Yes, I do. / No, I do not. First I … .",
+    "My … checks my homework."
+  ],
+  "samples": [
+    [
+      "Are you doing your homework right now?",
+      "No, I **am not**. I **am talking** to my friend. I do my homework after dinner."
+    ],
+    [
+      "Where do you usually do your homework?",
+      "I usually do it in the kitchen. My bedroom is cold, and the kitchen is warm."
+    ],
+    [
+      "Who checks your homework at home?",
+      "My mother checks my maths and my big brother checks my English. He is very good at English."
+    ]
+  ],
+  "survey": {
+    "title": "Class survey",
+    "question": "Where do you do your homework?",
+    "columns": [
+      "Name",
+      "Place"
+    ]
+  },
+  "game": {
+    "type": "find",
+    "title": "Find someone who…",
+    "rules": "Walk around the class. Ask: “Are you …?” or “Do you …?” Write a name.",
+    "items": [
+      "… is doing maths homework today.",
+      "… does homework in the kitchen.",
+      "… likes doing homework.",
+      "… has a big desk.",
+      "… watches TV after homework.",
+      "… gets help from a parent.",
+      "… finishes homework before dinner.",
+      "… has English homework today."
+    ]
+  },
+  "mini_talk": {
+    "title": "My homework time",
+    "plan": [
+      "Say when you do your homework",
+      "Say where you do it",
+      "Say who helps you",
+      "Say what you do after"
+    ],
+    "model": "I do my homework at five o'clock, right after my snack. I do it in the kitchen because my bedroom is cold and the kitchen is warm. My mother **is helping** me with maths today, because it is difficult. After my homework I watch TV or I play football outside with my friends."
+  },
+  "cando": [
+    "ask and answer “Are you …?”",
+    "say where and when I do my homework",
+    "say who helps me at home"
+  ]
+}

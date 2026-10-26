@@ -1,0 +1,179 @@
+{
+  "n": 5,
+  "title": "We need a box of rice.",
+  "emoji": "🍚",
+  "color": "red",
+  "grammar": "Count and non-count nouns; How much / How many; containers",
+  "vocab_topic": "Food shopping, drinks and containers",
+  "words": [
+    [
+      "rice",
+      "guruch",
+      "🍚"
+    ],
+    [
+      "bread",
+      "non",
+      "🍞"
+    ],
+    [
+      "milk",
+      "sut",
+      "🥛"
+    ],
+    [
+      "water",
+      "suv",
+      "💧"
+    ],
+    [
+      "meat",
+      "go‘sht",
+      "🍖"
+    ],
+    [
+      "vegetables",
+      "sabzavotlar",
+      "🥕"
+    ],
+    [
+      "oranges",
+      "apelsinlar",
+      "🍊"
+    ],
+    [
+      "a box of",
+      "bir quti",
+      "📦"
+    ],
+    [
+      "a bottle of",
+      "bir shisha",
+      "🍶"
+    ],
+    [
+      "a kilo of",
+      "bir kilo",
+      "⚖️"
+    ],
+    [
+      "how much",
+      "qancha",
+      "❓"
+    ],
+    [
+      "how many",
+      "nechta",
+      "🔢"
+    ]
+  ],
+  "pair_game": "Point at a picture. Say “a box of rice” or “three oranges”. Your partner says if it is right. Then swap!",
+  "grammar_box": {
+    "title": "How much? How many?",
+    "rows": [
+      [
+        "How many",
+        "+ count nouns",
+        "**How many** oranges do you eat?"
+      ],
+      [
+        "How much",
+        "+ non-count nouns",
+        "**How much** water do you drink?"
+      ],
+      [
+        "a box of",
+        "container",
+        "We need **a box of** rice."
+      ],
+      [
+        "a bottle of",
+        "container",
+        "I buy **a bottle of** milk."
+      ],
+      [
+        "a kilo of",
+        "weight",
+        "Please buy **a kilo of** meat."
+      ]
+    ],
+    "tip": "We can count oranges (one, two, three) but not rice or water. Use a box of / a bottle of."
+  },
+  "questions": [
+    "Do you need any rice at home?",
+    "How much water do you drink every day?",
+    "What do you usually buy at the market?",
+    "Is there any milk in your fridge?",
+    "How many oranges do you eat every week?",
+    "Do you like bread or rice more?",
+    "What is your favorite drink?",
+    "Are there any vegetables in your lunch today?",
+    "How much homework do you have today?",
+    "Describe your favorite meal."
+  ],
+  "starters": [
+    "Yes, we need … . / No, we do not need any rice.",
+    "I drink about … glasses of water every day.",
+    "At the market I usually buy … .",
+    "Yes, there is some milk. / No, there is not any milk.",
+    "I eat about … oranges every week.",
+    "I like … more because … .",
+    "My favourite drink is … .",
+    "Yes, there are … . / No, there are not any vegetables.",
+    "Today I have … homework.",
+    "My favourite meal is … . There is … and … in it."
+  ],
+  "samples": [
+    [
+      "How much water do you drink every day?",
+      "I drink about six glasses of water every day. In summer I drink more, maybe eight glasses."
+    ],
+    [
+      "What do you usually buy at the market?",
+      "We usually buy **a kilo of** meat, **a box of** rice and some vegetables. My mother chooses the tomatoes."
+    ],
+    [
+      "Describe your favorite meal.",
+      "My favourite meal is palov. There is rice, meat and carrots in it. My grandmother makes the best palov!"
+    ]
+  ],
+  "survey": {
+    "title": "Class survey",
+    "question": "How much water do you drink every day?",
+    "columns": [
+      "Name",
+      "Glasses"
+    ]
+  },
+  "game": {
+    "type": "bingo",
+    "title": "Shopping bingo!",
+    "rules": "Your teacher says a sentence. If it is true for you, cross the square. Three in a line? Say “Bingo!”",
+    "items": [
+      "I drink milk every day.",
+      "We buy rice every month.",
+      "I like vegetables.",
+      "I eat bread with every meal.",
+      "I drink tea in the morning.",
+      "We have a big fridge.",
+      "I go to the market with my mother.",
+      "I eat fruit every day.",
+      "My favourite drink is water."
+    ]
+  },
+  "mini_talk": {
+    "title": "My shopping list",
+    "plan": [
+      "Say where you shop",
+      "Say what you buy",
+      "Say how much or how many",
+      "Say your favourite meal"
+    ],
+    "model": "My family shops at the market near our house. We buy **a box of** rice, **a kilo of** meat and some vegetables. We also buy six **bottles of** water. My favourite meal is lagmon, because there are noodles and vegetables in it."
+  },
+  "cando": [
+    "use How much and How many correctly",
+    "talk about food with a box of / a bottle of",
+    "describe my favourite meal"
+  ]
+}

@@ -1,7 +1,8 @@
-# Kids speaking book — unit data (`data/units/NN-name.json`)
+# Kids speaking book — unit data (`data/units/NN-name.json`, `data/units-2/NN-name.json`)
 
-Book: **Teen2Teen 1 — Speaking** (A1, ages 10–13, Uzbek learners). 12 units × 10 questions from
-`src/teen2teen1.txt`. Playful A5 design like the "Speak Up! A2" book (colour emoji, sticker headers).
+Book 1: **Teen2Teen 1 — Speaking** (A1), 12 units × 10 questions from `src/teen2teen1.txt`.
+Book 2: **Teen2Teen 2 — Speaking** (A1–A2), 12 units × 10 questions from `src/teen2teen2.txt`.
+Ages 10–13, Uzbek learners. Playful A5 design like the "Speak Up! A2" book (colour emoji, sticker headers).
 Each unit = 4 pages: Word bank → Grammar helper + Talk time (Q1–5) → More talk (Q6–10) + survey → Game + mini talk + I can.
 
 Keep English VERY simple (A1): short sentences, present simple, common words. Uzbek in Latin script (o‘, g‘ with ‘).
@@ -13,10 +14,13 @@ Markup: `**text**` = highlighted (use for the target grammar / useful words in s
   "title": "Welcome to English class",          // from the docx, without the trailing full stop
   "emoji": "👋",                                // one emoji for the unit
   "color": "green",                              // given to you
-  "grammar": "Verb be: affirmative and negative; Subject pronouns",   // from the docx
-  "vocab_topic": "Greetings: hellos and goodbyes",                     // from the docx
+  "grammar": "Verb be: affirmative and negative; Subject pronouns",   // from the docx; for book 2 the
+                                                                      // source lists no grammar line, so it is
+                                                                      // taken from the unit title and questions
+  "vocab_topic": "Greetings: hellos and goodbyes",                     // from the docx ("Topic:" line in book 2)
 
   "words": [["hello", "salom", "👋"], …],          // EXACTLY 12 topic words/short phrases: English, Uzbek, ONE colourful emoji
+                                                 // (no two cards in a unit may share the same emoji)
   "pair_game": "Point at a picture. Your partner says the word. Then swap!",   // 1 short instruction for a word game
   "grammar_box": {
     "title": "Verb be",                          // short
@@ -26,6 +30,7 @@ Markup: `**text**` = highlighted (use for the target grammar / useful words in s
   "questions": ["What is your name? How do you spell it?", …],      // EXACTLY the 10 questions from the docx, in order, unchanged
   "starters": ["My name is … . It’s spelled …", …],                  // EXACTLY 10 answer starters, one per question (with … gaps)
   "samples": [["What is your name? How do you spell it?", "My name is **Madina**. It’s spelled **M-A-D-I-N-A**."], …], // EXACTLY 3, 2–3 short sentences
+                                                 // each sample question must be one of this unit's ten, copied exactly
   "survey": {"title": "Class survey", "question": "What is your favourite greeting?",   // ask 4 classmates, write answers
              "columns": ["Name", "Answer"]},
   "game": { "type": "find" | "dice" | "board" | "spinner" | "bingo" | "guess",  // type given to you

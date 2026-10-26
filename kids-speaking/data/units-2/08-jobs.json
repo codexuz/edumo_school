@@ -1,0 +1,178 @@
+{
+  "n": 8,
+  "title": "What do your parents do?",
+  "emoji": "👨‍👩‍👧‍👦",
+  "color": "purple",
+  "grammar": "Present simple: third person (he works, she teaches)",
+  "vocab_topic": "Jobs, workplaces and work",
+  "words": [
+    [
+      "doctor",
+      "shifokor",
+      "🩺"
+    ],
+    [
+      "teacher",
+      "o‘qituvchi",
+      "👩‍🏫"
+    ],
+    [
+      "driver",
+      "haydovchi",
+      "🚕"
+    ],
+    [
+      "engineer",
+      "muhandis",
+      "🛠️"
+    ],
+    [
+      "cook",
+      "oshpaz",
+      "👨‍🍳"
+    ],
+    [
+      "nurse",
+      "hamshira",
+      "💉"
+    ],
+    [
+      "shop assistant",
+      "sotuvchi",
+      "🛍️"
+    ],
+    [
+      "farmer",
+      "dehqon",
+      "🌾"
+    ],
+    [
+      "hospital",
+      "shifoxona",
+      "🏥"
+    ],
+    [
+      "office",
+      "ofis",
+      "🏢"
+    ],
+    [
+      "works",
+      "ishlaydi",
+      "💼"
+    ],
+    [
+      "busy",
+      "band",
+      "⏳"
+    ]
+  ],
+  "pair_game": "Point at a picture. Say: “He works in a …”. Your partner says the job. Then swap!",
+  "grammar_box": {
+    "title": "He works / She teaches",
+    "rows": [
+      [
+        "I / you / we / they",
+        "work",
+        "They **work** in an office."
+      ],
+      [
+        "he / she / it",
+        "works",
+        "He **works** in a hospital."
+      ],
+      [
+        "-es after ch, sh, s, x",
+        "teaches",
+        "She **teaches** English."
+      ],
+      [
+        "do / does",
+        "questions",
+        "What **does** your mother **do**?"
+      ],
+      [
+        "does not",
+        "negative",
+        "He **does not work** on Sundays."
+      ]
+    ],
+    "tip": "Add -s for he, she, it: works, drives, helps. After ch/sh/s add -es: teaches, washes."
+  },
+  "questions": [
+    "What does your father do?",
+    "What does your mother do?",
+    "Do your parents work every day?",
+    "Where does your dad work?",
+    "Is your mom at home right now?",
+    "What time do your parents come home from work?",
+    "Do you want to do the same job as your parents?",
+    "What job do you think is interesting?",
+    "Are your parents busy today?",
+    "Tell me about your parents' jobs."
+  ],
+  "starters": [
+    "My father is a … . He works in … .",
+    "My mother is a … . She works in … .",
+    "Yes, they work … days a week. / No, they do not work on … .",
+    "My dad works in … .",
+    "Yes, she is at home. / No, she is at … right now.",
+    "They come home at about … .",
+    "Yes, I want to be a … like my … . / No, I want to be a … .",
+    "I think … is interesting because … .",
+    "Yes, they are very busy today. / No, they are free.",
+    "My mother is a … and my father is a … . They both … ."
+  ],
+  "samples": [
+    [
+      "What does your mother do?",
+      "My mother is a nurse. She **works** in a hospital and she **helps** children every day."
+    ],
+    [
+      "Do you want to do the same job as your parents?",
+      "No, I do not. My father **drives** a bus, but I want to be an engineer because I like maths."
+    ],
+    [
+      "Tell me about your parents' jobs.",
+      "My mother **teaches** maths at School 22. My father **works** in a big shop in the centre. He **starts** at nine and **finishes** at seven."
+    ]
+  ],
+  "survey": {
+    "title": "Class survey",
+    "question": "What does somebody in your family do?",
+    "columns": [
+      "Name",
+      "Job"
+    ]
+  },
+  "game": {
+    "type": "find",
+    "title": "Find someone whose…",
+    "rules": "Walk around the class. Ask: “Does your … work in a …?” Write a name.",
+    "items": [
+      "… mother works in a school.",
+      "… father drives something.",
+      "… family member works in a hospital.",
+      "… parent works in an office.",
+      "… family member is a cook.",
+      "… parent starts work before seven.",
+      "… family member works on Sundays.",
+      "… relative has the same job as their parent."
+    ]
+  },
+  "mini_talk": {
+    "title": "Jobs in my family",
+    "plan": [
+      "Say what your mother does",
+      "Say what your father does",
+      "Say where they work",
+      "Say what job you want"
+    ],
+    "model": "My mother is a teacher. She **teaches** maths at School 22 and she **works** six days a week. My father is a shop assistant. He **works** in a big shop in the centre of our city. He **starts** at nine o'clock and **finishes** at seven. They are both very busy, but on Sundays we are all at home together. I want to be a doctor, because I like helping people."
+  },
+  "cando": [
+    "say what people do with he/she works",
+    "ask “What does your … do?”",
+    "talk about the job I want"
+  ]
+}
