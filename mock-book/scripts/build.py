@@ -193,6 +193,37 @@ def answer_key(tests):
             f'<footer><span>Multilevel Mock Tests · Answer key</span><span class="pno"></span></footer></section>')
 
 
+VOCAB = json.loads((DATA / "vocabulary.json").read_text(encoding="utf-8"))
+
+
+def vocabulary():
+    """B1–C1 words from the reading texts, grouped by mock and by reading part.
+
+    Each part is its own atom so that a long list flows across pages; the page
+    paginator moves whole atoms, so one table per part keeps every block small
+    enough to place.
+    """
+    body = ""
+    for n in sorted(VOCAB, key=int):
+        rows_by_part = {}
+        for part, en, uz, ru, ex in VOCAB[n]:
+            rows_by_part.setdefault(part, []).append(
+                f'<tr><td class="ven">{md(en)}</td><td class="vuz">{md(uz)}</td>'
+                f'<td class="vru">{md(ru)}</td><td class="vex">{md(ex)}</td></tr>')
+        total = sum(len(v) for v in rows_by_part.values())
+        for i, part in enumerate(sorted(rows_by_part)):
+            head = (f'<h3>Mock Test {n} <span class="kn">{total} words</span></h3>' if i == 0 else "")
+            body += (f'<div class="vmock">{head}<h4>Reading · Part {part}'
+                     f'<span>{len(rows_by_part[part])} words</span></h4>'
+                     '<table><thead><tr><th>English</th><th>O‘zbekcha</th><th>Русский</th>'
+                     f'<th>Example</th></tr></thead><tbody>{"".join(rows_by_part[part])}</tbody></table></div>')
+    return ('<section class="page flow first" data-run="Vocabulary"><div class="banner small"><div class="girih"></div>'
+            '<div class="bl"><small>ALL TESTS · B1–C1</small><h1>📖 VOCABULARY</h1></div>'
+            '<div class="br"><span>Key words from the reading texts</span></div></div>'
+            f'<div class="cols one"><div class="col">{split(body, "vocab")}</div></div>'
+            '<footer><span>Multilevel Mock Tests · Vocabulary</span><span class="pno"></span></footer></section>')
+
+
 NUM_WORDS = {5: "five", 6: "six", 7: "seven", 8: "eight", 9: "nine", 10: "ten", 11: "eleven", 12: "twelve"}
 
 
@@ -255,6 +286,7 @@ def how_page(count=5):
     tips = [("🎧", "Listening", "6 parts · 35 questions. Scan the QR / open the channel and play the audio for each test. Each recording is played twice."),
             ("📖", "Reading", "5 parts · 35 questions · 60 minutes. Do the test in one sitting, without a dictionary."),
             ("📝", "Answer sheets", "After each test there is a Multilevel answer sheet — write your answers there, just like the real exam."),
+            ("📖", "Vocabulary", "Before the answer key there is a B1–C1 word list from the reading texts — English, Uzbek, Russian and an example for each."),
             ("🔑", "Answer key & scripts", "Check your answers and count your score out of 35. Then read the listening scripts at the back to see what you missed."),
             ("📈", "Track progress", "Repeat the mocks after a few weeks and compare your scores.")]
     cards = "".join(f'<div class="tip"><span>{i}</span><div><b>{t}</b><p>{d}</p></div></div>' for i, t, d in tips)
@@ -287,7 +319,7 @@ EMOJI = re.compile("([\U0001F000-\U0001FAFF☀-➿⬀-⯿⌀-⏿](?:️)?)")
 
 def build():
     tests = []
-    for f in sorted(DATA.glob("*.json")):
+    for f in sorted(DATA.glob("listening-*.json")) + sorted(DATA.glob("reading-*.json")):
         tests.append(json.loads(f.read_text(encoding="utf-8")))
     tests.sort(key=lambda t: (t["mock"], t["skill"] != "listening"))
     pages = [how_page(len({t['mock'] for t in tests}))]
@@ -295,6 +327,7 @@ def build():
         pages.append(skill_pages(t))
         if t["skill"] == "reading":
             pages.append(answer_sheet(t["mock"]))
+    pages.append(vocabulary())
     pages.append(answer_key(tests))
     pages.append(listening_scripts())
     css = (ROOT / "scripts" / "style.css").read_text(encoding="utf-8")

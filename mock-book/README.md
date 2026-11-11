@@ -5,7 +5,7 @@ Twelve complete Uzbek Multilevel (CEFR) mock tests (Listening Parts 1–6, Readi
 Impulse / Unlock 5 style cover (white + blue band, 3D illustration, Uzbek girih ornaments).
 
 Contents: cover · how to use (with audio channel QR) · Mock Tests 1–12 (Listening, Reading, then a Multilevel answer sheet)
-· answer key (reading solved; listening blanks to fill from the audio) · back cover.
+· vocabulary · answer key (reading solved; listening blanks to fill from the audio) · back cover.
 
 ## Build
 ```
@@ -26,3 +26,16 @@ Contents: cover · how to use (with audio channel QR) · Mock Tests 1–12 (List
 Small source fixes: Mock 4 map places renumbered 16–20 → 19–23; Mock 10 "19. Speaker 4" → "18."; Mock 11 extract
 headings (all printed "Extract One"); Mock 12 map instruction A–H → A–I (the map and the official answer use I); Mock 2 map instruction A–H → A–I (map has A–I),
 Mock 2 reading Part 5 instruction added and question range 31–35 → 30–33, missing words "to find a" / "as" restored in its summary gaps 31–32.
+
+## Vocabulary
+
+Before the answer key: **2,100 B1–C1 words, 175 per mock**, each with Uzbek, Russian and an example sentence.
+Every word is taken from that mock's own reading paper, grouped by part: Part 1 ×20 (the short narrative,
+which has the fewest suitable words), Parts 2–5 ×35/40/40/40.
+
+- Data: `data/vocabulary.json` — `{"<mock>": [[part, english, uzbek, russian, example], …]}`.
+- Rendering: `vocabulary()` in `scripts/build.py`. Each reading part is a separate block so the paginator can
+  flow the list across pages (one part fills most of an A4 page; the section is pp. 88–147).
+- `build()` loads only `listening-*.json` and `reading-*.json` as tests, so other files can live in `data/`.
+
+To change a word, edit its row in `vocabulary.json`; keep it to words that actually occur in that part's text.

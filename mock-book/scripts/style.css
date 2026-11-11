@@ -156,3 +156,23 @@ footer{display:flex;justify-content:space-between;align-items:center;font-size:7
 /* listening scripts */
 .script p{font-size:7.9pt;line-height:1.38;margin-bottom:1mm}
 .script p b{color:var(--blue2)}
+
+/* ---- vocabulary (B1–C1 words from the reading texts) ---- */
+.vmock{margin-bottom:4mm;break-inside:avoid}
+.vmock h3{font:700 11pt "Unbounded";color:var(--navy);margin-bottom:1.2mm}
+.vmock h4{font:700 7.6pt "Open Sans";color:var(--blue2);letter-spacing:.06em;text-transform:uppercase;
+  margin:0 0 1mm;display:flex;justify-content:space-between;align-items:baseline}
+.vmock h4 span{font-weight:600;color:var(--muted);text-transform:none;letter-spacing:0}
+.vmock table{width:100%;border-collapse:collapse;font-size:7.8pt;table-layout:fixed}
+.vmock th{text-align:left;background:var(--blue2);color:#fff;border:1px solid var(--blue2);
+  padding:1mm 2.2mm;font-size:7pt;letter-spacing:.04em;text-transform:uppercase}
+.vmock td{border:1px solid var(--line);padding:.7mm 2.2mm;vertical-align:top;line-height:1.3}
+.vmock col,.vmock th:nth-child(1),.vmock td:nth-child(1){width:17%}
+.vmock th:nth-child(2),.vmock td:nth-child(2){width:19%}
+.vmock th:nth-child(3),.vmock td:nth-child(3){width:19%}
+.vmock tr:nth-child(even) td{background:#FAFBFF}
+.vmock td.ven{font-weight:700;color:var(--navy)}
+.vmock td.vuz,.vmock td.vru{color:#3A4766}
+.vmock td.vex{font-style:italic;color:#2B3550}
+.vmock tr.vpart td{background:var(--soft);color:var(--blue2);font-weight:700;font-size:7.4pt;
+  letter-spacing:.06em;text-transform:uppercase;padding:.6mm 2.2mm}
