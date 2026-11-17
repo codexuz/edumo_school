@@ -17,6 +17,7 @@ Tests, pictures and recordings: englishpracticetest.net (Practice KET A2 Listeni
 
 ## Files
 - `data/ket_a2_listening_tests.json`: the 44 tests (questions, options, answers, audioscripts, audio and picture links).
+- `audio/testNN-partN.mp3`: local copies of all 220 recordings (591 MB, about 14 hours). In the JSON, each part's `audio_file` gives its local file and `audio` gives the online link that the QR code opens.
 - `assets/pics/tNN-qN.jpg`: the Part 1 pictures (greyscale, 1000 px wide).
 - `assets/brand/`: the logos and the cover hero image.
 
