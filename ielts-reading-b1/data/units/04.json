@@ -5,27 +5,27 @@
   "intro": "Around the world, big cities are trying to reduce traffic and bring nature back to their streets.",
   "vocab": [
     {"word": "congestion", "pos": "n", "uz": "tirbandlik", "ex": "There is always heavy congestion on this road at 8 a.m."},
-    {"word": "pollution", "pos": "n", "uz": "ifloslanish", "ex": "Air pollution is a big problem in many large cities."},
+    {"word": "vehicle", "pos": "n", "uz": "transport vositasi", "ex": "Only emergency vehicles can use this road."},
     {"word": "pedestrian", "pos": "n", "uz": "piyoda", "ex": "This street is only for pedestrians, so cars cannot use it."},
     {"word": "commute", "pos": "v", "uz": "ishga (o‘qishga) qatnamoq", "ex": "My father commutes to Tashkent by train every day."},
     {"word": "resident", "pos": "n", "uz": "yashovchi, aholi vakili", "ex": "Local residents asked for a new park in their area."},
+    {"word": "concrete", "pos": "n", "uz": "beton", "ex": "The new bridge is made of concrete and steel."},
     {"word": "encourage", "pos": "v", "uz": "rag‘batlantirmoq", "ex": "Our teacher encourages us to ask questions."},
-    {"word": "reduce", "pos": "v", "uz": "kamaytirmoq", "ex": "Trees can reduce noise from busy roads."},
-    {"word": "sustainable", "pos": "adj", "uz": "barqaror, tabiatga zarar yetkazmaydigan", "ex": "Cycling is a sustainable way to travel."},
-    {"word": "crowded", "pos": "adj", "uz": "gavjum, odam ko‘p", "ex": "The bus was so crowded that I had to stand."},
     {"word": "affordable", "pos": "adj", "uz": "hamyonbop, arzon", "ex": "Young families need affordable homes."},
     {"word": "population", "pos": "n", "uz": "aholi", "ex": "The population of the town has doubled in twenty years."},
     {"word": "neighbourhood", "pos": "n", "uz": "mahalla, tuman", "ex": "There are three schools in our neighbourhood."},
+    {"word": "solution", "pos": "n", "uz": "yechim", "ex": "We need to find a solution to this problem quickly."},
     {"word": "convenient", "pos": "adj", "uz": "qulay", "ex": "The metro is a convenient way to get to the city centre."},
     {"word": "benefit", "pos": "n", "uz": "foyda, afzallik", "ex": "Regular exercise has many health benefits."},
-    {"word": "urban", "pos": "adj", "uz": "shaharga oid, shahar", "ex": "More and more people now live in urban areas."}
+    {"word": "urban", "pos": "adj", "uz": "shaharga oid, shahar", "ex": "More and more people now live in urban areas."},
+    {"word": "enormous", "pos": "adj", "uz": "ulkan, juda katta", "ex": "They live in an enormous house with ten bedrooms."}
   ],
   "passage": [
-    "For most of the last hundred years, cities were designed around the car. Wide roads were built through old neighbourhoods, and car parks took the place of gardens and squares. Today, more than half of the world's population lives in cities, and many urban planners now believe that this model has failed. Traffic congestion wastes millions of hours every year, and air pollution from vehicles is linked to serious health problems. As a result, cities across the world are starting to ask a simple question: what if streets were for people again?",
+    "For most of the last hundred years, cities were designed around the car. Wide roads were built through old neighbourhoods, and car parks took the place of gardens and squares. Today, more than half of the world's population lives in cities, and many urban planners now believe that this model has failed. Traffic congestion wastes millions of hours every year, and air pollution from vehicles is linked to serious health problems. As a result, many cities are asking a simple question: what if streets were for people again?",
     "One of the best-known examples is Paris. Over the past decade, the city has turned hundreds of kilometres of roads into cycle lanes, and some streets outside schools have been closed to traffic completely. The mayor has also supported the idea of the '15-minute city', in which residents can reach shops, schools, doctors and parks within a short walk or bike ride from their homes. Supporters say that if people do not need to commute long distances every day, they will have more free time and better health.",
-    "Other cities have chosen different methods. In London, drivers must pay a charge to enter the centre during busy hours, and the money is used to improve buses and trains. In Copenhagen, the capital of Denmark, almost half of all journeys to work or school are made by bike. In Seoul, a busy motorway that had covered a small river was removed, and the river now flows through a long park where pedestrians can walk beside the water.",
+    "Other cities have chosen different methods. In London, drivers must pay a charge to enter the centre during busy hours, and the money is used to improve buses and trains. In Copenhagen, almost half of all journeys to work or school are made by bike. In Seoul, a busy motorway that covered a river was removed, and the river now flows through a long park where pedestrians can walk beside the water.",
     "Making cities greener is not only about traffic. In summer, the centre of a city can be several degrees hotter than the countryside nearby, because concrete and stone store heat. To solve this problem, Singapore has encouraged builders to cover walls and rooftops with plants, and Milan has built two tall apartment towers covered in hundreds of trees and thousands of smaller plants. Plants provide shade, clean the air and reduce noise. Some studies suggest that people who live near green spaces also feel less stressed.",
-    "However, not everyone welcomes these changes. Shop owners sometimes worry that fewer cars will mean fewer customers, although research in several cities has shown that people who walk or cycle often visit local shops more regularly. A bigger problem is cost. When a neighbourhood becomes greener and quieter, it also becomes more popular, and rents can rise quickly. In some cases, the families who lived there before can no longer afford to stay, and homes that were once affordable are now only for the rich.",
+    "However, not everyone welcomes these changes. Shop owners sometimes worry that fewer cars will mean fewer customers, although research in several cities has shown that people who walk or cycle often visit local shops more regularly. A bigger problem is cost. When a neighbourhood becomes greener and quieter, it also becomes more popular, and rents can rise quickly. The families who lived there before can no longer afford to stay, and homes that were once affordable are now only for the rich.",
     "So what will the city of the future look like? Experts agree that there is no single answer, because every city has its own history, climate and problems. A crowded city in Asia needs different solutions from a small town in Europe. But the general direction is clear. Cities are slowly becoming places where public transport is fast and convenient, where children can play safely in the street, and where nature is part of everyday life. Many planners believe this is the only sustainable way for cities to grow, and the benefits for both people and the planet could be enormous."
   ],
   "tfng": [
@@ -54,13 +54,13 @@
     {"word": "pedestrian", "meaning": "a person who is walking, not driving"},
     {"word": "commute", "meaning": "to travel regularly between home and work or school"},
     {"word": "affordable", "meaning": "cheap enough for people to buy or pay for"},
-    {"word": "crowded", "meaning": "full of people"},
+    {"word": "concrete", "meaning": "a hard building material made from sand, small stones, cement and water"},
     {"word": "urban", "meaning": "connected with a town or city"}
   ],
   "gapfill": [
     {"s": "The new bus timetable is very ______ for people who start work early.", "a": "convenient"},
     {"s": "Good teachers ______ students to read in English every day.", "a": "encourage"},
-    {"s": "Eating less sugar can ______ the risk of some illnesses.", "a": "reduce"},
+    {"s": "The new shopping centre is ______. It has more than 300 shops.", "a": "enormous"},
     {"s": "Every ______ of the building received a letter about the new parking rules.", "a": "resident"},
     {"s": "The ______ of Tashkent has grown quickly in recent years.", "a": "population"},
     {"s": "One ______ of living in the countryside is the clean air.", "a": "benefit"}

@@ -14,18 +14,18 @@
     {"word": "content", "pos": "n", "uz": "kontent, mazmun", "ex": "This website has a lot of free content for students."},
     {"word": "opinion", "pos": "n", "uz": "fikr", "ex": "What is your opinion of the new film?"},
     {"word": "warn", "pos": "v", "uz": "ogohlantirmoq", "ex": "The teacher warned us that the test would be difficult."},
-    {"word": "reliable", "pos": "adj", "uz": "ishonchli", "ex": "This old car is still very reliable."},
     {"word": "headline", "pos": "n", "uz": "sarlavha", "ex": "I only had time to read the headlines this morning."},
     {"word": "analyse", "pos": "v", "uz": "tahlil qilmoq", "ex": "Scientists analysed the results of the study."},
     {"word": "responsible", "pos": "adj", "uz": "mas’uliyatli", "ex": "She is a very responsible student."},
+    {"word": "citizen", "pos": "n", "uz": "fuqaro", "ex": "Every citizen can vote at the age of eighteen."},
     {"word": "recognise", "pos": "v", "uz": "tanimoq, farqlay olmoq", "ex": "I didn't recognise him with his new glasses."}
   ],
   "passage": [
-    "Thirty years ago, most people got their news from a newspaper, the radio or the evening television programme. The news arrived at fixed times, and it was chosen by a small number of professional journalists and editors. Today, the situation is completely different. For millions of people, especially the young, the news arrives on their phone all day long, mixed with messages from friends, funny videos and advertisements. Surveys in many countries have found that social media is now one of the main sources of news for people under twenty-five.",
+    "Thirty years ago, most people got their news from a newspaper, the radio or the evening television programme. The news arrived at fixed times, and it was chosen by a small number of professional journalists and editors. For millions of people, especially the young, the news arrives on their phone all day long, mixed with messages from friends, funny videos and advertisements. Surveys in many countries have found that social media is now one of the main sources of news for people under twenty-five.",
     "This change has brought some real advantages. News now travels faster than ever before, and ordinary people can report events as they happen. When there is a flood or an earthquake, the first photos often come from witnesses with smartphones, not from reporters. People can also follow topics that interest them, from football to science, and hear voices that traditional media used to ignore. In this sense, the internet has made information more open to everyone.",
     "However, there is a serious disadvantage. On social media, anyone can publish anything, and there is often nobody to check whether a story is accurate. Fake news, which means false stories that are made to look like real news, can spread very quickly. A well-known study by researchers in the United States looked at millions of posts on Twitter and found that false stories were much more likely to be shared than true ones. One reason is that fake stories are often surprising or shocking, and people enjoy passing on something unusual.",
     "Another problem is the way social media platforms work. Their computer programs, called algorithms, learn what each user likes and then show them more of the same content. If you often watch videos that agree with your opinions, you will probably see even more of them. Some experts warn that this can trap people in a 'bubble', where they rarely meet different points of view. Others believe the effect is smaller than people think, because most users still see news from a mixture of sources.",
-    "So how can we protect ourselves? Fact-checkers suggest a few simple habits. First, look at who has published the story and whether other reliable sources are reporting the same thing. Second, be careful with headlines that make you feel very angry or excited, because they are often designed to make you click. Finally, check the date and the photos, since an old picture can easily be used to show a new event. If you are not sure that something is true, it is better not to share it.",
+    "So how can we protect ourselves? Fact-checkers suggest a few simple habits. First, look at who has published the story and whether other reliable sources are reporting the same thing. Second, be careful with headlines that make you feel very angry or excited, because they are often designed to make you click. Finally, check the date and the photos, since an old picture can easily be used to show a new event.",
     "Some countries have decided that these skills should be taught at school. In Finland, for example, children learn to analyse news and advertisements in several different subjects, not only in one special lesson. Teachers believe that young people who learn to question what they read will become more responsible citizens. As technology develops and fake images become harder to recognise, this kind of education may become just as important as learning to read and write."
   ],
   "tfng": [
@@ -54,7 +54,7 @@
     {"word": "witness", "meaning": "a person who sees something happen"},
     {"word": "accurate", "meaning": "correct and true in every detail"},
     {"word": "headline", "meaning": "the title of a news story, printed in large letters"},
-    {"word": "reliable", "meaning": "that you can trust"},
+    {"word": "citizen", "meaning": "a person who legally belongs to a country"},
     {"word": "analyse", "meaning": "to look at something carefully to understand it"}
   ],
   "gapfill": [

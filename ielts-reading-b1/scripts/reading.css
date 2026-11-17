@@ -1,13 +1,13 @@
 /* IELTS reading additions on top of the Mock-book style */
 .pill.gold{background:linear-gradient(120deg,#E8A317,#C98207)}
-.vlist{display:flex;flex-direction:column;gap:1mm;margin-bottom:1mm}
-.vrow{display:grid;grid-template-columns:auto auto 1fr;column-gap:2mm;align-items:baseline;border-bottom:1px dotted var(--line);padding:.6mm 0 1mm}
+.vlist{display:flex;flex-direction:column;gap:.6mm;margin-bottom:1mm}
+.vrow{display:grid;grid-template-columns:auto auto 1fr;column-gap:2mm;align-items:baseline;border-bottom:1px dotted var(--line);padding:.4mm 0 .7mm}
 .vrow b{font:700 9pt "Unbounded";color:var(--navy)}
 .vrow i{font-size:7.6pt;color:#6B7690}
 .vrow .uz{text-align:right;font-weight:700;color:var(--blue2);font-size:8.4pt}
 .vrow p{grid-column:1/-1;font-size:8.2pt;font-style:italic;color:#4A5675}
 .intro{font-style:italic;font-size:8.6pt;color:#4A5675;margin:1mm 0 1.5mm}
-.pp{display:grid;grid-template-columns:5.5mm 1fr;column-gap:2mm;text-align:justify;hyphens:auto;margin-bottom:1.6mm;font-size:9.2pt;line-height:1.55}
+.pp{display:grid;grid-template-columns:5.5mm 1fr;column-gap:2mm;text-align:justify;hyphens:auto;margin-bottom:1.3mm;font-size:9pt;line-height:1.5}
 .pl{width:5.2mm;height:5.2mm;border-radius:1.4mm;background:var(--navy);color:#fff;font:700 8pt "Unbounded";display:flex;align-items:center;justify-content:center;margin-top:.5mm}
 .tfkey{display:flex;flex-direction:column;gap:.4mm;background:var(--soft);border:1px solid var(--line);border-radius:2mm;padding:1.6mm 2.5mm;margin-bottom:1.6mm;font-size:8.2pt}
 .tfkey b{display:inline-block;min-width:23mm;color:var(--blue2);font:700 8pt "Unbounded"}

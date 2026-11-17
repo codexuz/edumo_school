@@ -12,13 +12,13 @@
     {"word": "appearance", "pos": "n", "uz": "tashqi ko‘rinish", "ex": "Don't judge people by their appearance."},
     {"word": "reject", "pos": "v", "uz": "rad etmoq", "ex": "The company rejected his job application."},
     {"word": "landfill", "pos": "n", "uz": "chiqindixona", "ex": "Most of the city's rubbish ends up in a landfill."},
+    {"word": "rot", "pos": "v", "uz": "chirimoq, aynimoq", "ex": "The fallen apples began to rot on the ground."},
     {"word": "harmful", "pos": "adj", "uz": "zararli", "ex": "Smoking is harmful to your health."},
     {"word": "ban", "pos": "v", "uz": "taqiqlamoq", "ex": "The school has banned mobile phones in lessons."},
     {"word": "donate", "pos": "v", "uz": "xayriya qilmoq, hadya qilmoq", "ex": "She donated her old clothes to a children's home."},
     {"word": "charity", "pos": "n", "uz": "xayriya tashkiloti", "ex": "He works for a charity that helps elderly people."},
     {"word": "leftovers", "pos": "n", "uz": "ovqat qoldiqlari, ortib qolgan ovqat", "ex": "We had the leftovers from dinner for lunch the next day."},
-    {"word": "portion", "pos": "n", "uz": "porsiya, ulush", "ex": "The portions in this café are very large."},
-    {"word": "reduce", "pos": "v", "uz": "kamaytirmoq", "ex": "Walking to work helps to reduce traffic."}
+    {"word": "portion", "pos": "n", "uz": "porsiya, ulush", "ex": "The portions in this café are very large."}
   ],
   "passage": [
     "Imagine going to the market, buying three bags of food and then dropping one of them in the bin on the way home. It sounds crazy, but this is more or less what happens around the world every day. Experts at the United Nations estimate that roughly one third of all the food that is produced is lost or wasted. At the same time, hundreds of millions of people do not have enough to eat.",
@@ -63,6 +63,6 @@
     {"s": "Many parents believe that too much screen time is ______ for children.", "a": "harmful"},
     {"s": "Some cities have decided to ______ plastic bags completely.", "a": "ban"},
     {"s": "Every year our class collects money for a local ______ that helps homeless people.", "a": "charity"},
-    {"s": "Eating less sugar can ______ the risk of many health problems.", "a": "reduce"}
+    {"s": "If you leave fruit in a warm room for too long, it will start to ______.", "a": "rot"}
   ]
 }

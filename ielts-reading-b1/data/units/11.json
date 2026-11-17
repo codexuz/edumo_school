@@ -1,0 +1,68 @@
+{
+  "n": 11,
+  "topic": "Inventions",
+  "title": "Happy Accidents",
+  "intro": "Some of the most useful inventions in our homes were never planned: they began with a mistake, a strange result or a walk in the mountains.",
+  "vocab": [
+    {"word": "accident", "pos": "n", "uz": "tasodif; baxtsiz hodisa", "ex": "We met by accident at the airport."},
+    {"word": "notice", "pos": "v", "uz": "payqamoq, sezib qolmoq", "ex": "Did you notice that the shop was closed?"},
+    {"word": "engineer", "pos": "n", "uz": "muhandis", "ex": "My uncle is an engineer who designs bridges."},
+    {"word": "melt", "pos": "v", "uz": "erimoq", "ex": "The snow melts quickly when the sun comes out."},
+    {"word": "curious", "pos": "adj", "uz": "qiziquvchan", "ex": "I was curious to know what was inside the box."},
+    {"word": "afford", "pos": "v", "uz": "(pulga) qurbi yetmoq", "ex": "They can't afford to go on holiday this year."},
+    {"word": "mould", "pos": "n", "uz": "mog‘or", "ex": "There was green mould on the old bread."},
+    {"word": "bacteria", "pos": "n", "uz": "bakteriyalar", "ex": "Washing your hands removes most bacteria."},
+    {"word": "observe", "pos": "v", "uz": "kuzatmoq", "ex": "The children observed the birds through the window."},
+    {"word": "substance", "pos": "n", "uz": "modda", "ex": "This cleaning substance is dangerous if you drink it."},
+    {"word": "failure", "pos": "n", "uz": "muvaffaqiyatsizlik", "ex": "His first business was a failure, but he didn't give up."},
+    {"word": "sticky", "pos": "adj", "uz": "yopishqoq", "ex": "My fingers were sticky after I ate the honey."},
+    {"word": "inspire", "pos": "v", "uz": "ilhomlantirmoq", "ex": "The beautiful view inspired her to paint a picture."},
+    {"word": "attempt", "pos": "n", "uz": "urinish", "ex": "He passed his driving test at the second attempt."},
+    {"word": "patent", "pos": "n", "uz": "patent (ixtiroga guvohnoma)", "ex": "The company has a patent for its new phone battery."}
+  ],
+  "passage": [
+    "We often imagine that great inventions come from years of careful planning. A scientist has a clear goal, works step by step and finally creates something new. In reality, though, some of the most useful things in our homes were discovered by accident. What these inventors had in common was not luck alone, but the ability to notice something strange and ask why it had happened.",
+    "One famous example is the microwave oven. In 1945, an American engineer called Percy Spencer was working with radar equipment when he noticed that a chocolate bar in his pocket had melted. Instead of simply cleaning his clothes, he became curious. He placed some popcorn near the machine and watched it pop, and later he tried an egg, which exploded. His company soon produced the first microwave oven. It was almost two metres tall and very expensive, so it was many years before ordinary families could afford a smaller version.",
+    "Medicine has its own happy accidents. In 1928, the Scottish scientist Alexander Fleming returned from a holiday and found that mould had grown on one of the dishes in which he was growing bacteria. Around the mould, the bacteria had died. Fleming observed this carefully and realised that the mould was producing a substance that could kill bacteria. This substance became penicillin, although it was more than ten years before other scientists found a way to produce it in large amounts. Since then, it has saved millions of lives.",
+    "Sometimes an idea comes from a failure. In 1968, Spencer Silver, a chemist at the company 3M, was trying to make a very strong glue. Instead, he made a weak one: it was sticky, but it could be removed easily without leaving a mark. For several years, nobody could think of a use for it. Then a colleague, Art Fry, who sang in a church choir, became annoyed because his paper bookmarks kept falling out of his song book. He used Silver's glue to make bookmarks that stayed in place, and the Post-it Note was born.",
+    "Nature can also inspire inventors. After a walk in the Swiss mountains in 1941, the engineer George de Mestral saw that small seeds from a plant were stuck to his trousers and his dog's fur. Looking at them under a microscope, he found that they were covered in tiny hooks. After many attempts, he created a fastener with hooks on one side and loops on the other. He called it Velcro and received a patent for it in 1955. Today it is used on everything from children's shoes to space suits.",
+    "These stories show that an accident is only the beginning. Many people had probably seen melted chocolate or mouldy dishes before, but they did not think about them. The successful inventors were patient, and they were not afraid to try things and fail. As Fleming himself once said, 'One sometimes finds what one is not looking for.' So if something unexpected happens to you, do not ignore it. It might be the start of your own great invention."
+  ],
+  "tfng": [
+    {"q": "Percy Spencer was working with radar equipment when the chocolate in his pocket melted.", "a": "TRUE"},
+    {"q": "The first microwave oven was small and cheap.", "a": "FALSE"},
+    {"q": "Spencer Silver became rich from the sale of Post-it Notes.", "a": "NOT GIVEN"},
+    {"q": "Fleming was the first person to produce penicillin in large amounts.", "a": "FALSE"},
+    {"q": "George de Mestral used a microscope to look closely at the seeds.", "a": "TRUE"}
+  ],
+  "mcq": [
+    {"q": "What did Percy Spencer do after the chocolate melted?", "options": ["He cleaned his clothes and stopped working.", "He tested the machine with other kinds of food.", "He asked his company to build a new radar."], "a": "B"},
+    {"q": "Why was Spencer Silver's glue unusual?", "options": ["It could be removed without leaving a mark.", "It was stronger than any other glue.", "It was made from natural materials."], "a": "A"},
+    {"q": "What is the writer's main point in paragraph F?", "options": ["Most great inventions are the result of luck.", "Inventors should try hard to avoid mistakes.", "Success depends on paying attention to unexpected events."], "a": "C"}
+  ],
+  "which_para": [
+    {"q": "an invention that was based on something in the natural world", "a": "E"},
+    {"q": "a product that needed many years to become cheaper", "a": "B"}
+  ],
+  "completion": [
+    {"q": "When Spencer tested an egg near the machine, it ______.", "a": "exploded"},
+    {"q": "Art Fry used to sing in a church ______.", "a": "choir"},
+    {"q": "Velcro has hooks on one side and ______ on the other.", "a": "loops"}
+  ],
+  "vocab_match": [
+    {"word": "engineer", "meaning": "a person who designs or builds machines, roads or bridges"},
+    {"word": "melt", "meaning": "to change from solid to liquid because of heat"},
+    {"word": "mould", "meaning": "a soft green or black growth on old food or in wet places"},
+    {"word": "observe", "meaning": "to watch something carefully"},
+    {"word": "sticky", "meaning": "able to stick to things, like glue or honey"},
+    {"word": "attempt", "meaning": "an act of trying to do something difficult"}
+  ],
+  "gapfill": [
+    {"s": "I'm sorry I broke your cup. It was an ______.", "a": "accident"},
+    {"s": "Did you ______ that Aziz wasn't at the lesson today?", "a": "notice"},
+    {"s": "Small children are ______ about everything around them.", "a": "curious"},
+    {"s": "We can't ______ a new car this year, so we'll keep the old one.", "a": "afford"},
+    {"s": "The first test was a ______, but the second one worked perfectly.", "a": "failure"},
+    {"s": "Good teachers can ______ their students to work harder.", "a": "inspire"}
+  ]
+}

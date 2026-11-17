@@ -5,11 +5,11 @@
   "intro": "Tourism brings money and jobs to many places, but in some famous destinations people are starting to ask whether there can be too much of a good thing.",
   "vocab": [
     {"word": "destination", "pos": "n", "uz": "borish manzili", "ex": "Samarkand is a popular destination for foreign visitors."},
-    {"word": "attract", "pos": "v", "uz": "jalb qilmoq", "ex": "The new park attracts hundreds of families every weekend."},
+    {"word": "vital", "pos": "adj", "uz": "hayotiy muhim", "ex": "Exercise is vital for a healthy heart."},
     {"word": "income", "pos": "n", "uz": "daromad", "ex": "Farming is the main source of income in our village."},
     {"word": "economy", "pos": "n", "uz": "iqtisodiyot", "ex": "Tourism is important for the country's economy."},
     {"word": "souvenir", "pos": "n", "uz": "esdalik sovg‘a", "ex": "I bought a small ceramic plate as a souvenir."},
-    {"word": "resident", "pos": "n", "uz": "aholi, yashovchi", "ex": "Local residents complained about the noise from the new road."},
+    {"word": "struggle", "pos": "v", "uz": "qiynalmoq, kurashmoq", "ex": "Many students struggle with maths in their first year."},
     {"word": "crowded", "pos": "adj", "uz": "odam gavjum", "ex": "The bus was so crowded that I had to stand."},
     {"word": "landlord", "pos": "n", "uz": "uy egasi (ijaraga beruvchi)", "ex": "Our landlord has increased the rent again."},
     {"word": "damage", "pos": "v", "uz": "zarar yetkazmoq", "ex": "The storm damaged several houses near the river."},
@@ -51,14 +51,14 @@
   ],
   "vocab_match": [
     {"word": "destination", "meaning": "the place someone is travelling to"},
-    {"word": "resident", "meaning": "a person who lives in a particular place"},
+    {"word": "struggle", "meaning": "to try very hard to do something that is difficult"},
     {"word": "souvenir", "meaning": "something you buy to remember a place you visited"},
     {"word": "crowded", "meaning": "full of too many people"},
     {"word": "recover", "meaning": "to become healthy or normal again"},
     {"word": "authentic", "meaning": "real and true, not false or copied"}
   ],
   "gapfill": [
-    {"s": "Bright colours and loud music ______ young customers to the shop.", "a": "attract"},
+    {"s": "Clean water is ______ for good health.", "a": "vital"},
     {"s": "My uncle's main source of ______ is his small bakery.", "a": "income"},
     {"s": "Smoke from factories is a major cause of ______ in the city.", "a": "pollution"},
     {"s": "The ______ said we could not keep a cat in the flat.", "a": "landlord"},

@@ -1,0 +1,68 @@
+{
+  "n": 10,
+  "topic": "Psychology",
+  "title": "Why We Put Things Off",
+  "intro": "Almost everyone delays important work sometimes, but psychologists now believe that the reason has more to do with our feelings than with our ability to manage time.",
+  "vocab": [
+    {"word": "task", "pos": "n", "uz": "vazifa, topshiriq", "ex": "My first task at work every morning is to answer emails."},
+    {"word": "lazy", "pos": "adj", "uz": "dangasa", "ex": "He was too lazy to walk, so he took a taxi."},
+    {"word": "anxiety", "pos": "n", "uz": "xavotir, tashvish", "ex": "Many students feel anxiety before an important exam."},
+    {"word": "unpleasant", "pos": "adj", "uz": "yoqimsiz, noxush", "ex": "Cleaning the kitchen after a party is an unpleasant job."},
+    {"word": "postpone", "pos": "v", "uz": "keyinga qoldirmoq", "ex": "They decided to postpone the wedding until the summer."},
+    {"word": "mood", "pos": "n", "uz": "kayfiyat", "ex": "Sunny weather always puts me in a good mood."},
+    {"word": "relief", "pos": "n", "uz": "yengillik, ko‘ngil xotirjamligi", "ex": "It was a great relief to hear that my brother was safe."},
+    {"word": "deadline", "pos": "n", "uz": "oxirgi muddat", "ex": "The deadline for the application is 1 March."},
+    {"word": "guilty", "pos": "adj", "uz": "aybdor, o‘zini gunohkor his qilgan", "ex": "I felt guilty because I forgot my friend's birthday."},
+    {"word": "reward", "pos": "n", "uz": "mukofot, rag‘bat", "ex": "As a reward for her hard work, she got a week off."},
+    {"word": "tempting", "pos": "adj", "uz": "jozibali, vasvasaga soluvchi", "ex": "The cakes in the shop window looked very tempting."},
+    {"word": "strategy", "pos": "n", "uz": "strategiya, usul", "ex": "Making a list is a good strategy for remembering new words."},
+    {"word": "distract", "pos": "v", "uz": "chalg‘itmoq", "ex": "The noise from the street distracted me from my homework."},
+    {"word": "confident", "pos": "adj", "uz": "o‘ziga ishongan", "ex": "After a month of practice, she felt confident about the speaking test."},
+    {"word": "priority", "pos": "n", "uz": "ustuvor vazifa, birinchi navbatdagi ish", "ex": "My family is my first priority."}
+  ],
+  "passage": [
+    "It is Sunday evening. You have an essay to finish by Monday morning, but instead of writing, you check your phone, tidy your desk and watch 'just one more' video. Most of us know this situation well. Putting off a task that we know we should do is called procrastination, and it is extremely common. Some studies suggest that around one in five adults procrastinate regularly, and the figure is thought to be much higher among university students.",
+    "For a long time, people believed that procrastinators were simply lazy or bad at managing their time. However, many psychologists now disagree. They argue that procrastination is mainly a problem with emotions, not with time. When a task feels boring, difficult or unpleasant, it creates negative feelings such as anxiety or self-doubt. Postponing the task makes these feelings disappear immediately, so our mood improves, at least for a while.",
+    "The problem is that this relief does not last. The task is still there, the deadline gets closer, and the bad feelings return, often stronger than before. Many people also feel guilty about the time they have wasted. This guilt can make the task seem even more unpleasant, so the person delays it again. In this way, procrastination can become a cycle that is hard to break.",
+    "Our brains also play a part. Researchers have found that people tend to choose a small reward now rather than a bigger one later. Watching a funny video gives us pleasure in seconds, while the reward for finishing a report may be weeks away. Some brain studies even suggest that when we think about our 'future self', we treat that person almost like a stranger. If someone else will have to deal with the work, it is tempting to leave it for them.",
+    "Fortunately, there are strategies that can help. One popular method is the Pomodoro Technique, which was developed by an Italian student, Francesco Cirillo, in the late 1980s. He used a kitchen timer shaped like a tomato, or pomodoro in Italian, and worked for 25 minutes before taking a short break. Breaking a large task into small steps makes it feel less frightening, and it is easier to start. Other experts recommend removing anything that might distract you, for example by leaving your phone in another room.",
+    "Perhaps the most surprising advice is to be kind to yourself. In one study of university students, those who forgave themselves for procrastinating before their first exam were less likely to procrastinate before the next one. Instead of feeling guilty, they felt more confident and were able to focus on their priorities. So, next time you find yourself avoiding a task, remember that you are probably not lazy. You may just need a better way to manage your feelings, and to start with one small step."
+  ],
+  "tfng": [
+    {"q": "Procrastination is believed to be more common among university students than among adults in general.", "a": "TRUE"},
+    {"q": "Most psychologists today think that procrastinators are lazy people.", "a": "FALSE"},
+    {"q": "People who often procrastinate usually earn less money than other people.", "a": "NOT GIVEN"},
+    {"q": "The good feeling that comes from postponing a task lasts for a long time.", "a": "FALSE"},
+    {"q": "Francesco Cirillo was a student when he developed his method.", "a": "TRUE"}
+  ],
+  "mcq": [
+    {"q": "According to paragraph B, why do people postpone tasks?", "options": ["They have too many tasks to do at the same time.", "They do not know how to plan their time.", "It helps them to escape from bad feelings."], "a": "C"},
+    {"q": "What does the writer say about the 'future self'?", "options": ["We often think of it as a different person.", "It is usually happier than the present self.", "It remembers tasks better than we do."], "a": "A"},
+    {"q": "What happened to the students who forgave themselves?", "options": ["They got higher marks in their first exam.", "They procrastinated less before their next exam.", "They stopped worrying about exams completely."], "a": "B"}
+  ],
+  "which_para": [
+    {"q": "the origin of the name of a time-management method", "a": "E"},
+    {"q": "an explanation of how procrastination can repeat itself", "a": "C"}
+  ],
+  "completion": [
+    {"q": "Cirillo's kitchen timer was in the shape of a ______.", "a": "tomato"},
+    {"q": "People often prefer a small reward now to a bigger one ______.", "a": "later"},
+    {"q": "To avoid distractions, some experts suggest leaving your ______ in another room.", "a": "phone"}
+  ],
+  "vocab_match": [
+    {"word": "task", "meaning": "a piece of work that you have to do"},
+    {"word": "anxiety", "meaning": "a feeling of worry about what might happen"},
+    {"word": "relief", "meaning": "a happy feeling when something bad or difficult stops"},
+    {"word": "deadline", "meaning": "the time or date by which you must finish something"},
+    {"word": "tempting", "meaning": "making you want to do something, even if it is not a good idea"},
+    {"word": "priority", "meaning": "something more important than other things, which you should do first"}
+  ],
+  "gapfill": [
+    {"s": "He isn't ______. He works very hard, but he is often tired.", "a": "lazy"},
+    {"s": "The medicine has an ______ taste, so I drink it with juice.", "a": "unpleasant"},
+    {"s": "We had to ______ our trip until next month because my father was ill.", "a": "postpone"},
+    {"s": "My sister is in a bad ______ today because she lost her keys.", "a": "mood"},
+    {"s": "I felt ______ after I shouted at my little brother.", "a": "guilty"},
+    {"s": "Please don't ______ the driver while the bus is moving.", "a": "distract"}
+  ]
+}

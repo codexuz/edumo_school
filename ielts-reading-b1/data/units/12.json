@@ -1,0 +1,68 @@
+{
+  "n": 12,
+  "topic": "Languages",
+  "title": "Saving the World's Languages",
+  "intro": "Thousands of the world's languages could disappear this century, but some communities are showing that a language in danger can be brought back to life.",
+  "vocab": [
+    {"word": "endangered", "pos": "adj", "uz": "yo‘qolib ketish xavfi ostidagi", "ex": "The snow leopard is an endangered animal."},
+    {"word": "generation", "pos": "n", "uz": "avlod", "ex": "Three generations of my family live in this house."},
+    {"word": "dominant", "pos": "adj", "uz": "ustun, hukmron", "ex": "English is the dominant language on the internet."},
+    {"word": "elderly", "pos": "adj", "uz": "keksa, yoshi ulug‘", "ex": "The young man helped an elderly woman with her bags."},
+    {"word": "native", "pos": "adj", "uz": "ona (tili); mahalliy", "ex": "Her native language is Karakalpak."},
+    {"word": "unique", "pos": "adj", "uz": "betakror, noyob", "ex": "Every person's fingerprints are unique."},
+    {"word": "knowledge", "pos": "n", "uz": "bilim", "ex": "He has a good knowledge of Uzbek history."},
+    {"word": "identity", "pos": "n", "uz": "o‘ziga xoslik, kimlik", "ex": "Music is an important part of our cultural identity."},
+    {"word": "revive", "pos": "v", "uz": "qayta tiklamoq, jonlantirmoq", "ex": "The town wants to revive its old crafts."},
+    {"word": "religious", "pos": "adj", "uz": "diniy", "ex": "The old building was used for religious ceremonies."},
+    {"word": "enthusiast", "pos": "n", "uz": "ishqiboz, fidoyi", "ex": "Football enthusiasts travelled from all over the country to see the match."},
+    {"word": "official", "pos": "adj", "uz": "rasmiy", "ex": "Canada has two official languages: English and French."},
+    {"word": "fluent", "pos": "adj", "uz": "ravon, erkin (gapiradigan)", "ex": "After two years in Seoul, she is fluent in Korean."},
+    {"word": "preserve", "pos": "v", "uz": "saqlab qolmoq, asramoq", "ex": "The museum preserves old books and maps."},
+    {"word": "survive", "pos": "v", "uz": "omon qolmoq, saqlanib qolmoq", "ex": "Camels can survive for days without water."}
+  ],
+  "passage": [
+    "Nobody knows exactly how many languages there are in the world, but most experts put the number at around 7,000. However, these languages are not shared equally. More than half of the world's population speaks just over twenty of them, including Chinese, English, Spanish and Hindi. At the same time, thousands of languages have fewer than 1,000 speakers, and many of these are now endangered, which means they may disappear completely within a few generations.",
+    "A language usually dies slowly. The process often begins when parents decide that their children will have a better future if they speak the dominant language of the country, the one that is used in schools, in business and on television. The children grow up understanding their parents' language but rarely speaking it, and the next generation may not understand it at all. When the last elderly native speakers die, the language goes with them.",
+    "Why should this matter? Many linguists argue that every language is a unique way of seeing the world. Some languages have detailed words for local plants, animals and weather that contain knowledge built up over hundreds of years. For example, the names that a community uses for plants may show which ones can be used as medicine. When a language is lost, this knowledge can be lost too. For many people, their language is also an important part of their identity and connects them to their history.",
+    "Fortunately, the story does not always end badly. Hebrew is perhaps the best-known example of a language that has been revived. For centuries it was used mainly for religious texts and prayers, and it was not anyone's first language. From the late nineteenth century, however, a group of enthusiasts began to use it at home and in schools. Today it is an official language of Israel and is spoken by millions of people.",
+    "Smaller languages can be saved too. In New Zealand in the 1980s, Māori communities set up 'language nests', where young children spend the day with fluent older speakers and hear only Māori. The idea has since been copied in other places, including Hawaii, where a similar programme helped to increase the number of young people who speak Hawaiian. In Wales, the Welsh language is taught in schools and appears on road signs, and there is a Welsh-language television channel.",
+    "Technology is also helping. Linguists now use digital recorders and video cameras to preserve the voices of the last speakers, and some endangered languages have their own apps and online dictionaries. However, experts agree that recordings alone cannot keep a language alive. A language only survives if people use it in daily life and pass it on to their children. Saving a language takes a great deal of effort, but for the communities involved, it is worth it."
+  ],
+  "tfng": [
+    {"q": "Experts agree on the exact number of languages in the world.", "a": "FALSE"},
+    {"q": "The death of a language often starts with decisions made by parents.", "a": "TRUE"},
+    {"q": "Hebrew is now spoken by more people than any other language in Israel.", "a": "NOT GIVEN"},
+    {"q": "In Māori language nests, children hear only Māori during the day.", "a": "TRUE"},
+    {"q": "Making recordings is enough to keep a language alive.", "a": "FALSE"}
+  ],
+  "mcq": [
+    {"q": "Why do some parents stop speaking their own language to their children?", "options": ["Their children refuse to learn it at school.", "They think the dominant language will give their children a better future.", "The government does not allow it to be used at home."], "a": "B"},
+    {"q": "According to paragraph C, what can the plant names in some languages show?", "options": ["Which plants can be used to treat illness.", "Which plants are in danger of disappearing.", "How old a community's traditions are."], "a": "A"},
+    {"q": "What is the writer's view of technology in paragraph F?", "options": ["It is the best way to save endangered languages.", "It has made language nests unnecessary.", "It is useful, but people must still speak the language."], "a": "C"}
+  ],
+  "which_para": [
+    {"q": "a description of how a language disappears over several generations", "a": "B"},
+    {"q": "an example of a language that was nobody's first language for a long time", "a": "D"}
+  ],
+  "completion": [
+    {"q": "More than half of the people in the world speak just over ______ languages.", "a": "twenty"},
+    {"q": "In Wales, the Welsh language can be seen on road ______.", "a": "signs"},
+    {"q": "Some endangered languages have their own apps and online ______.", "a": "dictionaries"}
+  ],
+  "vocab_match": [
+    {"word": "endangered", "meaning": "in danger of disappearing completely"},
+    {"word": "generation", "meaning": "all the people in a family or society who are about the same age"},
+    {"word": "elderly", "meaning": "old (a polite word)"},
+    {"word": "unique", "meaning": "different from everything else; the only one of its kind"},
+    {"word": "fluent", "meaning": "able to speak a language easily and well"},
+    {"word": "preserve", "meaning": "to keep something safe so that it is not lost or damaged"}
+  ],
+  "gapfill": [
+    {"s": "Uzbek is the ______ language of Uzbekistan.", "a": "official"},
+    {"s": "My grandfather has a lot of ______ about old Uzbek traditions.", "a": "knowledge"},
+    {"s": "Most plants cannot ______ without water and light.", "a": "survive"},
+    {"s": "Russian is not her ______ language, but she speaks it very well.", "a": "native"},
+    {"s": "The city wants to ______ the old market by opening new cafés there.", "a": "revive"},
+    {"s": "Wearing traditional clothes at weddings is part of our national ______.", "a": "identity"}
+  ]
+}

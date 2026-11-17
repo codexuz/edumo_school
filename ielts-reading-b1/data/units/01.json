@@ -4,7 +4,6 @@
   "title": "The Four-Day Week",
   "intro": "More and more companies are testing a shorter working week. Does it really work?",
   "vocab": [
-    {"word": "experiment", "pos": "n", "uz": "tajriba", "ex": "The class did an experiment with water and salt."},
     {"word": "trial", "pos": "n", "uz": "sinov", "ex": "The new bus route is running as a three-month trial."},
     {"word": "employee", "pos": "n", "uz": "xodim", "ex": "Every employee gets twenty days of holiday a year."},
     {"word": "salary", "pos": "n", "uz": "maosh, oylik", "ex": "Her salary is paid at the end of each month."},
@@ -16,6 +15,7 @@
     {"word": "balance", "pos": "n", "uz": "muvozanat", "ex": "It is important to have a good balance between work and rest."},
     {"word": "attract", "pos": "v", "uz": "jalb qilmoq", "ex": "The new park attracts many families at weekends."},
     {"word": "talented", "pos": "adj", "uz": "iqtidorli", "ex": "He is a talented footballer."},
+    {"word": "complicated", "pos": "adj", "uz": "murakkab, chigal", "ex": "The instructions were too complicated, so I asked my brother for help."},
     {"word": "schedule", "pos": "n", "uz": "jadval, ish rejasi", "ex": "Let me check my schedule for next week."},
     {"word": "pressure", "pos": "n", "uz": "bosim", "ex": "Doctors often work under a lot of pressure."},
     {"word": "efficient", "pos": "adj", "uz": "samarador, tejamkor", "ex": "This new fridge is more efficient and uses less electricity."}
