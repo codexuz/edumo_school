@@ -1,0 +1,68 @@
+{
+  "n": 7,
+  "topic": "Tourism",
+  "title": "Too Many Visitors?",
+  "intro": "Tourism brings money and jobs to many places, but in some famous destinations people are starting to ask whether there can be too much of a good thing.",
+  "vocab": [
+    {"word": "destination", "pos": "n", "uz": "borish manzili", "ex": "Samarkand is a popular destination for foreign visitors."},
+    {"word": "attract", "pos": "v", "uz": "jalb qilmoq", "ex": "The new park attracts hundreds of families every weekend."},
+    {"word": "income", "pos": "n", "uz": "daromad", "ex": "Farming is the main source of income in our village."},
+    {"word": "economy", "pos": "n", "uz": "iqtisodiyot", "ex": "Tourism is important for the country's economy."},
+    {"word": "souvenir", "pos": "n", "uz": "esdalik sovg‘a", "ex": "I bought a small ceramic plate as a souvenir."},
+    {"word": "resident", "pos": "n", "uz": "aholi, yashovchi", "ex": "Local residents complained about the noise from the new road."},
+    {"word": "crowded", "pos": "adj", "uz": "odam gavjum", "ex": "The bus was so crowded that I had to stand."},
+    {"word": "landlord", "pos": "n", "uz": "uy egasi (ijaraga beruvchi)", "ex": "Our landlord has increased the rent again."},
+    {"word": "damage", "pos": "v", "uz": "zarar yetkazmoq", "ex": "The storm damaged several houses near the river."},
+    {"word": "pollution", "pos": "n", "uz": "ifloslanish", "ex": "Air pollution is a serious problem in big cities."},
+    {"word": "recover", "pos": "v", "uz": "tiklanmoq, o‘ziga kelmoq", "ex": "It took him a month to recover from the illness."},
+    {"word": "fee", "pos": "n", "uz": "to‘lov, badal", "ex": "There is a small entrance fee for the museum."},
+    {"word": "limit", "pos": "v", "uz": "cheklamoq", "ex": "The school limits the number of students in each class."},
+    {"word": "authentic", "pos": "adj", "uz": "haqiqiy, asl", "ex": "This restaurant serves authentic Uzbek plov."},
+    {"word": "sustainable", "pos": "adj", "uz": "barqaror, uzoq muddatli", "ex": "We need a more sustainable way to use water."}
+  ],
+  "passage": [
+    "Every summer, millions of people pack their bags and travel to the same famous places. In 1950, about 25 million international trips were made around the world. Today, the number is well over one billion each year. Cheap flights, online booking and social media have made travel easier than ever before, and a single beautiful photo can attract thousands of new visitors to a small town. But as more and more tourists arrive, many popular destinations are asking an important question: can a place have too many visitors?",
+    "For many countries, tourism is a vital source of income. Hotels, restaurants, guides and taxi drivers all depend on visitors, and in some small island nations, tourism makes up a large part of the whole economy. Money from tourism can also help to pay for new roads, airports and museums, which local people use as well. When tourists buy souvenirs from local craftspeople, the money goes directly to families who might otherwise struggle to find work.",
+    "However, the picture is not always so positive. In Venice, Italy, the number of residents in the historic centre has fallen to around 50,000, while millions of visitors walk through its narrow streets every year. Many people who live there say the city has become too crowded and too expensive. One reason is that landlords prefer to rent their flats to tourists, who pay more for a short stay. Similar complaints have been heard in Barcelona, Amsterdam and other European cities.",
+    "Mass tourism can also damage the natural world. Large cruise ships produce air and water pollution, and thousands of feet can wear away paths in mountains and forests. In 2018, Maya Bay in Thailand, which had become famous after it appeared in a Hollywood film, was closed to visitors because its coral and beach had been seriously damaged. The bay stayed closed for more than three years so that nature had time to recover.",
+    "Some places are now trying to find solutions. In 2024, Venice began to charge day visitors an entry fee on its busiest days. The small Himalayan country of Bhutan has asked tourists to pay a daily fee for many years, and this money is used to protect its environment and culture. Other cities limit the number of cruise ships that can stop there, or encourage tourists to come in quieter months, when hotels and streets are less busy.",
+    "Travellers themselves can help as well. Experts suggest choosing less famous destinations, staying longer in one place instead of rushing between cities, and spending money in small local businesses. Many people find that these trips feel more authentic, because they meet real people and see everyday life rather than long queues. If tourism is managed carefully, it can become sustainable, bringing benefits to visitors and to the people who call these places home."
+  ],
+  "tfng": [
+    {"q": "International travel was much less common in 1950 than it is today.", "a": "TRUE"},
+    {"q": "Money from tourism is only spent on hotels and restaurants.", "a": "FALSE"},
+    {"q": "Most people who live in Venice work in the tourism industry.", "a": "NOT GIVEN"},
+    {"q": "Maya Bay was closed to visitors for less than a year.", "a": "FALSE"},
+    {"q": "Bhutan uses money from its tourist fee to protect its culture.", "a": "TRUE"}
+  ],
+  "mcq": [
+    {"q": "Why do many residents find it difficult to live in Venice?", "options": ["The streets are too narrow for cars.", "Housing has become too expensive.", "There are not enough jobs in tourism."], "a": "B"},
+    {"q": "Why was Maya Bay closed in 2018?", "options": ["To give the natural environment time to get better.", "Because a new film was being made there.", "Because too few tourists were visiting it."], "a": "A"},
+    {"q": "What is the main idea of paragraph F?", "options": ["People should stop travelling to other countries.", "Only expensive holidays feel authentic.", "Tourists can reduce problems by changing the way they travel."], "a": "C"}
+  ],
+  "which_para": [
+    {"q": "an example of a natural place that was closed to protect it", "a": "D"},
+    {"q": "reasons why travelling has become easier", "a": "A"}
+  ],
+  "completion": [
+    {"q": "A single beautiful photo on ______ can bring thousands of new visitors to a small town.", "a": "social media"},
+    {"q": "Large ______ cause both air and water pollution.", "a": "cruise ships"},
+    {"q": "Since 2024, day visitors to Venice have had to pay an ______ on its busiest days.", "a": "entry fee"}
+  ],
+  "vocab_match": [
+    {"word": "destination", "meaning": "the place someone is travelling to"},
+    {"word": "resident", "meaning": "a person who lives in a particular place"},
+    {"word": "souvenir", "meaning": "something you buy to remember a place you visited"},
+    {"word": "crowded", "meaning": "full of too many people"},
+    {"word": "recover", "meaning": "to become healthy or normal again"},
+    {"word": "authentic", "meaning": "real and true, not false or copied"}
+  ],
+  "gapfill": [
+    {"s": "Bright colours and loud music ______ young customers to the shop.", "a": "attract"},
+    {"s": "My uncle's main source of ______ is his small bakery.", "a": "income"},
+    {"s": "Smoke from factories is a major cause of ______ in the city.", "a": "pollution"},
+    {"s": "The ______ said we could not keep a cat in the flat.", "a": "landlord"},
+    {"s": "You have to pay a ______ of 20,000 som to use the swimming pool.", "a": "fee"},
+    {"s": "The government wants to ______ the number of cars in the city centre.", "a": "limit"}
+  ]
+}
