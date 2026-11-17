@@ -1,0 +1,68 @@
+{
+  "n": 9,
+  "topic": "Space",
+  "title": "Home, 400 Kilometres Up",
+  "intro": "For more than twenty years, people have lived and worked on the International Space Station, and what they have learnt there may one day help humans travel to Mars.",
+  "vocab": [
+    {"word": "orbit", "pos": "v", "uz": "orbita bo‘ylab aylanmoq", "ex": "The Moon orbits the Earth about once a month."},
+    {"word": "crew", "pos": "n", "uz": "ekipaj", "ex": "The plane's crew welcomed the passengers on board."},
+    {"word": "experiment", "pos": "n", "uz": "tajriba", "ex": "In the science lesson we did an experiment with water and salt."},
+    {"word": "gravity", "pos": "n", "uz": "tortishish kuchi", "ex": "Because of gravity, an apple falls to the ground."},
+    {"word": "float", "pos": "v", "uz": "suzmoq, havoda muallaq turmoq", "ex": "Leaves were floating on the surface of the lake."},
+    {"word": "attach", "pos": "v", "uz": "biriktirmoq, mahkamlamoq", "ex": "Please attach a photo to your application form."},
+    {"word": "crumb", "pos": "n", "uz": "ushoq", "ex": "There were bread crumbs all over the table."},
+    {"word": "equipment", "pos": "n", "uz": "jihozlar, uskunalar", "ex": "The gym has a lot of modern equipment."},
+    {"word": "muscle", "pos": "n", "uz": "mushak", "ex": "Swimming is good for the muscles in your back."},
+    {"word": "recycle", "pos": "v", "uz": "qayta ishlamoq", "ex": "We recycle all our paper and plastic bottles."},
+    {"word": "supply", "pos": "n", "uz": "ta’minot, zaxira", "ex": "The village has a clean water supply."},
+    {"word": "journey", "pos": "n", "uz": "safar, sayohat", "ex": "The train journey from Tashkent to Bukhara takes about four hours."},
+    {"word": "delay", "pos": "n", "uz": "kechikish", "ex": "There was a two-hour delay because of the snow."},
+    {"word": "isolated", "pos": "adj", "uz": "yolg‘iz, ajralib qolgan", "ex": "Old people who live alone can feel isolated."},
+    {"word": "launch", "pos": "v", "uz": "uchirmoq (raketa)", "ex": "The rocket was launched early in the morning."}
+  ],
+  "passage": [
+    "About 400 kilometres above our heads, a large spacecraft is moving at around 28,000 kilometres per hour. This is the International Space Station (ISS), and it orbits the Earth roughly once every 90 minutes. As a result, the people on board can see about sixteen sunrises and sixteen sunsets every day. Since November 2000, there has always been at least one crew living there, which means that humans have been in space without a break for more than two decades.",
+    "The ISS was built by several countries working together, including the United States, Russia, Japan, Canada and a group of European nations. Since then, more than 250 people from around twenty countries have visited it. It is really a flying laboratory. Astronauts spend much of their time doing experiments that would be impossible on Earth, such as studying how plants grow, how fire behaves and how the human body changes when there is almost no gravity.",
+    "Everyday life on the station is very different from life at home. Because everything floats, astronauts sleep in sleeping bags which are attached to the wall, so they do not drift around at night. Food often comes in sealed packets, and bread is rarely eaten because crumbs could float into eyes or damage important equipment. Instead, many astronauts make sandwiches with tortillas, which do not break into small pieces.",
+    "Living without gravity also affects health. On Earth, our muscles and bones work hard just to keep us standing, but in space they become weaker if they are not used. For this reason, astronauts exercise for about two hours a day on special machines. Water is precious too, so the station recycles almost all of it, even the water from sweat and urine. As one astronaut joked, 'Yesterday's coffee becomes tomorrow's coffee.'",
+    "Many scientists believe the next big step is Mars. However, a trip there would be far harder than a stay on the ISS. The journey would take between six and nine months in each direction, and on such a long mission the crew would probably need to grow some of their own food. In addition, the crew could not simply return home if something went wrong. Supplies cannot easily be sent from Earth, and there would be a delay of up to twenty minutes before a message reached mission control. Astronauts would have to solve problems by themselves and might feel very isolated.",
+    "Nobody knows exactly when the first people will land on Mars. Space agencies and private companies are developing new rockets, and some hope that a crew could be launched in the 2030s. Whatever happens, the lessons learnt on the ISS about health, food and teamwork will be essential. If humans ever do walk on another planet, part of the reason will be the years of patient work done in that small home above the clouds."
+  ],
+  "tfng": [
+    {"q": "The ISS goes around the Earth about sixteen times a day.", "a": "TRUE"},
+    {"q": "The ISS was built by the United States alone.", "a": "FALSE"},
+    {"q": "Most astronauts find it difficult to sleep during their first week in space.", "a": "NOT GIVEN"},
+    {"q": "Astronauts on the ISS exercise to stop their bodies becoming weaker.", "a": "TRUE"},
+    {"q": "A message from Mars would reach Earth almost immediately.", "a": "FALSE"}
+  ],
+  "mcq": [
+    {"q": "Why do astronauts often eat tortillas instead of bread?", "options": ["Tortillas stay fresh for longer.", "Tortillas do not produce small pieces that float.", "Bread is too heavy to send into space."], "a": "B"},
+    {"q": "What is the main purpose of the ISS, according to paragraph B?", "options": ["To carry out scientific research.", "To train astronauts to fly to Mars.", "To grow food for people on Earth."], "a": "A"},
+    {"q": "Why would a trip to Mars be harder than a stay on the ISS?", "options": ["The rockets would need to travel much faster.", "There would be no gravity on the journey.", "The crew would be far from help for a long time."], "a": "C"}
+  ],
+  "which_para": [
+    {"q": "a description of how astronauts sleep", "a": "C"},
+    {"q": "a list of the countries that built the station", "a": "B"}
+  ],
+  "completion": [
+    {"q": "Because the station is like a flying ______, astronauts do a lot of scientific work.", "a": "laboratory"},
+    {"q": "The station recycles water, even from ______ and urine.", "a": "sweat"},
+    {"q": "Some people hope that a crew could go to Mars in the ______.", "a": "2030s"}
+  ],
+  "vocab_match": [
+    {"word": "crew", "meaning": "the people who work together on a ship, plane or spacecraft"},
+    {"word": "gravity", "meaning": "the force that pulls things towards the ground"},
+    {"word": "float", "meaning": "to move slowly in the air or on water without falling or sinking"},
+    {"word": "equipment", "meaning": "the tools and machines you need for a job or activity"},
+    {"word": "delay", "meaning": "a period of time when you have to wait longer than expected"},
+    {"word": "isolated", "meaning": "alone and far away from other people"}
+  ],
+  "gapfill": [
+    {"s": "The Earth takes one year to ______ the Sun.", "a": "orbit"},
+    {"s": "Our teacher showed us a simple ______ with a candle and a glass.", "a": "experiment"},
+    {"s": "Don't forget to ______ the file to your email before you send it.", "a": "attach"},
+    {"s": "Lifting heavy boxes can hurt the ______ in your back.", "a": "muscle"},
+    {"s": "Many towns now ______ glass bottles instead of throwing them away.", "a": "recycle"},
+    {"s": "The ______ from Nukus to Tashkent took the whole night by train.", "a": "journey"}
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "n": 2,
+  "topic": "Education",
+  "title": "Screen or Classroom?",
+  "intro": "Millions of students have now studied both online and in a classroom. Which way of learning works better?",
+  "vocab": [
+    {"word": "pandemic", "pos": "n", "uz": "pandemiya, keng tarqalgan epidemiya", "ex": "Many shops closed during the pandemic."},
+    {"word": "lecture", "pos": "n", "uz": "ma’ruza", "ex": "The history lecture starts at nine o‘clock."},
+    {"word": "advantage", "pos": "n", "uz": "afzallik, ustunlik", "ex": "One advantage of a bike is that it is cheap to use."},
+    {"word": "flexibility", "pos": "n", "uz": "moslashuvchanlik", "ex": "Part-time jobs give students more flexibility."},
+    {"word": "record", "pos": "v", "uz": "yozib olmoq", "ex": "I always record my favourite programmes and watch them later."},
+    {"word": "shy", "pos": "adj", "uz": "uyatchan", "ex": "He was too shy to speak in front of the class."},
+    {"word": "require", "pos": "v", "uz": "talab qilmoq", "ex": "This recipe requires three eggs."},
+    {"word": "self-discipline", "pos": "n", "uz": "o‘z-o‘zini nazorat qilish, intizom", "ex": "Getting up early every day takes a lot of self-discipline."},
+    {"word": "reliable", "pos": "adj", "uz": "ishonchli", "ex": "We need a reliable car for the long journey."},
+    {"word": "gap", "pos": "n", "uz": "farq, uzilish", "ex": "There is a big gap between rich and poor in many cities."},
+    {"word": "confused", "pos": "adj", "uz": "chalkashgan, tushunmay qolgan", "ex": "I was confused by the instructions, so I asked for help."},
+    {"word": "immediately", "pos": "adv", "uz": "darhol, zudlik bilan", "ex": "Please call me immediately when you arrive."},
+    {"word": "lack", "pos": "n", "uz": "yetishmaslik, kamlik", "ex": "The plants died because of a lack of water."},
+    {"word": "convenience", "pos": "n", "uz": "qulaylik", "ex": "Many people shop online for convenience."},
+    {"word": "motivation", "pos": "n", "uz": "motivatsiya, ishtiyoq", "ex": "A good teacher can increase students' motivation."}
+  ],
+  "passage": [
+    "In the spring of 2020, something happened that nobody had planned. As the COVID-19 pandemic spread, schools and universities in many countries closed their doors, and more than a billion students suddenly had to learn from home. Teachers who had never used video software were giving lessons through a laptop camera, and children were doing their homework on their parents' phones. It was the largest experiment in online education that the world had ever seen.",
+    "Online learning was not completely new, of course. Universities had offered distance courses for many years, and in 2012 several websites began to offer free online courses from well-known universities, which anyone with an internet connection could join. These courses attracted millions of learners. However, researchers soon noticed a problem: only a small percentage of the people who signed up actually completed them.",
+    "For many learners, the biggest advantage of studying online is flexibility. A nurse who works at night can watch a lecture in the afternoon, and a student in a small village can take a course from a university on the other side of the world. Online lessons can also be recorded, so learners are able to pause, go back and listen again when something is difficult. For shy students, writing a question in a chat box may feel much easier than raising a hand in front of thirty classmates.",
+    "On the other hand, learning at home requires a lot of self-discipline. Without a teacher in the room, it is easy to open a new window and start watching videos instead of listening. During the school closures, many teachers reported that their students had fallen behind, especially younger children and those from poorer families, who often did not have a quiet place to study or a reliable internet connection. For these students, the gap between them and their classmates grew wider.",
+    "Classrooms offer something that is difficult to copy on a screen: human contact. In a real classroom, a teacher can see immediately when a student looks confused and can explain the idea in a different way. Students also learn from each other, whether they are working on a group project or simply chatting in the corridor between lessons. Many young people said that during the lockdowns they missed their friends more than anything else, and some experts believe that this lack of contact affected their mental health.",
+    "So which is better? Most educators now agree that the answer is not one or the other. Many schools and universities have moved towards 'blended learning', in which students attend some lessons in person and complete other activities online. If it is planned well, this approach can combine the convenience of technology with the motivation that comes from being part of a real community. The pandemic showed that screens can never fully replace teachers, but it also proved that they can be a powerful tool."
+  ],
+  "tfng": [
+    {"q": "In 2020, more than a billion students had to study at home.", "a": "TRUE"},
+    {"q": "The free online courses that started in 2012 were only open to university students.", "a": "FALSE"},
+    {"q": "The free online courses were more popular in Asia than in Europe.", "a": "NOT GIVEN"},
+    {"q": "Teachers said that older students fell behind more than younger children.", "a": "FALSE"},
+    {"q": "Blended learning was first used by a university in the United States.", "a": "NOT GIVEN"}
+  ],
+  "mcq": [
+    {"q": "According to paragraph C, why might shy students prefer online lessons?", "options": ["Their online classes are smaller.", "They can ask their questions in writing.", "They do not have to do any homework."], "a": "B"},
+    {"q": "What is the main problem described in paragraph D?", "options": ["Online courses were too expensive for families.", "Teachers refused to give lessons online.", "Some students found it hard to concentrate and keep up."], "a": "C"},
+    {"q": "What is the writer's conclusion?", "options": ["A mix of both ways of learning can work best.", "Classrooms will soon disappear.", "Online learning is better for most students."], "a": "A"}
+  ],
+  "which_para": [
+    {"q": "a reason why it helps to have a teacher in the same room", "a": "E"},
+    {"q": "examples of people who can study at times that suit them", "a": "C"}
+  ],
+  "completion": [
+    {"q": "Some students from poorer families did not have a quiet place to study or a reliable internet ______.", "a": "connection"},
+    {"q": "Students can learn from each other by chatting in the ______ between lessons.", "a": "corridor"},
+    {"q": "During the lockdowns, many young people missed their ______ more than anything else.", "a": "friends"}
+  ],
+  "vocab_match": [
+    {"word": "lecture", "meaning": "a talk to students about a subject"},
+    {"word": "shy", "meaning": "nervous about talking to other people"},
+    {"word": "reliable", "meaning": "that you can trust to work well"},
+    {"word": "immediately", "meaning": "at once, without waiting"},
+    {"word": "lack", "meaning": "a situation when there is not enough of something"},
+    {"word": "require", "meaning": "need"}
+  ],
+  "gapfill": [
+    {"s": "My old phone isn't very ______, so I often miss important calls.", "a": "reliable"},
+    {"s": "The teacher explained the rule again because the students looked ______.", "a": "confused"},
+    {"s": "One ______ of living in the city centre is that you can walk everywhere.", "a": "advantage"},
+    {"s": "The professor's ______ lasted two hours, but nobody fell asleep.", "a": "lecture"},
+    {"s": "This job will ______ you to work at weekends twice a month.", "a": "require"},
+    {"s": "Many people could not visit their families during the ______.", "a": "pandemic"}
+  ]
+}

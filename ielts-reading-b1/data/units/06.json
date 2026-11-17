@@ -1,0 +1,68 @@
+{
+  "n": 6,
+  "topic": "Media",
+  "title": "Can You Trust Your News Feed?",
+  "intro": "Most of us now get our news from a phone, but this new way of staying informed brings both advantages and dangers.",
+  "vocab": [
+    {"word": "journalist", "pos": "n", "uz": "jurnalist", "ex": "The journalist interviewed people in the street."},
+    {"word": "source", "pos": "n", "uz": "manba", "ex": "The internet is my main source of information."},
+    {"word": "advertisement", "pos": "n", "uz": "reklama", "ex": "There are too many advertisements before the video starts."},
+    {"word": "witness", "pos": "n", "uz": "guvoh", "ex": "A witness saw the accident and called the police."},
+    {"word": "accurate", "pos": "adj", "uz": "aniq, to‘g‘ri", "ex": "Is this map accurate?"},
+    {"word": "publish", "pos": "v", "uz": "chop etmoq, e’lon qilmoq", "ex": "The newspaper published a story about our school."},
+    {"word": "spread", "pos": "v", "uz": "tarqalmoq, yoyilmoq", "ex": "The news spread quickly around the village."},
+    {"word": "content", "pos": "n", "uz": "kontent, mazmun", "ex": "This website has a lot of free content for students."},
+    {"word": "opinion", "pos": "n", "uz": "fikr", "ex": "What is your opinion of the new film?"},
+    {"word": "warn", "pos": "v", "uz": "ogohlantirmoq", "ex": "The teacher warned us that the test would be difficult."},
+    {"word": "reliable", "pos": "adj", "uz": "ishonchli", "ex": "This old car is still very reliable."},
+    {"word": "headline", "pos": "n", "uz": "sarlavha", "ex": "I only had time to read the headlines this morning."},
+    {"word": "analyse", "pos": "v", "uz": "tahlil qilmoq", "ex": "Scientists analysed the results of the study."},
+    {"word": "responsible", "pos": "adj", "uz": "mas’uliyatli", "ex": "She is a very responsible student."},
+    {"word": "recognise", "pos": "v", "uz": "tanimoq, farqlay olmoq", "ex": "I didn't recognise him with his new glasses."}
+  ],
+  "passage": [
+    "Thirty years ago, most people got their news from a newspaper, the radio or the evening television programme. The news arrived at fixed times, and it was chosen by a small number of professional journalists and editors. Today, the situation is completely different. For millions of people, especially the young, the news arrives on their phone all day long, mixed with messages from friends, funny videos and advertisements. Surveys in many countries have found that social media is now one of the main sources of news for people under twenty-five.",
+    "This change has brought some real advantages. News now travels faster than ever before, and ordinary people can report events as they happen. When there is a flood or an earthquake, the first photos often come from witnesses with smartphones, not from reporters. People can also follow topics that interest them, from football to science, and hear voices that traditional media used to ignore. In this sense, the internet has made information more open to everyone.",
+    "However, there is a serious disadvantage. On social media, anyone can publish anything, and there is often nobody to check whether a story is accurate. Fake news, which means false stories that are made to look like real news, can spread very quickly. A well-known study by researchers in the United States looked at millions of posts on Twitter and found that false stories were much more likely to be shared than true ones. One reason is that fake stories are often surprising or shocking, and people enjoy passing on something unusual.",
+    "Another problem is the way social media platforms work. Their computer programs, called algorithms, learn what each user likes and then show them more of the same content. If you often watch videos that agree with your opinions, you will probably see even more of them. Some experts warn that this can trap people in a 'bubble', where they rarely meet different points of view. Others believe the effect is smaller than people think, because most users still see news from a mixture of sources.",
+    "So how can we protect ourselves? Fact-checkers suggest a few simple habits. First, look at who has published the story and whether other reliable sources are reporting the same thing. Second, be careful with headlines that make you feel very angry or excited, because they are often designed to make you click. Finally, check the date and the photos, since an old picture can easily be used to show a new event. If you are not sure that something is true, it is better not to share it.",
+    "Some countries have decided that these skills should be taught at school. In Finland, for example, children learn to analyse news and advertisements in several different subjects, not only in one special lesson. Teachers believe that young people who learn to question what they read will become more responsible citizens. As technology develops and fake images become harder to recognise, this kind of education may become just as important as learning to read and write."
+  ],
+  "tfng": [
+    {"q": "In the past, people could only get the news at certain times.", "a": "TRUE"},
+    {"q": "Professional reporters are usually the first to share photos of natural disasters.", "a": "FALSE"},
+    {"q": "The researchers in the United States were surprised by the results of their study.", "a": "NOT GIVEN"},
+    {"q": "All experts agree that algorithms trap users in a 'bubble'.", "a": "FALSE"},
+    {"q": "In Finland, children study the news in more than one school subject.", "a": "TRUE"}
+  ],
+  "mcq": [
+    {"q": "According to paragraph B, how has the internet changed the news?", "options": ["Journalists have become more honest.", "News websites no longer show advertisements.", "People can hear voices that newspapers and television did not include."], "a": "C"},
+    {"q": "Why does fake news spread quickly, according to the writer?", "options": ["It often contains something surprising.", "It is usually written by professional journalists.", "Social media companies pay people to share it."], "a": "A"},
+    {"q": "What do fact-checkers say about headlines?", "options": ["Only read headlines from famous newspapers.", "Be careful with headlines that cause strong feelings.", "Share headlines quickly before they change."], "a": "B"}
+  ],
+  "which_para": [
+    {"q": "an explanation of how computer programs choose what users see", "a": "D"},
+    {"q": "a warning about photos that are used in the wrong situation", "a": "E"}
+  ],
+  "completion": [
+    {"q": "On young people's phones, the news is mixed with messages, videos and ______.", "a": "advertisements"},
+    {"q": "People like to share fake stories because they are often surprising or ______.", "a": "shocking"},
+    {"q": "Some experts say social media can keep people inside a ______.", "a": "bubble"}
+  ],
+  "vocab_match": [
+    {"word": "journalist", "meaning": "a person whose job is to write or report the news"},
+    {"word": "witness", "meaning": "a person who sees something happen"},
+    {"word": "accurate", "meaning": "correct and true in every detail"},
+    {"word": "headline", "meaning": "the title of a news story, printed in large letters"},
+    {"word": "reliable", "meaning": "that you can trust"},
+    {"word": "analyse", "meaning": "to look at something carefully to understand it"}
+  ],
+  "gapfill": [
+    {"s": "Signs on the beach ______ swimmers about the strong waves.", "a": "warn"},
+    {"s": "In my ______, online lessons are less interesting than real ones.", "a": "opinion"},
+    {"s": "The story about the new teacher ______ quickly around the school.", "a": "spread"},
+    {"s": "The magazine will ______ her first short story next month.", "a": "publish"},
+    {"s": "I didn't ______ my old friend because he had grown a beard.", "a": "recognise"},
+    {"s": "A website like Wikipedia should not be your only ______ of information for an essay.", "a": "source"}
+  ]
+}

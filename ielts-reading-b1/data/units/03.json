@@ -1,0 +1,68 @@
+{
+  "n": 3,
+  "topic": "Health",
+  "title": "Why We Need Sleep",
+  "intro": "Sleep is not just a time when the body switches off. Scientists are discovering how busy we really are at night.",
+  "vocab": [
+    {"word": "necessary", "pos": "adj", "uz": "zarur, kerakli", "ex": "Is it necessary to bring a passport?"},
+    {"word": "stage", "pos": "n", "uz": "bosqich", "ex": "The first stage of the project is finished."},
+    {"word": "repair", "pos": "v", "uz": "tuzatmoq, tiklamoq", "ex": "My father repaired the broken chair."},
+    {"word": "release", "pos": "v", "uz": "ajratib chiqarmoq", "ex": "Plants release oxygen into the air."},
+    {"word": "essential", "pos": "adj", "uz": "juda muhim, zarur", "ex": "Water is essential for life."},
+    {"word": "memory", "pos": "n", "uz": "xotira", "ex": "My grandmother has a very good memory for names."},
+    {"word": "discover", "pos": "v", "uz": "kashf qilmoq, aniqlamoq", "ex": "Scientists have discovered a new kind of fish."},
+    {"word": "risk", "pos": "n", "uz": "xavf", "ex": "Wearing a helmet reduces the risk of head injuries."},
+    {"word": "disease", "pos": "n", "uz": "kasallik", "ex": "Doctors are looking for a cure for the disease."},
+    {"word": "concentrate", "pos": "v", "uz": "diqqatni jamlamoq", "ex": "I can't concentrate when the TV is on."},
+    {"word": "react", "pos": "v", "uz": "ta’sirga javob bermoq", "ex": "How did your parents react to the news?"},
+    {"word": "significant", "pos": "adj", "uz": "sezilarli, muhim", "ex": "There has been a significant fall in the number of visitors."},
+    {"word": "recommend", "pos": "v", "uz": "tavsiya qilmoq", "ex": "Can you recommend a good restaurant near here?"},
+    {"word": "habit", "pos": "n", "uz": "odat", "ex": "Biting your nails is a bad habit."},
+    {"word": "avoid", "pos": "v", "uz": "qochmoq, saqlanmoq", "ex": "Try to avoid driving in the rush hour."}
+  ],
+  "passage": [
+    "We spend about a third of our lives asleep. If you live to the age of ninety, that means around thirty years with your eyes closed. For a long time, scientists were not sure why such a large amount of sleep was necessary. Some thought that sleep was simply a way to save energy, like switching off a machine at night. Today, however, we know that the sleeping body and brain are surprisingly busy.",
+    "During the night, we move through several stages of sleep, and each cycle lasts about ninety minutes. In the deepest stage, the body repairs muscles and other tissues, and it releases hormones that help children to grow. In another stage, called REM sleep, our eyes move quickly under the eyelids, and this is when most of our dreams happen. A healthy adult usually completes four or five of these cycles every night.",
+    "Sleep is also essential for memory. While we are asleep, the brain sorts through the information that it has collected during the day. It keeps what seems important and throws away what does not. In several experiments, people who had learned a list of words or a new skill remembered it better after a night of sleep than after the same number of hours awake. This is one reason why staying up all night before an exam is usually a bad idea.",
+    "Scientists have also discovered that the brain cleans itself while we sleep. In 2013, a study of mice showed that the spaces between brain cells became wider while the animals were sleeping, which allowed fluid to wash away waste products more quickly. Some researchers believe that if this cleaning process does not work properly over many years, it could increase the risk of certain diseases in old age.",
+    "What happens when we do not get enough sleep? Even one bad night can make us forgetful and bad-tempered, and it makes it harder for us to concentrate. Tired drivers react more slowly, and in many countries tiredness is thought to cause a significant number of road accidents. Over a longer period, too little sleep has been linked to weight gain, a weaker immune system and a higher risk of heart problems.",
+    "Most experts recommend that adults sleep for seven to nine hours a night, while teenagers need even more. Yet modern life often makes this difficult. Many of us look at our phones in bed, and the bright light from screens can tell the brain that it is still daytime. Doctors suggest a few simple habits: going to bed at the same time every day, keeping the bedroom cool and dark, and avoiding coffee in the afternoon. Sleep, they say, is not a waste of time. It is one of the best things we can do for our health."
+  ],
+  "tfng": [
+    {"q": "Scientists have always understood why people need so much sleep.", "a": "FALSE"},
+    {"q": "Most of our dreams happen during REM sleep.", "a": "TRUE"},
+    {"q": "Women usually have more dreams than men.", "a": "NOT GIVEN"},
+    {"q": "The scientists in the 2013 study repeated their experiment with humans.", "a": "NOT GIVEN"},
+    {"q": "Teenagers need less sleep than adults.", "a": "FALSE"}
+  ],
+  "mcq": [
+    {"q": "What does paragraph C say about learning?", "options": ["It is easier to learn new words at night.", "The brain keeps all the information from the day.", "People remember new things better if they sleep after learning them."], "a": "C"},
+    {"q": "According to paragraph E, why are tired drivers dangerous?", "options": ["They are slower to respond.", "They usually drive too fast.", "They often forget where they are going."], "a": "A"},
+    {"q": "Why can using a phone in bed make it hard to fall asleep?", "options": ["The sounds from the phone wake us up.", "Its light can make the brain think it is still day.", "It makes the bedroom too warm."], "a": "B"}
+  ],
+  "which_para": [
+    {"q": "a description of what the body does in the deepest stage of sleep", "a": "B"},
+    {"q": "advice about how to sleep better", "a": "F"}
+  ],
+  "completion": [
+    {"q": "In the deepest stage of sleep, the body releases ______ that help children to grow.", "a": "hormones"},
+    {"q": "In the 2013 study, ______ washed away waste products from the animals' brains.", "a": "fluid"},
+    {"q": "Doctors suggest keeping the bedroom cool and ______.", "a": "dark"}
+  ],
+  "vocab_match": [
+    {"word": "concentrate", "meaning": "give all your attention to something"},
+    {"word": "essential", "meaning": "extremely important"},
+    {"word": "habit", "meaning": "something you do often, sometimes without thinking"},
+    {"word": "avoid", "meaning": "stay away from something"},
+    {"word": "recommend", "meaning": "say that something is good or a good idea"},
+    {"word": "disease", "meaning": "an illness"}
+  ],
+  "gapfill": [
+    {"s": "Eating fruit for breakfast every day is a good ______.", "a": "habit"},
+    {"s": "I can't ______ with all this noise, so please turn the music down.", "a": "concentrate"},
+    {"s": "Smoking increases the ______ of heart problems.", "a": "risk"},
+    {"s": "Can you ______ my bike before the weekend? The back wheel is broken.", "a": "repair"},
+    {"s": "Doctors ______ drinking plenty of water on hot days.", "a": "recommend"},
+    {"s": "Try to ______ busy roads when you ride your bike.", "a": "avoid"}
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "n": 1,
+  "topic": "Work",
+  "title": "The Four-Day Week",
+  "intro": "More and more companies are testing a shorter working week. Does it really work?",
+  "vocab": [
+    {"word": "experiment", "pos": "n", "uz": "tajriba", "ex": "The class did an experiment with water and salt."},
+    {"word": "trial", "pos": "n", "uz": "sinov", "ex": "The new bus route is running as a three-month trial."},
+    {"word": "employee", "pos": "n", "uz": "xodim", "ex": "Every employee gets twenty days of holiday a year."},
+    {"word": "salary", "pos": "n", "uz": "maosh, oylik", "ex": "Her salary is paid at the end of each month."},
+    {"word": "productive", "pos": "adj", "uz": "sermahsul, samarali", "ex": "I'm most productive in the morning."},
+    {"word": "increase", "pos": "n", "uz": "o‘sish, ko‘payish", "ex": "There has been an increase in the price of bread."},
+    {"word": "stress", "pos": "n", "uz": "stress, ruhiy zo‘riqish", "ex": "Exams can cause a lot of stress."},
+    {"word": "majority", "pos": "n", "uz": "ko‘pchilik", "ex": "The majority of students walk to school."},
+    {"word": "reduce", "pos": "v", "uz": "kamaytirmoq", "ex": "We should reduce the amount of plastic we use."},
+    {"word": "balance", "pos": "n", "uz": "muvozanat", "ex": "It is important to have a good balance between work and rest."},
+    {"word": "attract", "pos": "v", "uz": "jalb qilmoq", "ex": "The new park attracts many families at weekends."},
+    {"word": "talented", "pos": "adj", "uz": "iqtidorli", "ex": "He is a talented footballer."},
+    {"word": "schedule", "pos": "n", "uz": "jadval, ish rejasi", "ex": "Let me check my schedule for next week."},
+    {"word": "pressure", "pos": "n", "uz": "bosim", "ex": "Doctors often work under a lot of pressure."},
+    {"word": "efficient", "pos": "adj", "uz": "samarador, tejamkor", "ex": "This new fridge is more efficient and uses less electricity."}
+  ],
+  "passage": [
+    "For more than a hundred years, most people in full-time jobs have worked five days a week. The two-day weekend became common in the twentieth century, when factory owners in the United States and Europe decided that rested workers made fewer mistakes. Today, however, a growing number of companies are asking a new question: if people can do the same amount of work in four days, why should they come in for five?",
+    "In 2022, one of the largest experiments of this kind took place in the United Kingdom. Around sixty companies, from small restaurants to software firms, took part in a six-month trial. Nearly three thousand employees kept their full salary but worked about 80 per cent of their usual hours. In return, they promised to stay just as productive as before. Researchers from several universities collected information from the workers and their managers before, during and after the trial.",
+    "The results surprised many people. Most of the companies said that their income stayed about the same, and some even reported a small increase. Workers took fewer sick days, and many said that they felt less stress and slept better. A large majority of the companies decided to continue with the shorter week after the trial had finished. One manager explained that her team had simply stopped wasting time: meetings became shorter, and people checked their emails less often.",
+    "Supporters of the four-day week believe that it can help to reduce some of the biggest problems of modern working life. When people have an extra day off, they can look after children or elderly parents, do exercise or learn new skills. This gives them a better balance between work and home. Companies also hope that a shorter week will help them to attract talented staff, because many young people now say that free time is as important to them as money.",
+    "However, the idea does not suit every kind of job. A hospital cannot close on Fridays, and a shop needs staff whenever customers want to buy things. In these workplaces, managers have to create complicated schedules so that someone is always available. Critics also point out that some employees find four longer days tiring, especially if they have to fit five days of tasks into fewer hours. If the pressure becomes too great, the benefits may disappear.",
+    "So, is the four-day week the future of work? It is probably too early to say. The trials so far have been fairly short, and most of the companies that joined them were already interested in the idea, which may have affected the results. Even so, the experiments have started an important conversation. Whether or not the five-day week survives, many employers are now thinking more carefully about how efficient their workers are, not just how many hours they spend at their desks."
+  ],
+  "tfng": [
+    {"q": "The two-day weekend became common in the twentieth century.", "a": "TRUE"},
+    {"q": "Workers in the UK trial were paid less than before.", "a": "FALSE"},
+    {"q": "Most of the companies in the UK trial were based in London.", "a": "NOT GIVEN"},
+    {"q": "Most companies went back to a five-day week when the trial ended.", "a": "FALSE"},
+    {"q": "Women enjoyed the four-day week more than men did.", "a": "NOT GIVEN"}
+  ],
+  "mcq": [
+    {"q": "According to one manager, why did her team manage to do the same work in fewer days?", "options": ["They employed extra workers.", "They wasted less time.", "They worked late in the evenings."], "a": "B"},
+    {"q": "Why might a four-day week help companies to find new staff?", "options": ["Many young people value free time as much as money.", "Companies can offer higher salaries.", "New workers need less training."], "a": "A"},
+    {"q": "What does the writer say about the results of the trials so far?", "options": ["They show that the four-day week works in every job.", "They were collected only by the companies themselves.", "They may not give us the full picture yet."], "a": "C"}
+  ],
+  "which_para": [
+    {"q": "examples of workplaces where a four-day week is difficult to organise", "a": "E"},
+    {"q": "details of how the UK experiment was set up", "a": "B"}
+  ],
+  "completion": [
+    {"q": "During the trial, workers took fewer ______ and many of them slept better.", "a": "sick days"},
+    {"q": "With an extra day off, people can look after children or elderly ______.", "a": "parents"},
+    {"q": "Some employees find working four longer days ______.", "a": "tiring"}
+  ],
+  "vocab_match": [
+    {"word": "productive", "meaning": "doing or achieving a lot"},
+    {"word": "salary", "meaning": "money you get regularly for doing your job"},
+    {"word": "attract", "meaning": "make someone want to come or join"},
+    {"word": "schedule", "meaning": "a plan that shows when things will happen"},
+    {"word": "reduce", "meaning": "make something smaller or less"},
+    {"word": "majority", "meaning": "more than half of a group"}
+  ],
+  "gapfill": [
+    {"s": "Our new heating system is more ______ because it uses less gas.", "a": "efficient"},
+    {"s": "My sister found a job with a higher ______, so she can save more money now.", "a": "salary"},
+    {"s": "The doctor told him to ______ the amount of sugar he eats.", "a": "reduce"},
+    {"s": "Every ______ in our company gets a free lunch on Fridays.", "a": "employee"},
+    {"s": "She is a very ______ singer who has performed on TV since she was ten.", "a": "talented"},
+    {"s": "It isn't easy to find the right ______ between studying and having fun.", "a": "balance"}
+  ]
+}

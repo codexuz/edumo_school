@@ -1,0 +1,68 @@
+{
+  "n": 5,
+  "topic": "History",
+  "title": "Cities of the Silk Road",
+  "intro": "For centuries, Samarkand and Bukhara were among the busiest trading cities on the famous routes between China and Europe.",
+  "vocab": [
+    {"word": "network", "pos": "n", "uz": "tarmoq", "ex": "The city has a large network of bus routes."},
+    {"word": "route", "pos": "n", "uz": "yo‘nalish, yo‘l", "ex": "We took the shortest route to the airport."},
+    {"word": "merchant", "pos": "n", "uz": "savdogar", "ex": "The merchant sold carpets and silk in the market."},
+    {"word": "goods", "pos": "n", "uz": "mollar, tovarlar", "ex": "The shop sells goods from many different countries."},
+    {"word": "exchange", "pos": "v", "uz": "almashtirmoq, ayirboshlamoq", "ex": "The two students exchanged phone numbers."},
+    {"word": "caravan", "pos": "n", "uz": "karvon", "ex": "A caravan of camels crossed the desert."},
+    {"word": "threat", "pos": "n", "uz": "xavf, tahdid", "ex": "Strong winds are a threat to small boats."},
+    {"word": "location", "pos": "n", "uz": "joylashuv, joy", "ex": "The café is popular because of its location near the park."},
+    {"word": "skilled", "pos": "adj", "uz": "mohir, malakali", "ex": "My grandfather was a skilled carpenter."},
+    {"word": "community", "pos": "n", "uz": "jamoa, jamiyat", "ex": "There is a large Uzbek community in that city."},
+    {"word": "invention", "pos": "n", "uz": "ixtiro", "ex": "The telephone was an important invention."},
+    {"word": "scholar", "pos": "n", "uz": "olim, allomа", "ex": "Al-Khwarizmi was a great scholar of mathematics."},
+    {"word": "decline", "pos": "v", "uz": "pasaymoq, tanazzulga uchramoq", "ex": "The number of visitors declined during the winter."},
+    {"word": "ancient", "pos": "adj", "uz": "qadimiy", "ex": "Khiva is an ancient city with high walls."},
+    {"word": "admire", "pos": "v", "uz": "zavqlanmoq, qoyil qolmoq", "ex": "Tourists stopped to admire the old buildings."}
+  ],
+  "passage": [
+    "For more than a thousand years, a huge network of trade routes connected China with the Mediterranean Sea. Today we call it the Silk Road, although this name was only invented in the nineteenth century by a German geographer. In fact, it was never a single road. It was a collection of paths across deserts, mountains and grasslands, and very few traders ever travelled along the whole route. Instead, goods were passed from one merchant to another, and from one city to the next.",
+    "Silk was the most famous product that moved west, because for centuries only the Chinese knew how to make it. Rich people in Rome and Persia were willing to pay very high prices for this soft, shiny material. But many other goods were also exchanged, such as spices, glass, horses, paper, gold and precious stones. Merchants usually travelled together in long caravans of camels, which could carry heavy loads and survive for days without water. The journey was slow and difficult, and thieves and bad weather were a constant threat.",
+    "In the middle of this network lay the cities of Central Asia, and two of the most important were Samarkand and Bukhara. Their location made them ideal places for travellers to rest, buy food and do business. The people of Sogdiana, the region around Samarkand, became especially well known as skilled merchants. They spoke many languages and set up communities in towns as far away as China. Some historians believe that, for several centuries, Sogdian was the main language of trade along the eastern part of the route.",
+    "Bukhara grew rich in a similar way. Travellers stayed in caravanserais, large buildings with a courtyard in the middle where both people and animals could sleep safely. Later, covered markets with domed roofs were built at busy crossroads, and each one specialised in particular goods, such as hats, jewellery or money exchange. Several of these markets can still be visited today. The tall Kalyan Minaret, which was built in the twelfth century, is said to have helped travellers find the city across the flat desert.",
+    "However, the Silk Road was about much more than buying and selling. Ideas, religions, music and inventions travelled along it too. According to a popular story, the secret of making paper reached Samarkand from China in the eighth century, and Samarkand paper later became famous across the Islamic world. Scholars in the region also made important discoveries in science. In the fifteenth century, the ruler Ulugh Beg built an observatory in Samarkand, where astronomers produced remarkably accurate tables of the stars.",
+    "From the fifteenth and sixteenth centuries, European ships began to carry goods by sea, which was cheaper and faster, and the old land routes slowly declined. Yet the great cities did not disappear. Today, both Samarkand and Bukhara are UNESCO World Heritage Sites, and thousands of tourists come every year to admire their blue domes and ancient streets. Modern projects that aim to connect Asia and Europe by railway have even been described as a 'new Silk Road'. It seems that this old idea of connection is still alive."
+  ],
+  "tfng": [
+    {"q": "The name 'Silk Road' was first used in the nineteenth century.", "a": "TRUE"},
+    {"q": "Most merchants travelled the whole way from China to the Mediterranean.", "a": "FALSE"},
+    {"q": "Camels were more expensive to buy than horses.", "a": "NOT GIVEN"},
+    {"q": "Sogdian merchants lived only in Central Asia.", "a": "FALSE"},
+    {"q": "Tourists are allowed to climb to the top of the Kalyan Minaret.", "a": "NOT GIVEN"}
+  ],
+  "mcq": [
+    {"q": "Why did people in Rome and Persia pay so much for silk?", "options": ["It was difficult to carry across the desert.", "For a long time, only the Chinese could produce it.", "Only rulers were allowed to wear it."], "a": "B"},
+    {"q": "What was special about the covered markets in Bukhara?", "options": ["Each one sold a particular kind of product.", "They were built in the desert outside the city.", "Travellers and their camels could sleep inside them."], "a": "A"},
+    {"q": "According to paragraph F, why did the land routes become less important?", "options": ["The cities along them were destroyed.", "Railways replaced the camel caravans.", "Transporting goods by ship cost less and took less time."], "a": "C"}
+  ],
+  "which_para": [
+    {"q": "a description of a place where travellers and their animals could spend the night", "a": "D"},
+    {"q": "an example of knowledge that moved from one country to another", "a": "E"}
+  ],
+  "completion": [
+    {"q": "Merchants crossed the deserts in long ______ of camels.", "a": "caravans"},
+    {"q": "Some historians think that ______ was the main language of trade in the east.", "a": "Sogdian"},
+    {"q": "Today, tourists visit Samarkand and Bukhara to see their blue ______ and old streets.", "a": "domes"}
+  ],
+  "vocab_match": [
+    {"word": "merchant", "meaning": "a person who buys and sells things, especially in large amounts"},
+    {"word": "caravan", "meaning": "a group of people and animals travelling together"},
+    {"word": "skilled", "meaning": "very good at doing something because of training or practice"},
+    {"word": "scholar", "meaning": "a person who studies a subject and knows a lot about it"},
+    {"word": "ancient", "meaning": "very old; from a long time ago"},
+    {"word": "decline", "meaning": "to become smaller, weaker or less important"}
+  ],
+  "gapfill": [
+    {"s": "The bus takes a longer ______ on Sundays because the main road is closed.", "a": "route"},
+    {"s": "The store sells electrical ______ such as phones and laptops.", "a": "goods"},
+    {"s": "The hotel's ______ is perfect: it is next to the metro station.", "a": "location"},
+    {"s": "Climate change is a serious ______ to many wild animals.", "a": "threat"},
+    {"s": "The printing press was an ______ that changed the world.", "a": "invention"},
+    {"s": "Visitors stopped to ______ the beautiful blue tiles of the Registan.", "a": "admire"}
+  ]
+}

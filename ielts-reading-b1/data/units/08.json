@@ -1,0 +1,68 @@
+{
+  "n": 8,
+  "topic": "Food",
+  "title": "The Food We Throw Away",
+  "intro": "Around the world, a huge amount of good food never gets eaten, but countries, companies and ordinary families are finding clever ways to change this.",
+  "vocab": [
+    {"word": "estimate", "pos": "v", "uz": "taxmin qilmoq, chamalamoq", "ex": "Experts estimate that the bridge will cost two million dollars."},
+    {"word": "waste", "pos": "v", "uz": "isrof qilmoq", "ex": "Don't waste water when you brush your teeth."},
+    {"word": "harvest", "pos": "v", "uz": "hosil yig‘moq", "ex": "Farmers in Fergana harvest cotton in the autumn."},
+    {"word": "storage", "pos": "n", "uz": "saqlash (joyi)", "ex": "We use the cellar for the storage of potatoes in winter."},
+    {"word": "transport", "pos": "n", "uz": "tashish, transport", "ex": "The transport of fresh fruit by plane is very expensive."},
+    {"word": "appearance", "pos": "n", "uz": "tashqi ko‘rinish", "ex": "Don't judge people by their appearance."},
+    {"word": "reject", "pos": "v", "uz": "rad etmoq", "ex": "The company rejected his job application."},
+    {"word": "landfill", "pos": "n", "uz": "chiqindixona", "ex": "Most of the city's rubbish ends up in a landfill."},
+    {"word": "harmful", "pos": "adj", "uz": "zararli", "ex": "Smoking is harmful to your health."},
+    {"word": "ban", "pos": "v", "uz": "taqiqlamoq", "ex": "The school has banned mobile phones in lessons."},
+    {"word": "donate", "pos": "v", "uz": "xayriya qilmoq, hadya qilmoq", "ex": "She donated her old clothes to a children's home."},
+    {"word": "charity", "pos": "n", "uz": "xayriya tashkiloti", "ex": "He works for a charity that helps elderly people."},
+    {"word": "leftovers", "pos": "n", "uz": "ovqat qoldiqlari, ortib qolgan ovqat", "ex": "We had the leftovers from dinner for lunch the next day."},
+    {"word": "portion", "pos": "n", "uz": "porsiya, ulush", "ex": "The portions in this café are very large."},
+    {"word": "reduce", "pos": "v", "uz": "kamaytirmoq", "ex": "Walking to work helps to reduce traffic."}
+  ],
+  "passage": [
+    "Imagine going to the market, buying three bags of food and then dropping one of them in the bin on the way home. It sounds crazy, but this is more or less what happens around the world every day. Experts at the United Nations estimate that roughly one third of all the food that is produced is lost or wasted. At the same time, hundreds of millions of people do not have enough to eat.",
+    "Food is not wasted in the same way everywhere. In poorer countries, much of it is lost before it reaches the shops. Crops may be harvested too late, or they may go bad because farmers do not have good storage. Without fridges and fast transport, fresh fruit, vegetables and milk can spoil in the heat in just a few days. In richer countries, by contrast, most food is wasted at the end of the chain: in supermarkets, restaurants and our own kitchens.",
+    "One surprising reason for waste is appearance. Many shops only want fruit and vegetables that look perfect, so carrots that are bent or apples with small marks are often rejected, even though they taste exactly the same. Some supermarkets in Britain have started selling boxes of these 'ugly' vegetables at lower prices, and many customers are happy to buy them. Shoppers also misunderstand the dates on packets. A 'best before' date is about quality, not safety, so food is often still fine to eat after this date has passed.",
+    "Waste is not only a problem because of hunger. When food is thrown into a landfill, it slowly rots and produces methane, a gas which is harmful to the climate. In addition, all the water, energy and land that were used to grow and transport the food have been wasted too. Some scientists believe that if food waste were a country, it would be one of the biggest polluters in the world.",
+    "Fortunately, there are signs of change. In 2016, France banned large supermarkets from throwing away unsold food that could still be eaten. Instead, they must donate it to charities and food banks. In South Korea, families pay for food waste by weight, using special bins and bags, and most of the waste is now recycled into animal feed or fertiliser. Phone apps have also appeared that let cafés sell their leftovers cheaply at the end of the day.",
+    "Ordinary people can make a difference, too. Planning meals before shopping, cooking smaller portions and freezing bread or meat before it goes off are all simple habits. Turning last night's dinner into today's lunch is another easy idea. If every family reduced its waste by just a little, the total saving would be enormous. As one food expert puts it, the cheapest and greenest meal is the one that we have already bought."
+  ],
+  "tfng": [
+    {"q": "According to the UN, about a third of the world's food is lost or wasted.", "a": "TRUE"},
+    {"q": "In poorer countries, most food is wasted in people's homes.", "a": "FALSE"},
+    {"q": "Bent carrots contain fewer vitamins than straight ones.", "a": "NOT GIVEN"},
+    {"q": "It is usually dangerous to eat food after its 'best before' date.", "a": "FALSE"},
+    {"q": "In South Korea, the amount people pay depends on how much food they throw away.", "a": "TRUE"}
+  ],
+  "mcq": [
+    {"q": "Why is food often lost in poorer countries?", "options": ["Shops reject food that does not look perfect.", "People buy more food than they need.", "Farmers lack ways to keep food cool and fresh."], "a": "C"},
+    {"q": "What does the writer say about food in a landfill?", "options": ["It creates a gas that is bad for the climate.", "It is quickly turned into animal feed.", "It uses a lot of water as it rots."], "a": "A"},
+    {"q": "What is the purpose of the French law from 2016?", "options": ["To stop people buying too much food.", "To make sure good unsold food goes to people who need it.", "To help small shops compete with supermarkets."], "a": "B"}
+  ],
+  "which_para": [
+    {"q": "advice about things families can do at home", "a": "F"},
+    {"q": "an explanation of why some good food is never sold", "a": "C"}
+  ],
+  "completion": [
+    {"q": "Without fridges and fast transport, fresh food can ______ in the heat in a few days.", "a": "spoil"},
+    {"q": "Rotting food in a landfill produces a gas called ______.", "a": "methane"},
+    {"q": "In South Korea, food waste is turned into animal feed or ______.", "a": "fertiliser"}
+  ],
+  "vocab_match": [
+    {"word": "harvest", "meaning": "to collect crops from the fields"},
+    {"word": "appearance", "meaning": "the way something or someone looks"},
+    {"word": "landfill", "meaning": "a large hole in the ground where rubbish is buried"},
+    {"word": "donate", "meaning": "to give something to help people, without asking for money"},
+    {"word": "leftovers", "meaning": "food that has not been eaten at the end of a meal"},
+    {"word": "portion", "meaning": "the amount of food for one person"}
+  ],
+  "gapfill": [
+    {"s": "Scientists ______ that the population of the city will double in 30 years.", "a": "estimate"},
+    {"s": "Please turn off the lights. We shouldn't ______ electricity.", "a": "waste"},
+    {"s": "Many parents believe that too much screen time is ______ for children.", "a": "harmful"},
+    {"s": "Some cities have decided to ______ plastic bags completely.", "a": "ban"},
+    {"s": "Every year our class collects money for a local ______ that helps homeless people.", "a": "charity"},
+    {"s": "Eating less sugar can ______ the risk of many health problems.", "a": "reduce"}
+  ]
+}
