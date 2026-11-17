@@ -1,0 +1,215 @@
+{
+  "n": 8,
+  "topic": "Technology",
+  "emoji": "🤖",
+  "title": "Grandad's New Friend",
+  "intro": "You are going to read about an old man who lives with a small robot helper.",
+  "vocab": [
+    {
+      "word": "robot",
+      "pos": "n",
+      "uz": "robot",
+      "ex": "In some factories, robots build cars."
+    },
+    {
+      "word": "device",
+      "pos": "n",
+      "uz": "qurilma, moslama",
+      "ex": "A smartphone is a small device with many uses."
+    },
+    {
+      "word": "remind",
+      "pos": "v",
+      "uz": "eslatmoq",
+      "ex": "Please remind me to buy bread on the way home."
+    },
+    {
+      "word": "battery",
+      "pos": "n",
+      "uz": "batareya, akkumulyator",
+      "ex": "The battery in my phone is almost empty."
+    },
+    {
+      "word": "charge",
+      "pos": "v",
+      "uz": "quvvatlamoq, zaryad qilmoq",
+      "ex": "I charge my phone every night."
+    },
+    {
+      "word": "screen",
+      "pos": "n",
+      "uz": "ekran",
+      "ex": "The screen on this laptop is very big."
+    },
+    {
+      "word": "lonely",
+      "pos": "adj",
+      "uz": "yolg‘iz, tanho (yolg‘izlikdan siqilgan)",
+      "ex": "She felt lonely when her best friend moved to another city."
+    },
+    {
+      "word": "voice",
+      "pos": "n",
+      "uz": "ovoz",
+      "ex": "My teacher has a loud voice."
+    },
+    {
+      "word": "invention",
+      "pos": "n",
+      "uz": "ixtiro",
+      "ex": "The car was an important invention."
+    },
+    {
+      "word": "connect",
+      "pos": "v",
+      "uz": "bog‘lamoq, ulamoq",
+      "ex": "The internet connects people all over the world."
+    },
+    {
+      "word": "record",
+      "pos": "v",
+      "uz": "yozib olmoq",
+      "ex": "I record my favourite songs on my phone."
+    },
+    {
+      "word": "useful",
+      "pos": "adj",
+      "uz": "foydali",
+      "ex": "A dictionary is very useful when you learn a language."
+    }
+  ],
+  "passage": [
+    "Park Min-ho is 81 years old. He lives alone in a small flat in Busan, a city by the sea in South Korea. His wife died four years ago, and his children live in Seoul, five hours away by car. \"After my wife died, the flat was very quiet,\" he says. \"I was lonely. Some days I didn't speak to anybody.\"",
+    "Last spring, his granddaughter Ji-woo gave him a present: a small white robot. It is about the size of a cat, it has a round screen for a face, and it can move around the flat on wheels. Mr Park was not happy at first. \"I said, 'I don't need a toy. I'm not a child!'\" he remembers.",
+    "But the robot is not a toy. It is a clever device that helps him every day. In the morning, it says \"Good morning!\" and tells him about the weather. It reminds him to take his medicine at nine o'clock and at six o'clock. It can also connect him with his family. When he says, \"Call Ji-woo,\" her face appears on the screen and they can talk.",
+    "The robot has a friendly voice, and Mr Park has given it a name: Dori. Every evening, Dori asks him questions about his day and records his answers. If he doesn't answer for a long time, the robot sends a message to his son. \"Once, I fell in the kitchen,\" Mr Park says. \"Dori called my son, and he called an ambulance. That was very useful!\"",
+    "Of course, Dori is not perfect. Sometimes it doesn't understand Mr Park's words, and he must charge its battery every night. Some people think that robots can never take the place of real people, and Mr Park agrees. \"My family is more important,\" he says. \"But Dori is a great invention. Now my flat isn't so quiet, and I'm never really alone.\""
+  ],
+  "tfng": [
+    {
+      "q": "Mr Park's children live in the same city as him.",
+      "a": "FALSE"
+    },
+    {
+      "q": "The robot can move from room to room.",
+      "a": "TRUE"
+    },
+    {
+      "q": "Ji-woo bought the robot on the internet.",
+      "a": "NOT GIVEN"
+    },
+    {
+      "q": "Mr Park liked the robot as soon as he saw it.",
+      "a": "FALSE"
+    },
+    {
+      "q": "The robot sends a message to Mr Park's son when Mr Park doesn't answer.",
+      "a": "TRUE"
+    }
+  ],
+  "mcq": [
+    {
+      "q": "What does the robot look like?",
+      "options": [
+        "It is as big as a cat and has a screen for a face.",
+        "It is tall and looks like a person.",
+        "It looks like a white cat with a round face."
+      ],
+      "a": "A"
+    },
+    {
+      "q": "What happened when Mr Park fell in the kitchen?",
+      "options": [
+        "Dori called an ambulance.",
+        "Dori called Mr Park's son.",
+        "Ji-woo came to help him."
+      ],
+      "a": "B"
+    },
+    {
+      "q": "What does Mr Park think about Dori now?",
+      "options": [
+        "It is more important than his family.",
+        "It is useful, but his family is more important.",
+        "It is only a toy."
+      ],
+      "a": "B"
+    }
+  ],
+  "which_para": [
+    {
+      "q": "some problems with the robot",
+      "a": "E"
+    },
+    {
+      "q": "how Mr Park felt when he first got the present",
+      "a": "B"
+    }
+  ],
+  "completion": [
+    {
+      "q": "The robot reminds Mr Park to take his ______ twice a day.",
+      "a": "medicine"
+    },
+    {
+      "q": "Mr Park has to charge the robot's battery every ______.",
+      "a": "night"
+    },
+    {
+      "q": "Every evening, Dori asks Mr Park questions about his ______.",
+      "a": "day"
+    }
+  ],
+  "vocab_match": [
+    {
+      "word": "lonely",
+      "meaning": "sad because you are alone"
+    },
+    {
+      "word": "remind",
+      "meaning": "help someone not to forget something"
+    },
+    {
+      "word": "invention",
+      "meaning": "a new thing that someone makes for the first time"
+    },
+    {
+      "word": "battery",
+      "meaning": "a thing that gives power to a phone, toy or robot"
+    },
+    {
+      "word": "device",
+      "meaning": "a small machine or tool, for example a phone"
+    },
+    {
+      "word": "useful",
+      "meaning": "helping you to do something"
+    }
+  ],
+  "gapfill": [
+    {
+      "s": "My phone is dead. Where can I ______ it?",
+      "a": "charge"
+    },
+    {
+      "s": "Can you ______ me to call Grandma tomorrow? I always forget.",
+      "a": "remind"
+    },
+    {
+      "s": "The telephone was a very important ______.",
+      "a": "invention"
+    },
+    {
+      "s": "Tom felt ______ in his new school because he didn't have any friends there.",
+      "a": "lonely"
+    },
+    {
+      "s": "I can't read the message because the ______ on my phone is broken.",
+      "a": "screen"
+    },
+    {
+      "s": "This map of the city is very ______ for tourists.",
+      "a": "useful"
+    }
+  ]
+}

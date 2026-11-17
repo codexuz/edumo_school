@@ -1,0 +1,65 @@
+{
+  "n": 12,
+  "topic": "The environment",
+  "emoji": "🌍",
+  "title": "The Town That Said No to Plastic Bags",
+  "intro": "You are going to read about a small English town that stopped using plastic bags.",
+  "vocab": [
+    {"word": "environment", "pos": "n", "uz": "atrof-muhit", "ex": "Cars with old engines are bad for the environment."},
+    {"word": "pollution", "pos": "n", "uz": "ifloslanish", "ex": "There is a lot of air pollution in big cities."},
+    {"word": "rubbish", "pos": "n", "uz": "axlat, chiqindi", "ex": "Please put your rubbish in the bin."},
+    {"word": "recycle", "pos": "v", "uz": "qayta ishlamoq", "ex": "We recycle old newspapers at our school."},
+    {"word": "wildlife", "pos": "n", "uz": "yovvoyi tabiat, hayvonot dunyosi", "ex": "There is a lot of wildlife in the mountains near Chimgan."},
+    {"word": "harm", "pos": "v", "uz": "zarar yetkazmoq", "ex": "Too much sun can harm your skin."},
+    {"word": "protect", "pos": "v", "uz": "himoya qilmoq", "ex": "Wear a hat to protect your head from the sun."},
+    {"word": "reusable", "pos": "adj", "uz": "qayta foydalaniladigan", "ex": "I take a reusable bottle to school every day."},
+    {"word": "local", "pos": "adj", "uz": "mahalliy", "ex": "We buy our vegetables at the local market."},
+    {"word": "ocean", "pos": "n", "uz": "okean", "ex": "The Pacific is the biggest ocean in the world."},
+    {"word": "persuade", "pos": "v", "uz": "ko‘ndirmoq, ishontirmoq", "ex": "I persuaded my dad to buy a cat."},
+    {"word": "cotton", "pos": "n", "uz": "paxta; paxtali (mato)", "ex": "This shirt is made of cotton."}
+  ],
+  "passage": [
+    "Modbury is a quiet little town in the south-west of England. About 1,500 people live there, and it has one main street with a few small shops. But in 2007, newspapers and TV programmes all over the world talked about it. Why? Because Modbury became the first town in Europe without plastic bags.",
+    "The idea came from Rebecca Hosking, a local woman who made films about wildlife. In 2006, she was working on some islands near Hawaii, in the Pacific Ocean. There, she saw terrible things. Sea birds and turtles were dying because they ate pieces of plastic. The water looked clean and blue, but there was rubbish everywhere. Plastic in the sea harms millions of animals every year. Rebecca came home sad and angry.",
+    "Rebecca wanted to protect the sea, but she knew one person could not change the world. So she started with her own town. She invited all the shop owners to watch her film. After that, she did not need long to persuade them. Every shop agreed to stop giving plastic bags to customers. Instead, they sold cheap reusable bags made of cotton, and some shops used paper bags.",
+    "At first, some people forgot their bags at home, and shopping was not easy. But slowly it became a habit. Older people said it was like the past, when everybody carried a basket to the shops. Visitors came to see the famous plastic-free town, and soon many other towns in Britain wanted to do the same thing.",
+    "Today, many countries have laws about plastic bags. In England, big shops started charging money for them in 2015, and people now use far fewer bags. Of course, bags are only a small part of the problem of pollution. We also need to recycle bottles and stop dropping rubbish in the street. But Modbury shows that one small town, and one person, can do something big for the environment."
+  ],
+  "tfng": [
+    {"q": "Modbury is a large city.", "a": "FALSE"},
+    {"q": "Rebecca Hosking's film won a prize.", "a": "NOT GIVEN"},
+    {"q": "Rebecca saw sea animals that were dying because of plastic.", "a": "TRUE"},
+    {"q": "All the shops in Modbury agreed to stop giving plastic bags.", "a": "TRUE"},
+    {"q": "Shopping without plastic bags was easy for everyone from the first day.", "a": "FALSE"}
+  ],
+  "mcq": [
+    {"q": "Where did Rebecca see the problem with plastic?", "options": ["in her own town", "near some islands in the Pacific Ocean", "on a beach in England"], "a": "B"},
+    {"q": "How did Rebecca change the shop owners' minds?", "options": ["She showed them her film.", "She wrote to the newspapers.", "She gave them free cotton bags."], "a": "A"},
+    {"q": "What does the writer say in paragraph E?", "options": ["Plastic bags are the only problem.", "England stopped using all plastic in 2015.", "One person can start a big change."], "a": "C"}
+  ],
+  "which_para": [
+    {"q": "how shopping felt for people at the start", "a": "D"},
+    {"q": "the reason why some sea animals were dying", "a": "B"}
+  ],
+  "completion": [
+    {"q": "Modbury has one main ______ with a few small shops.", "a": "street"},
+    {"q": "Some shops in Modbury used ______ bags.", "a": "paper"},
+    {"q": "In the past, people carried a ______ to the shops.", "a": "basket"}
+  ],
+  "vocab_match": [
+    {"word": "pollution", "meaning": "dirty air, water or land that is bad for living things"},
+    {"word": "recycle", "meaning": "use old things again to make new things"},
+    {"word": "wildlife", "meaning": "animals, birds and plants that live in nature"},
+    {"word": "harm", "meaning": "hurt or damage someone or something"},
+    {"word": "reusable", "meaning": "that you can use again and again"},
+    {"word": "persuade", "meaning": "make someone agree to do something"}
+  ],
+  "gapfill": [
+    {"s": "Planting trees is good for the ______.", "a": "environment"},
+    {"s": "After the picnic, we put all our ______ in a big bag and took it home.", "a": "rubbish"},
+    {"s": "Doctors say we should ______ our eyes from the sun.", "a": "protect"},
+    {"s": "Our ______ football team plays every Sunday in the park.", "a": "local"},
+    {"s": "Whales are the biggest animals in the ______.", "a": "ocean"},
+    {"s": "Uzbekistan grows a lot of ______, and farmers pick it in autumn.", "a": "cotton"}
+  ]
+}

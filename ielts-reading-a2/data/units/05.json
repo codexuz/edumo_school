@@ -1,0 +1,65 @@
+{
+  "n": 5,
+  "topic": "Animals",
+  "emoji": "🐪",
+  "title": "The Ship of the Desert",
+  "intro": "You are going to read about camels and how they live in very hot and very cold places.",
+  "vocab": [
+    {"word": "desert", "pos": "n", "uz": "cho‘l, sahro", "ex": "The Kyzylkum is a large desert in Uzbekistan."},
+    {"word": "hump", "pos": "n", "uz": "o‘rkach", "ex": "Some camels have one hump, and some have two."},
+    {"word": "store", "pos": "v", "uz": "saqlamoq, to‘plab qo‘ymoq", "ex": "We store potatoes in a cold room under the house."},
+    {"word": "survive", "pos": "v", "uz": "omon qolmoq, yashab qolmoq", "ex": "Most plants cannot survive without water."},
+    {"word": "thirsty", "pos": "adj", "uz": "chanqagan", "ex": "After football, I was very thirsty."},
+    {"word": "sandstorm", "pos": "n", "uz": "qum bo‘roni", "ex": "The sandstorm was so strong that we couldn't see the road."},
+    {"word": "protect", "pos": "v", "uz": "himoya qilmoq", "ex": "Sunglasses protect your eyes from the sun."},
+    {"word": "carry", "pos": "v", "uz": "tashimoq, ko‘tarib olib bormoq", "ex": "Can you carry this box for me? It's very heavy."},
+    {"word": "wild", "pos": "adj", "uz": "yovvoyi", "ex": "We saw wild horses in the mountains."},
+    {"word": "rare", "pos": "adj", "uz": "kamyob, noyob", "ex": "Snow is rare in this part of the country."},
+    {"word": "herd", "pos": "n", "uz": "poda, to‘da", "ex": "A herd of sheep was walking across the road."},
+    {"word": "wool", "pos": "n", "uz": "jun", "ex": "My grandmother makes socks from sheep's wool."}
+  ],
+  "passage": [
+    "For thousands of years, camels carried silk, spices and people along the Silk Road through Central Asia. Today you can still see them in the Kyzylkum Desert in Uzbekistan. People call the camel “the ship of the desert”, and it is easy to understand why. It can walk for days across hot sand with a heavy load on its back.",
+    "There are two main kinds of camel. The dromedary has one hump and lives in North Africa and the Middle East. The Bactrian camel has two humps and lives in Central Asia, China and Mongolia. Many people think that a camel's hump is full of water, but this is not true. The hump stores fat. When there is no food, the camel uses this fat for energy, and the hump becomes smaller and softer.",
+    "Camels are experts at living without water. In cool weather, a camel can survive for weeks without drinking. But when it finds water, it drinks very fast. A really thirsty camel can drink more than 100 litres in about ten minutes! That is almost a full bath of water.",
+    "The desert is a hard place to live, but a camel's body is perfect for it. A camel has two rows of long eyelashes, and it can close its nose. These protect it from the sand during a sandstorm. Its wide, soft feet don't sink into the sand. Bactrian camels also grow thick wool in autumn, so they don't feel the cold in winter. In spring, the wool falls off in big pieces.",
+    "Most camels today live with people. Families keep them in a herd and use their milk, meat and wool. But wild Bactrian camels are now very rare. Fewer than 1,000 of them live in the deserts of China and Mongolia. Scientists are working hard to save them, because the world would be a poorer place without these patient, clever animals."
+  ],
+  "tfng": [
+    {"q": "In the past, camels carried things along the Silk Road.", "a": "TRUE"},
+    {"q": "A camel's hump is full of water.", "a": "FALSE"},
+    {"q": "Dromedaries can walk faster than Bactrian camels.", "a": "NOT GIVEN"},
+    {"q": "Bactrian camels have very little wool in winter.", "a": "FALSE"},
+    {"q": "Camel milk is healthier than cow's milk.", "a": "NOT GIVEN"}
+  ],
+  "mcq": [
+    {"q": "What happens to the hump when a camel has no food?", "options": ["It gets bigger.", "It gets smaller and softer.", "It falls off."], "a": "B"},
+    {"q": "Why don't camels' feet sink into the sand?", "options": ["They are wide and soft.", "They are very hard.", "They are very small."], "a": "A"},
+    {"q": "What does the writer say about wild Bactrian camels?", "options": ["Many of them live in Uzbekistan.", "There are not many of them left.", "They live with families."], "a": "B"}
+  ],
+  "which_para": [
+    {"q": "a comparison of two types of camel", "a": "B"},
+    {"q": "information about how people use camels today", "a": "E"}
+  ],
+  "completion": [
+    {"q": "A Bactrian camel has two ______ on its back.", "a": "humps"},
+    {"q": "A camel has two rows of long ______.", "a": "eyelashes"},
+    {"q": "Scientists are working hard to ______ wild Bactrian camels.", "a": "save"}
+  ],
+  "vocab_match": [
+    {"word": "hump", "meaning": "the round part on a camel's back"},
+    {"word": "thirsty", "meaning": "wanting or needing to drink"},
+    {"word": "wild", "meaning": "living free in nature, not with people"},
+    {"word": "rare", "meaning": "not common; there are not many"},
+    {"word": "herd", "meaning": "a large group of animals of the same kind"},
+    {"word": "sandstorm", "meaning": "a strong wind that carries a lot of sand"}
+  ],
+  "gapfill": [
+    {"s": "It almost never rains in the ______.", "a": "desert"},
+    {"s": "Squirrels ______ nuts in autumn and eat them in winter.", "a": "store"},
+    {"s": "Babies cannot ______ without help from their parents.", "a": "survive"},
+    {"s": "Wear a hat to ______ your head from the hot sun.", "a": "protect"},
+    {"s": "Could you help me ______ these bags to the car, please?", "a": "carry"},
+    {"s": "This ______ jumper is warm, but it's a bit itchy.", "a": "wool"}
+  ]
+}

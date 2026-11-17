@@ -1,0 +1,215 @@
+{
+  "n": 7,
+  "topic": "Sport and health",
+  "emoji": "🏃",
+  "title": "Never Too Late to Run",
+  "intro": "You are going to read about a woman who ran her first marathon at the age of 58.",
+  "vocab": [
+    {
+      "word": "marathon",
+      "pos": "n",
+      "uz": "marafon (42 km lik yugurish poygasi)",
+      "ex": "Thousands of people run the London Marathon every year."
+    },
+    {
+      "word": "coach",
+      "pos": "n",
+      "uz": "murabbiy",
+      "ex": "Our coach tells us to run faster."
+    },
+    {
+      "word": "fit",
+      "pos": "adj",
+      "uz": "jismonan baquvvat, chiniqqan",
+      "ex": "My dad swims every day, so he is very fit."
+    },
+    {
+      "word": "muscle",
+      "pos": "n",
+      "uz": "mushak",
+      "ex": "After the game, the muscles in my legs hurt."
+    },
+    {
+      "word": "injury",
+      "pos": "n",
+      "uz": "jarohat, shikast",
+      "ex": "He can't play on Saturday because of a knee injury."
+    },
+    {
+      "word": "distance",
+      "pos": "n",
+      "uz": "masofa",
+      "ex": "What is the distance from your house to the school?"
+    },
+    {
+      "word": "energy",
+      "pos": "n",
+      "uz": "kuch-quvvat, energiya",
+      "ex": "Children have a lot of energy in the morning."
+    },
+    {
+      "word": "proud",
+      "pos": "adj",
+      "uz": "faxrlanadigan, g‘ururlangan",
+      "ex": "I am proud of my sister because she won the competition."
+    },
+    {
+      "word": "race",
+      "pos": "n",
+      "uz": "poyga, musobaqa",
+      "ex": "Who won the race at the sports day?"
+    },
+    {
+      "word": "healthy",
+      "pos": "adj",
+      "uz": "sog‘lom",
+      "ex": "Fruit and vegetables are healthy food."
+    },
+    {
+      "word": "stretch",
+      "pos": "v",
+      "uz": "(mushaklarni) cho‘zmoq",
+      "ex": "Stretch your arms before you start the exercise."
+    },
+    {
+      "word": "goal",
+      "pos": "n",
+      "uz": "maqsad",
+      "ex": "My goal is to learn 500 new English words this year."
+    }
+  ],
+  "passage": [
+    "Three years ago, Nodira Rashidova could not run for a bus. She was 55, she worked in an office in Tashkent, and she spent most of her free time on the sofa. \"I was always tired,\" she says. \"I had no energy, even in the morning.\" Then her doctor told her something important: she needed to move more, or she was going to have serious health problems.",
+    "Nodira started slowly. On the first day, she walked around her neighbourhood for twenty minutes. After two weeks, she tried to run between two lamp posts. \"My legs hurt and my face was red,\" she laughs. \"But the next day I ran to the third lamp post.\" After six months, she could run five kilometres without stopping.",
+    "Then her daughter showed her a video of a marathon in Berlin. A marathon is a race of 42 kilometres. \"That's crazy,\" Nodira said. But the idea stayed in her head. She joined a running club and found a coach, a young man called Aziz. He gave her a plan: three short runs and one long run every week. He also taught her to stretch before and after training, because tight muscles often cause an injury.",
+    "The training was not always easy. In winter, Nodira ran in the dark before work. Once she hurt her knee and had to stop for a month. \"I cried a lot that month,\" she says. \"But Aziz said, 'Your goal is still there. It can wait for you.'\" Slowly, the distance of her long runs grew: 15 kilometres, then 25, then 32.",
+    "Last October, at the age of 58, Nodira finished her first marathon. It took her five hours and ten minutes. She was one of the last runners, but she did not care. \"When I crossed the finish line, I felt so proud,\" she says. Today she is fit and healthy, and she sleeps well. Her next plan? \"A marathon in Berlin, of course!\""
+  ],
+  "tfng": [
+    {
+      "q": "Nodira worked in an office before she started running.",
+      "a": "TRUE"
+    },
+    {
+      "q": "On her first day, Nodira ran for twenty minutes.",
+      "a": "FALSE"
+    },
+    {
+      "q": "Nodira's daughter is also a runner.",
+      "a": "NOT GIVEN"
+    },
+    {
+      "q": "Aziz told Nodira to run every day.",
+      "a": "FALSE"
+    },
+    {
+      "q": "Nodira was one of the last people to finish the marathon.",
+      "a": "TRUE"
+    }
+  ],
+  "mcq": [
+    {
+      "q": "Why did Nodira start to exercise?",
+      "options": [
+        "Her daughter asked her to.",
+        "Her doctor gave her advice.",
+        "She wanted to run in Berlin."
+      ],
+      "a": "B"
+    },
+    {
+      "q": "Why did Aziz teach Nodira to stretch?",
+      "options": [
+        "to help her run faster",
+        "to stop injuries",
+        "to help her sleep better"
+      ],
+      "a": "B"
+    },
+    {
+      "q": "How did Nodira feel at the end of her first marathon?",
+      "options": [
+        "tired and sad",
+        "angry about her time",
+        "very proud"
+      ],
+      "a": "C"
+    }
+  ],
+  "which_para": [
+    {
+      "q": "the name of the person who helped Nodira to train",
+      "a": "C"
+    },
+    {
+      "q": "a difficult time when Nodira could not run",
+      "a": "D"
+    }
+  ],
+  "completion": [
+    {
+      "q": "After six months, Nodira could run five ______ without stopping.",
+      "a": "kilometres"
+    },
+    {
+      "q": "In winter, Nodira ran in the ______ before work.",
+      "a": "dark"
+    },
+    {
+      "q": "Nodira's first marathon took her five hours and ten ______.",
+      "a": "minutes"
+    }
+  ],
+  "vocab_match": [
+    {
+      "word": "marathon",
+      "meaning": "a running race of 42 kilometres"
+    },
+    {
+      "word": "coach",
+      "meaning": "a person who trains sports players"
+    },
+    {
+      "word": "injury",
+      "meaning": "damage to your body, for example in sport"
+    },
+    {
+      "word": "proud",
+      "meaning": "happy because you or someone else did something good"
+    },
+    {
+      "word": "distance",
+      "meaning": "how far it is from one place to another"
+    },
+    {
+      "word": "goal",
+      "meaning": "something that you want to do in the future"
+    }
+  ],
+  "gapfill": [
+    {
+      "s": "Our football ______ makes us run around the field ten times.",
+      "a": "coach"
+    },
+    {
+      "s": "Eat lots of fruit and vegetables if you want to stay ______.",
+      "a": "healthy"
+    },
+    {
+      "s": "Drink some water and have a banana. It will give you more ______.",
+      "a": "energy"
+    },
+    {
+      "s": "My brother hurt his arm in a game, and the ______ took two months to get better.",
+      "a": "injury"
+    },
+    {
+      "s": "Always ______ your legs before you go running.",
+      "a": "stretch"
+    },
+    {
+      "s": "She won the 100-metre ______ at the school sports day.",
+      "a": "race"
+    }
+  ]
+}

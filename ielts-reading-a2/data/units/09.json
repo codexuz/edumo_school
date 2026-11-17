@@ -1,0 +1,215 @@
+{
+  "n": 9,
+  "topic": "Weather",
+  "emoji": "🌦️",
+  "title": "One Month, Three Different Worlds",
+  "intro": "You are going to read about the weather in January in three very different countries.",
+  "vocab": [
+    {
+      "word": "season",
+      "pos": "n",
+      "uz": "fasl",
+      "ex": "Spring is my favourite season."
+    },
+    {
+      "word": "climate",
+      "pos": "n",
+      "uz": "iqlim",
+      "ex": "Uzbekistan has a dry climate with hot summers."
+    },
+    {
+      "word": "temperature",
+      "pos": "n",
+      "uz": "harorat",
+      "ex": "The temperature in the room is 22 degrees."
+    },
+    {
+      "word": "degree",
+      "pos": "n",
+      "uz": "daraja (harorat o‘lchovi)",
+      "ex": "Water freezes at zero degrees."
+    },
+    {
+      "word": "freeze",
+      "pos": "v",
+      "uz": "muzlamoq",
+      "ex": "In winter, the lake freezes and people walk on the ice."
+    },
+    {
+      "word": "melt",
+      "pos": "v",
+      "uz": "erimoq",
+      "ex": "The snowman started to melt in the sun."
+    },
+    {
+      "word": "humid",
+      "pos": "adj",
+      "uz": "nam, rutubatli (havo haqida)",
+      "ex": "In summer, the air in Singapore is hot and humid."
+    },
+    {
+      "word": "storm",
+      "pos": "n",
+      "uz": "bo‘ron",
+      "ex": "There was a big storm last night, and a tree fell down."
+    },
+    {
+      "word": "flood",
+      "pos": "v",
+      "uz": "suv bosmoq",
+      "ex": "After the heavy rain, the river flooded the village."
+    },
+    {
+      "word": "forecast",
+      "pos": "n",
+      "uz": "(ob-havo) ma’lumoti, bashorat",
+      "ex": "The weather forecast says it will rain tomorrow."
+    },
+    {
+      "word": "umbrella",
+      "pos": "n",
+      "uz": "soyabon",
+      "ex": "Don't forget your umbrella. It's raining."
+    },
+    {
+      "word": "sunshine",
+      "pos": "n",
+      "uz": "quyosh nuri, quyoshli havo",
+      "ex": "We sat in the garden and enjoyed the sunshine."
+    }
+  ],
+  "passage": [
+    "What is the weather like in January? The answer depends on where you live. We asked three young people from different countries to tell us about their January. Their answers show how different the climate can be around the world.",
+    "Aiyna, 19, lives in Yakutsk, in the east of Russia. It is one of the coldest cities on Earth. \"In January, the temperature is often minus 45 degrees,\" she says. \"If you throw hot water into the air, it freezes before it hits the ground!\" People wear two or three coats, and older children only stay at home from school when it is colder than about minus 50. \"But I love our winter,\" Aiyna says. \"The air is clean and the snow is beautiful.\"",
+    "For Jack, 22, from Sydney, Australia, January is one of the hottest months of the year. It is summer in the south of the world, and schools are closed for the long summer holiday. \"We go to the beach almost every day,\" he says. \"Sometimes it's 40 degrees, so we stay in the sea for hours.\" Even Christmas, in December, is hot. \"We have Christmas dinner outside, in the sunshine.\" But summer is also a dangerous season. Every year, there are fires in the hot, dry forests.",
+    "In Mumbai, India, January is warm and pleasant, with blue skies. But Priya, 20, says her favourite time is June, when the monsoon begins. \"It rains for hours every day, and the air is very humid,\" she explains. \"There are often storms, and some streets flood. I always carry an umbrella, but I still get wet!\" Farmers are happy, though, because their plants need the rain.",
+    "Here in Uzbekistan, January is usually cold, but not as cold as in Yakutsk. The snow often melts after a few days, and spring arrives in March. So before you visit a new country, check the weather forecast. In January, you may need a warm hat, or you may need sunglasses!"
+  ],
+  "tfng": [
+    {
+      "q": "In Yakutsk, children stay at home from school every time it snows.",
+      "a": "FALSE"
+    },
+    {
+      "q": "Aiyna enjoys the winter in her city.",
+      "a": "TRUE"
+    },
+    {
+      "q": "Jack has a summer job at the beach.",
+      "a": "NOT GIVEN"
+    },
+    {
+      "q": "In Mumbai, the monsoon starts in January.",
+      "a": "FALSE"
+    },
+    {
+      "q": "There are forest fires near Sydney every summer.",
+      "a": "TRUE"
+    }
+  ],
+  "mcq": [
+    {
+      "q": "Why is January hot in Sydney?",
+      "options": [
+        "It is summer in the south of the world.",
+        "There are fires in the forests.",
+        "The city is near the sea."
+      ],
+      "a": "A"
+    },
+    {
+      "q": "What does Priya say about the monsoon?",
+      "options": [
+        "She stays at home all day.",
+        "She gets wet, even with an umbrella.",
+        "She doesn't like the rain."
+      ],
+      "a": "B"
+    },
+    {
+      "q": "What is the main idea of the text?",
+      "options": [
+        "Winter is the best season of the year.",
+        "January weather is very different in different places.",
+        "Uzbekistan has the best climate in the world."
+      ],
+      "a": "B"
+    }
+  ],
+  "which_para": [
+    {
+      "q": "a reason why some people are happy about the rain",
+      "a": "D"
+    },
+    {
+      "q": "some advice for travellers",
+      "a": "E"
+    }
+  ],
+  "completion": [
+    {
+      "q": "In Yakutsk, people wear two or three ______ in winter.",
+      "a": "coats"
+    },
+    {
+      "q": "In January, Mumbai has warm weather and blue ______.",
+      "a": "skies"
+    },
+    {
+      "q": "In Uzbekistan, spring usually arrives in ______.",
+      "a": "March"
+    }
+  ],
+  "vocab_match": [
+    {
+      "word": "freeze",
+      "meaning": "become ice because it is very cold"
+    },
+    {
+      "word": "melt",
+      "meaning": "change from ice or snow into water"
+    },
+    {
+      "word": "humid",
+      "meaning": "warm and wet (about the air)"
+    },
+    {
+      "word": "forecast",
+      "meaning": "information about what the weather will be like"
+    },
+    {
+      "word": "season",
+      "meaning": "one of the four parts of the year"
+    },
+    {
+      "word": "flood",
+      "meaning": "become covered with water"
+    }
+  ],
+  "gapfill": [
+    {
+      "s": "My favourite ______ is autumn because the trees are red and yellow.",
+      "a": "season"
+    },
+    {
+      "s": "Take an ______ with you. It's going to rain this afternoon.",
+      "a": "umbrella"
+    },
+    {
+      "s": "The weather ______ says it will be sunny all weekend.",
+      "a": "forecast"
+    },
+    {
+      "s": "Eat your ice cream quickly, or it will ______ in the sun.",
+      "a": "melt"
+    },
+    {
+      "s": "Today the ______ is 38 degrees, so stay inside at lunchtime.",
+      "a": "temperature"
+    },
+    {
+      "s": "There was a big ______ last night, with thunder and strong wind.",
+      "a": "storm"
+    }
+  ]
+}

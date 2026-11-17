@@ -1,0 +1,215 @@
+{
+  "n": 2,
+  "topic": "Food",
+  "emoji": "🍕",
+  "title": "Pizza: From Street Food to World Favourite",
+  "intro": "You are going to read about the history of one of the world’s favourite foods.",
+  "vocab": [
+    {
+      "word": "dish",
+      "pos": "n",
+      "uz": "taom",
+      "ex": "Plov is my favourite dish."
+    },
+    {
+      "word": "cheap",
+      "pos": "adj",
+      "uz": "arzon",
+      "ex": "The fruit at this market is fresh and cheap."
+    },
+    {
+      "word": "popular",
+      "pos": "adj",
+      "uz": "mashhur, ommabop",
+      "ex": "This song is very popular with teenagers."
+    },
+    {
+      "word": "ingredient",
+      "pos": "n",
+      "uz": "masalliq, tarkibiy qism",
+      "ex": "Flour, eggs and milk are the main ingredients of this cake."
+    },
+    {
+      "word": "flag",
+      "pos": "n",
+      "uz": "bayroq",
+      "ex": "There is a big flag in front of the school."
+    },
+    {
+      "word": "honour",
+      "pos": "n",
+      "uz": "sharaf, hurmat",
+      "ex": "They planted a tree in honour of their teacher."
+    },
+    {
+      "word": "recipe",
+      "pos": "n",
+      "uz": "retsept, tayyorlash usuli",
+      "ex": "Can you give me your recipe for samsa?"
+    },
+    {
+      "word": "immigrant",
+      "pos": "n",
+      "uz": "muhojir",
+      "ex": "Many immigrants in the city opened small shops."
+    },
+    {
+      "word": "customer",
+      "pos": "n",
+      "uz": "mijoz, xaridor",
+      "ex": "The shop was full of customers on Saturday."
+    },
+    {
+      "word": "spread",
+      "pos": "v",
+      "uz": "tarqalmoq, yoyilmoq",
+      "ex": "The fire spread quickly through the dry forest."
+    },
+    {
+      "word": "deliver",
+      "pos": "v",
+      "uz": "yetkazib bermoq",
+      "ex": "The postman delivers letters every morning."
+    },
+    {
+      "word": "invent",
+      "pos": "v",
+      "uz": "ixtiro qilmoq, o‘ylab topmoq",
+      "ex": "Who invented the telephone?"
+    }
+  ],
+  "passage": [
+    "Today you can eat pizza almost everywhere, from New York to Tashkent. But three hundred years ago, very few people outside one Italian city knew about it. That city was Naples, in the south of Italy.",
+    "In the 1700s, Naples was a big city, and many of its people were poor. They worked long hours and did not have much time to cook. They needed food that was cheap and quick. Street sellers made flat bread with simple toppings, such as garlic, oil, cheese or small fish. People bought a piece and ate it with their hands while they walked. Rich people thought this dish was food for the poor, and they did not eat it.",
+    "There is a famous story about the most popular pizza of all. In 1889, Queen Margherita of Italy visited Naples. A cook called Raffaele Esposito made three pizzas for her, and she liked one best. It had three simple ingredients: red tomatoes, white mozzarella cheese and green basil leaves. These are the colours of the Italian flag. The cook named the pizza ‘Margherita’ in her honour. Some historians say this story is not completely true, but the name is still used today.",
+    "At the end of the 1800s, millions of Italians left their country and moved to America. These immigrants took their recipes with them. In 1905, Gennaro Lombardi opened a pizzeria in New York. People often call it the first pizzeria in the USA. At first, most of his customers were Italian, but soon other Americans started to enjoy pizza too.",
+    "After 1945, pizza spread quickly around the world. Shops began to deliver hot pizzas to people’s homes by car or on motorbikes. Cooks in different countries invented new kinds with chicken, corn or even pineapple. Many people in Naples still think that pineapple on pizza is a terrible idea! But one thing is clear: the cheap street food of Naples is now one of the world’s favourite meals."
+  ],
+  "tfng": [
+    {
+      "q": "In the 1700s, pizza was popular with rich people in Naples.",
+      "a": "FALSE"
+    },
+    {
+      "q": "Street sellers in Naples sold pizza in pieces.",
+      "a": "TRUE"
+    },
+    {
+      "q": "Queen Margherita ate pizza many times after her visit to Naples.",
+      "a": "NOT GIVEN"
+    },
+    {
+      "q": "All historians agree that the story about Queen Margherita is true.",
+      "a": "FALSE"
+    },
+    {
+      "q": "Most of Lombardi’s first customers were Italian.",
+      "a": "TRUE"
+    }
+  ],
+  "mcq": [
+    {
+      "q": "Why did poor people in Naples buy pizza?",
+      "options": [
+        "It was good for their health.",
+        "Rich people also ate it.",
+        "It was cheap and quick."
+      ],
+      "a": "C"
+    },
+    {
+      "q": "Why is the Margherita pizza red, white and green?",
+      "options": [
+        "They were the queen’s favourite colours.",
+        "They are the colours of the Italian flag.",
+        "The cook had no other ingredients."
+      ],
+      "a": "B"
+    },
+    {
+      "q": "How did pizza first come to the USA?",
+      "options": [
+        "Italian immigrants brought their recipes.",
+        "American soldiers brought it home.",
+        "Queen Margherita sent a cook there."
+      ],
+      "a": "A"
+    }
+  ],
+  "which_para": [
+    {
+      "q": "a description of how ordinary people ate pizza in the past",
+      "a": "B"
+    },
+    {
+      "q": "an opinion about one modern topping",
+      "a": "E"
+    }
+  ],
+  "completion": [
+    {
+      "q": "People in old Naples ate pizza with their ______.",
+      "a": "hands"
+    },
+    {
+      "q": "The Margherita pizza has green ______ leaves on it.",
+      "a": "basil"
+    },
+    {
+      "q": "Today, some shops bring pizzas to people’s homes by car or on ______.",
+      "a": "motorbikes"
+    }
+  ],
+  "vocab_match": [
+    {
+      "word": "cheap",
+      "meaning": "not costing a lot of money"
+    },
+    {
+      "word": "ingredient",
+      "meaning": "one of the foods you use to make a meal"
+    },
+    {
+      "word": "invent",
+      "meaning": "make or think of something new for the first time"
+    },
+    {
+      "word": "recipe",
+      "meaning": "instructions that tell you how to cook something"
+    },
+    {
+      "word": "immigrant",
+      "meaning": "a person who comes to live in a new country"
+    },
+    {
+      "word": "customer",
+      "meaning": "a person who buys something from a shop or café"
+    }
+  ],
+  "gapfill": [
+    {
+      "s": "Plov is the most famous ______ in Uzbekistan.",
+      "a": "dish"
+    },
+    {
+      "s": "Football is very ______ with boys and girls at our school.",
+      "a": "popular"
+    },
+    {
+      "s": "On Independence Day, every school has a blue, white and green ______ on the wall.",
+      "a": "flag"
+    },
+    {
+      "s": "The new park was named in ______ of a famous poet.",
+      "a": "honour"
+    },
+    {
+      "s": "The news ______ quickly, and soon everyone in the village knew about the wedding.",
+      "a": "spread"
+    },
+    {
+      "s": "The shop can ______ your new fridge to your flat on Saturday morning.",
+      "a": "deliver"
+    }
+  ]
+}

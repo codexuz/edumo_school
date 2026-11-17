@@ -20,14 +20,14 @@ def part_head(pill, right, cls=""):
 def vocab_preview(u):
     rows = "".join(f'<div class="vrow"><b>{e(v["word"])}</b><i>{e(v["pos"])}</i><span class="uz">{e(v["uz"])}</span>'
                    f'<p>{e(v["ex"])}</p></div>' for v in u["vocab"])
-    return ('<div class="part">' + part_head("VOCABULARY", "Learn these words before you read")
+    return ('<div class="part">' + part_head("VOCABULARY", "12 key words")
             + f'<div class="vlist">{rows}</div></div>')
 
 
 def passage(u):
     words = sum(len(p.split()) for p in u["passage"])
     paras = "".join(f'<p class="pp"><b class="pl">{L[i]}</b>{e(p)}</p>' for i, p in enumerate(u["passage"]))
-    return ('<div class="part">' + part_head("READING PASSAGE", f"Questions 1–13 · {words} words")
+    return ('<div class="part">' + part_head("READING", f"{words} words")
             + '<div class="ins"><span class="aud">⏱</span><p>You should spend about 20 minutes on <b>Questions 1–13</b>, '
               'which are based on the reading passage below.</p></div>'
             + f'<p class="intro">{e(u["intro"])}</p><h3 class="atitle">{e(u["title"])}</h3>'

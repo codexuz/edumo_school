@@ -89,8 +89,8 @@ def back():
  <img class="bicon" src="{uri(BRAND / 'icon_blue.png')}" alt="">
  <p class="bdesc"><b>12 reading units</b> at A2 level with the same question types as the real IELTS test — TRUE / FALSE / NOT GIVEN, multiple choice, matching and sentence completion — plus <b>vocabulary with Uzbek translations</b>, practice exercises and a full answer key.</p>
  <div class="bband">{girih(2)}<div class="frieze-wrap top">{border_band(2)}</div>
-  <p class="btag">Imtihonga <b>real formatda tayyorlaning</b></p>
-  <div class="bqr"><div class="q">{qr()}</div><div><b>Audio</b><span>t.me/multilevel_express</span></div></div>
+  <p class="btag">IELTS ga <b>A2 darajadan tayyorlaning</b></p>
+  <div class="bqr"><div class="q">{qr()}</div><div><b>Telegram</b><span>t.me/multilevel_express</span></div></div>
   <p class="social"><svg viewBox="0 0 24 24"><path fill="#fff" d="M21.5 3.6 2.9 10.8c-1.3.5-1.3 1.2-.2 1.6l4.8 1.5 1.8 5.6c.2.6.4.8.8.8.4 0 .6-.2.9-.5l2.3-2.2 4.8 3.5c.9.5 1.5.2 1.7-.8l3.2-15c.3-1.3-.5-1.9-1.5-1.5zM9 13.6l9.2-5.8c.5-.3.8-.1.4.2l-7.6 6.9-.3 3.3L9 13.6z"/></svg>
    <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="#fff" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="#fff" stroke-width="2"/><circle cx="17.3" cy="6.7" r="1.2" fill="#fff"/></svg>
    impulse_learning_center</p></div>
