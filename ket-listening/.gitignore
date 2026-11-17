@@ -1,0 +1,5 @@
+dist/*.html
+dist/mock_interior.pdf
+dist/Cover_front_back.pdf
+dist/Cover_spread.pdf
+scripts/__pycache__/
