@@ -1,0 +1,65 @@
+{
+  "n": 10,
+  "topic": "Shopping and money",
+  "emoji": "💰",
+  "title": "Jasur's Summer at the Bazaar",
+  "intro": "You are going to read about a teenager from Samarkand who got his first job and learned how to save money.",
+  "vocab": [
+    {"word": "earn", "pos": "v", "uz": "ishlab topmoq", "ex": "My brother earns money by teaching English."},
+    {"word": "save", "pos": "v", "uz": "tejamoq, pul yig‘moq", "ex": "I am saving money for a new bike."},
+    {"word": "customer", "pos": "n", "uz": "xaridor, mijoz", "ex": "The shop was full of customers on Saturday."},
+    {"word": "wage", "pos": "n", "uz": "ish haqi", "ex": "Her wage is paid every Friday."},
+    {"word": "spend", "pos": "v", "uz": "sarflamoq", "ex": "How much do you spend on lunch every day?"},
+    {"word": "cash", "pos": "n", "uz": "naqd pul", "ex": "Can I pay by card, or only in cash?"},
+    {"word": "budget", "pos": "n", "uz": "byudjet, xarajatlar rejasi", "ex": "We have a small budget for our holiday."},
+    {"word": "goal", "pos": "n", "uz": "maqsad", "ex": "My goal is to read twenty books this year."},
+    {"word": "afford", "pos": "v", "uz": "(pulga) qurbi yetmoq", "ex": "We can't afford a big car."},
+    {"word": "bargain", "pos": "v", "uz": "savdolashmoq", "ex": "My mother always bargains at the market."},
+    {"word": "price", "pos": "n", "uz": "narx", "ex": "The price of bread went up last month."},
+    {"word": "wallet", "pos": "n", "uz": "hamyon", "ex": "I left my wallet on the bus!"}
+  ],
+  "passage": [
+    "Last summer, sixteen-year-old Jasur got his first job. He worked at his uncle's fruit stall in Siyob Bazaar, the biggest market in Samarkand. \"I wanted a new laptop for school, but it cost five million som,\" he says. \"My parents said, 'Good idea. But you can earn the money yourself.'\"",
+    "Jasur started work at six o'clock in the morning, six days a week. First he carried heavy boxes of peaches and grapes from the truck. Then he washed the fruit and put it on the table in neat lines. At seven, the first customers arrived. Many of them wanted to bargain. \"The grandmothers were the best at it,\" Jasur laughs. \"They always got a lower price than everyone else!\"",
+    "His uncle paid him a wage of 80,000 som a day, in cash. On the first day, Jasur put the money in his wallet and felt very rich. But by the evening, he spent half of it on ice cream, a phone card and a taxi home. \"That was a big mistake,\" he says. \"I worked for ten hours and spent the money in thirty minutes.\"",
+    "That night, his older sister helped him make a budget. They wrote it in a small notebook. Every day, Jasur kept 10,000 som for lunch and the bus, and he put the rest in a tin box under his bed. He also wrote his goal on the first page: \"Laptop by September!\" Before he wanted to spend money on something, he looked at that page and asked, \"Do I really need this?\"",
+    "After ten weeks, Jasur counted his money. He had more than four million som. That was still not enough to afford the laptop, but his parents were proud of his hard work and paid the rest. Jasur still saves a little money every week. \"The laptop is great,\" he says, \"but the best thing I got from the bazaar is a new habit.\""
+  ],
+  "tfng": [
+    {"q": "Jasur's uncle has a fruit stall in Siyob Bazaar.", "a": "TRUE"},
+    {"q": "Jasur's parents gave him money for the laptop at the start of the summer.", "a": "FALSE"},
+    {"q": "Jasur's sister also worked at the bazaar.", "a": "NOT GIVEN"},
+    {"q": "Jasur kept his savings in a bank.", "a": "FALSE"},
+    {"q": "Jasur still saves money every week.", "a": "TRUE"}
+  ],
+  "mcq": [
+    {"q": "What did Jasur do first every morning?", "options": ["He washed the fruit.", "He carried boxes from the truck.", "He talked to the customers."], "a": "B"},
+    {"q": "What happened on Jasur's first day at work?", "options": ["He lost his wallet.", "His uncle did not pay him.", "He spent a lot of his money very quickly."], "a": "C"},
+    {"q": "Why did Jasur look at the first page of his notebook?", "options": ["to remember his goal before he bought something", "to check the price of the fruit", "to read his sister's phone number"], "a": "A"}
+  ],
+  "which_para": [
+    {"q": "a mistake Jasur made with his money", "a": "C"},
+    {"q": "the reason why Jasur wanted a job", "a": "A"}
+  ],
+  "completion": [
+    {"q": "Jasur's uncle paid him in ______ every day.", "a": "cash"},
+    {"q": "Jasur and his sister wrote the budget in a small ______.", "a": "notebook"},
+    {"q": "Jasur put his savings in a tin box under his ______.", "a": "bed"}
+  ],
+  "vocab_match": [
+    {"word": "earn", "meaning": "get money for the work you do"},
+    {"word": "budget", "meaning": "a plan for how to use your money"},
+    {"word": "goal", "meaning": "something you want to do or get in the future"},
+    {"word": "afford", "meaning": "have enough money to buy something"},
+    {"word": "bargain", "meaning": "talk to a seller to get a lower price"},
+    {"word": "customer", "meaning": "a person who buys things in a shop or market"}
+  ],
+  "gapfill": [
+    {"s": "If you ______ a little money every month, you can buy a good phone next year.", "a": "save"},
+    {"s": "I can't find my ______. All my money and cards are in it!", "a": "wallet"},
+    {"s": "What is the ______ of these shoes? I can't see a label.", "a": "price"},
+    {"s": "Teenagers often ______ too much money on snacks and games.", "a": "spend"},
+    {"s": "Nurses work very hard, but their ______ is often low.", "a": "wage"},
+    {"s": "The taxi driver doesn't take cards, so please bring ______.", "a": "cash"}
+  ]
+}

@@ -1,0 +1,38 @@
+/* IELTS reading additions on top of the Mock-book style */
+.pill.gold{background:linear-gradient(120deg,#E8A317,#C98207)}
+.vlist{display:flex;flex-direction:column;gap:1mm;margin-bottom:1mm}
+.vrow{display:grid;grid-template-columns:auto auto 1fr;column-gap:2mm;align-items:baseline;border-bottom:1px dotted var(--line);padding:.6mm 0 1mm}
+.vrow b{font:700 9pt "Unbounded";color:var(--navy)}
+.vrow i{font-size:7.6pt;color:#6B7690}
+.vrow .uz{text-align:right;font-weight:700;color:var(--blue2);font-size:8.4pt}
+.vrow p{grid-column:1/-1;font-size:8.2pt;font-style:italic;color:#4A5675}
+.intro{font-style:italic;font-size:8.6pt;color:#4A5675;margin:1mm 0 1.5mm}
+.pp{display:grid;grid-template-columns:5.5mm 1fr;column-gap:2mm;text-align:justify;hyphens:auto;margin-bottom:1.6mm;font-size:9.2pt;line-height:1.55}
+.pl{width:5.2mm;height:5.2mm;border-radius:1.4mm;background:var(--navy);color:#fff;font:700 8pt "Unbounded";display:flex;align-items:center;justify-content:center;margin-top:.5mm}
+.tfkey{display:flex;flex-direction:column;gap:.4mm;background:var(--soft);border:1px solid var(--line);border-radius:2mm;padding:1.6mm 2.5mm;margin-bottom:1.6mm;font-size:8.2pt}
+.tfkey b{display:inline-block;min-width:23mm;color:var(--blue2);font:700 8pt "Unbounded"}
+.qq{display:grid;grid-template-columns:6mm 1fr auto;column-gap:2mm;align-items:start;margin:0 0 1.5mm;font-size:9pt;line-height:1.4}
+.qq .qn{width:5.6mm;height:5.6mm;border-radius:50%;background:var(--blue2);color:#fff;font:700 7.6pt "Unbounded";display:flex;align-items:center;justify-content:center}
+.ab{width:24mm;height:5.6mm;border:1.2px solid var(--line);border-radius:1.4mm;background:#fff}
+.ab.sm{width:9mm}
+.qq.mc{grid-template-columns:6mm 1fr}
+.qq.mc ul{list-style:none;margin:.6mm 0 0}
+.qq.mc li{margin:.3mm 0}
+.qq.mc li b{display:inline-block;width:4.5mm;color:var(--blue2);font:700 8pt "Unbounded"}
+.gapn{display:inline-block;min-width:22mm;border-bottom:1.4px solid var(--navy);text-align:center;font:700 7pt "Unbounded";color:var(--blue2);line-height:1.1}
+.gapl{display:inline-block;min-width:24mm;border-bottom:1.4px solid var(--navy)}
+.vmatch{display:grid;grid-template-columns:1fr 1.5fr;gap:3mm;margin-bottom:2mm;font-size:8.8pt}
+.vmatch ol{list-style:none}
+.vmatch li{display:flex;align-items:center;gap:1.6mm;margin:.9mm 0;line-height:1.3}
+.vmatch li b{flex:none;width:5mm;height:5mm;border-radius:50%;background:#E8A317;color:#fff;font:700 7pt "Unbounded";display:flex;align-items:center;justify-content:center}
+.vmatch li .ab{margin-left:auto}
+.wbank{display:flex;flex-wrap:wrap;gap:1.4mm;justify-content:center;border:1.4px dashed #E8A317;border-radius:2.5mm;padding:2mm;margin:1mm 0 2mm;background:#FFF8E8}
+.wbank span{background:#fff;border:1px solid #F1D08A;border-radius:99px;padding:.4mm 2.6mm;font-weight:700;font-size:8.4pt;color:#8A5A00}
+.kmock td b{color:var(--blue2);margin-left:1.6mm}
+.kmock td b:first-child{margin-left:0}
+h4.wl{font:800 12pt "Unbounded";color:var(--blue2);border-bottom:2px solid var(--blue);margin:2.5mm 0 1mm}
+.wrow{display:grid;grid-template-columns:auto auto 1fr auto;column-gap:2mm;align-items:baseline;font-size:8.6pt;border-bottom:1px dotted var(--line);padding:.5mm 0}
+.wrow b{color:var(--navy)}
+.wrow i{font-size:7.4pt;color:#6B7690}
+.wrow span{text-align:right;color:#2B3A67}
+.wrow em{font:600 6.8pt "Unbounded";color:#9AA3B5;font-style:normal}
