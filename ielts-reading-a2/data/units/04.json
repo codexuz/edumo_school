@@ -1,65 +1,214 @@
 {
-  "n": 4,
-  "topic": "Travel",
-  "emoji": "🚆",
-  "title": "Six Days on the Trans-Siberian",
-  "intro": "You are going to read about a young teacher from Tashkent who crossed Russia by train.",
-  "vocab": [
-    {"word": "journey", "pos": "n", "uz": "safar, sayohat", "ex": "The journey from Tashkent to Samarkand takes about two hours by fast train."},
-    {"word": "passenger", "pos": "n", "uz": "yo‘lovchi", "ex": "The bus was full, and some passengers had to stand."},
-    {"word": "carriage", "pos": "n", "uz": "vagon", "ex": "Our seats are in the last carriage of the train."},
-    {"word": "luggage", "pos": "n", "uz": "yuk, bagaj", "ex": "Don't take too much luggage on a long trip."},
-    {"word": "crowded", "pos": "adj", "uz": "odam gavjum, tiqilinch", "ex": "The market is always crowded on Sundays."},
-    {"word": "comfortable", "pos": "adj", "uz": "qulay", "ex": "These shoes are very comfortable for walking."},
-    {"word": "stranger", "pos": "n", "uz": "notanish odam, begona", "ex": "My little brother never talks to strangers."},
-    {"word": "platform", "pos": "n", "uz": "perron (vokzalda)", "ex": "The train to Bukhara leaves from platform 2."},
-    {"word": "timetable", "pos": "n", "uz": "qatnov jadvali", "ex": "I checked the bus timetable on my phone."},
-    {"word": "view", "pos": "n", "uz": "manzara, ko‘rinish", "ex": "There is a lovely view of the mountains from our hotel."},
-    {"word": "destination", "pos": "n", "uz": "borish manzili", "ex": "After ten hours on the road, we finally reached our destination."},
-    {"word": "souvenir", "pos": "n", "uz": "esdalik sovg‘a", "ex": "She bought a small plate as a souvenir of Khiva."}
-  ],
-  "passage": [
-    "Last summer, Malika Yusupova, a 24-year-old teacher from Tashkent, made the longest train journey of her life. She travelled on the Trans-Siberian Railway from Moscow to Vladivostok. The trip is more than 9,000 kilometres long and takes almost a week. “My friends thought I was crazy,” she laughs. “They asked me, ‘Why don't you just fly?’”",
-    "Malika shared a small room on the train with three other passengers. At night, the seats became beds. Her only luggage was one backpack, because there was not much space. At the end of every carriage there was a big machine with hot water, so people made tea and noodles all day. The carriage was often crowded and noisy, but it was warm and quite comfortable.",
-    "The best thing, she says, was the people. “On the first day, everyone was a stranger. By the third day, we were like a family.” An old man from Omsk taught her card games, and a young mother shared her homemade bread and fish. Malika didn't speak Russian very well, so she used her hands and a lot of smiles.",
-    "Every few hours, the train stopped for twenty or thirty minutes. Passengers jumped off and bought hot food from women on the platform. Malika always checked the timetable on the wall first. “If you are late, the train leaves without you!” The train also crossed seven time zones, so she often didn't know the real time. On the fifth day, she saw Lake Baikal, the deepest lake in the world. “The view from the window was amazing. I took two hundred photos.”",
-    "When the train finally arrived at its destination, Malika felt sad. She bought a small wooden souvenir at the station and said goodbye to her new friends. “Flying is faster,” she says, “but on a train you really see a country. Next year I'm going to take the train across China.”"
-  ],
-  "tfng": [
-    {"q": "Malika's friends were surprised by her travel plan.", "a": "TRUE"},
-    {"q": "Malika took two big suitcases on the train.", "a": "FALSE"},
-    {"q": "Malika's train ticket cost more than a plane ticket.", "a": "NOT GIVEN"},
-    {"q": "Malika knew the other people in her room before the trip.", "a": "FALSE"},
-    {"q": "Malika has visited China before.", "a": "NOT GIVEN"}
-  ],
-  "mcq": [
-    {"q": "What did passengers do when the train stopped?", "options": ["They slept in the station.", "They bought food on the platform.", "They changed to a different train."], "a": "B"},
-    {"q": "Why did Malika use her hands to talk to people?", "options": ["Her Russian was not very good.", "The carriage was too noisy.", "She was playing a game."], "a": "A"},
-    {"q": "How did Malika feel at the end of the journey?", "options": ["happy to be home", "tired and bored", "sad to leave"], "a": "C"}
-  ],
-  "which_para": [
-    {"q": "a description of where passengers slept and ate on the train", "a": "B"},
-    {"q": "a plan for another trip", "a": "E"}
-  ],
-  "completion": [
-    {"q": "Malika works as a ______ in Tashkent.", "a": "teacher"},
-    {"q": "A young mother gave Malika some homemade bread and ______.", "a": "fish"},
-    {"q": "At Lake Baikal, Malika took two hundred ______.", "a": "photos"}
-  ],
-  "vocab_match": [
-    {"word": "journey", "meaning": "a trip from one place to another"},
-    {"word": "luggage", "meaning": "the bags you take with you when you travel"},
-    {"word": "stranger", "meaning": "a person you do not know"},
-    {"word": "crowded", "meaning": "full of people"},
-    {"word": "destination", "meaning": "the place where you are going"},
-    {"word": "souvenir", "meaning": "a thing you buy to remember a place"}
-  ],
-  "gapfill": [
-    {"s": "Let's look at the ______ and find out when the next bus leaves.", "a": "timetable"},
-    {"s": "Please wait for the train on ______ 3.", "a": "platform"},
-    {"s": "This sofa is so ______ that I fell asleep on it.", "a": "comfortable"},
-    {"s": "From the top of the tower, the ______ of the old city was beautiful.", "a": "view"},
-    {"s": "Every ______ on the plane must wear a seat belt.", "a": "passenger"},
-    {"s": "The restaurant ______ is in the middle of the train.", "a": "carriage"}
-  ]
+ "n": 4,
+ "topic": "Travel",
+ "title": "Six Days on the Trans-Siberian",
+ "intro": "You are going to read about a young teacher from Tashkent who crossed Russia by train.",
+ "vocab": [
+  {
+   "word": "journey",
+   "pos": "n",
+   "uz": "safar, sayohat",
+   "ex": "The journey from Tashkent to Samarkand takes about two hours by fast train."
+  },
+  {
+   "word": "passenger",
+   "pos": "n",
+   "uz": "yo‘lovchi",
+   "ex": "The bus was full, and some passengers had to stand."
+  },
+  {
+   "word": "carriage",
+   "pos": "n",
+   "uz": "vagon",
+   "ex": "Our seats are in the last carriage of the train."
+  },
+  {
+   "word": "luggage",
+   "pos": "n",
+   "uz": "yuk, bagaj",
+   "ex": "Don't take too much luggage on a long trip."
+  },
+  {
+   "word": "crowded",
+   "pos": "adj",
+   "uz": "odam gavjum, tiqilinch",
+   "ex": "The market is always crowded on Sundays."
+  },
+  {
+   "word": "comfortable",
+   "pos": "adj",
+   "uz": "qulay",
+   "ex": "These shoes are very comfortable for walking."
+  },
+  {
+   "word": "stranger",
+   "pos": "n",
+   "uz": "notanish odam, begona",
+   "ex": "My little brother never talks to strangers."
+  },
+  {
+   "word": "platform",
+   "pos": "n",
+   "uz": "perron (vokzalda)",
+   "ex": "The train to Bukhara leaves from platform 2."
+  },
+  {
+   "word": "timetable",
+   "pos": "n",
+   "uz": "qatnov jadvali",
+   "ex": "I checked the bus timetable on my phone."
+  },
+  {
+   "word": "view",
+   "pos": "n",
+   "uz": "manzara, ko‘rinish",
+   "ex": "There is a lovely view of the mountains from our hotel."
+  },
+  {
+   "word": "destination",
+   "pos": "n",
+   "uz": "borish manzili",
+   "ex": "After ten hours on the road, we finally reached our destination."
+  },
+  {
+   "word": "souvenir",
+   "pos": "n",
+   "uz": "esdalik sovg‘a",
+   "ex": "She bought a small plate as a souvenir of Khiva."
+  }
+ ],
+ "passage": [
+  "Last summer, Malika Yusupova, a 24-year-old teacher from Tashkent, made the longest train journey of her life. She travelled on the Trans-Siberian Railway from Moscow to Vladivostok. The trip is more than 9,000 kilometres long and takes almost a week. “My friends thought I was crazy,” she laughs. “They asked me, ‘Why don't you just fly?’”",
+  "Malika shared a small room on the train with three other passengers. At night, the seats became beds. Her only luggage was one backpack, because there was not much space. At the end of every carriage there was a big machine with hot water, so people made tea and noodles all day. The carriage was often crowded and noisy, but it was warm and quite comfortable.",
+  "The best thing, she says, was the people. “On the first day, everyone was a stranger. By the third day, we were like a family.” An old man from Omsk taught her card games, and a young mother shared her homemade bread and fish. Malika didn't speak Russian very well, so she used her hands and a lot of smiles.",
+  "Every few hours, the train stopped for twenty or thirty minutes. Passengers jumped off and bought hot food from women on the platform. Malika always checked the timetable on the wall first. “If you are late, the train leaves without you!” The train also crossed seven time zones, so she often didn't know the real time. On the fifth day, she saw Lake Baikal, the deepest lake in the world. “The view from the window was amazing. I took two hundred photos.”",
+  "When the train finally arrived at its destination, Malika felt sad. She bought a small wooden souvenir at the station and said goodbye to her new friends. “Flying is faster,” she says, “but on a train you really see a country. Next year I'm going to take the train across China.”"
+ ],
+ "tfng": [
+  {
+   "q": "Malika's friends were surprised by her travel plan.",
+   "a": "TRUE"
+  },
+  {
+   "q": "Malika took two big suitcases on the train.",
+   "a": "FALSE"
+  },
+  {
+   "q": "Malika's train ticket cost more than a plane ticket.",
+   "a": "NOT GIVEN"
+  },
+  {
+   "q": "Malika knew the other people in her room before the trip.",
+   "a": "FALSE"
+  },
+  {
+   "q": "Malika has visited China before.",
+   "a": "NOT GIVEN"
+  }
+ ],
+ "mcq": [
+  {
+   "q": "What did passengers do when the train stopped?",
+   "options": [
+    "They slept in the station.",
+    "They bought food on the platform.",
+    "They changed to a different train."
+   ],
+   "a": "B"
+  },
+  {
+   "q": "Why did Malika use her hands to talk to people?",
+   "options": [
+    "Her Russian was not very good.",
+    "The carriage was too noisy.",
+    "She was playing a game."
+   ],
+   "a": "A"
+  },
+  {
+   "q": "How did Malika feel at the end of the journey?",
+   "options": [
+    "happy to be home",
+    "tired and bored",
+    "sad to leave"
+   ],
+   "a": "C"
+  }
+ ],
+ "which_para": [
+  {
+   "q": "a description of where passengers slept and ate on the train",
+   "a": "B"
+  },
+  {
+   "q": "a plan for another trip",
+   "a": "E"
+  }
+ ],
+ "completion": [
+  {
+   "q": "Malika works as a ______ in Tashkent.",
+   "a": "teacher"
+  },
+  {
+   "q": "A young mother gave Malika some homemade bread and ______.",
+   "a": "fish"
+  },
+  {
+   "q": "At Lake Baikal, Malika took two hundred ______.",
+   "a": "photos"
+  }
+ ],
+ "vocab_match": [
+  {
+   "word": "journey",
+   "meaning": "a trip from one place to another"
+  },
+  {
+   "word": "luggage",
+   "meaning": "the bags you take with you when you travel"
+  },
+  {
+   "word": "stranger",
+   "meaning": "a person you do not know"
+  },
+  {
+   "word": "crowded",
+   "meaning": "full of people"
+  },
+  {
+   "word": "destination",
+   "meaning": "the place where you are going"
+  },
+  {
+   "word": "souvenir",
+   "meaning": "a thing you buy to remember a place"
+  }
+ ],
+ "gapfill": [
+  {
+   "s": "Let's look at the ______ and find out when the next bus leaves.",
+   "a": "timetable"
+  },
+  {
+   "s": "Please wait for the train on ______ 3.",
+   "a": "platform"
+  },
+  {
+   "s": "This sofa is so ______ that I fell asleep on it.",
+   "a": "comfortable"
+  },
+  {
+   "s": "From the top of the tower, the ______ of the old city was beautiful.",
+   "a": "view"
+  },
+  {
+   "s": "Every ______ on the plane must wear a seat belt.",
+   "a": "passenger"
+  },
+  {
+   "s": "The restaurant ______ is in the middle of the train.",
+   "a": "carriage"
+  }
+ ]
 }

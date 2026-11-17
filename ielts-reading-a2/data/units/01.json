@@ -1,215 +1,214 @@
 {
-  "n": 1,
-  "topic": "Daily life",
-  "emoji": "🚌",
-  "title": "The Woman on the Number 7",
-  "intro": "You are going to read about a woman who drives a bus in a big British city.",
-  "vocab": [
-    {
-      "word": "shift",
-      "pos": "n",
-      "uz": "smena (ish vaqti)",
-      "ex": "My father works the night shift at the hospital."
-    },
-    {
-      "word": "uniform",
-      "pos": "n",
-      "uz": "forma, kiyim-bosh",
-      "ex": "Police officers wear a dark uniform."
-    },
-    {
-      "word": "route",
-      "pos": "n",
-      "uz": "yo‘nalish, marshrut",
-      "ex": "This bus route goes past the old market."
-    },
-    {
-      "word": "journey",
-      "pos": "n",
-      "uz": "yo‘l, safar",
-      "ex": "The journey to my grandmother’s village takes three hours."
-    },
-    {
-      "word": "timetable",
-      "pos": "n",
-      "uz": "jadval (qatnov jadvali)",
-      "ex": "Check the timetable before you go to the station."
-    },
-    {
-      "word": "traffic",
-      "pos": "n",
-      "uz": "transport harakati, tirbandlik",
-      "ex": "The traffic is very bad in the evening."
-    },
-    {
-      "word": "patient",
-      "pos": "adj",
-      "uz": "sabrli",
-      "ex": "A good teacher is always patient with young children."
-    },
-    {
-      "word": "passenger",
-      "pos": "n",
-      "uz": "yo‘lovchi",
-      "ex": "The taxi can take four passengers."
-    },
-    {
-      "word": "regular",
-      "pos": "adj",
-      "uz": "doimiy, muntazam",
-      "ex": "She is a regular visitor to our library."
-    },
-    {
-      "word": "wave",
-      "pos": "v",
-      "uz": "qo‘l silkitmoq",
-      "ex": "The children waved to us from the window."
-    },
-    {
-      "word": "polite",
-      "pos": "adj",
-      "uz": "xushmuomala, odobli",
-      "ex": "It is polite to say ‘thank you’."
-    },
-    {
-      "word": "career",
-      "pos": "n",
-      "uz": "kasb, martaba",
-      "ex": "He started his career as a cook in a small café."
-    }
-  ],
-  "passage": [
-    "Every weekday, Linda Morris gets up at 4 a.m. while her family is still asleep. She drinks a cup of tea, puts on her blue uniform and walks to the bus station near her house in Manchester. Her shift starts at 4:45, and her first bus leaves at five o’clock. ‘The city is very quiet then,’ she says. ‘It’s my favourite time of the day.’",
-    "Linda drives the number 7 bus. Her route goes from the city centre to a big hospital and back again. One journey takes about fifty minutes, and she does it six times a day. She must follow a strict timetable, but this is not always easy. After eight o’clock there is a lot of traffic, and sometimes the bus is ten minutes late. ‘You need to be patient in this job,’ she laughs.",
-    "The early passengers are mostly nurses, cleaners and builders. Many of them are regular passengers, and Linda knows their names. An old man called Frank gets on at the same stop every morning. He always says ‘Good morning, driver!’ and gives her a sweet. Children from a primary school wave to her from the pavement. ‘People are usually very polite,’ she says. ‘Only a few are rude, and that is often because they are tired.’",
-    "Linda did not always drive buses. For twenty years she worked in an office, and she sat at a computer all day. When she was forty-five, she decided to change her career. She took lessons for three months and passed a difficult driving test. Her friends were surprised, but her son was very proud of her.",
-    "Linda finishes work at 1:30 p.m. In the afternoon she goes for a walk or sleeps for an hour, and she goes to bed at nine o’clock. Is she happy with her new life? ‘Yes,’ she says. ‘I never want to go back to the office. On the bus, every day is a little different.’"
-  ],
-  "tfng": [
-    {
-      "q": "Linda leaves home before her family wakes up.",
-      "a": "TRUE"
-    },
-    {
-      "q": "Linda drives from the city centre to the hospital four times a day.",
-      "a": "FALSE"
-    },
-    {
-      "q": "Frank works at the hospital.",
-      "a": "NOT GIVEN"
-    },
-    {
-      "q": "Linda found her driving test difficult.",
-      "a": "TRUE"
-    },
-    {
-      "q": "Linda earns more money now than in her old job.",
-      "a": "NOT GIVEN"
-    }
-  ],
-  "mcq": [
-    {
-      "q": "What does Linda like about the early morning?",
-      "options": [
-        "The city is quiet.",
-        "There are a lot of passengers.",
-        "She can drink tea on the bus."
-      ],
-      "a": "A"
-    },
-    {
-      "q": "Why is the bus sometimes late?",
-      "options": [
-        "The passengers are slow.",
-        "There is a lot of traffic.",
-        "The bus is very old."
-      ],
-      "a": "B"
-    },
-    {
-      "q": "What did Linda do before she became a bus driver?",
-      "options": [
-        "She was a nurse.",
-        "She was a driving teacher.",
-        "She worked in an office."
-      ],
-      "a": "C"
-    }
-  ],
-  "which_para": [
-    {
-      "q": "how passengers behave towards Linda",
-      "a": "C"
-    },
-    {
-      "q": "information about Linda’s job before she drove buses",
-      "a": "D"
-    }
-  ],
-  "completion": [
-    {
-      "q": "Linda wears a blue ______ at work.",
-      "a": "uniform"
-    },
-    {
-      "q": "Every morning, an old man gives Linda a ______.",
-      "a": "sweet"
-    },
-    {
-      "q": "Linda took driving lessons for three ______.",
-      "a": "months"
-    }
-  ],
-  "vocab_match": [
-    {
-      "word": "shift",
-      "meaning": "the hours when a person is at work"
-    },
-    {
-      "word": "route",
-      "meaning": "the way a bus goes from one place to another"
-    },
-    {
-      "word": "patient",
-      "meaning": "able to wait without getting angry"
-    },
-    {
-      "word": "regular",
-      "meaning": "doing the same thing often, at the usual time"
-    },
-    {
-      "word": "polite",
-      "meaning": "speaking and acting in a nice, kind way"
-    },
-    {
-      "word": "career",
-      "meaning": "the work a person does for a long part of their life"
-    }
-  ],
-  "gapfill": [
-    {
-      "s": "The ______ says the next train to Bukhara leaves at 7:15.",
-      "a": "timetable"
-    },
-    {
-      "s": "There was a lot of ______ on the road, so we were late for the wedding.",
-      "a": "traffic"
-    },
-    {
-      "s": "All the students at my school wear a dark blue ______.",
-      "a": "uniform"
-    },
-    {
-      "s": "The ______ from Tashkent to Samarkand takes about two hours by fast train.",
-      "a": "journey"
-    },
-    {
-      "s": "The bus was full, so one ______ had to stand near the door.",
-      "a": "passenger"
-    },
-    {
-      "s": "My little brother likes to ______ to the planes in the sky.",
-      "a": "wave"
-    }
-  ]
+ "n": 1,
+ "topic": "Daily life",
+ "title": "The Woman on the Number 7",
+ "intro": "You are going to read about a woman who drives a bus in a big British city.",
+ "vocab": [
+  {
+   "word": "shift",
+   "pos": "n",
+   "uz": "smena (ish vaqti)",
+   "ex": "My father works the night shift at the hospital."
+  },
+  {
+   "word": "uniform",
+   "pos": "n",
+   "uz": "forma, kiyim-bosh",
+   "ex": "Police officers wear a dark uniform."
+  },
+  {
+   "word": "route",
+   "pos": "n",
+   "uz": "yo‘nalish, marshrut",
+   "ex": "This bus route goes past the old market."
+  },
+  {
+   "word": "journey",
+   "pos": "n",
+   "uz": "yo‘l, safar",
+   "ex": "The journey to my grandmother’s village takes three hours."
+  },
+  {
+   "word": "timetable",
+   "pos": "n",
+   "uz": "jadval (qatnov jadvali)",
+   "ex": "Check the timetable before you go to the station."
+  },
+  {
+   "word": "traffic",
+   "pos": "n",
+   "uz": "transport harakati, tirbandlik",
+   "ex": "The traffic is very bad in the evening."
+  },
+  {
+   "word": "patient",
+   "pos": "adj",
+   "uz": "sabrli",
+   "ex": "A good teacher is always patient with young children."
+  },
+  {
+   "word": "passenger",
+   "pos": "n",
+   "uz": "yo‘lovchi",
+   "ex": "The taxi can take four passengers."
+  },
+  {
+   "word": "regular",
+   "pos": "adj",
+   "uz": "doimiy, muntazam",
+   "ex": "She is a regular visitor to our library."
+  },
+  {
+   "word": "wave",
+   "pos": "v",
+   "uz": "qo‘l silkitmoq",
+   "ex": "The children waved to us from the window."
+  },
+  {
+   "word": "polite",
+   "pos": "adj",
+   "uz": "xushmuomala, odobli",
+   "ex": "It is polite to say ‘thank you’."
+  },
+  {
+   "word": "career",
+   "pos": "n",
+   "uz": "kasb, martaba",
+   "ex": "He started his career as a cook in a small café."
+  }
+ ],
+ "passage": [
+  "Every weekday, Linda Morris gets up at 4 a.m. while her family is still asleep. She drinks a cup of tea, puts on her blue uniform and walks to the bus station near her house in Manchester. Her shift starts at 4:45, and her first bus leaves at five o’clock. ‘The city is very quiet then,’ she says. ‘It’s my favourite time of the day.’",
+  "Linda drives the number 7 bus. Her route goes from the city centre to a big hospital and back again. One journey takes about fifty minutes, and she does it six times a day. She must follow a strict timetable, but this is not always easy. After eight o’clock there is a lot of traffic, and sometimes the bus is ten minutes late. ‘You need to be patient in this job,’ she laughs.",
+  "The early passengers are mostly nurses, cleaners and builders. Many of them are regular passengers, and Linda knows their names. An old man called Frank gets on at the same stop every morning. He always says ‘Good morning, driver!’ and gives her a sweet. Children from a primary school wave to her from the pavement. ‘People are usually very polite,’ she says. ‘Only a few are rude, and that is often because they are tired.’",
+  "Linda did not always drive buses. For twenty years she worked in an office, and she sat at a computer all day. When she was forty-five, she decided to change her career. She took lessons for three months and passed a difficult driving test. Her friends were surprised, but her son was very proud of her.",
+  "Linda finishes work at 1:30 p.m. In the afternoon she goes for a walk or sleeps for an hour, and she goes to bed at nine o’clock. Is she happy with her new life? ‘Yes,’ she says. ‘I never want to go back to the office. On the bus, every day is a little different.’"
+ ],
+ "tfng": [
+  {
+   "q": "Linda leaves home before her family wakes up.",
+   "a": "TRUE"
+  },
+  {
+   "q": "Linda drives from the city centre to the hospital four times a day.",
+   "a": "FALSE"
+  },
+  {
+   "q": "Frank works at the hospital.",
+   "a": "NOT GIVEN"
+  },
+  {
+   "q": "Linda found her driving test difficult.",
+   "a": "TRUE"
+  },
+  {
+   "q": "Linda earns more money now than in her old job.",
+   "a": "NOT GIVEN"
+  }
+ ],
+ "mcq": [
+  {
+   "q": "What does Linda like about the early morning?",
+   "options": [
+    "The city is quiet.",
+    "There are a lot of passengers.",
+    "She can drink tea on the bus."
+   ],
+   "a": "A"
+  },
+  {
+   "q": "Why is the bus sometimes late?",
+   "options": [
+    "The passengers are slow.",
+    "There is a lot of traffic.",
+    "The bus is very old."
+   ],
+   "a": "B"
+  },
+  {
+   "q": "What did Linda do before she became a bus driver?",
+   "options": [
+    "She was a nurse.",
+    "She was a driving teacher.",
+    "She worked in an office."
+   ],
+   "a": "C"
+  }
+ ],
+ "which_para": [
+  {
+   "q": "how passengers behave towards Linda",
+   "a": "C"
+  },
+  {
+   "q": "information about Linda’s job before she drove buses",
+   "a": "D"
+  }
+ ],
+ "completion": [
+  {
+   "q": "Linda wears a blue ______ at work.",
+   "a": "uniform"
+  },
+  {
+   "q": "Every morning, an old man gives Linda a ______.",
+   "a": "sweet"
+  },
+  {
+   "q": "Linda took driving lessons for three ______.",
+   "a": "months"
+  }
+ ],
+ "vocab_match": [
+  {
+   "word": "shift",
+   "meaning": "the hours when a person is at work"
+  },
+  {
+   "word": "route",
+   "meaning": "the way a bus goes from one place to another"
+  },
+  {
+   "word": "patient",
+   "meaning": "able to wait without getting angry"
+  },
+  {
+   "word": "regular",
+   "meaning": "doing the same thing often, at the usual time"
+  },
+  {
+   "word": "polite",
+   "meaning": "speaking and acting in a nice, kind way"
+  },
+  {
+   "word": "career",
+   "meaning": "the work a person does for a long part of their life"
+  }
+ ],
+ "gapfill": [
+  {
+   "s": "The ______ says the next train to Bukhara leaves at 7:15.",
+   "a": "timetable"
+  },
+  {
+   "s": "There was a lot of ______ on the road, so we were late for the wedding.",
+   "a": "traffic"
+  },
+  {
+   "s": "All the students at my school wear a dark blue ______.",
+   "a": "uniform"
+  },
+  {
+   "s": "The ______ from Tashkent to Samarkand takes about two hours by fast train.",
+   "a": "journey"
+  },
+  {
+   "s": "The bus was full, so one ______ had to stand near the door.",
+   "a": "passenger"
+  },
+  {
+   "s": "My little brother likes to ______ to the planes in the sky.",
+   "a": "wave"
+  }
+ ]
 }

@@ -7,8 +7,7 @@ may be slightly harder (A2+/B1), because they are the words being taught. Use Br
 ```jsonc
 {
   "n": 1,
-  "topic": "Daily life",                 // 1–3 words, shown on the unit banner
-  "emoji": "⏰",
+  "topic": "Daily life",                 // 1–3 words, shown on the unit banner; its SVG icon is mapped in scripts/icons.py
   "title": "A Day in the Life of a Baker", // passage title
   "intro": "One sentence that introduces the text, e.g. 'You are going to read about a man who bakes bread every night.'",
   "vocab": [                              // exactly 12, every word appears in the passage (any form)

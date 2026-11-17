@@ -1,215 +1,214 @@
 {
-  "n": 3,
-  "topic": "Homes",
-  "emoji": "🏠",
-  "title": "Three Homes, Three Lives",
-  "intro": "You are going to read about three people who live in very different homes.",
-  "vocab": [
-    {
-      "word": "stove",
-      "pos": "n",
-      "uz": "pechka, plita",
-      "ex": "We cook dinner on a gas stove."
-    },
-    {
-      "word": "pack",
-      "pos": "v",
-      "uz": "yig‘ishtirmoq, joylamoq",
-      "ex": "Don’t forget to pack your passport."
-    },
-    {
-      "word": "comfortable",
-      "pos": "adj",
-      "uz": "qulay",
-      "ex": "This old sofa is very comfortable."
-    },
-    {
-      "word": "view",
-      "pos": "n",
-      "uz": "manzara, ko‘rinish",
-      "ex": "There is a beautiful view of the mountains from our window."
-    },
-    {
-      "word": "lift",
-      "pos": "n",
-      "uz": "lift",
-      "ex": "The lift in our building is broken again."
-    },
-    {
-      "word": "canal",
-      "pos": "n",
-      "uz": "kanal",
-      "ex": "Ducks swim in the canal behind the factory."
-    },
-    {
-      "word": "rent",
-      "pos": "n",
-      "uz": "ijara haqi",
-      "ex": "Students often share a flat because the rent is high."
-    },
-    {
-      "word": "space",
-      "pos": "n",
-      "uz": "joy, bo‘sh joy",
-      "ex": "There is enough space in the car for five people."
-    },
-    {
-      "word": "furniture",
-      "pos": "n",
-      "uz": "mebel",
-      "ex": "They bought all their furniture from a second-hand shop."
-    },
-    {
-      "word": "roof",
-      "pos": "n",
-      "uz": "tom",
-      "ex": "A cat is sleeping on the roof of the garage."
-    },
-    {
-      "word": "neighbour",
-      "pos": "n",
-      "uz": "qo‘shni",
-      "ex": "Our neighbour often brings us fresh bread."
-    },
-    {
-      "word": "cosy",
-      "pos": "adj",
-      "uz": "shinam, issiq va qulay",
-      "ex": "The little café was warm and cosy."
-    }
-  ],
-  "passage": [
-    "What does ‘home’ mean to you? For most people, it is a house or a flat. But homes can be very different. We asked three people from three countries to tell us about their homes.",
-    "Bolor, 34, lives with her husband and two children in a yurt in the north of Mongolia. ‘Our home is round and made of wood and thick sheep’s wool,’ she says. ‘There is a stove in the middle. We use it for cooking, and it keeps us warm when it is minus thirty outside.’ The family keeps sheep and goats, so they move four times a year to find fresh grass. ‘We can pack the yurt in about two hours and put it on a truck,’ Bolor explains.",
-    "Dilshod, 27, is a software engineer in Tashkent. He lives alone on the fourteenth floor of a new building. His flat is small, but it is modern and comfortable. ‘The best thing is the view,’ he says. ‘At night I can see the lights of the whole city.’ But last winter the lift stopped working for a week, and he had to walk up and down the stairs every day. ‘That was good exercise!’ he laughs.",
-    "Kate and Sam live on a narrow boat on a canal in London. Rent in the city is very expensive, so six years ago they bought an old boat and repaired it. There isn’t much space inside, and they have very little furniture. In summer, the sound of the rain on the roof is lovely, but in winter the boat can get cold. They must move to a new place on the canal every two weeks, so their neighbours often change.",
-    "So, who has the best home? All three are happy with their choice. Bolor loves the open land around her yurt. Dilshod likes living near his office. And Kate says their little boat is the cosiest home in London. ‘It’s small,’ she says, ‘but it’s ours.’"
-  ],
-  "tfng": [
-    {
-      "q": "Bolor’s family moves their yurt four times a year.",
-      "a": "TRUE"
-    },
-    {
-      "q": "Bolor’s family uses the stove only for cooking.",
-      "a": "FALSE"
-    },
-    {
-      "q": "Dilshod shares his flat with a friend.",
-      "a": "FALSE"
-    },
-    {
-      "q": "Dilshod’s building has a swimming pool.",
-      "a": "NOT GIVEN"
-    },
-    {
-      "q": "Kate and Sam both work in central London.",
-      "a": "NOT GIVEN"
-    }
-  ],
-  "mcq": [
-    {
-      "q": "Why does Bolor’s family move?",
-      "options": [
-        "To live nearer a city.",
-        "To find grass for their animals.",
-        "Because their yurt is too small."
-      ],
-      "a": "B"
-    },
-    {
-      "q": "What happened to Dilshod last winter?",
-      "options": [
-        "He could not use the lift.",
-        "His flat got very cold.",
-        "He moved to a new building."
-      ],
-      "a": "A"
-    },
-    {
-      "q": "Why did Kate and Sam decide to live on a boat?",
-      "options": [
-        "They love swimming.",
-        "They wanted to travel around England.",
-        "Renting a home in London is very expensive."
-      ],
-      "a": "C"
-    }
-  ],
-  "which_para": [
-    {
-      "q": "a home that is very high above the ground",
-      "a": "C"
-    },
-    {
-      "q": "the reason why some people do not have the same neighbours for long",
-      "a": "D"
-    }
-  ],
-  "completion": [
-    {
-      "q": "Bolor’s yurt is made of wood and thick sheep’s ______.",
-      "a": "wool"
-    },
-    {
-      "q": "At night, Dilshod can see the ______ of the whole city.",
-      "a": "lights"
-    },
-    {
-      "q": "In summer, Kate and Sam love the sound of the ______ on the roof.",
-      "a": "rain"
-    }
-  ],
-  "vocab_match": [
-    {
-      "word": "neighbour",
-      "meaning": "a person who lives next to you or near you"
-    },
-    {
-      "word": "stove",
-      "meaning": "a thing that you use for cooking or for heating a room"
-    },
-    {
-      "word": "view",
-      "meaning": "what you can see from a window or a high place"
-    },
-    {
-      "word": "rent",
-      "meaning": "money you pay every month to live in someone’s home"
-    },
-    {
-      "word": "cosy",
-      "meaning": "small, warm and comfortable"
-    },
-    {
-      "word": "pack",
-      "meaning": "put things into bags or boxes before you travel"
-    }
-  ],
-  "gapfill": [
-    {
-      "s": "After the storm, there was a hole in the ______, and water came into the house.",
-      "a": "roof"
-    },
-    {
-      "s": "We bought new ______ for the living room: a sofa, two chairs and a table.",
-      "a": "furniture"
-    },
-    {
-      "s": "My bedroom is very small. There is no ______ for a desk.",
-      "a": "space"
-    },
-    {
-      "s": "These shoes are very ______. I can walk in them all day.",
-      "a": "comfortable"
-    },
-    {
-      "s": "Our office is on the tenth floor, so we always take the ______.",
-      "a": "lift"
-    },
-    {
-      "s": "In Venice, many houses stand next to a ______, and people travel by boat.",
-      "a": "canal"
-    }
-  ]
+ "n": 3,
+ "topic": "Homes",
+ "title": "Three Homes, Three Lives",
+ "intro": "You are going to read about three people who live in very different homes.",
+ "vocab": [
+  {
+   "word": "stove",
+   "pos": "n",
+   "uz": "pechka, plita",
+   "ex": "We cook dinner on a gas stove."
+  },
+  {
+   "word": "pack",
+   "pos": "v",
+   "uz": "yig‘ishtirmoq, joylamoq",
+   "ex": "Don’t forget to pack your passport."
+  },
+  {
+   "word": "comfortable",
+   "pos": "adj",
+   "uz": "qulay",
+   "ex": "This old sofa is very comfortable."
+  },
+  {
+   "word": "view",
+   "pos": "n",
+   "uz": "manzara, ko‘rinish",
+   "ex": "There is a beautiful view of the mountains from our window."
+  },
+  {
+   "word": "lift",
+   "pos": "n",
+   "uz": "lift",
+   "ex": "The lift in our building is broken again."
+  },
+  {
+   "word": "canal",
+   "pos": "n",
+   "uz": "kanal",
+   "ex": "Ducks swim in the canal behind the factory."
+  },
+  {
+   "word": "rent",
+   "pos": "n",
+   "uz": "ijara haqi",
+   "ex": "Students often share a flat because the rent is high."
+  },
+  {
+   "word": "space",
+   "pos": "n",
+   "uz": "joy, bo‘sh joy",
+   "ex": "There is enough space in the car for five people."
+  },
+  {
+   "word": "furniture",
+   "pos": "n",
+   "uz": "mebel",
+   "ex": "They bought all their furniture from a second-hand shop."
+  },
+  {
+   "word": "roof",
+   "pos": "n",
+   "uz": "tom",
+   "ex": "A cat is sleeping on the roof of the garage."
+  },
+  {
+   "word": "neighbour",
+   "pos": "n",
+   "uz": "qo‘shni",
+   "ex": "Our neighbour often brings us fresh bread."
+  },
+  {
+   "word": "cosy",
+   "pos": "adj",
+   "uz": "shinam, issiq va qulay",
+   "ex": "The little café was warm and cosy."
+  }
+ ],
+ "passage": [
+  "What does ‘home’ mean to you? For most people, it is a house or a flat. But homes can be very different. We asked three people from three countries to tell us about their homes.",
+  "Bolor, 34, lives with her husband and two children in a yurt in the north of Mongolia. ‘Our home is round and made of wood and thick sheep’s wool,’ she says. ‘There is a stove in the middle. We use it for cooking, and it keeps us warm when it is minus thirty outside.’ The family keeps sheep and goats, so they move four times a year to find fresh grass. ‘We can pack the yurt in about two hours and put it on a truck,’ Bolor explains.",
+  "Dilshod, 27, is a software engineer in Tashkent. He lives alone on the fourteenth floor of a new building. His flat is small, but it is modern and comfortable. ‘The best thing is the view,’ he says. ‘At night I can see the lights of the whole city.’ But last winter the lift stopped working for a week, and he had to walk up and down the stairs every day. ‘That was good exercise!’ he laughs.",
+  "Kate and Sam live on a narrow boat on a canal in London. Rent in the city is very expensive, so six years ago they bought an old boat and repaired it. There isn’t much space inside, and they have very little furniture. In summer, the sound of the rain on the roof is lovely, but in winter the boat can get cold. They must move to a new place on the canal every two weeks, so their neighbours often change.",
+  "So, who has the best home? All three are happy with their choice. Bolor loves the open land around her yurt. Dilshod likes living near his office. And Kate says their little boat is the cosiest home in London. ‘It’s small,’ she says, ‘but it’s ours.’"
+ ],
+ "tfng": [
+  {
+   "q": "Bolor’s family moves their yurt four times a year.",
+   "a": "TRUE"
+  },
+  {
+   "q": "Bolor’s family uses the stove only for cooking.",
+   "a": "FALSE"
+  },
+  {
+   "q": "Dilshod shares his flat with a friend.",
+   "a": "FALSE"
+  },
+  {
+   "q": "Dilshod’s building has a swimming pool.",
+   "a": "NOT GIVEN"
+  },
+  {
+   "q": "Kate and Sam both work in central London.",
+   "a": "NOT GIVEN"
+  }
+ ],
+ "mcq": [
+  {
+   "q": "Why does Bolor’s family move?",
+   "options": [
+    "To live nearer a city.",
+    "To find grass for their animals.",
+    "Because their yurt is too small."
+   ],
+   "a": "B"
+  },
+  {
+   "q": "What happened to Dilshod last winter?",
+   "options": [
+    "He could not use the lift.",
+    "His flat got very cold.",
+    "He moved to a new building."
+   ],
+   "a": "A"
+  },
+  {
+   "q": "Why did Kate and Sam decide to live on a boat?",
+   "options": [
+    "They love swimming.",
+    "They wanted to travel around England.",
+    "Renting a home in London is very expensive."
+   ],
+   "a": "C"
+  }
+ ],
+ "which_para": [
+  {
+   "q": "a home that is very high above the ground",
+   "a": "C"
+  },
+  {
+   "q": "the reason why some people do not have the same neighbours for long",
+   "a": "D"
+  }
+ ],
+ "completion": [
+  {
+   "q": "Bolor’s yurt is made of wood and thick sheep’s ______.",
+   "a": "wool"
+  },
+  {
+   "q": "At night, Dilshod can see the ______ of the whole city.",
+   "a": "lights"
+  },
+  {
+   "q": "In summer, Kate and Sam love the sound of the ______ on the roof.",
+   "a": "rain"
+  }
+ ],
+ "vocab_match": [
+  {
+   "word": "neighbour",
+   "meaning": "a person who lives next to you or near you"
+  },
+  {
+   "word": "stove",
+   "meaning": "a thing that you use for cooking or for heating a room"
+  },
+  {
+   "word": "view",
+   "meaning": "what you can see from a window or a high place"
+  },
+  {
+   "word": "rent",
+   "meaning": "money you pay every month to live in someone’s home"
+  },
+  {
+   "word": "cosy",
+   "meaning": "small, warm and comfortable"
+  },
+  {
+   "word": "pack",
+   "meaning": "put things into bags or boxes before you travel"
+  }
+ ],
+ "gapfill": [
+  {
+   "s": "After the storm, there was a hole in the ______, and water came into the house.",
+   "a": "roof"
+  },
+  {
+   "s": "We bought new ______ for the living room: a sofa, two chairs and a table.",
+   "a": "furniture"
+  },
+  {
+   "s": "My bedroom is very small. There is no ______ for a desk.",
+   "a": "space"
+  },
+  {
+   "s": "These shoes are very ______. I can walk in them all day.",
+   "a": "comfortable"
+  },
+  {
+   "s": "Our office is on the tenth floor, so we always take the ______.",
+   "a": "lift"
+  },
+  {
+   "s": "In Venice, many houses stand next to a ______, and people travel by boat.",
+   "a": "canal"
+  }
+ ]
 }

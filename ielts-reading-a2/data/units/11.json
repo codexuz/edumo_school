@@ -1,65 +1,214 @@
 {
-  "n": 11,
-  "topic": "Festivals",
-  "emoji": "🌷",
-  "title": "Navruz: One New Year, Many Countries",
-  "intro": "You are going to read about how people in different countries celebrate Navruz, the spring new year.",
-  "vocab": [
-    {"word": "celebrate", "pos": "v", "uz": "nishonlamoq", "ex": "We celebrate my grandfather's birthday every June."},
-    {"word": "tradition", "pos": "n", "uz": "an’ana", "ex": "Drinking green tea with guests is an old tradition in our family."},
-    {"word": "ancient", "pos": "adj", "uz": "qadimiy", "ex": "Bukhara is an ancient city."},
-    {"word": "wish", "pos": "n", "uz": "tilak, orzu", "ex": "Close your eyes and make a wish!"},
-    {"word": "stir", "pos": "v", "uz": "aralashtirmoq", "ex": "Stir the soup slowly with a big spoon."},
-    {"word": "pot", "pos": "n", "uz": "qozon, kastrulka", "ex": "My mother cooks plov in a large pot."},
-    {"word": "neighbour", "pos": "n", "uz": "qo‘shni", "ex": "Our neighbour helped us carry the new sofa."},
-    {"word": "decorate", "pos": "v", "uz": "bezamoq", "ex": "The children decorated the classroom with flowers."},
-    {"word": "symbol", "pos": "n", "uz": "ramz, belgi", "ex": "The white dove is a symbol of peace."},
-    {"word": "ingredient", "pos": "n", "uz": "masalliq, tarkibiy qism", "ex": "Flour, eggs and milk are the main ingredients of this cake."},
-    {"word": "share", "pos": "v", "uz": "baham ko‘rmoq", "ex": "Let's share this pizza."},
-    {"word": "guest", "pos": "n", "uz": "mehmon", "ex": "We had twenty guests at the wedding."}
-  ],
-  "passage": [
-    "On 20 or 21 March, the first day of spring, day and night are the same length. On this day, more than 300 million people celebrate the new year. The festival is called Navruz, which means \"new day\". It is an ancient holiday, more than 3,000 years old, and people in Central Asia, Iran, Azerbaijan and many other places still love it today.",
-    "In Uzbekistan, the most famous Navruz food is sumalak. Making it is hard work. First, women grow wheat in trays until it is green. Then they cook it with flour and oil in a giant pot. Someone has to stir it all night, so neighbours take turns. They sing songs, tell stories and laugh until the morning. There is also a fun tradition: people put small clean stones in the pot. If you find a stone in your bowl, you can make a wish.",
-    "In Iran, families decorate a special table called the haft-sin. They put seven things on it, and the name of each thing starts with the letter \"s\" in Persian. For example, there are apples, garlic and green wheat. Each thing is a symbol: apples mean beauty and garlic means good health. On the thirteenth day of the new year, most families leave the house and have a big picnic in a park.",
-    "In Azerbaijan, people jump over small fires in the weeks before Navruz. They believe the fire takes away the problems of the old year. Children also paint eggs in bright colours and play an egg game. Two players hit their eggs together, and the person with the unbroken egg wins. In Kazakhstan, people cook a soup called nauryz kozhe. It has seven ingredients, such as meat, milk and rice.",
-    "The food and games are different from country to country, but the main idea is the same. Navruz is a time to clean the house, buy new clothes and visit family. People share food with guests and forget old arguments. In 2009, UNESCO added Navruz to its list of important world traditions. After many centuries, this spring festival is still bringing people together."
-  ],
-  "tfng": [
-    {"q": "Navruz takes place on the first day of spring.", "a": "TRUE"},
-    {"q": "One person cooks sumalak from the evening until the morning.", "a": "FALSE"},
-    {"q": "Sumalak has a sweet taste.", "a": "NOT GIVEN"},
-    {"q": "There are seven things on a haft-sin table.", "a": "TRUE"},
-    {"q": "In the Azerbaijani egg game, the player with the broken egg wins.", "a": "FALSE"}
-  ],
-  "mcq": [
-    {"q": "Why do people put small stones in the sumalak pot?", "options": ["to cook the sumalak faster", "to make the pot heavier", "so people can make a wish"], "a": "C"},
-    {"q": "What do most Iranian families do on the thirteenth day of the new year?", "options": ["They paint eggs.", "They have a picnic in a park.", "They clean the house."], "a": "B"},
-    {"q": "Why do people in Azerbaijan jump over small fires?", "options": ["to say goodbye to the problems of the old year", "to keep warm in the cold weather", "to win a prize"], "a": "A"}
-  ],
-  "which_para": [
-    {"q": "the meaning of the word \"Navruz\"", "a": "A"},
-    {"q": "things that people do in every country at Navruz", "a": "E"}
-  ],
-  "completion": [
-    {"q": "The word Navruz means \"new ______\".", "a": "day"},
-    {"q": "To make sumalak, women first grow ______ in trays.", "a": "wheat"},
-    {"q": "In Kazakhstan, people make a ______ called nauryz kozhe.", "a": "soup"}
-  ],
-  "vocab_match": [
-    {"word": "celebrate", "meaning": "do something special because it is an important day"},
-    {"word": "tradition", "meaning": "something people have done in the same way for a long time"},
-    {"word": "ancient", "meaning": "very, very old"},
-    {"word": "stir", "meaning": "move a spoon round and round in food"},
-    {"word": "symbol", "meaning": "a thing that means or shows an idea"},
-    {"word": "ingredient", "meaning": "one of the foods you use to cook a dish"}
-  ],
-  "gapfill": [
-    {"s": "Blow out the candles on your cake and make a ______!", "a": "wish"},
-    {"s": "Put the water in a ______ and cook the rice for twenty minutes.", "a": "pot"},
-    {"s": "My ______ has a big dog, and it barks every night.", "a": "neighbour"},
-    {"s": "Before the New Year party, we ______ the tree with lights.", "a": "decorate"},
-    {"s": "Aziz didn't have a pen, so I decided to ______ mine with him.", "a": "share"},
-    {"s": "In Uzbekistan, a ______ always gets the best place at the table.", "a": "guest"}
-  ]
+ "n": 11,
+ "topic": "Festivals",
+ "title": "Navruz: One New Year, Many Countries",
+ "intro": "You are going to read about how people in different countries celebrate Navruz, the spring new year.",
+ "vocab": [
+  {
+   "word": "celebrate",
+   "pos": "v",
+   "uz": "nishonlamoq",
+   "ex": "We celebrate my grandfather's birthday every June."
+  },
+  {
+   "word": "tradition",
+   "pos": "n",
+   "uz": "an’ana",
+   "ex": "Drinking green tea with guests is an old tradition in our family."
+  },
+  {
+   "word": "ancient",
+   "pos": "adj",
+   "uz": "qadimiy",
+   "ex": "Bukhara is an ancient city."
+  },
+  {
+   "word": "wish",
+   "pos": "n",
+   "uz": "tilak, orzu",
+   "ex": "Close your eyes and make a wish!"
+  },
+  {
+   "word": "stir",
+   "pos": "v",
+   "uz": "aralashtirmoq",
+   "ex": "Stir the soup slowly with a big spoon."
+  },
+  {
+   "word": "pot",
+   "pos": "n",
+   "uz": "qozon, kastrulka",
+   "ex": "My mother cooks plov in a large pot."
+  },
+  {
+   "word": "neighbour",
+   "pos": "n",
+   "uz": "qo‘shni",
+   "ex": "Our neighbour helped us carry the new sofa."
+  },
+  {
+   "word": "decorate",
+   "pos": "v",
+   "uz": "bezamoq",
+   "ex": "The children decorated the classroom with flowers."
+  },
+  {
+   "word": "symbol",
+   "pos": "n",
+   "uz": "ramz, belgi",
+   "ex": "The white dove is a symbol of peace."
+  },
+  {
+   "word": "ingredient",
+   "pos": "n",
+   "uz": "masalliq, tarkibiy qism",
+   "ex": "Flour, eggs and milk are the main ingredients of this cake."
+  },
+  {
+   "word": "share",
+   "pos": "v",
+   "uz": "baham ko‘rmoq",
+   "ex": "Let's share this pizza."
+  },
+  {
+   "word": "guest",
+   "pos": "n",
+   "uz": "mehmon",
+   "ex": "We had twenty guests at the wedding."
+  }
+ ],
+ "passage": [
+  "On 20 or 21 March, the first day of spring, day and night are the same length. On this day, more than 300 million people celebrate the new year. The festival is called Navruz, which means \"new day\". It is an ancient holiday, more than 3,000 years old, and people in Central Asia, Iran, Azerbaijan and many other places still love it today.",
+  "In Uzbekistan, the most famous Navruz food is sumalak. Making it is hard work. First, women grow wheat in trays until it is green. Then they cook it with flour and oil in a giant pot. Someone has to stir it all night, so neighbours take turns. They sing songs, tell stories and laugh until the morning. There is also a fun tradition: people put small clean stones in the pot. If you find a stone in your bowl, you can make a wish.",
+  "In Iran, families decorate a special table called the haft-sin. They put seven things on it, and the name of each thing starts with the letter \"s\" in Persian. For example, there are apples, garlic and green wheat. Each thing is a symbol: apples mean beauty and garlic means good health. On the thirteenth day of the new year, most families leave the house and have a big picnic in a park.",
+  "In Azerbaijan, people jump over small fires in the weeks before Navruz. They believe the fire takes away the problems of the old year. Children also paint eggs in bright colours and play an egg game. Two players hit their eggs together, and the person with the unbroken egg wins. In Kazakhstan, people cook a soup called nauryz kozhe. It has seven ingredients, such as meat, milk and rice.",
+  "The food and games are different from country to country, but the main idea is the same. Navruz is a time to clean the house, buy new clothes and visit family. People share food with guests and forget old arguments. In 2009, UNESCO added Navruz to its list of important world traditions. After many centuries, this spring festival is still bringing people together."
+ ],
+ "tfng": [
+  {
+   "q": "Navruz takes place on the first day of spring.",
+   "a": "TRUE"
+  },
+  {
+   "q": "One person cooks sumalak from the evening until the morning.",
+   "a": "FALSE"
+  },
+  {
+   "q": "Sumalak has a sweet taste.",
+   "a": "NOT GIVEN"
+  },
+  {
+   "q": "There are seven things on a haft-sin table.",
+   "a": "TRUE"
+  },
+  {
+   "q": "In the Azerbaijani egg game, the player with the broken egg wins.",
+   "a": "FALSE"
+  }
+ ],
+ "mcq": [
+  {
+   "q": "Why do people put small stones in the sumalak pot?",
+   "options": [
+    "to cook the sumalak faster",
+    "to make the pot heavier",
+    "so people can make a wish"
+   ],
+   "a": "C"
+  },
+  {
+   "q": "What do most Iranian families do on the thirteenth day of the new year?",
+   "options": [
+    "They paint eggs.",
+    "They have a picnic in a park.",
+    "They clean the house."
+   ],
+   "a": "B"
+  },
+  {
+   "q": "Why do people in Azerbaijan jump over small fires?",
+   "options": [
+    "to say goodbye to the problems of the old year",
+    "to keep warm in the cold weather",
+    "to win a prize"
+   ],
+   "a": "A"
+  }
+ ],
+ "which_para": [
+  {
+   "q": "the meaning of the word \"Navruz\"",
+   "a": "A"
+  },
+  {
+   "q": "things that people do in every country at Navruz",
+   "a": "E"
+  }
+ ],
+ "completion": [
+  {
+   "q": "The word Navruz means \"new ______\".",
+   "a": "day"
+  },
+  {
+   "q": "To make sumalak, women first grow ______ in trays.",
+   "a": "wheat"
+  },
+  {
+   "q": "In Kazakhstan, people make a ______ called nauryz kozhe.",
+   "a": "soup"
+  }
+ ],
+ "vocab_match": [
+  {
+   "word": "celebrate",
+   "meaning": "do something special because it is an important day"
+  },
+  {
+   "word": "tradition",
+   "meaning": "something people have done in the same way for a long time"
+  },
+  {
+   "word": "ancient",
+   "meaning": "very, very old"
+  },
+  {
+   "word": "stir",
+   "meaning": "move a spoon round and round in food"
+  },
+  {
+   "word": "symbol",
+   "meaning": "a thing that means or shows an idea"
+  },
+  {
+   "word": "ingredient",
+   "meaning": "one of the foods you use to cook a dish"
+  }
+ ],
+ "gapfill": [
+  {
+   "s": "Blow out the candles on your cake and make a ______!",
+   "a": "wish"
+  },
+  {
+   "s": "Put the water in a ______ and cook the rice for twenty minutes.",
+   "a": "pot"
+  },
+  {
+   "s": "My ______ has a big dog, and it barks every night.",
+   "a": "neighbour"
+  },
+  {
+   "s": "Before the New Year party, we ______ the tree with lights.",
+   "a": "decorate"
+  },
+  {
+   "s": "Aziz didn't have a pen, so I decided to ______ mine with him.",
+   "a": "share"
+  },
+  {
+   "s": "In Uzbekistan, a ______ always gets the best place at the table.",
+   "a": "guest"
+  }
+ ]
 }

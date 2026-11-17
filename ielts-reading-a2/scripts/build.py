@@ -7,7 +7,8 @@ Back matter: answer key and an A–Z word list.
 import json
 import random
 
-from blocks import DIST, EMOJI, ROOT, e
+from blocks import DIST, ROOT, e
+from icons import icon, topic_icon
 
 UNITS = sorted((ROOT / "data" / "units").glob("*.json"))
 L = "ABCDEFGH"
@@ -28,7 +29,7 @@ def passage(u):
     words = sum(len(p.split()) for p in u["passage"])
     paras = "".join(f'<p class="pp"><b class="pl">{L[i]}</b>{e(p)}</p>' for i, p in enumerate(u["passage"]))
     return ('<div class="part">' + part_head("READING", f"{words} words")
-            + '<div class="ins"><span class="aud">⏱</span><p>You should spend about 20 minutes on <b>Questions 1–13</b>, '
+            + f'<div class="ins"><span class="aud">{icon("timer")}</span><p>You should spend about 20 minutes on <b>Questions 1–13</b>, '
               'which are based on the reading passage below.</p></div>'
             + f'<p class="intro">{e(u["intro"])}</p><h3 class="atitle">{e(u["title"])}</h3>'
             + f'<div class="split art">{paras}</div></div>')
@@ -79,21 +80,21 @@ def vocab_practice(u):
 
 def unit_section(u):
     banner = (f'<div class="banner"><div class="girih"></div><div class="bl"><small>IELTS READING · A2</small>'
-              f'<h1>UNIT {u["n"]}</h1></div><div class="br"><b>{u["emoji"]} {e(u["topic"])}</b><span>{e(u["title"])}</span></div></div>')
+              f'<h1>UNIT {u["n"]}</h1></div><div class="br"><b>{topic_icon(u["topic"], "ico bi")} {e(u["topic"])}</b><span>{e(u["title"])}</span></div></div>')
     body = vocab_preview(u) + passage(u) + questions(u) + vocab_practice(u)
     return (f'<section class="page flow first" data-run="Unit {u["n"]}">{banner}<div class="cols"><div class="col">{body}</div>'
             f'<div class="col"></div></div><footer><span>IELTS Reading Practice · A2 · Unit {u["n"]}</span><span class="pno"></span></footer></section>')
 
 
 def how_page(units):
-    tips = [("📖", "Before you read", "Learn the 12 words in the vocabulary box. Say them aloud and read the examples."),
-            ("⏱", "Read in 20 minutes", "Like the real IELTS test: read the passage and answer Questions 1–13 in about 20 minutes."),
-            ("✅", "TRUE / FALSE / NOT GIVEN", "FALSE means the passage says the opposite. NOT GIVEN means the passage does not say."),
-            ("🔤", "One word only", "In sentence completion, copy one word from the passage. Check the spelling!"),
-            ("🔁", "Practise the words", "Do the two vocabulary exercises, then check all answers in the key at the back."),
-            ("📚", "Word list", "All 144 words with their Uzbek meanings are in the A–Z word list at the end of the book.")]
-    cards = "".join(f'<div class="tip"><span>{i}</span><div><b>{t}</b><p>{d}</p></div></div>' for i, t, d in tips)
-    rows = "".join(f'<tr><td>{u["n"]}</td><td>{u["emoji"]} {e(u["topic"])}</td><td>{e(u["title"])}</td></tr>' for u in units)
+    tips = [("book", "Before you read", "Learn the 12 words in the vocabulary box. Say them aloud and read the examples."),
+            ("timer", "Read in 20 minutes", "Like the real IELTS test: read the passage and answer Questions 1–13 in about 20 minutes."),
+            ("check", "TRUE / FALSE / NOT GIVEN", "FALSE means the passage says the opposite. NOT GIVEN means the passage does not say."),
+            ("type", "One word only", "In sentence completion, copy one word from the passage. Check the spelling!"),
+            ("repeat", "Practise the words", "Do the two vocabulary exercises, then check all answers in the key at the back."),
+            ("list", "Word list", "All 144 words with their Uzbek meanings are in the A–Z word list at the end of the book.")]
+    cards = "".join(f'<div class="tip"><span class="tipi">{icon(i)}</span><div><b>{t}</b><p>{d}</p></div></div>' for i, t, d in tips)
+    rows = "".join(f'<tr><td>{u["n"]}</td><td class="tic">{topic_icon(u["topic"])} {e(u["topic"])}</td><td>{e(u["title"])}</td></tr>' for u in units)
     return ('<section class="page howpage"><div class="banner"><div class="girih"></div><div class="bl"><small>IELTS READING · A2</small>'
             f'<h1>HOW TO USE THIS BOOK</h1></div><div class="br"><b>{len(units)} units</b><span>Reading + vocabulary</span></div></div>'
             f'<p class="lead">This book helps you start preparing for <b>IELTS Reading</b> at <b>A2 level</b>. Every unit has an interesting text, '
@@ -140,7 +141,7 @@ def build():
     css = (ROOT / "scripts" / "style.css").read_text(encoding="utf-8") + (ROOT / "scripts" / "reading.css").read_text(encoding="utf-8")
     fonts = ('<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;800'
              '&family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&display=block" rel="stylesheet">')
-    body = EMOJI.sub(r'<span class="em">\1</span>', "".join(pages))
+    body = "".join(pages)
     DIST.mkdir(exist_ok=True)
     (DIST / "mock.html").write_text(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><title>IELTS Reading Practice A2</title>'
                                     f'{fonts}<style>{css}</style></head><body>{body}</body></html>', encoding="utf-8")

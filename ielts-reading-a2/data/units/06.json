@@ -1,65 +1,214 @@
 {
-  "n": 6,
-  "topic": "School",
-  "emoji": "🏫",
-  "title": "The Biggest Classroom in the World",
-  "intro": "You are going to read about a girl in Australia who goes to school without leaving her home.",
-  "vocab": [
-    {"word": "remote", "pos": "adj", "uz": "olis, chekka", "ex": "My uncle lives in a remote village in the mountains."},
-    {"word": "cattle", "pos": "n", "uz": "qoramol, mollar", "ex": "The farmer has two hundred cattle."},
-    {"word": "nearest", "pos": "adj", "uz": "eng yaqin", "ex": "The nearest shop is ten minutes from my house."},
-    {"word": "classmate", "pos": "n", "uz": "sinfdosh", "ex": "Aziz is my classmate. We sit at the same desk."},
-    {"word": "screen", "pos": "n", "uz": "ekran", "ex": "Don't sit too close to the screen."},
-    {"word": "concentrate", "pos": "v", "uz": "diqqatni jamlamoq", "ex": "I can't concentrate when my phone is ringing."},
-    {"word": "miss", "pos": "v", "uz": "sog‘inmoq; yetishmasligini his qilmoq", "ex": "When I was in London, I missed my mother's plov."},
-    {"word": "corridor", "pos": "n", "uz": "yo‘lak, koridor", "ex": "Please don't run in the school corridor."},
-    {"word": "organise", "pos": "v", "uz": "tashkil qilmoq, uyushtirmoq", "ex": "Our class is going to organise a party for the teachers."},
-    {"word": "lonely", "pos": "adj", "uz": "yolg‘izlikni his qilgan, g‘arib", "ex": "He felt lonely in the new city because he had no friends there."},
-    {"word": "independent", "pos": "adj", "uz": "mustaqil", "ex": "At sixteen, she was already very independent."},
-    {"word": "former", "pos": "adj", "uz": "sobiq, avvalgi", "ex": "A former student came back to visit our school."}
-  ],
-  "passage": [
-    "Ten-year-old Ellie Morgan lives on a cattle farm in a remote part of central Australia. The nearest town is 400 kilometres away, and there is no school near her home. So every morning at eight o'clock, Ellie walks across the garden to a small room, turns on her computer and says, “Good morning, Mrs Baker!” Ellie is a student at the School of the Air.",
-    "The School of the Air started in Alice Springs in 1951. At first, teachers and children talked to each other by radio. Children had to press a button before they spoke, and the sound was often bad. Today, students use the internet. They can see their teacher and every classmate on the screen, but some of these classmates live more than 1,000 kilometres away.",
-    "Each online lesson lasts about thirty minutes. After that, Ellie does her schoolwork on her own. Her mother helps her, and some families have a governess, a young woman who lives on the farm and teaches the children. “It's hard to concentrate when you can hear the cows outside,” Ellie says, “but I like working at my own speed.”",
-    "Of course, students at the School of the Air miss some things. They can't play football with friends at break time or chat in the corridor. That's why the school organises special weeks. A few times a year, families drive for many hours to Alice Springs. The children finally meet their classmates face to face, play sports and go on trips together.",
-    "Some people worry that these children feel lonely. But many former students say the school taught them to be independent and to plan their own time. Ellie agrees. “I love my school,” she says. “And I'm never late for class. My classroom is only twenty steps from my bedroom!”"
-  ],
-  "tfng": [
-    {"q": "Ellie's home is a long way from a town.", "a": "TRUE"},
-    {"q": "In 1951, students used the internet for their lessons.", "a": "FALSE"},
-    {"q": "Ellie's teacher lives in Alice Springs.", "a": "NOT GIVEN"},
-    {"q": "Each online lesson is about one hour long.", "a": "FALSE"},
-    {"q": "Students meet their classmates in person a few times a year.", "a": "TRUE"}
-  ],
-  "mcq": [
-    {"q": "How did students and teachers talk in the past?", "options": ["by letter", "by radio", "by telephone"], "a": "B"},
-    {"q": "What does Ellie find difficult?", "options": ["concentrating when the cows are noisy", "using the computer", "getting up early"], "a": "A"},
-    {"q": "Why is Ellie never late for class?", "options": ["Her mother drives her to school.", "Her classroom is very close to her bedroom.", "Her lessons start in the afternoon."], "a": "B"}
-  ],
-  "which_para": [
-    {"q": "the history of the school", "a": "B"},
-    {"q": "what students do when they visit Alice Springs", "a": "D"}
-  ],
-  "completion": [
-    {"q": "Ellie's school day starts at ______ o'clock in the morning.", "a": "eight"},
-    {"q": "In some families, a ______ lives on the farm and teaches the children.", "a": "governess"},
-    {"q": "Students at the School of the Air can't play ______ with friends at break time.", "a": "football"}
-  ],
-  "vocab_match": [
-    {"word": "remote", "meaning": "far away from towns and cities"},
-    {"word": "cattle", "meaning": "cows that people keep on a farm"},
-    {"word": "classmate", "meaning": "a student in the same class as you"},
-    {"word": "corridor", "meaning": "a long, narrow place inside a building with doors to rooms"},
-    {"word": "lonely", "meaning": "sad because you are alone"},
-    {"word": "former", "meaning": "from an earlier time, but not now"}
-  ],
-  "gapfill": [
-    {"s": "Excuse me, where is the ______ bus stop?", "a": "nearest"},
-    {"s": "The ______ on my phone is broken, so I can't read my messages.", "a": "screen"},
-    {"s": "Please turn off the TV. I need to ______ on my homework.", "a": "concentrate"},
-    {"s": "I ______ my grandparents. I haven't seen them for three months.", "a": "miss"},
-    {"s": "Our teacher is going to ______ a trip to the museum next week.", "a": "organise"},
-    {"s": "My sister is very ______. She lives alone and cooks for herself.", "a": "independent"}
-  ]
+ "n": 6,
+ "topic": "School",
+ "title": "The Biggest Classroom in the World",
+ "intro": "You are going to read about a girl in Australia who goes to school without leaving her home.",
+ "vocab": [
+  {
+   "word": "remote",
+   "pos": "adj",
+   "uz": "olis, chekka",
+   "ex": "My uncle lives in a remote village in the mountains."
+  },
+  {
+   "word": "cattle",
+   "pos": "n",
+   "uz": "qoramol, mollar",
+   "ex": "The farmer has two hundred cattle."
+  },
+  {
+   "word": "nearest",
+   "pos": "adj",
+   "uz": "eng yaqin",
+   "ex": "The nearest shop is ten minutes from my house."
+  },
+  {
+   "word": "classmate",
+   "pos": "n",
+   "uz": "sinfdosh",
+   "ex": "Aziz is my classmate. We sit at the same desk."
+  },
+  {
+   "word": "screen",
+   "pos": "n",
+   "uz": "ekran",
+   "ex": "Don't sit too close to the screen."
+  },
+  {
+   "word": "concentrate",
+   "pos": "v",
+   "uz": "diqqatni jamlamoq",
+   "ex": "I can't concentrate when my phone is ringing."
+  },
+  {
+   "word": "miss",
+   "pos": "v",
+   "uz": "sog‘inmoq; yetishmasligini his qilmoq",
+   "ex": "When I was in London, I missed my mother's plov."
+  },
+  {
+   "word": "corridor",
+   "pos": "n",
+   "uz": "yo‘lak, koridor",
+   "ex": "Please don't run in the school corridor."
+  },
+  {
+   "word": "organise",
+   "pos": "v",
+   "uz": "tashkil qilmoq, uyushtirmoq",
+   "ex": "Our class is going to organise a party for the teachers."
+  },
+  {
+   "word": "lonely",
+   "pos": "adj",
+   "uz": "yolg‘izlikni his qilgan, g‘arib",
+   "ex": "He felt lonely in the new city because he had no friends there."
+  },
+  {
+   "word": "independent",
+   "pos": "adj",
+   "uz": "mustaqil",
+   "ex": "At sixteen, she was already very independent."
+  },
+  {
+   "word": "former",
+   "pos": "adj",
+   "uz": "sobiq, avvalgi",
+   "ex": "A former student came back to visit our school."
+  }
+ ],
+ "passage": [
+  "Ten-year-old Ellie Morgan lives on a cattle farm in a remote part of central Australia. The nearest town is 400 kilometres away, and there is no school near her home. So every morning at eight o'clock, Ellie walks across the garden to a small room, turns on her computer and says, “Good morning, Mrs Baker!” Ellie is a student at the School of the Air.",
+  "The School of the Air started in Alice Springs in 1951. At first, teachers and children talked to each other by radio. Children had to press a button before they spoke, and the sound was often bad. Today, students use the internet. They can see their teacher and every classmate on the screen, but some of these classmates live more than 1,000 kilometres away.",
+  "Each online lesson lasts about thirty minutes. After that, Ellie does her schoolwork on her own. Her mother helps her, and some families have a governess, a young woman who lives on the farm and teaches the children. “It's hard to concentrate when you can hear the cows outside,” Ellie says, “but I like working at my own speed.”",
+  "Of course, students at the School of the Air miss some things. They can't play football with friends at break time or chat in the corridor. That's why the school organises special weeks. A few times a year, families drive for many hours to Alice Springs. The children finally meet their classmates face to face, play sports and go on trips together.",
+  "Some people worry that these children feel lonely. But many former students say the school taught them to be independent and to plan their own time. Ellie agrees. “I love my school,” she says. “And I'm never late for class. My classroom is only twenty steps from my bedroom!”"
+ ],
+ "tfng": [
+  {
+   "q": "Ellie's home is a long way from a town.",
+   "a": "TRUE"
+  },
+  {
+   "q": "In 1951, students used the internet for their lessons.",
+   "a": "FALSE"
+  },
+  {
+   "q": "Ellie's teacher lives in Alice Springs.",
+   "a": "NOT GIVEN"
+  },
+  {
+   "q": "Each online lesson is about one hour long.",
+   "a": "FALSE"
+  },
+  {
+   "q": "Students meet their classmates in person a few times a year.",
+   "a": "TRUE"
+  }
+ ],
+ "mcq": [
+  {
+   "q": "How did students and teachers talk in the past?",
+   "options": [
+    "by letter",
+    "by radio",
+    "by telephone"
+   ],
+   "a": "B"
+  },
+  {
+   "q": "What does Ellie find difficult?",
+   "options": [
+    "concentrating when the cows are noisy",
+    "using the computer",
+    "getting up early"
+   ],
+   "a": "A"
+  },
+  {
+   "q": "Why is Ellie never late for class?",
+   "options": [
+    "Her mother drives her to school.",
+    "Her classroom is very close to her bedroom.",
+    "Her lessons start in the afternoon."
+   ],
+   "a": "B"
+  }
+ ],
+ "which_para": [
+  {
+   "q": "the history of the school",
+   "a": "B"
+  },
+  {
+   "q": "what students do when they visit Alice Springs",
+   "a": "D"
+  }
+ ],
+ "completion": [
+  {
+   "q": "Ellie's school day starts at ______ o'clock in the morning.",
+   "a": "eight"
+  },
+  {
+   "q": "In some families, a ______ lives on the farm and teaches the children.",
+   "a": "governess"
+  },
+  {
+   "q": "Students at the School of the Air can't play ______ with friends at break time.",
+   "a": "football"
+  }
+ ],
+ "vocab_match": [
+  {
+   "word": "remote",
+   "meaning": "far away from towns and cities"
+  },
+  {
+   "word": "cattle",
+   "meaning": "cows that people keep on a farm"
+  },
+  {
+   "word": "classmate",
+   "meaning": "a student in the same class as you"
+  },
+  {
+   "word": "corridor",
+   "meaning": "a long, narrow place inside a building with doors to rooms"
+  },
+  {
+   "word": "lonely",
+   "meaning": "sad because you are alone"
+  },
+  {
+   "word": "former",
+   "meaning": "from an earlier time, but not now"
+  }
+ ],
+ "gapfill": [
+  {
+   "s": "Excuse me, where is the ______ bus stop?",
+   "a": "nearest"
+  },
+  {
+   "s": "The ______ on my phone is broken, so I can't read my messages.",
+   "a": "screen"
+  },
+  {
+   "s": "Please turn off the TV. I need to ______ on my homework.",
+   "a": "concentrate"
+  },
+  {
+   "s": "I ______ my grandparents. I haven't seen them for three months.",
+   "a": "miss"
+  },
+  {
+   "s": "Our teacher is going to ______ a trip to the museum next week.",
+   "a": "organise"
+  },
+  {
+   "s": "My sister is very ______. She lives alone and cooks for herself.",
+   "a": "independent"
+  }
+ ]
 }
