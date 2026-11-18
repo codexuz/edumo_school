@@ -19,7 +19,7 @@ Test 1, Part 4 has explanations on the site; they are kept in the JSON (`explana
 
 ## Files
 - `data/pet_b1_listening_tests.json`: the 36 tests (questions, options, answers, audioscripts, audio and picture links).
-- `audio/testNN-partN.mp3`: local copies of all 144 recordings. In the JSON, each part's `audio_file` gives its local file and `audio` gives the online link that the QR code opens.
+- `audio/testNN-partN.mp3`: local copies of all 144 recordings (659 MB, about 16 hours). In the JSON, each part's `audio_file` gives its local file and `audio` gives the online link that the QR code opens.
 - `assets/pics/tNN-qN.jpg`: the Part 1 pictures (greyscale, 1000 px wide).
 - `assets/brand/`: the logos and the cover hero image.
 
