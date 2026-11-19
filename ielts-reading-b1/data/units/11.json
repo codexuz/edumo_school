@@ -1,0 +1,68 @@
+{
+  "n": 11,
+  "topic": "Inventions",
+  "title": "Two Wheels That Changed the World",
+  "intro": "The bicycle looks like a simple machine, but its history is full of surprises.",
+  "vocab": [
+    {"word": "alternative", "pos": "noun", "uz": "muqobil, boshqa variant", "ex": "If the bus is too slow, the metro is a good alternative."},
+    {"word": "eruption", "pos": "noun", "uz": "otilish (vulqon)", "ex": "The eruption covered the nearby villages in ash."},
+    {"word": "attract", "pos": "verb", "uz": "jalb qilmoq", "ex": "The new museum attracts thousands of tourists every summer."},
+    {"word": "ban", "pos": "verb", "uz": "taqiqlamoq", "ex": "Many schools ban mobile phones in lessons."},
+    {"word": "nickname", "pos": "noun", "uz": "laqab", "ex": "His friends gave him the nickname “Professor” because he reads so much."},
+    {"word": "enormous", "pos": "adj", "uz": "ulkan, juda katta", "ex": "They live in an enormous house with ten bedrooms."},
+    {"word": "fashionable", "pos": "adj", "uz": "moda bo‘lgan, urfdagi", "ex": "Wide trousers are fashionable again this year."},
+    {"word": "wealthy", "pos": "adj", "uz": "boy, badavlat", "ex": "Only wealthy families could afford a car at that time."},
+    {"word": "risky", "pos": "adj", "uz": "xavfli, tavakkalli", "ex": "It is risky to swim in the sea when the waves are high."},
+    {"word": "breakthrough", "pos": "noun", "uz": "katta yutuq, burilish", "ex": "The new medicine was a major breakthrough in the fight against the disease."},
+    {"word": "produce", "pos": "verb", "uz": "ishlab chiqarmoq", "ex": "This factory produces two hundred cars a day."},
+    {"word": "independent", "pos": "adj", "uz": "mustaqil", "ex": "She became more independent after she moved to Tashkent for university."},
+    {"word": "companion", "pos": "noun", "uz": "hamroh", "ex": "My dog is my best companion on long walks."},
+    {"word": "practical", "pos": "adj", "uz": "amaliy, qulay", "ex": "A small backpack is more practical than a suitcase for a short trip."},
+    {"word": "campaigner", "pos": "noun", "uz": "faol kurashchi, targ‘ibotchi", "ex": "The campaigner spoke about clean air in the city."}
+  ],
+  "passage": [
+    "Today the bicycle seems like one of the simplest machines ever made. You sit on it, push the pedals and off you go. Yet its history is full of strange designs, dangerous experiments and surprising social changes. Without it, the cars and even the aeroplanes that we use today might have developed quite differently.",
+    "The story begins in Germany in 1817, when an inventor called Karl Drais introduced his “running machine”. It had two wooden wheels and a seat, but no pedals: riders pushed themselves along the ground with their feet. Some historians believe Drais was looking for an alternative to the horse. A huge volcanic eruption in Indonesia in 1815 had caused a terribly cold summer in Europe the following year. Crops had failed, and many horses had died because there was not enough food for them. Drais's machine attracted a lot of attention, but it was soon banned from pavements in several cities because riders kept crashing into people who were walking.",
+    "In the 1860s, French mechanics added pedals to the front wheel. The new machines were faster, but they were made of wood and iron and felt so uncomfortable on rough roads that people nicknamed them “boneshakers”. To go faster, designers then made the front wheel larger and larger. The result was the penny-farthing, which had an enormous front wheel and a tiny back one. It was fashionable among wealthy young men, yet it was also extremely risky. If the wheel hit a stone, the rider could be thrown forward over the handlebars.",
+    "The real breakthrough came in 1885, when an Englishman called John Kemp Starley produced the Rover. It had two wheels of the same size and a chain which connected the pedals to the back wheel. Because riders sat much closer to the ground, this type became known as the “safety bicycle”. A few years later, a Scottish vet, John Boyd Dunlop, developed a rubber tyre filled with air, reportedly to make his son's tricycle more comfortable. Together, these two inventions created the basic design that we still use today.",
+    "The effects on society were remarkable. For the first time, ordinary working people had cheap, independent transport, so they could live further from their workplace. Women in particular gained a new kind of freedom. They were able to travel without a companion, and long, heavy skirts were gradually replaced by more practical clothing. The American campaigner Susan B. Anthony even said that the bicycle had done more for women's freedom than anything else in the world.",
+    "The bicycle also prepared the way for later inventions. Factories that made bicycles learned how to produce light metal tubes and ball bearings, and these skills were later used to build cars. Wilbur and Orville Wright, who flew the first successful powered aeroplane, ran a bicycle shop before they started flying. Today there are thought to be more than a billion bicycles in the world, and as cities search for cleaner forms of transport, this two-hundred-year-old invention may have an even more important future."
+  ],
+  "tfng": [
+    {"q": "Drais's running machine could be moved without using pedals.", "a": "TRUE"},
+    {"q": "Riders were allowed to use Drais's machine on pavements in every city.", "a": "FALSE"},
+    {"q": "Boneshakers were more expensive than running machines.", "a": "NOT GIVEN"},
+    {"q": "John Boyd Dunlop worked as a doctor.", "a": "FALSE"},
+    {"q": "Starley's Rover was sold in many countries outside England.", "a": "NOT GIVEN"}
+  ],
+  "mcq": [
+    {"q": "According to some historians, why did Drais develop his machine?", "options": ["He wanted to win a competition for new inventions.", "Horses had become less common after a natural disaster.", "Roads in Germany had recently been improved."], "a": "B"},
+    {"q": "Why was the penny-farthing dangerous?", "options": ["Riders could fall forward if the large front wheel hit something.", "It was made of wood and iron, so it often broke.", "It was too fast for the roads of that time."], "a": "A"},
+    {"q": "What is the main idea of paragraph E?", "options": ["Bicycles were too expensive for most workers.", "Women designed special clothes for cycling.", "The bicycle changed the lives of ordinary people, especially women."], "a": "C"}
+  ],
+  "which_para": [
+    {"q": "a link between bicycles and the history of flying", "a": "F"},
+    {"q": "a natural event that may have led to an invention", "a": "B"}
+  ],
+  "completion": [
+    {"q": "Early bicycles with pedals on the front wheel were called “______” because they were so uncomfortable.", "a": "boneshakers"},
+    {"q": "On the Rover, a ______ connected the pedals to the back wheel.", "a": "chain"},
+    {"q": "Bicycle factories learned to make light metal tubes and ______, which were later used in cars.", "a": "ball bearings"}
+  ],
+  "vocab_match": [
+    {"word": "alternative", "meaning": "something you can choose instead of another thing"},
+    {"word": "enormous", "meaning": "very, very big"},
+    {"word": "wealthy", "meaning": "having a lot of money"},
+    {"word": "breakthrough", "meaning": "an important new discovery or development"},
+    {"word": "companion", "meaning": "a person who goes somewhere or spends time with you"},
+    {"word": "risky", "meaning": "possibly dangerous"}
+  ],
+  "gapfill": [
+    {"s": "The government has decided to ______ smoking in all cafés and restaurants.", "a": "ban"},
+    {"s": "The new shopping centre is expected to ______ thousands of visitors every week.", "a": "attract"},
+    {"s": "Trainers are much more ______ than high heels for a long day of sightseeing.", "a": "practical"},
+    {"s": "At eighteen, Aziz wanted to be ______ and earn his own money.", "a": "independent"},
+    {"s": "My little brother's ______ is “Bear” because he is so tall and strong.", "a": "nickname"},
+    {"s": "Long, colourful dresses were very ______ in the 1970s.", "a": "fashionable"}
+  ]
+}

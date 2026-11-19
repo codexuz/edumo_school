@@ -1,0 +1,68 @@
+{
+  "n": 10,
+  "topic": "Psychology",
+  "title": "How Habits Take Hold",
+  "intro": "Why do we do so many things without thinking, and what can we do to change our habits?",
+  "vocab": [
+    {"word": "behaviour", "pos": "noun", "uz": "xulq-atvor", "ex": "The teacher was pleased with the children's behaviour on the trip."},
+    {"word": "automatic", "pos": "adj", "uz": "avtomatik, o‘z-o‘zidan bo‘ladigan", "ex": "After a few weeks, driving becomes almost automatic."},
+    {"word": "trigger", "pos": "noun", "uz": "qo‘zg‘atuvchi omil", "ex": "Stress is a common trigger for headaches."},
+    {"word": "routine", "pos": "noun", "uz": "odatiy tartib", "ex": "My morning routine includes a cup of tea and a short walk."},
+    {"word": "reward", "pos": "noun", "uz": "mukofot", "ex": "As a reward for passing the exam, we went out for dinner."},
+    {"word": "repeat", "pos": "verb", "uz": "takrorlamoq", "ex": "Could you repeat the question, please?"},
+    {"word": "volunteer", "pos": "noun", "uz": "ko‘ngilli", "ex": "The festival needs fifty volunteers to help with the tickets."},
+    {"word": "vary", "pos": "verb", "uz": "farq qilmoq, o‘zgarib turmoq", "ex": "The price of a flight can vary a lot from day to day."},
+    {"word": "rely", "pos": "verb", "uz": "tayanmoq, suyanmoq", "ex": "Many students rely on their phones to wake them up."},
+    {"word": "willpower", "pos": "noun", "uz": "iroda kuchi", "ex": "It takes a lot of willpower to stop eating sweets."},
+    {"word": "replace", "pos": "verb", "uz": "almashtirmoq", "ex": "We need to replace the old batteries in the clock."},
+    {"word": "surroundings", "pos": "noun", "uz": "atrof-muhit, tevarak", "ex": "It took me a few days to get used to my new surroundings."},
+    {"word": "obstacle", "pos": "noun", "uz": "to‘siq", "ex": "Lack of money was the biggest obstacle to his plans."},
+    {"word": "consistent", "pos": "adj", "uz": "izchil, doimiy", "ex": "If you want to improve, you need to be consistent and practise every day."},
+    {"word": "gradually", "pos": "adv", "uz": "asta-sekin", "ex": "Her English gradually got better during the year."}
+  ],
+  "passage": [
+    "Every morning, millions of people reach for their phones before they have even got out of bed. Few of them have decided to do this; it simply happens. Psychologists who study human behaviour say that a large part of what we do each day is not the result of careful thinking at all. Some researchers estimate that around 40 per cent of our daily actions are habits – things we do automatically, often in the same place and at the same time, without making a real choice.",
+    "So how does a habit form? Many experts describe it as a loop with three parts. First, there is a trigger, such as a place, a time of day or a feeling. This is followed by the routine, which is the action itself. Finally, there is a reward, something pleasant that makes the brain want to repeat the action. If you always eat biscuits when you feel bored in the afternoon, boredom is the trigger, eating is the routine and the sweet taste is the reward. Each time the loop is repeated, the connection between the trigger and the action becomes stronger.",
+    "A popular idea says that it takes 21 days to build a new habit, but research suggests that the truth is more complicated. In a well-known study at University College London, volunteers chose a simple healthy behaviour, such as drinking a glass of water after breakfast, and tried to do it every day. On average, it took 66 days before the action felt automatic, but the time varied enormously from person to person – from less than three weeks to more than eight months. Interestingly, people who missed a single day did not seem to damage their progress.",
+    "Changing an old habit is usually harder than starting a new one, partly because people rely too much on willpower. Willpower is limited, and it tends to disappear when we are tired or stressed. Instead of simply trying to stop, psychologists recommend keeping the same trigger and reward but replacing the routine. A person who smokes whenever they take a break at work, for example, might go for a short walk instead. The break and the feeling of relaxation remain, but the harmful action has gone.",
+    "Our surroundings also play an important role. If you want to eat more fruit, it helps to put a bowl of it on the kitchen table, where you will see it often. If you want to spend less time online, you could leave your phone in another room. By making good choices easy and bad ones difficult, you remove many of the obstacles that stand between you and your goals. Some people also track their progress on a calendar, which gives them a small reward every time they mark a successful day.",
+    "Perhaps the most useful lesson from this research is that small changes matter. Rather than trying to change everything at once, experts advise starting with one tiny action and making it consistent. Motivation may help us begin, but it rarely lasts. Habits, on the other hand, carry on working quietly in the background, and over months and years they gradually shape who we become."
+  ],
+  "tfng": [
+    {"q": "Some researchers believe that less than half of our daily actions are habits.", "a": "TRUE"},
+    {"q": "All the volunteers in the London study chose to drink water after breakfast.", "a": "FALSE"},
+    {"q": "Missing one day did not seem to harm the volunteers' progress.", "a": "TRUE"},
+    {"q": "In the London study, women formed new habits more quickly than men.", "a": "NOT GIVEN"},
+    {"q": "Our willpower is usually stronger when we are tired.", "a": "FALSE"}
+  ],
+  "mcq": [
+    {"q": "What is the main point of paragraph B?", "options": ["Eating biscuits in the afternoon is a common bad habit.", "Habits follow a pattern that becomes stronger each time it is repeated.", "Boredom is the main reason why people form habits."], "a": "B"},
+    {"q": "What does the London study show about the idea that a habit takes 21 days to form?", "options": ["It is correct for most people.", "It only applies to healthy behaviours.", "It is too simple, because the time needed differs a lot between people."], "a": "C"},
+    {"q": "What do psychologists advise someone who wants to change a bad habit?", "options": ["Keep the trigger and the reward, but change the action.", "Use more willpower to stop the action.", "Remove the trigger from their life completely."], "a": "A"}
+  ],
+  "which_para": [
+    {"q": "a suggestion about where to keep certain objects at home", "a": "E"},
+    {"q": "a comparison between a common belief and the results of research", "a": "C"}
+  ],
+  "completion": [
+    {"q": "In the habit loop, the pleasant thing that follows the action is called the ______.", "a": "reward"},
+    {"q": "On average, volunteers needed ______ before a new action felt automatic.", "a": "66 days"},
+    {"q": "Some people mark each successful day on a ______ to track their progress.", "a": "calendar"}
+  ],
+  "vocab_match": [
+    {"word": "trigger", "meaning": "something that makes an action or feeling start"},
+    {"word": "routine", "meaning": "the usual way or order in which you do things"},
+    {"word": "willpower", "meaning": "the ability to control yourself and do difficult things"},
+    {"word": "obstacle", "meaning": "something that makes it difficult to do or achieve something"},
+    {"word": "consistent", "meaning": "always doing something in the same way"},
+    {"word": "gradually", "meaning": "slowly, over a period of time"}
+  ],
+  "gapfill": [
+    {"s": "Teachers should always praise good ______ in the classroom.", "a": "behaviour"},
+    {"s": "Each ______ at the clean-up day was given a T-shirt and a pair of gloves.", "a": "volunteer"},
+    {"s": "The temperature in the desert can ______ a lot between day and night.", "a": "vary"},
+    {"s": "You shouldn't ______ on your friends to do your homework for you.", "a": "rely"},
+    {"s": "The old windows were broken, so we decided to ______ them.", "a": "replace"},
+    {"s": "Young children learn best when their ______ are calm and friendly.", "a": "surroundings"}
+  ]
+}

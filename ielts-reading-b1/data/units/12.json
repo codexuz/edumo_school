@@ -1,0 +1,68 @@
+{
+  "n": 12,
+  "topic": "Languages",
+  "title": "Saving the World's Voices",
+  "intro": "Thousands of languages are in danger of disappearing, but some communities are fighting to keep them alive.",
+  "vocab": [
+    {"word": "endangered", "pos": "adj", "uz": "yo‘qolib ketish xavfi ostidagi", "ex": "The snow leopard is an endangered animal."},
+    {"word": "generation", "pos": "noun", "uz": "avlod", "ex": "Three generations of the family live in the same house."},
+    {"word": "warn", "pos": "verb", "uz": "ogohlantirmoq", "ex": "Doctors warn that too much sugar is bad for your teeth."},
+    {"word": "punish", "pos": "verb", "uz": "jazolamoq", "ex": "The players were punished for arriving late to training."},
+    {"word": "native", "pos": "adj", "uz": "ona (til), tug‘ma", "ex": "Her native language is Uzbek, but she also speaks Russian."},
+    {"word": "fluent", "pos": "adj", "uz": "ravon, erkin (gapiradigan)", "ex": "After a year in London, he was fluent in English."},
+    {"word": "extinct", "pos": "adj", "uz": "yo‘qolib ketgan", "ex": "Dinosaurs became extinct millions of years ago."},
+    {"word": "translate", "pos": "verb", "uz": "tarjima qilmoq", "ex": "Can you translate this sentence into English?"},
+    {"word": "precise", "pos": "adj", "uz": "aniq", "ex": "We need the precise time of the meeting."},
+    {"word": "identity", "pos": "noun", "uz": "o‘zlik, o‘ziga xoslik", "ex": "Music is an important part of our national identity."},
+    {"word": "community", "pos": "noun", "uz": "jamoa, mahalla", "ex": "Everyone in the community helped to repair the school."},
+    {"word": "elderly", "pos": "adj", "uz": "keksa, yoshi ulug‘", "ex": "He often helps his elderly neighbour with her shopping."},
+    {"word": "enthusiastic", "pos": "adj", "uz": "ishtiyoqli, g‘ayratli", "ex": "The new teacher is very enthusiastic about her subject."},
+    {"word": "decline", "pos": "noun", "uz": "pasayish, tanazzul", "ex": "There has been a decline in the number of people who smoke."},
+    {"word": "vanish", "pos": "verb", "uz": "g‘oyib bo‘lmoq", "ex": "The sun vanished behind the clouds."}
+  ],
+  "passage": [
+    "There are around 7,000 languages in the world today, but they are not shared equally. More than half of the world's population speaks just a couple of dozen of them, such as English, Chinese, Hindi and Spanish. At the same time, thousands of languages have only a few hundred speakers, and some have fewer than ten. Experts warn that perhaps 40 per cent of all languages are now endangered, which means they may disappear within the next few generations.",
+    "Languages usually die slowly. The process often begins when parents decide that their children will have a better future if they speak the language of the government, schools and business. The children grow up understanding their grandparents' language but rarely using it, and their own children never learn it at all. In the past, some governments even punished pupils for speaking their native language at school. When the last fluent speaker dies, the language is described as extinct.",
+    "Why does this matter? Every language contains knowledge that cannot always be translated. Some languages have many precise words for local plants, animals and types of weather, and this information may be useful to scientists. Languages also carry songs, stories and jokes, as well as a particular way of seeing the world. When a language is lost, an important part of a community's identity is often lost with it.",
+    "Fortunately, the story does not always end badly. The Isle of Man, a small island between Britain and Ireland, had its own language, Manx. Its last native speaker, Ned Maddrell, died in 1974. Luckily, researchers had recorded him and other elderly speakers years earlier, and enthusiastic learners used these recordings to study the language. Today, a primary school on the island teaches children almost entirely in Manx, and a new generation is growing up with it.",
+    "In New Zealand, the Māori language faced a serious decline during the twentieth century. In the 1980s, Māori communities set up “language nests”, where young children spent their days with older people who spoke to them only in Māori. The idea was so successful that it was copied in Hawaii and other places. Similar efforts in Wales, where all pupils now study Welsh at school, show that government support can make a real difference.",
+    "Technology is also helping. Linguists use cheap digital recorders to document languages before they vanish, and communities create online dictionaries, mobile apps and even social media groups in their own languages. However, experts agree that recordings alone cannot save a language. A language only survives if people use it every day – at home, with friends and, most importantly, with their children."
+  ],
+  "tfng": [
+    {"q": "More than half of the people in the world speak one of a small number of languages.", "a": "TRUE"},
+    {"q": "Children in families that are losing a language usually cannot understand it at all.", "a": "FALSE"},
+    {"q": "The recordings of Manx speakers were made by researchers from Ireland.", "a": "NOT GIVEN"},
+    {"q": "The idea of language nests has been used outside New Zealand.", "a": "TRUE"},
+    {"q": "Experts believe that recordings are enough to save a language.", "a": "FALSE"}
+  ],
+  "mcq": [
+    {"q": "According to paragraph B, why do parents often stop passing on their language?", "options": ["Their children refuse to learn it.", "They cannot speak it well themselves.", "They believe another language will give their children more opportunities."], "a": "C"},
+    {"q": "What is the writer's main purpose in paragraph C?", "options": ["to explain why the loss of a language is important", "to describe how scientists study local plants", "to show which languages are difficult to translate"], "a": "A"},
+    {"q": "What do the examples in paragraphs D and E show?", "options": ["Only governments are able to save a language.", "Endangered languages can be brought back with effort.", "A language that has lost its last native speaker can never return."], "a": "B"}
+  ],
+  "which_para": [
+    {"q": "a description of how a language stops being passed on in a family", "a": "B"},
+    {"q": "an example of a language whose last native speaker has died", "a": "D"}
+  ],
+  "completion": [
+    {"q": "A language is described as ______ when its last fluent speaker dies.", "a": "extinct"},
+    {"q": "In New Zealand, young children spent time in “______” where older people spoke only Māori to them.", "a": "language nests"},
+    {"q": "Linguists use cheap ______ to document languages.", "a": "digital recorders"}
+  ],
+  "vocab_match": [
+    {"word": "endangered", "meaning": "in danger of disappearing completely"},
+    {"word": "fluent", "meaning": "able to speak a language easily and well"},
+    {"word": "extinct", "meaning": "no longer existing"},
+    {"word": "elderly", "meaning": "old (a polite word for people)"},
+    {"word": "vanish", "meaning": "to disappear suddenly or completely"},
+    {"word": "precise", "meaning": "exact and correct in every detail"}
+  ],
+  "gapfill": [
+    {"s": "My grandparents grew up without the internet, so they belong to a different ______.", "a": "generation"},
+    {"s": "The radio presenter tried to ______ drivers about the heavy snow on the mountain roads.", "a": "warn"},
+    {"s": "Dilnoza speaks Uzbek as her ______ language, and she is learning English and Korean.", "a": "native"},
+    {"s": "Could you ______ this letter from English into Uzbek for my grandmother?", "a": "translate"},
+    {"s": "The new sports club has become an important part of the local ______.", "a": "community"},
+    {"s": "The students were very ______ about the school trip and asked lots of questions.", "a": "enthusiastic"}
+  ]
+}
