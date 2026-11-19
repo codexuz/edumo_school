@@ -1,0 +1,5263 @@
+[
+ {
+  "n": 1,
+  "passage": 1,
+  "part": 1,
+  "title": "Nutmeg – a valuable spice",
+  "topic": "History · trade",
+  "paras": [
+   "The nutmeg tree, [[Myristica fragrans]], is a large [[evergreen]] tree [[native to]] Southeast Asia. Until the late 18th century, it only grew in one place in the world: a small group of islands in the Banda Sea, part of the Moluccas — or Spice Islands — in northeastern Indonesia. The tree is thickly [[branched]] with [[dense foliage]] of [[tough]], dark green [[oval]] leaves, and produces small, yellow, [[bell-shaped]] flowers and [[pale]] yellow [[pear-shaped]] fruits. The fruit [[is encased in]] a [[fleshy husk]]. When the fruit is [[ripe]], this [[husk splits into]] two halves along a [[ridge]] running the length of the fruit, inside is a purple-brown [[shiny seed]], 2-3 cm long by about 2 cm across, [[surrounded]] by a [[lacy]] red or [[crimson]] covering called an ‘[[aril]]’. These are the [[sources]] of the two [[spices]] [[nutmeg]] and [[mace]], the [[former]] being produced from the dried [[seed]] and the [[latter]] from the [[aril]].",
+   "Nutmeg was a highly [[prized]] and [[costly ingredient]] in European [[cuisine]] in the [[Middle Ages]], and was used as a [[flavouring]], [[medicinal]], and [[preservative agent]]. Throughout this [[period]], the Arabs were the [[exclusive importers]] of the [[spice]] to Europe. They sold [[nutmeg]] for high prices to [[merchants]] [[based in]] Venice, but they never [[revealed]] the exact location of the [[source]] of this extremely [[valuable commodity]]. The Arab-Venetian [[dominance of]] the trade finally ended in 1512, when the Portuguese [[reached]] the Banda Islands and began [[exploiting]] its [[precious resources]].",
+   "Always [[in danger of competition]] from neighbouring Spain, the Portuguese began [[subcontracting]] their [[spice distribution to]] Dutch [[traders]]. Profits began to [[flow into]] the Netherlands, and the Dutch [[commercial fleet swiftly]] grew into one of the largest in the world. The Dutch quietly gained control of most of the shipping and trading of [[spices]] in Northern Europe. Then, in 1580, Portugal [[fell under]] Spanish [[rule]], and by the end of the 16th century the Dutch [[found]] themselves [[locked out of]] the market. As prices for pepper, nutmeg, and other spices [[soared]] across Europe, they decided to [[fight back]]."
+  ],
+  "letters": [],
+  "words": [
+   {
+    "term": "nutmeg",
+    "main": "a brown powder made from the seed of a tropical tree, which is used as a spice",
+    "items": [
+     "a brown powder made from the seed of a tropical tree",
+     "which is used as a spice"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "muskat yong‘og‘i"
+   },
+   {
+    "term": "valuable",
+    "main": "important, beneficial, worthy",
+    "items": [
+     "important",
+     "beneficial",
+     "worthy"
+    ],
+    "ant": [
+     "worthless"
+    ],
+    "syn": true,
+    "uz": "qimmatli, qadrli"
+   },
+   {
+    "term": "spice",
+    "main": "a type of powder or seed, taken from plants, that you put into food you are cooking to give it a special taste",
+    "items": [
+     "a type of powder or seed",
+     "taken from plants",
+     "that you put into food you are cooking to give it a special taste"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "ziravor"
+   },
+   {
+    "term": "myristica fragrans",
+    "main": "east indian tree widely cultivated in the tropics for its aromatic seed",
+    "items": [
+     "east indian tree widely cultivated in the tropics for its aromatic seed"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "muskat daraxti (lotincha nomi)"
+   },
+   {
+    "term": "evergreen",
+    "main": "an evergreen tree or bush does not lose its leaves in winter",
+    "items": [
+     "an evergreen tree or bush does not lose its leaves in winter"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "doim yashil"
+   },
+   {
+    "term": "native to",
+    "main": "indigenous, local, aboriginal, resident",
+    "items": [
+     "indigenous",
+     "local",
+     "aboriginal",
+     "resident"
+    ],
+    "ant": [
+     "foreign"
+    ],
+    "syn": true,
+    "uz": "…ga xos, …da tabiiy o‘sadigan"
+   },
+   {
+    "term": "branch",
+    "main": "split, fork, divide",
+    "items": [
+     "split",
+     "fork",
+     "divide"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "shoxlamoq, shoxlab o‘smoq"
+   },
+   {
+    "term": "dense",
+    "main": "thick, close together",
+    "items": [
+     "thick",
+     "close together"
+    ],
+    "ant": [
+     "transparent"
+    ],
+    "syn": true,
+    "uz": "qalin, zich"
+   },
+   {
+    "term": "foliage",
+    "main": "leaves",
+    "items": [
+     "leaves"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "barglar, yaproqlar"
+   },
+   {
+    "term": "tough",
+    "main": "not easily broken or made weaker",
+    "items": [
+     "not easily broken or made weaker"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "pishiq, qattiq"
+   },
+   {
+    "term": "oval",
+    "main": "ovate, egg-shaped",
+    "items": [
+     "ovate",
+     "egg-shaped"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "oval, tuxumsimon"
+   },
+   {
+    "term": "bell-shaped",
+    "main": "shaped like a bell",
+    "items": [
+     "shaped like a bell"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "qo‘ng‘iroqsimon"
+   },
+   {
+    "term": "pale",
+    "main": "pallid, faint, weak",
+    "items": [
+     "pallid",
+     "faint",
+     "weak"
+    ],
+    "ant": [
+     "strong"
+    ],
+    "syn": true,
+    "uz": "och (rang), rangpar"
+   },
+   {
+    "term": "pear-shaped",
+    "main": "shaped like a pear",
+    "items": [
+     "shaped like a pear"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "noksimon"
+   },
+   {
+    "term": "encase sth in sth",
+    "main": "cover, enclose, wrap",
+    "items": [
+     "cover",
+     "enclose",
+     "wrap"
+    ],
+    "ant": [
+     "uncover"
+    ],
+    "syn": true,
+    "uz": "…ga o‘ramoq, qoplamoq"
+   },
+   {
+    "term": "fleshy",
+    "main": "having a soft thick inner part",
+    "items": [
+     "having a soft thick inner part"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "etli, seret"
+   },
+   {
+    "term": "husk",
+    "main": "shell, pod, covering",
+    "items": [
+     "shell",
+     "pod",
+     "covering"
+    ],
+    "ant": [
+     "kernel"
+    ],
+    "syn": true,
+    "uz": "po‘choq, qobiq"
+   },
+   {
+    "term": "ripe",
+    "main": "fully grown, mature",
+    "items": [
+     "fully grown",
+     "mature"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "pishgan, yetilgan"
+   },
+   {
+    "term": "split into",
+    "main": "divide, separate, break up",
+    "items": [
+     "divide",
+     "separate",
+     "break up"
+    ],
+    "ant": [
+     "united"
+    ],
+    "syn": true,
+    "uz": "…ga bo‘linmoq, yorilmoq"
+   },
+   {
+    "term": "ridge",
+    "main": "edge, point",
+    "items": [
+     "edge",
+     "point"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "qirra, chok"
+   },
+   {
+    "term": "shiny",
+    "main": "glossy, gleaming, sparkly",
+    "items": [
+     "glossy",
+     "gleaming",
+     "sparkly"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "yaltiroq"
+   },
+   {
+    "term": "seed",
+    "main": "one of the small hard objects in a fruit such as an apple or orange, from which new fruit trees grow",
+    "items": [
+     "one of the small hard objects in a fruit such as an apple or orange",
+     "from which new fruit trees grow"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "urug‘"
+   },
+   {
+    "term": "surround",
+    "main": "enclose, encircle, envelop",
+    "items": [
+     "enclose",
+     "encircle",
+     "envelop"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "o‘rab olmoq"
+   },
+   {
+    "term": "lacy",
+    "main": "made of lace",
+    "items": [
+     "made of lace"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "to‘rsimon, nozik naqshli"
+   },
+   {
+    "term": "crimson",
+    "main": "deep red in colour",
+    "items": [
+     "deep red in colour"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "to‘q qizil"
+   },
+   {
+    "term": "aril",
+    "main": "an extra seed covering, typically coloured and hairy or fleshy",
+    "items": [
+     "an extra seed covering",
+     "typically coloured and hairy or fleshy"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "urug‘ po‘sti (aril)"
+   },
+   {
+    "term": "mace",
+    "main": "a spice made from the dried shell of a nutmeg",
+    "items": [
+     "a spice made from the dried shell of a nutmeg"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "muskat po‘stlog‘i ziravori"
+   },
+   {
+    "term": "former",
+    "main": "previous, past, earlier, prior",
+    "items": [
+     "previous",
+     "past",
+     "earlier",
+     "prior"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "birinchisi, avvalgisi"
+   },
+   {
+    "term": "latter",
+    "main": "last, later, final",
+    "items": [
+     "last",
+     "later",
+     "final"
+    ],
+    "ant": [
+     "former",
+     "previous"
+    ],
+    "syn": true,
+    "uz": "ikkinchisi, keyingisi"
+   },
+   {
+    "term": "prized",
+    "main": "extremely important or valuable to someone",
+    "items": [
+     "extremely important or valuable to someone"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "juda qadrlangan"
+   },
+   {
+    "term": "costly",
+    "main": "expensive, high, exorbitant",
+    "items": [
+     "expensive",
+     "high",
+     "exorbitant"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "qimmat"
+   },
+   {
+    "term": "ingredient",
+    "main": "element, component, part, item, thing",
+    "items": [
+     "element",
+     "component",
+     "part",
+     "item",
+     "thing"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "tarkibiy qism, masalliq"
+   },
+   {
+    "term": "cuisine",
+    "main": "food, cooking",
+    "items": [
+     "food",
+     "cooking"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "oshxona, taomlar"
+   },
+   {
+    "term": "middle ages",
+    "main": "the period in european history between about 1100 and 1500 ad",
+    "items": [
+     "the period in european history between about 1100 and 1500 ad"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "O‘rta asrlar"
+   },
+   {
+    "term": "flavouring",
+    "main": "a substance used to give something a particular flavour or increase its flavour",
+    "items": [
+     "a substance used to give something a particular flavour or increase its flavour"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "ta’m beruvchi modda"
+   },
+   {
+    "term": "medicinal",
+    "main": "used for treating medical problems",
+    "items": [
+     "used for treating medical problems"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "dorivor, shifobaxsh"
+   },
+   {
+    "term": "preservative",
+    "main": "conserving, preserving, protective",
+    "items": [
+     "conserving",
+     "preserving",
+     "protective"
+    ],
+    "ant": [
+     "destructive"
+    ],
+    "syn": true,
+    "uz": "konservant, saqlovchi"
+   },
+   {
+    "term": "agent",
+    "main": "a chemical or substance that is used for a particular purpose or that has a particular effect",
+    "items": [
+     "a chemical or substance that is used for a particular purpose or that has a particular effect"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "vosita, modda"
+   },
+   {
+    "term": "exclusive",
+    "main": "sole, limited",
+    "items": [
+     "sole",
+     "limited"
+    ],
+    "ant": [
+     "partial"
+    ],
+    "syn": true,
+    "uz": "yagona, mutlaq"
+   },
+   {
+    "term": "importer",
+    "main": "a person, company, or country that buys goods from other countries so they can be sold in their own country",
+    "items": [
+     "a person",
+     "company",
+     "or country that buys goods from other countries so they can be sold in their own country"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "import qiluvchi"
+   },
+   {
+    "term": "merchant",
+    "main": "wholesaler, trader, dealer",
+    "items": [
+     "wholesaler",
+     "trader",
+     "dealer"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "savdogar"
+   },
+   {
+    "term": "be based in sth",
+    "main": "to have your main place of work, business etc in a particular place",
+    "items": [
+     "to have your main place of work",
+     "business etc in a particular place"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "…da joylashgan bo‘lmoq"
+   },
+   {
+    "term": "reveal",
+    "main": "tell, expose, disclose",
+    "items": [
+     "tell",
+     "expose",
+     "disclose"
+    ],
+    "ant": [
+     "conceal"
+    ],
+    "syn": true,
+    "uz": "oshkor qilmoq"
+   },
+   {
+    "term": "commodity",
+    "main": "product, goods",
+    "items": [
+     "product",
+     "goods"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "tovar, mahsulot"
+   },
+   {
+    "term": "dominance of",
+    "main": "supremacy, domination, control, power, ascendency",
+    "items": [
+     "supremacy",
+     "domination",
+     "control",
+     "power",
+     "ascendency"
+    ],
+    "ant": [
+     "weakness"
+    ],
+    "syn": true,
+    "uz": "ustunlik, hukmronlik"
+   },
+   {
+    "term": "reach",
+    "main": "arrive, go, move",
+    "items": [
+     "arrive",
+     "go",
+     "move"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "yetib bormoq"
+   },
+   {
+    "term": "exploit",
+    "main": "use, utilize, make use of, take advantage of",
+    "items": [
+     "use",
+     "utilize",
+     "make use of",
+     "take advantage of"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "foydalanmoq, ekspluatatsiya qilmoq"
+   },
+   {
+    "term": "precious",
+    "main": "valuable, treasurable, priceless",
+    "items": [
+     "valuable",
+     "treasurable",
+     "priceless"
+    ],
+    "ant": [
+     "worthless"
+    ],
+    "syn": true,
+    "uz": "noyob, bebaho"
+   },
+   {
+    "term": "resource",
+    "main": "source, reserve, supply",
+    "items": [
+     "source",
+     "reserve",
+     "supply"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "resurs, boylik"
+   },
+   {
+    "term": "be in danger of (doing) sth",
+    "main": "risk, threat, hazard, endangerment",
+    "items": [
+     "risk",
+     "threat",
+     "hazard",
+     "endangerment"
+    ],
+    "ant": [
+     "safety"
+    ],
+    "syn": true,
+    "uz": "…xavfi ostida bo‘lmoq"
+   },
+   {
+    "term": "subcontract sth to sb",
+    "main": "if a company subcontracts work, they pay other people to do part of their work for them",
+    "items": [
+     "if a company subcontracts work",
+     "they pay other people to do part of their work for them"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "ishni boshqaga topshirmoq (pudrat)"
+   },
+   {
+    "term": "distribution",
+    "main": "supply, spreading, delivery",
+    "items": [
+     "supply",
+     "spreading",
+     "delivery"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "tarqatish, yetkazib berish"
+   },
+   {
+    "term": "trader",
+    "main": "dealer, merchant, seller",
+    "items": [
+     "dealer",
+     "merchant",
+     "seller"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "savdogar, tujjor"
+   },
+   {
+    "term": "flow into sth",
+    "main": "run, pour, flood",
+    "items": [
+     "run",
+     "pour",
+     "flood"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "…ga oqib kelmoq"
+   },
+   {
+    "term": "commercial",
+    "main": "business-related, for-profit",
+    "items": [
+     "business-related",
+     "for-profit"
+    ],
+    "ant": [
+     "charitable"
+    ],
+    "syn": true,
+    "uz": "tijoriy"
+   },
+   {
+    "term": "fleet",
+    "main": "a group of ships, or all the ships in a navy",
+    "items": [
+     "a group of ships",
+     "or all the ships in a navy"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "flot, kemalar to‘dasi"
+   },
+   {
+    "term": "swiftly",
+    "main": "quickly, speedily, rapidly",
+    "items": [
+     "quickly",
+     "speedily",
+     "rapidly"
+    ],
+    "ant": [
+     "slowly"
+    ],
+    "syn": true,
+    "uz": "tez, jadal"
+   },
+   {
+    "term": "fall under",
+    "main": "to be influenced or affected by (something)",
+    "items": [
+     "to be influenced or affected by (something)"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "…ning ostiga tushmoq"
+   },
+   {
+    "term": "lock sb out of sth",
+    "main": "to prevent a person or organization from having or being able to take part in something",
+    "items": [
+     "to prevent a person or organization from having or being able to take part in something"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "…dan chetlatmoq"
+   },
+   {
+    "term": "soar",
+    "main": "climb, rocket, rise, increase",
+    "items": [
+     "climb",
+     "rocket",
+     "rise",
+     "increase"
+    ],
+    "ant": [
+     "decrease",
+     "drop",
+     "plummet"
+    ],
+    "syn": true,
+    "uz": "keskin oshmoq"
+   },
+   {
+    "term": "fight back",
+    "main": "to work hard to achieve or oppose something, especially in a situation where you are losing",
+    "items": [
+     "to work hard to achieve or oppose something",
+     "especially in a situation where you are losing"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "qarshilik ko‘rsatmoq"
+   }
+  ],
+  "count": 338,
+  "ex": {
+   "syn": [
+    {
+     "word": "former",
+     "syn": "previous, past"
+    },
+    {
+     "word": "dense",
+     "syn": "thick, close together"
+    },
+    {
+     "word": "husk",
+     "syn": "shell, pod"
+    },
+    {
+     "word": "latter",
+     "syn": "last, later"
+    },
+    {
+     "word": "flow into",
+     "syn": "run, pour"
+    },
+    {
+     "word": "precious",
+     "syn": "valuable, treasurable"
+    },
+    {
+     "word": "be in danger of",
+     "syn": "risk, threat"
+    },
+    {
+     "word": "cuisine",
+     "syn": "food, cooking"
+    }
+   ],
+   "opp": [
+    {
+     "word": "soar",
+     "opp": "decrease"
+    },
+    {
+     "word": "preservative",
+     "opp": "destructive"
+    },
+    {
+     "word": "dominance of",
+     "opp": "weakness"
+    },
+    {
+     "word": "valuable",
+     "opp": "worthless"
+    },
+    {
+     "word": "swiftly",
+     "opp": "slowly"
+    },
+    {
+     "word": "encase in",
+     "opp": "uncover"
+    }
+   ],
+   "gap": [
+    {
+     "s": "They sold nutmeg for high prices to merchants based in Venice, but they never revealed the exact location of the source of this extremely valuable ______.",
+     "a": "commodity"
+    },
+    {
+     "s": "Profits began to flow into the Netherlands, and the Dutch ______ fleet swiftly grew into one of the largest in the world.",
+     "a": "commercial"
+    },
+    {
+     "s": "Nutmeg was a highly prized and ______ ingredient in European cuisine in the Middle Ages, and was used as a flavouring, medicinal, and preservative agent.",
+     "a": "costly"
+    },
+    {
+     "s": "Throughout this period, the Arabs were the ______ importers of the spice to Europe.",
+     "a": "exclusive"
+    },
+    {
+     "s": "The tree is thickly branched with dense foliage of tough, dark green oval leaves, and produces small, yellow, bell-shaped flowers and pale yellow ______ fruits.",
+     "a": "pear-shaped"
+    },
+    {
+     "s": "Always in danger of competition from neighbouring Spain, the Portuguese began subcontracting their spice distribution to Dutch ______.",
+     "a": "traders"
+    },
+    {
+     "s": "The fruit is encased in a ______ husk.",
+     "a": "fleshy"
+    },
+    {
+     "s": "These are the sources of the two spices nutmeg and mace, the former being produced from the dried ______ and the latter from the aril.",
+     "a": "seed"
+    }
+   ],
+   "find": [
+    {
+     "def": "a group of ships, or all the ships in a navy",
+     "a": "fleet",
+     "h": "f _ _ _ _"
+    },
+    {
+     "def": "deep red in colour",
+     "a": "crimson",
+     "h": "c _ _ _ _ _ _"
+    },
+    {
+     "def": "made of lace",
+     "a": "lacy",
+     "h": "l _ _ _"
+    },
+    {
+     "def": "a chemical or substance that is used for a particular purpose or that has a particular effect",
+     "a": "agent",
+     "h": "a _ _ _ _"
+    },
+    {
+     "def": "to be influenced or affected by (something)",
+     "a": "fall under",
+     "h": "f _ _ _   u _ _ _ _"
+    },
+    {
+     "def": "to have your main place of work, business etc in a particular place",
+     "a": "be based in",
+     "h": "b _   b _ _ _ _   i _"
+    }
+   ],
+   "uz": [
+    {
+     "uz": "pishiq, qattiq",
+     "a": "tough",
+     "h": "t _ _ _ _"
+    },
+    {
+     "uz": "yaltiroq",
+     "a": "shiny",
+     "h": "s _ _ _ _"
+    },
+    {
+     "uz": "och (rang), rangpar",
+     "a": "pale",
+     "h": "p _ _ _"
+    },
+    {
+     "uz": "oshkor qilmoq",
+     "a": "reveal",
+     "h": "r _ _ _ _ _"
+    },
+    {
+     "uz": "savdogar",
+     "a": "merchant",
+     "h": "m _ _ _ _ _ _ _"
+    },
+    {
+     "uz": "tarqatish, yetkazib berish",
+     "a": "distribution",
+     "h": "d _ _ _ _ _ _ _ _ _ _ _"
+    }
+   ]
+  }
+ },
+ {
+  "n": 2,
+  "passage": 1,
+  "part": 2,
+  "title": "Nutmeg – a valuable spice",
+  "topic": "History · trade",
+  "paras": [
+   "In 1602, Dutch [[merchants founded]] the VOC, a trading [[corporation]] better known as the Dutch East India Company. By 1617, the VOC was the richest [[commercial]] operation in the world. The company had 50,000 employees [[worldwide]], with a private [[army]] of 30,000 men and a [[fleet]] of 200 ships. At the same time, thousands of people across Europe were dying of the [[plague]], a highly [[contagious]] and deadly disease. Doctors were [[desperate]] for a way to stop the [[spread]] of this disease, and they decided [[nutmeg]] held the [[cure]]. Everybody wanted [[nutmeg]], and many were willing to [[spare no expense]] to have it. [[Nutmeg]] bought for a few [[pennies]] in Indonesia could be sold for 68,000 times its original cost on the streets of London. The only problem was the short supply. And that’s where the Dutch [[found]] their opportunity.",
+   "The Banda Islands were [[ruled]] by local [[sultans]] who [[insisted on]] maintaining a [[neutral]] trading [[policy]] towards foreign [[powers]]. This allowed them to avoid the presence of Portuguese or Spanish [[troops]] on their soil, but it also left them [[unprotected]] from other [[invaders]]. In 1621, the Dutch arrived and [[took over]]. Once securely in control of the Bandas, the Dutch went to work protecting their new investment. They [[concentrated]] all [[nutmeg]] production into a few easily [[guarded]] areas, [[uprooting]] and destroying any trees outside the [[plantation zones]]. Anyone [[caught]] growing a [[nutmeg seedling]] or carrying seeds without the [[proper authority]] was severely punished. In addition, all exported [[nutmeg]] was covered with [[lime]] to make sure there was no chance a [[fertile]] seed which could be grown elsewhere would leave the islands. There was only one [[obstacle]] to Dutch [[domination]]. One of the Banda Islands, a [[sliver]] of land called Run, only 3 km long by less than 1 km wide, was [[under the control of]] the British. After decades of fighting for control of this tiny island, the Dutch and British [[arrived at a compromise settlement]], the [[Treaty]] of Breda, in 1667.",
+   "[[Intent on securing]] their [[hold]] over every [[nutmeg]]-producing island, the Dutch offered a [[trade]]: if the British would give them the island of Run, they would [[in turn]] give Britain a [[distant]] and much less [[valuable]] island in North America. The British agreed. That other island was Manhattan, which is how New Amsterdam became New York. The Dutch now had a [[monopoly]] over the nutmeg trade which would last for another century.",
+   "Then, in 1770, a Frenchman named Pierre Poivre successfully [[smuggled nutmeg]] plants to safety in Mauritius, an island [[off the coast]] of Africa. Some of these were later exported to the Caribbean where they [[thrived]], especially on the island of Grenada. Next, in 1778, a [[volcanic eruption]] in the Banda region caused a [[tsunami]] that [[wiped out]] half the nutmeg [[groves]]. Finally, in 1809, the British returned to Indonesia and [[seized]] the Banda Islands [[by force]]. They returned the islands to the Dutch in 1817, but not before [[transplanting]] hundreds of nutmeg [[seedlings]] to [[plantations]] in several locations across southern Asia. The Dutch [[nutmeg monopoly]] was over.",
+   "Today, [[nutmeg]] is grown in Indonesia, the Caribbean, India, Malaysia, Papua New Guinea and Sri Lanka, and world [[nutmeg]] production is [[estimated]] to [[average]] between 10,000 and 12,000 tonnes per year."
+  ],
+  "letters": [],
+  "words": [
+   {
+    "term": "merchant",
+    "main": "wholesaler, trader, dealer",
+    "items": [
+     "wholesaler",
+     "trader",
+     "dealer"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "savdogar"
+   },
+   {
+    "term": "found",
+    "main": "start, create, establish, set up",
+    "items": [
+     "start",
+     "create",
+     "establish",
+     "set up"
+    ],
+    "ant": [
+     "close"
+    ],
+    "syn": true,
+    "uz": "asos solmoq"
+   },
+   {
+    "term": "corporation",
+    "main": "company, business, firm, organization",
+    "items": [
+     "company",
+     "business",
+     "firm",
+     "organization"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "korporatsiya, kompaniya"
+   },
+   {
+    "term": "army",
+    "main": "large organized group of people trained to fight on land in a war",
+    "items": [
+     "large organized group of people trained to fight on land in a war"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "armiya, qo‘shin"
+   },
+   {
+    "term": "plague",
+    "main": "disease, epidemic, pandemic, illness",
+    "items": [
+     "disease",
+     "epidemic",
+     "pandemic",
+     "illness"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "o‘lat, vabo"
+   },
+   {
+    "term": "contagious",
+    "main": "transmissible, transmittable, infectious",
+    "items": [
+     "transmissible",
+     "transmittable",
+     "infectious"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "yuqumli"
+   },
+   {
+    "term": "desperate",
+    "main": "anxious, worried, frantic, hopeless",
+    "items": [
+     "anxious",
+     "worried",
+     "frantic",
+     "hopeless"
+    ],
+    "ant": [
+     "calm"
+    ],
+    "syn": true,
+    "uz": "umidsiz, juda muhtoj"
+   },
+   {
+    "term": "spread",
+    "main": "if something spreads or is spread, it becomes larger or moves so that it affects more people or a larger area",
+    "items": [
+     "if something spreads or is spread",
+     "it becomes larger or moves so that it affects more people or a larger area"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "tarqalish"
+   },
+   {
+    "term": "cure",
+    "main": "treatment, therapy, medication",
+    "items": [
+     "treatment",
+     "therapy",
+     "medication"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "davo"
+   },
+   {
+    "term": "spare no expense to do sth",
+    "main": "to spend as much money or do everything necessary to make something really good or successful",
+    "items": [
+     "to spend as much money or do everything necessary to make something really good or successful"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "pulni ayamaslik"
+   },
+   {
+    "term": "penny",
+    "main": "a small unit of British money (plural: pennies)",
+    "items": [
+     "a small unit of British money (plural: pennies)"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "pens (Britaniya mayda puli)"
+   },
+   {
+    "term": "rule",
+    "main": "govern, reign, lead, control",
+    "items": [
+     "govern",
+     "reign",
+     "lead",
+     "control"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "boshqarmoq, hukmronlik"
+   },
+   {
+    "term": "sultan",
+    "main": "a ruler in some muslim countries",
+    "items": [
+     "a ruler in some muslim countries"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "sulton"
+   },
+   {
+    "term": "insist on",
+    "main": "require, enforce, oblige",
+    "items": [
+     "require",
+     "enforce",
+     "oblige"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "talab qilmoq, turib olmoq"
+   },
+   {
+    "term": "neutral",
+    "main": "unbiased, impartial",
+    "items": [
+     "unbiased",
+     "impartial"
+    ],
+    "ant": [
+     "biased"
+    ],
+    "syn": true,
+    "uz": "betaraf"
+   },
+   {
+    "term": "power",
+    "main": "authority, control, supremacy",
+    "items": [
+     "authority",
+     "control",
+     "supremacy"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "davlat, kuch"
+   },
+   {
+    "term": "troop",
+    "main": "crowd, flock, group",
+    "items": [
+     "crowd",
+     "flock",
+     "group"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "askar, qo‘shin"
+   },
+   {
+    "term": "unprotected",
+    "main": "defenceless, insecure, vulnerable",
+    "items": [
+     "defenceless",
+     "insecure",
+     "vulnerable"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "himoyasiz"
+   },
+   {
+    "term": "invader",
+    "main": "attacker, assailant, intruder",
+    "items": [
+     "attacker",
+     "assailant",
+     "intruder"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "bosqinchi"
+   },
+   {
+    "term": "take over",
+    "main": "take control, take charge, come to power",
+    "items": [
+     "take control",
+     "take charge",
+     "come to power"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "egallab olmoq"
+   },
+   {
+    "term": "concentrate",
+    "main": "collect, mass, assemble",
+    "items": [
+     "collect",
+     "mass",
+     "assemble"
+    ],
+    "ant": [
+     "disperse"
+    ],
+    "syn": true,
+    "uz": "bir joyga to‘plamoq"
+   },
+   {
+    "term": "guarded",
+    "main": "secured, protected, watched",
+    "items": [
+     "secured",
+     "protected",
+     "watched"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "qo‘riqlanadigan"
+   },
+   {
+    "term": "uproot",
+    "main": "deracinate, pull up, dig up",
+    "items": [
+     "deracinate",
+     "pull up",
+     "dig up"
+    ],
+    "ant": [
+     "plant"
+    ],
+    "syn": true,
+    "uz": "ildizi bilan sug‘urmoq"
+   },
+   {
+    "term": "plantation",
+    "main": "farm, agricultural estate, cultivated area",
+    "items": [
+     "farm",
+     "agricultural estate",
+     "cultivated area"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "plantatsiya"
+   },
+   {
+    "term": "zone",
+    "main": "area, region, sector",
+    "items": [
+     "area",
+     "region",
+     "sector"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "hudud, zona"
+   },
+   {
+    "term": "catch sb doing sth",
+    "main": "to see someone doing something that they did not want you to know they were doing",
+    "items": [
+     "to see someone doing something that they did not want you to know they were doing"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "…ustida qo‘lga tushirmoq"
+   },
+   {
+    "term": "seedling",
+    "main": "sprout, sapling, plantlet",
+    "items": [
+     "sprout",
+     "sapling",
+     "plantlet"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "ko‘chat, nihol"
+   },
+   {
+    "term": "proper",
+    "main": "appropriate, suitable, apt",
+    "items": [
+     "appropriate",
+     "suitable",
+     "apt"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "tegishli, munosib"
+   },
+   {
+    "term": "authority",
+    "main": "permission, license, mandate",
+    "items": [
+     "permission",
+     "license",
+     "mandate"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "ruxsat, vakolat"
+   },
+   {
+    "term": "lime",
+    "main": "a white substance obtained by burning limestone, used for making cement, marking sports fields etc",
+    "items": [
+     "a white substance obtained by burning limestone",
+     "used for making cement",
+     "marking sports fields etc"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "ohak"
+   },
+   {
+    "term": "fertile",
+    "main": "able to produce babies, young animals, or new plants",
+    "items": [
+     "able to produce babies",
+     "young animals",
+     "or new plants"
+    ],
+    "ant": [
+     "infertile"
+    ],
+    "syn": false,
+    "uz": "unumdor, unib chiqadigan"
+   },
+   {
+    "term": "obstacle",
+    "main": "problem, difficulty, hindrance",
+    "items": [
+     "problem",
+     "difficulty",
+     "hindrance"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "to‘siq"
+   },
+   {
+    "term": "domination",
+    "main": "power, control, authority, supremacy, government",
+    "items": [
+     "power",
+     "control",
+     "authority",
+     "supremacy",
+     "government"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "hukmronlik"
+   },
+   {
+    "term": "sliver",
+    "main": "a small pointed or thin piece that has been cut or broken off something",
+    "items": [
+     "a small pointed or thin piece that has been cut or broken off something"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "kichik bo‘lak, parcha"
+   },
+   {
+    "term": "under the control of sb",
+    "main": "the power to make the decisions about how a country, place, company etc is organized or what it does",
+    "items": [
+     "the power to make the decisions about how a country",
+     "place",
+     "company etc is organized or what it does"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "…ning nazorati ostida"
+   },
+   {
+    "term": "arrive at a decision/solution/compromise etc",
+    "main": "to reach a decision, solution etc after a lot of effort",
+    "items": [
+     "to reach a decision",
+     "solution etc after a lot of effort"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "qarorga (murosaga) kelmoq"
+   },
+   {
+    "term": "compromise",
+    "main": "arrangement, agreement, deal",
+    "items": [
+     "arrangement",
+     "agreement",
+     "deal"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "murosa, kelishuv"
+   },
+   {
+    "term": "settlement",
+    "main": "resolution, conclusion, decision, agreement",
+    "items": [
+     "resolution",
+     "conclusion",
+     "decision",
+     "agreement"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "kelishuv, bitim"
+   },
+   {
+    "term": "treaty",
+    "main": "agreement, accord, pact, truce",
+    "items": [
+     "agreement",
+     "accord",
+     "pact",
+     "truce"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "shartnoma"
+   },
+   {
+    "term": "intent on",
+    "main": "to be determined to do something or achieve something",
+    "items": [
+     "to be determined to do something or achieve something"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "…ga qat’iy ahd qilgan"
+   },
+   {
+    "term": "hold",
+    "main": "control, power, influence",
+    "items": [
+     "control",
+     "power",
+     "influence"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "nazorat, ta’sir"
+   },
+   {
+    "term": "trade",
+    "main": "when you exchange something you have for something that someone else has",
+    "items": [
+     "when you exchange something you have for something that someone else has"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "ayirboshlash, savdo"
+   },
+   {
+    "term": "in turn",
+    "main": "as a result of something",
+    "items": [
+     "as a result of something"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "o‘z navbatida"
+   },
+   {
+    "term": "distant",
+    "main": "remote, far, isolated",
+    "items": [
+     "remote",
+     "far",
+     "isolated"
+    ],
+    "ant": [
+     "near"
+    ],
+    "syn": true,
+    "uz": "olis, uzoq"
+   },
+   {
+    "term": "monopoly",
+    "main": "complete control of a business or trade, so that nobody else can compete",
+    "items": [
+     "complete control of a business or trade",
+     "so that nobody else can compete"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "monopoliya, yakka hokimlik"
+   },
+   {
+    "term": "smuggle",
+    "main": "to take something or someone illegally from one country to another",
+    "items": [
+     "to take something or someone illegally from one country to another"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "kontrabanda qilmoq"
+   },
+   {
+    "term": "off the coast",
+    "main": "the area where the land meets the sea",
+    "items": [
+     "the area where the land meets the sea"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "qirg‘oq yaqinida"
+   },
+   {
+    "term": "thrive",
+    "main": "flourish, grow well",
+    "items": [
+     "flourish",
+     "grow well"
+    ],
+    "ant": [
+     "fail"
+    ],
+    "syn": true,
+    "uz": "gullab-yashnamoq"
+   },
+   {
+    "term": "volcanic",
+    "main": "relating to or caused by a volcano",
+    "items": [
+     "relating to or caused by a volcano"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "vulqon"
+   },
+   {
+    "term": "eruption",
+    "main": "outbreak, explosion, emission",
+    "items": [
+     "outbreak",
+     "explosion",
+     "emission"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "otilish"
+   },
+   {
+    "term": "tsunami",
+    "main": "tidal wave",
+    "items": [
+     "tidal wave"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "sunami"
+   },
+   {
+    "term": "wipe out",
+    "main": "destroy, eradicate, devastate, remove",
+    "items": [
+     "destroy",
+     "eradicate",
+     "devastate",
+     "remove"
+    ],
+    "ant": [
+     "protect"
+    ],
+    "syn": true,
+    "uz": "butunlay yo‘q qilmoq"
+   },
+   {
+    "term": "grove",
+    "main": "plantation, copse, orchard",
+    "items": [
+     "plantation",
+     "copse",
+     "orchard"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "bog‘, daraxtzor"
+   },
+   {
+    "term": "seize",
+    "main": "capture, conquer, take control of, take over",
+    "items": [
+     "capture",
+     "conquer",
+     "take control of",
+     "take over"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "bosib olmoq"
+   },
+   {
+    "term": "by force",
+    "main": "violent physical action used to get what you want",
+    "items": [
+     "violent physical action used to get what you want"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "kuch bilan"
+   },
+   {
+    "term": "transplant",
+    "main": "relocate, resettle, uproot",
+    "items": [
+     "relocate",
+     "resettle",
+     "uproot"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "ko‘chirib o‘tqazmoq"
+   },
+   {
+    "term": "estimate",
+    "main": "guess, assess, appraise",
+    "items": [
+     "guess",
+     "assess",
+     "appraise"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "taxmin qilmoq, baholamoq"
+   }
+  ],
+  "count": 542,
+  "ex": {
+   "syn": [
+    {
+     "word": "domination",
+     "syn": "power, control"
+    },
+    {
+     "word": "plantation",
+     "syn": "farm, agricultural estate"
+    },
+    {
+     "word": "neutral",
+     "syn": "unbiased, impartial"
+    },
+    {
+     "word": "thrive",
+     "syn": "flourish, grow well"
+    },
+    {
+     "word": "estimate",
+     "syn": "guess, assess"
+    },
+    {
+     "word": "merchant",
+     "syn": "wholesaler, trader"
+    },
+    {
+     "word": "obstacle",
+     "syn": "problem, difficulty"
+    },
+    {
+     "word": "eruption",
+     "syn": "outbreak, explosion"
+    }
+   ],
+   "opp": [
+    {
+     "word": "desperate",
+     "opp": "calm"
+    },
+    {
+     "word": "uproot",
+     "opp": "plant"
+    },
+    {
+     "word": "distant",
+     "opp": "near"
+    },
+    {
+     "word": "concentrate",
+     "opp": "disperse"
+    },
+    {
+     "word": "fertile",
+     "opp": "infertile"
+    },
+    {
+     "word": "wipe out",
+     "opp": "protect"
+    }
+   ],
+   "gap": [
+    {
+     "s": "The company had 50,000 employees worldwide, with a private ______ of 30,000 men and a fleet of 200 ships.",
+     "a": "army"
+    },
+    {
+     "s": "At the same time, thousands of people across Europe were dying of the plague, a highly ______ and deadly disease.",
+     "a": "contagious"
+    },
+    {
+     "s": "Next, in 1778, a volcanic eruption in the Banda region caused a tsunami that wiped out half the nutmeg ______.",
+     "a": "groves"
+    },
+    {
+     "s": "They returned the islands to the Dutch in 1817, but not before ______ hundreds of nutmeg seedlings to plantations in several locations across southern Asia.",
+     "a": "transplanting"
+    },
+    {
+     "s": "In addition, all exported nutmeg was covered with ______ to make sure there was no chance a fertile seed which could be grown elsewhere would leave the islands.",
+     "a": "lime"
+    },
+    {
+     "s": "Anyone caught growing a nutmeg seedling or carrying seeds without the ______ authority was severely punished.",
+     "a": "proper"
+    },
+    {
+     "s": "This allowed them to avoid the presence of Portuguese or Spanish troops on their soil, but it also left them unprotected from other ______.",
+     "a": "invaders"
+    },
+    {
+     "s": "In 1602, Dutch merchants founded the VOC, a trading ______ better known as the Dutch East India Company.",
+     "a": "corporation"
+    }
+   ],
+   "find": [
+    {
+     "def": "to take something or someone illegally from one country to another",
+     "a": "smuggle",
+     "h": "s _ _ _ _ _ _"
+    },
+    {
+     "def": "to spend as much money or do everything necessary to make something really good or successful",
+     "a": "spare no expense",
+     "h": "s _ _ _ _   n _   e _ _ _ _ _ _"
+    },
+    {
+     "def": "a small pointed or thin piece that has been cut or broken off something",
+     "a": "sliver",
+     "h": "s _ _ _ _ _"
+    },
+    {
+     "def": "a ruler in some muslim countries",
+     "a": "sultan",
+     "h": "s _ _ _ _ _"
+    },
+    {
+     "def": "relating to or caused by a volcano",
+     "a": "volcanic",
+     "h": "v _ _ _ _ _ _ _"
+    },
+    {
+     "def": "when you exchange something you have for something that someone else has",
+     "a": "trade",
+     "h": "t _ _ _ _"
+    }
+   ],
+   "uz": [
+    {
+     "uz": "kelishuv, bitim",
+     "a": "settlement",
+     "h": "s _ _ _ _ _ _ _ _ _"
+    },
+    {
+     "uz": "hudud, zona",
+     "a": "zone",
+     "h": "z _ _ _"
+    },
+    {
+     "uz": "bosib olmoq",
+     "a": "seize",
+     "h": "s _ _ _ _"
+    },
+    {
+     "uz": "himoyasiz",
+     "a": "unprotected",
+     "h": "u _ _ _ _ _ _ _ _ _ _"
+    },
+    {
+     "uz": "shartnoma",
+     "a": "treaty",
+     "h": "t _ _ _ _ _"
+    },
+    {
+     "uz": "askar, qo‘shin",
+     "a": "troop",
+     "h": "t _ _ _ _"
+    }
+   ]
+  }
+ },
+ {
+  "n": 3,
+  "passage": 2,
+  "part": 1,
+  "title": "Driverless cars",
+  "topic": "Technology · transport",
+  "paras": [
+   "The [[automotive sector]] is well used to [[adapting to automation]] in [[manufacturing]]. The [[implementation]] of robotic car [[manufacture]] from the 1970s [[onwards]] led to [[significant cost savings]] and improvements in the [[reliability]] and [[flexibility]] of vehicle [[mass production]]. A new challenge to vehicle production is now [[on the horizon]] and, again, it comes from [[automation]]. However, this time it is not to do with the [[manufacturing]] process, but with the vehicles themselves. Research projects on vehicle [[automation]] are not new. Vehicles with limited [[self-driving capabilities]] have been around for more than 50 years, resulting in [[significant contributions]] towards driver [[assistance]] systems. But since Google [[announced]] in 2010 that it had been [[trialling self-driving]] cars on the streets of California, [[progress]] in this field has quickly [[gathered pace]].",
+   "There are many reasons why technology is [[advancing]] so fast. One frequently [[cited motive]] is safety; [[indeed]], research at the UK’s Transport [[Research]] Laboratory has [[demonstrated]] that more than 90 percent of road [[collisions involve human error]] as a [[contributory]] factor, and it is the [[primary]] cause in the [[vast majority]]. [[Automation]] may help to reduce the [[incidence of]] this. Another [[aim]] is to [[free]] the time people spend driving for other purposes. If the vehicle can do some or all of the driving, it may be possible to be [[productive]], to [[socialise]] or simply to relax while [[automation]] systems [[have responsibility for]] safe control of the vehicle. If the vehicle can do the driving, those who are challenged by [[existing mobility models]] — such as older or disabled travellers — may be able to enjoy significantly greater travel [[autonomy]].",
+   "[[Beyond]] these direct benefits, we can consider the [[wider implications]] for transport and society, and how [[manufacturing]] processes might need to [[respond]] as a result. At present, the [[average]] car spends more than 90 percent of its life [[parked]]. [[Automation]] means that [[initiatives]] for [[car-sharing]] become much more [[viable]], particularly in urban areas with [[significant]] travel demand. If a [[significant proportion]] of the population choose to use shared [[automated]] vehicles, [[mobility]] demand can be met [[by far]] fewer vehicles."
+  ],
+  "letters": [
+   "A",
+   "B",
+   "C"
+  ],
+  "words": [
+   {
+    "term": "driverless",
+    "main": "a driverless vehicle is controlled by equipment in the vehicle, rather than by a human driver",
+    "items": [
+     "a driverless vehicle is controlled by equipment in the vehicle",
+     "rather than by a human driver"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "haydovchisiz"
+   },
+   {
+    "term": "automotive",
+    "main": "motorized, locomotive, relating to cars",
+    "items": [
+     "motorized",
+     "locomotive",
+     "relating to cars"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "avtomobilsozlik"
+   },
+   {
+    "term": "sector",
+    "main": "area, part, division",
+    "items": [
+     "area",
+     "part",
+     "division"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "soha, tarmoq"
+   },
+   {
+    "term": "adapt to",
+    "main": "acclimatize, adjust, modify",
+    "items": [
+     "acclimatize",
+     "adjust",
+     "modify"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "…ga moslashmoq"
+   },
+   {
+    "term": "implementation",
+    "main": "application, operation, carrying out",
+    "items": [
+     "application",
+     "operation",
+     "carrying out"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "joriy etish, amalga oshirish"
+   },
+   {
+    "term": "automation",
+    "main": "the use of computers and machines instead of people to do a job",
+    "items": [
+     "the use of computers and machines instead of people to do a job"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "avtomatlashtirish"
+   },
+   {
+    "term": "manufacture",
+    "main": "production, making, construction",
+    "items": [
+     "production",
+     "making",
+     "construction"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "ishlab chiqarish"
+   },
+   {
+    "term": "onwards",
+    "main": "forwards, ahead, straight on",
+    "items": [
+     "forwards",
+     "ahead",
+     "straight on"
+    ],
+    "ant": [
+     "backwards"
+    ],
+    "syn": true,
+    "uz": "…dan boshlab"
+   },
+   {
+    "term": "significant",
+    "main": "considerable, large, major",
+    "items": [
+     "considerable",
+     "large",
+     "major"
+    ],
+    "ant": [
+     "paltry"
+    ],
+    "syn": true,
+    "uz": "sezilarli, muhim"
+   },
+   {
+    "term": "cost saving",
+    "main": "money that a company has saved by deliberately spending less",
+    "items": [
+     "money that a company has saved by deliberately spending less"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "xarajatni tejash"
+   },
+   {
+    "term": "reliability",
+    "main": "dependability, consistency",
+    "items": [
+     "dependability",
+     "consistency"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "ishonchlilik"
+   },
+   {
+    "term": "flexibility",
+    "main": "suppleness, elasticity",
+    "items": [
+     "suppleness",
+     "elasticity"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "moslashuvchanlik"
+   },
+   {
+    "term": "mass production",
+    "main": "when products are made in large numbers by machines so that they can be sold cheaply",
+    "items": [
+     "when products are made in large numbers by machines so that they can be sold cheaply"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "ommaviy ishlab chiqarish"
+   },
+   {
+    "term": "on the horizon",
+    "main": "to seem likely to happen in the future",
+    "items": [
+     "to seem likely to happen in the future"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "yaqinlashib kelayotgan"
+   },
+   {
+    "term": "self-driving",
+    "main": "used to refer to a vehicle that drives itself",
+    "items": [
+     "used to refer to a vehicle that drives itself"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "o‘zi yuradigan"
+   },
+   {
+    "term": "capability",
+    "main": "ability, capacity",
+    "items": [
+     "ability",
+     "capacity"
+    ],
+    "ant": [
+     "inability"
+    ],
+    "syn": true,
+    "uz": "imkoniyat, qobiliyat"
+   },
+   {
+    "term": "contribution",
+    "main": "influence, involvement, impact",
+    "items": [
+     "influence",
+     "involvement",
+     "impact"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "hissa"
+   },
+   {
+    "term": "assistance",
+    "main": "help, support, aid",
+    "items": [
+     "help",
+     "support",
+     "aid"
+    ],
+    "ant": [
+     "hindrance"
+    ],
+    "syn": true,
+    "uz": "yordam"
+   },
+   {
+    "term": "announce",
+    "main": "publicize, declare, say",
+    "items": [
+     "publicize",
+     "declare",
+     "say"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "e’lon qilmoq"
+   },
+   {
+    "term": "trial",
+    "main": "to thoroughly test something to see if it works correctly or is effective",
+    "items": [
+     "to thoroughly test something to see if it works correctly or is effective"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "sinovdan o‘tkazmoq"
+   },
+   {
+    "term": "progress",
+    "main": "development, growth, improvement",
+    "items": [
+     "development",
+     "growth",
+     "improvement"
+    ],
+    "ant": [
+     "regression"
+    ],
+    "syn": true,
+    "uz": "taraqqiyot"
+   },
+   {
+    "term": "gather pace",
+    "main": "happen more quickly",
+    "items": [
+     "happen more quickly"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "tezlashmoq"
+   },
+   {
+    "term": "advance",
+    "main": "improve, develop, enhance",
+    "items": [
+     "improve",
+     "develop",
+     "enhance"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "rivojlanmoq"
+   },
+   {
+    "term": "cite",
+    "main": "mention, refer to",
+    "items": [
+     "mention",
+     "refer to"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "keltirmoq, tilga olmoq"
+   },
+   {
+    "term": "motive",
+    "main": "reason, cause, purpose, intention, aim",
+    "items": [
+     "reason",
+     "cause",
+     "purpose",
+     "intention",
+     "aim"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "sabab, turtki"
+   },
+   {
+    "term": "indeed",
+    "main": "certainly, actually, in fact",
+    "items": [
+     "certainly",
+     "actually",
+     "in fact"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "darhaqiqat"
+   },
+   {
+    "term": "demonstrate",
+    "main": "show, reveal, display",
+    "items": [
+     "show",
+     "reveal",
+     "display"
+    ],
+    "ant": [
+     "conceal"
+    ],
+    "syn": true,
+    "uz": "ko‘rsatmoq, isbotlamoq"
+   },
+   {
+    "term": "collision",
+    "main": "crash, accident",
+    "items": [
+     "crash",
+     "accident"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "to‘qnashuv"
+   },
+   {
+    "term": "involve",
+    "main": "include, comprise, encompass",
+    "items": [
+     "include",
+     "comprise",
+     "encompass"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "o‘z ichiga olmoq"
+   },
+   {
+    "term": "human error",
+    "main": "an error that is typical of humans rather than machines",
+    "items": [
+     "an error that is typical of humans rather than machines"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "inson xatosi"
+   },
+   {
+    "term": "contributory",
+    "main": "related, causal, influential",
+    "items": [
+     "related",
+     "causal",
+     "influential"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "sabab bo‘luvchi"
+   },
+   {
+    "term": "primary",
+    "main": "main, key, chief, crucial",
+    "items": [
+     "main",
+     "key",
+     "chief",
+     "crucial"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "asosiy"
+   },
+   {
+    "term": "great/vast/overwhelming majority of sth",
+    "main": "almost all of a group",
+    "items": [
+     "almost all of a group"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "mutlaq ko‘pchilik"
+   },
+   {
+    "term": "incidence of",
+    "main": "occurrence, prevalence, frequency, rate, numbers",
+    "items": [
+     "occurrence",
+     "prevalence",
+     "frequency",
+     "rate",
+     "numbers"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "sodir bo‘lish darajasi"
+   },
+   {
+    "term": "aim",
+    "main": "goal, purpose, objective, target, intention",
+    "items": [
+     "goal",
+     "purpose",
+     "objective",
+     "target",
+     "intention"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "maqsad"
+   },
+   {
+    "term": "free",
+    "main": "release, set free, liberate",
+    "items": [
+     "release",
+     "set free",
+     "liberate"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "bo‘shatmoq"
+   },
+   {
+    "term": "productive",
+    "main": "producing or achieving a lot",
+    "items": [
+     "producing or achieving a lot"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "samarali"
+   },
+   {
+    "term": "socialize",
+    "main": "to spend time with other people in a friendly way",
+    "items": [
+     "to spend time with other people in a friendly way"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "muloqot qilmoq"
+   },
+   {
+    "term": "have responsibility for (doing) sth",
+    "main": "accountability, duty, charge",
+    "items": [
+     "accountability",
+     "duty",
+     "charge"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "…uchun mas’ul bo‘lmoq"
+   },
+   {
+    "term": "existing",
+    "main": "current, present, prevailing",
+    "items": [
+     "current",
+     "present",
+     "prevailing"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "mavjud"
+   },
+   {
+    "term": "mobility",
+    "main": "movement, motion",
+    "items": [
+     "movement",
+     "motion"
+    ],
+    "ant": [
+     "immobility"
+    ],
+    "syn": true,
+    "uz": "harakatlanish"
+   },
+   {
+    "term": "model",
+    "main": "type, sort, kind, brand, version",
+    "items": [
+     "type",
+     "sort",
+     "kind",
+     "brand",
+     "version"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "model, tur"
+   },
+   {
+    "term": "autonomy",
+    "main": "independence, self-sufficiency",
+    "items": [
+     "independence",
+     "self-sufficiency"
+    ],
+    "ant": [
+     "dependence"
+    ],
+    "syn": true,
+    "uz": "mustaqillik"
+   },
+   {
+    "term": "beyond",
+    "main": "further than, away from",
+    "items": [
+     "further than",
+     "away from"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "…dan tashqari"
+   },
+   {
+    "term": "wider",
+    "main": "broader, varied, wide-ranging",
+    "items": [
+     "broader",
+     "varied",
+     "wide-ranging"
+    ],
+    "ant": [
+     "narrower"
+    ],
+    "syn": true,
+    "uz": "kengroq"
+   },
+   {
+    "term": "implication",
+    "main": "effect, consequence, repercussion",
+    "items": [
+     "effect",
+     "consequence",
+     "repercussion"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "oqibat, ta’sir"
+   },
+   {
+    "term": "respond",
+    "main": "react, reply, answer",
+    "items": [
+     "react",
+     "reply",
+     "answer"
+    ],
+    "ant": [
+     "ignore"
+    ],
+    "syn": true,
+    "uz": "javob bermoq, munosabat bildirmoq"
+   },
+   {
+    "term": "average",
+    "main": "normal, regular, typical, standard",
+    "items": [
+     "normal",
+     "regular",
+     "typical",
+     "standard"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "o‘rtacha"
+   },
+   {
+    "term": "park",
+    "main": "to put a car or other vehicle in a particular place for a period of time",
+    "items": [
+     "to put a car or other vehicle in a particular place for a period of time"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "to‘xtatib qo‘ymoq (mashina)"
+   },
+   {
+    "term": "initiative",
+    "main": "plan, idea, project, program",
+    "items": [
+     "plan",
+     "idea",
+     "project",
+     "program"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "tashabbus"
+   },
+   {
+    "term": "car-sharing",
+    "main": "an arrangement in which a group of people travel together in one car to work or school",
+    "items": [
+     "an arrangement in which a group of people travel together in one car to work or school"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "avtomobildan birgalikda foydalanish"
+   },
+   {
+    "term": "viable",
+    "main": "feasible, practical, practicable",
+    "items": [
+     "feasible",
+     "practical",
+     "practicable"
+    ],
+    "ant": [
+     "impossible"
+    ],
+    "syn": true,
+    "uz": "amalga oshirsa bo‘ladigan"
+   },
+   {
+    "term": "automated",
+    "main": "automatic, robotic, computerized, programmed",
+    "items": [
+     "automatic",
+     "robotic",
+     "computerized",
+     "programmed"
+    ],
+    "ant": [
+     "manual"
+    ],
+    "syn": true,
+    "uz": "avtomatlashtirilgan"
+   },
+   {
+    "term": "by far",
+    "main": "used to say that something is much better, worse etc than anything else",
+    "items": [
+     "used to say that something is much better",
+     "worse etc than anything else"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "ancha, juda"
+   }
+  ],
+  "count": 346,
+  "ex": {
+   "syn": [
+    {
+     "word": "automated",
+     "syn": "automatic, robotic"
+    },
+    {
+     "word": "adapt to",
+     "syn": "acclimatize, adjust"
+    },
+    {
+     "word": "beyond",
+     "syn": "further than, away from"
+    },
+    {
+     "word": "initiative",
+     "syn": "plan, idea"
+    },
+    {
+     "word": "implication",
+     "syn": "effect, consequence"
+    },
+    {
+     "word": "collision",
+     "syn": "crash, accident"
+    },
+    {
+     "word": "respond",
+     "syn": "react, reply"
+    },
+    {
+     "word": "automotive",
+     "syn": "motorized, locomotive"
+    }
+   ],
+   "opp": [
+    {
+     "word": "capability",
+     "opp": "inability"
+    },
+    {
+     "word": "progress",
+     "opp": "regression"
+    },
+    {
+     "word": "wider",
+     "opp": "narrower"
+    },
+    {
+     "word": "mobility",
+     "opp": "immobility"
+    },
+    {
+     "word": "autonomy",
+     "opp": "dependence"
+    },
+    {
+     "word": "viable",
+     "opp": "impossible"
+    }
+   ],
+   "gap": [
+    {
+     "s": "The ______ of robotic car manufacture from the 1970s onwards led to significant cost savings and improvements in the reliability and flexibility of vehicle mass production.",
+     "a": "implementation"
+    },
+    {
+     "s": "… ______, research at the UK’s Transport Research Laboratory has demonstrated that more than 90 percent of road collisions involve human error as a contributory factor, and it is the primary cause in the vast majority.",
+     "a": "indeed"
+    },
+    {
+     "s": "Vehicles with limited self-driving capabilities have been around for more than 50 years, resulting in significant contributions towards driver ______ systems.",
+     "a": "assistance"
+    },
+    {
+     "s": "If the vehicle can do the driving, those who are challenged by ______ mobility models …",
+     "a": "existing"
+    },
+    {
+     "s": "But since Google announced in 2010 that it had been trialling ______ cars on the streets of California, progress in this field has quickly gathered pace.",
+     "a": "self-driving"
+    },
+    {
+     "s": "There are many reasons why technology is ______ so fast.",
+     "a": "advancing"
+    },
+    {
+     "s": "The automotive sector is well used to adapting to ______ in manufacturing.",
+     "a": "automation"
+    },
+    {
+     "s": "Automation means that initiatives for ______ become much more viable, particularly in urban areas with significant travel demand.",
+     "a": "car-sharing"
+    }
+   ],
+   "find": [
+    {
+     "def": "to spend time with other people in a friendly way",
+     "a": "socialize",
+     "h": "s _ _ _ _ _ _ _ _"
+    },
+    {
+     "def": "to put a car or other vehicle in a particular place for a period of time",
+     "a": "park",
+     "h": "p _ _ _"
+    },
+    {
+     "def": "an error that is typical of humans rather than machines",
+     "a": "human error",
+     "h": "h _ _ _ _   e _ _ _ _"
+    },
+    {
+     "def": "producing or achieving a lot",
+     "a": "productive",
+     "h": "p _ _ _ _ _ _ _ _ _"
+    },
+    {
+     "def": "used to say that something is much better, worse etc than anything else",
+     "a": "by far",
+     "h": "b _   f _ _"
+    },
+    {
+     "def": "to seem likely to happen in the future",
+     "a": "on the horizon",
+     "h": "o _   t _ _   h _ _ _ _ _ _"
+    }
+   ],
+   "uz": [
+    {
+     "uz": "sezilarli, muhim",
+     "a": "significant",
+     "h": "s _ _ _ _ _ _ _ _ _ _"
+    },
+    {
+     "uz": "haydovchisiz",
+     "a": "driverless",
+     "h": "d _ _ _ _ _ _ _ _ _"
+    },
+    {
+     "uz": "ishonchlilik",
+     "a": "reliability",
+     "h": "r _ _ _ _ _ _ _ _ _ _"
+    },
+    {
+     "uz": "ishlab chiqarish",
+     "a": "manufacture",
+     "h": "m _ _ _ _ _ _ _ _ _ _"
+    },
+    {
+     "uz": "sabab, turtki",
+     "a": "motive",
+     "h": "m _ _ _ _ _"
+    },
+    {
+     "uz": "o‘z ichiga olmoq",
+     "a": "involve",
+     "h": "i _ _ _ _ _ _"
+    }
+   ]
+  }
+ },
+ {
+  "n": 4,
+  "passage": 2,
+  "part": 2,
+  "title": "Driverless cars",
+  "topic": "Technology · transport",
+  "paras": [
+   "The Massachusetts Institute of Technology investigated [[automated mobility]] in Singapore, finding that fewer than 30 percent of the vehicles [[currently]] used would be required if fully [[automated]] car sharing could be [[implemented]]. If [[this is the case]], it might mean that we need to [[manufacture]] far fewer vehicles to meet demand. However, the number of trips being taken would probably increase, partly because [[empty]] vehicles would have to be moved from one customer to the next. [[Modelling]] work by the University of Michigan Transportation Research Institute suggests automated vehicles might reduce vehicle [[ownership]] by 43 percent, but that vehicles’ [[average]] annual [[mileage]] would double as a result. As a consequence, each vehicle would be used more [[intensively]], and might need replacing sooner. This faster rate of [[turnover]] may mean that vehicle production will not necessarily decrease.",
+   "[[Automation]] may [[prompt]] other changes in vehicle [[manufacture]]. If we move to a model where consumers are tending not to [[own]] a [[single]] vehicle but to [[purchase]] access to [[a range of]] vehicles through a mobility provider, drivers will have the [[freedom]] to [[select]] one that best [[suits]] their needs for a particular journey, rather than [[making a compromise]] across all their requirements. Since, for most of the time, most of the seats in most cars are [[unoccupied]], this may [[boost]] production of a smaller, more [[efficient range]] of vehicles that suit the needs of [[individuals]]. [[Specialised]] vehicles may then be [[available]] for [[exceptional]] journeys, such as going on a family camping trip or helping a son or daughter move to university.",
+   "There are a number of [[hurdles]] to [[overcome]] in delivering automated vehicles to our roads. These include the technical difficulties in [[ensuring]] that the vehicle works [[reliably]] in the [[infinite range]] of traffic, weather and road situations it might [[encounter]]; the [[regulatory]] challenges in understanding how [[liability]] and [[enforcement]] might change when drivers are no longer [[essential]] for vehicle operation; and the [[societal]] changes that may be required for communities to trust and accept automated vehicles as being a [[valuable]] part of the mobility [[landscape]].",
+   "It’s clear that there are many challenges that need to be [[addressed]] but, through [[robust]] and [[targeted]] research, these can most probably be [[conquered]] within the next 10 years. Mobility will change in such potentially significant ways and [[in association with]] so many other technological developments, such as [[telepresence]] and [[virtual reality]], that it is hard to make [[concrete predictions]] about the future. However, one thing is certain: change is coming, and the need to be [[flexible in response to]] this will be [[vital]] for those [[involved in]] manufacturing the vehicles that will [[deliver]] future mobility."
+  ],
+  "letters": [
+   "D",
+   "E",
+   "F",
+   "G"
+  ],
+  "words": [
+   {
+    "term": "implement",
+    "main": "carry out, put into operation, put into action, apply",
+    "items": [
+     "carry out",
+     "put into operation",
+     "put into action",
+     "apply"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "joriy qilmoq"
+   },
+   {
+    "term": "this is the case",
+    "main": "a situation that exists, especially as it affects a particular person or group",
+    "items": [
+     "a situation that exists",
+     "especially as it affects a particular person or group"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "vaziyat shunday"
+   },
+   {
+    "term": "modelling",
+    "main": "the process of making a scientific or computer model of something to show how it works or to understand it better",
+    "items": [
+     "the process of making a scientific or computer model of something to show how it works or to understand it better"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "modellashtirish"
+   },
+   {
+    "term": "ownership",
+    "main": "possession, tenure, proprietorship",
+    "items": [
+     "possession",
+     "tenure",
+     "proprietorship"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "egalik"
+   },
+   {
+    "term": "mileage",
+    "main": "the number of miles someone travels in a vehicle in a particular period of time",
+    "items": [
+     "the number of miles someone travels in a vehicle in a particular period of time"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "yurgan masofa"
+   },
+   {
+    "term": "intensively",
+    "main": "in a way that involves a lot of activity, effort, or careful attention in a short period of time",
+    "items": [
+     "in a way that involves a lot of activity",
+     "effort",
+     "or careful attention in a short period of time"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "jadal, qizg‘in"
+   },
+   {
+    "term": "turnover",
+    "main": "the rate at which a particular kind of goods is sold",
+    "items": [
+     "the rate at which a particular kind of goods is sold"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "almashinuv, aylanma"
+   },
+   {
+    "term": "prompt",
+    "main": "stimulate, encourage, motivate",
+    "items": [
+     "stimulate",
+     "encourage",
+     "motivate"
+    ],
+    "ant": [
+     "prevent"
+    ],
+    "syn": true,
+    "uz": "sabab bo‘lmoq, undamoq"
+   },
+   {
+    "term": "a range of",
+    "main": "a variety of, a mixture of, diverse, various",
+    "items": [
+     "a variety of",
+     "a mixture of",
+     "diverse",
+     "various"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "turli xil"
+   },
+   {
+    "term": "freedom",
+    "main": "liberty, self-determination, independence, choice",
+    "items": [
+     "liberty",
+     "self-determination",
+     "independence",
+     "choice"
+    ],
+    "ant": [
+     "restriction"
+    ],
+    "syn": true,
+    "uz": "erkinlik"
+   },
+   {
+    "term": "select",
+    "main": "choose, pick, opt for, decide on",
+    "items": [
+     "choose",
+     "pick",
+     "opt for",
+     "decide on"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "tanlamoq"
+   },
+   {
+    "term": "suit",
+    "main": "fit, match, go well with, be appropriate",
+    "items": [
+     "fit",
+     "match",
+     "go well with",
+     "be appropriate"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "mos kelmoq"
+   },
+   {
+    "term": "make a compromise",
+    "main": "settlement, agreement, deal, bargain",
+    "items": [
+     "settlement",
+     "agreement",
+     "deal",
+     "bargain"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "murosa qilmoq"
+   },
+   {
+    "term": "unoccupied",
+    "main": "vacant, empty, unused, unfilled",
+    "items": [
+     "vacant",
+     "empty",
+     "unused",
+     "unfilled"
+    ],
+    "ant": [
+     "occupied"
+    ],
+    "syn": true,
+    "uz": "bo‘sh"
+   },
+   {
+    "term": "boost",
+    "main": "increase, improve, enhance",
+    "items": [
+     "increase",
+     "improve",
+     "enhance"
+    ],
+    "ant": [
+     "reduce"
+    ],
+    "syn": true,
+    "uz": "oshirmoq"
+   },
+   {
+    "term": "efficient",
+    "main": "if someone or something is efficient, they work well without wasting time, money, or energy",
+    "items": [
+     "if someone or something is efficient",
+     "they work well without wasting time",
+     "money",
+     "or energy"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "tejamkor, samarali"
+   },
+   {
+    "term": "individual",
+    "main": "person, being",
+    "items": [
+     "person",
+     "being"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "shaxs, alohida odam"
+   },
+   {
+    "term": "specialized",
+    "main": "trained, designed or developed for a particular purpose",
+    "items": [
+     "trained",
+     "designed or developed for a particular purpose"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "maxsus"
+   },
+   {
+    "term": "available",
+    "main": "existing, free, untaken",
+    "items": [
+     "existing",
+     "free",
+     "untaken"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "mavjud, foydalanish mumkin"
+   },
+   {
+    "term": "exceptional",
+    "main": "unusual and likely not to happen often",
+    "items": [
+     "unusual and likely not to happen often"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "alohida, istisno"
+   },
+   {
+    "term": "hurdle",
+    "main": "obstacle, difficulty, problem, barrier, block",
+    "items": [
+     "obstacle",
+     "difficulty",
+     "problem",
+     "barrier",
+     "block"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "to‘siq, qiyinchilik"
+   },
+   {
+    "term": "overcome",
+    "main": "defeat, beat, conquer",
+    "items": [
+     "defeat",
+     "beat",
+     "conquer"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "yengib o‘tmoq"
+   },
+   {
+    "term": "ensure",
+    "main": "guarantee, confirm, make sure, make certain",
+    "items": [
+     "guarantee",
+     "confirm",
+     "make sure",
+     "make certain"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "ta’minlamoq"
+   },
+   {
+    "term": "reliably",
+    "main": "in a way that can be trusted or believed",
+    "items": [
+     "in a way that can be trusted or believed"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "ishonchli tarzda"
+   },
+   {
+    "term": "infinite",
+    "main": "boundless, limitless, vast",
+    "items": [
+     "boundless",
+     "limitless",
+     "vast"
+    ],
+    "ant": [
+     "limited"
+    ],
+    "syn": true,
+    "uz": "cheksiz"
+   },
+   {
+    "term": "encounter",
+    "main": "face, confront, meet",
+    "items": [
+     "face",
+     "confront",
+     "meet"
+    ],
+    "ant": [
+     "avoid"
+    ],
+    "syn": true,
+    "uz": "duch kelmoq"
+   },
+   {
+    "term": "regulatory",
+    "main": "controlling, supervisory, monitoring",
+    "items": [
+     "controlling",
+     "supervisory",
+     "monitoring"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "tartibga soluvchi"
+   },
+   {
+    "term": "liability",
+    "main": "obligation, responsibility, accountability",
+    "items": [
+     "obligation",
+     "responsibility",
+     "accountability"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "javobgarlik"
+   },
+   {
+    "term": "enforcement",
+    "main": "when people are made to obey a rule, law etc",
+    "items": [
+     "when people are made to obey a rule",
+     "law etc"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "qonunni ijro ettirish"
+   },
+   {
+    "term": "essential",
+    "main": "vital, important, crucial, critical, needed, necessary",
+    "items": [
+     "vital",
+     "important",
+     "crucial",
+     "critical",
+     "needed",
+     "necessary"
+    ],
+    "ant": [
+     "unnecessary"
+    ],
+    "syn": true,
+    "uz": "zarur, muhim"
+   },
+   {
+    "term": "societal",
+    "main": "social, shared, public, community",
+    "items": [
+     "social",
+     "shared",
+     "public",
+     "community"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "ijtimoiy"
+   },
+   {
+    "term": "landscape",
+    "main": "situation, circumstances",
+    "items": [
+     "situation",
+     "circumstances"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "manzara, vaziyat"
+   },
+   {
+    "term": "address",
+    "main": "tackle, adopt, deal with",
+    "items": [
+     "tackle",
+     "adopt",
+     "deal with"
+    ],
+    "ant": [
+     "ignore"
+    ],
+    "syn": true,
+    "uz": "hal qilmoq"
+   },
+   {
+    "term": "robust",
+    "main": "a robust system, organization etc is strong and not likely to have problems",
+    "items": [
+     "a robust system",
+     "organization etc is strong and not likely to have problems"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "mustahkam"
+   },
+   {
+    "term": "targeted",
+    "main": "aimed, pointed",
+    "items": [
+     "aimed",
+     "pointed"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "maqsadli"
+   },
+   {
+    "term": "conquer",
+    "main": "defeat, overcome, beat",
+    "items": [
+     "defeat",
+     "overcome",
+     "beat"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "yengmoq"
+   },
+   {
+    "term": "in association with sb/sth",
+    "main": "made or done with another person, organization etc",
+    "items": [
+     "made or done with another person",
+     "organization etc"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "…bilan birgalikda"
+   },
+   {
+    "term": "telepresence",
+    "main": "the use of virtual reality technology to operate machinery by remote control or to create the effect of being at a different or imaginary location",
+    "items": [
+     "the use of virtual reality technology to operate machinery by remote control or to create the effect of being at a different or imaginary location"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "masofadan ishtirok"
+   },
+   {
+    "term": "virtual reality",
+    "main": "an environment produced by a computer that looks and seems real to the person experiencing it",
+    "items": [
+     "an environment produced by a computer that looks and seems real to the person experiencing it"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "virtual reallik"
+   },
+   {
+    "term": "concrete",
+    "main": "real, tangible, actual",
+    "items": [
+     "real",
+     "tangible",
+     "actual"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "aniq"
+   },
+   {
+    "term": "prediction",
+    "main": "forecast, guess, calculation",
+    "items": [
+     "forecast",
+     "guess",
+     "calculation"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "bashorat"
+   },
+   {
+    "term": "flexible",
+    "main": "adaptable, variable, open",
+    "items": [
+     "adaptable",
+     "variable",
+     "open"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "moslashuvchan"
+   },
+   {
+    "term": "in response to sth",
+    "main": "something that is done as a reaction to something that has happened or been said",
+    "items": [
+     "something that is done as a reaction to something that has happened or been said"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "…ga javoban"
+   },
+   {
+    "term": "vital",
+    "main": "critical, crucial, important",
+    "items": [
+     "critical",
+     "crucial",
+     "important"
+    ],
+    "ant": [
+     "unimportant"
+    ],
+    "syn": true,
+    "uz": "hayotiy muhim"
+   },
+   {
+    "term": "involve in",
+    "main": "engage, include",
+    "items": [
+     "engage",
+     "include"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "…da ishtirok etmoq"
+   },
+   {
+    "term": "deliver",
+    "main": "bring, send, transport",
+    "items": [
+     "bring",
+     "send",
+     "transport"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "yetkazib bermoq"
+   }
+  ],
+  "count": 439,
+  "ex": {
+   "syn": [
+    {
+     "word": "landscape",
+     "syn": "situation, circumstances"
+    },
+    {
+     "word": "hurdle",
+     "syn": "obstacle, difficulty"
+    },
+    {
+     "word": "prompt",
+     "syn": "stimulate, encourage"
+    },
+    {
+     "word": "select",
+     "syn": "choose, pick"
+    },
+    {
+     "word": "boost",
+     "syn": "increase, improve"
+    },
+    {
+     "word": "infinite",
+     "syn": "boundless, limitless"
+    },
+    {
+     "word": "ownership",
+     "syn": "possession, tenure"
+    },
+    {
+     "word": "unoccupied",
+     "syn": "vacant, empty"
+    }
+   ],
+   "opp": [
+    {
+     "word": "vital",
+     "opp": "unimportant"
+    },
+    {
+     "word": "freedom",
+     "opp": "restriction"
+    },
+    {
+     "word": "address",
+     "opp": "ignore"
+    },
+    {
+     "word": "encounter",
+     "opp": "avoid"
+    },
+    {
+     "word": "essential",
+     "opp": "unnecessary"
+    }
+   ],
+   "gap": [
+    {
+     "s": "This faster rate of ______ may mean that vehicle production will not necessarily decrease.",
+     "a": "turnover"
+    },
+    {
+     "s": "… and the ______ changes that may be required for communities to trust and accept automated vehicles as being a valuable part of the mobility landscape.",
+     "a": "societal"
+    },
+    {
+     "s": "______ work by the University of Michigan Transportation Research Institute suggests automated vehicles might reduce vehicle ownership by 43 percent, but that vehicles’ average annual mileage would double as a result.",
+     "a": "Modelling"
+    },
+    {
+     "s": "Since, for most of the time, most of the seats in most cars are unoccupied, this may boost production of a smaller, more efficient range of vehicles that suit the needs of ______.",
+     "a": "individuals"
+    },
+    {
+     "s": "Mobility will change in such potentially significant ways and in association with so many other technological developments, such as telepresence and virtual reality, that it is hard to make ______ predictions about the future.",
+     "a": "concrete"
+    },
+    {
+     "s": "As a consequence, each vehicle would be used more ______, and might need replacing sooner.",
+     "a": "intensively"
+    },
+    {
+     "s": "Specialised vehicles may then be ______ for exceptional journeys, such as going on a family camping trip or helping a son or daughter move to university.",
+     "a": "available"
+    },
+    {
+     "s": "… the regulatory challenges in understanding how ______ and enforcement might change when drivers are no longer essential for vehicle operation …",
+     "a": "liability"
+    }
+   ],
+   "find": [
+    {
+     "def": "a robust system, organization etc is strong and not likely to have problems",
+     "a": "robust",
+     "h": "r _ _ _ _ _"
+    },
+    {
+     "def": "something that is done as a reaction to something that has happened or been said",
+     "a": "in response to",
+     "h": "i _   r _ _ _ _ _ _ _   t _"
+    },
+    {
+     "def": "a situation that exists, especially as it affects a particular person or group",
+     "a": "this is the case",
+     "h": "t _ _ _   i _   t _ _   c _ _ _"
+    },
+    {
+     "def": "an environment produced by a computer that looks and seems real to the person experiencing it",
+     "a": "virtual reality",
+     "h": "v _ _ _ _ _ _   r _ _ _ _ _ _"
+    },
+    {
+     "def": "in a way that can be trusted or believed",
+     "a": "reliably",
+     "h": "r _ _ _ _ _ _ _"
+    },
+    {
+     "def": "unusual and likely not to happen often",
+     "a": "exceptional",
+     "h": "e _ _ _ _ _ _ _ _ _ _"
+    }
+   ],
+   "uz": [
+    {
+     "uz": "tartibga soluvchi",
+     "a": "regulatory",
+     "h": "r _ _ _ _ _ _ _ _ _"
+    },
+    {
+     "uz": "yetkazib bermoq",
+     "a": "deliver",
+     "h": "d _ _ _ _ _ _"
+    },
+    {
+     "uz": "yurgan masofa",
+     "a": "mileage",
+     "h": "m _ _ _ _ _ _"
+    },
+    {
+     "uz": "maqsadli",
+     "a": "targeted",
+     "h": "t _ _ _ _ _ _ _"
+    },
+    {
+     "uz": "maxsus",
+     "a": "specialized",
+     "h": "s _ _ _ _ _ _ _ _ _ _"
+    },
+    {
+     "uz": "ta’minlamoq",
+     "a": "ensure",
+     "h": "e _ _ _ _ _"
+    }
+   ]
+  }
+ },
+ {
+  "n": 5,
+  "passage": 3,
+  "part": 1,
+  "title": "What is exploration?",
+  "topic": "Travel · discovery",
+  "paras": [
+   "We are all [[explorers]]. Our [[desire to]] discover, and then share that [[new-found]] knowledge, is part of what makes us human — [[indeed]], this has [[played an important part]] in our success as a [[species]]. Long before the first [[caveman slumped down]] beside the fire and [[grunted]] news that there were plenty of [[wildebeest]] over [[yonder]], our [[ancestors]] had learnt the value of [[sending out scouts]] to investigate [[the unknown]]. This [[questing nature]] of ours [[undoubtedly]] helped our [[species]] spread around the [[globe]], just as it nowadays no [[doubt]] helps the last [[nomadic]] Penan maintain their [[existence]] in the [[depleted]] forests of Borneo, and a visitor [[negotiate]] the [[subways]] of New York.",
+   "Over the years, we’ve [[come to]] think of [[explorers]] as a [[peculiar breed]] — different from [[the rest of]] us, different from those of us who are [[merely]] ‘well travelled’, even; and perhaps there is a type of person more [[suited]] to [[seeking out]] the new, a type of [[caveman]] more [[inclined]] to [[risk venturing out]]. That, however, doesn’t [[take away from]] the fact that we all have this [[enquiring instinct]], even today; and that in all sorts of [[professions]] — whether artist, [[marine]] biologist or [[astronomer]] — [[borders]] of [[the unknown]] are being [[tested]] each day.",
+   "Thomas Hardy set some of his novels in Egdon Heath, a [[fictional]] area of [[uncultivated]] land, and used the [[landscape]] to [[suggest]] the [[desires]] and fears of his [[characters]]. He is [[delving into]] matters we all recognise because they are common to [[humanity]]. This is surely an act of [[exploration]], and into a world as [[remote]] as the author chooses. [[Explorer]] and travel writer Peter Fleming talks of the moment when the [[explorer]] returns to the [[existence]] he has left behind with his loved ones. The traveller ‘who has for weeks or months seen himself only as a [[puny]] and [[irrelevant alien crawling laboriously over]] a country in which he has no [[roots]] and no [[background]], suddenly [[encounters]] his other self, a [[relatively solid]] figure, with a place in the minds of certain people’."
+  ],
+  "letters": [],
+  "words": [
+   {
+    "term": "exploration",
+    "main": "discovery, search",
+    "items": [
+     "discovery",
+     "search"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "tadqiq qilish, kashfiyot"
+   },
+   {
+    "term": "explorer",
+    "main": "traveler, voyager",
+    "items": [
+     "traveler",
+     "voyager"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "tadqiqotchi, sayyoh"
+   },
+   {
+    "term": "desire",
+    "main": "wish, craving, aspiration",
+    "items": [
+     "wish",
+     "craving",
+     "aspiration"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "istak"
+   },
+   {
+    "term": "new-found",
+    "main": "recently obtained, found, or achieved",
+    "items": [
+     "recently obtained",
+     "found",
+     "or achieved"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "yangi topilgan"
+   },
+   {
+    "term": "play a part/role",
+    "main": "to have an effect or influence on something",
+    "items": [
+     "to have an effect or influence on something"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "rol o‘ynamoq"
+   },
+   {
+    "term": "species",
+    "main": "class, type, kind, sort, group",
+    "items": [
+     "class",
+     "type",
+     "kind",
+     "sort",
+     "group"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "tur (biologik)"
+   },
+   {
+    "term": "caveman",
+    "main": "someone who lived in a cave many thousands of years ago",
+    "items": [
+     "someone who lived in a cave many thousands of years ago"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "g‘or odami"
+   },
+   {
+    "term": "slump down",
+    "main": "drop, fall, crash, collapse",
+    "items": [
+     "drop",
+     "fall",
+     "crash",
+     "collapse"
+    ],
+    "ant": [
+     "rise"
+    ],
+    "syn": true,
+    "uz": "holsiz cho‘kmoq"
+   },
+   {
+    "term": "grunt",
+    "main": "mumble, murmur, make a sound",
+    "items": [
+     "mumble",
+     "murmur",
+     "make a sound"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "xirillamoq, to‘ng‘illamoq"
+   },
+   {
+    "term": "wildebeest",
+    "main": "a large southern african animal with a tail and curved horns",
+    "items": [
+     "a large southern african animal with a tail and curved horns"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "gnu (Afrika antilopasi)"
+   },
+   {
+    "term": "yonder",
+    "main": "over there – used to show where something or someone is",
+    "items": [
+     "over there – used to show where something or someone is"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "ana u yerda"
+   },
+   {
+    "term": "ancestor",
+    "main": "forefather, antecedent",
+    "items": [
+     "forefather",
+     "antecedent"
+    ],
+    "ant": [
+     "descendant"
+    ],
+    "syn": true,
+    "uz": "ajdod"
+   },
+   {
+    "term": "send out",
+    "main": "to make a person or a group of people or things go from one place to various other places",
+    "items": [
+     "to make a person or a group of people or things go from one place to various other places"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "jo‘natmoq"
+   },
+   {
+    "term": "scout",
+    "main": "detective, spy",
+    "items": [
+     "detective",
+     "spy"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "razvedkachi, ayg‘oqchi"
+   },
+   {
+    "term": "the unknown",
+    "main": "things that you do not know or understand",
+    "items": [
+     "things that you do not know or understand"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "noma’lum narsalar"
+   },
+   {
+    "term": "quest",
+    "main": "search, hunt, seek",
+    "items": [
+     "search",
+     "hunt",
+     "seek"
+    ],
+    "ant": [
+     "find"
+    ],
+    "syn": true,
+    "uz": "izlanish"
+   },
+   {
+    "term": "nature",
+    "main": "someone's character",
+    "items": [
+     "someone's character"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "tabiat, xarakter"
+   },
+   {
+    "term": "undoubtedly",
+    "main": "certainly, unquestionably, undeniably, without doubt",
+    "items": [
+     "certainly",
+     "unquestionably",
+     "undeniably",
+     "without doubt"
+    ],
+    "ant": [
+     "doubtfully"
+    ],
+    "syn": true,
+    "uz": "shubhasiz"
+   },
+   {
+    "term": "globe",
+    "main": "world, earth",
+    "items": [
+     "world",
+     "earth"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "yer shari, dunyo"
+   },
+   {
+    "term": "doubt",
+    "main": "uncertainty, disbelief",
+    "items": [
+     "uncertainty",
+     "disbelief"
+    ],
+    "ant": [
+     "certainty"
+    ],
+    "syn": true,
+    "uz": "shubha"
+   },
+   {
+    "term": "nomadic",
+    "main": "if someone leads a nomadic life, they travel from place to place and do not live in any one place for very long",
+    "items": [
+     "if someone leads a nomadic life",
+     "they travel from place to place and do not live in any one place for very long"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "ko‘chmanchi"
+   },
+   {
+    "term": "existence",
+    "main": "life, presence, survival",
+    "items": [
+     "life",
+     "presence",
+     "survival"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "hayot, mavjudlik"
+   },
+   {
+    "term": "depleted",
+    "main": "reduced, drained, diminished",
+    "items": [
+     "reduced",
+     "drained",
+     "diminished"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "kamayib ketgan"
+   },
+   {
+    "term": "negotiate",
+    "main": "pass, navigate, go around",
+    "items": [
+     "pass",
+     "navigate",
+     "go around"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "yo‘l topib o‘tmoq"
+   },
+   {
+    "term": "subway",
+    "main": "a path for people to walk under a road or railway",
+    "items": [
+     "a path for people to walk under a road or railway"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "yer osti yo‘lagi"
+   },
+   {
+    "term": "come to do sth",
+    "main": "to begin to have a feeling or opinion",
+    "items": [
+     "to begin to have a feeling or opinion"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "…ga kelmoq (fikrga)"
+   },
+   {
+    "term": "peculiar",
+    "main": "strange, weird, unusual, abnormal",
+    "items": [
+     "strange",
+     "weird",
+     "unusual",
+     "abnormal"
+    ],
+    "ant": [
+     "normal"
+    ],
+    "syn": true,
+    "uz": "g‘alati, o‘ziga xos"
+   },
+   {
+    "term": "breed",
+    "main": "type, class, kind, sort",
+    "items": [
+     "type",
+     "class",
+     "kind",
+     "sort"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "tur, toifa"
+   },
+   {
+    "term": "the rest of",
+    "main": "what is left after everything or everyone else has gone, been used, dealt with, or mentioned",
+    "items": [
+     "what is left after everything or everyone else has gone",
+     "been used",
+     "dealt with",
+     "or mentioned"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "qolgan …"
+   },
+   {
+    "term": "merely",
+    "main": "just, only, simply, purely",
+    "items": [
+     "just",
+     "only",
+     "simply",
+     "purely"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "shunchaki, faqat"
+   },
+   {
+    "term": "suited",
+    "main": "suitable, appropriate, fit",
+    "items": [
+     "suitable",
+     "appropriate",
+     "fit"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "mos, loyiq"
+   },
+   {
+    "term": "seek out",
+    "main": "to try to find someone or something, especially when this is difficult",
+    "items": [
+     "to try to find someone or something",
+     "especially when this is difficult"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "izlab topmoq"
+   },
+   {
+    "term": "inclined",
+    "main": "to be likely to do something or behave in a particular way",
+    "items": [
+     "to be likely to do something or behave in a particular way"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "moyil"
+   },
+   {
+    "term": "risk",
+    "main": "hazard, venture, take the risk of, take a chance",
+    "items": [
+     "hazard",
+     "venture",
+     "take the risk of",
+     "take a chance"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "tavakkal qilmoq"
+   },
+   {
+    "term": "venture out",
+    "main": "to go somewhere that could be dangerous",
+    "items": [
+     "to go somewhere that could be dangerous"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "jur’at qilib chiqmoq"
+   },
+   {
+    "term": "take away from",
+    "main": "to spoil the good effect or success that something has",
+    "items": [
+     "to spoil the good effect or success that something has"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "qadrini tushirmoq"
+   },
+   {
+    "term": "enquiring",
+    "main": "interested, curious, questioning",
+    "items": [
+     "interested",
+     "curious",
+     "questioning"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "qiziquvchan"
+   },
+   {
+    "term": "instinct",
+    "main": "nature, character, predisposition",
+    "items": [
+     "nature",
+     "character",
+     "predisposition"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "instinkt, tug‘ma tuyg‘u"
+   },
+   {
+    "term": "profession",
+    "main": "job, career, vocation",
+    "items": [
+     "job",
+     "career",
+     "vocation"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "kasb"
+   },
+   {
+    "term": "marine",
+    "main": "relating to the sea and the creatures that live there",
+    "items": [
+     "relating to the sea and the creatures that live there"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "dengiz (…i)"
+   },
+   {
+    "term": "astronomer",
+    "main": "a scientist who studies the stars and planets",
+    "items": [
+     "a scientist who studies the stars and planets"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "astronom"
+   },
+   {
+    "term": "border",
+    "main": "edge, limit, boundary, margin",
+    "items": [
+     "edge",
+     "limit",
+     "boundary",
+     "margin"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "chegara"
+   },
+   {
+    "term": "test",
+    "main": "examine, check, assess",
+    "items": [
+     "examine",
+     "check",
+     "assess"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "sinamoq"
+   },
+   {
+    "term": "fictional",
+    "main": "imaginary, imagined, fantastic",
+    "items": [
+     "imaginary",
+     "imagined",
+     "fantastic"
+    ],
+    "ant": [
+     "real"
+    ],
+    "syn": true,
+    "uz": "to‘qima, xayoliy"
+   },
+   {
+    "term": "uncultivated",
+    "main": "fallow, unplanted, unfarmed",
+    "items": [
+     "fallow",
+     "unplanted",
+     "unfarmed"
+    ],
+    "ant": [
+     "cultivated"
+    ],
+    "syn": true,
+    "uz": "ishlov berilmagan (yer)"
+   },
+   {
+    "term": "landscape",
+    "main": "scenery, land, site, scene",
+    "items": [
+     "scenery",
+     "land",
+     "site",
+     "scene"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "manzara, vaziyat"
+   },
+   {
+    "term": "suggest",
+    "main": "propose, recommend, put forward",
+    "items": [
+     "propose",
+     "recommend",
+     "put forward"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "ifodalamoq, ishora qilmoq"
+   },
+   {
+    "term": "character",
+    "main": "a person in a book, play, film etc",
+    "items": [
+     "a person in a book",
+     "play",
+     "film etc"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "qahramon, personaj"
+   },
+   {
+    "term": "delve into",
+    "main": "explore, research, examine, look into",
+    "items": [
+     "explore",
+     "research",
+     "examine",
+     "look into"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "chuqur o‘rganmoq"
+   },
+   {
+    "term": "humanity",
+    "main": "humankind, people, human race",
+    "items": [
+     "humankind",
+     "people",
+     "human race"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "insoniyat"
+   },
+   {
+    "term": "remote",
+    "main": "far, distant, faraway",
+    "items": [
+     "far",
+     "distant",
+     "faraway"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "olis, chekka"
+   },
+   {
+    "term": "puny",
+    "main": "a puny person is small, thin, and weak",
+    "items": [
+     "a puny person is small",
+     "thin",
+     "and weak"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "zaif, nimjon"
+   },
+   {
+    "term": "irrelevant",
+    "main": "immaterial",
+    "items": [
+     "immaterial"
+    ],
+    "ant": [
+     "relevant"
+    ],
+    "syn": true,
+    "uz": "ahamiyatsiz"
+   },
+   {
+    "term": "alien",
+    "main": "extra-terrestrial, extraterrestrial, creature from outer space, space invader",
+    "items": [
+     "extra-terrestrial",
+     "extraterrestrial",
+     "creature from outer space",
+     "space invader"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "begona, o‘zga"
+   },
+   {
+    "term": "crawl over",
+    "main": "to move slowly across something, close to the ground",
+    "items": [
+     "to move slowly across something",
+     "close to the ground"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "sudralib o‘tmoq"
+   },
+   {
+    "term": "laboriously",
+    "main": "arduously, strenuously, hard",
+    "items": [
+     "arduously",
+     "strenuously",
+     "hard"
+    ],
+    "ant": [
+     "easily"
+    ],
+    "syn": true,
+    "uz": "mashaqqat bilan"
+   },
+   {
+    "term": "root",
+    "main": "origin, derivation, foundation",
+    "items": [
+     "origin",
+     "derivation",
+     "foundation"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "ildiz"
+   },
+   {
+    "term": "background",
+    "main": "someone's family, education, previous work etc",
+    "items": [
+     "someone's family",
+     "education",
+     "previous work etc"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "kelib chiqish, o‘tmish"
+   },
+   {
+    "term": "encounter",
+    "main": "meet, come across, bump into",
+    "items": [
+     "meet",
+     "come across",
+     "bump into"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "duch kelmoq"
+   },
+   {
+    "term": "relatively",
+    "main": "quite, rather, comparatively",
+    "items": [
+     "quite",
+     "rather",
+     "comparatively"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "nisbatan"
+   },
+   {
+    "term": "solid",
+    "main": "hard or firm, with a fixed shape, and not a liquid or gas",
+    "items": [
+     "hard or firm",
+     "with a fixed shape",
+     "and not a liquid or gas"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "mustahkam, barqaror"
+   }
+  ],
+  "count": 343,
+  "ex": {
+   "syn": [
+    {
+     "word": "delve into",
+     "syn": "explore, research"
+    },
+    {
+     "word": "enquiring",
+     "syn": "interested, curious"
+    },
+    {
+     "word": "scout",
+     "syn": "detective, spy"
+    },
+    {
+     "word": "negotiate",
+     "syn": "pass, navigate"
+    },
+    {
+     "word": "fictional",
+     "syn": "imaginary, imagined"
+    },
+    {
+     "word": "depleted",
+     "syn": "reduced, drained"
+    },
+    {
+     "word": "landscape",
+     "syn": "scenery, land"
+    },
+    {
+     "word": "quest",
+     "syn": "search, hunt"
+    }
+   ],
+   "opp": [
+    {
+     "word": "undoubtedly",
+     "opp": "doubtfully"
+    },
+    {
+     "word": "irrelevant",
+     "opp": "relevant"
+    },
+    {
+     "word": "doubt",
+     "opp": "certainty"
+    },
+    {
+     "word": "uncultivated",
+     "opp": "cultivated"
+    },
+    {
+     "word": "slump down",
+     "opp": "rise"
+    },
+    {
+     "word": "laboriously",
+     "opp": "easily"
+    }
+   ],
+   "gap": [
+    {
+     "s": "This is surely an act of ______, and into a world as remote as the author chooses.",
+     "a": "exploration"
+    },
+    {
+     "s": "That, however, doesn’t take away from the fact that we all have this enquiring ______, even today …",
+     "a": "instinct"
+    },
+    {
+     "s": "Long before the first caveman slumped down beside the fire and ______ news that there were plenty of wildebeest over yonder, our ancestors had learnt the value of sending out scouts to investigate the unknown.",
+     "a": "grunted"
+    },
+    {
+     "s": "Over the years, we’ve come to think of explorers as a peculiar ______ …",
+     "a": "breed"
+    },
+    {
+     "s": "… and perhaps there is a type of person more suited to seeking out the new, a type of ______ more inclined to risk venturing out.",
+     "a": "caveman"
+    },
+    {
+     "s": "Thomas Hardy set some of his novels in Egdon Heath, a fictional area of uncultivated land, and used the landscape to suggest the desires and fears of his ______.",
+     "a": "characters"
+    },
+    {
+     "s": "He is delving into matters we all recognise because they are common to ______.",
+     "a": "humanity"
+    },
+    {
+     "s": "… ______ of the unknown are being tested each day.",
+     "a": "borders"
+    }
+   ],
+   "find": [
+    {
+     "def": "to be likely to do something or behave in a particular way",
+     "a": "inclined",
+     "h": "i _ _ _ _ _ _ _"
+    },
+    {
+     "def": "to try to find someone or something, especially when this is difficult",
+     "a": "seek out",
+     "h": "s _ _ _   o _ _"
+    },
+    {
+     "def": "to move slowly across something, close to the ground",
+     "a": "crawl over",
+     "h": "c _ _ _ _   o _ _ _"
+    },
+    {
+     "def": "to begin to have a feeling or opinion",
+     "a": "come to",
+     "h": "c _ _ _   t _"
+    },
+    {
+     "def": "things that you do not know or understand",
+     "a": "the unknown",
+     "h": "t _ _   u _ _ _ _ _ _"
+    },
+    {
+     "def": "over there – used to show where something or someone is",
+     "a": "yonder",
+     "h": "y _ _ _ _ _"
+    }
+   ],
+   "uz": [
+    {
+     "uz": "kelib chiqish, o‘tmish",
+     "a": "background",
+     "h": "b _ _ _ _ _ _ _ _ _"
+    },
+    {
+     "uz": "hayot, mavjudlik",
+     "a": "existence",
+     "h": "e _ _ _ _ _ _ _ _"
+    },
+    {
+     "uz": "begona, o‘zga",
+     "a": "alien",
+     "h": "a _ _ _ _"
+    },
+    {
+     "uz": "olis, chekka",
+     "a": "remote",
+     "h": "r _ _ _ _ _"
+    },
+    {
+     "uz": "nisbatan",
+     "a": "relatively",
+     "h": "r _ _ _ _ _ _ _ _ _"
+    },
+    {
+     "uz": "ajdod",
+     "a": "ancestor",
+     "h": "a _ _ _ _ _ _ _"
+    }
+   ]
+  }
+ },
+ {
+  "n": 6,
+  "passage": 3,
+  "part": 2,
+  "title": "What is exploration?",
+  "topic": "Travel · discovery",
+  "paras": [
+   "In this book about the [[exploration]] of the earth’s [[surface]], I have [[confined]] myself [[to]] those whose travels were real and who also aimed at more than personal discovery. But that still [[left]] me [[with]] another problem: the word ‘explorer’ has become [[associated]] with a [[past era]]. We think back to a [[golden age]], [[as if]] [[exploration]] [[peaked]] [[somehow]] in the 19th century — [[as if]] the process of discovery is now on the [[decline]], though the truth is that we have named only one and a half million of this planet’s [[species]], and there may be more than 10 million — and that’s not including [[bacteria]]. We have studied only 5 per cent of the [[species]] we know. We have [[scarcely mapped]] the [[ocean floors]], and know even less about ourselves; we fully understand [[the workings of]] only 10 per cent of our brains.",
+   "Here is how some of today’s ‘explorers’ [[define]] the word. Ran Fiennes, [[dubbed]] the ‘greatest living explorer’, said, ‘An [[explorer]] is someone who has done something that no human has done before — and also done something [[scientifically]] useful.’ Chris Bonington, a [[leading mountaineer]], felt [[exploration]] was to be [[found in the act of]] physically touching [[the unknown]]: ‘You have to have gone somewhere new.’ Then Robin Hanbury-Tenison, a [[campaigner]] [[on behalf of]] [[remote]] [[so-called]] ‘tribal’ peoples, said, ‘A traveller simply records information about some [[far-off]] world, and reports back; but an [[explorer]] changes the world.’ Wilfred Thesiger, who [[crossed]] Arabia’s Empty Quarter in 1946, and belongs to an [[era]] of [[unmechanised]] travel now lost to [[the rest of]] us, told me, ‘If I’d gone across by [[camel]] when I could have gone by car, it would have been a [[stunt]].’ To him, [[exploration]] meant [[bringing back]] information from a [[remote]] place [[regardless of]] any great [[self-discovery]].",
+   "Each [[definition]] is [[slightly]] different — and tends to [[reflect]] the field of [[endeavour]] of each [[pioneer]]. It was the same whoever I asked: the [[prominent historian]] would say [[exploration]] was a thing of the past, the [[cutting-edge scientist]] would say it was of the present. [[And so on]]. They each set their [[own]] particular [[criteria]]; the common factor in their [[approach]] being that they all had, unlike many of us who simply enjoy travel or discovering new things, both a very [[definite objective from the outset]] and also a [[desire]] to record their [[findings]].",
+   "I’d best [[declare]] my [[own bias]]. As a writer, I’m interested in the [[exploration]] of ideas. I’ve done a great many [[expeditions]] and each one was [[unique]]. I’ve lived for months alone with [[isolated]] groups of people all around the world, even two ‘[[uncontacted tribes]]’. But none of these things is of the slightest interest to anyone unless, through my books, I’ve [[found]] a new [[slant]], [[explored]] a new idea. Why? Because the world has [[moved on]]. The time has long passed for the great [[continental voyages]] — another walk to the [[poles]], another [[crossing]] of the Empty Quarter. We know how the land [[surface]] of our planet lies; [[exploration]] of it is now down to the details — the habits of [[microbes]], say, or the [[grazing]] behaviour of buffalo. [[Aside from]] the deep sea and deep [[underground]], it’s the [[era]] of [[specialists]]. However, this is to [[disregard]] the role the human mind has in [[conveying remote]] places; and this is what interests me: how a [[fresh interpretation]], even of a well-travelled [[route]], can give its readers new [[insights]]."
+  ],
+  "letters": [],
+  "words": [
+   {
+    "term": "surface",
+    "main": "outside, facade, exterior",
+    "items": [
+     "outside",
+     "facade",
+     "exterior"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "sirt, yuza"
+   },
+   {
+    "term": "confine yourself to (doing) sth",
+    "main": "restrict, restrain, limit, keep",
+    "items": [
+     "restrict",
+     "restrain",
+     "limit",
+     "keep"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "…bilan cheklanmoq"
+   },
+   {
+    "term": "leave sb with sth",
+    "main": "if an event, accident, illness etc leaves you in a particular condition, you are in that condition because of it",
+    "items": [
+     "if an event",
+     "accident",
+     "illness etc leaves you in a particular condition",
+     "you are in that condition because of it"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "…ga qoldirmoq (muammo)"
+   },
+   {
+    "term": "associated",
+    "main": "related, linked, connected",
+    "items": [
+     "related",
+     "linked",
+     "connected"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "bog‘liq"
+   },
+   {
+    "term": "past",
+    "main": "previous, earlier, preceding",
+    "items": [
+     "previous",
+     "earlier",
+     "preceding"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "o‘tgan"
+   },
+   {
+    "term": "era",
+    "main": "age, period, time",
+    "items": [
+     "age",
+     "period",
+     "time"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "davr"
+   },
+   {
+    "term": "golden age",
+    "main": "period during which sth is very successful, especially in the past",
+    "items": [
+     "period during which sth is very successful",
+     "especially in the past"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "oltin davr"
+   },
+   {
+    "term": "as if",
+    "main": "in a way that makes it seem that something is true or that something is happening",
+    "items": [
+     "in a way that makes it seem that something is true or that something is happening"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "go‘yo"
+   },
+   {
+    "term": "peak",
+    "main": "top, climax",
+    "items": [
+     "top",
+     "climax"
+    ],
+    "ant": [
+     "dip"
+    ],
+    "syn": true,
+    "uz": "cho‘qqiga chiqmoq"
+   },
+   {
+    "term": "somehow",
+    "main": "in some way, or by some means, although you do not know how",
+    "items": [
+     "in some way",
+     "or by some means",
+     "although you do not know how"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "qandaydir yo‘l bilan"
+   },
+   {
+    "term": "bacteria",
+    "main": "microorganisms, microbes, germs",
+    "items": [
+     "microorganisms",
+     "microbes",
+     "germs"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "bakteriyalar"
+   },
+   {
+    "term": "scarcely",
+    "main": "barely, hardly",
+    "items": [
+     "barely",
+     "hardly"
+    ],
+    "ant": [
+     "fully"
+    ],
+    "syn": true,
+    "uz": "zo‘rg‘a, deyarli … emas"
+   },
+   {
+    "term": "map",
+    "main": "to discover or show information about something, especially about its shape or arrangement, or how it moves or works",
+    "items": [
+     "to discover or show information about something",
+     "especially about its shape or arrangement",
+     "or how it moves or works"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "xaritaga tushirmoq"
+   },
+   {
+    "term": "ocean floor",
+    "main": "the bottom of a sea or ocean",
+    "items": [
+     "the bottom of a sea or ocean"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "okean tubi"
+   },
+   {
+    "term": "the workings of sth",
+    "main": "the way that an organization, machine or organism operates",
+    "items": [
+     "the way that an organization",
+     "machine or organism operates"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "ishlash tartibi"
+   },
+   {
+    "term": "define",
+    "main": "describe, state, explain",
+    "items": [
+     "describe",
+     "state",
+     "explain"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "ta’riflamoq"
+   },
+   {
+    "term": "dub",
+    "main": "call, name, label",
+    "items": [
+     "call",
+     "name",
+     "label"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "laqab qo‘ymoq, atamoq"
+   },
+   {
+    "term": "scientifically",
+    "main": "in a way that relates to science, or uses the methods of science",
+    "items": [
+     "in a way that relates to science",
+     "or uses the methods of science"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "ilmiy jihatdan"
+   },
+   {
+    "term": "leading",
+    "main": "famous, outstanding, well-known",
+    "items": [
+     "famous",
+     "outstanding",
+     "well-known"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "yetakchi"
+   },
+   {
+    "term": "mountaineer",
+    "main": "hiker, climber, walker, rock climber",
+    "items": [
+     "hiker",
+     "climber",
+     "walker",
+     "rock climber"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "alpinist"
+   },
+   {
+    "term": "in the act of doing sth",
+    "main": "at the moment that you are doing something",
+    "items": [
+     "at the moment that you are doing something"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "…qilish jarayonida"
+   },
+   {
+    "term": "campaigner",
+    "main": "activist, supporter, promoter",
+    "items": [
+     "activist",
+     "supporter",
+     "promoter"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "faol, kurashchi"
+   },
+   {
+    "term": "on behalf of",
+    "main": "instead of someone, or as their representative",
+    "items": [
+     "instead of someone",
+     "or as their representative"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "nomidan"
+   },
+   {
+    "term": "so-called",
+    "main": "used to show that something or someone is usually called a particular name",
+    "items": [
+     "used to show that something or someone is usually called a particular name"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "deb ataladigan"
+   },
+   {
+    "term": "tribal",
+    "main": "ethnic, clannish",
+    "items": [
+     "ethnic",
+     "clannish"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "qabilaviy"
+   },
+   {
+    "term": "far-off",
+    "main": "far, remote, distant",
+    "items": [
+     "far",
+     "remote",
+     "distant"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "olis"
+   },
+   {
+    "term": "cross",
+    "main": "traverse, go across, cross over",
+    "items": [
+     "traverse",
+     "go across",
+     "cross over"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "kesib o‘tmoq"
+   },
+   {
+    "term": "unmechanised",
+    "main": "not performed with machines or involving machines",
+    "items": [
+     "not performed with machines or involving machines"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "mexanizatsiyalashmagan"
+   },
+   {
+    "term": "camel",
+    "main": "a large desert animal with a long neck and one or two humps on its back",
+    "items": [
+     "a large desert animal with a long neck and one or two humps on its back"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "tuya"
+   },
+   {
+    "term": "stunt",
+    "main": "something that is done to attract people's attention, especially in advertising or politics",
+    "items": [
+     "something that is done to attract people's attention",
+     "especially in advertising or politics"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "e’tibor uchun qilingan ish, nayrang"
+   },
+   {
+    "term": "bring back",
+    "main": "return with, carry back",
+    "items": [
+     "return with",
+     "carry back"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "olib qaytmoq"
+   },
+   {
+    "term": "regardless of",
+    "main": "irrespective of, despite, notwithstanding, no matter, in spite of, apart from",
+    "items": [
+     "irrespective of",
+     "despite",
+     "notwithstanding",
+     "no matter",
+     "in spite of",
+     "apart from"
+    ],
+    "ant": [
+     "considering"
+    ],
+    "syn": true,
+    "uz": "…ga qaramay"
+   },
+   {
+    "term": "self-discovery",
+    "main": "the process of learning about yourself and your beliefs",
+    "items": [
+     "the process of learning about yourself and your beliefs"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "o‘zini kashf etish"
+   },
+   {
+    "term": "definition",
+    "main": "explanation, description, meaning",
+    "items": [
+     "explanation",
+     "description",
+     "meaning"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "ta’rif"
+   },
+   {
+    "term": "slightly",
+    "main": "marginally, vaguely",
+    "items": [
+     "marginally",
+     "vaguely"
+    ],
+    "ant": [
+     "considerably"
+    ],
+    "syn": true,
+    "uz": "biroz"
+   },
+   {
+    "term": "reflect",
+    "main": "reveal, indicate, signal",
+    "items": [
+     "reveal",
+     "indicate",
+     "signal"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "aks ettirmoq"
+   },
+   {
+    "term": "endeavor",
+    "main": "attempt, effort, try",
+    "items": [
+     "attempt",
+     "effort",
+     "try"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "harakat, sa’y"
+   },
+   {
+    "term": "pioneer",
+    "main": "innovator, inventor, developer, creator, discoverer",
+    "items": [
+     "innovator",
+     "inventor",
+     "developer",
+     "creator",
+     "discoverer"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "kashshof"
+   },
+   {
+    "term": "prominent",
+    "main": "famous, well-known, important, outstanding, renowned",
+    "items": [
+     "famous",
+     "well-known",
+     "important",
+     "outstanding",
+     "renowned"
+    ],
+    "ant": [
+     "obscure"
+    ],
+    "syn": true,
+    "uz": "taniqli"
+   },
+   {
+    "term": "historian",
+    "main": "someone who studies history, or the history of a particular thing",
+    "items": [
+     "someone who studies history",
+     "or the history of a particular thing"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "tarixchi"
+   },
+   {
+    "term": "cutting-edge",
+    "main": "leading-edge, front-line, pioneering, innovative, radical",
+    "items": [
+     "leading-edge",
+     "front-line",
+     "pioneering",
+     "innovative",
+     "radical"
+    ],
+    "ant": [
+     "old-fashioned"
+    ],
+    "syn": true,
+    "uz": "eng ilg‘or"
+   },
+   {
+    "term": "scientist",
+    "main": "someone who works or is trained in science",
+    "items": [
+     "someone who works or is trained in science"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "olim"
+   },
+   {
+    "term": "and so on/forth",
+    "main": "used at the end of a list to show that you could continue it in a similar way",
+    "items": [
+     "used at the end of a list to show that you could continue it in a similar way"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "va hokazo"
+   },
+   {
+    "term": "criteria",
+    "main": "standards, principles, measures, norms",
+    "items": [
+     "standards",
+     "principles",
+     "measures",
+     "norms"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "mezonlar"
+   },
+   {
+    "term": "approach",
+    "main": "method, tactic, attitude",
+    "items": [
+     "method",
+     "tactic",
+     "attitude"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "yondashuv"
+   },
+   {
+    "term": "definite",
+    "main": "sure, certain, fixed",
+    "items": [
+     "sure",
+     "certain",
+     "fixed"
+    ],
+    "ant": [
+     "uncertain",
+     "unsure"
+    ],
+    "syn": true,
+    "uz": "aniq, qat’iy"
+   },
+   {
+    "term": "objective",
+    "main": "object, purpose, aim, point, goal, intention",
+    "items": [
+     "object",
+     "purpose",
+     "aim",
+     "point",
+     "goal",
+     "intention"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "maqsad"
+   },
+   {
+    "term": "from the outset",
+    "main": "from the beginning",
+    "items": [
+     "from the beginning"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "boshidanoq"
+   },
+   {
+    "term": "finding",
+    "main": "the information that someone has discovered as a result of their study, work etc",
+    "items": [
+     "the information that someone has discovered as a result of their study",
+     "work etc"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "topilma, natija"
+   },
+   {
+    "term": "declare",
+    "main": "state, announce, assert, say publicly",
+    "items": [
+     "state",
+     "announce",
+     "assert",
+     "say publicly"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "e’lon qilmoq, ochiq aytmoq"
+   },
+   {
+    "term": "bias",
+    "main": "prejudice, partiality, favoritism, predisposition, preference",
+    "items": [
+     "prejudice",
+     "partiality",
+     "favoritism",
+     "predisposition",
+     "preference"
+    ],
+    "ant": [
+     "impartiality"
+    ],
+    "syn": true,
+    "uz": "xolis emaslik, moyillik"
+   },
+   {
+    "term": "expedition",
+    "main": "voyage, excursion, trip, journey",
+    "items": [
+     "voyage",
+     "excursion",
+     "trip",
+     "journey"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "ekspeditsiya"
+   },
+   {
+    "term": "unique",
+    "main": "sole, exclusive, exceptional, distinctive",
+    "items": [
+     "sole",
+     "exclusive",
+     "exceptional",
+     "distinctive"
+    ],
+    "ant": [
+     "common"
+    ],
+    "syn": true,
+    "uz": "noyob, betakror"
+   },
+   {
+    "term": "isolated",
+    "main": "remote, lonely, cut off",
+    "items": [
+     "remote",
+     "lonely",
+     "cut off"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "ajralib qolgan"
+   },
+   {
+    "term": "uncontacted tribes",
+    "main": "communities who live without contact with the rest of the world",
+    "items": [
+     "communities who live without contact with the rest of the world"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "tashqi dunyo bilan aloqasiz qabilalar"
+   },
+   {
+    "term": "slant",
+    "main": "viewpoint, attitude, perspective",
+    "items": [
+     "viewpoint",
+     "attitude",
+     "perspective"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "nuqtai nazar"
+   },
+   {
+    "term": "move on",
+    "main": "progress, move ahead, go on",
+    "items": [
+     "progress",
+     "move ahead",
+     "go on"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "oldinga ketmoq, o‘zgarmoq"
+   },
+   {
+    "term": "continental",
+    "main": "relating to a large mass of land (a continent)",
+    "items": [
+     "relating to a large mass of land (a continent)"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "qit’aviy, qit’alararo"
+   },
+   {
+    "term": "voyage",
+    "main": "journey, trip, expedition",
+    "items": [
+     "journey",
+     "trip",
+     "expedition"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "sayohat (uzoq safar)"
+   },
+   {
+    "term": "pole",
+    "main": "the most northern or most southern point on a planet, especially the earth",
+    "items": [
+     "the most northern or most southern point on a planet",
+     "especially the earth"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "qutb"
+   },
+   {
+    "term": "microbe",
+    "main": "bug, germ, bacteria, microorganism",
+    "items": [
+     "bug",
+     "germ",
+     "bacteria",
+     "microorganism"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "mikrob"
+   },
+   {
+    "term": "graze",
+    "main": "if an animal grazes, or if you graze it, it eats grass that is growing",
+    "items": [
+     "if an animal grazes",
+     "or if you graze it",
+     "it eats grass that is growing"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "o‘tlamoq"
+   },
+   {
+    "term": "aside from",
+    "main": "besides, apart from, except for",
+    "items": [
+     "besides",
+     "apart from",
+     "except for"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "…dan tashqari"
+   },
+   {
+    "term": "underground",
+    "main": "under the earth's surface",
+    "items": [
+     "under the earth's surface"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "yer osti"
+   },
+   {
+    "term": "specialist",
+    "main": "expert, professional",
+    "items": [
+     "expert",
+     "professional"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "mutaxassis"
+   },
+   {
+    "term": "disregard",
+    "main": "ignore, discount, forget",
+    "items": [
+     "ignore",
+     "discount",
+     "forget"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "e’tiborsiz qoldirmoq"
+   },
+   {
+    "term": "convey",
+    "main": "communicate, send, pass on, express",
+    "items": [
+     "communicate",
+     "send",
+     "pass on",
+     "express"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "yetkazmoq, ifodalamoq"
+   },
+   {
+    "term": "fresh",
+    "main": "good or interesting because it has not been done, seen etc before",
+    "items": [
+     "good or interesting because it has not been done",
+     "seen etc before"
+    ],
+    "ant": [],
+    "syn": false,
+    "uz": "yangicha"
+   },
+   {
+    "term": "interpretation",
+    "main": "clarification, understanding, explanation",
+    "items": [
+     "clarification",
+     "understanding",
+     "explanation"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "talqin"
+   },
+   {
+    "term": "route",
+    "main": "way, road, path",
+    "items": [
+     "way",
+     "road",
+     "path"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "yo‘nalish, yo‘l"
+   },
+   {
+    "term": "insight",
+    "main": "vision, perception, awareness",
+    "items": [
+     "vision",
+     "perception",
+     "awareness"
+    ],
+    "ant": [],
+    "syn": true,
+    "uz": "tushuncha, idrok"
+   }
+  ],
+  "count": 576,
+  "ex": {
+   "syn": [
+    {
+     "word": "define",
+     "syn": "describe, state"
+    },
+    {
+     "word": "slightly",
+     "syn": "marginally, vaguely"
+    },
+    {
+     "word": "reflect",
+     "syn": "reveal, indicate"
+    },
+    {
+     "word": "bring back",
+     "syn": "return with, carry back"
+    },
+    {
+     "word": "bias",
+     "syn": "prejudice, partiality"
+    },
+    {
+     "word": "voyage",
+     "syn": "journey, trip"
+    },
+    {
+     "word": "bacteria",
+     "syn": "microorganisms, microbes"
+    },
+    {
+     "word": "specialist",
+     "syn": "expert, professional"
+    }
+   ],
+   "opp": [
+    {
+     "word": "regardless of",
+     "opp": "considering"
+    },
+    {
+     "word": "cutting-edge",
+     "opp": "old-fashioned"
+    },
+    {
+     "word": "prominent",
+     "opp": "obscure"
+    },
+    {
+     "word": "definite",
+     "opp": "uncertain"
+    },
+    {
+     "word": "peak",
+     "opp": "dip"
+    },
+    {
+     "word": "scarcely",
+     "opp": "fully"
+    }
+   ],
+   "gap": [
+    {
+     "s": "But that still left me with another problem: the word ‘explorer’ has become ______ with a past era.",
+     "a": "associated"
+    },
+    {
+     "s": "But none of these things is of the slightest interest to anyone unless, through my books, I’ve found a new ______, explored a new idea.",
+     "a": "slant"
+    },
+    {
+     "s": "Then Robin Hanbury-Tenison, a campaigner on behalf of remote ______ ‘tribal’ peoples, said, ‘A traveller simply records information about some far-off world, and reports back …",
+     "a": "so-called"
+    },
+    {
+     "s": "I’ve lived for months alone with ______ groups of people all around the world, even two ‘uncontacted tribes’.",
+     "a": "isolated"
+    },
+    {
+     "s": "… the habits of ______, say, or the grazing behaviour of buffalo.",
+     "a": "microbes"
+    },
+    {
+     "s": "… and tends to reflect the field of endeavour of each ______.",
+     "a": "pioneer"
+    },
+    {
+     "s": "… and this is what interests me: how a fresh interpretation, even of a well-travelled route, can give its readers new ______.",
+     "a": "insights"
+    },
+    {
+     "s": "Aside from the deep sea and deep underground, it’s the ______ of specialists.",
+     "a": "era"
+    }
+   ],
+   "find": [
+    {
+     "def": "the information that someone has discovered as a result of their study, work etc",
+     "a": "finding",
+     "h": "f _ _ _ _ _ _"
+    },
+    {
+     "def": "communities who live without contact with the rest of the world",
+     "a": "uncontacted tribes",
+     "h": "u _ _ _ _ _ _ _ _ _ _   t _ _ _ _ _"
+    },
+    {
+     "def": "a large desert animal with a long neck and one or two humps on its back",
+     "a": "camel",
+     "h": "c _ _ _ _"
+    },
+    {
+     "def": "from the beginning",
+     "a": "from the outset",
+     "h": "f _ _ _   t _ _   o _ _ _ _ _"
+    },
+    {
+     "def": "the process of learning about yourself and your beliefs",
+     "a": "self-discovery",
+     "h": "s _ _ _ _ _ _ _ _ _ _ _ _ _"
+    },
+    {
+     "def": "not performed with machines or involving machines",
+     "a": "unmechanised",
+     "h": "u _ _ _ _ _ _ _ _ _ _ _"
+    }
+   ],
+   "uz": [
+    {
+     "uz": "maqsad",
+     "a": "objective",
+     "h": "o _ _ _ _ _ _ _ _"
+    },
+    {
+     "uz": "yo‘nalish, yo‘l",
+     "a": "route",
+     "h": "r _ _ _ _"
+    },
+    {
+     "uz": "olim",
+     "a": "scientist",
+     "h": "s _ _ _ _ _ _ _ _"
+    },
+    {
+     "uz": "yetkazmoq, ifodalamoq",
+     "a": "convey",
+     "h": "c _ _ _ _ _"
+    },
+    {
+     "uz": "alpinist",
+     "a": "mountaineer",
+     "h": "m _ _ _ _ _ _ _ _ _ _"
+    },
+    {
+     "uz": "o‘tlamoq",
+     "a": "graze",
+     "h": "g _ _ _ _"
+    }
+   ]
+  }
+ }
+]
