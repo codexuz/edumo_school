@@ -1,0 +1,23 @@
+# IELTS Pathway A1–B2
+
+An exam-focused course in four levels (A1, A2, B1, B2), each with a **Student's Book** and a **Workbook**. Every unit teaches grammar and vocabulary, then applies them in IELTS-format Listening, Reading, Speaking and Writing tasks at the right difficulty for the level.
+
+* `SERIES_SPEC.md`: the source of truth. It replaces the four General English "English Pathway" guides; section 1 explains what changed and why.
+* `levels/a1.md` … `levels/b2.md`: 12-unit course maps with grammar, vocabulary and the IELTS task for each skill.
+* `TRACKER.md`: what is done. `OPEN_QUESTIONS.md`: decisions for the owner.
+* `a1/data/sb-unit-01.json`, `a1/data/wb-unit-01.json`: the pilot unit (content as JSON).
+* `a1/dist/sb.pdf`, `a1/dist/wb.pdf`: the rendered pilot.
+
+## Build
+```
+./build.sh a1                      # validate, then build both books for A1
+./build.sh a1 sb --title "Units 1-3"
+python3 scripts/validate.py a1     # checks only
+```
+The build needs the Python packages qrcode, pypdf and Pillow, plus Playwright with Chromium (the same as the repo's other books).
+
+## Unit file format
+A unit is a list of `sections` (vocabulary, grammar, listening, reading, speaking, writing, exam or check). Each section holds `blocks`:
+`text`, `table`, `box` (exam / tip / errors), `vocab`, `audio`, `passage`, `model`, `checklist`, `score`, `cando`, `selfcheck`, and `ex` (exercise).
+Exercise kinds: `short`, `gap`, `choose`, `mcq`, `tf`, `match`, `order`, `correct`, `form`, `speak`, `frames`, `write`.
+Answers live with each item (`a`), so the answer key is generated and always matches. Audio scripts live in `scripts` at the end of the unit, and the build prints them at the back of the book.

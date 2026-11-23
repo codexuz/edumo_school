@@ -1,0 +1,169 @@
+/* IELTS Pathway: course-book blocks on top of the Mock-book base style */
+:root{--voc:#0E9C8D;--gr:#3938B3;--lis:#0471FF;--rd:#172B4D;--spk:#14935A;--wr:#C98207;--exm:#D23B3B;--sc:var(--blue2)}
+.ico{width:1em;height:1em;display:inline-block;vertical-align:-.14em;flex:none}
+.banner h1{font-size:18pt}
+.banner .br b{font-size:9.6pt}
+
+/* title page */
+.tpage{justify-content:center}
+.tp{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:0 14mm;
+ background:linear-gradient(120deg,#3A6BF2,#1F48D6 55%,#0F2C9C);color:#fff;border-radius:6mm;margin:6mm 0}
+.tp small{font:600 11pt "Unbounded";letter-spacing:.3em;opacity:.85}
+.tp h1{font:800 72pt/1 "Unbounded";margin:4mm 0 2mm}
+.tp h2{font:600 22pt "Unbounded"}
+.tp p{font-size:12pt;margin-top:6mm;opacity:.95}
+.tp .sub{font-size:10pt;opacity:.8;margin-top:10mm;line-height:1.6}
+
+/* unit opener */
+.op{display:flex;flex-direction:column;gap:2mm}
+.op h5{font:700 8.6pt "Unbounded";margin-bottom:1mm;display:flex;gap:1.4mm;align-items:center}
+.op ul{list-style:none;font-size:8.6pt}
+.op li{padding-left:3.6mm;position:relative;margin-bottom:.5mm}
+.op li::before{content:"";position:absolute;left:0;top:1.6mm;width:1.6mm;height:1.6mm;border-radius:50%;background:currentColor;opacity:.55}
+.opx{background:var(--soft);border:1px solid var(--line);border-left:3px solid var(--blue2);border-radius:2mm;padding:2mm 3mm;color:var(--navy)}
+.opg{border:1px solid var(--line);border-radius:2mm;padding:2mm 3mm}
+.opg h5{color:var(--spk)}
+.opw{background:#EEF9F3;border:1px solid #BFE6D0;border-radius:2mm;padding:2mm 3mm}
+.opw h5{color:var(--spk)}
+
+/* sections */
+.sec{--sc:var(--blue2)}
+.s-vocabulary{--sc:var(--voc)}.s-grammar{--sc:var(--gr)}.s-listening{--sc:var(--lis)}.s-reading{--sc:var(--rd)}
+.s-speaking{--sc:var(--spk)}.s-writing{--sc:var(--wr)}.s-exam,.s-check{--sc:var(--exm)}
+.shead{display:flex;align-items:center;gap:2mm;border-bottom:2px solid var(--sc);margin:1mm 0 2mm;padding-bottom:.8mm}
+.spill{background:var(--sc);color:#fff;font:700 8.4pt "Unbounded";border-radius:2mm 2mm 0 0;padding:1.1mm 3mm;margin-bottom:-.9mm;display:flex;gap:1.4mm;align-items:center;white-space:nowrap}
+.stitle{font:600 8.4pt "Unbounded";color:var(--sc);line-height:1.25}
+.tx{font-size:8.8pt;margin-bottom:1.6mm}
+
+/* exercises */
+.ex{margin:0 0 3mm}
+.xhead{display:flex;gap:2mm;align-items:flex-start;margin-bottom:1.2mm}
+.xn{flex:none;width:5.6mm;height:5.6mm;border-radius:1.4mm;background:var(--sc);color:#fff;font:700 7.6pt "Unbounded";display:flex;align-items:center;justify-content:center}
+.xhead p{font-weight:700;font-size:8.8pt;line-height:1.35}
+.etag{display:inline-block;margin-left:1.6mm;background:var(--exm);color:#fff;font:700 6.2pt "Unbounded";border-radius:1mm;padding:.2mm 1.4mm;vertical-align:.3mm}
+.atag{display:inline-flex;gap:.8mm;align-items:center;margin-left:1.6mm;color:var(--lis);font:600 6.6pt "Unbounded";vertical-align:.2mm}
+.exl{font-size:8.2pt;color:#4A5675;margin:0 0 1.2mm 7.6mm}
+.xl{list-style:none;margin-left:7.6mm;font-size:8.8pt}
+.xl>li{display:flex;gap:1.6mm;align-items:baseline;margin-bottom:1.4mm}
+.n{flex:none;min-width:4mm;font:700 7.6pt "Unbounded";color:var(--sc)}
+.q{flex:none;max-width:70%}
+.wl{flex:1;border-bottom:1.1px solid #9AA3B5;min-width:14mm;height:3.4mm}
+.wl.full{display:block;height:5mm;margin-top:.5mm}
+.xl.order .q,.xl.correct .q{max-width:none;flex:1}
+.xl.order>li,.xl.correct>li{flex-wrap:wrap}
+.xl.order .wl,.xl.correct .wl{flex-basis:100%;margin-left:5.6mm;height:4.6mm}
+.xl.gap .q,.xl.choose .q{max-width:none;flex:1;line-height:1.6}
+.gl{display:inline-block;min-width:16mm;border-bottom:1.2px solid var(--navy);height:3.4mm;vertical-align:-.6mm;margin:0 .6mm}
+.ch{display:inline-flex;gap:1mm;align-items:center;border:1px solid var(--line);border-radius:99px;padding:0 2mm;background:#fff}
+.ch span{font-weight:700;color:var(--navy)}
+.ch i{font-style:normal;color:#9AA3B5}
+.xl.mcq>li{display:flex}
+.xl.mcq ul{list-style:none;margin-top:.4mm}
+.xl.mcq ul li{margin:.2mm 0}
+.xl.mcq ul.inl{display:flex;gap:5mm}
+.xl.mcq ul b{display:inline-block;width:4.4mm;color:var(--sc);font:700 7.6pt "Unbounded"}
+.xl.tf .q{flex:1;max-width:none}
+.ab{flex:none;width:17mm;height:5mm;border:1.1px solid var(--line);border-radius:1.2mm;background:#fff}
+.ab.sm{width:8mm;margin-left:auto}
+.mt{display:grid;grid-template-columns:1fr 1.25fr;gap:3mm;margin-left:7.6mm;font-size:8.6pt}
+.mt ol{list-style:none}
+.mt li{display:flex;gap:1.4mm;align-items:center;margin-bottom:1.2mm;line-height:1.3}
+.mt ol.r b{flex:none;width:4mm;color:var(--sc);font:700 7.6pt "Unbounded"}
+.bank{display:flex;flex-wrap:wrap;gap:1.4mm;justify-content:center;border:1.3px dashed var(--sc);border-radius:2mm;padding:1.6mm;margin:0 0 1.6mm 7.6mm;background:#fff}
+.bank span{border:1px solid var(--line);border-radius:99px;padding:.2mm 2.4mm;font-weight:700;font-size:8.2pt;color:var(--navy)}
+.sq{margin-left:11mm;font-size:8.8pt}
+.sq li{margin-bottom:.8mm}
+.xl.frames>li{display:flex}
+.xl.frames .fr{font-style:italic;color:#4A5675;font-size:8.4pt}
+.lines{margin:1mm 0 0 7.6mm}
+.lines i{display:block;height:7mm;border-bottom:1px solid #B8C0D2}
+
+/* form (listening / writing) */
+.form{border:1.3px solid var(--line);border-radius:2.5mm;background:var(--soft);padding:2mm 3mm 1.2mm;margin-left:7.6mm}
+.form h4{font:700 8.6pt "Unbounded";color:var(--navy);text-align:center;margin-bottom:1.4mm}
+.frow{display:grid;grid-template-columns:38% 1fr;gap:2mm;align-items:end;padding:1.1mm 0;border-bottom:1px dotted var(--line);font-size:8.8pt}
+.frow:last-child{border-bottom:0}
+.frow span{color:#3B4766}
+.fn{display:inline-flex;width:5mm;height:5mm;border-radius:50%;background:var(--sc);color:#fff;font:700 6.6pt "Unbounded";align-items:center;justify-content:center;margin-right:1mm;vertical-align:-.4mm}
+.fgap{display:inline-block;min-width:20mm;border-bottom:1.2px solid var(--navy);height:3.6mm;vertical-align:-.6mm;margin:0 .6mm}
+.fgap.w{min-width:40mm}
+.exm{font-style:normal;font:600 6.4pt "Unbounded";color:#9AA3B5;margin-left:1mm}
+.wf{background:#fff}
+
+/* boxes */
+.bx{border-radius:2.4mm;padding:2mm 3mm;margin:0 0 2.4mm;font-size:8.4pt}
+.bx h5{font:700 8pt "Unbounded";display:flex;gap:1.4mm;align-items:center;margin-bottom:1mm}
+.bx ul{list-style:none}
+.bx li{margin-bottom:.6mm;padding-left:3.2mm;position:relative}
+.bx li::before{content:"›";position:absolute;left:0;font-weight:800}
+.bx.exam{background:#EAF2FF;border:1px solid #BCD3FF;border-left:3px solid var(--lis)}
+.bx.exam h5{color:var(--lis)}
+.bx.tip{background:#FFF8E8;border:1px solid #F1D08A;border-left:3px solid var(--wr)}
+.bx.tip h5{color:#9A6400}
+.bx.errors{background:#FFF1F1;border:1px solid #F4C2C2;border-left:3px solid var(--exm)}
+.bx.errors h5{color:var(--exm)}
+.er{border-bottom:1px dotted #F0C9C9;padding:.7mm 0}
+.er:last-child{border-bottom:0}
+.er p{display:flex;gap:3mm;flex-wrap:wrap;font-size:8.2pt}
+.er .w{color:var(--exm);text-decoration:line-through;text-decoration-color:rgba(210,59,59,.45)}
+.er .r{color:#14794A;font-weight:700}
+.er .uz{color:#6B7690;font-style:italic;font-size:7.6pt;display:block}
+
+/* tables */
+.gt{width:100%;border-collapse:collapse;font-size:8.4pt;margin:0 0 2.4mm}
+.gt th{background:var(--sc);color:#fff;text-align:left;padding:1mm 1.8mm;font-weight:700}
+.gt td{border:1px solid var(--line);padding:1mm 1.8mm;vertical-align:top}
+.gt tr:nth-child(even) td{background:var(--soft)}
+
+/* vocabulary list */
+.vlist{border:1px solid var(--line);border-radius:2mm;padding:1mm 2.4mm;margin-bottom:2.6mm}
+.vrow{display:grid;grid-template-columns:auto auto 1fr;column-gap:1.8mm;align-items:baseline;border-bottom:1px dotted var(--line);padding:.5mm 0 .8mm}
+.vrow:last-child{border-bottom:0}
+.vrow b{font:700 8.6pt "Unbounded";color:var(--navy)}
+.vrow i{font-size:7.4pt;color:#6B7690}
+.vrow .uz{text-align:right;font-weight:700;color:var(--voc);font-size:8.2pt}
+.vrow p{grid-column:1/-1;font-size:8pt;font-style:italic;color:#4A5675}
+
+/* audio placeholder */
+.audio-b{display:flex;gap:2.4mm;align-items:center;background:#EAF2FF;border:1px solid #BCD3FF;border-radius:2mm;padding:1.4mm 2.2mm;margin:0 0 2mm}
+.qrph{flex:none;width:11mm;height:11mm;border:1.4px dashed var(--lis);border-radius:1.4mm;display:flex;align-items:center;justify-content:center;font:700 7pt "Unbounded";color:var(--lis);background:#fff}
+.audio-b b{display:flex;gap:1mm;align-items:center;font:700 8pt "Unbounded";color:var(--lis)}
+.audio-b span{font-size:7.6pt;color:#4A5675}
+
+/* reading passage */
+.psg{border:1.3px solid var(--line);border-radius:2.5mm;padding:2.2mm 3mm;margin-bottom:2.6mm;background:#fff}
+.ptitle{font:700 10pt "Unbounded";color:var(--rd);display:flex;justify-content:space-between;align-items:baseline}
+.ptitle small{font:600 6.8pt "Unbounded";color:#9AA3B5}
+.pin{font-size:7.8pt;color:#6B7690;font-style:italic;margin-bottom:1.2mm}
+.pp{font-size:9pt;line-height:1.5;text-align:justify;hyphens:auto;margin-bottom:1.3mm}
+.who{display:inline-block;background:var(--rd);color:#fff;font:700 7pt "Unbounded";border-radius:1mm;padding:.2mm 1.6mm;margin-right:1.6mm}
+
+/* model, checklist, score */
+.model{background:#F3FAF6;border:1px solid #BFE6D0;border-radius:2.4mm;padding:2mm 3mm;margin-bottom:2.4mm;font-size:8.6pt}
+.s-writing .model{background:#FFFBF1;border-color:#F1D08A}
+.model h5{font:700 8pt "Unbounded";color:var(--sc);display:flex;gap:1.4mm;align-items:center;margin-bottom:1mm}
+.model p{margin-bottom:.6mm}
+.model p b{color:var(--sc)}
+.ck{border:1px solid var(--line);border-radius:2mm;padding:1.6mm 2.6mm;margin:1.6mm 0 2.4mm 7.6mm;font-size:8.4pt}
+.s-exam>.ck,.s-exam .ck{margin-left:0}
+.ck h5{font:700 7.6pt "Unbounded";color:var(--sc);margin-bottom:.8mm}
+.ck ul{list-style:none}
+.ck li{display:flex;gap:1.6mm;align-items:flex-start;margin-bottom:.5mm}
+.ck li i{flex:none;width:3.2mm;height:3.2mm;border:1.2px solid var(--sc);border-radius:.8mm;margin-top:.5mm}
+.score{display:flex;justify-content:flex-end;align-items:center;gap:2mm;font:700 9.6pt "Unbounded";color:var(--exm);margin:1mm 0 2mm}
+.score i{display:inline-block;width:14mm;height:7.5mm;border:1.6px solid var(--exm);border-radius:1.6mm;background:#fff}
+.selfc{width:100%;border-collapse:collapse;font-size:8.8pt;margin-bottom:2.4mm}
+.selfc th{background:var(--exm);color:#fff;text-align:left;padding:1.2mm 2.4mm}
+.selfc td{border:1px solid var(--line);padding:1.4mm 2.4mm}
+.selfc td i{display:inline-block;width:12mm;height:5.6mm;border:1.2px solid var(--line);border-radius:1mm;vertical-align:middle}
+
+/* back matter */
+.sh3{font:700 10pt "Unbounded";color:#fff;background:linear-gradient(120deg,#3A6BF2,#1F48D6);border-radius:2mm;padding:1.1mm 3mm;margin:1mm 0 1.6mm}
+.sh4{font:700 7.8pt "Unbounded";color:var(--lis);border-bottom:1.4px solid var(--lis);padding-bottom:.6mm;margin:2.4mm 0 1.2mm;display:flex;gap:1.2mm;align-items:center}
+.script p{font-size:8pt;line-height:1.4;margin-bottom:.7mm}
+.script p b{color:var(--navy)}
+.script p.rn{font-size:7.2pt;color:#9AA3B5;font-style:italic;margin-top:1mm}
+.krow{display:flex;gap:2mm;align-items:flex-start;margin-bottom:1.3mm;font-size:8.2pt;line-height:1.5}
+.krow .xn{--sc:var(--blue2);margin-top:.2mm}
+.krow span{margin-right:2.2mm}
+.krow span b{color:var(--blue2);margin-right:.6mm}
