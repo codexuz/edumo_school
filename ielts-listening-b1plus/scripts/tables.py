@@ -17,7 +17,7 @@ def main(pdf_path):
         for pn, page in enumerate(pdf.pages, 1):
             for t in page.find_tables():
                 rows = [[(c or "").strip() if c is not None else None for c in r] for r in t.extract()]
-                if max(len(r) for r in rows) < 2 or len(rows) < 2:
+                if pn <= 3 or max(len(r) for r in rows) < 2 or len(rows) < 2:   # skip the cover, contents and scoreboard pages
                     continue
                 out.append({"page": pn, "top": round(t.bbox[1]), "rows": rows})
     (ROOT / "data" / "tables.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
