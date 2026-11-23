@@ -109,3 +109,11 @@ table.syn{flex:1.65}
 table.syn td:first-child{width:42%}
 table.voc{flex:1}
 table.voc td i{color:#6B7590;font-size:7.6pt}
+/* forms and notes rebuilt from the source */
+table.box{width:100%;table-layout:fixed;border-collapse:collapse;border:1px solid #222;font-size:9.2pt;line-height:1.35;margin:1mm 0 2mm;background:#fff;break-inside:avoid}
+table.box td{padding:.55mm 2mm;vertical-align:top;color:#1B2540}
+table.box tr.ti td{text-align:center;font-weight:700;color:#111;font-size:10pt;padding-top:1.2mm}
+table.box tr.ce td{text-align:center}
+table.box tr.rl td{border-top:1px solid #222;padding:0;height:.8mm}
+table.box em{font-weight:700}
+table.box .hw{font-style:italic;color:#2B3A67}

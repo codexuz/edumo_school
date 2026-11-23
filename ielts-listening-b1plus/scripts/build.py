@@ -36,7 +36,7 @@ DOTS = re.compile(r"(?:…[…\.]+|[…\.]{3,})(?:[ …\.]*[…\.])?")
 
 def gap_html(s, n=None):
     """Escape and turn dotted gaps into write-in lines; '12 ……' becomes a numbered gap."""
-    s = e(s)
+    s = re.sub(r"(?<=[…\.]) (?=…)|(?<=…) (?=[…\.])", "", e(s))         # "… ………" is one gap
     s = re.sub(r"(\d{1,2})(\s*(?:£|\$)?\s*)(" + DOTS.pattern + ")", lambda m: f'<b class="gn">{m.group(1)}</b>{m.group(2)}<span class="gp"></span>', s)
     return DOTS.sub('<span class="gp"></span>', s)
 
@@ -335,6 +335,119 @@ def match_table(lines):
     return best, cov[0], cov[-1]
 
 
+LINES = json.loads((ROOT / "data" / "lines.json").read_text(encoding="utf-8")) if (ROOT / "data" / "lines.json").exists() else []
+SEQ = [(pg["page"], ln) for pg in LINES for ln in pg["lines"]]           # every source line, in reading order
+RULES = {pg["page"]: pg["rules"] for pg in LINES}
+SPAN, CUR = {}, {"n": 0}
+for _i, (_p, _ln) in enumerate(SEQ):
+    _m = re.fullmatch(r"TEST\s*(\d+)", " ".join(w[2] for w in _ln["w"]))
+    if _m:
+        SPAN[int(_m.group(1))] = _i
+NORM = re.compile(r"[a-z0-9£$]+")
+
+
+def toks(s):
+    return [t for t in NORM.findall(s.lower()) if t]
+
+
+def locate(lines, n):
+    """The run of source lines (inside test n) that holds this block: best matched words minus extras."""
+    if n not in SPAN:
+        return None
+    ends = sorted(SPAN.values())
+    a = SPAN[n]
+    b = next((x for x in ends if x > a), len(SEQ))
+    want = {}
+    for t in toks(" ".join(lines)):
+        want[t] = want.get(t, 0) + 1
+    total = sum(want.values())
+    best, cur, start, bi = (0, 0, 0), 0, a, None
+    for i in range(a, b):
+        ws = toks(" ".join(w[2] for w in SEQ[i][1]["w"]))
+        m = sum(1 for t in ws if t in want)
+        sc = m - 2 * (len(ws) - m)
+        if cur <= 0:
+            cur, start = 0, i
+        cur += sc
+        if cur > best[0]:
+            best = (cur, start, i)
+    if not total or best[0] < 0.6 * total:
+        return None
+    return [SEQ[i] for i in range(best[1], best[2] + 1)]
+
+
+def box_html(region):
+    """Rebuild a form / notes box from source word positions: title lines, label and value columns, dividing rules."""
+    rows = []                                    # (page, top, [(x0, x1, text, flags)] segments)
+    for pg, ln in region:
+        segs = []
+        for x0, x1, t, f in ln["w"]:
+            if segs and x0 - segs[-1][1] < 9:
+                segs[-1] = (segs[-1][0], x1, segs[-1][2] + " " + t, "".join(c for c in "bih" if c in segs[-1][3] and c in f))
+            else:
+                segs.append((x0, x1, t, f))
+        if rows and rows[-1][0] == pg and ln["top"] - rows[-1][1] < 9 and " ".join(x[2] for x in rows[-1][2]) in ("•", "-", "–", "▪", "●"):
+            segs = rows.pop()[2] + segs                  # a bullet glyph sits a little higher than its text
+        rows.append((pg, ln["top"], segs))
+    left = min(r[2][0][0] for r in rows)
+    right = max(r[2][-1][1] for r in rows)
+    mid = (left + right) / 2
+    starts = sorted(sg[0] for r in rows for sg in r[2][1:] if len(r[2]) > 1)
+    anchors = [left]
+    groups = []
+    for x in starts:
+        if groups and x - groups[-1][-1] <= 14:
+            groups[-1].append(x)
+        else:
+            groups.append([x])
+    anchors += [min(gp) for gp in groups if len(gp) >= 2 or len(starts) <= 2]
+    anchors = sorted(set(anchors))[:4]
+    ncol = len(anchors)
+
+    def col(x):
+        return max(i for i, a in enumerate(anchors) if a <= x + 10) if x + 10 >= anchors[0] else 0
+    html_rows, prev = [], None
+    for pg, top, segs in rows:
+        if prev and prev[0] == pg and any(prev[1] + 6 < r < top - 2 for r in RULES.get(pg, [])):
+            html_rows.append(f'<tr class="rl"><td colspan="{ncol}"></td></tr>')
+        prev = (pg, top)
+        text = " ".join(sg[2] for sg in segs)
+        x0, x1 = segs[0][0], segs[-1][1]
+        bold = all("b" in sg[3] for sg in segs) and not DOTS.search(text)
+        on_col = any(abs(x0 - a) <= 12 for a in anchors[1:])
+        centred = len(segs) == 1 and x0 > left + 40 and abs((x0 + x1) / 2 - mid) < 12 and not on_col
+        if centred or (bold and len(segs) == 1 and x0 > left + 25 and (not on_col or ":" not in text)):
+            cls = "ti" if bold else "ce"
+            html_rows.append(f'<tr class="{cls}"><td colspan="{ncol}">{gap_html(text)}</td></tr>')
+            continue
+        cells, pad = {}, {}
+        for sg in segs:
+            c = col(sg[0])
+            while c in cells and c + 1 < ncol:
+                c += 1
+            if c not in cells and sg[0] - anchors[c] > 6:              # keep the source indent
+                pad[c] = (sg[0] - anchors[c]) / (max(right, anchors[-1] + 60) - left) * 186
+            h = gap_html(sg[2])
+            if "i" in sg[3] and "b" in sg[3]:
+                h = f"<em>{h}</em>"
+            elif "h" in sg[3]:
+                h = f'<span class="hw">{h}</span>'
+            cells[c] = (cells[c] + " " + h) if c in cells else h
+        tds, pos, keys = [], 0, sorted(cells)
+        for i, c in enumerate(keys):
+            nxt = keys[i + 1] if i + 1 < len(keys) else ncol
+            if c > pos:
+                tds.append(f'<td colspan="{c - pos}"></td>')
+            sty = f' style="padding-left:{pad[c] + 2:.1f}mm"' if c in pad else ""
+            tds.append(f'<td{f" colspan={chr(34)}{nxt - c}{chr(34)}" if nxt - c > 1 else ""}{sty}>{cells[c]}</td>')
+            pos = nxt
+        html_rows.append("<tr>" + "".join(tds) + "</tr>")
+    width = max(right, anchors[-1] + 60) - left
+    cols = "".join(f'<col style="width:{100 * ((anchors[i + 1] if i + 1 < ncol else left + width) - anchors[i]) / width:.1f}%">'
+                   for i in range(ncol))
+    return f'<table class="box c{ncol}"><colgroup>{cols}</colgroup>{"".join(html_rows)}</table>'
+
+
 def render_layout(g, body):
     out, block = [], []
 
@@ -365,7 +478,8 @@ def render_layout(g, body):
                 if any(x.strip() for x in lines[b + 1:]):
                     out.append(table_block(lines[b + 1:]))
             else:
-                out.append(table_block(lines))
+                region = locate(lines, CUR["n"])
+                out.append(box_html(region) if region else table_block(lines))
         block.clear()
     for ln in body:
         t = ln.strip()
@@ -381,6 +495,7 @@ def render_layout(g, body):
 
 def test_html(t):
     n, part = t["n"], t["part"]
+    CUR["n"] = n
     out = []
     for g in groups(t["lines"]):
         ins, body = split_instructions(g)
