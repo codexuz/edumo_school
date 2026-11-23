@@ -142,6 +142,7 @@ ielts-pathway/
     data/sb-unit-01.json    Student's Book unit
     data/wb-unit-01.json    Workbook unit
     dist/                   PDFs
+  assets/photos/            Unsplash photos + credits.json
 ```
 
 * Exercise IDs: `A1_U01_SB_VOC_01`, `A1_U01_WB_GR_03` (level, unit, book, section, number). Audio IDs: `A1_U01_L01` (SB) and `A1_U01_WL01` (WB).
@@ -150,7 +151,9 @@ ielts-pathway/
 
 ## 10. Design
 
-* The design matches the house style of the repo's other books: A4, two columns, the Impulse brand, Unbounded and Open Sans fonts, a blue banner at the start of each unit.
+* The design matches the house style of the repo's other books: A4, two columns, the Impulse brand, Unbounded and Open Sans fonts.
+* **Photo-led pages.** Each unit opens with a full-width photo carrying the unit number and title. The Listening, Reading, Speaking and Writing sections get a photo each, and the Workbook gets one in its Reading section. Photos come from Unsplash through `scripts/unsplash.py`: the script registers every download with Unsplash, as its API rules require, and stores the photographer's name for the credit line under each photo and the credits list at the back.
+* **Every section starts with a "Goal" strip** (for example "Goal: complete a form while you listen"), so learners always know what the section is for.
 * Each skill has its own colour, so pages are easy to scan: Vocabulary teal, Grammar indigo, Listening blue, Reading navy, Speaking green, Writing amber, Exam practice red.
 * Instructions are bold and numbered. "Exam skill", "Uzbek-speaker errors" and "Tip" use fixed box styles. Pages must still read clearly when printed in greyscale.
 * There is enough writing space for gap-fills and writing tasks. Exercises are never split across columns.

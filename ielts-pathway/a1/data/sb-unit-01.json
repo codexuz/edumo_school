@@ -5,6 +5,7 @@
   "book": "SB",
   "title": "About Me",
   "topic": "Personal information",
+  "photo": "a1-u01-opener",
   "exam_focus": [
     "Listening: form completion with names, spelling and numbers",
     "Reading: True / False and sentence completion (ONE WORD AND/OR A NUMBER)",
@@ -23,221 +24,381 @@
     {
       "kind": "vocabulary",
       "title": "The alphabet and spelling",
+      "goal": "spell names and places, letter by letter",
       "blocks": [
         {"type": "text", "text": "English letters are in **seven sound groups**. Say each group aloud."},
-        {"type": "table", "head": ["Sound", "Letters"], "rows": [
-          ["/eɪ/ (like *day*)", "A H J K"],
-          ["/iː/ (like *see*)", "B C D E G P T V"],
-          ["/e/ (like *ten*)", "F L M N S X Z"],
-          ["/aɪ/ (like *my*)", "I Y"],
-          ["/əʊ/ (like *no*)", "O"],
-          ["/uː/ (like *you*)", "Q U W"],
-          ["/ɑː/ (like *car*)", "R"]
-        ]},
-        {"type": "box", "style": "exam", "title": "Exam skill: spelling", "items": [
-          "In IELTS Listening, people often **spell names and places**. A wrong letter means a wrong answer.",
-          "Be careful with **A / E / I**, **G / J**, **B / P / V** and **M / N**.",
-          "**Double L** means LL: *Bella* = B-E-double L-A."
-        ]},
-        {"type": "ex", "id": "A1_U01_SB_VOC_01", "kind": "short", "instruction": "Which letter has a different sound? Write it.",
-          "example": "A H J **E**", "items": [
+        {
+          "type": "table",
+          "head": ["Sound", "Letters"],
+          "rows": [
+            ["/eɪ/ (like *day*)", "A H J K"],
+            ["/iː/ (like *see*)", "B C D E G P T V"],
+            ["/e/ (like *ten*)", "F L M N S X Z"],
+            ["/aɪ/ (like *my*)", "I Y"],
+            ["/əʊ/ (like *no*)", "O"],
+            ["/uː/ (like *you*)", "Q U W"],
+            ["/ɑː/ (like *car*)", "R"]
+          ]
+        },
+        {
+          "type": "box",
+          "style": "exam",
+          "title": "Exam skill: spelling",
+          "items": [
+            "In IELTS Listening, people often **spell names and places**. A wrong letter means a wrong answer.",
+            "Be careful with **A / E / I**, **G / J**, **B / P / V** and **M / N**.",
+            "**Double L** means LL: *Bella* = B-E-double L-A."
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_VOC_01",
+          "kind": "short",
+          "instruction": "Which letter has a different sound? Write it.",
+          "example": "A H J **E**",
+          "items": [
             {"q": "B C D F", "a": "F"},
             {"q": "I Y R", "a": "R"},
             {"q": "Q U W O", "a": "O"},
             {"q": "M N S G", "a": "G"},
             {"q": "K A J E", "a": "E"}
-        ]},
+          ]
+        },
         {"type": "audio", "id": "A1_U01_L01"},
-        {"type": "ex", "id": "A1_U01_SB_VOC_02", "kind": "short", "audio": "A1_U01_L01", "instruction": "Listen and write the names.", "items": [
-          {"q": "First name:", "a": "Jasur"},
-          {"q": "First name:", "a": "Gulnora"},
-          {"q": "Surname:", "a": "Valiyev"},
-          {"q": "First name:", "a": "Emily"},
-          {"q": "Surname:", "a": "Yusupova"}
-        ]}
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_VOC_02",
+          "kind": "short",
+          "audio": "A1_U01_L01",
+          "instruction": "Listen and write the names.",
+          "items": [
+            {"q": "First name:", "a": "Jasur"},
+            {"q": "First name:", "a": "Gulnora"},
+            {"q": "Surname:", "a": "Valiyev"},
+            {"q": "First name:", "a": "Emily"},
+            {"q": "Surname:", "a": "Yusupova"}
+          ]
+        }
       ]
     },
     {
       "kind": "vocabulary",
       "title": "Numbers and phone numbers",
+      "goal": "say and hear numbers, and tell 13 from 30",
       "blocks": [
-        {"type": "table", "head": ["", "", "", ""], "rows": [
-          ["1 one", "11 eleven", "10 ten", "60 sixty"],
-          ["2 two", "12 twelve", "20 twenty", "70 seventy"],
-          ["3 three", "13 thirteen", "30 thirty", "80 eighty"],
-          ["4 four", "14 fourteen", "40 **forty**", "90 ninety"],
-          ["5 five", "15 fifteen", "50 fifty", "100 a hundred"]
-        ]},
-        {"type": "box", "style": "exam", "title": "Exam skill: numbers", "items": [
-          "**13 or 30?** thir**TEEN** has the stress at the end; **THIR**ty has it at the start.",
-          "In phone numbers, **0** is often *oh*, and **55** is *double five*.",
-          "Spelling: forty (not *fourty*), nineteen, ninety."
-        ]},
-        {"type": "ex", "id": "A1_U01_SB_VOC_03", "kind": "short", "instruction": "Write the numbers in words.", "example": "12 → **twelve**", "items": [
-          {"q": "13", "a": "thirteen"},
-          {"q": "30", "a": "thirty"},
-          {"q": "15", "a": "fifteen"},
-          {"q": "50", "a": "fifty"},
-          {"q": "44", "a": "forty-four"},
-          {"q": "99", "a": "ninety-nine"}
-        ]},
+        {
+          "type": "table",
+          "head": ["", "", "", ""],
+          "rows": [
+            ["1 one", "11 eleven", "10 ten", "60 sixty"],
+            ["2 two", "12 twelve", "20 twenty", "70 seventy"],
+            ["3 three", "13 thirteen", "30 thirty", "80 eighty"],
+            ["4 four", "14 fourteen", "40 **forty**", "90 ninety"],
+            ["5 five", "15 fifteen", "50 fifty", "100 a hundred"]
+          ]
+        },
+        {
+          "type": "box",
+          "style": "exam",
+          "title": "Exam skill: numbers",
+          "items": [
+            "**13 or 30?** thir**TEEN** has the stress at the end; **THIR**ty has it at the start.",
+            "In phone numbers, **0** is often *oh*, and **55** is *double five*.",
+            "Spelling: forty (not *fourty*), nineteen, ninety."
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_VOC_03",
+          "kind": "short",
+          "instruction": "Write the numbers in words.",
+          "example": "12 → **twelve**",
+          "items": [
+            {"q": "13", "a": "thirteen"},
+            {"q": "30", "a": "thirty"},
+            {"q": "15", "a": "fifteen"},
+            {"q": "50", "a": "fifty"},
+            {"q": "44", "a": "forty-four"},
+            {"q": "99", "a": "ninety-nine"}
+          ]
+        },
         {"type": "audio", "id": "A1_U01_L02"},
-        {"type": "ex", "id": "A1_U01_SB_VOC_04", "kind": "choose", "audio": "A1_U01_L02", "instruction": "Listen and choose the number you hear.", "items": [
-          {"q": "(13 / 30)", "a": "13"},
-          {"q": "(15 / 50)", "a": "50"},
-          {"q": "(17 / 70)", "a": "70"},
-          {"q": "(14 / 40)", "a": "14"},
-          {"q": "(16 / 60)", "a": "60"}
-        ]},
-        {"type": "ex", "id": "A1_U01_SB_VOC_05", "kind": "short", "audio": "A1_U01_L02", "instruction": "Listen again and write the phone numbers.", "items": [
-          {"q": "Bekzod:", "a": "2674491"},
-          {"q": "Anna:", "a": "07588302"}
-        ]}
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_VOC_04",
+          "kind": "choose",
+          "audio": "A1_U01_L02",
+          "instruction": "Listen and choose the number you hear.",
+          "items": [
+            {"q": "(13 / 30)", "a": "13"},
+            {"q": "(15 / 50)", "a": "50"},
+            {"q": "(17 / 70)", "a": "70"},
+            {"q": "(14 / 40)", "a": "14"},
+            {"q": "(16 / 60)", "a": "60"}
+          ]
+        },
+        {"type": "ex", "id": "A1_U01_SB_VOC_05", "kind": "short", "audio": "A1_U01_L02", "instruction": "Listen again and write the phone numbers.", "items": [{"q": "Bekzod:", "a": "2674491"}, {"q": "Anna:", "a": "07588302"}]}
       ]
     },
     {
       "kind": "vocabulary",
       "title": "Countries and personal information",
+      "goal": "talk about countries, nationalities and personal details",
       "blocks": [
-        {"type": "box", "style": "tip", "title": "Nationality endings", "items": [
-          "**-an / -ian:** America → American, Russia → Russian, Egypt → Egyptian",
-          "**-ish:** the UK → British, Turkey → Turkish",
-          "**-ese:** Vietnam → Vietnamese",
-          "Countries, nationalities and languages always start with a **capital letter**."
-        ]},
-        {"type": "ex", "id": "A1_U01_SB_VOC_06", "kind": "short", "instruction": "Write the nationality.", "example": "Russia → **Russian**", "items": [
-          {"q": "Uzbekistan →", "a": "Uzbek"},
-          {"q": "Kazakhstan →", "a": "Kazakh"},
-          {"q": "Japan →", "a": "Japanese"},
-          {"q": "China →", "a": "Chinese"},
-          {"q": "Spain →", "a": "Spanish"},
-          {"q": "Italy →", "a": "Italian"},
-          {"q": "Brazil →", "a": "Brazilian"},
-          {"q": "Germany →", "a": "German"},
-          {"q": "France →", "a": "French"},
-          {"q": "South Korea →", "a": "Korean"}
-        ]},
-        {"type": "vocab", "items": [
-          {"word": "first name", "pos": "n", "uz": "ism", "ex": "My first name is Aziz."},
-          {"word": "surname", "pos": "n", "uz": "familiya", "ex": "Her surname is Karimova."},
-          {"word": "full name", "pos": "n", "uz": "to‘liq ism-sharif", "ex": "Please write your full name."},
-          {"word": "age", "pos": "n", "uz": "yosh", "ex": "Write your age in numbers: 19."},
-          {"word": "date of birth", "pos": "n", "uz": "tug‘ilgan sana", "ex": "My date of birth is 5 May 2007."},
-          {"word": "address", "pos": "n", "uz": "manzil", "ex": "My address is 12 Navoi Street."},
-          {"word": "phone number", "pos": "n", "uz": "telefon raqami", "ex": "What's your phone number?"},
-          {"word": "email address", "pos": "n", "uz": "elektron pochta manzili", "ex": "My email address is aziz@mail.uz."},
-          {"word": "country", "pos": "n", "uz": "mamlakat", "ex": "Uzbekistan is a big country."},
-          {"word": "nationality", "pos": "n", "uz": "millati, fuqaroligi", "ex": "My nationality is Uzbek."},
-          {"word": "city", "pos": "n", "uz": "shahar", "ex": "Tashkent is a big city."},
-          {"word": "hometown", "pos": "n", "uz": "tug‘ilib o‘sgan shahar", "ex": "My hometown is Fergana."},
-          {"word": "job", "pos": "n", "uz": "kasb, ish", "ex": "What's your job?"},
-          {"word": "student", "pos": "n", "uz": "talaba, o‘quvchi", "ex": "I'm a student at a college."},
-          {"word": "married", "pos": "adj", "uz": "uylangan / turmushga chiqqan", "ex": "My sister is married."},
-          {"word": "single", "pos": "adj", "uz": "turmush qurmagan", "ex": "My brother is single."},
-          {"word": "language", "pos": "n", "uz": "til", "ex": "Uzbek and Russian are languages."}
-        ]},
-        {"type": "ex", "id": "A1_U01_SB_VOC_07", "kind": "match", "instruction": "Match the form words (1–6) with the information (A–F).",
+        {
+          "type": "box",
+          "style": "tip",
+          "title": "Nationality endings",
+          "items": [
+            "**-an / -ian:** America → American, Russia → Russian, Egypt → Egyptian",
+            "**-ish:** the UK → British, Turkey → Turkish",
+            "**-ese:** Vietnam → Vietnamese",
+            "Countries, nationalities and languages always start with a **capital letter**."
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_VOC_06",
+          "kind": "short",
+          "instruction": "Write the nationality.",
+          "example": "Russia → **Russian**",
+          "items": [
+            {"q": "Uzbekistan →", "a": "Uzbek"},
+            {"q": "Kazakhstan →", "a": "Kazakh"},
+            {"q": "Japan →", "a": "Japanese"},
+            {"q": "China →", "a": "Chinese"},
+            {"q": "Spain →", "a": "Spanish"},
+            {"q": "Italy →", "a": "Italian"},
+            {"q": "Brazil →", "a": "Brazilian"},
+            {"q": "Germany →", "a": "German"},
+            {"q": "France →", "a": "French"},
+            {"q": "South Korea →", "a": "Korean"}
+          ]
+        },
+        {
+          "type": "vocab",
+          "items": [
+            {"word": "first name", "pos": "n", "uz": "ism", "ex": "My first name is Aziz."},
+            {"word": "surname", "pos": "n", "uz": "familiya", "ex": "Her surname is Karimova."},
+            {"word": "full name", "pos": "n", "uz": "to‘liq ism-sharif", "ex": "Please write your full name."},
+            {"word": "age", "pos": "n", "uz": "yosh", "ex": "Write your age in numbers: 19."},
+            {"word": "date of birth", "pos": "n", "uz": "tug‘ilgan sana", "ex": "My date of birth is 5 May 2007."},
+            {"word": "address", "pos": "n", "uz": "manzil", "ex": "My address is 12 Navoi Street."},
+            {"word": "phone number", "pos": "n", "uz": "telefon raqami", "ex": "What's your phone number?"},
+            {"word": "email address", "pos": "n", "uz": "elektron pochta manzili", "ex": "My email address is aziz@mail.uz."},
+            {"word": "country", "pos": "n", "uz": "mamlakat", "ex": "Uzbekistan is a big country."},
+            {"word": "nationality", "pos": "n", "uz": "millati, fuqaroligi", "ex": "My nationality is Uzbek."},
+            {"word": "city", "pos": "n", "uz": "shahar", "ex": "Tashkent is a big city."},
+            {"word": "hometown", "pos": "n", "uz": "tug‘ilib o‘sgan shahar", "ex": "My hometown is Fergana."},
+            {"word": "job", "pos": "n", "uz": "kasb, ish", "ex": "What's your job?"},
+            {"word": "student", "pos": "n", "uz": "talaba, o‘quvchi", "ex": "I'm a student at a college."},
+            {"word": "married", "pos": "adj", "uz": "uylangan / turmushga chiqqan", "ex": "My sister is married."},
+            {"word": "single", "pos": "adj", "uz": "turmush qurmagan", "ex": "My brother is single."},
+            {"word": "language", "pos": "n", "uz": "til", "ex": "Uzbek and Russian are languages."}
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_VOC_07",
+          "kind": "match",
+          "instruction": "Match the form words (1–6) with the information (A–F).",
           "left": ["surname", "date of birth", "nationality", "address", "phone number", "email address"],
-          "right": ["kamola.t@mail.uz", "17 Amir Temur Street", "Tursunova", "+998 90 123 45 67", "14/03/2008", "Uzbek"],
-          "a": ["C", "E", "F", "B", "D", "A"]},
-        {"type": "ex", "id": "A1_U01_SB_VOC_08", "kind": "gap", "instruction": "Complete the sentences with words from the box.",
-          "bank": ["city", "hometown", "job", "language", "married", "single"], "items": [
+          "right": [
+            "kamola.t@mail.uz",
+            "17 Amir Temur Street",
+            "Tursunova",
+            "+998 90 123 45 67",
+            "14/03/2008",
+            "Uzbek"
+          ],
+          "a": ["C", "E", "F", "B", "D", "A"]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_VOC_08",
+          "kind": "gap",
+          "instruction": "Complete the sentences with words from the box.",
+          "bank": ["city", "hometown", "job", "language", "married", "single"],
+          "items": [
             {"q": "Bukhara is my ______. I'm from there.", "a": "hometown"},
             {"q": "Samarkand is an old ______ in Uzbekistan.", "a": "city"},
             {"q": "\"What's your ______?\" \"I'm a teacher.\"", "a": "job"},
             {"q": "Uzbek is my first ______.", "a": "language"},
             {"q": "My parents are ______.", "a": "married"},
             {"q": "My brother is 19. He isn't married. He's ______.", "a": "single"}
-        ]}
+          ]
+        }
       ]
     },
     {
       "kind": "grammar",
       "title": "be: am / is / are",
+      "goal": "use am / is / are in statements, negatives and questions",
       "blocks": [
         {"type": "text", "text": "Use **be** to talk about your name, age, country, nationality and job."},
-        {"type": "table", "head": ["", "Positive (+)", "Negative (−)", "Question (?)"], "rows": [
-          ["I", "I **am** (I'm) 19.", "I **am not** (I'm not) married.", "**Am** I late?"],
-          ["he / she / it", "She **is** (She's) Uzbek.", "He **is not** (isn't) a teacher.", "**Is** he from Samarkand?"],
-          ["we / you / they", "They **are** (They're) students.", "We **are not** (aren't) Russian.", "**Are** you a student?"]
-        ]},
-        {"type": "table", "head": ["Short answers", "", ""], "rows": [
-          ["Are you a student?", "Yes, I **am**.", "No, I**'m not**."],
-          ["Is she Korean?", "Yes, she **is**.", "No, she **isn't**."],
-          ["Are they from Tashkent?", "Yes, they **are**.", "No, they **aren't**."]
-        ]},
-        {"type": "box", "style": "tip", "title": "a / an + job", "items": [
-          "I'm **a** student. She's **a** doctor.",
-          "He's **an** engineer. I'm **an** English teacher. (**an** before a, e, i, o, u sounds)"
-        ]},
-        {"type": "box", "style": "errors", "title": "Uzbek-speaker errors", "items": [
-          {"wrong": "I student.", "right": "I am a student.", "uz": "O‘zbekchada “-man”, inglizchada “am” kerak."},
-          {"wrong": "He from Samarkand.", "right": "He is from Samarkand.", "uz": "“be” fe’lini tushirib qoldirmang."},
-          {"wrong": "I am 19 years.", "right": "I am 19. / I am 19 years old.", "uz": "“years old” yoki faqat raqam."},
-          {"wrong": "She is teacher.", "right": "She is a teacher.", "uz": "Kasbdan oldin “a / an”."},
-          {"wrong": "Yes, I'm.", "right": "Yes, I am.", "uz": "Qisqa javobda qisqartma ishlatilmaydi."}
-        ]},
-        {"type": "ex", "id": "A1_U01_SB_GR_01", "kind": "choose", "instruction": "Choose the correct word.", "example": "I **(am)** / is from Tashkent.", "items": [
-          {"q": "My name (am / is) Laylo.", "a": "is"},
-          {"q": "We (is / are) students.", "a": "are"},
-          {"q": "Aziz and Kamola (is / are) from Bukhara.", "a": "are"},
-          {"q": "I (am / are) 18 years old.", "a": "am"},
-          {"q": "Our teacher (is / are) from South Korea.", "a": "is"},
-          {"q": "(Is / Are) you married?", "a": "Are"},
-          {"q": "It (is / am) a small city.", "a": "is"},
-          {"q": "(Am / Is) Maria Spanish?", "a": "Is"}
-        ]},
-        {"type": "ex", "id": "A1_U01_SB_GR_02", "kind": "short", "instruction": "Make the sentences negative. Use short forms.", "example": "I'm married. → **I'm not married.**", "items": [
-          {"q": "She's a doctor.", "a": "She isn't a doctor. / She's not a doctor."},
-          {"q": "We're from Kazakhstan.", "a": "We aren't from Kazakhstan. / We're not from Kazakhstan."},
-          {"q": "I'm 20.", "a": "I'm not 20."},
-          {"q": "They're Turkish.", "a": "They aren't Turkish. / They're not Turkish."},
-          {"q": "Tashkent is a small city.", "a": "Tashkent isn't a small city."}
-        ]},
-        {"type": "ex", "id": "A1_U01_SB_GR_03", "kind": "order", "instruction": "Put the words in order to make questions. Then ask and answer the questions with a partner.", "example": "from / you / are / where → **Where are you from?**", "items": [
-          {"q": "name / your / what / is", "a": "What is your name?"},
-          {"q": "you / old / are / how", "a": "How old are you?"},
-          {"q": "a / you / are / student", "a": "Are you a student?"},
-          {"q": "is / hometown / your / big", "a": "Is your hometown big?"},
-          {"q": "your / what / nationality / is", "a": "What is your nationality?"}
-        ]},
-        {"type": "ex", "id": "A1_U01_SB_GR_04", "kind": "correct", "instruction": "Correct the mistakes.", "example": "My sister doctor. → **My sister is a doctor.**", "items": [
-          {"q": "I from Andijan.", "a": "I am (I'm) from Andijan."},
-          {"q": "They is my friends.", "a": "They are my friends."},
-          {"q": "He is engineer.", "a": "He is an engineer."},
-          {"q": "\"Are you Uzbek?\" \"Yes, I'm.\"", "a": "Yes, I am."},
-          {"q": "My brother is 25 years.", "a": "My brother is 25 (years old)."},
-          {"q": "You are a teacher?", "a": "Are you a teacher?"}
-        ]},
-        {"type": "ex", "id": "A1_U01_SB_GR_05", "kind": "gap", "exam": true, "instruction": "Exam practice: Speaking Part 1. Complete the student's answers with am, 'm, is, 's, are or a / an.", "items": [
-          {"q": "Examiner: What's your name? — Student: My name ______ Sardor.", "a": "is / 's"},
-          {"q": "Examiner: Where are you from? — Student: I ______ from Namangan.", "a": "am / 'm"},
-          {"q": "Examiner: Do you work or study? — Student: I'm ______ engineer.", "a": "an"},
-          {"q": "Examiner: Is your hometown big? — Student: Yes, it ______. It's a big city with many parks.", "a": "is"},
-          {"q": "Examiner: Are your parents teachers? — Student: Yes, they ______.", "a": "are"}
-        ]}
+        {
+          "type": "table",
+          "head": ["", "Positive (+)", "Negative (−)", "Question (?)"],
+          "rows": [
+            ["I", "I **am** (I'm) 19.", "I **am not** (I'm not) married.", "**Am** I late?"],
+            [
+              "he / she / it",
+              "She **is** (She's) Uzbek.",
+              "He **is not** (isn't) a teacher.",
+              "**Is** he from Samarkand?"
+            ],
+            [
+              "we / you / they",
+              "They **are** (They're) students.",
+              "We **are not** (aren't) Russian.",
+              "**Are** you a student?"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "head": ["Short answers", "", ""],
+          "rows": [
+            ["Are you a student?", "Yes, I **am**.", "No, I**'m not**."],
+            ["Is she Korean?", "Yes, she **is**.", "No, she **isn't**."],
+            ["Are they from Tashkent?", "Yes, they **are**.", "No, they **aren't**."]
+          ]
+        },
+        {
+          "type": "box",
+          "style": "tip",
+          "title": "a / an + job",
+          "items": [
+            "I'm **a** student. She's **a** doctor.",
+            "He's **an** engineer. I'm **an** English teacher. (**an** before a, e, i, o, u sounds)"
+          ]
+        },
+        {
+          "type": "box",
+          "style": "errors",
+          "title": "Uzbek-speaker errors",
+          "items": [
+            {"wrong": "I student.", "right": "I am a student.", "uz": "O‘zbekchada “-man”, inglizchada “am” kerak."},
+            {"wrong": "He from Samarkand.", "right": "He is from Samarkand.", "uz": "“be” fe’lini tushirib qoldirmang."},
+            {"wrong": "I am 19 years.", "right": "I am 19. / I am 19 years old.", "uz": "“years old” yoki faqat raqam."},
+            {"wrong": "She is teacher.", "right": "She is a teacher.", "uz": "Kasbdan oldin “a / an”."},
+            {"wrong": "Yes, I'm.", "right": "Yes, I am.", "uz": "Qisqa javobda qisqartma ishlatilmaydi."}
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_GR_01",
+          "kind": "choose",
+          "instruction": "Choose the correct word.",
+          "example": "I **(am)** / is from Tashkent.",
+          "items": [
+            {"q": "My name (am / is) Laylo.", "a": "is"},
+            {"q": "We (is / are) students.", "a": "are"},
+            {"q": "Aziz and Kamola (is / are) from Bukhara.", "a": "are"},
+            {"q": "I (am / are) 18 years old.", "a": "am"},
+            {"q": "Our teacher (is / are) from South Korea.", "a": "is"},
+            {"q": "(Is / Are) you married?", "a": "Are"},
+            {"q": "It (is / am) a small city.", "a": "is"},
+            {"q": "(Am / Is) Maria Spanish?", "a": "Is"}
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_GR_02",
+          "kind": "short",
+          "instruction": "Make the sentences negative. Use short forms.",
+          "example": "I'm married. → **I'm not married.**",
+          "items": [
+            {"q": "She's a doctor.", "a": "She isn't a doctor. / She's not a doctor."},
+            {"q": "We're from Kazakhstan.", "a": "We aren't from Kazakhstan. / We're not from Kazakhstan."},
+            {"q": "I'm 20.", "a": "I'm not 20."},
+            {"q": "They're Turkish.", "a": "They aren't Turkish. / They're not Turkish."},
+            {"q": "Tashkent is a small city.", "a": "Tashkent isn't a small city."}
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_GR_03",
+          "kind": "order",
+          "instruction": "Put the words in order to make questions. Then ask and answer the questions with a partner.",
+          "example": "from / you / are / where → **Where are you from?**",
+          "items": [
+            {"q": "name / your / what / is", "a": "What is your name?"},
+            {"q": "you / old / are / how", "a": "How old are you?"},
+            {"q": "a / you / are / student", "a": "Are you a student?"},
+            {"q": "is / hometown / your / big", "a": "Is your hometown big?"},
+            {"q": "your / what / nationality / is", "a": "What is your nationality?"}
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_GR_04",
+          "kind": "correct",
+          "instruction": "Correct the mistakes.",
+          "example": "My sister doctor. → **My sister is a doctor.**",
+          "items": [
+            {"q": "I from Andijan.", "a": "I am (I'm) from Andijan."},
+            {"q": "They is my friends.", "a": "They are my friends."},
+            {"q": "He is engineer.", "a": "He is an engineer."},
+            {"q": "\"Are you Uzbek?\" \"Yes, I'm.\"", "a": "Yes, I am."},
+            {"q": "My brother is 25 years.", "a": "My brother is 25 (years old)."},
+            {"q": "You are a teacher?", "a": "Are you a teacher?"}
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_GR_05",
+          "kind": "gap",
+          "exam": true,
+          "instruction": "Exam practice: Speaking Part 1. Complete the student's answers with am, 'm, is, 's, are or a / an.",
+          "items": [
+            {"q": "Examiner: What's your name? — Student: My name ______ Sardor.", "a": "is / 's"},
+            {"q": "Examiner: Where are you from? — Student: I ______ from Namangan.", "a": "am / 'm"},
+            {"q": "Examiner: Do you work or study? — Student: I'm ______ engineer.", "a": "an"},
+            {"q": "Examiner: Is your hometown big? — Student: Yes, it ______. It's a big city with many parks.", "a": "is"},
+            {"q": "Examiner: Are your parents teachers? — Student: Yes, they ______.", "a": "are"}
+          ]
+        }
       ]
     },
     {
       "kind": "listening",
       "title": "IELTS Listening: form completion",
+      "goal": "complete a form while you listen",
       "blocks": [
         {"type": "text", "text": "In IELTS Listening Part 1, you hear a conversation and complete a **form** or **notes**. The answers are often names, numbers and short words."},
-        {"type": "box", "style": "exam", "title": "Exam skill: before you listen", "items": [
-          "Read the form. For each gap, decide: is it a **name**, a **number** or a **word**?",
-          "Listen for **corrections**: *It's 25… sorry, no, it's 52.* The second answer is correct.",
-          "Write **ONE WORD AND/OR A NUMBER**. Check your spelling."
-        ]},
-        {"type": "ex", "id": "A1_U01_SB_LIS_01", "kind": "short", "instruction": "Look at the form in the next exercise. What kind of answer is each gap? Write *name*, *number* or *word*.", "items": [
-          {"q": "Gap 1", "a": "name"},
-          {"q": "Gap 2", "a": "number"},
-          {"q": "Gap 3", "a": "word"},
-          {"q": "Gap 4", "a": "number"},
-          {"q": "Gap 5", "a": "number"},
-          {"q": "Gap 6", "a": "word"}
-        ]},
+        {"type": "photo", "name": "a1-u01-listening", "h": 34},
+        {
+          "type": "box",
+          "style": "exam",
+          "title": "Exam skill: before you listen",
+          "items": [
+            "Read the form. For each gap, decide: is it a **name**, a **number** or a **word**?",
+            "Listen for **corrections**: *It's 25… sorry, no, it's 52.* The second answer is correct.",
+            "Write **ONE WORD AND/OR A NUMBER**. Check your spelling."
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_LIS_01",
+          "kind": "short",
+          "instruction": "Look at the form in the next exercise. What kind of answer is each gap? Write *name*, *number* or *word*.",
+          "items": [
+            {"q": "Gap 1", "a": "name"},
+            {"q": "Gap 2", "a": "number"},
+            {"q": "Gap 3", "a": "word"},
+            {"q": "Gap 4", "a": "number"},
+            {"q": "Gap 5", "a": "number"},
+            {"q": "Gap 6", "a": "word"}
+          ]
+        },
         {"type": "audio", "id": "A1_U01_L03"},
-        {"type": "ex", "id": "A1_U01_SB_LIS_02", "kind": "form", "audio": "A1_U01_L03", "exam": true,
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_LIS_02",
+          "kind": "form",
+          "audio": "A1_U01_L03",
+          "exam": true,
           "instruction": "Questions 1–6. Listen and complete the form. Write ONE WORD AND/OR A NUMBER for each answer.",
           "title": "BRIGHT STAR LANGUAGE CENTRE · New student form",
           "rows": [
@@ -249,125 +410,242 @@
             ["Address", "(5) ______ Navoi Street"],
             ["Lesson time", "the (6) ______"]
           ],
-          "answers": {"1": "Rakhimova", "2": "19 / nineteen", "3": "student", "4": "934552718", "5": "52", "6": "evening(s)"}},
-        {"type": "ex", "id": "A1_U01_SB_LIS_03", "kind": "mcq", "audio": "A1_U01_L03", "instruction": "Listen again. Choose the correct letter, A, B or C.", "items": [
-          {"q": "Dilnoza wants to", "options": ["study English.", "work at the centre.", "teach a course."], "a": "A"},
-          {"q": "Dilnoza is a student at", "options": ["a university.", "a school.", "a medical college."], "a": "C"},
-          {"q": "The evening classes are on", "options": ["Monday, Tuesday and Friday.", "Monday, Wednesday and Friday.", "Wednesday and Friday."], "a": "B"}
-        ]}
+          "answers": {"1": "Rakhimova", "2": "19 / nineteen", "3": "student", "4": "934552718", "5": "52", "6": "evening(s)"}
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_LIS_03",
+          "kind": "mcq",
+          "audio": "A1_U01_L03",
+          "instruction": "Listen again. Choose the correct letter, A, B or C.",
+          "items": [
+            {"q": "Dilnoza wants to", "options": ["study English.", "work at the centre.", "teach a course."], "a": "A"},
+            {"q": "Dilnoza is a student at", "options": ["a university.", "a school.", "a medical college."], "a": "C"},
+            {"q": "The evening classes are on", "options": ["Monday, Tuesday and Friday.", "Monday, Wednesday and Friday.", "Wednesday and Friday."], "a": "B"}
+          ]
+        }
       ]
     },
     {
       "kind": "reading",
       "title": "IELTS Reading: True / False and sentence completion",
+      "goal": "scan a text for names, numbers and key words",
       "blocks": [
-        {"type": "box", "style": "exam", "title": "Exam skill: scanning", "items": [
-          "**Scan** the text: look quickly for names, numbers and key words from the question.",
-          "Then read that part slowly to find the answer.",
-          "In sentence completion, copy the word **from the text** and spell it correctly."
-        ]},
-        {"type": "passage", "title": "Meet our students", "intro": "Bright Star Language Centre, Tashkent · Student profiles", "paras": [
-          {"head": "Aziz", "text": "Hello! I'm Aziz and I'm 22. I'm from Samarkand, but now I'm in Tashkent. I'm an engineer at a bus company. My English class is in the evening. Our teacher is Ms Lee. She's from South Korea and she's very friendly. Our class is small – we are eight students."},
-          {"head": "Maria", "text": "Hi, I'm Maria. I'm 30 and I'm Spanish. My hometown is Valencia, a big city in Spain. I'm a nurse at a hospital in Tashkent. My husband is Uzbek, so Uzbek is my second language! English is important for my job. My class is in the morning."},
-          {"head": "Aigerim", "text": "Hello, my name's Aigerim. I'm 17 and I'm Kazakh – my city is Almaty. I'm not a university student. I'm at school. I want to study at a university in the UK, so IELTS is very important for me. My English class is on Saturday. It's my favourite day!"}
-        ]},
-        {"type": "ex", "id": "A1_U01_SB_READ_01", "kind": "tf", "exam": true, "instruction": "Questions 1–5. Read the text. Write TRUE or FALSE.", "labels": ["TRUE", "FALSE"], "items": [
-          {"q": "Aziz is from Tashkent.", "a": "FALSE"},
-          {"q": "Ms Lee is Korean.", "a": "TRUE"},
-          {"q": "Maria is a doctor.", "a": "FALSE"},
-          {"q": "Maria's husband is from Uzbekistan.", "a": "TRUE"},
-          {"q": "IELTS is important for Aigerim.", "a": "TRUE"}
-        ]},
-        {"type": "ex", "id": "A1_U01_SB_READ_02", "kind": "gap", "exam": true, "start": 6, "instruction": "Questions 6–9. Complete the sentences. Write ONE WORD AND/OR A NUMBER from the text.", "items": [
-          {"q": "There are ______ students in Aziz's class.", "a": "eight / 8"},
-          {"q": "Maria is a nurse at a ______.", "a": "hospital"},
-          {"q": "Maria's hometown is ______.", "a": "Valencia"},
-          {"q": "Aigerim's English class is on ______.", "a": "Saturday"}
-        ]}
+        {
+          "type": "box",
+          "style": "exam",
+          "title": "Exam skill: scanning",
+          "items": [
+            "**Scan** the text: look quickly for names, numbers and key words from the question.",
+            "Then read that part slowly to find the answer.",
+            "In sentence completion, copy the word **from the text** and spell it correctly."
+          ]
+        },
+        {
+          "type": "passage",
+          "title": "Meet our students",
+          "intro": "Bright Star Language Centre, Tashkent · Student profiles",
+          "paras": [
+            {"head": "Aziz", "text": "Hello! I'm Aziz and I'm 22. I'm from Samarkand, but now I'm in Tashkent. I'm an engineer at a bus company. My English class is in the evening. Our teacher is Ms Lee. She's from South Korea and she's very friendly. Our class is small – we are eight students."},
+            {"head": "Maria", "text": "Hi, I'm Maria. I'm 30 and I'm Spanish. My hometown is Valencia, a big city in Spain. I'm a nurse at a hospital in Tashkent. My husband is Uzbek, so Uzbek is my second language! English is important for my job. My class is in the morning."},
+            {"head": "Aigerim", "text": "Hello, my name's Aigerim. I'm 17 and I'm Kazakh – my city is Almaty. I'm not a university student. I'm at school. I want to study at a university in the UK, so IELTS is very important for me. My English class is on Saturday. It's my favourite day!"}
+          ],
+          "photo": "a1-u01-reading",
+          "photo_h": 34
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_READ_01",
+          "kind": "tf",
+          "exam": true,
+          "instruction": "Questions 1–5. Read the text. Write TRUE or FALSE.",
+          "labels": ["TRUE", "FALSE"],
+          "items": [
+            {"q": "Aziz is from Tashkent.", "a": "FALSE"},
+            {"q": "Ms Lee is Korean.", "a": "TRUE"},
+            {"q": "Maria is a doctor.", "a": "FALSE"},
+            {"q": "Maria's husband is from Uzbekistan.", "a": "TRUE"},
+            {"q": "IELTS is important for Aigerim.", "a": "TRUE"}
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_READ_02",
+          "kind": "gap",
+          "exam": true,
+          "start": 6,
+          "instruction": "Questions 6–9. Complete the sentences. Write ONE WORD AND/OR A NUMBER from the text.",
+          "items": [
+            {"q": "There are ______ students in Aziz's class.", "a": "eight / 8"},
+            {"q": "Maria is a nurse at a ______.", "a": "hospital"},
+            {"q": "Maria's hometown is ______.", "a": "Valencia"},
+            {"q": "Aigerim's English class is on ______.", "a": "Saturday"}
+          ]
+        }
       ]
     },
     {
       "kind": "speaking",
       "title": "IELTS Speaking Part 1",
+      "goal": "answer Part 1 questions with one extra detail",
       "blocks": [
         {"type": "text", "text": "In **Speaking Part 1** (4–5 minutes), the examiner asks simple questions about you: your name, home, work or studies."},
-        {"type": "model", "title": "Model: Part 1", "lines": [
-          ["Examiner", "Can you tell me your full name, please?"],
-          ["Malika", "Yes, it's Malika Usmonova."],
-          ["Examiner", "Where are you from?"],
-          ["Malika", "I'm from Bukhara. It's a beautiful old city."],
-          ["Examiner", "Do you work or are you a student?"],
-          ["Malika", "I'm a student. I'm at a college in Tashkent."],
-          ["Examiner", "Is your hometown big or small?"],
-          ["Malika", "It's quite big. It's famous for its old buildings."]
-        ]},
-        {"type": "box", "style": "exam", "title": "Exam skill: the +1 rule", "items": [
-          "Don't answer with one word (*Bukhara.*). Give the answer **+1 more piece of information**.",
-          "*I'm from Bukhara.* **+** *It's a beautiful old city.*"
-        ]},
-        {"type": "ex", "id": "A1_U01_SB_SPK_01", "kind": "match", "instruction": "Make the answers longer. Match the answers (1–5) with the extra information (A–E).",
+        {"type": "photo", "name": "a1-u01-speaking", "h": 34},
+        {
+          "type": "model",
+          "title": "Model: Part 1",
+          "lines": [
+            ["Examiner", "Can you tell me your full name, please?"],
+            ["Malika", "Yes, it's Malika Usmonova."],
+            ["Examiner", "Where are you from?"],
+            ["Malika", "I'm from Bukhara. It's a beautiful old city."],
+            ["Examiner", "Do you work or are you a student?"],
+            ["Malika", "I'm a student. I'm at a college in Tashkent."],
+            ["Examiner", "Is your hometown big or small?"],
+            ["Malika", "It's quite big. It's famous for its old buildings."]
+          ]
+        },
+        {
+          "type": "box",
+          "style": "exam",
+          "title": "Exam skill: the +1 rule",
+          "items": [
+            "Don't answer with one word (*Bukhara.*). Give the answer **+1 more piece of information**.",
+            "*I'm from Bukhara.* **+** *It's a beautiful old city.*"
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_SPK_01",
+          "kind": "match",
+          "instruction": "Make the answers longer. Match the answers (1–5) with the extra information (A–E).",
           "left": ["I'm from Namangan.", "I'm a student.", "I'm 18.", "My name is Sardor.", "I'm a teacher."],
-          "right": ["My birthday is in June.", "I'm at a school in Andijan.", "It's in the Fergana Valley.", "It's a popular name in Uzbekistan.", "My subject is maths."],
-          "a": ["C", "E", "A", "D", "B"]},
-        {"type": "ex", "id": "A1_U01_SB_SPK_02", "kind": "short", "instruction": "Pronunciation: write the short forms. Then say them.", "example": "I am → **I'm**", "items": [
-          {"q": "she is", "a": "she's"},
-          {"q": "they are", "a": "they're"},
-          {"q": "it is", "a": "it's"},
-          {"q": "we are", "a": "we're"},
-          {"q": "he is not", "a": "he isn't / he's not"},
-          {"q": "you are not", "a": "you aren't / you're not"}
-        ]},
-        {"type": "ex", "id": "A1_U01_SB_SPK_03", "kind": "speak", "instruction": "Work in pairs. Student A is the examiner. Ask the questions. Student B answers with the +1 rule. Then change roles.", "items": [
-          "What's your full name?",
-          "Can you spell your surname, please?",
-          "Where are you from?",
-          "Is your hometown big or small?",
-          "Do you work or are you a student?",
-          "What languages do you speak?"
-        ]}
+          "right": [
+            "My birthday is in June.",
+            "I'm at a school in Andijan.",
+            "It's in the Fergana Valley.",
+            "It's a popular name in Uzbekistan.",
+            "My subject is maths."
+          ],
+          "a": ["C", "E", "A", "D", "B"]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_SPK_02",
+          "kind": "short",
+          "instruction": "Pronunciation: write the short forms. Then say them.",
+          "example": "I am → **I'm**",
+          "items": [
+            {"q": "she is", "a": "she's"},
+            {"q": "they are", "a": "they're"},
+            {"q": "it is", "a": "it's"},
+            {"q": "we are", "a": "we're"},
+            {"q": "he is not", "a": "he isn't / he's not"},
+            {"q": "you are not", "a": "you aren't / you're not"}
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_SPK_03",
+          "kind": "speak",
+          "instruction": "Work in pairs. Student A is the examiner. Ask the questions. Student B answers with the +1 rule. Then change roles.",
+          "items": [
+            "What's your full name?",
+            "Can you spell your surname, please?",
+            "Where are you from?",
+            "Is your hometown big or small?",
+            "Do you work or are you a student?",
+            "What languages do you speak?"
+          ]
+        }
       ]
     },
     {
       "kind": "writing",
       "title": "Forms and a short profile",
+      "goal": "complete a form and write a short profile",
       "blocks": [
+        {"type": "photo", "name": "a1-u01-writing", "h": 28},
         {"type": "model", "title": "Model: About me", "text": "Hello! My name is Kamola Tursunova. I'm 18 and I'm Uzbek. I'm from Termez, a city in the south of Uzbekistan. I'm a student at a college in Tashkent. My languages are Uzbek, Russian and a little English. English is important for me because IELTS is my goal."},
-        {"type": "box", "style": "tip", "title": "Capital letters", "items": [
-          "Use a capital letter for **names** (Kamola), **cities** (Termez), **countries** (Uzbekistan), **nationalities and languages** (Uzbek, English), **I**, and the **first word** of a sentence.",
-          "In IELTS, a spelling mistake makes an answer wrong. Check every word."
-        ]},
-        {"type": "ex", "id": "A1_U01_SB_WR_01", "kind": "correct", "instruction": "Correct the capital letters.", "example": "i'm from tashkent. → **I'm from Tashkent.**", "items": [
-          {"q": "my name is olga and i'm russian.", "a": "My name is Olga and I'm Russian."},
-          {"q": "she is from london.", "a": "She is from London."},
-          {"q": "ahmed is egyptian. he speaks arabic.", "a": "Ahmed is Egyptian. He speaks Arabic."},
-          {"q": "our teacher is from the usa.", "a": "Our teacher is from the USA."},
-          {"q": "we are students in samarkand.", "a": "We are students in Samarkand."}
-        ]},
+        {
+          "type": "box",
+          "style": "tip",
+          "title": "Capital letters",
+          "items": [
+            "Use a capital letter for **names** (Kamola), **cities** (Termez), **countries** (Uzbekistan), **nationalities and languages** (Uzbek, English), **I**, and the **first word** of a sentence.",
+            "In IELTS, a spelling mistake makes an answer wrong. Check every word."
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_WR_01",
+          "kind": "correct",
+          "instruction": "Correct the capital letters.",
+          "example": "i'm from tashkent. → **I'm from Tashkent.**",
+          "items": [
+            {"q": "my name is olga and i'm russian.", "a": "My name is Olga and I'm Russian."},
+            {"q": "she is from london.", "a": "She is from London."},
+            {"q": "ahmed is egyptian. he speaks arabic.", "a": "Ahmed is Egyptian. He speaks Arabic."},
+            {"q": "our teacher is from the usa.", "a": "Our teacher is from the USA."},
+            {"q": "we are students in samarkand.", "a": "We are students in Samarkand."}
+          ]
+        },
         {"type": "ex", "id": "A1_U01_SB_WR_02", "kind": "write", "instruction": "Complete the form about you.", "fields": ["First name", "Surname", "Age", "Nationality", "Hometown", "Job / Occupation", "Languages"]},
-        {"type": "ex", "id": "A1_U01_SB_WR_03", "kind": "write", "instruction": "Write 5–6 sentences about you for the Bright Star website. Use the model and your form.", "lines": 7,
-          "checklist": ["I used am / is / are correctly.", "I used capital letters for names, places and nationalities.", "Every sentence ends with a full stop.", "I checked my spelling."]}
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_WR_03",
+          "kind": "write",
+          "instruction": "Write 5–6 sentences about you for the Bright Star website. Use the model and your form.",
+          "lines": 7,
+          "checklist": [
+            "I used am / is / are correctly.",
+            "I used capital letters for names, places and nationalities.",
+            "Every sentence ends with a full stop.",
+            "I checked my spelling."
+          ]
+        }
       ]
     },
     {
       "kind": "exam",
       "title": "Exam practice",
+      "goal": "check your progress in IELTS formats",
       "blocks": [
-        {"type": "ex", "id": "A1_U01_SB_EXP_01", "kind": "gap", "instruction": "Vocabulary. Complete each word. Spelling must be correct.", "items": [
-          {"q": "My s______ is Karimov.", "a": "surname"},
-          {"q": "I'm from Japan. I'm J______.", "a": "Japanese"},
-          {"q": "Fifty plus thirty is e______.", "a": "eighty"},
-          {"q": "Uzbek and English are l______.", "a": "languages"},
-          {"q": "Tashkent is a big c______.", "a": "city"}
-        ]},
-        {"type": "ex", "id": "A1_U01_SB_EXP_02", "kind": "mcq", "start": 6, "instruction": "Grammar. Choose the correct letter, A, B or C.", "items": [
-          {"q": "My parents ______ teachers.", "options": ["is", "am", "are"], "a": "C"},
-          {"q": "______ she from Turkey?", "options": ["Is", "Are", "Am"], "a": "A"},
-          {"q": "I ______ married.", "options": ["amn't", "'m not", "not"], "a": "B"},
-          {"q": "He is ______ engineer.", "options": ["a", "an", "–"], "a": "B"},
-          {"q": "\"Are you Uzbek?\" \"Yes, I ______.\"", "options": ["am", "'m", "is"], "a": "A"}
-        ]},
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_EXP_01",
+          "kind": "gap",
+          "instruction": "Vocabulary. Complete each word. Spelling must be correct.",
+          "items": [
+            {"q": "My s______ is Karimov.", "a": "surname"},
+            {"q": "I'm from Japan. I'm J______.", "a": "Japanese"},
+            {"q": "Fifty plus thirty is e______.", "a": "eighty"},
+            {"q": "Uzbek and English are l______.", "a": "languages"},
+            {"q": "Tashkent is a big c______.", "a": "city"}
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_EXP_02",
+          "kind": "mcq",
+          "start": 6,
+          "instruction": "Grammar. Choose the correct letter, A, B or C.",
+          "items": [
+            {"q": "My parents ______ teachers.", "options": ["is", "am", "are"], "a": "C"},
+            {"q": "______ she from Turkey?", "options": ["Is", "Are", "Am"], "a": "A"},
+            {"q": "I ______ married.", "options": ["amn't", "'m not", "not"], "a": "B"},
+            {"q": "He is ______ engineer.", "options": ["a", "an", "–"], "a": "B"},
+            {"q": "\"Are you Uzbek?\" \"Yes, I ______.\"", "options": ["am", "'m", "is"], "a": "A"}
+          ]
+        },
         {"type": "audio", "id": "A1_U01_L04"},
-        {"type": "ex", "id": "A1_U01_SB_EXP_03", "kind": "form", "audio": "A1_U01_L04", "exam": true, "start": 11,
+        {
+          "type": "ex",
+          "id": "A1_U01_SB_EXP_03",
+          "kind": "form",
+          "audio": "A1_U01_L04",
+          "exam": true,
+          "start": 11,
           "instruction": "Listening. Questions 11–15. Complete the form. Write ONE WORD AND/OR A NUMBER.",
           "title": "CITY LIBRARY · Library card",
           "rows": [
@@ -377,71 +655,95 @@
             ["Phone number", "(14) ______"],
             ["Job", "(15) ______"]
           ],
-          "answers": {"11": "Aliyev", "12": "16 / 16th", "13": "Kazakh", "14": "4719932", "15": "driver"}},
+          "answers": {"11": "Aliyev", "12": "16 / 16th", "13": "Kazakh", "14": "4719932", "15": "driver"}
+        },
         {"type": "score", "total": 15},
         {"type": "cando"}
       ]
     }
   ],
   "scripts": [
-    {"id": "A1_U01_L01", "title": "Spelling names", "notes": "One speaker per item (mix male/female). Spell slowly, with a short pause between letters.", "lines": [
-      ["", "Number one. My first name is Jasur. J-A-S-U-R."],
-      ["", "Number two. Her name is Gulnora. G-U-L-N-O-R-A."],
-      ["", "Number three. His surname is Valiyev. V-A-L-I-Y-E-V."],
-      ["", "Number four. My name's Emily. E-M-I-L-Y."],
-      ["", "Number five. Our teacher's surname is Yusupova. Y-U-S-U-P-O-V-A."]
-    ]},
-    {"id": "A1_U01_L02", "title": "Numbers and phone numbers", "notes": "Clear stress: thirTEEN vs THIRty. Phone numbers grouped as written.", "lines": [
-      ["", "Number one: thirteen. Thirteen."],
-      ["", "Number two: fifty. Fifty."],
-      ["", "Number three: seventy. Seventy."],
-      ["", "Number four: fourteen. Fourteen."],
-      ["", "Number five: sixty. Sixty."],
-      ["Bekzod", "Hi, it's Bekzod. My number is two-six-seven, double four, nine-one."],
-      ["Anna", "Hello, this is Anna. My phone number is oh-seven-five, double eight, three, oh, two."]
-    ]},
-    {"id": "A1_U01_L03", "title": "Joining a language centre", "notes": "Receptionist (female, 30s) and Dilnoza (female, 19). Natural but slow. The address correction must be clear.", "lines": [
-      ["Receptionist", "Good morning, Bright Star Language Centre. How can I help you?"],
-      ["Dilnoza", "Hello. I'd like to join an English course, please."],
-      ["Receptionist", "Of course. I need some information for the form. What's your first name?"],
-      ["Dilnoza", "Dilnoza."],
-      ["Receptionist", "And your surname?"],
-      ["Dilnoza", "Rakhimova."],
-      ["Receptionist", "How do you spell that, please?"],
-      ["Dilnoza", "R-A-K-H-I-M-O-V-A."],
-      ["Receptionist", "R-A-K-H-I-M-O-V-A. Thank you. And how old are you, Dilnoza?"],
-      ["Dilnoza", "I'm nineteen."],
-      ["Receptionist", "Nineteen. Are you a student?"],
-      ["Dilnoza", "Yes, I am. I'm a student at a medical college."],
-      ["Receptionist", "So for 'occupation' I can write 'student'."],
-      ["Dilnoza", "Yes, that's right."],
-      ["Receptionist", "OK. What's your phone number?"],
-      ["Dilnoza", "It's nine-three, four-five-five, two-seven-one-eight."],
-      ["Receptionist", "Nine-three, four-five-five, two-seven-one-eight."],
-      ["Dilnoza", "Yes."],
-      ["Receptionist", "And what's your address?"],
-      ["Dilnoza", "It's twenty-five Navoi Street… Oh, sorry, no. It's fifty-two. Fifty-two Navoi Street."],
-      ["Receptionist", "Fifty-two Navoi Street. Thanks. Now, is the morning a good time for your lessons?"],
-      ["Dilnoza", "No, I'm at college in the morning. The evening is good for me."],
-      ["Receptionist", "OK, the evening. Our evening classes are on Monday, Wednesday and Friday."],
-      ["Dilnoza", "Great. I want to study English with you. Thank you very much."]
-    ]},
-    {"id": "A1_U01_L04", "title": "A library card", "notes": "Librarian (female) and Timur (male, 20). The date correction must be clear: sixth → sixteenth.", "lines": [
-      ["Librarian", "Hello. Do you want a library card?"],
-      ["Timur", "Yes, please."],
-      ["Librarian", "What's your name?"],
-      ["Timur", "Timur Aliyev."],
-      ["Librarian", "Can you spell your surname?"],
-      ["Timur", "A-L-I-Y-E-V."],
-      ["Librarian", "And what's your date of birth?"],
-      ["Timur", "The sixth of May… no, sorry, the sixteenth of May, two thousand and six."],
-      ["Librarian", "The sixteenth of May. What's your nationality?"],
-      ["Timur", "I'm from Almaty. I'm Kazakh."],
-      ["Librarian", "And your phone number?"],
-      ["Timur", "It's four-seven-one, double nine, three-two."],
-      ["Librarian", "Four-seven-one, double nine, three-two. And are you a student?"],
-      ["Timur", "No, I'm not. I'm a driver."],
-      ["Librarian", "OK. Here's your card."]
-    ]}
+    {
+      "id": "A1_U01_L01",
+      "title": "Spelling names",
+      "notes": "One speaker per item (mix male/female). Spell slowly, with a short pause between letters.",
+      "lines": [
+        ["", "Number one. My first name is Jasur. J-A-S-U-R."],
+        ["", "Number two. Her name is Gulnora. G-U-L-N-O-R-A."],
+        ["", "Number three. His surname is Valiyev. V-A-L-I-Y-E-V."],
+        ["", "Number four. My name's Emily. E-M-I-L-Y."],
+        ["", "Number five. Our teacher's surname is Yusupova. Y-U-S-U-P-O-V-A."]
+      ]
+    },
+    {
+      "id": "A1_U01_L02",
+      "title": "Numbers and phone numbers",
+      "notes": "Clear stress: thirTEEN vs THIRty. Phone numbers grouped as written.",
+      "lines": [
+        ["", "Number one: thirteen. Thirteen."],
+        ["", "Number two: fifty. Fifty."],
+        ["", "Number three: seventy. Seventy."],
+        ["", "Number four: fourteen. Fourteen."],
+        ["", "Number five: sixty. Sixty."],
+        ["Bekzod", "Hi, it's Bekzod. My number is two-six-seven, double four, nine-one."],
+        ["Anna", "Hello, this is Anna. My phone number is oh-seven-five, double eight, three, oh, two."]
+      ]
+    },
+    {
+      "id": "A1_U01_L03",
+      "title": "Joining a language centre",
+      "notes": "Receptionist (female, 30s) and Dilnoza (female, 19). Natural but slow. The address correction must be clear.",
+      "lines": [
+        ["Receptionist", "Good morning, Bright Star Language Centre. How can I help you?"],
+        ["Dilnoza", "Hello. I'd like to join an English course, please."],
+        ["Receptionist", "Of course. I need some information for the form. What's your first name?"],
+        ["Dilnoza", "Dilnoza."],
+        ["Receptionist", "And your surname?"],
+        ["Dilnoza", "Rakhimova."],
+        ["Receptionist", "How do you spell that, please?"],
+        ["Dilnoza", "R-A-K-H-I-M-O-V-A."],
+        ["Receptionist", "R-A-K-H-I-M-O-V-A. Thank you. And how old are you, Dilnoza?"],
+        ["Dilnoza", "I'm nineteen."],
+        ["Receptionist", "Nineteen. Are you a student?"],
+        ["Dilnoza", "Yes, I am. I'm a student at a medical college."],
+        ["Receptionist", "So for 'occupation' I can write 'student'."],
+        ["Dilnoza", "Yes, that's right."],
+        ["Receptionist", "OK. What's your phone number?"],
+        ["Dilnoza", "It's nine-three, four-five-five, two-seven-one-eight."],
+        ["Receptionist", "Nine-three, four-five-five, two-seven-one-eight."],
+        ["Dilnoza", "Yes."],
+        ["Receptionist", "And what's your address?"],
+        ["Dilnoza", "It's twenty-five Navoi Street… Oh, sorry, no. It's fifty-two. Fifty-two Navoi Street."],
+        [
+          "Receptionist",
+          "Fifty-two Navoi Street. Thanks. Now, is the morning a good time for your lessons?"
+        ],
+        ["Dilnoza", "No, I'm at college in the morning. The evening is good for me."],
+        ["Receptionist", "OK, the evening. Our evening classes are on Monday, Wednesday and Friday."],
+        ["Dilnoza", "Great. I want to study English with you. Thank you very much."]
+      ]
+    },
+    {
+      "id": "A1_U01_L04",
+      "title": "A library card",
+      "notes": "Librarian (female) and Timur (male, 20). The date correction must be clear: sixth → sixteenth.",
+      "lines": [
+        ["Librarian", "Hello. Do you want a library card?"],
+        ["Timur", "Yes, please."],
+        ["Librarian", "What's your name?"],
+        ["Timur", "Timur Aliyev."],
+        ["Librarian", "Can you spell your surname?"],
+        ["Timur", "A-L-I-Y-E-V."],
+        ["Librarian", "And what's your date of birth?"],
+        ["Timur", "The sixth of May… no, sorry, the sixteenth of May, two thousand and six."],
+        ["Librarian", "The sixteenth of May. What's your nationality?"],
+        ["Timur", "I'm from Almaty. I'm Kazakh."],
+        ["Librarian", "And your phone number?"],
+        ["Timur", "It's four-seven-one, double nine, three-two."],
+        ["Librarian", "Four-seven-one, double nine, three-two. And are you a student?"],
+        ["Timur", "No, I'm not. I'm a driver."],
+        ["Librarian", "OK. Here's your card."]
+      ]
+    }
   ]
 }

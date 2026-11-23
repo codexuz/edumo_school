@@ -167,3 +167,28 @@
 .krow .xn{--sc:var(--blue2);margin-top:.2mm}
 .krow span{margin-right:2.2mm}
 .krow span b{color:var(--blue2);margin-right:.6mm}
+
+/* ===== photo-led design ===== */
+.hero{position:relative;border-radius:4mm;overflow:hidden;margin-bottom:3.5mm;flex:none}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hshade{position:absolute;inset:0;background:linear-gradient(0deg,rgba(9,22,80,.86) 0%,rgba(9,22,80,.35) 45%,rgba(9,22,80,0) 70%),
+ linear-gradient(90deg,rgba(15,44,156,.55),rgba(15,44,156,0) 55%)}
+.htxt{position:absolute;left:7mm;right:7mm;bottom:5.5mm;color:#fff}
+.htxt small{font:600 7.6pt "Unbounded";letter-spacing:.2em;opacity:.9}
+.hrow{display:flex;align-items:center;gap:4mm;margin-top:1.5mm}
+.hnum{flex:none;width:17mm;height:17mm;border-radius:50%;background:#fff;color:var(--blue2);font:800 22pt "Unbounded";display:flex;align-items:center;justify-content:center;box-shadow:0 1mm 3mm rgba(0,0,0,.25)}
+.hero.wb .hnum{width:13mm;height:13mm;font-size:16pt}
+.hrow h1{font:800 26pt/1.05 "Unbounded"}
+.hero.wb .hrow h1{font-size:19pt}
+.hrow p{font:600 9.5pt "Open Sans";opacity:.92;margin-top:.8mm}
+.hcred{position:absolute;right:3mm;top:2.4mm;font-size:6.2pt;color:#fff;opacity:.85;background:rgba(0,0,0,.28);border-radius:1mm;padding:.2mm 1.4mm}
+.goal{display:flex;gap:2mm;align-items:baseline;font-size:8.4pt;color:#3B4766;margin:-.6mm 0 2.2mm}
+.goal b{flex:none;font:700 6.6pt "Unbounded";color:#fff;background:var(--sc);border-radius:1mm;padding:.3mm 1.6mm;letter-spacing:.06em;text-transform:uppercase}
+.ph{margin:0 0 2.4mm}
+.ph img{display:block;width:100%;object-fit:cover;border-radius:2.4mm}
+.ph figcaption{font-size:6.2pt;color:#9AA3B5;text-align:right;margin-top:.5mm}
+.ph.in{margin:-.6mm -1.4mm 1.6mm}
+.ph.in img{border-radius:1.8mm}
+.cr{font-size:8pt;margin-bottom:1.2mm;line-height:1.4}
+.cr b{color:var(--navy);margin-right:1mm}
+.cr span{color:#6B7690;font-size:7.2pt}

@@ -22,6 +22,32 @@ SECTION = {  # kind -> (label, icon)
 }
 CLOSED = {"short", "gap", "choose", "mcq", "tf", "match", "order", "correct", "form"}
 e = html.escape
+PHOTOS = ROOT / "assets" / "photos"
+USED_PHOTOS = []
+
+
+@lru_cache(maxsize=None)
+def credits():
+    f = PHOTOS / "credits.json"
+    return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
+
+
+def photo_uri(name):
+    import base64
+    if name not in USED_PHOTOS:
+        USED_PHOTOS.append(name)
+    return "data:image/jpeg;base64," + base64.b64encode((PHOTOS / f"{name}.jpg").read_bytes()).decode()
+
+
+def credit(name):
+    c = credits().get(name)
+    return f"Photo: {e(c['photographer'])} / Unsplash" if c else ""
+
+
+def photo(name, h=36, cls="ph"):
+    alt = e(credits().get(name, {}).get("alt", ""))
+    return (f'<figure class="{cls}"><img src="{photo_uri(name)}" alt="{alt}" style="height:{h}mm">'
+            f'<figcaption>{credit(name)}</figcaption></figure>')
 
 
 def md(s):
@@ -179,7 +205,10 @@ def block(b, ctx):
                         for p in b["paras"])
         words = sum(len(p["text"].split()) for p in b["paras"])
         intro = f'<p class="pin">{md(b["intro"])}</p>' if b.get("intro") else ""
-        return (f'<div class="psg split"><h4 class="ptitle">{e(b["title"])}<small>{words} words</small></h4>{intro}{paras}</div>')
+        pic = photo(b["photo"], b.get("photo_h", 30), "ph in") if b.get("photo") else ""
+        return (f'<div class="psg split">{pic}<h4 class="ptitle">{e(b["title"])}<small>{words} words</small></h4>{intro}{paras}</div>')
+    if t == "photo":
+        return photo(b["name"], b.get("h", 36))
     if t == "model":
         if b.get("lines"):
             inner = "".join(f'<p><b>{e(w)}:</b> {md(x)}</p>' for w, x in b["lines"])
@@ -218,8 +247,15 @@ def unit_html(u, book):
                 counts[s["kind"]] = counts.get(s["kind"], 0) + closed_count(b)
     ctx = {"num": num, "scripts": scripts, "unit": u, "counts": counts}
     lvl, n = u["level"], u["unit"]
-    banner = (f'<div class="banner"><div class="girih"></div><div class="bl"><small>IELTS PATHWAY {lvl} · {BOOK[book].upper()}</small>'
-              f'<h1>UNIT {n} · {e(u["title"].upper())}</h1></div><div class="br"><b>{e(u["topic"])}</b><span>IELTS foundations</span></div></div>')
+    if u.get("photo"):
+        h = 78 if book == "sb" else 46
+        banner = (f'<div class="hero {book}" style="height:{h}mm"><img src="{photo_uri(u["photo"])}" alt="">'
+                  f'<div class="hshade"></div><div class="htxt"><small>IELTS PATHWAY {lvl} · {BOOK[book].upper()}</small>'
+                  f'<div class="hrow"><span class="hnum">{n}</span><div><h1>{e(u["title"])}</h1><p>{e(u["topic"])}</p></div></div></div>'
+                  f'<span class="hcred">{credit(u["photo"])}</span></div>')
+    else:
+        banner = (f'<div class="banner"><div class="girih"></div><div class="bl"><small>IELTS PATHWAY {lvl} · {BOOK[book].upper()}</small>'
+                  f'<h1>UNIT {n} · {e(u["title"].upper())}</h1></div><div class="br"><b>{e(u["topic"])}</b><span>IELTS foundations</span></div></div>')
     opener = ""
     if book == "sb":
         focus = "".join(f"<li>{md(x)}</li>" for x in u["exam_focus"])
@@ -233,8 +269,9 @@ def unit_html(u, book):
         ctx["sec"] = s["kind"]
         label, ic = SECTION[s["kind"]]
         inner = "".join(block(b, ctx) for b in s["blocks"])
+        goal = f'<p class="goal"><b>Goal</b>{md(s["goal"])}</p>' if s.get("goal") else ""
         body += (f'<div class="part sec s-{s["kind"]}"><div class="shead"><span class="spill">{icon(ic)} {label}</span>'
-                 f'<span class="stitle">{e(s["title"])}</span></div>{inner}</div>')
+                 f'<span class="stitle">{e(s["title"])}</span></div>{goal}{inner}</div>')
     return (f'<section class="page flow first" id="u{n}">{banner}<div class="cols"><div class="col">{body}</div><div class="col"></div></div>'
             f'<footer><span>IELTS Pathway {lvl} · {BOOK[book]} · Unit {n}</span><span class="pno"></span></footer></section>')
 
@@ -272,6 +309,10 @@ def back_matter(units, book):
         f'<section class="page flow first" id="{i}"><div class="banner small"><div class="girih"></div><div class="bl"><small>{BOOK[book].upper()}</small>'
         f'<h1>{title}</h1></div><div class="br"><span>{sub}</span></div></div>'
         f'<div class="cols"><div class="col"><div class="split {cls}">{inner}</div></div><div class="col"></div></div>{foot(title.title())}</section>')
+    if USED_PHOTOS:
+        keys += '<h3 class="sh3">Photo credits</h3><p class="cr">All photos from Unsplash (unsplash.com).</p>'
+        keys += "".join(f'<p class="cr"><b>{e(credits()[n]["photographer"])}</b> '
+                        f'<span>{e(credits()[n]["photo"].split("?")[0])}</span></p>' for n in USED_PHOTOS if n in credits())
     return (sec("scripts", "AUDIOSCRIPTS", "Read after you answer the questions", scripts, "script")
             + sec("key", "ANSWER KEY", "Accept other correct answers where shown with /", keys, "keys"))
 

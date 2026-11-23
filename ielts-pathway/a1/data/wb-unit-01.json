@@ -5,115 +5,197 @@
   "book": "WB",
   "title": "About Me",
   "topic": "Personal information",
+  "photo": "a1-u01-opener",
   "sections": [
     {
       "kind": "vocabulary",
       "title": "Vocabulary+",
+      "goal": "practise spelling, numbers and personal-information words",
       "blocks": [
-        {"type": "ex", "id": "A1_U01_WB_VOC_01", "kind": "short", "instruction": "Put the letters in order to make countries.", "example": "SIRUAS → **RUSSIA**", "items": [
-          {"q": "PAJAN", "a": "JAPAN"},
-          {"q": "KRUTEY", "a": "TURKEY"},
-          {"q": "NIDIA", "a": "INDIA"},
-          {"q": "PAINS", "a": "SPAIN"},
-          {"q": "ZILBAR", "a": "BRAZIL"},
-          {"q": "TYGEP", "a": "EGYPT"}
-        ]},
-        {"type": "ex", "id": "A1_U01_WB_VOC_02", "kind": "choose", "instruction": "Choose the correct spelling.", "items": [
-          {"q": "(fourty / forty)", "a": "forty"},
-          {"q": "(nineteen / ninteen)", "a": "nineteen"},
-          {"q": "(adress / address)", "a": "address"},
-          {"q": "(surname / sirname)", "a": "surname"},
-          {"q": "(Wednesday / Wensday)", "a": "Wednesday"},
-          {"q": "(langauge / language)", "a": "language"}
-        ]},
-        {"type": "ex", "id": "A1_U01_WB_VOC_03", "kind": "short", "instruction": "Write the numbers in figures.", "example": "thirty-one → **31**", "items": [
-          {"q": "twenty-seven", "a": "27"},
-          {"q": "sixty-eight", "a": "68"},
-          {"q": "a hundred", "a": "100"},
-          {"q": "eleven", "a": "11"},
-          {"q": "seventy-three", "a": "73"},
-          {"q": "twelve", "a": "12"}
-        ]},
+        {
+          "type": "ex",
+          "id": "A1_U01_WB_VOC_01",
+          "kind": "short",
+          "instruction": "Put the letters in order to make countries.",
+          "example": "SIRUAS → **RUSSIA**",
+          "items": [
+            {"q": "PAJAN", "a": "JAPAN"},
+            {"q": "KRUTEY", "a": "TURKEY"},
+            {"q": "NIDIA", "a": "INDIA"},
+            {"q": "PAINS", "a": "SPAIN"},
+            {"q": "ZILBAR", "a": "BRAZIL"},
+            {"q": "TYGEP", "a": "EGYPT"}
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_WB_VOC_02",
+          "kind": "choose",
+          "instruction": "Choose the correct spelling.",
+          "items": [
+            {"q": "(fourty / forty)", "a": "forty"},
+            {"q": "(nineteen / ninteen)", "a": "nineteen"},
+            {"q": "(adress / address)", "a": "address"},
+            {"q": "(surname / sirname)", "a": "surname"},
+            {"q": "(Wednesday / Wensday)", "a": "Wednesday"},
+            {"q": "(langauge / language)", "a": "language"}
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_WB_VOC_03",
+          "kind": "short",
+          "instruction": "Write the numbers in figures.",
+          "example": "thirty-one → **31**",
+          "items": [
+            {"q": "twenty-seven", "a": "27"},
+            {"q": "sixty-eight", "a": "68"},
+            {"q": "a hundred", "a": "100"},
+            {"q": "eleven", "a": "11"},
+            {"q": "seventy-three", "a": "73"},
+            {"q": "twelve", "a": "12"}
+          ]
+        },
         {"type": "audio", "id": "A1_U01_WL01"},
-        {"type": "ex", "id": "A1_U01_WB_VOC_04", "kind": "short", "audio": "A1_U01_WL01", "instruction": "Listen and write the numbers. Be careful with -teen and -ty.", "items": [
-          {"q": "Number:", "a": "15"},
-          {"q": "Number:", "a": "40"},
-          {"q": "Number:", "a": "18"},
-          {"q": "Number:", "a": "70"},
-          {"q": "Phone number:", "a": "3216608"},
-          {"q": "Phone number:", "a": "5047791"}
-        ]},
-        {"type": "ex", "id": "A1_U01_WB_VOC_05", "kind": "short", "instruction": "Write the English words.", "example": "ism → **first name**", "items": [
-          {"q": "familiya", "a": "surname"},
-          {"q": "manzil", "a": "address"},
-          {"q": "millati", "a": "nationality"},
-          {"q": "tug‘ilgan sana", "a": "date of birth"},
-          {"q": "til", "a": "language"},
-          {"q": "kasb", "a": "job"},
-          {"q": "turmush qurmagan", "a": "single"}
-        ]},
-        {"type": "ex", "id": "A1_U01_WB_VOC_06", "kind": "gap", "instruction": "Complete the text with words from the box. There is one extra word.",
-          "bank": ["address", "hometown", "job", "languages", "married", "surname"], "items": [
+        {
+          "type": "ex",
+          "id": "A1_U01_WB_VOC_04",
+          "kind": "short",
+          "audio": "A1_U01_WL01",
+          "instruction": "Listen and write the numbers. Be careful with -teen and -ty.",
+          "items": [
+            {"q": "Number:", "a": "15"},
+            {"q": "Number:", "a": "40"},
+            {"q": "Number:", "a": "18"},
+            {"q": "Number:", "a": "70"},
+            {"q": "Phone number:", "a": "3216608"},
+            {"q": "Phone number:", "a": "5047791"}
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_WB_VOC_05",
+          "kind": "short",
+          "instruction": "Write the English words.",
+          "example": "ism → **first name**",
+          "items": [
+            {"q": "familiya", "a": "surname"},
+            {"q": "manzil", "a": "address"},
+            {"q": "millati", "a": "nationality"},
+            {"q": "tug‘ilgan sana", "a": "date of birth"},
+            {"q": "til", "a": "language"},
+            {"q": "kasb", "a": "job"},
+            {"q": "turmush qurmagan", "a": "single"}
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_WB_VOC_06",
+          "kind": "gap",
+          "instruction": "Complete the text with words from the box. There is one extra word.",
+          "bank": ["address", "hometown", "job", "languages", "married", "surname"],
+          "items": [
             {"q": "Hi! My first name is Rustam and my ______ is Nazarov.", "a": "surname"},
             {"q": "I'm 24. My ______ is Nukus, in Karakalpakstan.", "a": "hometown"},
             {"q": "I'm ______. My wife's name is Zarina.", "a": "married"},
             {"q": "My ______? I'm a taxi driver.", "a": "job"},
             {"q": "I speak three ______: Karakalpak, Uzbek and Russian.", "a": "languages"}
-        ]}
+          ]
+        }
       ]
     },
     {
       "kind": "grammar",
       "title": "Grammar+: am / is / are",
+      "goal": "practise am / is / are and short answers",
       "blocks": [
-        {"type": "ex", "id": "A1_U01_WB_GR_01", "kind": "gap", "instruction": "Complete with 'm, 's or 're.", "example": "I**'m** from Fergana.", "items": [
-          {"q": "She______ a nurse.", "a": "'s"},
-          {"q": "We______ in the evening class.", "a": "'re"},
-          {"q": "It______ a beautiful city.", "a": "'s"},
-          {"q": "I______ 21 years old.", "a": "'m"},
-          {"q": "They______ from Turkey.", "a": "'re"},
-          {"q": "He______ my teacher.", "a": "'s"}
-        ]},
-        {"type": "ex", "id": "A1_U01_WB_GR_02", "kind": "gap", "instruction": "Complete with am, is, are, isn't or aren't.", "items": [
-          {"q": "Ms Lee ______ from China. She's from South Korea.", "a": "isn't"},
-          {"q": "My brothers ______ students. They're doctors.", "a": "aren't"},
-          {"q": "I ______ 17. My birthday is today!", "a": "am"},
-          {"q": "\"______ your teacher British?\" \"Yes, she is.\"", "a": "Is"},
-          {"q": "\"______ you from Khiva?\" \"No, I'm from Urgench.\"", "a": "Are"},
-          {"q": "Bukhara ______ a new city. It's very old.", "a": "isn't"},
-          {"q": "My friends and I ______ in the same class.", "a": "are"},
-          {"q": "Your phone number ______ on the form. Please write it.", "a": "isn't"}
-        ]},
-        {"type": "ex", "id": "A1_U01_WB_GR_03", "kind": "short", "instruction": "Write questions and short answers.", "example": "you / Uzbek? (✓) → **Are you Uzbek? Yes, I am.**", "items": [
-          {"q": "she / a student? (✗)", "a": "Is she a student? No, she isn't."},
-          {"q": "they / from Samarkand? (✓)", "a": "Are they from Samarkand? Yes, they are."},
-          {"q": "he / married? (✗)", "a": "Is he married? No, he isn't."},
-          {"q": "you / 18? (✓)", "a": "Are you 18? Yes, I am."},
-          {"q": "it / a big city? (✓)", "a": "Is it a big city? Yes, it is."}
-        ]},
-        {"type": "ex", "id": "A1_U01_WB_GR_04", "kind": "correct", "instruction": "Find and correct the mistake in each sentence.", "items": [
-          {"q": "My mother teacher.", "a": "My mother is a teacher."},
-          {"q": "We is from Kazakhstan.", "a": "We are from Kazakhstan."},
-          {"q": "I'm not student.", "a": "I'm not a student."},
-          {"q": "\"Is he Russian?\" \"Yes, he's.\"", "a": "Yes, he is."},
-          {"q": "She is a engineer.", "a": "She is an engineer."},
-          {"q": "Where you are from?", "a": "Where are you from?"}
-        ]},
-        {"type": "ex", "id": "A1_U01_WB_GR_05", "kind": "short", "instruction": "Translate into English.", "note": "“U” = he or she.", "items": [
-          {"q": "Men talabaman.", "a": "I am a student. / I'm a student."},
-          {"q": "U o‘qituvchi emas.", "a": "He / She isn't a teacher."},
-          {"q": "Siz qayerdansiz?", "a": "Where are you from?"},
-          {"q": "Biz Samarqanddanmiz.", "a": "We are from Samarkand. / We're from Samarkand."},
-          {"q": "Ular turmush qurganmi?", "a": "Are they married?"}
-        ]}
+        {
+          "type": "ex",
+          "id": "A1_U01_WB_GR_01",
+          "kind": "gap",
+          "instruction": "Complete with 'm, 's or 're.",
+          "example": "I**'m** from Fergana.",
+          "items": [
+            {"q": "She______ a nurse.", "a": "'s"},
+            {"q": "We______ in the evening class.", "a": "'re"},
+            {"q": "It______ a beautiful city.", "a": "'s"},
+            {"q": "I______ 21 years old.", "a": "'m"},
+            {"q": "They______ from Turkey.", "a": "'re"},
+            {"q": "He______ my teacher.", "a": "'s"}
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_WB_GR_02",
+          "kind": "gap",
+          "instruction": "Complete with am, is, are, isn't or aren't.",
+          "items": [
+            {"q": "Ms Lee ______ from China. She's from South Korea.", "a": "isn't"},
+            {"q": "My brothers ______ students. They're doctors.", "a": "aren't"},
+            {"q": "I ______ 17. My birthday is today!", "a": "am"},
+            {"q": "\"______ your teacher British?\" \"Yes, she is.\"", "a": "Is"},
+            {"q": "\"______ you from Khiva?\" \"No, I'm from Urgench.\"", "a": "Are"},
+            {"q": "Bukhara ______ a new city. It's very old.", "a": "isn't"},
+            {"q": "My friends and I ______ in the same class.", "a": "are"},
+            {"q": "Your phone number ______ on the form. Please write it.", "a": "isn't"}
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_WB_GR_03",
+          "kind": "short",
+          "instruction": "Write questions and short answers.",
+          "example": "you / Uzbek? (✓) → **Are you Uzbek? Yes, I am.**",
+          "items": [
+            {"q": "she / a student? (✗)", "a": "Is she a student? No, she isn't."},
+            {"q": "they / from Samarkand? (✓)", "a": "Are they from Samarkand? Yes, they are."},
+            {"q": "he / married? (✗)", "a": "Is he married? No, he isn't."},
+            {"q": "you / 18? (✓)", "a": "Are you 18? Yes, I am."},
+            {"q": "it / a big city? (✓)", "a": "Is it a big city? Yes, it is."}
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_WB_GR_04",
+          "kind": "correct",
+          "instruction": "Find and correct the mistake in each sentence.",
+          "items": [
+            {"q": "My mother teacher.", "a": "My mother is a teacher."},
+            {"q": "We is from Kazakhstan.", "a": "We are from Kazakhstan."},
+            {"q": "I'm not student.", "a": "I'm not a student."},
+            {"q": "\"Is he Russian?\" \"Yes, he's.\"", "a": "Yes, he is."},
+            {"q": "She is a engineer.", "a": "She is an engineer."},
+            {"q": "Where you are from?", "a": "Where are you from?"}
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_WB_GR_05",
+          "kind": "short",
+          "instruction": "Translate into English.",
+          "note": "“U” = he or she.",
+          "items": [
+            {"q": "Men talabaman.", "a": "I am a student. / I'm a student."},
+            {"q": "U o‘qituvchi emas.", "a": "He / She isn't a teacher."},
+            {"q": "Siz qayerdansiz?", "a": "Where are you from?"},
+            {"q": "Biz Samarqanddanmiz.", "a": "We are from Samarkand. / We're from Samarkand."},
+            {"q": "Ular turmush qurganmi?", "a": "Are they married?"}
+          ]
+        }
       ]
     },
     {
       "kind": "listening",
       "title": "Listening+: form completion",
+      "goal": "complete a form while you listen",
       "blocks": [
         {"type": "audio", "id": "A1_U01_WL02"},
-        {"type": "ex", "id": "A1_U01_WB_LIS_01", "kind": "form", "audio": "A1_U01_WL02", "exam": true,
+        {
+          "type": "ex",
+          "id": "A1_U01_WB_LIS_01",
+          "kind": "form",
+          "audio": "A1_U01_WL02",
+          "exam": true,
           "instruction": "Questions 1–6. Listen and complete the form. Write ONE WORD AND/OR A NUMBER for each answer.",
           "title": "ACTIVE LIFE SPORTS CLUB · Membership form",
           "rows": [
@@ -125,63 +207,108 @@
             ["Job", "(5) ______"],
             ["Best time to visit", "the (6) ______"]
           ],
-          "answers": {"1": "Saidova", "2": "23 / twenty-three", "3": "14", "4": "6248813", "5": "teacher", "6": "morning(s)"}}
+          "answers": {"1": "Saidova", "2": "23 / twenty-three", "3": "14", "4": "6248813", "5": "teacher", "6": "morning(s)"}
+        }
       ]
     },
     {
       "kind": "reading",
       "title": "Reading+: True / False and short answers",
+      "goal": "find names, numbers and facts in an email",
       "blocks": [
-        {"type": "passage", "title": "A new classmate", "intro": "Email to the class", "paras": [
-          {"text": "Hi everyone,"},
-          {"text": "My name is Bobur and I'm your new classmate. I'm 20 and I'm from Andijan, but now I'm a student at a university in Tashkent. I'm single, so I'm in a student flat with two friends."},
-          {"text": "My family is in Andijan. My parents are doctors at a big hospital there, and my sister, Nilufar, is a student at school. She's 15."},
-          {"text": "My favourite things are football and music. My phone number is 97 765 43 21 – please call or send a message. See you on Tuesday!"},
-          {"text": "Bobur"}
-        ]},
-        {"type": "ex", "id": "A1_U01_WB_READ_01", "kind": "tf", "exam": true, "instruction": "Questions 1–5. Write TRUE or FALSE.", "labels": ["TRUE", "FALSE"], "items": [
-          {"q": "Bobur is from Tashkent.", "a": "FALSE"},
-          {"q": "Bobur isn't married.", "a": "TRUE"},
-          {"q": "His parents are teachers.", "a": "FALSE"},
-          {"q": "Bobur's sister is a student.", "a": "TRUE"},
-          {"q": "The next class is on Thursday.", "a": "FALSE"}
-        ]},
-        {"type": "ex", "id": "A1_U01_WB_READ_02", "kind": "gap", "exam": true, "start": 6, "instruction": "Questions 6–9. Complete the sentences. Write ONE WORD AND/OR A NUMBER from the text.", "items": [
-          {"q": "Bobur is ______ years old.", "a": "20 / twenty"},
-          {"q": "Bobur's university is in ______.", "a": "Tashkent"},
-          {"q": "Bobur's sister's name is ______.", "a": "Nilufar"},
-          {"q": "Bobur likes football and ______.", "a": "music"}
-        ]}
+        {
+          "type": "passage",
+          "title": "A new classmate",
+          "intro": "Email to the class",
+          "paras": [
+            {"text": "Hi everyone,"},
+            {"text": "My name is Bobur and I'm your new classmate. I'm 20 and I'm from Andijan, but now I'm a student at a university in Tashkent. I'm single, so I'm in a student flat with two friends."},
+            {"text": "My family is in Andijan. My parents are doctors at a big hospital there, and my sister, Nilufar, is a student at school. She's 15."},
+            {"text": "My favourite things are football and music. My phone number is 97 765 43 21 – please call or send a message. See you on Tuesday!"},
+            {"text": "Bobur"}
+          ],
+          "photo": "a1-u01-wb-reading",
+          "photo_h": 30
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_WB_READ_01",
+          "kind": "tf",
+          "exam": true,
+          "instruction": "Questions 1–5. Write TRUE or FALSE.",
+          "labels": ["TRUE", "FALSE"],
+          "items": [
+            {"q": "Bobur is from Tashkent.", "a": "FALSE"},
+            {"q": "Bobur isn't married.", "a": "TRUE"},
+            {"q": "His parents are teachers.", "a": "FALSE"},
+            {"q": "Bobur's sister is a student.", "a": "TRUE"},
+            {"q": "The next class is on Thursday.", "a": "FALSE"}
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_WB_READ_02",
+          "kind": "gap",
+          "exam": true,
+          "start": 6,
+          "instruction": "Questions 6–9. Complete the sentences. Write ONE WORD AND/OR A NUMBER from the text.",
+          "items": [
+            {"q": "Bobur is ______ years old.", "a": "20 / twenty"},
+            {"q": "Bobur's university is in ______.", "a": "Tashkent"},
+            {"q": "Bobur's sister's name is ______.", "a": "Nilufar"},
+            {"q": "Bobur likes football and ______.", "a": "music"}
+          ]
+        }
       ]
     },
     {
       "kind": "speaking",
       "title": "Speaking+: Part 1 question bank",
+      "goal": "prepare your own Part 1 answers",
       "blocks": [
-        {"type": "ex", "id": "A1_U01_WB_SPK_01", "kind": "frames", "instruction": "Write your answers. Use the frames and add +1 more piece of information.", "items": [
-          {"q": "What's your full name?", "frame": "My full name is … . (+1)"},
-          {"q": "Can you spell your surname?", "frame": "Yes, it's … ."},
-          {"q": "Where are you from?", "frame": "I'm from … . It's a … city / town. (+1)"},
-          {"q": "Do you work or are you a student?", "frame": "I'm a / an … . I'm at … . (+1)"},
-          {"q": "What languages do you speak?", "frame": "I speak … and a little … ."},
-          {"q": "Is English important for you?", "frame": "Yes, it is. … is my goal."}
-        ]},
-        {"type": "checklist", "title": "Record yourself. Then check:", "items": [
-          "I answered every question with a full sentence.",
-          "I used the +1 rule.",
-          "I said I'm, it's, she's (short forms).",
-          "I spelled my surname clearly, letter by letter."
-        ]}
+        {
+          "type": "ex",
+          "id": "A1_U01_WB_SPK_01",
+          "kind": "frames",
+          "instruction": "Write your answers. Use the frames and add +1 more piece of information.",
+          "items": [
+            {"q": "What's your full name?", "frame": "My full name is … . (+1)"},
+            {"q": "Can you spell your surname?", "frame": "Yes, it's … ."},
+            {"q": "Where are you from?", "frame": "I'm from … . It's a … city / town. (+1)"},
+            {"q": "Do you work or are you a student?", "frame": "I'm a / an … . I'm at … . (+1)"},
+            {"q": "What languages do you speak?", "frame": "I speak … and a little … ."},
+            {"q": "Is English important for you?", "frame": "Yes, it is. … is my goal."}
+          ]
+        },
+        {
+          "type": "checklist",
+          "title": "Record yourself. Then check:",
+          "items": [
+            "I answered every question with a full sentence.",
+            "I used the +1 rule.",
+            "I said I'm, it's, she's (short forms).",
+            "I spelled my surname clearly, letter by letter."
+          ]
+        }
       ]
     },
     {
       "kind": "writing",
       "title": "Writing+: information transfer",
+      "goal": "move information from a text into a form",
       "blocks": [
-        {"type": "passage", "title": "Akmal", "paras": [
-          {"text": "Akmal Tojiyev is a waiter from Bukhara. He is 27. His address is 9 Mustaqillik Street and his phone number is 93 112 50 74. He speaks three languages: Uzbek, Tajik and English."}
-        ]},
-        {"type": "ex", "id": "A1_U01_WB_WR_01", "kind": "form", "instruction": "Read about Akmal. Complete his form.",
+        {
+          "type": "passage",
+          "title": "Akmal",
+          "paras": [
+            {"text": "Akmal Tojiyev is a waiter from Bukhara. He is 27. His address is 9 Mustaqillik Street and his phone number is 93 112 50 74. He speaks three languages: Uzbek, Tajik and English."}
+          ]
+        },
+        {
+          "type": "ex",
+          "id": "A1_U01_WB_WR_01",
+          "kind": "form",
+          "instruction": "Read about Akmal. Complete his form.",
           "title": "HOTEL STAFF FORM",
           "rows": [
             ["First name", "(1) ______"],
@@ -192,19 +319,12 @@
             ["Address", "(6) ______"],
             ["Languages", "(7) ______"]
           ],
-          "answers": {"1": "Akmal", "2": "Tojiyev", "3": "27", "4": "waiter", "5": "Bukhara", "6": "9 Mustaqillik Street", "7": "Uzbek, Tajik, English"}},
-        {"type": "ex", "id": "A1_U01_WB_WR_02", "kind": "write", "instruction": "Write 5–6 sentences about a friend or a family member. Use: name, age, hometown, nationality, job, languages.", "lines": 7,
-          "checklist": ["I used he / she + is.", "I used a / an before the job.", "I used capital letters and full stops."]}
+          "answers": {"1": "Akmal", "2": "Tojiyev", "3": "27", "4": "waiter", "5": "Bukhara", "6": "9 Mustaqillik Street", "7": "Uzbek, Tajik, English"}
+        },
+        {"type": "ex", "id": "A1_U01_WB_WR_02", "kind": "write", "instruction": "Write 5–6 sentences about a friend or a family member. Use: name, age, hometown, nationality, job, languages.", "lines": 7, "checklist": ["I used he / she + is.", "I used a / an before the job.", "I used capital letters and full stops."]}
       ]
     },
-    {
-      "kind": "check",
-      "title": "Self-check",
-      "blocks": [
-        {"type": "selfcheck"},
-        {"type": "cando"}
-      ]
-    }
+    {"kind": "check", "title": "Self-check", "goal": "count your score and check your progress", "blocks": [{"type": "selfcheck"}, {"type": "cando"}]}
   ],
   "goals": [
     "spell names and places in English",
@@ -214,32 +334,42 @@
     "answer Speaking Part 1 questions about myself"
   ],
   "scripts": [
-    {"id": "A1_U01_WL01", "title": "Numbers and phone numbers", "notes": "Clear -teen / -ty stress. Phone numbers grouped as written.", "lines": [
-      ["", "One: fifteen. Fifteen."],
-      ["", "Two: forty. Forty."],
-      ["", "Three: eighteen. Eighteen."],
-      ["", "Four: seventy. Seventy."],
-      ["", "Five: My phone number is three-two-one, double six, oh-eight."],
-      ["", "Six: Call me on five-oh-four, double seven, nine-one."]
-    ]},
-    {"id": "A1_U01_WL02", "title": "Joining a sports club", "notes": "Receptionist (male) and Laylo (female, 23). The age correction (32 → 23) must be clear.", "lines": [
-      ["Receptionist", "Good afternoon, Active Life Sports Club."],
-      ["Laylo", "Hello. I'd like to join the club, please."],
-      ["Receptionist", "Great. Can I have your first name?"],
-      ["Laylo", "It's Laylo."],
-      ["Receptionist", "And your surname?"],
-      ["Laylo", "Saidova. S-A-I-D-O-V-A."],
-      ["Receptionist", "Thank you. How old are you?"],
-      ["Laylo", "I'm thirty-two… no, sorry! Twenty-three. I'm twenty-three."],
-      ["Receptionist", "Twenty-three. And your address?"],
-      ["Laylo", "Fourteen Bobur Street."],
-      ["Receptionist", "Fourteen Bobur Street. What's your phone number?"],
-      ["Laylo", "Six-two-four, double eight, one-three."],
-      ["Receptionist", "Six-two-four, double eight, one-three. And what's your job?"],
-      ["Laylo", "I'm a teacher at a primary school."],
-      ["Receptionist", "OK. When is a good time for you to come here?"],
-      ["Laylo", "The morning. I'm at school in the afternoon."],
-      ["Receptionist", "Perfect. The club is open from six in the morning."]
-    ]}
+    {
+      "id": "A1_U01_WL01",
+      "title": "Numbers and phone numbers",
+      "notes": "Clear -teen / -ty stress. Phone numbers grouped as written.",
+      "lines": [
+        ["", "One: fifteen. Fifteen."],
+        ["", "Two: forty. Forty."],
+        ["", "Three: eighteen. Eighteen."],
+        ["", "Four: seventy. Seventy."],
+        ["", "Five: My phone number is three-two-one, double six, oh-eight."],
+        ["", "Six: Call me on five-oh-four, double seven, nine-one."]
+      ]
+    },
+    {
+      "id": "A1_U01_WL02",
+      "title": "Joining a sports club",
+      "notes": "Receptionist (male) and Laylo (female, 23). The age correction (32 → 23) must be clear.",
+      "lines": [
+        ["Receptionist", "Good afternoon, Active Life Sports Club."],
+        ["Laylo", "Hello. I'd like to join the club, please."],
+        ["Receptionist", "Great. Can I have your first name?"],
+        ["Laylo", "It's Laylo."],
+        ["Receptionist", "And your surname?"],
+        ["Laylo", "Saidova. S-A-I-D-O-V-A."],
+        ["Receptionist", "Thank you. How old are you?"],
+        ["Laylo", "I'm thirty-two… no, sorry! Twenty-three. I'm twenty-three."],
+        ["Receptionist", "Twenty-three. And your address?"],
+        ["Laylo", "Fourteen Bobur Street."],
+        ["Receptionist", "Fourteen Bobur Street. What's your phone number?"],
+        ["Laylo", "Six-two-four, double eight, one-three."],
+        ["Receptionist", "Six-two-four, double eight, one-three. And what's your job?"],
+        ["Laylo", "I'm a teacher at a primary school."],
+        ["Receptionist", "OK. When is a good time for you to come here?"],
+        ["Laylo", "The morning. I'm at school in the afternoon."],
+        ["Receptionist", "Perfect. The club is open from six in the morning."]
+      ]
+    }
   ]
 }

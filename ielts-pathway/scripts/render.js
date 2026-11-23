@@ -20,7 +20,7 @@ const { chromium } = require(fs.existsSync('/opt/node22/lib/node_modules/playwri
   const report = await page.evaluate((startPage) => {
     const over = (c) => c.scrollHeight > c.clientHeight + 1;
     const isWrap = (el) => el.classList.contains('split') || el.classList.contains('part');
-    const isHead = (el) => /^H[2-5]$/.test(el.tagName) || ['phead', 'ins', 'subt', 'atitle', 'audrow', 'ctx', 'sq', 'shead', 'audio-b', 'op'].some((k) => el.classList.contains(k));
+    const isHead = (el) => /^H[2-5]$/.test(el.tagName) || ['phead', 'ins', 'subt', 'atitle', 'audrow', 'ctx', 'sq', 'shead', 'audio-b', 'op', 'goal'].some((k) => el.classList.contains(k));
     let sid = 0;
 
     // flatten: atoms = [{node, path: [wrapperSource…]}]

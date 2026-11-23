@@ -8,7 +8,7 @@ Each question shows the default used until it is answered.
 3. **Uzbek in the Student's Book.** *Default:* Uzbek meanings in the vocabulary lists, notes in the "Uzbek-speaker errors" box, and translation exercises in the Workbook. Instructions are in English.
 4. **Audio.** Every recording has a script with recording notes, but no audio exists yet. Who records it (teachers, a studio, or AI voices), and where is it hosted for the QR codes (Telegram channel, a website)?
    *Default:* each QR box shows the track ID, and the QR codes are added after recording.
-5. **Pictures.** Some A1–A2 tasks need pictures: map labelling (Units 4 and 8), picture questions, and a plan of a flat. Draw them simply in-house, or generate them?
+5. **Pictures.** Photos come from Unsplash (decided). Some tasks still need drawings that photos can't replace: map labelling (Units 4 and 8), picture questions, and a plan of a flat.
    *Default:* simple line drawings, made when those units are written.
 6. **Academic or General Training at B1–B2.** *Default:* Academic Reading and Writing Task 1, plus General Training letters as a short strand at A2–B1.
 7. **Format.** *Default:* A4, two columns, the same as the repo's other books. The pilot has a simple title page; full covers come with the first finished level.
