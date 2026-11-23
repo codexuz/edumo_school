@@ -1,0 +1,53 @@
+{
+  "n": 12,
+  "topic": "Technology",
+  "title": "Are Electric Cars the Answer?",
+  "intro": "Electric cars are often presented as the solution to pollution from transport. The writer argues that the real picture is more complicated.",
+  "vocab": [
+    {"word": "handle", "pos": "n", "uz": "dasta, tutqich", "ex": "Turn the handle to open the door."},
+    {"word": "delivery", "pos": "n", "uz": "yetkazib berish", "ex": "The shop offers free delivery on orders over 200,000 som."},
+    {"word": "incentive", "pos": "n", "uz": "rag‘bat", "ex": "The company gives workers an incentive to come to work by bike."},
+    {"word": "striking", "pos": "adj", "uz": "yaqqol, e’tiborni tortadigan", "ex": "There is a striking difference between the two photos."},
+    {"word": "generous", "pos": "adj", "uz": "saxiy, katta (miqdorda)", "ex": "Thank you for your generous gift!"},
+    {"word": "wealthy", "pos": "adj", "uz": "boy, badavlat", "ex": "Only wealthy families could afford a car in those days."},
+    {"word": "willing", "pos": "adj", "uz": "tayyor, rozi", "ex": "Are you willing to work at weekends?"},
+    {"word": "mineral", "pos": "n", "uz": "mineral, foydali qazilma", "ex": "Uzbekistan is rich in minerals such as gold and copper."},
+    {"word": "emission", "pos": "n", "uz": "(gaz) chiqarilishi, chiqindi", "ex": "The new factory has very low emissions."},
+    {"word": "generate", "pos": "v", "uz": "ishlab chiqarmoq (elektr)", "ex": "Wind farms generate electricity for thousands of homes."},
+    {"word": "scarce", "pos": "adj", "uz": "kam, taqchil", "ex": "Water is scarce in the desert."},
+    {"word": "grid", "pos": "n", "uz": "elektr tarmog‘i", "ex": "The new solar park is connected to the national grid."},
+    {"word": "cope", "pos": "v", "uz": "uddalamoq, bardosh bermoq", "ex": "The hospital could not cope with so many patients."},
+    {"word": "quantity", "pos": "n", "uz": "miqdor", "ex": "We bought a large quantity of rice for the wedding."},
+    {"word": "raw", "pos": "adj", "uz": "xom (ashyo)", "ex": "Cotton is an important raw material for the textile industry."}
+  ],
+  "passage": [
+    "It may come as a surprise that electric cars are not a new invention. At the beginning of the twentieth century, they were a familiar sight in cities such as New York and London, where they were popular because they were quiet, clean and easy to start. Petrol cars at that time were noisy and smelly, and they had to be started by turning a heavy handle at the front, which was hard work and sometimes dangerous. One of the first cars ever to travel at 100 kilometres per hour was electric, and for a short period electric vehicles seemed to have a bright future.",
+    "That future did not last long. Large oil discoveries made petrol cheap, and mass production made petrol cars affordable for ordinary families. The invention of the electric starter removed the need to turn a handle, and better roads encouraged people to drive longer distances, something early batteries could not support. Electric cars were also more expensive to buy. By the 1930s, electric cars had almost disappeared, and for most of the century they survived only as milk delivery vans and golf carts.",
+    "Their return began in the early 2000s, driven largely by improvements in batteries. Lithium-ion batteries, which had been developed for laptops and mobile phones, could store far more energy than older types, and their price fell steadily as production increased. At the same time, governments became increasingly concerned about air pollution and climate change, and many began to offer tax reductions and other incentives to people who bought electric cars. The first modern models could travel only short distances on a single charge, but their range has grown considerably, and today almost every major car manufacturer produces electric models.",
+    "Norway offers a striking example of how quickly change can happen. Thanks to generous incentives, such as lower taxes and free parking, the country has seen electric cars rise from a tiny share of new car sales to the great majority within about ten years. Charging points have also become common in Norwegian towns, even in quite remote areas. Norway is, of course, a wealthy country with plenty of cheap electricity from hydropower, so its experience cannot simply be copied everywhere. Nevertheless, it shows that people are willing to change their habits when the conditions are right.",
+    "Critics, however, raise important questions. Producing batteries requires minerals such as lithium and cobalt, and mining them can damage the environment and, in some places, has been linked to poor working conditions. Manufacturing an electric car also produces more emissions than manufacturing a petrol car, mainly because of the battery. Most studies conclude that electric cars still produce fewer emissions over their whole lifetime, but the size of the benefit depends heavily on how the electricity used to charge them is generated.",
+    "There are practical challenges too. In many countries, charging points are still scarce outside large cities, and charging a car takes much longer than filling a tank with petrol. Cold weather can also reduce the range of a battery. People who live in flats without private parking may find it particularly difficult to charge at home. Building a reliable charging network, and making sure the electricity grid can cope with the extra demand, will require considerable investment.",
+    "In my view, electric cars are an important part of the solution to transport pollution, but they are not the whole answer. A city full of electric cars would still suffer from traffic jams, accidents and a lack of space for pedestrians. Replacing every petrol car with an electric one would also require enormous quantities of raw materials. I believe that the most sustainable future is one in which electric cars are combined with better public transport, safer cycling and cities designed so that people need to drive less."
+  ],
+  "groups": [
+    {"type": "headings", "paras": ["B", "C", "D", "E", "F"], "options": ["A national success story with special conditions", "Why petrol prices keep rising", "Difficulties with recharging", "Why the first electric cars lost the race", "The safety advantages of electric cars", "Environmental doubts about electric cars", "New technology brings electric cars back", "A government ban on petrol cars"], "a": ["iv", "vii", "i", "vi", "iii"]},
+    {"type": "ynng", "items": [{"q": "Norway's approach to electric cars could easily be copied by any country.", "a": "NO"}, {"q": "People change their behaviour when they are given the right conditions.", "a": "YES"}, {"q": "Electric cars alone can solve the transport problems of cities.", "a": "NO"}, {"q": "Batteries for electric cars will soon cost less than petrol engines.", "a": "NOT GIVEN"}]},
+    {"type": "mcq", "items": [{"q": "Why were early electric cars popular in cities?", "options": ["They were cheaper than petrol cars.", "They could travel long distances.", "They were quiet, clean and easy to start.", "They were made in large numbers."], "a": "C"}, {"q": "What helped electric cars to return in the 2000s?", "options": ["cheaper oil", "better batteries", "new roads", "the end of mass production"], "a": "B"}, {"q": "According to paragraph E, the environmental benefit of an electric car depends mainly on", "options": ["the size of the car.", "how often it is driven.", "where the battery is made.", "how its electricity is produced."], "a": "D"}, {"q": "What kind of future does the writer support?", "options": ["one with electric cars only", "one with no private cars at all", "one in which electric cars are combined with other forms of transport", "one in which petrol cars are banned"], "a": "C"}]}
+  ],
+  "vocab_match": [
+    {"word": "delivery", "meaning": "the act of taking goods to a person or place"},
+    {"word": "incentive", "meaning": "something that encourages people to do something"},
+    {"word": "wealthy", "meaning": "having a lot of money"},
+    {"word": "emission", "meaning": "gas or another substance sent out into the air"},
+    {"word": "scarce", "meaning": "not available in large amounts"},
+    {"word": "cope", "meaning": "to deal successfully with a difficult situation"}
+  ],
+  "gapfill": [
+    {"s": "The ______ of my suitcase broke at the airport.", "a": "handle"},
+    {"s": "There is a ______ contrast between the old town and the new city.", "a": "striking"},
+    {"s": "My grandparents are very ______ – they always share what they have.", "a": "generous"},
+    {"s": "Is anyone ______ to help me carry these boxes?", "a": "willing"},
+    {"s": "Salt is a ______ that the body needs in small amounts.", "a": "mineral"},
+    {"s": "The machine can make a large ______ of bread every hour.", "a": "quantity"}
+  ]
+}

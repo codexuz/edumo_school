@@ -1,0 +1,53 @@
+{
+  "n": 11,
+  "topic": "Insects",
+  "title": "The Language of Bees",
+  "intro": "Honeybees tell each other where to find food by dancing. The scientist who discovered this spent most of his life watching them.",
+  "vocab": [
+    {"word": "colony", "pos": "n", "uz": "koloniya, (asalarilar) oilasi", "ex": "A colony of ants lives under that old tree."},
+    {"word": "organism", "pos": "n", "uz": "organizm, tirik mavjudot", "ex": "Bacteria are very small organisms."},
+    {"word": "defend", "pos": "v", "uz": "himoya qilmoq", "ex": "The players worked hard to defend their goal."},
+    {"word": "conclude", "pos": "v", "uz": "xulosa chiqarmoq", "ex": "What can we conclude from these results?"},
+    {"word": "perform", "pos": "v", "uz": "bajarmoq, ijro etmoq", "ex": "The students will perform a short play at the end of term."},
+    {"word": "precise", "pos": "adj", "uz": "aniq", "ex": "Can you tell me the precise time of your arrival?"},
+    {"word": "angle", "pos": "n", "uz": "burchak", "ex": "The ladder was leaning against the wall at an angle."},
+    {"word": "vertical", "pos": "adj", "uz": "vertikal, tik", "ex": "Draw a vertical line down the middle of the page."},
+    {"word": "indicate", "pos": "v", "uz": "ko‘rsatmoq, bildirmoq", "ex": "Dark clouds usually indicate that rain is coming."},
+    {"word": "recognition", "pos": "n", "uz": "tan olinish, e’tirof", "ex": "She received recognition for her work with refugees."},
+    {"word": "pollen", "pos": "n", "uz": "gulchang", "ex": "Some people sneeze a lot when there is pollen in the air."},
+    {"word": "crop", "pos": "n", "uz": "ekin", "ex": "Cotton is the main crop in this part of the country."},
+    {"word": "habitat", "pos": "n", "uz": "yashash muhiti", "ex": "The forest is the natural habitat of many birds."},
+    {"word": "pesticide", "pos": "n", "uz": "pestitsid (zararkunandalarga qarshi zahar)", "ex": "The farmer uses no pesticides on his vegetables."},
+    {"word": "parasite", "pos": "n", "uz": "parazit", "ex": "The dog was treated for parasites in its fur."}
+  ],
+  "passage": [
+    "A honeybee colony can contain tens of thousands of insects, yet it behaves in many ways like a single organism. At its centre is one queen, whose main task is to lay eggs. Almost all the other bees are female workers, which clean the hive, look after the young, build the wax comb, defend the entrance and, later in their short lives, fly out to collect food. In summer, a worker bee lives for only about six weeks. For such a large group to survive, its members must be able to share information, and for a long time nobody knew how they did it.",
+    "The answer was found by the Austrian scientist Karl von Frisch, who studied bees for more than fifty years. In a series of experiments, he trained bees to visit dishes of sugar water placed at different distances and in different directions from the hive. He then watched through glass walls as the returning bees moved across the comb, and noticed that their movements followed regular patterns. He concluded that the bees were using a kind of dance to tell their sisters where food could be found.",
+    "When food is close to the hive, a returning bee performs what von Frisch called a round dance, moving in small circles. This tells other workers that there is food nearby but gives little information about its direction. For more distant food, the bee performs a waggle dance. She runs in a straight line while shaking her body from side to side, then circles back and repeats the movement, sometimes dozens of times. Other bees follow her closely, picking up the smell of the flowers she has visited.",
+    "The waggle dance contains surprisingly precise information. The angle of the straight run, compared with a vertical line on the comb, shows the direction of the food in relation to the sun. If the bee runs straight upwards, the food lies in the direction of the sun; if she runs at an angle to the right, the food lies at the same angle to the right of the sun. The length of time she spends waggling indicates the distance: the longer the waggle, the further away the food.",
+    "Von Frisch's ideas were not immediately accepted. Some scientists argued that bees found food mainly by following smells, and that the dance was not really a form of communication. Nevertheless, his work gradually gained wide recognition, and in 1973 he shared the Nobel Prize in Physiology or Medicine with two other scientists for their discoveries about animal behaviour. Later experiments, some of them using small robot bees that performed the dance themselves, provided strong support for his conclusions.",
+    "Today, interest in bees goes far beyond their dances. As they move from flower to flower, bees carry pollen, which allows plants to produce fruit and seeds. Many crops, including apples, almonds and melons, depend heavily on this pollination, and a large share of the food we eat relies directly or indirectly on bees and other pollinators. In some countries, farmers even rent hives and move them into their orchards when the trees are in flower.",
+    "Unfortunately, many bee populations are under pressure. Wild bees are losing their habitats as meadows and hedges are replaced by farmland and buildings, and some pesticides have been shown to harm their ability to find their way back to the hive. Honeybees also suffer from parasites and diseases that can destroy entire colonies. Scientists, farmers and gardeners are now working together to protect bees, for example by planting flowers that bloom at different times of the year and by using chemicals more carefully. Understanding how bees communicate, it turns out, is only the first step in helping them to survive."
+  ],
+  "groups": [
+    {"type": "completion", "limit": "NO MORE THAN TWO WORDS", "items": [{"q": "The main job of the queen is to ______.", "a": "lay eggs"}, {"q": "Von Frisch trained bees to visit dishes of ______.", "a": "sugar water"}, {"q": "When food is near the hive, a bee performs a ______.", "a": "round dance"}, {"q": "Bees that follow a dancer pick up the ______ of the flowers she has visited.", "a": "smell"}]},
+    {"type": "tfng", "items": [{"q": "Most of the bees in a colony are male.", "a": "FALSE"}, {"q": "Von Frisch watched the bees through glass.", "a": "TRUE"}, {"q": "The round dance shows the exact direction of the food.", "a": "FALSE"}, {"q": "Von Frisch carried out his experiments in several different countries.", "a": "NOT GIVEN"}, {"q": "Some pesticides make it harder for bees to return to the hive.", "a": "TRUE"}]},
+    {"type": "summary", "title": "Reading the waggle dance", "box": ["angle", "speed", "length", "colour", "doubted", "supported", "pollinating", "harvesting", "protecting"], "text": "In the waggle dance, the ______ of the straight run shows the direction of the food compared with the sun. The ______ of the waggle shows how far away the food is. Von Frisch's ideas were at first ______ by some scientists, but he later received a Nobel Prize. Today, bees are also valued for ______ crops such as apples and almonds.", "a": ["A", "C", "E", "G"]}
+  ],
+  "vocab_match": [
+    {"word": "colony", "meaning": "a group of insects or animals of the same type that live together"},
+    {"word": "organism", "meaning": "a living thing, such as a plant or an animal"},
+    {"word": "vertical", "meaning": "going straight up and down"},
+    {"word": "pollen", "meaning": "a fine powder produced by flowers"},
+    {"word": "habitat", "meaning": "the natural home of an animal or plant"},
+    {"word": "parasite", "meaning": "an animal or plant that lives on another one and takes its food"}
+  ],
+  "gapfill": [
+    {"s": "Soldiers were sent to ______ the border.", "a": "defend"},
+    {"s": "From the evidence, we can ______ that the plan worked.", "a": "conclude"},
+    {"s": "The surgeon will ______ the operation tomorrow morning.", "a": "perform"},
+    {"s": "We need the ______ address, not just the name of the street.", "a": "precise"},
+    {"s": "The red line on the map is used to ______ the bus route.", "a": "indicate"},
+    {"s": "The dry summer was bad for the wheat ______.", "a": "crop"}
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "n": 2,
+  "topic": "Memory",
+  "title": "Why We Forget",
+  "intro": "Forgetting is usually seen as a weakness. Psychologists see it differently – and their research suggests simple ways to remember more of what we study.",
+  "vocab": [
+    {"word": "effort", "pos": "n", "uz": "harakat, kuch sarflash", "ex": "Learning to swim took a lot of effort."},
+    {"word": "efficiently", "pos": "adv", "uz": "samarali tarzda", "ex": "If you plan your day, you can work more efficiently."},
+    {"word": "invent", "pos": "v", "uz": "ixtiro qilmoq, o‘ylab topmoq", "ex": "The children invented a new game in the playground."},
+    {"word": "rate", "pos": "n", "uz": "sur’at, daraja", "ex": "The rate of unemployment has fallen this year."},
+    {"word": "confirm", "pos": "v", "uz": "tasdiqlamoq", "ex": "The hotel sent an email to confirm our booking."},
+    {"word": "session", "pos": "n", "uz": "mashg‘ulot, seans", "ex": "We have a two-hour training session every Monday."},
+    {"word": "retrieval", "pos": "n", "uz": "(xotiradan) eslab olish", "ex": "Quizzes are a good form of retrieval practice."},
+    {"word": "considerably", "pos": "adv", "uz": "ancha, sezilarli darajada", "ex": "The new road is considerably faster than the old one."},
+    {"word": "rely", "pos": "v", "uz": "tayanmoq, ishonmoq", "ex": "Many students rely on their phones to check the time."},
+    {"word": "illusion", "pos": "n", "uz": "illyuziya, yolg‘on taassurot", "ex": "The mirrors give the illusion of a bigger room."},
+    {"word": "attention", "pos": "n", "uz": "diqqat", "ex": "Please pay attention to the instructions."},
+    {"word": "discard", "pos": "v", "uz": "tashlab yubormoq, voz kechmoq", "ex": "Discard the old batteries in the special bin."},
+    {"word": "overload", "pos": "v", "uz": "ortiqcha yuklamoq", "ex": "Don't overload the car – the tyres might burst."},
+    {"word": "signal", "pos": "n", "uz": "signal, ishora", "ex": "A red light is a signal to stop."},
+    {"word": "complaint", "pos": "n", "uz": "shikoyat", "ex": "The restaurant received a complaint about the cold food."}
+  ],
+  "passage": [
+    "Most students know the feeling. You spend an evening reading your notes carefully, you feel confident that you understand everything, and yet a week later, in the exam, much of what you studied seems to have disappeared. Teachers often hear the same complaint: 'But I studied this!' Forgetting is usually seen as a sign of a weak memory or a lack of effort. Psychologists, however, see it differently. For them, forgetting is a normal and even useful process, and understanding how it works can help us to learn more efficiently.",
+    "The first person to study forgetting scientifically was the German psychologist Hermann Ebbinghaus in the 1880s. To avoid the influence of meaning, he invented hundreds of nonsense syllables, such as 'wid' or 'zof', and memorised lists of them himself. He then tested how much he could remember after different periods of time. His results, published in 1885, showed that most forgetting happens very quickly: a large part of the new information was lost within the first day, after which the rate of forgetting slowed down. This pattern became known as the forgetting curve.",
+    "Ebbinghaus also discovered something more encouraging. When he reviewed a list again after a break, he needed less time to learn it than he had the first time, and the information lasted longer. Later researchers confirmed that learning is more effective when it is spread out over several sessions than when it is concentrated into one long session. This is known as the spacing effect. Teachers can make use of it by returning to earlier topics in later lessons, instead of covering each topic only once. In practical terms, studying for one hour on four different days is usually better than studying for four hours on the night before a test.",
+    "A second powerful technique is retrieval practice, which simply means trying to bring information back from memory instead of looking at it again. In one well-known study in the United States, students read a short scientific text. Some then read it again several times, while others read it once and then tried to write down everything they could remember. A week later, the second group remembered considerably more, even though they had spent less time looking at the text. Each time we recall something, it seems, the memory becomes stronger and easier to find.",
+    "Why, then, do so many learners rely on rereading and highlighting? One reason is that these methods feel effective. When we read a familiar text, it seems easy, and we mistake this ease for real understanding. Researchers call this the illusion of fluency. Testing ourselves, by contrast, often feels uncomfortable because it shows us what we do not know. Yet it is exactly this difficulty that helps learning, because the effort of remembering tells the brain that the information is important.",
+    "Our daily habits matter too. During sleep, the brain appears to replay and organise the experiences of the day, strengthening some memories and discarding others. Even a short nap after studying has been found to help some people remember more. Students who stay up all night before an exam may therefore be damaging the very memories they are trying to build. Attention is equally important: if we study while checking messages or watching videos, the information may never be stored properly in the first place, so there is nothing to remember later.",
+    "None of this means that forgetting is our enemy. If we remembered every detail of every day, our minds would be overloaded with useless information, and it would be much harder to find what really matters. Forgetting helps the brain to keep what it needs and let go of the rest. The challenge for learners is to send the right signals – by spacing their study, testing themselves and sleeping well – so that the brain recognises which information is worth keeping."
+  ],
+  "groups": [
+    {"type": "mcq", "items": [{"q": "What was unusual about the material Ebbinghaus used?", "options": ["It came from popular textbooks.", "It had no meaning.", "It was chosen by other psychologists.", "It was written in several languages."], "a": "B"}, {"q": "According to paragraph C, what happened when Ebbinghaus learned a list a second time?", "options": ["He made more mistakes.", "He forgot it more quickly.", "He learned it faster.", "He needed a longer break."], "a": "C"}, {"q": "In the study described in paragraph D, the students who remembered most had", "options": ["read the text more times.", "spent less time looking at the text.", "studied in small groups.", "taken notes while they were reading."], "a": "B"}, {"q": "Why do many learners prefer rereading to testing themselves?", "options": ["Rereading takes less time.", "Teachers usually recommend it.", "Testing is only useful just before exams.", "Rereading feels easier and more successful."], "a": "D"}]},
+    {"type": "tfng", "items": [{"q": "Ebbinghaus found that the speed of forgetting stayed the same over time.", "a": "FALSE"}, {"q": "Ebbinghaus tested his own memory in his experiments.", "a": "TRUE"}, {"q": "The spacing effect works better for languages than for science.", "a": "NOT GIVEN"}, {"q": "The study of retrieval practice described in the passage took place in the United States.", "a": "TRUE"}, {"q": "Most students who study all night before an exam get lower marks than those who sleep.", "a": "NOT GIVEN"}]},
+    {"type": "completion", "limit": "NO MORE THAN TWO WORDS", "items": [{"q": "The pattern of rapid memory loss that Ebbinghaus found is called the ______.", "a": "forgetting curve"}, {"q": "Trying to bring information back from memory is known as ______.", "a": "retrieval practice"}, {"q": "The feeling that a familiar text is easy can create an ______ of fluency.", "a": "illusion"}, {"q": "While we sleep, the brain seems to replay and ______ the day's experiences.", "a": "organise"}]}
+  ],
+  "vocab_match": [
+    {"word": "efficiently", "meaning": "in a way that gets good results without wasting time or energy"},
+    {"word": "invent", "meaning": "to create or think of something new"},
+    {"word": "session", "meaning": "a period of time spent on one activity"},
+    {"word": "rely", "meaning": "to depend on someone or something"},
+    {"word": "discard", "meaning": "to throw away or get rid of something"},
+    {"word": "complaint", "meaning": "a statement that you are not happy about something"}
+  ],
+  "gapfill": [
+    {"s": "Learning a language takes time and ______.", "a": "effort"},
+    {"s": "The birth ______ in many European countries is falling.", "a": "rate"},
+    {"s": "My new flat is ______ bigger than the old one.", "a": "considerably"},
+    {"s": "Please pay ______. This part of the lesson is important.", "a": "attention"},
+    {"s": "Don't ______ the washing machine or it won't work properly.", "a": "overload"},
+    {"s": "Could you ______ the time of the meeting by email?", "a": "confirm"}
+  ]
+}

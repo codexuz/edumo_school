@@ -1,0 +1,53 @@
+{
+  "n": 4,
+  "topic": "Business",
+  "title": "Lines in the Sand",
+  "intro": "The barcode is so common that we hardly notice it. Yet it took more than twenty-five years to travel from an inventor's idea to the supermarket checkout.",
+  "vocab": [
+    {"word": "fraction", "pos": "n", "uz": "juda kichik qism", "ex": "The camera takes a photo in a fraction of a second."},
+    {"word": "overhear", "pos": "v", "uz": "tasodifan eshitib qolmoq", "ex": "I overheard two students talking about the exam."},
+    {"word": "automatically", "pos": "adv", "uz": "avtomatik ravishda", "ex": "The lights come on automatically when it gets dark."},
+    {"word": "patent", "pos": "n", "uz": "patent (ixtiroga guvohnoma)", "ex": "The company has a patent for its new battery."},
+    {"word": "grant", "pos": "v", "uz": "rasman bermoq, ruxsat bermoq", "ex": "The bank granted her a loan to start a business."},
+    {"word": "beam", "pos": "n", "uz": "nur", "ex": "A beam of sunlight came through the window."},
+    {"word": "practical", "pos": "adj", "uz": "amaliy, qulay", "ex": "White shoes aren't very practical for a farm."},
+    {"word": "modest", "pos": "adj", "uz": "uncha katta bo‘lmagan, kamtarona", "ex": "They live in a modest flat near the station."},
+    {"word": "committee", "pos": "n", "uz": "qo‘mita", "ex": "A committee of teachers chose the winner of the competition."},
+    {"word": "manufacturer", "pos": "n", "uz": "ishlab chiqaruvchi", "ex": "The manufacturer will repair the phone for free."},
+    {"word": "submit", "pos": "v", "uz": "topshirmoq, taqdim etmoq", "ex": "Please submit your essays by Friday."},
+    {"word": "accurately", "pos": "adv", "uz": "aniq", "ex": "Measure the room accurately before you buy a carpet."},
+    {"word": "suspicious", "pos": "adj", "uz": "shubhalanuvchi, shubhali", "ex": "The police became suspicious when he changed his story."},
+    {"word": "descendant", "pos": "n", "uz": "avlod, vorisi", "ex": "Modern computers are descendants of huge machines from the 1940s."},
+    {"word": "track", "pos": "v", "uz": "kuzatib bormoq, izini olib bormoq", "ex": "This app lets you track your parcel until it arrives."}
+  ],
+  "passage": [
+    "Almost everything we buy today carries a small pattern of black and white lines. At the checkout, a scanner reads it in a fraction of a second, the price appears on the screen and the shop's computer records that one more item has been sold. Each code contains a number that identifies both the product and the company that made it. The barcode is so familiar that we rarely notice it, yet it took more than twenty-five years to move from a young inventor's idea to the supermarket.",
+    "The story begins in 1948 in Philadelphia, where Bernard Silver, a graduate student, overheard the head of a local chain of food shops asking a university dean for help. Checkouts were slow, prices were entered by hand and mistakes were common, so the businessman wanted a system that could record product information automatically. Silver told his friend Joseph Woodland, a recent graduate, and the two young men decided to work on the problem together.",
+    "According to the well-known story, the key moment came while Woodland was sitting on a beach in Florida. Thinking about Morse code, which he had learned as a Boy Scout, he pushed his fingers into the sand and pulled them towards him, turning the dots and dashes of the code into thin and thick lines. Because the lines could be printed in a circle, the first design looked like a target, so that it could be read from any direction. The two men applied for a patent in 1949, and it was granted in 1952.",
+    "Unfortunately, the invention was far ahead of its time. To read the code quickly, a shop would need a bright, narrow beam of light and a computer to process the information, and in the early 1950s neither was cheap or practical. Unable to develop the idea themselves, Woodland and Silver sold their patent to an electronics company for a modest sum. Silver died young, in 1963, without ever seeing his idea in use, and for many years the invention was almost forgotten.",
+    "By the late 1960s, the situation had changed. Lasers had been developed, computers were becoming smaller, and American supermarkets were under growing pressure to reduce their costs. The food industry formed a committee to choose a single standard code that every manufacturer would print on its products. Several companies submitted designs, and in 1973 the committee selected a rectangular code developed by George Laurer, an engineer at IBM, where Woodland himself was now working. The rectangular shape was easier to print accurately than the circular one. Most manufacturers were soon printing the new code on their packaging, which meant that shops could start buying scanners with confidence.",
+    "The first product to be scanned using the new system was a ten-pack of chewing gum, sold in a supermarket in Ohio in June 1974; the packet is now kept in a museum in Washington. Even then, success was not immediate. Shop owners complained that the scanners were expensive, and some customers were suspicious, worrying that shops would use the system to hide price increases. It was not until the 1980s that barcodes became common in most large shops.",
+    "Today the barcode has many descendants. In 1994, an engineer named Masahiro Hara, working for a Japanese company, developed the QR code to track car parts in factories; because it is a square made of small blocks rather than a row of lines, it can hold far more information. QR codes are now used for everything from restaurant menus to train tickets, while ordinary barcodes are used to track luggage at airports, patients in hospitals and books in libraries. Woodland, who received a national award for technology in 1992, often said that he had never imagined how far the simple lines he drew in the sand would travel."
+  ],
+  "groups": [
+    {"type": "matching_features", "instruction": "Look at the following statements (Questions 1–4) and the list of people below. Match each statement with the correct person", "features": ["Bernard Silver", "Joseph Woodland", "George Laurer", "Masahiro Hara"], "items": [{"q": "found out about a business problem by chance", "a": "A"}, {"q": "created a design that could store much more information", "a": "D"}, {"q": "produced the design chosen by the food industry", "a": "C"}, {"q": "based the first design on a system of communication", "a": "B"}]},
+    {"type": "short", "limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER", "items": [{"q": "In which city did the story of the barcode begin?", "a": "Philadelphia"}, {"q": "What shape was the first barcode design printed in?", "a": "(a) circle / (a) target"}, {"q": "In which year did Bernard Silver die?", "a": "1963"}, {"q": "Which company employed George Laurer?", "a": "IBM"}, {"q": "What was the first product scanned with the new system?", "a": "(a ten-pack of) chewing gum"}]},
+    {"type": "tfng", "items": [{"q": "The barcode patent was granted three years after the two men applied for it.", "a": "TRUE"}, {"q": "Woodland and Silver became rich from selling their patent.", "a": "FALSE"}, {"q": "Laurer's design was the cheapest of the designs that were submitted.", "a": "NOT GIVEN"}, {"q": "Barcodes were common in most large shops by the end of 1974.", "a": "FALSE"}]}
+  ],
+  "vocab_match": [
+    {"word": "overhear", "meaning": "to hear what other people are saying without them knowing"},
+    {"word": "beam", "meaning": "a line of light"},
+    {"word": "modest", "meaning": "not very large in size or amount"},
+    {"word": "committee", "meaning": "a group of people chosen to make decisions about something"},
+    {"word": "manufacturer", "meaning": "a company that makes goods in large numbers"},
+    {"word": "suspicious", "meaning": "feeling that something is wrong or that someone is not honest"}
+  ],
+  "gapfill": [
+    {"s": "Only a ______ of the people we invited came to the meeting.", "a": "fraction"},
+    {"s": "The doors open ______ when you walk towards them.", "a": "automatically"},
+    {"s": "A bicycle is a ______ way to travel around a small town.", "a": "practical"},
+    {"s": "All students must ______ their projects before the holiday.", "a": "submit"},
+    {"s": "It is important to type your password ______.", "a": "accurately"},
+    {"s": "Scientists ______ the birds with small electronic devices.", "a": "track"}
+  ]
+}

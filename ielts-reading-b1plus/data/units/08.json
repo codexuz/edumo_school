@@ -1,0 +1,53 @@
+{
+  "n": 8,
+  "topic": "Water",
+  "title": "The Disappearing Sea",
+  "intro": "The Aral Sea, on the border of Uzbekistan and Kazakhstan, was once one of the largest lakes on Earth. What happened to it, and can it be saved?",
+  "vocab": [
+    {"word": "shrink", "pos": "v", "uz": "kichraymoq, qisqarmoq", "ex": "My jumper shrank when I washed it in hot water."},
+    {"word": "irrigate", "pos": "v", "uz": "sug‘ormoq", "ex": "Farmers irrigate their fields with water from the canal."},
+    {"word": "canal", "pos": "n", "uz": "kanal", "ex": "Boats carry goods along the canal to the city."},
+    {"word": "split", "pos": "v", "uz": "bo‘linmoq, ajralmoq", "ex": "The teacher split the class into four groups."},
+    {"word": "collapse", "pos": "v", "uz": "inqirozga uchramoq, qulamoq", "ex": "The company collapsed after losing its biggest customer."},
+    {"word": "seabed", "pos": "n", "uz": "dengiz tubi", "ex": "Divers found an old ship lying on the seabed."},
+    {"word": "chemical", "pos": "n", "uz": "kimyoviy modda", "ex": "Keep these chemicals away from children."},
+    {"word": "moderate", "pos": "v", "uz": "mo‘tadillashtirmoq, yumshatmoq", "ex": "The sea moderates the climate of the coast."},
+    {"word": "partial", "pos": "adj", "uz": "qisman", "ex": "The plan was only a partial success."},
+    {"word": "basin", "pos": "n", "uz": "havza", "ex": "The river basin is home to millions of people."},
+    {"word": "unrealistic", "pos": "adj", "uz": "real bo‘lmagan", "ex": "It is unrealistic to expect to learn a language in two weeks."},
+    {"word": "shrub", "pos": "n", "uz": "buta", "ex": "We planted some shrubs along the garden wall."},
+    {"word": "consequence", "pos": "n", "uz": "oqibat", "ex": "One consequence of the heavy rain was that many roads were closed."},
+    {"word": "cooperate", "pos": "v", "uz": "hamkorlik qilmoq", "ex": "The two schools cooperate on a science project."},
+    {"word": "resource", "pos": "n", "uz": "resurs, boylik", "ex": "Oil is an important natural resource in many countries."}
+  ],
+  "passage": [
+    "Sixty years ago, the Aral Sea, which lies on the border between Uzbekistan and Kazakhstan, was the fourth-largest lake in the world. Fishermen sailed from busy ports such as Muynak in the south and Aralsk in the north, and the lake supported tens of thousands of jobs in fishing and fish processing. Today, many of those ports lie far from the water, and rusting ships sit on dry sand where waves once broke. The shrinking of the Aral Sea is often described as one of the worst environmental disasters of the twentieth century.",
+    "The lake was fed by two great rivers, the Amu Darya and the Syr Darya, which carry water from the mountains of Central Asia. From the 1960s onwards, Soviet planners decided to use much of this water to irrigate huge areas of desert for growing cotton and rice. New canals were dug, some of them hundreds of kilometres long, and the region became one of the largest cotton producers in the world. Cotton became so valuable that it was often called 'white gold'. However, so much water was taken from the rivers that only a small amount reached the sea, and in some years almost none at all.",
+    "The results were dramatic. The water level fell year after year, and by the late 1980s the lake had split into two separate bodies of water: a smaller northern part in Kazakhstan and a larger southern part, mostly in Uzbekistan. As the water disappeared, the remaining lake became saltier, and most native fish species could no longer survive. The fishing industry collapsed, and many families were forced to leave the region in search of work.",
+    "The damage did not stop at the shoreline. The dried-out seabed, now known as the Aralkum Desert, is covered in salt and chemicals that were washed into the lake from farmland over many years. Strong winds pick up this dust and carry it across the region, damaging crops and polluting the air. Doctors have reported high rates of breathing problems and other illnesses in nearby communities. Without the lake to moderate temperatures, summers have also become hotter and winters colder.",
+    "For many years, the situation seemed hopeless, but in the north there has been a remarkable partial recovery. In 2005, Kazakhstan, with support from the World Bank, completed the Kok-Aral Dam, which separates the northern part of the lake from the south and keeps the water of the Syr Darya in the north. Within a few years, the water level had risen considerably, the water had become less salty and fish had returned. Fishing has started again around Aralsk, and some families who left have come back.",
+    "The southern part of the lake, which is much larger, has proved far harder to save. Its eastern basin dried up completely in 2014, and experts agree that it is unrealistic to expect the whole lake to return. Instead, efforts in Uzbekistan have focused on reducing the harm caused by the dry seabed. Large areas have been planted with saxaul, a desert shrub with deep roots that can hold the sand in place and reduce dust storms, and new projects aim to create jobs and improve health care for local people.",
+    "The story of the Aral Sea is now studied around the world as a warning about what can happen when water is used without considering the long-term consequences. It also shows that recovery is possible when governments cooperate and invest in practical solutions. Water is likely to become an even more valuable resource as the climate changes, and the lessons learned in Central Asia may help other regions to avoid making the same mistakes. Meanwhile, the area around the former sea has become a place where scientists, artists and visitors come to learn about the disaster and its lessons."
+  ],
+  "groups": [
+    {"type": "headings", "paras": ["B", "C", "D", "E", "F"], "options": ["A small success thanks to a dam", "Water taken for farming", "A lake divided and a lost industry", "A new tourism industry", "Problems that spread beyond the lake", "Limiting the damage instead of saving the sea", "Why the rivers changed direction naturally", "International money for cotton farms"], "a": ["ii", "iii", "v", "i", "vi"]},
+    {"type": "completion", "limit": "NO MORE THAN TWO WORDS", "items": [{"q": "Soviet planners used river water to grow cotton and ______.", "a": "rice"}, {"q": "The dry former bottom of the lake is now called the ______.", "a": "Aralkum Desert"}, {"q": "The Kok-Aral Dam keeps the water of the ______ in the northern part of the lake.", "a": "Syr Darya"}, {"q": "In Uzbekistan, a shrub called ______ has been planted to hold the sand.", "a": "saxaul"}]},
+    {"type": "tfng", "items": [{"q": "Most of the fish that originally lived in the lake could not survive in the saltier water.", "a": "TRUE"}, {"q": "The Kok-Aral Dam was paid for entirely by the government of Uzbekistan.", "a": "FALSE"}, {"q": "Most of the fish now caught in the northern lake are sold to other countries.", "a": "NOT GIVEN"}, {"q": "Experts believe that the whole lake could be restored within twenty years.", "a": "FALSE"}]}
+  ],
+  "vocab_match": [
+    {"word": "shrink", "meaning": "to become smaller"},
+    {"word": "irrigate", "meaning": "to bring water to land so that crops can grow"},
+    {"word": "collapse", "meaning": "to fail suddenly and completely"},
+    {"word": "partial", "meaning": "not complete"},
+    {"word": "shrub", "meaning": "a small bush"},
+    {"word": "cooperate", "meaning": "to work together with others to achieve something"}
+  ],
+  "gapfill": [
+    {"s": "A new ______ brings water from the river to the cotton fields.", "a": "canal"},
+    {"s": "Let's ______ the bill: you pay half and I'll pay half.", "a": "split"},
+    {"s": "The ______ is covered with sand, rocks and plants.", "a": "seabed"},
+    {"s": "Your plan is ______: we can't build a house in one month.", "a": "unrealistic"},
+    {"s": "If you don't study, the ______ may be a bad exam result.", "a": "consequence"},
+    {"s": "Time is a valuable ______. Don't waste it!", "a": "resource"}
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "n": 6,
+  "topic": "Work",
+  "title": "Working from Anywhere",
+  "intro": "Since 2020, millions of people have discovered that they can do their jobs away from the office. The writer considers what this means for the future of work.",
+  "vocab": [
+    {"word": "privilege", "pos": "n", "uz": "imtiyoz", "ex": "Studying abroad is a privilege that few people have."},
+    {"word": "freelancer", "pos": "n", "uz": "frilanser, mustaqil ishlovchi", "ex": "As a freelancer, she works for clients in three countries."},
+    {"word": "permanent", "pos": "adj", "uz": "doimiy", "ex": "After six months of training, he got a permanent job at the bank."},
+    {"word": "adventurous", "pos": "adj", "uz": "sarguzashtsevar", "ex": "My brother is very adventurous – he has climbed mountains in four countries."},
+    {"word": "misleading", "pos": "adj", "uz": "chalg‘ituvchi", "ex": "The advert was misleading: the hotel was not close to the beach at all."},
+    {"word": "exhausting", "pos": "adj", "uz": "juda charchatadigan", "ex": "The twelve-hour journey was exhausting."},
+    {"word": "stability", "pos": "n", "uz": "barqarorlik", "ex": "Children need stability and a calm home."},
+    {"word": "concrete", "pos": "adj", "uz": "aniq, real", "ex": "Can you give me a concrete example?"},
+    {"word": "disability", "pos": "n", "uz": "nogironlik", "ex": "The new building has lifts for people with a disability."},
+    {"word": "recruit", "pos": "v", "uz": "ishga olmoq, yollamoq", "ex": "The company plans to recruit fifty new engineers."},
+    {"word": "overlook", "pos": "v", "uz": "e’tibordan chetda qoldirmoq", "ex": "It is easy to overlook small spelling mistakes."},
+    {"word": "informal", "pos": "adj", "uz": "norasmiy", "ex": "The meeting was informal, so nobody wore a suit."},
+    {"word": "insist", "pos": "v", "uz": "turib olmoq, qat’iy talab qilmoq", "ex": "My parents insist that I finish my homework before I watch TV."},
+    {"word": "hybrid", "pos": "adj", "uz": "aralash, gibrid", "ex": "The university offers hybrid courses, partly online and partly in class."},
+    {"word": "compromise", "pos": "n", "uz": "murosa, kelishuv", "ex": "After a long discussion, they reached a compromise."}
+  ],
+  "passage": [
+    "Not long ago, working from home was a privilege enjoyed by a small number of freelancers and senior managers. Then, in 2020, the pandemic forced millions of office workers to set up desks in kitchens and bedrooms almost overnight. Many expected that life would return to normal once the crisis was over. Instead, remote work has become a permanent feature of modern employment, and for a growing number of people the question is no longer whether to work from home, but where 'home' should be.",
+    "The most adventurous of these workers are known as digital nomads. Equipped with a laptop and a reliable internet connection, they move from country to country, working for employers or clients thousands of kilometres away. Several countries, including Estonia, have introduced special visas that allow such workers to stay for a year or more, hoping that they will spend their foreign salaries in local shops, cafés and apartments. For governments, attracting these visitors is a relatively cheap way of bringing money into the economy. Social media is full of images of nomads typing on beaches, and it is easy to see why the lifestyle appeals to young professionals.",
+    "In my view, however, these images present a rather misleading picture. Few people can concentrate in bright sunshine with sand in their keyboards, and most nomads spend their working days in ordinary rented rooms. More importantly, constant travel can be exhausting. Finding accommodation, dealing with visas and adjusting to new time zones all take time and energy, and many nomads admit that after a year or two they long for stability and a circle of close friends.",
+    "For the much larger group who simply work from home, the advantages are more concrete. Without a daily journey to the office, employees save time and money, and many say they have more control over their day. Parents can be present when their children come home from school, and people with disabilities may find it easier to work in a space designed for their needs. Companies, too, can benefit, since they are able to recruit talented staff who live far from the office and to spend less on expensive buildings in city centres.",
+    "Yet remote work also has costs that are easy to overlook. Young employees, in particular, learn a great deal by watching experienced colleagues and asking quick questions, and this kind of informal learning is much harder online. Loneliness is a real risk for people who live alone, and many workers miss the simple pleasure of chatting with colleagues over lunch. There is also the problem of the 'always-on' culture: when the office is in the living room, it can be hard to switch off at the end of the day, and some workers end up working longer hours than they did before.",
+    "Employers have responded in different ways. Some technology firms have allowed staff to work from anywhere permanently, while some banks and other large companies have insisted that employees return to the office for most of the week. Many organisations have settled on a hybrid model, in which staff spend two or three days in the office and the rest at home. Early research suggests that this compromise is popular with employees, although its long-term effects on productivity are still being studied.",
+    "I believe that the hybrid model, rather than the life of the digital nomad, is the real future of work for most people. Offices will not disappear, but their purpose will change: they will become places for meetings, training and teamwork, while focused individual work is done elsewhere. The challenge for employers will be to use the flexibility of remote work without losing the human connections that make a workplace succeed. Those that manage this balance will find it easier to attract and keep the best people."
+  ],
+  "groups": [
+    {"type": "ynng", "items": [{"q": "The pandemic has changed working life in a lasting way.", "a": "YES"}, {"q": "Pictures of digital nomads on social media give an accurate idea of their lives.", "a": "NO"}, {"q": "Digital nomads usually earn more than people who work in offices.", "a": "NOT GIVEN"}, {"q": "Young employees learn more easily from colleagues in an office than online.", "a": "YES"}, {"q": "Most companies will soon move to fully remote work.", "a": "NO"}]},
+    {"type": "matching_info", "items": [{"q": "examples of groups of people who may find working from home especially helpful", "a": "D"}, {"q": "a reference to a country that encourages foreign remote workers", "a": "B"}, {"q": "a prediction about how the role of offices will change", "a": "G"}, {"q": "a description of the practical difficulties of moving from place to place", "a": "C"}]},
+    {"type": "summary", "title": "How employers have responded", "box": ["permanently", "occasionally", "insisted", "refused", "hybrid", "remote", "compromise", "failure", "decided"], "text": "Companies have reacted to remote work in different ways. Some technology firms allow staff to work from any location ______, while some banks have ______ that employees come back to the office. Many organisations have chosen a ______ arrangement, combining office days with home working. Although this ______ seems to be popular with staff, its long-term effect on productivity is not yet clear.", "a": ["A", "C", "E", "G"]}
+  ],
+  "vocab_match": [
+    {"word": "privilege", "meaning": "a special advantage that only some people have"},
+    {"word": "freelancer", "meaning": "a person who works for several companies, not for one employer"},
+    {"word": "exhausting", "meaning": "making you feel extremely tired"},
+    {"word": "recruit", "meaning": "to find new people to work for a company"},
+    {"word": "overlook", "meaning": "to fail to notice or think about something"},
+    {"word": "compromise", "meaning": "an agreement in which each side accepts less than it wanted"}
+  ],
+  "gapfill": [
+    {"s": "The museum is looking for ______ staff, not summer workers.", "a": "permanent"},
+    {"s": "If you are ______, you might enjoy a holiday in the mountains.", "a": "adventurous"},
+    {"s": "The title of the article is ______: it is not really about money at all.", "a": "misleading"},
+    {"s": "Many people move to the countryside for a quieter life and more ______.", "a": "stability"},
+    {"s": "The school has special classes for children with a learning ______.", "a": "disability"},
+    {"s": "If you ______ on paying for dinner, I will pay next time.", "a": "insist"}
+  ]
+}

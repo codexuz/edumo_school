@@ -1,0 +1,53 @@
+{
+  "n": 1,
+  "topic": "Wildlife",
+  "title": "The Return of the Wolves",
+  "intro": "Wolves disappeared from Yellowstone National Park in the 1920s. Their return in the 1990s became one of the most famous experiments in ecology – but the story may be more complicated than it first seemed.",
+  "vocab": [
+    {"word": "pest", "pos": "n", "uz": "zararkunanda", "ex": "Rats are a serious pest in old buildings."},
+    {"word": "predator", "pos": "n", "uz": "yirtqich", "ex": "The eagle is a predator that hunts small animals."},
+    {"word": "stable", "pos": "adj", "uz": "barqaror, mustahkam", "ex": "Make sure the table is stable before you stand on it."},
+    {"word": "controversial", "pos": "adj", "uz": "munozarali, bahsli", "ex": "The new law is very controversial."},
+    {"word": "livestock", "pos": "n", "uz": "chorva mollari", "ex": "The family keeps livestock: sheep, goats and two cows."},
+    {"word": "capture", "pos": "v", "uz": "tutib olmoq", "ex": "The zoo workers captured the escaped monkey."},
+    {"word": "adapt", "pos": "v", "uz": "moslashmoq", "ex": "It took me a few months to adapt to life in a big city."},
+    {"word": "steadily", "pos": "adv", "uz": "barqaror ravishda, asta-sekin", "ex": "Her English has improved steadily this year."},
+    {"word": "chain", "pos": "n", "uz": "zanjir", "ex": "One small mistake started a chain of problems."},
+    {"word": "wetland", "pos": "n", "uz": "suv-botqoq yer", "ex": "Many birds stop in the wetland on their long journey."},
+    {"word": "ecosystem", "pos": "n", "uz": "ekotizim", "ex": "Pollution can damage the whole ecosystem of a river."},
+    {"word": "drought", "pos": "n", "uz": "qurg‘oqchilik", "ex": "The drought lasted three years and many crops died."},
+    {"word": "undeniable", "pos": "adj", "uz": "inkor etib bo‘lmaydigan", "ex": "Her talent is undeniable – she sings beautifully."},
+    {"word": "conflict", "pos": "n", "uz": "nizo, ziddiyat", "ex": "There was a conflict between the farmers and the factory over water."},
+    {"word": "neighbouring", "pos": "adj", "uz": "qo‘shni", "ex": "Many people from neighbouring villages come to the market."}
+  ],
+  "passage": [
+    "For much of the twentieth century, there were no wolves in Yellowstone, the oldest national park in the United States. Wolves had been hunted, trapped and poisoned across the western states because farmers saw them as a threat to their cattle and sheep, and by the 1920s the last wolves in the park had been killed. At the time, few people thought this was a loss. Wolves were regarded as dangerous pests, and removing them was considered part of making the land safe and productive.",
+    "Over the following decades, however, scientists began to notice changes. Without a major predator, the number of elk – large deer that feed on grass, young trees and bushes – grew rapidly. Elk spent long periods beside rivers and streams, where they ate young willow and aspen trees before they could grow tall. As these trees disappeared, the riverbanks became less stable, and animals that depended on them, such as songbirds and beavers, became harder to find. Some ecologists began to argue that the park was out of balance and that the missing piece was the wolf.",
+    "The idea of bringing wolves back was extremely controversial. Ranchers living near the park feared that wolves would leave the protected area and attack their livestock, while hunters worried about competition for elk. After years of public debate, the plan finally went ahead. In 1995 and 1996, a little over thirty grey wolves were captured in Canada, transported to Yellowstone and kept in large fenced areas for several weeks so that they could get used to their new home before being released. Each animal was fitted with a radio collar so that scientists could follow its movements.",
+    "The wolves adapted remarkably quickly. They formed packs, raised pups and began hunting elk, and their numbers rose steadily over the following decade, until there were more than a hundred wolves living in several packs. Researchers who followed the animals noticed that the elk were changing their behaviour too. Instead of standing for hours in open valleys and along rivers, they moved more often and avoided places where they could easily be trapped. Some scientists described this as a 'landscape of fear'.",
+    "What happened next has become one of the most famous stories in ecology. In some areas, willows and aspens began to grow back, and with more trees along the rivers, beavers returned and built dams that created new wetlands for fish, frogs and birds. This chain of effects, in which a predator at the top of the food chain influences plants and animals far below it, is known as a trophic cascade. Some researchers have even suggested that bears benefited, because more berry bushes grew in places where elk no longer fed. Videos telling this story online have been watched millions of times.",
+    "However, many researchers now believe that the popular version is too simple. They point out that elk numbers also fell because of drought, hunting outside the park and an increase in other predators, including bears and cougars. Studies of trees have produced mixed results: in some places willows clearly recovered, but in others they are still struggling. As one scientist put it, wolves are important, but they are not a magic switch that can repair a damaged ecosystem by themselves.",
+    "Whatever the scientific debate, the wolves have brought one undeniable benefit. Wolf-watching has become a popular activity, particularly in the Lamar Valley, and visitors who come hoping to see the animals spend money in local hotels, restaurants and shops. Conflict with ranchers has not disappeared, and wolves that leave the park can still be legally hunted in some neighbouring states. Yet the Yellowstone experiment has changed the way many people think about predators – not as enemies to be removed, but as part of a living system that is still not fully understood."
+  ],
+  "groups": [
+    {"type": "headings", "paras": ["B", "C", "D", "E", "F"], "options": ["Why the famous story may be incomplete", "A growing population and its effects on plants", "How the new arrivals changed the behaviour of their prey", "A slow recovery for local farmers", "From strong opposition to a careful release", "A series of positive changes along the rivers", "Scientists agree on the main cause", "The economic cost of wolf attacks"], "a": ["ii", "v", "iii", "vi", "i"]},
+    {"type": "tfng", "items": [{"q": "Wolves were removed from Yellowstone mainly because they were seen as a danger to farm animals.", "a": "TRUE"}, {"q": "The wolves were released into the park on the day they arrived from Canada.", "a": "FALSE"}, {"q": "Most of the wolves brought to Yellowstone were young males.", "a": "NOT GIVEN"}, {"q": "All studies have shown that willows recovered after the wolves returned.", "a": "FALSE"}]},
+    {"type": "summary", "title": "Wolves and the wider ecosystem", "limit": "ONE WORD ONLY", "text": "Before the wolves returned, large numbers of elk ate young trees near rivers, and the ______ became less stable. After the wolves arrived, the elk moved more often, creating what some scientists call a 'landscape of ______'. As trees grew back, ______ returned and built dams, which produced new wetlands. Today, visitors who come to watch wolves spend money in local businesses, especially in the Lamar ______.", "a": ["riverbanks", "fear", "beavers", "Valley"]}
+  ],
+  "vocab_match": [
+    {"word": "predator", "meaning": "an animal that kills and eats other animals"},
+    {"word": "livestock", "meaning": "farm animals such as cows, sheep and goats"},
+    {"word": "controversial", "meaning": "causing a lot of disagreement"},
+    {"word": "adapt", "meaning": "to change so that you can live well in a new situation"},
+    {"word": "drought", "meaning": "a long period with little or no rain"},
+    {"word": "neighbouring", "meaning": "next to or near another place"}
+  ],
+  "gapfill": [
+    {"s": "Mice can be a ______ in old houses, so we bought a cat.", "a": "pest"},
+    {"s": "The ladder isn't ______. Please hold it while I climb.", "a": "stable"},
+    {"s": "Prices have risen ______ over the last five years.", "a": "steadily"},
+    {"s": "A lake with its fish, plants and birds forms a small ______.", "a": "ecosystem"},
+    {"s": "There is a long ______ between the two families over the land.", "a": "conflict"},
+    {"s": "It is ______ that smartphones have changed the way we live.", "a": "undeniable"}
+  ]
+}

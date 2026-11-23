@@ -1,0 +1,53 @@
+{
+  "n": 3,
+  "topic": "Environment",
+  "title": "A Wall of Trees Across Africa",
+  "intro": "In 2007, African countries began an ambitious project to stop the spread of the desert. The plan has changed a great deal since then.",
+  "vocab": [
+    {"word": "stretch", "pos": "v", "uz": "cho‘zilmoq", "ex": "The Kyzylkum Desert stretches across Uzbekistan and Kazakhstan."},
+    {"word": "severe", "pos": "adj", "uz": "jiddiy, qattiq", "ex": "The storm caused severe damage to the roads."},
+    {"word": "degradation", "pos": "n", "uz": "yaroqsizlanish, buzilish", "ex": "Too many animals on one field can lead to land degradation."},
+    {"word": "ambitious", "pos": "adj", "uz": "katta maqsadli, shijoatli", "ex": "Her plan to open five shops in one year is very ambitious."},
+    {"word": "barrier", "pos": "n", "uz": "to‘siq", "ex": "Language can be a barrier when you move to a new country."},
+    {"word": "harsh", "pos": "adj", "uz": "og‘ir, qattiq (sharoit)", "ex": "Few plants can survive in such a harsh climate."},
+    {"word": "seedling", "pos": "n", "uz": "ko‘chat", "ex": "We planted fifty apple seedlings in the garden."},
+    {"word": "proportion", "pos": "n", "uz": "ulush, qism", "ex": "A large proportion of the students live outside the city."},
+    {"word": "consult", "pos": "v", "uz": "maslahatlashmoq", "ex": "You should consult a doctor before you take this medicine."},
+    {"word": "approach", "pos": "n", "uz": "yondashuv", "ex": "Our teacher has a very practical approach to grammar."},
+    {"word": "restore", "pos": "v", "uz": "tiklamoq", "ex": "The old palace is closed while builders restore it."},
+    {"word": "rural", "pos": "adj", "uz": "qishloqqa oid", "ex": "Many young people leave rural areas to find work in cities."},
+    {"word": "assessment", "pos": "n", "uz": "baholash", "ex": "The teacher's assessment of my essay was very helpful."},
+    {"word": "monitor", "pos": "v", "uz": "kuzatib bormoq", "ex": "Doctors monitor the patient's heart day and night."},
+    {"word": "transform", "pos": "v", "uz": "tubdan o‘zgartirmoq", "ex": "The new metro line will transform the way people travel in the city."}
+  ],
+  "passage": [
+    "The Sahel is a long belt of dry land that stretches across Africa just south of the Sahara Desert, from the Atlantic coast in the west to the Red Sea in the east. Tens of millions of people live there, and most of them depend on farming and keeping animals. Over the past half-century, however, the region has faced severe droughts, a growing population and increasing pressure on the land. In many places, soil that once produced crops has become dry and dusty, a process known as land degradation.",
+    "In 2007, the African Union launched an ambitious response: the Great Green Wall. The original idea was simple and easy to imagine – a line of trees around 15 kilometres wide and roughly 8,000 kilometres long, running across the continent from Senegal to Djibouti. Eleven countries joined the initiative at the start, and the number involved has since grown. Like a giant natural barrier, the trees would stop the desert from moving south, protect farmland and provide wood, fruit and shade. The project quickly attracted international attention and promises of financial support.",
+    "It soon became clear, however, that planting trees in such a harsh environment was far from easy. In some countries, millions of seedlings were planted, but a large proportion of them died within a few years because they did not receive enough water or care. Some of the species chosen were not suited to local conditions, and in some areas local people had not been consulted, so they had little reason to protect the young trees. A wall of trees, critics argued, could not simply be built from the outside.",
+    "As a result, the project gradually changed its approach. Instead of a single line of trees, the Great Green Wall is now described as a mosaic of different projects, each designed to restore damaged land in ways that suit local communities. The goals have also grown: by 2030, the initiative aims to restore 100 million hectares of land and to create millions of jobs in rural areas. Trees are still important, but so are water management, rules about grazing and sustainable farming.",
+    "Some of the most successful methods are surprisingly cheap. In Niger, many farmers no longer plant new trees; instead, they protect the shoots that grow naturally from old tree roots and stumps in their fields. In Burkina Faso, farmers dig small pits in hard ground and fill them with compost before the rainy season, so that water and nutrients collect around the seeds. One farmer, Yacouba Sawadogo, became known around the world for using this method over several decades to turn bare land into a forest. These traditional techniques have helped to bring life back to land that many people had considered useless.",
+    "Progress overall, though, has been slower than many had hoped. An assessment published by the United Nations in 2020 suggested that only a small fraction of the target had been reached, partly because of a lack of money and partly because of conflict and insecurity in several countries along the route. Measuring success is also difficult, as restored land is spread across a huge area and is not always easy to monitor. Some critics also argue that too much attention was paid to the number of trees planted rather than the number that survived.",
+    "Despite these difficulties, supporters believe that the Great Green Wall has changed the way people think about the desert. The lesson, they say, is that environmental projects work best when local people are involved and benefit directly, for example by selling fruit, honey or other products from restored land. If that lesson is learned, the wall may never look like the one that was first imagined, but it could still transform the lives of millions of people."
+  ],
+  "groups": [
+    {"type": "matching_info", "items": [{"q": "a description of methods that cost very little", "a": "E"}, {"q": "reasons why many young trees did not survive", "a": "C"}, {"q": "examples of products that local people can sell", "a": "G"}, {"q": "the planned size of the original line of trees", "a": "B"}]},
+    {"type": "tfng", "items": [{"q": "Most people in the Sahel earn a living from agriculture.", "a": "TRUE"}, {"q": "The Great Green Wall was launched by the United Nations.", "a": "FALSE"}, {"q": "Local communities were asked for their opinion in every area where trees were planted.", "a": "FALSE"}, {"q": "The farmers in Niger now earn more money than they did in the past.", "a": "NOT GIVEN"}, {"q": "Fighting in some countries has slowed down the project.", "a": "TRUE"}]},
+    {"type": "summary", "title": "A new approach", "box": ["mosaic", "barrier", "rural", "urban", "pits", "wells", "benefit", "suffer", "compost"], "text": "Today the Great Green Wall is less a single line of trees and more a ______ of projects. Its goals include restoring land and creating jobs in ______ areas. In Burkina Faso, farmers prepare small ______ before the rain comes. Supporters believe that projects succeed when local people ______ directly.", "a": ["A", "C", "E", "G"]}
+  ],
+  "vocab_match": [
+    {"word": "severe", "meaning": "very serious or bad"},
+    {"word": "harsh", "meaning": "difficult and unpleasant to live in"},
+    {"word": "seedling", "meaning": "a very young plant grown from a seed"},
+    {"word": "consult", "meaning": "to ask someone for their opinion or advice"},
+    {"word": "rural", "meaning": "connected with the countryside"},
+    {"word": "monitor", "meaning": "to watch or check something carefully over a period of time"}
+  ],
+  "gapfill": [
+    {"s": "The forests ______ from the mountains down to the sea.", "a": "stretch"},
+    {"s": "His plan to cycle around the world is very ______.", "a": "ambitious"},
+    {"s": "The river forms a natural ______ between the two countries.", "a": "barrier"},
+    {"s": "Only a small ______ of the money was spent on books.", "a": "proportion"},
+    {"s": "It took ten years to ______ the old mosque.", "a": "restore"},
+    {"s": "Social media has helped to ______ the way small businesses sell their products.", "a": "transform"}
+  ]
+}

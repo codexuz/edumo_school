@@ -1,0 +1,53 @@
+{
+  "n": 9,
+  "topic": "Music",
+  "title": "Music and the Brain",
+  "intro": "Brain scans are helping scientists to understand why music affects us so strongly. The writer looks at what the research shows – and what it does not.",
+  "vocab": [
+    {"word": "puzzle", "pos": "n", "uz": "jumboq, sir", "ex": "Why the bridge fell down is still a puzzle."},
+    {"word": "explore", "pos": "v", "uz": "o‘rganmoq, tadqiq qilmoq", "ex": "We had a free day to explore the old city."},
+    {"word": "fascinating", "pos": "adj", "uz": "juda qiziqarli", "ex": "The museum has a fascinating collection of old maps."},
+    {"word": "trigger", "pos": "v", "uz": "qo‘zg‘atmoq, sabab bo‘lmoq", "ex": "Loud noises can trigger a headache."},
+    {"word": "deserve", "pos": "v", "uz": "munosib bo‘lmoq, loyiq bo‘lmoq", "ex": "You worked very hard. You deserve a holiday!"},
+    {"word": "exaggerate", "pos": "v", "uz": "bo‘rttirmoq, oshirib yubormoq", "ex": "He exaggerated when he said the fish was two metres long."},
+    {"word": "unfortunate", "pos": "adj", "uz": "afsuslanarli", "ex": "It is unfortunate that the concert was cancelled."},
+    {"word": "conclusion", "pos": "n", "uz": "xulosa", "ex": "What conclusion can we draw from these results?"},
+    {"word": "separate", "pos": "v", "uz": "ajratmoq", "ex": "Please separate the white clothes from the coloured ones."},
+    {"word": "moving", "pos": "adj", "uz": "ta’sirli", "ex": "It was a moving film, and many people cried at the end."},
+    {"word": "smoothly", "pos": "adv", "uz": "ravon, bir maromda", "ex": "The meeting went smoothly and finished early."},
+    {"word": "rhythm", "pos": "n", "uz": "ritm, maqom", "ex": "Clap your hands to the rhythm of the music."},
+    {"word": "relative", "pos": "n", "uz": "qarindosh", "ex": "All our relatives came to my sister's wedding."},
+    {"word": "therapy", "pos": "n", "uz": "terapiya, davolash usuli", "ex": "After the accident, he needed months of therapy to walk again."},
+    {"word": "luxury", "pos": "n", "uz": "hashamat, zaruriy bo‘lmagan narsa", "ex": "For many families, a car is still a luxury."}
+  ],
+  "passage": [
+    "Music is found in every known human culture. People sing to babies, dance at weddings, march to drums and play songs to make long journeys feel shorter. Archaeologists have even found flutes made from bird bones that are tens of thousands of years old. Yet from a biological point of view, music is something of a puzzle. It does not feed us or keep us warm, so why has it become such a central part of human life? In recent decades, researchers using brain-scanning technology have begun to explore this question, and their findings are, in my opinion, among the most fascinating in modern science.",
+    "One of the clearest discoveries is that there is no single 'music centre' in the brain. When we listen to a song, areas responsible for hearing, movement, memory and emotion all become active at the same time. This may explain why music can make us want to tap our feet, bring back memories of particular moments and produce strong feelings, sometimes all within a few seconds. Studies have also found that pleasurable music triggers the release of dopamine, a chemical involved in the brain's reward system, which is also associated with food and other pleasures.",
+    "Not every claim about music and the brain, however, deserves to be taken seriously. In 1993, a small study reported that university students performed slightly better on certain spatial tasks after listening to a piece by Mozart. The effect was small and lasted only about fifteen minutes, but it was soon exaggerated in the media into the idea that classical music makes people, and especially babies, more intelligent. Parents even bought special recordings for their infants. Later studies failed to find a reliable effect, and I think it is unfortunate that the so-called 'Mozart effect' is still repeated so often.",
+    "Learning to play an instrument is a different matter. Children who have music lessons tend to perform better on tests of listening, memory and language, and some studies have found differences in the brains of experienced musicians. Even so, we should be careful about drawing conclusions. Families who pay for music lessons may also provide other advantages, such as books and quiet places to study, and children who choose to continue playing may already be good at concentrating. Separating cause from effect is extremely difficult.",
+    "Some of the most moving evidence comes from hospitals. Patients with Parkinson's disease, which makes movement difficult, can often walk more smoothly when they follow a strong musical rhythm. People with dementia who struggle to recognise their own relatives may still sing along to songs they learned in their youth. After a stroke, some patients who have lost the ability to speak can learn to communicate again by singing short phrases before gradually speaking them.",
+    "These observations have encouraged the growth of music therapy, in which trained therapists use music to support patients' physical, emotional and social needs. In some hospitals, music is also used to help patients feel calmer before operations. Music therapy is not a cure for serious illness, and it should not replace medical treatment. Nevertheless, it is relatively cheap, has few side effects and can improve the quality of life of patients and their families. In my view, it deserves far more attention and funding than it currently receives.",
+    "Perhaps the most important lesson from this research is that music is not a luxury. It is deeply connected to the way our brains handle movement, memory, emotion and social relationships. Whether we are professional musicians or simply enjoy singing in the shower, music is one of the ways in which we make sense of the world and connect with other people. Schools that cut music lessons to save money may be losing something more valuable than they realise."
+  ],
+  "groups": [
+    {"type": "ynng", "items": [{"q": "Research on music and the brain is extremely interesting.", "a": "YES"}, {"q": "Listening to Mozart has been shown to make babies more intelligent.", "a": "NO"}, {"q": "Music lessons should be compulsory for all children.", "a": "NOT GIVEN"}, {"q": "It is easy to prove that music lessons make children better at other subjects.", "a": "NO"}, {"q": "Music therapy should receive more financial support.", "a": "YES"}]},
+    {"type": "mcq", "items": [{"q": "What does paragraph B say about how the brain processes music?", "options": ["It uses one special area.", "It uses several different areas at the same time.", "It mainly uses the areas used for language.", "It only affects the areas connected with emotion."], "a": "B"}, {"q": "What was the original 1993 study about?", "options": ["babies who listened to Mozart", "a large group of professional musicians", "students doing spatial tasks", "the effect of music on long-term memory"], "a": "C"}, {"q": "Why does the writer say we should be careful about the findings in paragraph D?", "options": ["Other differences between children may explain the results.", "The studies included too few children.", "Professional musicians were not tested.", "The tests were badly designed."], "a": "A"}, {"q": "According to paragraph E, which patients may learn to communicate by singing first?", "options": ["people with Parkinson's disease", "people with dementia", "children with hearing problems", "people who have had a stroke"], "a": "D"}]},
+    {"type": "sentence_endings", "endings": ["can help some patients to move more easily.", "is a chemical linked to feelings of pleasure.", "should be used instead of medicine.", "was based on a small study with a short-lasting effect.", "has few side effects and is not expensive.", "is found only in Western cultures."], "items": [{"q": "Dopamine", "a": "B"}, {"q": "The popular idea of the 'Mozart effect'", "a": "D"}, {"q": "A strong musical rhythm", "a": "A"}, {"q": "Music therapy", "a": "E"}]}
+  ],
+  "vocab_match": [
+    {"word": "puzzle", "meaning": "something that is difficult to understand or explain"},
+    {"word": "exaggerate", "meaning": "to make something seem bigger or more important than it really is"},
+    {"word": "conclusion", "meaning": "something you decide after thinking about all the information"},
+    {"word": "moving", "meaning": "making you feel strong emotions, especially sadness"},
+    {"word": "relative", "meaning": "a member of your family"},
+    {"word": "luxury", "meaning": "something expensive or pleasant that you do not really need"}
+  ],
+  "gapfill": [
+    {"s": "On our first day in Khiva, we went out to ______ the old town.", "a": "explore"},
+    {"s": "The documentary about whales was ______. I learned so much!", "a": "fascinating"},
+    {"s": "Some foods can ______ an allergic reaction.", "a": "trigger"},
+    {"s": "The team is playing brilliantly. They ______ to win.", "a": "deserve"},
+    {"s": "It's hard to ______ the facts from the opinions in this article.", "a": "separate"},
+    {"s": "Dancers must follow the ______ of the drums.", "a": "rhythm"}
+  ]
+}

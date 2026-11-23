@@ -1,0 +1,53 @@
+{
+  "n": 5,
+  "topic": "Animal behaviour",
+  "title": "Finding the Way",
+  "intro": "Birds, turtles and even butterflies travel thousands of kilometres to places they have never seen. How do they know where to go?",
+  "vocab": [
+    {"word": "astonishing", "pos": "adj", "uz": "hayratlanarli", "ex": "The view from the top of the mountain was astonishing."},
+    {"word": "internal", "pos": "adj", "uz": "ichki", "ex": "The heart and lungs are internal organs."},
+    {"word": "adjust", "pos": "v", "uz": "moslashtirmoq, to‘g‘rilamoq", "ex": "You can adjust the seat so that it is more comfortable."},
+    {"word": "visible", "pos": "adj", "uz": "ko‘rinadigan", "ex": "On a clear day, the mountains are visible from the city."},
+    {"word": "vital", "pos": "adj", "uz": "hayotiy muhim", "ex": "Clean water is vital for good health."},
+    {"word": "sense", "pos": "v", "uz": "sezmoq", "ex": "Dogs can sense when their owner is sad."},
+    {"word": "hatch", "pos": "v", "uz": "tuxumdan chiqmoq", "ex": "The chicks hatched after three weeks."},
+    {"word": "detect", "pos": "v", "uz": "aniqlamoq, payqamoq", "ex": "This machine can detect very small amounts of smoke."},
+    {"word": "particle", "pos": "n", "uz": "zarra", "ex": "Tiny particles of dust were floating in the sunlight."},
+    {"word": "combination", "pos": "n", "uz": "birikma, uyg‘unlik", "ex": "Success needs a combination of talent and hard work."},
+    {"word": "landmark", "pos": "n", "uz": "mo‘ljal (ko‘zga tashlanadigan joy)", "ex": "The TV tower is a famous landmark in Tashkent."},
+    {"word": "curiosity", "pos": "n", "uz": "qiziquvchanlik", "ex": "Children are full of curiosity about the world."},
+    {"word": "migrate", "pos": "v", "uz": "ko‘chib o‘tmoq (mavsumiy)", "ex": "Many birds migrate south for the winter."},
+    {"word": "interfere", "pos": "v", "uz": "xalaqit bermoq", "ex": "Loud music can interfere with your sleep."},
+    {"word": "extraordinary", "pos": "adj", "uz": "g‘ayrioddiy, favqulodda", "ex": "She has an extraordinary memory for names and faces."}
+  ],
+  "passage": [
+    "Every year, billions of animals make long journeys across land, sea and sky. Birds fly between continents, whales cross entire oceans and insects travel thousands of kilometres to places they have never seen before. Many of these journeys are repeated every year for the whole of an animal's life. For centuries, people have wondered how these animals find their way without maps, road signs or the satellite navigation that most of us now rely on. Thanks to new tracking technology, scientists are finally beginning to find some answers, although many mysteries remain.",
+    "The distances involved can be astonishing. Small electronic devices attached to Arctic terns, birds that weigh only about a hundred grams, have shown that some of them fly more than 70,000 kilometres a year, travelling from the Arctic to the Antarctic and back again. Over a lifetime of thirty years, a single tern may cover a distance equal to several journeys to the Moon and back. Another bird, the bar-tailed godwit, has been recorded flying from Alaska to New Zealand – more than 11,000 kilometres – without stopping once to eat, drink or rest.",
+    "One of the simplest navigation tools is the sun. Because the sun moves across the sky during the day, an animal can only use it as a compass if it also knows what time it is. Experiments have shown that many birds and insects have an internal clock that allows them to adjust for the sun's movement. Monarch butterflies, which fly up to 4,000 kilometres from Canada and the northern United States to forests in central Mexico, rely heavily on this kind of sun compass. Remarkably, none of the butterflies that make this journey has ever made it before.",
+    "The sun, however, is not always visible, and many animals travel at night or under cloudy skies. For these journeys, the Earth's magnetic field appears to play a vital role. The strength and angle of the magnetic field vary slightly from place to place, so in theory an animal that can sense it has access to a kind of invisible map. Young sea turtles seem to remember the magnetic 'signature' of the beach where they hatched, and many females return to the same area to lay their own eggs years later, after travelling thousands of kilometres across the ocean.",
+    "Exactly how animals detect the magnetic field is still one of the great puzzles of biology. One theory suggests that birds have special proteins in their eyes that react to magnetism, which might allow them to 'see' the field as a pattern of light and shade. Another suggests that tiny particles of iron in some animals' bodies act like the needle of a compass. It is possible that different species use different methods, or even a combination of several.",
+    "Many animals also use their other senses. Homing pigeons, which can return to their lofts from hundreds of kilometres away, appear to combine information from the sun and the magnetic field with familiar landmarks such as rivers, roads and coastlines. Some experiments suggest that smell may help too: pigeons that could not smell had more difficulty finding their way home. Salmon, meanwhile, are thought to use smell to recognise the river where they were born when they return to it to breed. Even honeybees use landmarks, together with the position of the sun, to find their way between flowers and the hive.",
+    "Understanding animal navigation is not only a matter of scientific curiosity. Bright city lights can confuse birds that migrate at night, and some researchers are concerned that electrical equipment may interfere with animals' magnetic sense. Knowing which routes animals use, and where they stop to rest and feed, also helps governments to decide which areas most need protection. As one researcher put it, if we want these extraordinary journeys to continue, we first need to understand them."
+  ],
+  "groups": [
+    {"type": "headings", "paras": ["B", "C", "D", "E", "F", "G"], "options": ["Different senses working together", "Why the knowledge matters for protecting wildlife", "Record-breaking journeys", "Using the sky by day", "An unsolved question about how a sense works", "The dangers of long-distance flight", "A hidden map for travelling in the dark", "How young animals learn routes from their parents"], "a": ["iii", "iv", "vii", "v", "i", "ii"]},
+    {"type": "mcq", "items": [{"q": "What does the writer say about the bar-tailed godwit?", "options": ["It is the heaviest bird that migrates.", "It can fly more than 11,000 kilometres without a break.", "It travels from New Zealand to the Arctic.", "It was the first bird to be tracked electronically."], "a": "B"}, {"q": "Why do animals that use a sun compass need an internal clock?", "options": ["to know when to start their journey", "to know how long they have been travelling", "to know how far they still have to go", "because the sun's position changes during the day"], "a": "D"}, {"q": "What can be concluded about the theories in paragraph E?", "options": ["More than one explanation may be correct.", "Scientists have proved that birds can see the magnetic field.", "Iron particles have been found only in birds.", "Most biologists have rejected both theories."], "a": "A"}]},
+    {"type": "sentence_endings", "endings": ["have no internal clock.", "can cause problems for birds that travel at night.", "depend on the sun to find their direction.", "travel in large family groups.", "found it harder to get home.", "return to the area where they hatched to lay their eggs."], "items": [{"q": "Monarch butterflies", "a": "C"}, {"q": "Many female sea turtles", "a": "F"}, {"q": "Pigeons that lost their sense of smell", "a": "E"}, {"q": "Bright lights in cities", "a": "B"}]}
+  ],
+  "vocab_match": [
+    {"word": "internal", "meaning": "inside something, for example inside the body"},
+    {"word": "visible", "meaning": "able to be seen"},
+    {"word": "hatch", "meaning": "to come out of an egg"},
+    {"word": "landmark", "meaning": "a building or place that is easy to see and helps you know where you are"},
+    {"word": "migrate", "meaning": "to travel to another place at the same time every year"},
+    {"word": "interfere", "meaning": "to stop something from working or happening properly"}
+  ],
+  "gapfill": [
+    {"s": "The speed of the new train is ______: Tashkent to Samarkand in two hours!", "a": "astonishing"},
+    {"s": "I had to ______ my watch when we arrived in a different time zone.", "a": "adjust"},
+    {"s": "Regular exercise is ______ for a healthy heart.", "a": "vital"},
+    {"s": "The test can ______ the illness at a very early stage.", "a": "detect"},
+    {"s": "He opened the box out of ______, but it was empty.", "a": "curiosity"},
+    {"s": "Climbing the mountain without oxygen was an ______ achievement.", "a": "extraordinary"}
+  ]
+}

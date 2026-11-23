@@ -1,0 +1,53 @@
+{
+  "n": 7,
+  "topic": "Transport",
+  "title": "The Age of the Bullet Train",
+  "intro": "Sixty years after the first high-speed train left Tokyo, fast railways connect cities from Spain to China – and from Tashkent to Bukhara.",
+  "vocab": [
+    {"word": "expand", "pos": "v", "uz": "kengaymoq", "ex": "The company plans to expand into three new countries next year."},
+    {"word": "reputation", "pos": "n", "uz": "obro‘, nom", "ex": "This restaurant has a good reputation for fresh fish."},
+    {"word": "punctual", "pos": "adj", "uz": "o‘z vaqtida keladigan, aniq", "ex": "Please be punctual – the exam starts at nine o'clock."},
+    {"word": "collision", "pos": "n", "uz": "to‘qnashuv", "ex": "Nobody was hurt in the collision between the two cars."},
+    {"word": "maintenance", "pos": "n", "uz": "texnik xizmat ko‘rsatish", "ex": "The lift is closed for maintenance today."},
+    {"word": "extensive", "pos": "adj", "uz": "keng ko‘lamli", "ex": "The library has an extensive collection of old books."},
+    {"word": "dramatic", "pos": "adj", "uz": "keskin, katta", "ex": "There has been a dramatic increase in the price of flats."},
+    {"word": "dedicated", "pos": "adj", "uz": "maxsus (bir maqsadga ajratilgan)", "ex": "The city has dedicated lanes for buses and bicycles."},
+    {"word": "combined", "pos": "adj", "uz": "jami, birgalikda", "ex": "Our class has more students than the other two classes combined."},
+    {"word": "extend", "pos": "v", "uz": "uzaytirmoq", "ex": "They decided to extend their holiday by two more days."},
+    {"word": "located", "pos": "adj", "uz": "joylashgan", "ex": "The hotel is located in the old part of the city."},
+    {"word": "budget", "pos": "n", "uz": "byudjet, mablag‘", "ex": "We have a small budget for the school trip."},
+    {"word": "demand", "pos": "n", "uz": "talab", "ex": "There is high demand for English teachers in Tashkent."},
+    {"word": "justify", "pos": "v", "uz": "oqlamoq", "ex": "How can you justify spending so much money on a phone?"},
+    {"word": "conventional", "pos": "adj", "uz": "an’anaviy, odatiy", "ex": "Electric cars are quieter than conventional cars."}
+  ],
+  "passage": [
+    "In October 1964, just days before the Olympic Games opened in Tokyo, a sleek blue-and-white train left the city for Osaka, more than 500 kilometres away. Travelling at speeds of up to 210 kilometres per hour, it reduced the journey time between Japan's two largest cities from more than six hours to about four. The Shinkansen, or 'bullet train' as it became known abroad, marked the beginning of a new age of railway travel.",
+    "The Japanese network has expanded steadily ever since, and its reputation is remarkable. Trains are famously punctual, with average delays measured in seconds rather than minutes, and in more than half a century of operation there have been no passenger deaths caused by derailments or collisions on the high-speed lines. This record is partly the result of careful engineering – the lines have no level crossings, for example – and partly the result of a culture that takes maintenance extremely seriously.",
+    "Other countries soon followed Japan's example. France opened its first high-speed line, between Paris and Lyon, in 1981, and Spain, Germany and Italy later built extensive networks of their own. However, the most dramatic growth has taken place in China, which opened its first dedicated high-speed line only in 2008 but now has the largest network in the world, longer than those of all other countries combined. Uzbekistan joined the club in 2011, when the Afrosiyob train began running between Tashkent and Samarkand, cutting the journey to around two hours; the service was later extended to Bukhara.",
+    "Supporters of high-speed rail point to several advantages. Unlike airports, which are often located far outside cities, railway stations are usually in the centre, so passengers can travel directly from one city centre to another. For journeys of roughly 300 to 800 kilometres, the train is often faster overall than the plane once check-in and security are taken into account. Many passengers also find that they can work, read or rest more comfortably on a train than on a plane. Trains powered by electricity also produce far less carbon dioxide per passenger than planes or cars, particularly when the electricity comes from renewable sources.",
+    "There are, however, serious disadvantages. Building a high-speed line is enormously expensive, because the track must be almost straight and level, which often requires tunnels, bridges and the purchase of large amounts of land. Several projects around the world have gone far over budget and taken years longer than planned. Noise and the effect on wildlife can also lead to strong local opposition. Critics also argue that the money could sometimes be better spent on improving ordinary local trains, which are used by far more people every day.",
+    "The success of a high-speed line therefore depends heavily on demand. Routes connecting large cities that are neither too close nor too far apart tend to attract the most passengers. Where populations are small, ticket sales may never cover the costs of construction and operation, and governments must decide whether the wider benefits, such as less traffic on the roads and new economic opportunities for towns along the route, justify the expense. This is one reason why many proposed lines have never been built.",
+    "Meanwhile, engineers continue to push the limits of speed. Trains that float above the track using powerful magnets, known as maglev trains, can travel even faster than conventional high-speed trains, and Japan is building a new maglev line between Tokyo and Nagoya. Whether such technology will spread widely remains uncertain, largely because of its cost. What is clear is that, sixty years after the first bullet train left Tokyo, high-speed rail has become one of the most important ways of moving people between the world's cities."
+  ],
+  "groups": [
+    {"type": "tfng", "items": [{"q": "The first Shinkansen opened after the Tokyo Olympics.", "a": "FALSE"}, {"q": "On the Shinkansen lines, roads never cross the railway at the same level.", "a": "TRUE"}, {"q": "Japanese engineers helped to design the Paris–Lyon line.", "a": "NOT GIVEN"}, {"q": "China's network is longer than all other countries' networks together.", "a": "TRUE"}, {"q": "Afrosiyob trains only run between Tashkent and Samarkand.", "a": "FALSE"}]},
+    {"type": "notes", "title": "High-speed rail: for and against", "limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER", "lines": ["For: stations are usually in the city ______", "For: often faster than flying on trips of 300 to ______ km", "Against: the track must be almost straight and ______", "Against: the money could improve ordinary ______ trains"], "a": ["centre", "800", "level", "local"]},
+    {"type": "mcq", "items": [{"q": "What does the writer suggest about the Shinkansen's safety record?", "options": ["It is mainly due to new technology.", "It comes from both design and careful maintenance.", "It is better than that of air travel.", "It has improved since the 1990s."], "a": "B"}, {"q": "Why is the train often faster than the plane for medium distances?", "options": ["Airports are far from city centres and flying takes extra time.", "Trains travel at higher speeds than planes.", "Trains stop at fewer stations.", "Planes are often delayed by bad weather."], "a": "A"}, {"q": "According to paragraph F, a high-speed line is most likely to succeed if it", "options": ["is paid for by private companies.", "runs mainly through small towns.", "replaces an existing motorway.", "links large cities a medium distance apart."], "a": "D"}, {"q": "What is the writer's main point in paragraph G?", "options": ["Maglev trains will soon replace high-speed trains.", "Japan has stopped building conventional lines.", "Maglev's future is unclear, but high-speed rail is now vital.", "Speed is no longer the main aim of engineers."], "a": "C"}]}
+  ],
+  "vocab_match": [
+    {"word": "punctual", "meaning": "arriving or happening at the right time"},
+    {"word": "maintenance", "meaning": "work done to keep machines or buildings in good condition"},
+    {"word": "extensive", "meaning": "covering a large area"},
+    {"word": "located", "meaning": "in a particular place"},
+    {"word": "budget", "meaning": "the amount of money you have for something"},
+    {"word": "conventional", "meaning": "of the usual or traditional kind"}
+  ],
+  "gapfill": [
+    {"s": "Cities often ______ into the fields around them.", "a": "expand"},
+    {"s": "The school has a good ______ for languages.", "a": "reputation"},
+    {"s": "There was a ______ change in the weather.", "a": "dramatic"},
+    {"s": "The library will ______ its hours during exams.", "a": "extend"},
+    {"s": "There is great ______ for ice cream in summer.", "a": "demand"},
+    {"s": "Can you ______ such a high price?", "a": "justify"}
+  ]
+}

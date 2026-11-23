@@ -1,0 +1,53 @@
+{
+  "n": 10,
+  "topic": "Health",
+  "title": "The Forgotten Medicine",
+  "intro": "Walking is free, safe and good for both body and mind. So why do so many of us walk less than ever before – and how much walking do we really need?",
+  "vocab": [
+    {"word": "strengthen", "pos": "v", "uz": "mustahkamlamoq, kuchaytirmoq", "ex": "Swimming helps to strengthen your back and shoulders."},
+    {"word": "device", "pos": "n", "uz": "qurilma", "ex": "This small device measures your heart rate."},
+    {"word": "translate", "pos": "v", "uz": "tarjima qilmoq", "ex": "Can you translate this letter into Uzbek?"},
+    {"word": "marketing", "pos": "n", "uz": "marketing, reklama va sotuv", "ex": "The company spends a lot of money on marketing."},
+    {"word": "briskly", "pos": "adv", "uz": "tez va shijoat bilan", "ex": "She walked briskly to the station because she was late."},
+    {"word": "additional", "pos": "adj", "uz": "qo‘shimcha", "ex": "There is an additional charge for breakfast at this hotel."},
+    {"word": "achieve", "pos": "v", "uz": "erishmoq", "ex": "With hard work, you can achieve your goals."},
+    {"word": "concentration", "pos": "n", "uz": "diqqatni jamlash", "ex": "Loud music in the next room affects my concentration."},
+    {"word": "colleague", "pos": "n", "uz": "hamkasb", "ex": "I usually have lunch with my colleagues."},
+    {"word": "creative", "pos": "adj", "uz": "ijodiy", "ex": "Our art teacher has many creative ideas."},
+    {"word": "diabetes", "pos": "n", "uz": "qandli diabet", "ex": "People with diabetes must be careful about sugar."},
+    {"word": "pavement", "pos": "n", "uz": "piyodalar yo‘lagi, trotuar", "ex": "Cars should not park on the pavement."},
+    {"word": "pleasant", "pos": "adj", "uz": "yoqimli", "ex": "We had a pleasant evening by the river."},
+    {"word": "evidence", "pos": "n", "uz": "dalil", "ex": "There is no evidence that the medicine works."},
+    {"word": "individual", "pos": "n", "uz": "shaxs, alohida inson", "ex": "Every individual has the right to education."}
+  ],
+  "passage": [
+    "Doctors have a powerful treatment that can lower the risk of heart disease, improve mood, strengthen bones and help people sleep better. It has almost no side effects, it requires no special equipment and it is free. That treatment is walking. Yet in many countries, people walk less than ever before, spending their days sitting in cars, at desks and in front of screens. Some health experts have started to describe walking as 'the forgotten medicine'.",
+    "Many people now measure their activity using a phone or a fitness watch, and the most popular target is 10,000 steps a day. Surprisingly, this number did not come from medical research. In the 1960s, around the time of the Tokyo Olympics, a Japanese company sold a step-counting device whose name could be translated as '10,000-step meter'. The round number was easy to remember and good for marketing, and it has remained popular ever since. Today it is the goal that many fitness apps set for their users automatically.",
+    "Scientists have since tried to find out how many steps people really need. A study of older women published in 2019 found that those who walked about 4,400 steps a day were less likely to die during the study period than those who walked about 2,700. The benefits increased with more steps but levelled off at around 7,500. Other studies have found similar patterns, suggesting that while 10,000 steps is a perfectly good target, people who reach a lower number are still gaining most of the benefits. In other words, the most important step for many people is simply to move from being very inactive to being a little more active.",
+    "The speed of walking matters too. A slow walk around the shops is better than sitting, but walking briskly – fast enough to breathe a little harder while still being able to talk – brings additional benefits for the heart and lungs. Walking uphill or carrying a bag can increase the effort further. Health organisations such as the World Health Organization recommend that adults do at least 150 minutes of moderate activity each week, and for many people a brisk thirty-minute walk on five days is the easiest way to achieve this.",
+    "Walking also seems to benefit the mind. Several studies have found that people who walk regularly report better mood and lower levels of stress, and a short walk outside, especially in green spaces, can improve concentration. Many famous writers and thinkers have said that they did their best thinking while walking. Some companies have even introduced 'walking meetings', in which colleagues discuss ideas while walking rather than sitting around a table. Supporters claim that these meetings are shorter and more creative, although this has not been carefully tested.",
+    "Even small changes can make a difference. Research suggests that a short walk of ten or fifteen minutes after a meal can help the body to control blood sugar, which is particularly useful for people at risk of diabetes. Getting off the bus one stop early, taking the stairs instead of the lift and walking while talking on the phone are simple ways of adding steps without needing extra time. For people who work at desks, standing up and walking around for a few minutes every hour is also recommended.",
+    "Of course, individuals cannot do everything alone. People walk more when their towns and cities make walking safe and pleasant, with wide pavements, safe crossings, trees for shade and shops and services within easy reach. In some cities, central streets have been closed to cars so that people can walk freely. Urban planners increasingly talk about 'walkable' neighbourhoods, and the evidence suggests that such places are healthier. Encouraging people to walk, it seems, is not only a matter of personal choice but also of how we design the places where we live."
+  ],
+  "groups": [
+    {"type": "matching_info", "items": [{"q": "the origin of a popular daily target", "a": "B"}, {"q": "advice on how to add activity to everyday routines", "a": "F"}, {"q": "a description of the kind of environment that encourages walking", "a": "G"}, {"q": "a claim that has not yet been properly studied", "a": "E"}]},
+    {"type": "tfng", "items": [{"q": "Walking has very few negative side effects.", "a": "TRUE"}, {"q": "The 10,000-step target was first recommended by Japanese doctors.", "a": "FALSE"}, {"q": "All the women in the 2019 study were over the age of seventy.", "a": "NOT GIVEN"}, {"q": "In the 2019 study, the benefits of walking kept rising steadily up to 10,000 steps.", "a": "FALSE"}, {"q": "During a brisk walk, a person should still be able to speak.", "a": "TRUE"}]},
+    {"type": "short", "limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER", "items": [{"q": "How many minutes of moderate activity per week does the WHO recommend for adults?", "a": "150 / (at least) 150 minutes"}, {"q": "Where can a short walk outside be especially good for concentration?", "a": "(in) green spaces"}, {"q": "After what can a short walk help the body to control blood sugar?", "a": "(a) meal"}, {"q": "What kind of neighbourhoods do urban planners increasingly talk about?", "a": "walkable (neighbourhoods)"}]}
+  ],
+  "vocab_match": [
+    {"word": "device", "meaning": "a small machine or tool made for a particular purpose"},
+    {"word": "translate", "meaning": "to change words from one language into another"},
+    {"word": "marketing", "meaning": "the work of advertising and selling a product"},
+    {"word": "colleague", "meaning": "a person you work with"},
+    {"word": "diabetes", "meaning": "an illness in which the body cannot control the level of sugar in the blood"},
+    {"word": "pavement", "meaning": "the path at the side of a road for people to walk on"}
+  ],
+  "gapfill": [
+    {"s": "Lifting light weights can ______ your arms.", "a": "strengthen"},
+    {"s": "The children walked ______ to keep warm in the cold wind.", "a": "briskly"},
+    {"s": "You will need ______ time to finish the project.", "a": "additional"},
+    {"s": "He finally managed to ______ a band 7 in IELTS.", "a": "achieve"},
+    {"s": "Playing chess requires a lot of ______.", "a": "concentration"},
+    {"s": "The park is a ______ place to sit and read.", "a": "pleasant"}
+  ]
+}

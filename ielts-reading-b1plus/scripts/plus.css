@@ -1,0 +1,41 @@
+/* B1+ additions: IELTS task boxes */
+.tasks{font-size:8pt;color:#4A5675;margin:-1.5mm 0 2.5mm 1mm}
+.tasks b{color:var(--navy)}
+.hbox{border:1.3px solid var(--line);border-radius:2mm;background:var(--soft);padding:1.6mm 2.6mm;margin:0 0 2mm;font-size:8.6pt}
+.hbox h5{font:700 8pt "Unbounded";color:var(--navy);text-align:center;margin-bottom:1mm}
+.hbox ul{list-style:none}
+.hbox li{display:flex;gap:2mm;margin:.4mm 0;line-height:1.35}
+.hbox li b{flex:none;min-width:5mm;color:var(--blue2);font:700 7.6pt "Unbounded"}
+.hbox.ends{margin-top:1mm}
+.sumbox{border:1.3px solid var(--line);border-radius:2mm;padding:2mm 3mm;margin:0 0 2mm;font-size:8.9pt;line-height:1.9;background:#fff}
+.sumbox h5{font:700 8.4pt "Unbounded";color:var(--navy);text-align:center;margin-bottom:.6mm;line-height:1.4}
+.sumbox.notes ul{list-style:none}
+.sumbox.notes li{padding-left:3.4mm;position:relative;line-height:1.75}
+.sumbox.notes li::before{content:"•";position:absolute;left:0;color:var(--blue2)}
+.wbank.lettered span{font-weight:600;color:#2B3A67}
+.wbank.lettered span b{color:var(--blue2);margin-right:1mm}
+.qq.sa{grid-template-columns:6mm 1fr}
+.qq.sa .aline{grid-column:2;display:block;border-bottom:1.2px solid #9AA3B5;height:4.6mm;margin-top:-.4mm}
+.plan td.tt{font-size:7.4pt;color:#4A5675}
+.plan td.pg{text-align:right;font:700 8pt "Unbounded";color:var(--blue2)}
+.plan td.pg i{font-style:normal}
+.kmock td span{white-space:nowrap;margin-right:2.2mm;line-height:1.6}
+.kmock td span b{color:var(--blue2);margin-right:.8mm}
+/* compact layout: one unit = one two-page spread */
+.pp{font-size:8.9pt;line-height:1.47;margin-bottom:1.1mm}
+.vrow{padding:.2mm 0 .4mm}
+.vrow p{font-size:7.8pt}
+.vlist{gap:.3mm}
+.qq{margin-bottom:1.1mm;font-size:8.8pt}
+.qq.mc{margin-bottom:1.4mm}
+.subt{margin:1.6mm 0 .6mm}
+.ins{margin-bottom:1.1mm;font-size:8.1pt}
+.tfkey{padding:1.1mm 2.2mm;margin-bottom:1.2mm;font-size:7.8pt}
+.hbox{padding:1.2mm 2.4mm;font-size:8.3pt}
+.sumbox{line-height:1.8;padding:1.6mm 2.6mm}
+.part{margin-bottom:2.4mm}
+.vmatch li{margin:.6mm 0}
+.intro{margin:.6mm 0 1mm}
+.banner.unitb{padding:3.2mm 6mm;margin-bottom:2mm}
+.banner.unitb h1{font-size:17pt}
+.pp{font-size:8.8pt}
