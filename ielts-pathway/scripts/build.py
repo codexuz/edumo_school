@@ -2,7 +2,7 @@
 
 Usage: python3 scripts/build.py a1 sb [--units 1,2] [--title "Pilot"]
 Reads <level>/data/<book>-unit-NN.json, writes HTML; scripts/render.js turns it into a PDF.
-Order: title page, units, audioscripts, answer key.
+Order: title page, units (lettered lessons, each from a new page in the SB), grammar reference, audioscripts, answer key.
 """
 import argparse
 import html
@@ -52,6 +52,7 @@ def photo(name, h=36, cls="ph"):
 
 def md(s):
     s = e(str(s), quote=False)
+    s = re.sub(r"~~(.+?)~~", r"<s>\1</s>", s)
     s = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", s)
     return re.sub(r"(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])", r"<i>\1</i>", s)
 
@@ -95,7 +96,10 @@ def ex_body(ex):
         for i, it in enumerate(its):
             q = f'<i>{md(it["q"])}</i>' if k == "order" else md(it["q"])
             rows.append(f'<li><b class="n">{numbered(ex, i)}</b><span class="q">{q}</span><span class="wl"></span></li>')
-        return f'<ol class="xl {k}">{"".join(rows)}</ol>'
+        two = " two" if k == "short" and len(its) >= 4 and all(len(it["q"]) <= 14 for it in its) else ""
+        if k in ("order", "correct") and all(len(it["q"]) <= 32 for it in its):
+            two = " inl"
+        return f'<ol class="xl {k}{two}">{"".join(rows)}</ol>'
     if k == "gap":
         for i, it in enumerate(its):
             rows.append(f'<li><b class="n">{numbered(ex, i)}</b><span class="q">{gapline(it["q"])}</span></li>')
@@ -107,7 +111,8 @@ def ex_body(ex):
         for i, it in enumerate(its):
             q = re.sub(r"\(([^()]*/[^()]*)\)", opts, e(it["q"], quote=False))
             rows.append(f'<li><b class="n">{numbered(ex, i)}</b><span class="q">{q}</span></li>')
-        return f'<ol class="xl choose">{"".join(rows)}</ol>'
+        two = " two" if len(its) >= 4 and all(len(it["q"]) <= 16 for it in its) else ""
+        return f'<ol class="xl choose{two}">{"".join(rows)}</ol>'
     if k == "mcq":
         for i, it in enumerate(its):
             op = "".join(f"<li><b>{L[j]}</b> {md(o)}</li>" for j, o in enumerate(it["options"]))
@@ -146,23 +151,39 @@ def ex_body(ex):
         if ex.get("lines"):
             out += '<div class="lines">' + '<i></i>' * ex["lines"] + "</div>"
         if ex.get("checklist"):
-            out += checklist({"title": "Check your writing", "items": ex["checklist"]})
+            out += checkwork(ex["checklist"])
         return out
     raise ValueError(f"unknown exercise kind {k}")
 
 
-def exercise(ex, num, sec):
+SKILL = {k: v[0] for k, v in SECTION.items()}
+
+
+def bubbles(items):
+    if not items:
+        return ""
+    return '<div class="bubs">' + "".join(f'<span class="bub b{i % 2}">{md(t)}</span>' for i, t in enumerate(items)) + "</div>"
+
+
+def exercise(ex, num, ctx):
     n = num.next()
-    ex["_n"] = n
-    bank = ""
-    if ex.get("bank"):
-        bank = '<div class="bank">' + "".join(f"<span>{e(w)}</span>" for w in ex["bank"]) + "</div>"
+    ex["_n"], ex["_code"] = n, ctx["code"]
+    bank = '<p class="bank">' + "".join(f"<span>{e(w)}</span>" for w in ex["bank"]) + "</p>" if ex.get("bank") else ""
     example = f'<p class="exl"><b>Example:</b> {md(ex["example"])}</p>' if ex.get("example") else ""
     note = f'<p class="exl">{md(ex["note"])}</p>' if ex.get("note") else ""
-    tag = '<span class="etag">IELTS</span>' if ex.get("exam") else ""
-    aud = f'<span class="atag">{icon("headphones")} {ex["audio"]}</span>' if ex.get("audio") else ""
-    return (f'<div class="ex k-{ex["kind"]}" id="{ex["id"]}"><div class="xhead"><b class="xn">{n}</b><p>{md(ex["instruction"])}{tag}{aud}</p></div>'
-            f'{example}{note}{bank}{ex_body(ex)}</div>')
+    chips = f'<span class="chip">{e(ex["chip"])}</span>' if ex.get("chip") else ""
+    if ex.get("audio"):
+        chips = f'<span class="trk">{icon("headphones")} {ctx["tracks"].get(ex["audio"], ex["audio"])}</span>' + chips
+    body = f'{example}{note}{bank}{ex_body(ex)}{bubbles(ex.get("bubbles"))}'
+    if ex.get("task"):                                           # exam-practice page: task box only
+        return (f'<div class="ex" id="{ex["id"]}"><div class="xhead"><b class="xn">{n}</b><p>{chips}Do the exam task.</p></div>'
+                f'<div class="task"><h5>{e(ex["task"].upper())} exam task</h5><div class="tb"><p class="ti">{md(ex["instruction"])}</p>{body}</div></div></div>')
+    if ex.get("exam"):
+        kind = SKILL.get(ctx["kind"], "IELTS")
+        return (f'<div class="ex" id="{ex["id"]}"><div class="xhead"><b class="xn">{n}</b><p>{chips}Do the IELTS task.</p></div>'
+                f'<div class="task"><h5>{e(ex.get("label") or f"IELTS {kind.title()} task")}</h5><div class="tb"><p class="ti">{md(ex["instruction"])}</p>{body}</div></div></div>')
+    return (f'<div class="ex k-{ex["kind"]}" id="{ex["id"]}"><div class="xhead"><b class="xn">{n}</b><p>{chips}{md(ex["instruction"])}</p></div>'
+            f'{body}</div>')
 
 
 # ---------- other blocks ----------
@@ -171,21 +192,29 @@ def checklist(b):
             + "".join(f"<li><i></i>{md(x)}</li>" for x in b["items"]) + "</ul></div>")
 
 
+def checkwork(items):
+    return ('<div class="cw"><h5>Check your work</h5><ul>' + "".join(f"<li><i></i>{md(x)}</li>" for x in items) + "</ul></div>")
+
+
 def box(b):
     st = b.get("style", "tip")
-    ic = {"exam": "check", "tip": "bulb", "errors": "type"}[st]
     if st == "errors":
         inner = "".join(f'<div class="er"><p><span class="w">✗ {e(x["wrong"])}</span><span class="r">✓ {e(x["right"])}</span></p>'
                         f'<p class="uz">{e(x["uz"])}</p></div>' for x in b["items"])
-    else:
-        inner = "<ul>" + "".join(f"<li>{md(x)}</li>" for x in b["items"]) + "</ul>"
-    return f'<div class="bx {st}"><h5>{icon(ic)} {e(b["title"])}</h5>{inner}</div>'
+        return f'<div class="side errs"><span class="slab">Common errors</span><div class="sbody">{inner}</div></div>'
+    items = "<ul>" + "".join(f"<li>{md(x)}</li>" for x in b["items"]) + "</ul>"
+    title = re.sub(r"^Exam skill:\s*", "", b["title"])
+    if st == "exam":
+        return f'<div class="strat"><h5>IELTS strategy<span>{e(title)}</span></h5><div class="sb">{items}</div></div>'
+    return f'<div class="look"><h5>Look out!<span>{e(title)}</span></h5>{items}</div>'
 
 
 def block(b, ctx):
     t = b["type"]
     if t == "text":
         return f'<p class="tx">{md(b["text"])}</p>'
+    if t == "subhead":
+        return f'<h4 class="subh">{e(b["text"])}</h4>'
     if t == "table":
         head = "".join(f"<th>{md(h)}</th>" for h in b["head"]) if any(b["head"]) else ""
         rows = "".join("<tr>" + "".join(f"<td>{md(c)}</td>" for c in r) + "</tr>" for r in b["rows"])
@@ -197,28 +226,24 @@ def block(b, ctx):
                        f'<p>{md(v["ex"])}</p></div>' for v in b["items"])
         return f'<div class="vlist split">{rows}</div>'
     if t == "audio":
-        s = ctx["scripts"].get(b["id"], {})
-        return (f'<div class="audio-b"><span class="qrph">QR</span><div><b>{icon("headphones")} Audio {b["id"]}</b>'
-                f'<span>{e(s.get("title", ""))} · scan after recording</span></div></div>')
+        return ""                                   # tracks are shown in the lesson header and on each exercise
     if t == "passage":
         paras = "".join((f'<p class="pp"><b class="who">{e(p["head"])}</b>' if p.get("head") else '<p class="pp">') + f'{md(p["text"])}</p>'
                         for p in b["paras"])
-        words = sum(len(p["text"].split()) for p in b["paras"])
         intro = f'<p class="pin">{md(b["intro"])}</p>' if b.get("intro") else ""
         pic = photo(b["photo"], b.get("photo_h", 30), "ph in") if b.get("photo") else ""
-        return (f'<div class="psg split">{pic}<h4 class="ptitle">{e(b["title"])}<small>{words} words</small></h4>{intro}{paras}</div>')
+        return f'<div class="psg split">{pic}<h4 class="ptitle">{e(b["title"])}</h4>{intro}{paras}</div>'
     if t == "photo":
         return photo(b["name"], b.get("h", 36))
     if t == "model":
-        if b.get("lines"):
-            inner = "".join(f'<p><b>{e(w)}:</b> {md(x)}</p>' for w, x in b["lines"])
-        else:
-            inner = f'<p>{md(b["text"])}</p>'
-        return f'<div class="model"><h5>{icon("chat")} {e(b["title"])}</h5>{inner}</div>'
+        inner = "".join(f'<p><b>{e(w)}</b> {md(x)}</p>' for w, x in b["lines"]) if b.get("lines") else f'<p>{md(b["text"])}</p>'
+        return f'<div class="model"><h5>{e(b["title"])}</h5>{inner}</div>'
     if t == "ex":
-        return exercise(b, ctx["num"], ctx["sec"])
+        return exercise(b, ctx["num"], ctx)
     if t == "checklist":
         return checklist(b)
+    if t == "xref":
+        return f'<p class="xref">›››&nbsp; GRAMMAR REFERENCE {b["ref"]}: PAGE <i data-ref="gr-{b["ref"]}"></i> &nbsp;‹‹‹</p>'
     if t == "score":
         return f'<div class="score">Your score <i></i> / {b["total"]}</div>'
     if t == "cando":
@@ -237,43 +262,77 @@ def closed_count(ex):
     return len(items_of(ex)) if ex["kind"] in CLOSED else 0
 
 
+def section_tracks(s, tracks):
+    ids = [b["id"] for b in s["blocks"] if b["type"] == "audio"]
+    nums = [tracks[i] for i in ids if i in tracks]
+    if not nums:
+        return ""
+    return nums[0] if len(nums) == 1 else f"{nums[0]}–{nums[-1]}"
+
+
+def footer(label):
+    return f'<footer><span class="pno"></span><span class="fl">{e(label)}</span></footer>'
+
+
+def lesson_header(code, kind, title, goal, trk, compact=False):
+    can = f'<p class="lcan">I can {md(goal)}.</p>' if goal else ""
+    aud = (f'<div class="laud"><span class="qrph">QR</span><span>{icon("headphones")} {trk}</span></div>' if trk else "")
+    cls = "lhc" if compact else "lh"
+    return (f'<div class="{cls}"><div class="lcode">{code}</div><div class="lbar"><p><span class="ltag">{SKILL[kind]}</span>'
+            f'<span class="ltitle">{e(title)}</span></p>{can}</div>{aud}</div>')
+
+
+def unit_header(u, book):
+    if book == "wb":
+        return (f'<div class="uh wb"><div class="unum">{u["unit"]}</div><div><small>WORKBOOK</small><h1>{e(u["title"])}</h1></div>'
+                f'<div class="uinc"><p>Extra practice for Student\'s Book Unit {u["unit"]}: new texts, new recordings and IELTS tasks.</p></div></div>')
+    inc = "".join(f'<p><b>{k}</b> ' + " ".join(f"▪ {md(x)}" for x in v) + "</p>" for k, v in u.get("includes", {}).items())
+    return (f'<div class="uh"><div class="unum">{u["unit"]}</div><h1>{e(u["title"])}</h1>'
+            f'<div class="uinc"><h5>This unit includes</h5>{inc}</div></div>')
+
+
 def unit_html(u, book):
-    num = Num()
     scripts = {s["id"]: s for s in u.get("scripts", [])}
+    tracks = {sid: f'{u["unit"]}.{i:02d}' for i, sid in enumerate(scripts, 1)}
+    u["_tracks"] = tracks
     counts = {}
     for s in u["sections"]:
         for b in s["blocks"]:
-            if b["type"] == "ex" and s["kind"] != "exam":
+            if b["type"] == "ex" and s["kind"] not in ("exam", "check"):
                 counts[s["kind"]] = counts.get(s["kind"], 0) + closed_count(b)
-    ctx = {"num": num, "scripts": scripts, "unit": u, "counts": counts}
-    lvl, n = u["level"], u["unit"]
-    if u.get("photo"):
-        h = 78 if book == "sb" else 46
-        banner = (f'<div class="hero {book}" style="height:{h}mm"><img src="{photo_uri(u["photo"])}" alt="">'
-                  f'<div class="hshade"></div><div class="htxt"><small>IELTS PATHWAY {lvl} · {BOOK[book].upper()}</small>'
-                  f'<div class="hrow"><span class="hnum">{n}</span><div><h1>{e(u["title"])}</h1><p>{e(u["topic"])}</p></div></div></div>'
-                  f'<span class="hcred">{credit(u["photo"])}</span></div>')
-    else:
-        banner = (f'<div class="banner"><div class="girih"></div><div class="bl"><small>IELTS PATHWAY {lvl} · {BOOK[book].upper()}</small>'
-                  f'<h1>UNIT {n} · {e(u["title"].upper())}</h1></div><div class="br"><b>{e(u["topic"])}</b><span>IELTS foundations</span></div></div>')
-    opener = ""
-    if book == "sb":
-        focus = "".join(f"<li>{md(x)}</li>" for x in u["exam_focus"])
-        goals = "".join(f"<li>{md(x)}</li>" for x in u["goals"])
-        warm = "".join(f"<li>{md(x)}</li>" for x in u["warmup"])
-        opener = (f'<div class="part op"><div class="opx"><h5>{icon("check")} Exam focus</h5><ul>{focus}</ul></div>'
-                  f'<div class="opg"><h5>In this unit I can …</h5><ul>{goals}</ul></div>'
-                  f'<div class="opw"><h5>{icon("chat")} Warm-up · Speaking Part 1</h5><ul>{warm}</ul></div></div>')
-    body = opener
-    for s in u["sections"]:
-        ctx["sec"] = s["kind"]
-        label, ic = SECTION[s["kind"]]
+    n, label = u["unit"], f'Unit {u["unit"]} · {u["title"]}'
+    ctx = {"scripts": scripts, "unit": u, "counts": counts, "tracks": tracks}
+    out, letter, wb_body = [], 0, ""
+    for i, s in enumerate(u["sections"]):
+        kind = s["kind"]
+        if kind in ("exam", "check"):
+            code = "E" if kind == "exam" else ""
+        else:
+            code = f"{n}{L[letter]}"
+            letter += 1
+        s["_code"] = code
+        ctx.update(num=Num(), code=code, kind=kind)
         inner = "".join(block(b, ctx) for b in s["blocks"])
-        goal = f'<p class="goal"><b>Goal</b>{md(s["goal"])}</p>' if s.get("goal") else ""
-        body += (f'<div class="part sec s-{s["kind"]}"><div class="shead"><span class="spill">{icon(ic)} {label}</span>'
-                 f'<span class="stitle">{e(s["title"])}</span></div>{goal}{inner}</div>')
-    return (f'<section class="page flow first" id="u{n}">{banner}<div class="cols"><div class="col">{body}</div><div class="col"></div></div>'
-            f'<footer><span>IELTS Pathway {lvl} · {BOOK[book]} · Unit {n}</span><span class="pno"></span></footer></section>')
+        trk = section_tracks(s, tracks)
+        if book == "wb":
+            head = (f'<h3 class="ehc">{icon("check")} {e(s["title"])}</h3>' if kind == "check"
+                    else lesson_header(code, kind, s["title"], s.get("goal"), trk, compact=True))
+            wb_body += f'<div class="part sec s-{kind}">{head}{inner}</div>'
+            continue
+        if kind == "exam":
+            head = (f'<div class="lh eh"><div class="lcode">{n}</div><div class="lbar"><p><span class="ltitle">IELTS Exam Practice</span></p>'
+                    f'<p class="lcan">Unit {n} · {e(u["title"])} · {e(s.get("goal", ""))}</p></div>'
+                    f'{f"""<div class="laud"><span class="qrph">QR</span><span>{icon("headphones")} {trk}</span></div>""" if trk else ""}</div>')
+            out.append(f'<section class="page flow first exam s-exam" id="u{n}-exam">{head}<div class="cols"><div class="col">'
+                       f'<div class="part">{inner}</div></div><div class="col"></div></div>{footer(f"IELTS Exam Practice {n}")}</section>')
+            continue
+        top = unit_header(u, book) if i == 0 else ""
+        out.append(f'<section class="page flow first s-{kind}" id="u{n}-{code}">{top}{lesson_header(code, kind, s["title"], s.get("goal"), trk)}'
+                   f'<div class="cols"><div class="col"><div class="part">{inner}</div></div><div class="col"></div></div>{footer(label)}</section>')
+    if book == "wb":
+        out.append(f'<section class="page flow first" id="u{n}">{unit_header(u, book)}<div class="cols"><div class="col">{wb_body}</div>'
+                   f'<div class="col"></div></div>{footer(label)}</section>')
+    return "".join(out)
 
 
 def key_items(ex):
@@ -285,42 +344,62 @@ def key_items(ex):
     return [(numbered(ex, i), it["a"]) for i, it in enumerate(items_of(ex))]
 
 
+def grammar_reference(units):
+    body = ""
+    for u in units:
+        for g in u.get("grammar_ref", []):
+            gid = f'gr-{g["code"]}'
+            first = gid not in body
+            body += f'<h3 class="grh"{f" id={chr(34)}{gid}{chr(34)}" if first else ""}><span class="gcode">{g["code"]}</span>{md(g["title"])}</h3>'
+            for pt in g["points"]:
+                body += f'<div class="grp"><b class="gn">{pt["n"]}</b>'
+                if pt.get("text"):
+                    body += f'<p>{md(pt["text"])}</p>'
+                if pt.get("table"):
+                    t = pt["table"]
+                    body += ('<table class="gt">' + "<tr>" + "".join(f"<th>{md(h)}</th>" for h in t["head"]) + "</tr>"
+                             + "".join("<tr>" + "".join(f"<td>{md(c)}</td>" for c in r) + "</tr>" for r in t["rows"]) + "</table>")
+                body += "".join(f'<p class="gex">{md(x)}</p>' for x in pt.get("ex", [])) + "</div>"
+    return body
+
+
 def back_matter(units, book):
-    lvl = units[0]["level"]
     scripts, keys = "", ""
     for u in units:
+        tracks = u["_tracks"]
         scripts += f'<h3 class="sh3">Unit {u["unit"]} · {e(u["title"])}</h3>'
         for s in u.get("scripts", []):
-            scripts += f'<h4 class="sh4">{icon("headphones")} {s["id"]} · {e(s["title"])}</h4>'
+            scripts += f'<h4 class="sh4">{icon("headphones")} {tracks[s["id"]]} · {e(s["title"])}<small>{s["id"]}</small></h4>'
             scripts += "".join(f'<p>{f"<b>{e(w)}:</b> " if w else ""}{e(x)}</p>' for w, x in s["lines"])
             scripts += f'<p class="rn">Recording notes: {e(s["notes"])}</p>'
         keys += f'<h3 class="sh3">Unit {u["unit"]} · {e(u["title"])}</h3>'
         for sec in u["sections"]:
-            for b in sec["blocks"]:
-                if b["type"] != "ex":
-                    continue
-                if b["kind"] in CLOSED:
-                    ans = "  ".join(f'<span><b>{n}</b> {md(a)}</span>' for n, a in key_items(b))
-                else:
-                    ans = "<span>Students' own answers.</span>"
+            exs = [b for b in sec["blocks"] if b["type"] == "ex"]
+            if not exs:
+                continue
+            code = sec["_code"]
+            keys += f'<h4 class="kh"><span class="gcode">{code}</span>{e("IELTS Exam Practice" if sec["kind"] == "exam" else sec["title"])}</h4>'
+            for b in exs:
+                ans = ("  ".join(f'<span><b>{n}</b> {md(a)}</span>' for n, a in key_items(b)) if b["kind"] in CLOSED
+                       else "<span>Students' own answers.</span>")
                 keys += f'<div class="krow"><b class="xn">{b["_n"]}</b><div>{ans}</div></div>'
-    foot = lambda t: f'<footer><span>IELTS Pathway {lvl} · {BOOK[book]} · {t}</span><span class="pno"></span></footer>'
-    sec = lambda i, title, sub, inner, cls: (
-        f'<section class="page flow first" id="{i}"><div class="banner small"><div class="girih"></div><div class="bl"><small>{BOOK[book].upper()}</small>'
-        f'<h1>{title}</h1></div><div class="br"><span>{sub}</span></div></div>'
-        f'<div class="cols"><div class="col"><div class="split {cls}">{inner}</div></div><div class="col"></div></div>{foot(title.title())}</section>')
     if USED_PHOTOS:
         keys += '<h3 class="sh3">Photo credits</h3><p class="cr">All photos from Unsplash (unsplash.com).</p>'
         keys += "".join(f'<p class="cr"><b>{e(credits()[n]["photographer"])}</b> '
                         f'<span>{e(credits()[n]["photo"].split("?")[0])}</span></p>' for n in USED_PHOTOS if n in credits())
-    return (sec("scripts", "AUDIOSCRIPTS", "Read after you answer the questions", scripts, "script")
-            + sec("key", "ANSWER KEY", "Accept other correct answers where shown with /", keys, "keys"))
+
+    def sec(i, title, inner, cls):
+        return (f'<section class="page flow first back {cls}" id="{i}"><div class="bh"><h1>{title}</h1></div>'
+                f'<div class="cols"><div class="col"><div class="split {cls}">{inner}</div></div><div class="col"></div></div>{footer(title)}</section>')
+    gr = grammar_reference(units)
+    return ((sec("grammar", "Grammar Reference", gr, "gref") if gr else "")
+            + sec("scripts", "Audioscripts", scripts, "script") + sec("key", "Answer Key", keys, "keys"))
 
 
 def title_page(level, book, title):
     return (f'<section class="page tpage"><div class="tp"><small>IELTS PATHWAY</small><h1>{level.upper()}</h1><h2>{BOOK[book]}</h2>'
             f'<p>{e(title)}</p><p class="sub">Grammar · Vocabulary · Listening · Reading · Speaking · Writing<br>From the first words to IELTS</p></div>'
-            f'<footer><span>IELTS Pathway {level.upper()} · {BOOK[book]}</span><span class="pno"></span></footer></section>')
+            f'{footer(f"IELTS Pathway {level.upper()} · {BOOK[book]}")}</section>')
 
 
 def main():

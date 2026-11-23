@@ -20,7 +20,7 @@ const { chromium } = require(fs.existsSync('/opt/node22/lib/node_modules/playwri
   const report = await page.evaluate((startPage) => {
     const over = (c) => c.scrollHeight > c.clientHeight + 1;
     const isWrap = (el) => el.classList.contains('split') || el.classList.contains('part');
-    const isHead = (el) => /^H[2-5]$/.test(el.tagName) || ['phead', 'ins', 'subt', 'atitle', 'audrow', 'ctx', 'sq', 'shead', 'audio-b', 'op', 'goal'].some((k) => el.classList.contains(k));
+    const isHead = (el) => /^H[2-5]$/.test(el.tagName) || ['phead', 'ins', 'subt', 'atitle', 'audrow', 'ctx', 'sq', 'shead', 'audio-b', 'op', 'goal', 'subh', 'lhc', 'grh', 'kh', 'sh3', 'sh4'].some((k) => el.classList.contains(k));
     let sid = 0;
 
     // flatten: atoms = [{node, path: [wrapperSource…]}]
@@ -36,7 +36,7 @@ const { chromium } = require(fs.existsSync('/opt/node22/lib/node_modules/playwri
     function newPage(after) {
       const nx = document.createElement('section');
       const one = after.querySelector('.cols').classList.contains('one');
-      nx.className = 'page flow cont';
+      nx.className = [...after.classList].filter((c) => c !== 'first').concat('cont').join(' ');
       nx.innerHTML = `<div class="cols${one ? ' one' : ''}"><div class="col"></div>${one ? '' : '<div class="col"></div>'}</div>` + after.querySelector('footer').outerHTML;
       after.after(nx);
       return nx;
@@ -89,7 +89,7 @@ const { chromium } = require(fs.existsSync('/opt/node22/lib/node_modules/playwri
       }
     }
     const pages = [...document.querySelectorAll('.page')];
-    pages.forEach((p, i) => { const f = p.querySelector('.pno'); if (f) f.textContent = i + startPage; });
+    pages.forEach((p, i) => { const f = p.querySelector('.pno'); if (f) f.textContent = i + startPage; p.classList.add((i + startPage) % 2 ? 'pg-odd' : 'pg-even'); });
     // contents: <i data-ref="id"> gets the page number of the section with that id
     document.querySelectorAll('[data-ref]').forEach((el) => {
       const target = document.getElementById(el.dataset.ref);

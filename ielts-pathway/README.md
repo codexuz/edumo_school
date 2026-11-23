@@ -26,7 +26,8 @@ python3 scripts/unsplash.py get <photo_id> a1-u02-opener          # -> assets/ph
 Use a photo in a unit with `"photo": "<name>"` (the unit opener), a `{"type": "photo", "name": "<name>", "h": 34}` block, or `"photo": "<name>"` on a passage. The credit lines are added automatically.
 
 ## Unit file format
-A unit is a list of `sections` (vocabulary, grammar, listening, reading, speaking, writing, exam or check), each with a `title` and a `goal`. Each section holds `blocks`:
-`text`, `table`, `box` (exam / tip / errors), `vocab`, `audio`, `photo`, `passage`, `model`, `checklist`, `score`, `cando`, `selfcheck`, and `ex` (exercise).
+A unit is a list of `sections` (vocabulary, grammar, listening, reading, speaking, writing, exam or check), each with a `title` and a `goal` (shown as "I can …"). In the Student's Book each section is a lettered lesson that starts on a new page. Each section holds `blocks`:
+`text`, `subhead`, `table`, `box` (exam = IELTS strategy, tip = Look out!, errors = Common errors), `vocab`, `audio`, `photo`, `passage`, `model`, `xref` (link to the Grammar Reference), `checklist`, `score`, `cando`, `selfcheck`, and `ex` (exercise).
+Exercise options: `chip` (skill tag), `bubbles` (speech bubbles), `exam` + `label` (IELTS task box), `task` (exam-practice box). Unit options: `includes` (the "This unit includes" summary) and `grammar_ref` (Grammar Reference entries).
 Exercise kinds: `short`, `gap`, `choose`, `mcq`, `tf`, `match`, `order`, `correct`, `form`, `speak`, `frames`, `write`.
 Answers live with each item (`a`), so the answer key is generated and always matches. Audio scripts live in `scripts` at the end of the unit, and the build prints them at the back of the book.

@@ -152,9 +152,13 @@ ielts-pathway/
 ## 10. Design
 
 * The design matches the house style of the repo's other books: A4, two columns, the Impulse brand, Unbounded and Open Sans fonts.
-* **Photo-led pages.** Each unit opens with a full-width photo carrying the unit number and title. The Listening, Reading, Speaking and Writing sections get a photo each, and the Workbook gets one in its Reading section. Photos come from Unsplash through `scripts/unsplash.py`: the script registers every download with Unsplash, as its API rules require, and stores the photographer's name for the credit line under each photo and the credits list at the back.
-* **Every section starts with a "Goal" strip** (for example "Goal: complete a form while you listen"), so learners always know what the section is for.
-* Each skill has its own colour, so pages are easy to scan: Vocabulary teal, Grammar indigo, Listening blue, Reading navy, Speaking green, Writing amber, Exam practice red.
+* **Lettered lessons.** A Student's Book unit is a series of lessons (1A, 1B, 1C…), and each lesson starts on a new page. A lesson opens with a full-width bar holding the lesson code, a skill tag, the title, an "I can…" line and the lesson's audio tracks (with a QR space). The first page of a unit starts with the unit number, the title and a "This unit includes" summary. The Workbook uses the same lesson headers in a compact form and flows continuously.
+* **Exercises.** Numbers restart in each lesson and use the lesson's colour. Skill tags (SPEAKING) and audio-track tags (1.03) sit in front of the instruction. Word banks are coloured words. Speaking examples are speech bubbles.
+* **Boxes.** "IELTS strategy" (title bar), "Look out!" (ruled top and bottom), "Common errors" (side label, Uzbek notes) and "Check your work" (yellow). Every IELTS-format task sits in a task box with a title bar ("IELTS Listening · Part 1").
+* **End of unit.** The "IELTS Exam Practice" page (tinted background, exam-task boxes, score box, "I can" check).
+* **Back of the book.** The Grammar Reference (numbered points 1.1, 1.2…, linked from each grammar lesson with "Grammar Reference 1C: page N"), the audioscripts with track numbers, and the answer key arranged by lesson code. Footers show "page | Unit 1 · About Me" with the number on the outer edge.
+* **Photos.** From Unsplash through `scripts/unsplash.py`: the script registers every download with Unsplash, as its API rules require, and stores the photographer's name for the credit line under each photo and the credits list at the back.
+* Each skill has its own colour, so pages are easy to scan: Vocabulary magenta, Grammar orange, Listening blue, Reading red, Speaking teal, Writing amber, Exam practice navy.
 * Instructions are bold and numbered. "Exam skill", "Uzbek-speaker errors" and "Tip" use fixed box styles. Pages must still read clearly when printed in greyscale.
 * There is enough writing space for gap-fills and writing tasks. Exercises are never split across columns.
 
