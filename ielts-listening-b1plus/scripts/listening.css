@@ -117,3 +117,9 @@ table.box tr.ce td{text-align:center}
 table.box tr.rl td{border-top:1px solid #222;padding:0;height:.8mm}
 table.box em{font-weight:700}
 table.box .hw{font-style:italic;color:#2B3A67}
+.howpage .plan{margin-top:6mm}
+.howpage .tips{margin-bottom:0}
+/* source page crops */
+.snip{margin:1.5mm 0 2.5mm;break-inside:avoid}
+.snip img{display:block;width:100%;height:auto}
+.test .th{margin-top:3mm}
