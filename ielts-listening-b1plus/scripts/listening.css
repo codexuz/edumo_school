@@ -1,0 +1,111 @@
+/* IELTS Listening B1+ */
+.ico{width:1em;height:1em;display:inline-block;vertical-align:-.14em;flex:none}
+.banner .br b .bi{width:5mm;height:5mm;vertical-align:-1.1mm;margin-right:1mm;color:#fff}
+.pdesc{font-size:9pt;color:#3B4766;margin:-1mm 0 3mm 1mm}
+.pdesc span{color:#6B7690}
+.test{margin-bottom:5mm}
+.th{display:flex;align-items:center;gap:3mm;background:linear-gradient(100deg,var(--navy),var(--blue2) 60%,#3A78F2);color:#fff;
+ border-radius:2mm;padding:1.6mm 3mm;margin:0 0 2.4mm}
+.tn{font:800 12pt "Unbounded"}
+.tp{font:600 8.4pt "Open Sans";opacity:.95}
+.ta{margin-left:auto;font:600 7.4pt "Unbounded";background:rgba(255,255,255,.18);border-radius:99px;padding:.6mm 2.4mm;display:flex;gap:1mm;align-items:center}
+.sc{font:600 7.6pt "Unbounded";display:flex;align-items:center;gap:1.2mm}
+.sc i{display:inline-block;width:9mm;height:5mm;background:#fff;border-radius:1mm}
+.qgrp{margin:0 0 3mm}
+.qh{font:700 9.4pt "Unbounded";color:var(--blue2);border-bottom:1.5px solid var(--line);padding-bottom:.6mm;margin:0 0 1.2mm}
+.ins{font-weight:700;font-size:9pt;margin-bottom:.4mm;display:block}
+.ins2{font-weight:600;font-size:9pt;margin:.6mm 0 1mm;color:#1B2540}
+.sub{font-size:9pt;margin:.6mm 0;font-weight:700;color:var(--navy)}
+.choice{margin-top:1mm}
+.qi{display:grid;grid-template-columns:7mm 1fr;align-items:baseline;margin:1.6mm 0 .6mm;font-size:9.4pt;line-height:1.45}
+.qi p{font-weight:600}
+.qn{width:6mm;height:6mm;border-radius:50%;background:var(--blue2);color:#fff;font:700 7.6pt "Unbounded";display:inline-flex;align-items:center;justify-content:center;padding:0}
+.op{display:grid;grid-template-columns:5mm 1fr;margin:.3mm 0 .3mm 7mm;font-size:9.2pt;line-height:1.4}
+.op b{color:var(--blue2);font:700 8pt "Unbounded"}
+.obox{border:1.2px solid var(--line);border-radius:2mm;padding:1.4mm 2.4mm;background:var(--soft);margin:1mm 0 2mm;display:inline-block;min-width:80mm}
+.obox .op{margin-left:0}
+.gn{color:#fff;background:var(--blue2);border-radius:50%;font-weight:700;padding:0 .35em;font-size:.92em}
+.gp{display:inline-block;min-width:26mm;border-bottom:1.2px solid var(--navy);height:3.6mm;vertical-align:-.6mm;margin:0 .6mm}
+pre.lay{font:400 8.6pt/1.62 "JetBrains Mono",monospace;color:#1B2540;background:#fff;border:1.2px solid var(--line);border-radius:2mm;
+ padding:2.4mm 3.4mm;margin:1mm 0 1.4mm;white-space:pre;overflow:hidden}
+pre.lay .pd{color:transparent;border-bottom:1.2px solid var(--navy);line-height:1}
+pre.lay .gn{background:none;color:var(--blue2);padding:0;font-size:1em}
+.fig{margin:1.6mm 0 2mm;text-align:center}
+.fig img{max-width:100%;max-height:118mm;border:1px solid var(--line);border-radius:2mm;padding:1.5mm;background:#fff}
+.fchart{text-align:center;margin:1mm 0 2mm}
+.fchart h5{font:700 9.6pt "Unbounded";color:var(--navy);margin-bottom:1.4mm}
+.fbox{display:inline-block;min-width:95mm;max-width:150mm;border:1.4px solid var(--blue2);border-radius:2mm;padding:1.6mm 3mm;font-size:9.2pt;background:#fff}
+.farr{color:var(--blue2);font-size:9pt;line-height:1;margin:.6mm 0}
+.kw{margin:2.4mm 0 1mm}
+.kw h5{font:700 8pt "Unbounded";color:#9A6400;margin-bottom:.8mm}
+.kw h5 i{font-style:normal}
+.kw table{width:100%;border-collapse:collapse;font-size:8.4pt}
+.kw th{background:#FFF3D6;border:1px solid #F1D08A;padding:.8mm 2mm;text-align:left;color:#7A5200;width:50%}
+.kw td{border:1px solid #F1D08A;height:6.4mm}
+.score{display:grid;grid-template-columns:repeat(10,1fr);gap:1.4mm 2mm;margin-bottom:3mm}
+.sb{display:flex;align-items:center;gap:1mm}
+.sb b{font:700 7pt "Unbounded";color:var(--blue2);width:5mm;text-align:right}
+.sb i{flex:1;height:6mm;border:1.1px solid var(--line);border-radius:1mm}
+h3.sect{font:700 10pt "Unbounded";color:var(--navy);margin:4mm 0 1.6mm}
+.src{margin-top:auto;font-size:7.6pt;color:var(--muted)}
+.plan td.pg{text-align:right;font:700 8pt "Unbounded";color:var(--blue2)}
+.plan td.pg i{font-style:normal}
+.ka{margin-bottom:2mm;break-inside:avoid}
+.ka h4{font:700 8.6pt "Unbounded";color:var(--navy);border-bottom:1.4px solid var(--line);margin-bottom:.8mm}
+.ka p{font-size:8pt;line-height:1.55}
+.ka span{margin-right:2.4mm;display:inline-block}
+.ka b{color:var(--blue2);margin-right:.8mm}
+.ka em{color:var(--muted)}
+.sh{font:700 9pt "Unbounded";color:#fff;background:var(--blue2);border-radius:1.4mm;padding:.8mm 2.4mm;margin:2.4mm 0 1.2mm;display:flex;justify-content:space-between}
+.sh small{font:600 7pt "Unbounded";opacity:.85}
+.scr p{font-size:7.9pt;line-height:1.45;margin-bottom:1.2mm;text-align:justify;hyphens:auto}
+.test,.col{text-align:left}
+
+/* two-column tests */
+table.lay{width:100%;border-collapse:collapse;font-size:8.3pt;line-height:1.35;margin:1mm 0 1.6mm;border:1.2px solid var(--line);background:#fff}
+table.lay td{padding:.6mm 1.6mm;vertical-align:top}
+table.lay tr.ti td{text-align:center;font-weight:700;color:var(--navy);padding-top:1.2mm}
+table.lay tr.sp td{height:1.2mm;padding:0}
+table.lay .gp{min-width:12mm}
+.qi{font-size:9pt}
+.op{font-size:8.8pt;margin-left:6mm}
+.gp{min-width:16mm}
+.th{gap:2mm;padding:1.4mm 2.4mm}
+.tn{font-size:10.5pt}
+.tp{font-size:7.4pt}
+.ta{font-size:6.4pt;padding:.4mm 1.6mm}
+.sc{font-size:6.8pt}
+.sc i{width:7mm}
+.fig img{max-height:95mm}
+.fbox{min-width:0;width:100%;max-width:none;font-size:8.6pt}
+.obox{min-width:0;display:block}
+table,.kw,.qgrp,.test,.fig,.fchart{break-inside:avoid}
+table.lay.grid tr.sp td{height:0;border-top:.6px solid #dfe3ef}
+table.lay.grid td{font-size:7.9pt}
+.choice{break-inside:avoid}
+table.lay .tl{display:inline-block;width:4mm;font-weight:700;color:var(--blue)}
+/* simple tables, as in the source: black rules, no colour */
+table.src{width:100%;border-collapse:collapse;font-size:9pt;margin:1mm 0 2mm;background:#fff;break-inside:avoid}
+table.src th,table.src td{border:1px solid #222;padding:.8mm 1.6mm;text-align:center;vertical-align:middle;line-height:1.3}
+table.src th{font-weight:700;color:#111;background:#fff}
+table.src tr.tt th,table.src tr.tt td{font-size:10pt}
+table.lay{border:1px solid #222;border-radius:0;font-size:9pt}
+table.lay tr.ti td{color:#111;font-weight:700}
+table.lay.grid td{font-size:9pt}
+table.lay.grid tr.sp td{border-top:1px solid #222}
+table.lay .tl{color:#111}
+.fig img{max-height:120mm;max-width:100%}
+.sub{font-weight:400;color:#1B2540}
+table.src td{color:#1B2540}
+/* synonyms & vocabulary */
+.sx{break-inside:avoid;margin-bottom:3.2mm}
+.sx h4{font:700 10pt "Unbounded";color:var(--navy);border-bottom:1.5px solid var(--blue);padding-bottom:.8mm;margin-bottom:1.4mm}
+.sx h4 span{font:600 8pt "Open Sans";color:#6B7590;margin-left:2mm}
+.sxr{display:flex;gap:4mm;align-items:flex-start}
+.sxr table{border-collapse:collapse;font-size:8.4pt;line-height:1.3}
+.sxr th{background:#EEF2FB;color:var(--navy);text-align:left;font-weight:700;padding:.7mm 1.6mm;border:1px solid #C9D2E6}
+.sxr td{padding:.6mm 1.6mm;border:1px solid #C9D2E6;vertical-align:top;color:#1B2540}
+table.syn{flex:1.65}
+table.syn td:first-child{width:42%}
+table.voc{flex:1}
+table.voc td i{color:#6B7590;font-size:7.6pt}
